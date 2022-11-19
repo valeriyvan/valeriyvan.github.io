@@ -1,0 +1,59 @@
+---
+layout: post
+title:  "TIL how to train YOLO and a lot about Swift generics and how they are compiled"
+date:   2022-11-01 21:20:00 +0200
+categories: TIL
+---
+Bookmarking [YOLOv4 Training Tutorial](https://colab.research.google.com/drive/1_GdoqCJWXsChrOiY8sZMr_zbr_fH-0Fg?usp=sharing#scrollTo=H8DYUTHiEeGZ) ([Training YOLOv4 в Google Colab (Russian translation)](https://habr.com/ru/post/691464/)). It's very good step by step guide with example on recognizing car licenze plate.
+
+Bookmarking [Learning from the task "Recognizing traffic sings in frames from dashboard cam" (Russian)](https://habr.com/ru/post/694812/). It's about training YOLO, especially [YOLO5](https://github.com/ultralytics/yolov5) with resolution 1280 pixel which better suits to the task of recognizing relatively small images of traffic signs. Post is very usefull step-by-step trainign YOLO guide. I should follow this guide. All code is available on [GitHub](https://github.com/victor30608/traffic_sign_recognition). Post refers [Russian traffic sign images dataset](https://www.kaggle.com/datasets/watchman/rtsd-dataset). It's 18GB of data. I have downloaded it for further use. 
+
+Continue reading Compiling Swift Generics. Surprize. Optional var in Swift is being initialized only if it's declared with sugar syntax `T?`:
+```
+var x: Int?
+print(x)  // prints ‘nil’
+var y: Optional<Int>
+print(y)  // error: use of uninitialized variable ‘y’
+ ```
+
+This is also curious to know:
+> The standard library declares a type alias `Void` whose underlying type is ().
+
+This as well:
+> An unlabeled one-element tuple type cannot be formed at all; `(T)` resolves to the same type as `T` in the language.
+
+Interesting, that beside of `inout` parameter could have attribute `__owned` or `__shared`. What these are for?
+
+Fuck, finally I got what is metatype and what misterious `.Type` is:
+> Types are values in Swift, and a metatype is the type of a type used as a value. The metatype of a type `T` is written as `T.Type`. The type `T` is the instance type of the metatype. The type `T` is the instance type of the metatype. For example `(() -> ()).Type` is the metatype type with the instance type `() -> ()`. This metatype has one value, the function type () -> ().
+
+Whaaaaaaaat?
+```swift
+let (x: Int, y: String) = (x: 123, y: "hello")
+print(Int)  // huh? prints 123
+print(String)  // weird! prints "hello"
+```
+
+<!---
+Finally I got that these two are the same:
+
+```swift
+protocol Sequence<Element> {
+  associatedtype Iterator: IteratorProtocol
+}
+```
+
+```swift
+associatedtype Iterator where Iterator: IteratorProtocol
+```
+
+```swift
+protocol Sequence where Iterator: IteratorProtocol,
+                        Iterator.Element == Element {...}
+```
+
+```swift
+protocol Sequence where Self.Iterator: IteratorProtocol,
+                         Self.Iterator.Element == Self.Element {...}
+```
+--->
