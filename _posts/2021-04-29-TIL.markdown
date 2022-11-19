@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL something new about iCloud sync"
+date:   2021-04-29 19:35:00 +0200
+categories: TIL
+---
+Read Apple documentation [iCloud Design Guide](https://developer.apple.com/library/archive/documentation/General/Conceptual/iCloudDesignGuide/Chapters/iCloudFundametals.html#//apple_ref/doc/uid/TP40012094-CH6-SW1).
