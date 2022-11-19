@@ -21,7 +21,7 @@
 title: TIL - today I learned
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  kind of log of what I've learned during the day.
+  Kind of log of what I've learned during the day.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://valeriyvan.com" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: valeriyvan
