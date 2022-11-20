@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL about snapshot testing implementation"
+date:   2022-09-17 19:28:00 +0200
+categories: TIL, Swift, Testing, Snaphot testing, Snapshotting
+---
+Watched [A Tour of Snapshot Testing](https://www.pointfree.co/episodes/ep41-a-tour-of-snapshot-testing) in attempt to extend `Bitmap` to make it smapshot testible. Challenge here is doing it without UIImage and NSImage.
