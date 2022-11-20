@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL math behind different blend modes"
+date:   2022-09-18 20:21:00 +0200
+categories: TIL, Blend, Image processing
+---
+Read about math behind different blend modes. Then I attempted to implement [snapshotting strategy on `Bitmap`](https://github.com/valeriyvan/swift-geometrize/blob/main/Tests/geometrizeTests/BitmapDiffing.swift) in [swift-geometrize](https://github.com/valeriyvan/swift-geometrize) library which I port to Swift.
