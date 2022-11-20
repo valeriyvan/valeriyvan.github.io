@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bookmarking article Slow Swift Compiler Performance]"
+title:  "Bookmarking article Slow Swift Compiler Performance"
 date:   2022-08-12 17:10:00 +0200
 categories: Bookmark, Swift, Compiler performance
 ---
