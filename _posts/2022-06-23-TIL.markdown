@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "TIL ShazamKit; Swift allows now writing extension Array<String> { /* ... */ }"
+date:   2022-06-23 16:21:00 +0200
+categories: TIL, ShazamKit, Swift, Swift 5.7
+---
+Read Swift proposal [Extensions on bound generic types](https://github.com/apple/swift-evolution/blob/main/proposals/0361-bound-generic-extensions.md). Implemented in Swift 5.7. It's about writing
+```swift
+extension Array<String> { /* ... */ } 
+```
+instead of 
+```swift
+extension Array where Element == String { /* ... */ }
+```
+
+Watched WWDC 22 session video [Explore ShazamKit](https://developer.apple.com/videos/play/wwdc2021/10044/). This definately could be used in [eNote app](https://apps.apple.com/us/app/enote-intelligent-sheet-music/id1539408514) I have worked seveal years ago.
