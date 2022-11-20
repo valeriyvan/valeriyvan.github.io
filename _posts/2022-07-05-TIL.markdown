@@ -11,5 +11,4 @@ Watched [WWDC 2022 session Design App Shortcuts video](https://developer.apple.c
 
 Watched [WWDC 2022 session Discover advancements in iOS camera capture: Depth, focus, and multitasking video](https://developer.apple.com/wwdc22/110429).
 
-
 Watched [WWDC 2022 session video Adopt Variable color in SF Symbols](https://developer.apple.com/wwdc22/10158).

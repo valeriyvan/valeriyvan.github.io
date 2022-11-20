@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Read post Why IT-man cannot pass interview with HR; Read post about data labelling"
+date:   2022-07-25 19:21:00 +0200
+categories: TIL, HR interview, Data labelling
+---
+
+til2022JUL25.md
+
+Bookmarking very interesting tips for HR interview [Why IT-man cannot pass interview with HR (Russian)](https://habr.com/ru/company/ncloudtech/blog/678056/).
+
+Read very interesting post [Data Labeling in Machine Learning: Process, Types, and Best Practices](https://www.altexsoft.com/blog/data-labeling/).
