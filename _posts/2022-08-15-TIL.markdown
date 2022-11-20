@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "TIL image dithering"
+date:   2022-08-15 18:17:00 +0200
+categories: TIL, Image dithering
+---
+Read interesting article about dithering [Ditherpunk — The article I wish I had about monochrome image dithering](https://surma.dev/things/ditherpunk/).
+![Screenshow as example of image dithering](https://surma.dev/assets/obradinn.fd0cc387.png "Screenshot of “Return of the Obra Dinn”.").
+
+Bookmarking swift packages [JPEG is a cross-platform pure Swift framework for decoding, inspecting, editing, and encoding JPEG images](https://github.com/kelvin13/jpeg) and [PNG is a pure, cross-platform Swift framework for decoding, inspecting, editing, and encoding PNG images](https://github.com/kelvin13/swift-png). Hope to use these when I complete porting [geometrize C++ library](https://github.com/Tw1ddle/geometrize-lib) to Swift (EDIT: this is [done](https://github.com/valeriyvan/swift-geometrize)) and implement demo like [geometrize haxe web demo](https://www.samcodes.co.uk/project/geometrize-haxe-web/) but in Swift for Web.
