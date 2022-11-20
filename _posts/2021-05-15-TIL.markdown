@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "TIL Bradly algorythm for binaryzing images"
+date:   2021-05-15 20:00:00 +0200
+categories: TIL
+---
+
+Bookmarking interesting post about images binaryzation [Binaryzation of images: Bradly algorythm (Russian)](https://habr.com/ru/post/278435/).
