@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Bookmarking good implementaion of RandomNumberGenerator with seed"
+date:   2022-09-07 18:40:00 +0200
+categories: Bookmark, Swift, RandomNumberGenerator
+---
+Bookmarking good example of [`RandomNumberGenerator` with seed](https://github.com/apple/swift-argument-parser/blob/main/Examples/roll/SplitMix64.swift) from [Swift package `swift-argument-parser`](https://github.com/apple/swift-argument-parser).
