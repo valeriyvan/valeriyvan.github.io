@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL Compiler explorer to research compiler output"
+date:   2022-05-10 18:23:00 +0200
+categories: TIL, Compilation
+---
+Found good service [Compiler explorer](https://swift.godbolt.org/z/_87kh2) to research compiler output.
