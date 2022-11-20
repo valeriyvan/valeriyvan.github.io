@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL how Swift generics are compiled and usefull compiler flags"
+date:   2022-10-24 20:03:00 +0200
+categories: TIL, Swift, Generics, Compilation, Compiler flags
+---
+Read Swift documentation [Compiling Swift Generics](https://github.com/apple/swift/blob/main/docs/Generics/generics.tex). Useful reading. 
+
+The -### driver flag performs a “dry run” which prints all commands to run without actually doing anything.
+
+Interestings compiler flags like `-debug-cycles` and `-stats-output-dir` for debugging compiler speed.
