@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Watched some session videos from WWDC 2022"
+date:   2022-07-05 18:33:00 +0200
+categories: TIL, WWDC 2022
+---
+Watched [WWDC 2022 session Create parametric 3D room scans with RoomPlan
+ video](https://developer.apple.com/wwdc22/10127).
+
+Watched [WWDC 2022 session Design App Shortcuts video](https://developer.apple.com/wwdc22/10169).
+
+Watched [WWDC 2022 session Discover advancements in iOS camera capture: Depth, focus, and multitasking video](https://developer.apple.com/wwdc22/110429).
+
+
+Watched [WWDC 2022 session video Adopt Variable color in SF Symbols](https://developer.apple.com/wwdc22/10158).
