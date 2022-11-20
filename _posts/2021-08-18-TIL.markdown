@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "TIL `NSTextAlignment` lesson: same enum could have different raw values on different platforms."
-date:   2021-08-18 23:20:00 +0200
+title:  "TIL `NSTextAlignment` lesson: same enum could have different raw values on different platforms"
+date:   2021-08-18 20:20:00 +0200
 categories: TIL
 ---
 It's never safe to persist raw values of enums. The not only can change in time, raw values for same cases might be different on different platforms, like with `NSTextAlignment`. [Addressing Architectural Differences in Your macOS Code](https://developer.apple.com/documentation/apple-silicon/addressing-architectural-differences-in-your-macos-code).
