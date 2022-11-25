@@ -1,12 +1,11 @@
 ---
 layout: post
 title:  "TIL that Swift on Windows 10 isn't working"
-date:   2022-11-21 16:58:00 +0200
+date:   2022-11-22 16:58:00 +0200
 categories: TIL, Swift, Windows
 ---
 Failed to make Swift work on Windows 10. [Swift Forums: Having error compiling a simple hello.swift on Windows 10](https://forums.swift.org/t/having-error-compiling-a-simple-hello-swift-on-windows-10/61556).
 
-What I have learned that to compile Swift sorce on Windows I should run `swiftc -emit-executable -o exe.exe hello.swift`.
+What I have learned that to compile Swift source on Windows I should run `swiftc -emit-executable -o hello.exe hello.swift`.
 
 `swift hello.swift` is not compiling. What's it doing then?
-

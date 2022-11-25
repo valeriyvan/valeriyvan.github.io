@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL subst Windows command; Managed to make Swift on Windows working"
+date:   2022-11-24 19:22:00 +0200
+categories: TIL, Windows, Swift on Windows, SSH
+---
+TIL [`subst`](https://learn.microsoft.com/ru-ru/windows-server/administration/windows-commands/subst) Windows command for creating virtual drive from a folder.
+
+TIL than uninstalling and re-installing still works on Windows. Finally, [managed to make Swift on Windows working by uninstalling and re-installing Visual Studio and Swift](https://forums.swift.org/t/having-error-compiling-a-simple-hello-swift-on-windows-10).
+
+Bookmarking how to launch ssh-agent on Windows: [Starting ssh-agent on Windows 10 fails: "unable to start ssh-agent service, error :1058"](https://stackoverflow.com/questions/52113738/starting-ssh-agent-on-windows-10-fails-unable-to-start-ssh-agent-service-erro).
+
+Bookmarking [how to launch `ssh-agent` on Windows with GUI](https://stackoverflow.com/a/53606760/942513). Failed to do this with command line.
