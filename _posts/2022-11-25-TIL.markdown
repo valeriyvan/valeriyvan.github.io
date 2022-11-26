@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL how to pass defines with -Xswiftc option to all swift compiler invocations."
+date:   2022-11-25 21:17:00 +0200
+categories: TIL
+---
+TIL how to pass define to Swift compiler invocations when building Swift package from command line: `swift build -Xswiftc -DNO_INTRINSICS` - passes define `NO_INTRINSICS`.
+
+TIL about flag `WARN_COPY_ON_WRITE`. Should experiment with swift-geometrize with it.
