@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL how to use symlinks in git repo in Windows"
+date:   2022-11-26 19:40:00 +0200
+categories: TIL
+---
+TIL [how to use symlinks in git repo in Windows](https://superuser.com/a/1681155/157142). Made [PR](https://github.com/kelvin13/swift-png/pull/36) trying using [swift-png](https://github.com/kelvin13/swift-png) on Windows.
