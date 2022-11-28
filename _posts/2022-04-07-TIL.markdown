@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "TIL Embedded development in Swift; Swift Numerics introducing Real and Complex; μSwift; C Isn't A Programming Language Anymore; ThreadX running Raspberry Pi; Websites using Swift and AWS Lambda"
+date:   2022-04-07 19:17:00 +0200
+categories: TIL, Embedded Swift, Swift Numerics, μSwift, μSwift, C, ThreadX, Raspberry Pi, AWS Lambda
+---
+Learned how to install/use Sublime Text on Windows. Forgotten experience for me. Most of time nowdays I have access only to Windows computer. But it doesn't stop me from learning. 
+
+Read [Swift forum thread Introduce embedded development using Swift](https://forums.swift.org/t/introduce-embedded-development-using-swift/56573/). Very interesting reading.
+
+Read [On the road to Swift 6](https://forums.swift.org/t/on-the-road-to-swift-6/32862).
+
+Read [Swift Numerics](https://www.swift.org/blog/numerics/) which introduces `Real` and `Complex`. And in future it's supposed to add [`ShapedArray`](https://github.com/apple/swift-numerics/issues/6) - equivalent of numpy's `ndarray`, [Fixed-size integers larger than `Int64`](https://github.com/apple/swift-numerics/issues/4) (some time ago I wanted to use Int128 and was surprised there's no such type in Swift).
+
+From one of above leared about [μSwift](https://github.com/compnerd/uswift).
+
+[C Isn't A Programming Language Anymore
+](https://gankra.github.io/blah/c-isnt-a-language/). "C is an inscrutable implementation-defined mess". "C is the lingua franca of programming." Target triples, like `aarch64-apple-ios-sim`.
+
+Side-reading [What's wrong with Raspberry Pi (in Russian)](https://habr.com/ru/post/440584/) about (Microsoft own closed sourced) [ThreadX](https://en.wikipedia.org/wiki/ThreadX) real-time OS which runs Raspberri Pi under the hood.
+
+Starting experimenting with [Websites using Swift and AWS Lambda](https://jasonzurita.com/websites-using-swift-and-aws-lambda/).
