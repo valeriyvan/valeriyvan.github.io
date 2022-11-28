@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "TIL about distributed systems built with Swift"
+date:   2022-05-07 18:05:00 +0200
+categories: TIL
+---
+
+Watched [Scale By The Bay 2021: Konrad Malawski, Distributed Systems with Swift](https://www.youtube.com/watch?v=7yu6mEq8R2Q).
