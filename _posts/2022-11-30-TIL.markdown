@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL more about cross-platform Swift"
+date:   2022-11-30 21:20:00 +0200
+categories: TIL, cross-platform, Swift
+---
+TIL more about running Swift cross-platform. Read [Automatic test discovery in Swift on Linux](https://oleb.net/2020/swift-test-discovery/).
+
+Read [`LinuxMain.swift` and Custom Target Layouts](https://forums.swift.org/t/linuxmain-swift-and-custom-target-layouts-se-0162/5698).
+
+From [Generating LinuxMain breaks when renaming a test](https://forums.swift.org/t/generating-linuxmain-breaks-when-renaming-a-test/12894) learned that `LinuxMain.swift` could be generated.
