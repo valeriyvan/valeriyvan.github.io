@@ -18,13 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: TIL
+title: TIL꞉ today I learned
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   TIL - abbreviation for today I learned: used in writing, for example on social media, before giving interesting new information.
   TIL "Hey Jude" and "Bohemian Rhapsody" were both recorded using the same piano.   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://valeriyvan.com" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: date
+
 #twitter_username: valeriyvan
 github_username:  valeriyvan
 
