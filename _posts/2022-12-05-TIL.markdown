@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "TIL @_implementationOnly"
-date:   2022-11-05 20:17:00 +0200
+date:   2022-12-05 20:17:00 +0200
 categories: TIL, Swift
 ---
 [From swift-package-manager sources](https://github.com/apple/swift-package-manager/blob/main/Sources/Basics/SQLite.swift) learned `@_implementationOnly` exists. No idea what exactly it is for.
