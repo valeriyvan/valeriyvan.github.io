@@ -6,4 +6,4 @@ categories: TIL, Swift, Apple platforms
 ---
 Read Swift documentation [The Swift Driver, Compilation Model, and Command-Line Experience](https://github.com/apple/swift/blob/main/docs/Driver.md).
 
-From running `man swift` came accross [APPLE DEVELOPER RESOURCES for Swift](https://developer.apple.com/swift/resources/). A lot of inteesting stuff.
+From running `man swift` came accross [APPLE DEVELOPER RESOURCES for Swift](https://developer.apple.com/swift/resources/). A lot of interesting stuff.
