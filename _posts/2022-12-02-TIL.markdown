@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TIL"
+title:  "TIL the less dependencies the better"
 date:   2022-12-02 18:45:00 +0200
 categories: TIL
 ---
