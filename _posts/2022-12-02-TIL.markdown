@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL"
+date:   2022-12-02 18:45:00 +0200
+categories: TIL
+---
+Read Chris' Eidhof post [Dependencies. Why we got rid of most dependencies](https://chris.eidhof.nl/post/fewer-dependencies/). By the way, the site itself is generated with [StaticSite](https://github.com/objcio/StaticSite), here is [the source of the site](https://github.com/chriseidhof/chriseidhofnl). As long as [objc.io](https:///www.objc.io).
+
+Tried [chat.openai.com](https://chat.openai.com). No luck. Not available in your country. Should try launch [VPN](https://www.digitalocean.com/solutions/vpn)

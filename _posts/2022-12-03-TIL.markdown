@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "TIL"
+date:   2022-12-03 19:30:00 +0200
+categories: TIL, Stable Diffusion, CoreML
+---
+TIL new things about performance in Swift [Low-level Swift optimization tips](https://swiftinit.org/articles/low-level-swift-optimization) by the author of [swift-png](https://github.com/kelvin13/swift-png) and [swift-jpeg](https://github.com/kelvin13/jpeg). Well, this quote I will point to to anyone saying Swift is faster then C:
+> Reasonably well-written Swift code without any detailed optimization can easily achieve run time performance within 200 to 250 percent of a bare-metal C implementation. (Lower is better.) 
+Busts popular myths like wrapping arithmetic like `&+` is faster then regular arithmetic, and `@inline(__always)` as a magical make this faster.
+
+New for me is suggestion to favour us of `ManagedBuffer` instead of `UnsafeMutableBufferPointer` in attempt making arays faster.
+
+Interesting note about poor performance if [`Dictionary(grouping:by)`](https://developer.apple.com/documentation/swift/dictionary/init(grouping:by:)/):
+>`[Dictionary.init(grouping:by:)](https://developer.apple.com/documentation/swift/dictionary/init(grouping:by:)/)` seems to exhibit exceptionally poor performance, compared to a naive two-pass bucketing algorithm. (One pass to determine the sub-array counts, and one pass to populate the sub-arrays.)
+> Only use `Dictionary(grouping:by:)` if you have a single-pass Sequence and absolutely need the Dictionary output format.
+There're benchmarks in stdlib for this. Would be interesting to try rewrite.
+
+TIL Apple ported [Stable Diffusion to Core ML](https://machinelearning.apple.com/research/stable-diffusion-coreml-apple-silicon).
+
+Read [Debugging Tips by Krzysztof Zabłocki](https://www.merowing.info/swift-debugging-tips/). Should create `.lldbinit` file in home directory. Should return to this later on.
