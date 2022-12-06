@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "TIL @_implementationOnly"
+date:   2022-12-06 21:03:00 +0200
+categories: TIL, Swift Package manifest, cheatsheet
+---
+From [Swift package manifest cheatsheet](https://theswiftdev.com/the-swift-package-manifest-file/) how to set difines directly in `Package.swift`:
+```swift
+swiftSettings: [
+    .define("DEBUG"),
+    .define("DEBUG", .when(platforms: [.iOS, .macOS, .tvOS, .watchOS], configuration: .debug)),
+    .unsafeFlags(["-D EXAMPLE"]),
+    .unsafeFlags(["-D EXAMPLE"], .when(platforms: [.iOS], configuration: .debug)),
+]
+```
+
+Immediately used in in [swift-png](https://github.com/kelvin13/swift-png) to pass `NO_INTRINSICS` on Windows.
+
+Cool that swift package could depend on libraries which could be installed with `brew` or `apt`.
+
+Read [All about the Swift Package Manager and the Swift toolchain](https://theswiftdev.com/all-about-the-swift-package-manager-and-the-swift-toolchain/). Mess. But there're interesting finding:
+```
+swift lol
+error: unable to invoke subcommand:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-lol
+(No such file or directory)
+```
+
+>`swift build`, `run`, `test` subcommands are just another Swift binary executables placed inside the toolchain's binary path. (Named like: `swift-package`, `swift-build`, `swift-run`, `swift-test`).
+
+People do things like [swift-ci, CI written in Swift](https://github.com/BinaryBirds/CI).
+
+Read [Deep dive into Swift frameworks: Learn everything about Swift modules, libraries, packages, closed source frameworks, command line tools and more.](https://theswiftdev.com/deep-dive-into-swift-frameworks/).
+
+Brewsed [Swift Package Manager Usage](https://github.com/apple/swift-package-manager/blob/main/Documentation/Usage.md). I did missed that such documentation exists. Why there's no direct link to it from README.md? Learned about `swift package resolve`.
