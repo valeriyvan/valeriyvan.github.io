@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   TIL "Hey Jude" and "Bohemian Rhapsody" were both recorded using the same piano.   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://valeriyvan.com" # the base hostname & protocol for your site, e.g. http://example.com
-permalink: date
+permalink: /:year/:month/:day/:title:output_ext
 
 #twitter_username: valeriyvan
 github_username:  valeriyvan
