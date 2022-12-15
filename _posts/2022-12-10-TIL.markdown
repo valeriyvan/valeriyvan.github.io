@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL swift-system package; yield keyword in Swift"
+date:   2022-12-10 19:45:00 +0200
+categories: TIL, swift-system
+---
+GitHub recommended [swift-system package](https://github.com/apple/swift-system). Interesting stuff. Browsing came across `yeild` keyword in [`FilePathComponentView` source](https://github.com/apple/swift-system/blob/main/Sources/System/FilePath/FilePathComponentView.swift).
+
+Jumped to [The `yield` keyword](https://trycombine.com/posts/swift-read-modify-coroutines/) post.

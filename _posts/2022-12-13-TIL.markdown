@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Ask Apple a question; swift-tagged package"
+date:   2022-12-13 19:55:00 +0200
+categories: TIL
+---
+Should [ask Apple a question](https://developer.apple.com/events/ask-apple/) about returning from Objective-C function autoreleased Core Graphics object.
+
+Came accross [swift-tagged](https://github.com/pointfreeco/swift-tagged) package. Simple thing like `typealias Id = Tagged<User, Int>` makes types unique.

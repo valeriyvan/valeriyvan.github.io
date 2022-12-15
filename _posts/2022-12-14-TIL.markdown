@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "(opinionated) iOS Interview Questions"
+date:   2022-12-14 18:13:00 +0200
+categories: TIL
+---
+Read how to embed Python interpreter in iOS or macOS app and successfully publish it to the AppStore. Don't know why I need this.
+
+Read [My personal (opinionated) iOS Interview Questions in interviewing iOS Engineers](https://medium.com/@agung1991putra/my-personal-opiniated-ios-interview-questions-in-interviewing-ios-engineers-cf6d335a1f84). Some questions are quite interesting.
+
+Read [Finding Memory Leaks in Mobile Apps (Part 1: Visualization)](https://medium.com/picsart-engineering/finding-memory-leaks-in-mobile-apps-part-1-visualization-b2e4e342a5c9).
