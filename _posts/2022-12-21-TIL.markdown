@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Remove unavailable simulators; SWIFT_DEFER"
+date:   2022-12-21 20:43:00 +0200
+categories: TIL, SWIFT_DEFER
+---
+Bookmarking how to remove unavailable simulators `xcrun simctl delete unavailable`
+
+TIL about [`SWIFT_DEFER`](https://github.com/apple/swift/blob/main/include/swift/Basic/Defer.h).
