@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Aliases in bash"
+date:   2022-12-25 21:21:00 +0200
+categories: TIL
+---
+Have started [Udacity's Flying Car and Autonomous Flight Engineer course](https://www.udacity.com/course/flying-car-nanodegree--nd787).
+
+First things learned, about [Drone code foundation](https://www.dronecode.org). Hm, Linux foundation support them. Dronecode supports open sourced projects. But ardupilot is not among them.
