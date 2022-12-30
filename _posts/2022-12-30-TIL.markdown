@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "oneway"
+date:   2022-12-30 21:18:00 +0200
+categories: TIL, oneway
+---
+Browsing [NSSlowTaggedLocalizedString](https://github.com/apple/swift/blob/7701ddc0543c13f63e32d37cfc844291d29dae86/test/stdlib/Inputs/NSSlowTaggedLocalizedString/NSSlowTaggedLocalizedString.m) in Swift stdlib, have found `oneway` keyword in `- (oneway void) release {}`. Have never seen this. How? [Use-case of `oneway void` in Objective-C?](https://stackoverflow.com/questions/5494981/use-case-of-oneway-void-in-objective-c) in Stackoverflow is exactly about this method.
