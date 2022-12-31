@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Swift package manifest cheatsheet; Swift Package Manager Usage"
-date:   2022-12-06 21:03:00 +0200
+date:   2022-12-08 20:00:00 +0200
 categories: TIL, Swift Package manifest, cheatsheet
 ---
 From [Swift package manifest cheatsheet](https://theswiftdev.com/the-swift-package-manifest-file/) learned how to set difines directly in `Package.swift`:
