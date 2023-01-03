@@ -1,0 +1,53 @@
+---
+layout: post
+title:  "TIL how to work with Swift in Visual Studio on Windows"
+date:   2023-01-01 17:50:00 +0200
+categories: TIL, Visual Studio, Swift starter issues
+---
+TIL [Visual Studio can work with Swift Packages](https://marketplace.visualstudio.com/items?itemName=sswg.swift-lang), so could be used on Windows. Unfortunately I failed to make it work.
+
+TIL [there are a lot of starter issues in Swift](https://github.com/apple/swift/issues?page=2&q=is%3Aopen+is%3Aissue+label%3AStarterBug). Bookmarkign here ones I could fix/implement:
+
+* https://github.com/apple/swift/issues/54317 about making `swift help package/build/test/etc` work.
+
+* https://github.com/apple/swift/issues/54322
+
+* https://github.com/apple/swift/issues/54688
+
+* https://github.com/apple/swift/issues/55825
+
+* https://github.com/apple/swift/issues/55828
+
+* https://github.com/apple/swift/issues/55887
+
+* https://github.com/apple/swift/issues/56194
+
+* https://github.com/apple/swift/issues/56304
+
+* https://github.com/apple/swift/issues/56350
+
+* https://github.com/apple/swift/issues/56435
+
+* https://github.com/apple/swift/issues/57079
+
+* https://github.com/apple/swift/issues/57283
+
+* https://github.com/apple/swift/issues/57437
+
+* https://github.com/apple/swift/issues/57499
+
+* https://github.com/apple/swift/issues/57540
+
+* https://github.com/apple/swift/issues/61601
+
+* https://github.com/apple/swift/issues/61817
+
+* https://github.com/apple/swift/issues/62803 
+
+* https://github.com/apple/swift/issues/62810
+
+TIL about [Policy.swift](https://github.com/apple/swift/blob/main/stdlib/public/core/Policy.swift) which declares a lot of interesting stuff, like `AnyObject`, `AnyClass`, operator `~=` as well as what type of element of literal like `[1, 2, 3]` or `[1.0, 2.0, 3.0]` will be and some other stuff. 
+
+From [Flying Car and Autonomous Flight Engineer nano degree](https://www.udacity.com/course/flying-car-nanodegree--nd787) learned [A* algorithm](https://ru.wikipedia.org/wiki/A*).
+
+Side learning from above: refreshed knowledge about [heap data structure](https://www.google.com/search?q=heap+data+structure+video&oq=heap+data+structure+video&aqs=chrome..69i57j33i160l2.5801j0j7&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:8f36bda1,vid:t0Cq6tVNRBA).
