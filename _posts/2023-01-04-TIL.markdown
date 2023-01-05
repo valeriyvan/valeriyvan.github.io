@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL C++ enum class"
+date:   2023-01-04 17:50:00 +0200
+categories: TIL, C++ enum class
+---
+TIL what is [enum class in C++](https://www.geeksforgeeks.org/enum-classes-in-c-and-their-advantage-over-enum-datatype/) aka scoped enumerations.
+
+TIL `git diff --staged` shows changes for staged files.
