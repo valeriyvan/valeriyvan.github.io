@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "TIL @ attributes in Swift"
+date:   2023-01-05 20:12:00 +0200
+categories: TIL, attributes in Swift
+---
+Read chapter [Attributes](https://docs.swift.org/swift-book/ReferenceManual/Attributes.html) of Swift Reference. Good reference. Among others has useful example of using `@dynamicMemberLookup` for implementing `PassthroughWrapper`:
+
+```swift
+struct Point { var x, y: Int }
+
+@dynamicMemberLookup
+struct PassthroughWrapper<Value> {
+    var value: Value
+    subscript<T>(dynamicMember member: KeyPath<Value, T>) -> T {
+        get { return value[keyPath: member] }
+    }
+}
+
+let point = Point(x: 381, y: 431)
+let wrapper = PassthroughWrapper(value: point)
+print(wrapper.x)
+```
