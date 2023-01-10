@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL gimbal lock"
+date:   2023-01-09 20:03:00 +0200
+categories: TIL, Swift Expression Macros
+---
+TIL Swift is going to introduce macro: [Expression Macros Swift proposal](https://github.com/apple/swift-evolution/blob/main/proposals/0382-expression-macros.md). This introduces `@expression` attribute.
