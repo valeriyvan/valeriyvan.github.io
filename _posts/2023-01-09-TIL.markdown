@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TIL gimbal lock"
+title:  "TIL Swift Expression Macros"
 date:   2023-01-09 20:03:00 +0200
 categories: TIL, Swift Expression Macros
 ---
