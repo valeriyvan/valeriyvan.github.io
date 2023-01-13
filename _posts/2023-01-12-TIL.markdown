@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL Data labelling is big business"
+date:   2023-01-12 20:22:00 +0200
+categories: TIL, Data labelling
+---
+Read interesting post data labelling becoming big business [Data Annotation: The Billion Dollar Business Behind AI Breakthroughs](https://medium.com/syncedreview/data-annotation-the-billion-dollar-business-behind-ai-breakthroughs-d929b0a50d23).
+
+From [Document withUnsafeBytes behaviour when size != stride](https://github.com/apple/swift/issues/60780) issue in Swift learned that layout could be checked not only on type like `MemoryLayout<Int>.size` but on any value with `MemoryLayout.size(ofValue: t)`. 
