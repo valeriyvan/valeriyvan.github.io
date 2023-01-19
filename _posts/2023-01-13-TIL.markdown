@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "TIL nothing new("
+date:   2023-01-13 20:13:00 +0200
+categories: TIL
+---
+In Swift there's a note in `UnsafeRawPointer.swift`
+
+```swift
+/// - Note: A trivial type can be copied bit for bit with no indirection or
+///   reference-counting operations. Generally, native Swift types that do not
+///   contain strong or weak references or other forms of indirection are
+///   trivial, as are imported C structs and enumerations.
+```
+
+and in `Unsafe[Mutable]RawBufferPointer.swift`
+
+```swift
+/// - Note: A *trivial type* can be copied bit for bit with no indirection
+///   or reference-counting operations. Generally, native Swift types that do
+///   not contain strong or weak references or other forms of indirection are
+///   trivial, as are imported C structs and enums. Copying memory that
+///   contains values of nontrivial types can only be done safely with a typed
+///   pointer. Copying bytes directly from nontrivial, in-memory values does
+///   not produce valid copies and can only be done by calling a C API, such as
+///   `memmove()`.
+```
+
+Should this note be unified?
