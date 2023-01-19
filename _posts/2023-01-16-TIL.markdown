@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL how to use ManagedBuffer in Swift"
+date:   2023-01-16 19:30:00 +0200
+categories: TIL, ManagedBuffer
+---
+[SimpleArray](https://github.com/apple/swift/blob/main/benchmark/utils/SimpleArray.swift) in SwiftBanchmark could be good example/benchmark for better (meaning faster) implementation of [Matrix](https://github.com/LinearityGmbH/frace/blob/main/Frace/Sources/Frace/Matrix.swift), [Bitmap](https://github.com/valeriyvan/swift-geometrize/blob/main/Sources/geometrize/Bitmap.swift).
