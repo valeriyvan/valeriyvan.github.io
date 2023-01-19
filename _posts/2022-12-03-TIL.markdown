@@ -13,6 +13,7 @@ New for me is suggestion to favour us of `ManagedBuffer` instead of `UnsafeMutab
 Interesting note about poor performance if [`Dictionary(grouping:by)`](https://developer.apple.com/documentation/swift/dictionary/init(grouping:by:)/):
 >`[Dictionary.init(grouping:by:)](https://developer.apple.com/documentation/swift/dictionary/init(grouping:by:)/)` seems to exhibit exceptionally poor performance, compared to a naive two-pass bucketing algorithm. (One pass to determine the sub-array counts, and one pass to populate the sub-arrays.)
 > Only use `Dictionary(grouping:by:)` if you have a single-pass Sequence and absolutely need the Dictionary output format.
+
 There're benchmarks in stdlib for this. Would be interesting to try rewrite.
 
 TIL Apple ported [Stable Diffusion to Core ML](https://machinelearning.apple.com/research/stable-diffusion-coreml-apple-silicon).
