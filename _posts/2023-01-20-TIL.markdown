@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL Xcode configuration files"
+date:   2023-01-20 19:57:00 +0200
+categories: TIL, Xcode, Xcode configuration files
+---
+Read [How to manage build settings using Xcode configuration files](https://www.danijelavrzan.com/posts/2022/11/xcode-configuration/).
