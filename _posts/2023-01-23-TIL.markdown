@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL why to use make with Swift package, how to gother code coverage without Xcode, new useful CLI tools"
+date:   2023-01-23 19:55:00 +0200
+categories: TIL, Makefile, make, Swift package code coverage, CLI tools
+---
+TIL how ease usage of swift package with make: [Utilizing Makefiles for Swift projects](https://theswiftdev.com/utilizing-makefiles-for-swift-projects/).
+
+TIL how to gather and display code coverage reports for Swift packages both for macOS and Linux without using Xcode at all: [Code coverage for Swift Package Manager based apps](https://theswiftdev.com/code-coverage-for-swift-package-manager-based-apps/). Didn't know about `swift test --enable-code-coverage`.
+
+[CLI tools you won't be able to live without](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6#utils). `fuck` looks at least funny. Will see if it's useful.
