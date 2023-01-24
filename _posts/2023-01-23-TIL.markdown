@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TIL why to use make with Swift package, how to gother code coverage without Xcode, new useful CLI tools"
+title:  "TIL why to use make with Swift package, how to gather code coverage without Xcode, new useful CLI tools"
 date:   2023-01-23 19:55:00 +0200
 categories: TIL, Makefile, make, Swift package code coverage, CLI tools
 ---
