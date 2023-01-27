@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL lazygit"
+date:   2023-01-27 19:28:00 +0200
+categories: TIL, C++, nullptr
+---
+TIL [lazygit](https://github.com/jesseduffield/lazygit). May be I will use it.
