@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL"
+date:   2023-02-03 18:01:00 +0200
+categories: TIL
+---
+Read [Introduction to Embedding, Clustering, and Similarity. A close look at key elements of ML and Latent Spaces](https://towardsdatascience.com/introduction-to-embedding-clustering-and-similarity-11dd80b00061).
+
+From [How the AI industry profits from catastrophe](https://www.technologyreview.com/2022/04/20/1050392/ai-industry-appen-scale-data-labels/) learned about [https://appen.com](https://appen.com), huge company in data labelling business, they even have [aticle in wiki](https://en.wikipedia.org/wiki/Appen_(company)).
+
+Bookmarking [Train YOLOv8 on Custom Dataset – A Complete Tutorial](https://learnopencv.com/train-yolov8-on-custom-dataset/). Has link on quite interesting pothole dataset.
+
+Bookmarking [Introduction to Robotics course of Princeton University](https://irom-lab.princeton.edu/intro-to-robotics/) using Bitcaze's Crazyflie. Whatched the first lecture [Lecture 1: Princeton: Introduction to Robotics](https://www.youtube.com/watch?v=e4jow5O3JT8).
