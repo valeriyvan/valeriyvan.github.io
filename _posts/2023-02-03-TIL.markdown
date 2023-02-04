@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Whatched the first lecture of Princeton: Introduction to Robotics"
+title:  "Watched the first lecture of Princeton: Introduction to Robotics"
 date:   2023-02-03 18:01:00 +0200
 categories: TIL
 ---
@@ -10,4 +10,4 @@ From [How the AI industry profits from catastrophe](https://www.technologyreview
 
 Bookmarking [Train YOLOv8 on Custom Dataset – A Complete Tutorial](https://learnopencv.com/train-yolov8-on-custom-dataset/). Has link on quite interesting pothole dataset.
 
-Bookmarking [Introduction to Robotics course of Princeton University](https://irom-lab.princeton.edu/intro-to-robotics/) using Bitcaze's Crazyflie. Whatched the first lecture [Lecture 1: Princeton: Introduction to Robotics](https://www.youtube.com/watch?v=e4jow5O3JT8).
+Bookmarking [Introduction to Robotics course of Princeton University](https://irom-lab.princeton.edu/intro-to-robotics/) using Bitcaze's Crazyflie. Watched the first lecture [Lecture 1: Princeton: Introduction to Robotics](https://www.youtube.com/watch?v=e4jow5O3JT8).
