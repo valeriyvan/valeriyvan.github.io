@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "TIL Fletcher checksum, UART"
+date:   2023-02-08 19:22:00 +0200
+categories: TIL, Fletcher checksum, UART
+---
+TIL Fletcher checksum: [rfc1146](https://datatracker.ietf.org/doc/html/rfc1146).
+
+TIL what UART is [Universal asynchronous receiver-transmitter](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter):
+> A universal asynchronous receiver-transmitter is a computer hardware device for asynchronous serial communication in which the data format and transmission speeds are configurable. It sends data bits one by one, from the least significant to the most significant, framed by start and stop bits so that precise timing is handled by the communication channel. The electric signaling levels are handled by a driver circuit external to the UART. Two common signal levels are RS-232, a 12-volt system, and RS-485, a 5-volt system. Early teletypewriters used current loops.
