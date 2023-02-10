@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL Crazyflie 2.0: System Architecture"
+date:   2023-02-09 18:01:00 +0200
+categories: TIL, Crazyflie System Architecture
+---
+Read [Crazyflie 2.0: System Architecture](https://www.bitcraze.io/2014/07/crazyflie-2-0-system-architecture/).
+
+Watched [Guest Lecture at EPFL Aerial Robotics Course 2021](https://www.bitcraze.io/about/events/epfl2021/) ([YouTube](https://www.youtube.com/watch?v=6s8i-nhPjt0&t=173s)). Extreemly interesting!
