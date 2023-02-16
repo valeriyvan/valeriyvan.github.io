@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL Crazyflie's Stabilizer Module"
+date:   2023-02-15 19:13:00 +0200
+categories: TIL, Crazyflie, Stabilizer Module
+---
+Read [Overview of Stabilizer Module](https://www.bitcraze.io/documentation/repository/crazyflie-firmware/2022.01/functional-areas/sensor-to-control/) of Crazyflie. Then [State estimation](https://www.bitcraze.io/documentation/repository/crazyflie-firmware/2022.01/functional-areas/sensor-to-control/state_estimators/).
