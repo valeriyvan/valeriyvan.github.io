@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL GitHub Copilot"
+date:   2023-02-14 19:22:00 +0200
+categories: TIL, GitHub Copilot, Visual Studio Code, VS Code, NVIM, BLE
+---
+TIL [JetBrains Sunsetting AppCode](https://blog.jetbrains.com/appcode/2022/12/appcode-2022-3-release-and-end-of-sales-and-support/).
+
+Today I have subscribed for GitHub [Copilot](https://github.com/github-copilot/). Installed [CopilotForXcode plugin](https://github.com/intitni/CopilotForXcode). Activated Copilot also for NVIM and Visual Studio Code. Latter looks quite nice. I will try to use it some time. As for NVIM, I worked with it's maintainer, Justin some years ago. Since then I have NVIM installed but never really used it for something bigger then editing tiny config files.
+
+Bookmarking [Parsing responses on BLE-commands in Swift on example of GoPro(Russian)](https://habr.com/ru/company/doubletapp/blog/716162/).
