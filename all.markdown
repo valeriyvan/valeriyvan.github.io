@@ -8,5 +8,4 @@ permalink: /all/
   {{ post.content }}
   ---
   <br>
-  <br>
 {% endfor %}
