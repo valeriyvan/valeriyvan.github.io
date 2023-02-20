@@ -4,7 +4,8 @@ title: All
 permalink: /all/
 ---
 {% for post in site.posts %}
-  # [{{ post.title }}]({{ post.url }})
+  <h1>[{{ post.title }}]({{ post.url }})</h1>
   {{ post.content }}
   ---
+  
 {% endfor %}
