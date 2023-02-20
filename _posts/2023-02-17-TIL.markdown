@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL Bitonic sorter"
+date:   2023-02-17 19:22:00 +0200
+categories: TIL, Bitonic sorter
+---
+TIL [Bitonic sorter](https://en.wikipedia.org/wiki/Bitonic_sorter). Came accross interesting implementation of bitonic sorting for Intel and ARM CPUs. One time I will add these implementations to Swift.
