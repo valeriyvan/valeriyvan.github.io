@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL  Complementary Filter"
+date:   2023-02-18 19:01:00 +0200
+categories: TIL, drone, done control, dead reackoning, Complementary Filter
+---
+TIL about dead reackoning and Complementary Filter from video [Drone Control and the Complementary Filter](https://www.youtube.com/watch?v=whSw42XddsU).
