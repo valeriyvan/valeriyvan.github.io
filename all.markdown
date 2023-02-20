@@ -6,7 +6,7 @@ permalink: /all/
 <html>
 {% for post in site.posts %}
   <hr>
-  {{ post.title }}
+  <h1>{{ post.title }}</h1>
   <hr>
   {{ post.content }}
 {% endfor %}
