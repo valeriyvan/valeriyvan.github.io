@@ -5,6 +5,6 @@ permalink: /all/
 ---
 <html>
 {% for post in site.posts %}
-  {{ post.body }}
+  {{ post.content }}
 {% endfor %}
 </html>
