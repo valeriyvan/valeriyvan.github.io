@@ -2,6 +2,12 @@
 layout: post
 title:  "TIL CRDT"
 date:   2023-02-20 10:00:00 +0200
-categories: TIL, CRDT
+categories: TIL, CRDT, Jekyll, tags
 ---
 TIL about [Conflict-free replicated data type](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type). There's Swift implementation [CRDT](https://github.com/heckj/CRDT).
+
+Read how to add tag-based navigation to site on Jekyll: [Adding and Displaying Tags on Jekyll Posts](https://www.jflh.ca/2016-01-23-adding-and-displaying-tags-on-jekyll-posts).
+
+TIL [difference between categories and tags in Jekyll](https://stackoverflow.com/questions/8675841/whats-the-difference-between-categories-and-tags-in-jekyll).
+
+Read [Adding post tagging to jekyll's Minima theme](http://www.jasonemiller.org/2020/12/23/tagging-posts-in-jekyll-minima.html). Ended up copying a lot from this Jekyll install. But not yet tagging. Will finish tagging soon.
