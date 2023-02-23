@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL copyleft-next"
+date:   2023-02-22 19:44:00 +0200
+categories: TIL, copyleft-next license, technical interview
+---
+In news about next Linux release read Linux started to accept code licensed under [copyleft-next license](https://github.com/copyleft-next/copyleft-next). Never heard of it before.
+
+This [comment in PR](https://github.com/apple/swift/pull/34435#issuecomment-1439225020) raised question if global variables in Swift are initialized lazily. Indeed. Googled for it: [Swift global variables and static members are atomic and lazily computed](https://www.jessesquires.com/blog/2020/07/16/swift-globals-and-static-members-are-atomic-and-lazily-computed/).
+
+Bookmaking [How I have started conducting technical interviews in 30 minutes (Russian)](https://habr.com/ru/company/otus/blog/718410/). Very good post about organizing technical interviews.
