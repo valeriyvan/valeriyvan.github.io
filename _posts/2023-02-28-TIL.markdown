@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL"
+date:   2023-02-28 19:00:00 +0200
+categories: TIL
+---
+Read slides of [WWDC 2014 session video703 Whats new in the Accelerate framework](https://devstreaming-cdn.apple.com/videos/wwdc/2014/703xx9ich9e8mkn/703/703_whats_new_in_the_accelerate_framework.pdf). There's good example there how to copy string with `simd.h`.
+
+Read [30,000 lines of SwiftUI in production later: We love it but you know there was going to be a “but”](https://blog.timing.is/swiftui-production-experience-problems-solutions-performance-tips/).
