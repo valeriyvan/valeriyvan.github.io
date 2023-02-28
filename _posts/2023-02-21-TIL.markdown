@@ -1,0 +1,109 @@
+---
+layout: post
+title:  "Tinkered with SIMD operations in Swift"
+date:   2023-02-21 16:20:00 +0200
+categories: TIL, SIMD, Swift evolution
+---
+Working on PRs [[string] SIMD-izes internal func in StringCreate.swift](https://github.com/apple/swift/pull/30300/files) and on `SIMD` variant of PR [[stdlib] Add to Unsafe[Mutable]RawBufferPointer implementation of _custom[Last]IndexOfEquatableElement](https://github.com/apple/swift/pull/63128) explained [in post](https://valeriyvan.com/2022/12/15/TIL.html) I have found that Swift's implementation of `SIMD` misses operations for checking if `SIMD` vector includes particular scalar. At the same time, `simd` implementation in Objective-C has [`simd_any` and `simd_all`](https://github.com/xybp888/iOS-SDKs/blob/master/iPhoneOS13.0.sdk/usr/include/simd/logic.h). These is poor documented in Apple documentation. These operations allow check not only presence of some scalar but allow use conditions like
+
+```Objective-C
+if (simd_any(x < 0)) {
+    // executed if any lane of x
+    // contains a negative value.
+}
+
+if (simd_all(x == 0)) {
+    // executed if every lane of x
+    // contains zero.
+ }
+ ```
+
+Implementing these operations in Swift would become reasonable Swift proposal extending proposal [SIMD Vectors](https://github.com/apple/swift-evolution/blob/main/proposals/0229-simd.md) which introduced `SIMD`.
+
+Proposal makes possible above mentioned operations only on two steps:
+
+```swift
+if (SIMD4<Int>(1,2,-3,4) .< 0) != SIMDMask<SIMD4<Int>>(repeating: false) {
+    // executed if any lane of vector
+    // contains a negative value.
+    print("There's a lane with negative value.")
+} else {
+    print("All lanes have non-negative values.")
+}
+
+if (SIMD4<Int>(-1,-2,-3,-4) .< 0) == SIMDMask<SIMD4<Int>>(repeating: true) {
+    // executed if every lane of vector
+    // contains a negative value.
+    print("All lanes have negative values.")
+} else {
+    print("There's a lane with non-negative value.")
+}
+```
+
+May be it does make sense defining operations like `∀<` for all and `∃<` for any. Math symbol ∀ means 'all', and ∃ - 'there exists'. These operations could be defined like:
+
+
+```swift
+infix operator ∀<: ComparisonPrecedence // all
+infix operator ∃<: ComparisonPrecedence // any
+
+extension SIMD where Scalar: Comparable {
+    /// Returns a boolean if all lane contains value less then provided scalar.
+    public static func ∀<(vector: Self, scalar: Scalar) -> Bool {
+        for index in vector.indices where !(vector[index] < scalar) {
+            return false
+        }
+        return true
+
+        /// Alternative implementation in terms of vector operations
+        return (vector .< scalar) == SIMDMask(repeating: true)
+    }
+
+    /// Returns a boolean if any lane contains value less then provided scalar.
+    public static func ∃<(vector: Self, scalar: Scalar) -> Bool {
+        for index in vector.indices where vector[index] < scalar {
+            return true
+        }
+        return false
+
+        /// Alternative implementation in terms of vector operations
+        return (vector .< scalar) != SIMDMask(repeating: false)
+    }
+}
+```
+
+With such operations comparisons from snippets above become one step and much more readable:
+
+```swift
+if SIMD4<Int>(1,2,-3,4) ∃< 0 {
+    // executed if any lane of vector
+    // contains a negative value.
+    print("There's a lane with negative value.")
+} else {
+    print("All lanes have non-negative values.")
+}
+
+if SIMD4<Int>(-1,-2,-3,-4) ∀< 0 {
+    // executed if every lane of vector
+    // contains a negative value.
+    print("All lanes have negative values.")
+} else {
+    print("There's a lane with non-negative value.")
+}
+```
+
+Fuuuuuuuuuck. [`SIMDVector.swift`](https://github.com/apple/swift/blob/4696610e5c574b450c59620126434cffecc65902/stdlib/public/core/SIMDVector.swift#L1494) defines global functions `any` and `all` on `SIMDMask` argument which make possible what is needed. Why SIMD neither SIMD proposal nor any post/article I have read mentions these important functions!?
+
+```swift 
+if all(SIMD4<Int>(-1,-2,-3,-4) .< 0) {
+    // executed if any lane of vector
+    // contains a negative value.
+    print("There's a lane with negative value.")
+}
+
+if any(SIMD4<Int>(1,2,-3,4) .< 0) {
+    // executed if any lane of vector
+    // contains a negative value.
+    print("There's a lane with negative value.")
+}
+```
