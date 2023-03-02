@@ -1,9 +1,13 @@
 ---
 layout: post
-title:  "TIL"
-date:   2023-02-28 19:00:00 +0200
-categories: TIL
+title:  "Watched WWDC 2014 video about Accelerate, read about Factory pattern in Swift"
+date:   2023-02-28 19:03:00 +0200
+categories: TIL, Accelerate framework, Factory pattern, Swift
 ---
 Read slides of [WWDC 2014 session video703 Whats new in the Accelerate framework](https://devstreaming-cdn.apple.com/videos/wwdc/2014/703xx9ich9e8mkn/703/703_whats_new_in_the_accelerate_framework.pdf). There's good example there how to copy string with `simd.h`.
 
 Read [30,000 lines of SwiftUI in production later: We love it but you know there was going to be a “but”](https://blog.timing.is/swiftui-production-experience-problems-solutions-performance-tips/).
+
+Read [I am a bad software developer and this is my life](https://levelup.gitconnected.com/i-am-a-bad-software-developer-and-this-is-my-life-5c248dc72c2a). 
+
+Read [Make it for me: Factory pattern and Swift](https://medium.com/@amiddleeasterner/make-it-for-me-factory-pattern-and-swift-ae8668a11741). The post is intended to be used as a complete reference.
