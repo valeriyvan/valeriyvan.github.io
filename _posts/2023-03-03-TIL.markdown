@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Overflow arithmetic vs wrapping arithmetic"
+date:   2023-03-03 19:33:00 +0200
+categories: TIL, Swift, Overflow arithmetic, wrapping arithmetic
+---
+Working on optimizing search for a byte in a buffer for [`[stdlib] Add to Unsafe[Mutable]RawBufferPointer implementation of _custom[Last]IndexOfEquatableElement`](https://github.com/apple/swift/pull/63128) return to blog post [Finding Bytes in Arrays](https://richardstartin.github.io/posts/finding-bytes#finding-null-terminators-without-branches). Now I bookmark it here to save search time when I will need it next time.
+
+Working on above mentioned PR came accross `&+` and alike operations. I wrongly call these operations saturating operations (saturating arithmeting). [Wiki: Saturation arithmetic](https://en.wikipedia.org/wiki/Saturation_arithmetic). Saturation arithmetic clamps result to menimum and maximum values. 
+
+> Typically, general-purpose microprocessors do not implement integer arithmetic operations using saturation arithmetic; instead, they use the easier-to-implement [modular arithmetic](https://en.wikipedia.org/wiki/Modular_arithmetic), in which values exceeding the maximum value "wrap around" to the minimum value, like the hours on a clock passing from 12 to 1.
+
+This is exactly what Swift implements - [Overflow Operators](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/advancedoperators/#Overflow-Operators).
