@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "TIL __cleanup__ attribute in GCC"
+date:   2023-03-05 13:20:00 +0200
+categories: TIL
+---
+TIL [Using the `__cleanup__` variable attribute in GCC](https://echorand.me/site/notes/articles/c_cleanup/cleanup_attribute_c.html). `__cleanup__` allows you to define a function to be called when the variable goes out of scope (for example, before returning from a function).
+
+Reread again [Underscored Attributes Reference](https://github.com/apple/swift/blob/main/docs/ReferenceGuides/UnderscoredAttributes.md) `@_alwaysEmitIntoClient`, while working on PR [[stdlib] Add to Unsafe[Mutable]RawBufferPointer implementation of _custom[Last]IndexOfEquatableElement](https://github.com/apple/swift/pull/63128/files).
+
+TIL [how to change message in one of old commits](https://stackoverflow.com/a/72307449/942513): `git rebase -i <commit_sha>` , `<commit_sha>` is the sha of one commit before the commit to be changed. Then `pick` should be changed to `reword` for commit where message hould be changed. After save new dialog for editing commit message will be open.
+
+Holy shit! Xcode shows column number of cursor in editor. I used to Xcode not showing column. Taday I [googled for it to learn that it shows](https://stackoverflow.com/a/21711557/942513):
+![Xcode screenshot](_images/Screenshot\ 2023-03-05\ at\ 13.51.35.png).
+
