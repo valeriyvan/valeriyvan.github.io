@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL _Alignas in C and alignas in C++"
+date:   2023-03-09 19:22:00 +0200
+categories: TIL, _Alignas, alignas
+---
+TIL [what is `_Alignas` in C and `alignas` in C++](https://www.educative.io/answers/what-is-alignas-in-c).
