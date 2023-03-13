@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL"
+date:   2023-03-13 19:19:00 +0200
+categories: TIL, YOLO5, Google Colab
+---
+Bookmarking posts [How I am making OCR (Russian) part 1](https://habr.com/ru/post/717862/), [Part 2](https://habr.com/ru/post/721758/). Firstly, I like approach to building dataset. Second, post has steps how to train YOLO5 in Google Colab.

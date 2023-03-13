@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "TIL mordern iPhone still could be jailbreaked"
+title:  "TIL modern iPhone still could be jailbroken"
 date:   2023-03-11 19:01:00 +0200
 categories: TIL, jailbreak, iPhone
 ---
-TIL mordern iPhone still could be jailbreaked: [Jailbreak iOS 8 – iOS 16.4](https://pangu8.com).
+TIL modern iPhone still could be jailbroken: [Jailbreak iOS 8 – iOS 16.4](https://pangu8.com).
