@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL"
+date:   2023-03-14 19:04:00 +0200
+categories: TIL, Swift, stdlib
+---
+Read again source of [`\_StringObject` in Swift stdlib](https://github.com/apple/swift/blob/main/stdlib/public/core/StringObject.swift). No way I could use this anywhere soon.
+
+Firstly came across `rethrows` in Swift in [https://github.com/apple/swift/blob/main/stdlib/public/core/String.swift#L558](https://github.com/apple/swift/blob/76c18c80664f752312d01865c5721067a8e31925/stdlib/public/core/String.swift#L558).
+
+Jumped [How to use the rethrows keyword in Hacking with Swift](https://www.hackingwithswift.com/example-code/language/how-to-use-the-rethrows-keyword). I don't know why I didn't use it before.
