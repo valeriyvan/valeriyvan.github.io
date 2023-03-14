@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TIL"
+title:  "Read how to train YOLO5 in Google Colab"
 date:   2023-03-13 19:19:00 +0200
 categories: TIL, YOLO5, Google Colab
 ---
