@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "TIL local git config location"
+date:   2023-03-21 19:44:00 +0200
+categories: TIL, git, swift, Simultaneous accesses
+---
+Came accross this [tweet](https://twitter.com/v_pradeilles/status/1638210113461964800?s=43&t=6rmSjK21fIpso2_vOjKRhg). I was sure code from tweet (below) will print all but `3` elements of array:
+```swift
+var array = [3, 2, 1]
+array.removeAll(where: { $0 == array.count })
+print(array) // I expected "[2, 1] to be printed
+```
+I was sure that `array.count` will be copied by value into closure passed into `removeAll(where:)` and `removeAll` will filter out `3` value from array.
+I was wrong. Code crashes in runtime because of not exclusive access to `array`. The error:
+```
+Simultaneous accesses to 0x107cf0090, but modification requires exclusive access.
+Previous access (a modification) started at (0x107cec44c).
+Current access (a read) started at:
+...
+```
+So run `removeAll` starts modification. And then capturing of `array.count` attempt to run read when modification is running and fails.
+To make code work as I described earlier it's sufficient to capture whole `array` in closure:
+```swift
+var array = [3,2,1]
+array.removeAll(where: { [array] in $0 == array.count })
+print(array) // prints [2, 1]
+```
+Or better capture explicitely only `count`:
+```swift
+var array = [3,2,1]
+array.removeAll(where: { [count = array.count] in $0 == count })
+print(array) // prints [2, 1]
+```
+
+While digging in stdlib jumped to read about `underestimatedCount` [Inside the Standard Library: `Sequence.map()`](https://www.hackingwithswift.com/articles/173/inside-the-standard-library-sequence-map).
+
+
+TIL where local `config` file for git is stored - it's `.git/config`. I expected it be just `.config` because global config is `~/.gitconfig`.
