@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "TIL local git config location"
+date:   2023-03-24 19:55:00 +0200
+categories: TIL, git, jq
+---
+From GitHub's [We updated our RSA SSH host key](https://github.blog/2023-03-23-we-updated-our-rsa-ssh-host-key/) TIL about `jq` - commandline JSON processor.
+
+```
+jq can transform JSON in various ways, by selecting, iterating, reducing and
+otherwise mangling JSON documents. For instance, running the command jq
+´map(.price) | add´ will take an array of JSON objects as input and return the
+sum of their "price" fields.
+
+Hung a bit in [Apple Swift issue #55222 SIMD generates bad code for string processing use-cases
+](https://github.com/apple/swift/issues/55222) looking on Godbolt for generated code. It's really looks bad. Would be interesting for experimenting if this code is faster then no-SIMD code.
