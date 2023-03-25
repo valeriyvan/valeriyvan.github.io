@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "TIL local git config location"
+title:  "TIL jq"
 date:   2023-03-24 19:55:00 +0200
-categories: TIL, git, jq
+categories: TIL, jq, Swift SIMD
 ---
 From GitHub's [We updated our RSA SSH host key](https://github.blog/2023-03-23-we-updated-our-rsa-ssh-host-key/) TIL about `jq` - commandline JSON processor.
 

@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "TIL local git config location"
+title:  "Tinkered with Swift code with simultaneous accesses to mutable struct"
 date:   2023-03-21 19:44:00 +0200
-categories: TIL, git, swift, Simultaneous accesses
+categories: TIL, git, Swift, Simultaneous accesses
 ---
 Came accross this [tweet](https://twitter.com/v_pradeilles/status/1638210113461964800?s=43&t=6rmSjK21fIpso2_vOjKRhg). I was sure code from tweet (below) will print all but `3` elements of array:
 ```swift
