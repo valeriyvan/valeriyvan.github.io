@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL"
+date:   2023-03-31 19:32:00 +0200
+categories: TIL, Swift
+---
+TIL [`@backDeployed` attribute was introduced in Swift 5.8](https://github.com/apple/swift-evolution/blob/main/proposals/0376-function-back-deployment.md). 
+
+From its swift evolution proposal, I've got what exactly `@_alwaysEmitIntoClient` attribute means (official documentation for it is a bit obscure):
+
+```swift
+While @_alwaysEmitIntoClient can be used to back deploy APIs, there are some drawbacks to using it. Since a copy of the function is always emitted, there is code size overhead for every client even if the client's deployment target is new enough that the library API would always be available at runtime. Additionally, if the implementation of the API were to change in order to improve performance, fix a bug, or close a security hole then the client would need to be recompiled against a new SDK before users benefit from those changes. 
+```
