@@ -11,3 +11,23 @@ From its swift evolution proposal, I've got what exactly `@_alwaysEmitIntoClient
 ```swift
 While @_alwaysEmitIntoClient can be used to back deploy APIs, there are some drawbacks to using it. Since a copy of the function is always emitted, there is code size overhead for every client even if the client's deployment target is new enough that the library API would always be available at runtime. Additionally, if the implementation of the API were to change in order to improve performance, fix a bug, or close a security hole then the client would need to be recompiled against a new SDK before users benefit from those changes. 
 ```
+
+TIL about `Clock` protocol introduced yet in Swift 5.7: [Clock, Instant, and Duration](https://www.hackingwithswift.com/swift/5.7/clock). This is cool:
+```swift
+let clock = ContinuousClock()
+
+let time = clock.measure {
+    // complex work here
+}
+
+print("Took \(time.components.seconds) seconds")
+```
+
+TIL Swift 5.8 changes Buffer API again: [Pointer Family Initialization Improvements and Better Buffer Slices](https://github.com/apple/swift-evolution/blob/main/proposals/0370-pointer-family-initialization-improvements.md). I find Swift's API for buffers manipulation verbose, difficult to remember, to often changed and slow. And this change doesn't improve it much.
+
+From [Swift evolution proposal Enable multi-statement closure parameter/result type inference](https://github.com/apple/swift-evolution/blob/main/proposals/0326-extending-multi-statement-closure-inference.md) I've got why closure parameter and return value inference so fragile in Swift prior to 5.8. Will see what changed in 5.8.
+```swift
+Multi-statement closures, unlike their single-statement counterparts, currently cannot propagate information, e.g. parameter and result types from their body, back to the enclosing context, because they are type-checked separately from the expression containing the closure. Information in such closures flows strictly in one direction - from the enclosing context into the body, and statement by statement from the top to the bottom of the closure.
+```
+
+TIL Swift implemented multiple trailing closure syntax: [Multiple Trailing Closures](https://github.com/apple/swift-evolution/blob/main/proposals/0279-multiple-trailing-closures.md). It will be released in Swift 6.
