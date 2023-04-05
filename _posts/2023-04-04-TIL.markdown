@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "TIL ChatGPT could give better results than organic search results"
+date:   2023-04-04 19:01:00 +0200
+categories: TIL, Google, ChatGPT
+---
+Reading [The Cassowary Linear Arithmetic Constraint Solving Algorithm](https://constraints.cs.washington.edu/solvers/cassowary-tochi.pdf) I was puzzled why Cassowary Algorithm is called such. So I googled for it. For the first time ChatGPT has given better result then organic search:
+![Search results screenshot](/assets/images/Знімок%20екрана%202023-04-04%20161805.png)
