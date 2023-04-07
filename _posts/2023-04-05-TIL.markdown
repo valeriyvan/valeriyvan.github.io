@@ -4,6 +4,6 @@ title:  "TIL how make Swift command line interactive"
 date:   2023-04-05 19:15:02 +0200
 categories: TIL, Swift
 ---
-[How to make an interactive picker for a Swift command-line tool](https://www.polpiella.dev/how-to-make-an-interactive-picker-for-a-swift-command-line-tool/).
+TIL [how to make an interactive picker for a Swift command-line tool](https://www.polpiella.dev/how-to-make-an-interactive-picker-for-a-swift-command-line-tool/).
 
 TIL Windows still has to be kind of hacked to accept ANSI sequences: [Windows console with ANSI colors handling](https://superuser.com/a/1300251/157142). I haven't been editing Widnows Registry for at least 20 years.
