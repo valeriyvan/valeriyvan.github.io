@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL how to Set PTR Records and Reverse DNS in Digital Ocean"
+date:   2021-02-27 19:18:00 +0200
+categories: TIL, DigitalOcean, DNS, Reverse DNS, PTR
+---
+[How to set up your own email server (russian)](https://habr.com/ru/post/544376/).
+
+Learned [How to Set PTR Records and Reverse DNS](https://serverpilot.io/docs/how-to-set-ptr-records-and-reverse-dns/) in DigitalOcean - it's just about renaming a droplet to a fully qualified domain name.
