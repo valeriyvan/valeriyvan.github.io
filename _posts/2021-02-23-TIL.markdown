@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "TIL a bit about Quick Look"
+date:   2021-02-23 19:48:00 +0200
+categories: TIL, Apple, QuickLook
+---
+Watched [Quick Look Previews from the Ground Up](https://developer.apple.com/videos/play/wwdc2018/237/). It's about iOS. But actually, same approach should work for macOS as well. [QuickLook](https://developer.apple.com/documentation/quicklook) works on both, iOS and macOS. [Previews or Thumbnail Images for macOS 10.14 or Earlier](https://developer.apple.com/documentation/quicklook/previews_or_thumbnail_images_for_macos_10_14_or_earlier).
+
+[What’s New in File Management and Quick Look](https://developer.apple.com/videos/play/wwdc2019/719).
+
+Here's correct way of creating temporary file for atomic document creation which will speed up following moving file to final location or deletion in multivolume environment:
+
+```swift
+do {
+	let tempURL = try FileManager.default.url(for: .itemReplacementDirectory, in: [.userDomainMask], appropriateFor: url, create: true) 
+} catch { // Handle error }
+
+```
