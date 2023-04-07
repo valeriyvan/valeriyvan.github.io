@@ -4,7 +4,7 @@ title:  "TIL how to catch exact exception in Swift"
 date:   2021-01-29 19:44:00 +0200
 categories: TIL, Swift, ArraySlice, TODO
 ---
-[Handling Cocoa Errors in Swift](https://developer.apple.com/documentation/swift/cocoa_design_patterns/handling_cocoa_errors_in_swift). Finally found out how to catch only specific errors when making file operations, e.g. not throw if file doesn't exist when deleting file:
+From [Handling Cocoa Errors in Swift](https://developer.apple.com/documentation/swift/cocoa_design_patterns/handling_cocoa_errors_in_swift) TIL, finally, how to catch only specific errors when making file operations, e.g. not throw if file doesn't exist when deleting file:
 
 ```swift
 do {
