@@ -1,0 +1,6 @@
+log2021FEB25.md
+
+[Any as AnyObject](https://forums.swift.org/t/any-as-anyobject/11182):
+
+> When trying to bridge an incompatible thing to Obj-C (such as the structure value or function value in your example), Swift will wrap the value in an opaque Obj-C compatible box that can be round tripped across the bridge.
+
