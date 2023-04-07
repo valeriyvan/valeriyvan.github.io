@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "TIL how make Swift command line interactive"
-date:   2023-04-07 19:22:00 +0200
-categories: TIL, Swift
+title:  "TIL how to make Swift on Windows for after Swift or Visuyal Studio update"
+date:   2023-04-07 15:13:00 +0200
+categories: TIL, Swift, Windows, SwiftUI
 ---
 Swift on Windows is bizarre. Updated Swift to 5.8 and Swift Package Manager stopped to work. I have openned [issue](https://github.com/apple/swift-package-manager/issues/6387).
 
@@ -24,3 +24,7 @@ Here are the steps.
 ![Знімок екрана 2023-04-07 100939](https://user-images.githubusercontent.com/1630974/230560442-1080cd80-1056-403c-9860-255ab5cc259c.png)
 
 After these steps `swift build` builds package normally.
+
+Bookmarking [repo for IceCubesApp iOS app](https://github.com/Dimillian/IceCubesApp), it's iOS client for Mastodon. It's quite big production app build with SwiftUI.
+
+Bookmarking [Building Large-Scale Apps with SwiftUI: A Guide to Modular Architecture](https://azamsharp.com/2023/02/28/building-large-scale-apps-swiftui.html).
