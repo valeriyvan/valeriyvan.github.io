@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL how to decode a JSON Field that Could Be String or Double with Swift"
+date:   2021-01-04 19:08:00 +0200
+categories: TIL, Swift, JSON, String, Double
+---
+Read [Decoding a JSON Field that Could Be String or Double with Swift](https://medium.com/swlh/decoding-a-json-field-that-could-be-string-or-double-with-swift-f6ea6a2babf8) of my colleague Luca Angeletti.
