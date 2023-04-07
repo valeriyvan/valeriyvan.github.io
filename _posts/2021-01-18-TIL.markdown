@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL how to setup Brother printer on Raspberry Pi"
+date:   2021-01-18 19:33:00 +0200
+categories: TIL, Brother, Raspberry Pi
+---
+Notes for future self how to setup Brother HL-L2300D on Raspberry pi:
+
+* https://pimylifeup.com/raspberry-pi-print-server/
+
+* above needed a driver https://medium.com/@alexanderbelov/how-to-use-your-brother-printer-with-cups-on-raspberry-pi-5b712cc2b4e6
