@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL how to Spot Toxic Software Jobs From Their Descriptions"
+date:   2020-08-26 14:40:00 +0200
+categories: TIL, Swift, ArraySlice, TODO
+---
+Bookmarking that [`ArraySlice` implementation in Swift has performance TODO](https://github.com/apple/swift/blob/f158e6afce7f87ea2a48f8fe2db0c014a875d556/stdlib/public/core/ArraySlice.swift#L998) which I could probably fix.
+
+Read extremely interesting and relevant post [How to Spot Toxic Software Jobs From Their Descriptions](https://medium.com/swlh/how-to-spot-toxic-software-jobs-from-their-descriptions-c53cf224417f).
