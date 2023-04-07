@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "TIL how make Swift command line interactive"
+date:   2023-04-07 19:22:00 +0200
+categories: TIL, Swift
+---
+Swift on Windows is bizarre. Updated Swift to 5.8 and Swift Package Manager stopped to work. I have openned [issue](https://github.com/apple/swift-package-manager/issues/6387).
+
+Documentation at https://www.swift.org/getting-started/ has paragraph how to repair:
+
+> Repairing after Visual Studio Updates
+> If Visual Studio is updated, you may have to repair the installation. See Microsoft’s [instructions](https://support.microsoft.com/en-us/windows/repair-apps-and-programs-in-windows-10-e90eefe4-d0a2-7c1b-dd59-949a9030f317) for repairing installed programs.
+
+It's not clear exactly what has to be "repaired" and how.
+
+Here are the steps.
+
+* Launch **Control Panel**.
+* In **Control Panel** launch **Programs and Features**.
+* In **Programs and Features** find **Swift Developer Package for Windows x86_64**.
+* Right click on **Swift Developer Package for Windows x86_64** and click **Change** in contectual menu.
+* In launched installer click **Repair** and follow instructions.
+
+![Знімок екрана 2023-04-07 100939](https://user-images.githubusercontent.com/1630974/230560442-1080cd80-1056-403c-9860-255ab5cc259c.png)
+
+After these steps `swift build` builds package normally.
