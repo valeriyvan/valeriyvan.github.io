@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL what exactly are meant by frameworks"
+date:   2021-03-07 19:01:00 +0200
+categories: TIL, Apple, Framework
+---
+TIL what exactly are meant by frameworks talking about Apple platforms: [Framework Programming Guide: What are Frameworks?](https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPFrameworks/Concepts/WhatAreFrameworks.html).
