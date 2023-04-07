@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL how to print git remote branches sorted by last commit date"
+date:   2021-03-03 19:22:00 +0200
+categories: TIL, git
+---
+One-liner for listing remote git branches sorted by the last commit date for each branch ([gist with source](https://gist.github.com/jasonrudolph/1810768)):
+
+```bash
+for branch in `git branch -r | grep -v HEAD`;do echo -e `git show --format="%ci %cr" $branch | head -n 1` \\t$branch; done | sort -r
+```
