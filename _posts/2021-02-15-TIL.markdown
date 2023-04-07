@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "TIL a lot about CRC32"
+date:   2021-02-15 18:17:00 +0200
+categories: TIL, CRC32, Intel, ARM, SIMD
+---
+Trying to use [ZIPFoundation Swift package](https://github.com/weichsel/ZIPFoundation), I came across this:
+
+> Note: There is a large performance discrepancy between Debug and Release builds of ZIP Foundation.
+The main performance bottleneck is the code that calculates CRC32 checksums. This codepath executes slowly when Swift optimizations are turned off (-Onone). To avoid long wait times when debugging code that extracts archives, the `skipCRC32` flag can be set. To learn more about the `skipCRC32` parameter, please refer to the documentation strings of the `Archive.extract` and `FileManager.unzipItem` methods. Skipping CRC32 checks should only be enabled during debugging.
+
+I look [`crc32(checksum:)`](https://github.com/weichsel/ZIPFoundation/blob/21b1d891afe06b83157c2f984b38833a196b5eab/Sources/ZIPFoundation/Data%2BCompression.swift#L93) implementation to figure out what's wrong with it.
+
+Firstly, I proposed PR: [Speed up crc32 calculation in performance test ~4 times](https://github.com/weichsel/ZIPFoundation/pull/209).
+
+I started to think about a way to speed up crc32 calculation even further, possibly used SIMD extensions.
+
+Have found [swift-crc32c](https://github.com/tbartelmess/swift-crc32c) swift package which uses SSE 4.2 instruction set if running on an Intel CPU that supports it.
+
+Failed to find something similar for ARM. But I have found this in linux [crc32-ce-glue.c: Accelerated CRC32(C) using ARM CRC, NEON and Crypto Extensions instructions](https://github.com/torvalds/linux/blob/fcadab740480e0e0e9fa9bd272acd409884d431a/arch/arm/crypto/crc32-ce-glue.c) and [crc32c-intel_glue.c: Using hardware provided CRC32 instruction to accelerate the CRC32 disposal](https://github.com/torvalds/linux/blob/fcadab740480e0e0e9fa9bd272acd409884d431a/arch/x86/crypto/crc32c-intel_glue.c).
+
+So there's some opensourced foundation for Swift package for hardware accelerated CRC32 for both Intel and ARM.
+
+This worth bookmarking [Ethernet CRC32 calculations](https://github.com/ARM-software/u-boot/blob/master/drivers/mtd/ubi/crc32.c). Includes brief CRC tutorial.
+
+This from Android worth bookmarking [crc32-arm64.c - CRC32 and CRC32C using optional ARMv8 instructions](https://android.googlesource.com/platform/external/linux-kselftest/+/d97034ccdf0a13ad86f00945df245bbaf0780478/arch/arm64/crypto/crc32-arm64.c).
+
+Zlib in Chromium include both ARMv8 and Intel [crc32_simd.c](https://chromium.googlesource.com/chromium/src/+/master/third_party/zlib/crc32_simd.c).
+
+This is interesting [Stackoverflow question: How to detect crc32 on aarch64](https://stackoverflow.com/questions/53965723/how-to-detect-crc32-on-aarch64).
+
+Interesting repo [validating Chromium's SIMD CRC](https://github.com/neurolabusc/simd_crc).
+
+And finally, this is pure gold [A PAINLESS GUIDE TO CRC ERROR DETECTION ALGORITHMS](http://ross.net/crc/download/crc_v3.txt) which might be useful in attempt to implement crc32 from scratch or in attempt understand and/or improve implementation from others.
+
+The best option would be implementing CRC32 package with Swift [SIMD Vector Types](https://developer.apple.com/documentation/swift/swift_standard_library/numbers_and_basic_values/simd_vector_types).
+
+Today's finding: ZIPFoundation's CRC32 is exactly what happening in [crc32.c](https://github.com/madler/zlib/blob/cacf7f1d4e3d44d871b605da3b647f07d718623f/crc32.c#L225). Precalculated table matches first part from [crc32.h](https://github.com/madler/zlib/blob/master/crc32.h) (precalculated with `crc32.c` file).
