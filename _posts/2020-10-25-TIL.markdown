@@ -1,0 +1,59 @@
+---
+layout: post
+title:  "Read Writing High-Performance Swift Code from Swift compiler"
+date:   2020-10-25 19:57:00 +0200
+categories: TIL, Swift, High-Performance
+---
+Read [Writing High-Performance Swift Code](https://github.com/apple/swift/blob/main/docs/OptimizationTips.rst) from Swift compiler. 
+
+Hm, `final` could by applied not only for classes but for methods and properties as well. Also `private` and `fileprivate` allow compiler infer `final`.
+
+Interesting (despite ineffective for copying) way representing trees:
+
+```swift
+protocol P {}
+struct Node: P {
+  var left, right: P?
+}
+
+struct Tree {
+  var node: P?
+  init() { ... }
+}
+```
+
+Brilliant idea to use `Array` as box just to benefit copy-on-write:
+
+```swift
+struct Tree: P {
+  var node: [P?]
+  init() {
+    node = [thing]
+  }
+}
+```
+
+And this `Box` can replace the array in the code sample above:
+
+```swift
+final class Ref<T> {
+  var val: T
+  init(_ v: T) {val = v}
+}
+
+struct Box<T> {
+    var ref: Ref<T>
+    init(_ x: T) { ref = Ref(x) }
+
+    var value: T {
+        get { return ref.val }
+        set {
+          if !isKnownUniquelyReferenced(&ref) {
+            ref = Ref(newValue)
+            return
+          }
+          ref.val = newValue
+        }
+    }
+}
+```
