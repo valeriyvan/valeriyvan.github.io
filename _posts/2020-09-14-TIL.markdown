@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL difference between `class` and `static` members in Swift; what is redacted view"
+date:   2020-09-14 19:20:00 +0200
+categories: TIL, Swift, class, static
+---
+Watched Point Free episode #115 [█████ed SwiftUI: The Problem](https://www.pointfree.co/episodes/ep115-redacted-swiftui-the-problem). Very interesting. Now I know what is redacted view.
+
+Today I was asked about `class` and `static` members in Swift and the difference. I didn't know about the difference. That why I checked that after interview. [What’s the difference between a `static` variable and a `class` variable?](https://www.hackingwithswift.com/example-code/language/whats-the-difference-between-a-static-variable-and-a-class-variable):
+
+> Where `static` and `class` differ is how they support inheritance: When you make a `static` property it becomes owned by the class and cannot be changed by subclasses, whereas when you use class it may be overridden if needed.
