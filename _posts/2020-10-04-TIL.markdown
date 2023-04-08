@@ -1,0 +1,3 @@
+log2020OCT04.md
+
+Read [What's wrong with Raspbery Pi](https://habr.com/ru/post/440584/). Learned that on Raspberry Pi firstly proprietary realtime OS [ThreadX](https://en.wikipedia.org/wiki/ThreadX) loads on GPU (!) which then loads Linux on CPU. And Linux is the second class citizen on the planform. Throttling, powermanagement is controlled by ThreadX, not Linux. That was eyeopenner. Also eyeopenner is fact that ThreadX belongs to Microsoft now according to Wikipedia.
