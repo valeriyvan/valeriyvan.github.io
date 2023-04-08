@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "TIL state of Swift for WebAssembly; Generators in Swift"
+date:   2020-09-25 19:17:00 +0200
+categories: TIL, Webassembly, Swift
+---
+Read Max Desiatov post [The state of Swift for WebAssembly in 2020 (and earlier)](https://desiatov.com/swift-webassembly-2020/). Learned that [asm.js](https://en.wikipedia.org/wiki/Asm.js) was superseeded by [WebAssembly (often shortened to Wasm)](https://en.wikipedia.org/wiki/WebAssembly).
+
+TODO: Xcode sucks to fix this:
+
+```Objective-C
+CGSize size = [self.valueLabel.text sizeWithFont:self.valueLabel.font
+                               constrainedToSize:CGSizeMake(self.valueLabel.frame.size.width, MAXFLOAT)
+                                   lineBreakMode:NSLineBreakByWordWrapping];
+```
+
+Read [How do closures and callbacks work? It's turtles all the way down](https://desiatov.com/closures),
+[Event loops, building smooth UIs and handling high server load](https://desiatov.com/event-loops), [](https://desiatov.com/event-loops), [What are generators and why Swift needs them?](https://desiatov.com/swift-generators). The idea of Generator is brilliant. I remember being confused seeing `yeild` in Python code. Read [Coroutines and “yield” expressions in Swift](https://desiatov.com/swift-coroutines). 
