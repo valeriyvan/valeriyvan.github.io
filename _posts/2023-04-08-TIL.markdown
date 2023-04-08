@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL how to make several blank lines in markdown"
+date:   2023-04-08 19:37:00 +0200
+categories: TIL, markdown
+---
+TIL how to make [several blank lines in markdown](https://stackoverflow.com/a/72336296/942513). Following will create three blank lines.
+
+```
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+```
