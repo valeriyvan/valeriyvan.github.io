@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Watched a bunch of Tips and Tricks in Cocoacast"
+date:   2020-09-12 19:25:00 +0200
+categories: TIL, Xcode, Build Configurations
+---
+Watched Building Reactive Applications With Combine [What Is Reactive Programming](https://cocoacasts.com/building-reacting-applications-with-combine-what-is-reactive-programming), then [Combine First-Class Functions and Function Types](https://cocoacasts.com/building-reacting-applications-with-combine-first-class-functions-and-function-types) and [Pure Functions and Higher-Order Functions](https://cocoacasts.com/building-reacting-applications-with-combine-pure-functions-and-higher-order-functions). Nothing new in either.
+
+Watched Tips and Tricks: [Removing String Literals](https://cocoacasts.com/tips-and-tricks-removing-string-literals), then [Using a Branching Strategy That Works](https://cocoacasts.com/tips-and-tricks-using-a-branching-strategy-that-works). Nothing new in both.
+
+Watched Tips and Tricks: [Using didSet Property Observers to Configure Outlets](https://cocoacasts.com/tips-and-tricks-using-didset-property-observers-to-configure-outlets). Completely makes sense!
+
+Watched [Why You Should Default to Private Outlets](https://cocoacasts.com/tips-and-tricks-why-you-should-default-to-private-outlets). Obvious.
+
+Watched [Five Simple Tips to Improve the Code You Write](https://cocoacasts.com/tips-and-tricks-five-simple-tips-to-improve-the-code-you-write). The first tip suggesting using switch instead of if statement with boolean condition I find stupid. The rest tips make sense.
+
+Watched [Ten Xcode Tricks Every Developer Should Know](https://cocoacasts.com/tips-and-tricks-ten-xcode-tricks-every-developer-should-know). Tip of showing callers in assistant editor is useful.
+
+Watched [Managing Build Configurations in Xcode](https://cocoacasts.com/tips-and-tricks-managing-build-configurations-in-xocde). This is extremely useful! 
