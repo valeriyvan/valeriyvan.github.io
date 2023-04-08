@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read Benchmarking Xcode Performance on a large Swift Project"
+date:   2020-10-16 19:31:00 +0200
+categories: TIL, Xcode, Swift, Benchmarking
+---
+Read [Benchmarking Xcode Performance on a large Swift Project. iMac, MacBook, iMac Pro compared](https://maximeremenko.com/benchmarking-xcode-performance-using-swift-imac-macbook-comparison). Comparison is curious. Conclusion that size of memory, 16Gb, 32Gb or 64Gb isn't that important also curious.
