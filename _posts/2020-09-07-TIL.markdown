@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Watched Mastering MVVM With Swift, What Are Self-Executing Closures Tips and Tricks"
+date:   2020-09-07 19:59:00 +0200
+categories: TIL, Swift, C
+---
+Watched [Mastering MVVM With Swift: How Does the Model-View-ViewModel Pattern Work](https://cocoacasts.com/how-does-mvvm-work).
+
+Learned what is called self executing closure [Tips and Tricks:
+What Are Self-Executing Closures](https://cocoacasts.com/tips-and-tricks-what-are-self-executing-closures). Sure, concept isn't new. I just haven't known how it's called. But some ideas of how it could be used are new.
+
+Came across [Writing A Generic Stable Sort](https://airspeedvelocity.net/2016/01/10/writing-a-generic-stable-sort/). I feel I was already there.
+
+Digging in Swift stdlib sources have found how `UTF8` is accessible despite it's declared in `Unicode`:
+
+```
+public typealias UTF8 = Unicode.UTF8
+public typealias UTF16 = Unicode.UTF16
+public typealias UTF32 = Unicode.UTF32
+```
