@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL abount Danger for Swift"
+date:   2020-09-18 19:34:00 +0200
+categories: TIL, Swift, Danger, Git, PR reviews
+---
+Learned about [Danger](https://danger.systems/swift/) which could automatically improve PR reviews. 
+
+Read [Getting started with GitHub Sponsors](https://github.blog/2020-03-24-getting-started-with-github-sponsors/). Applied from here [Fund your work. Build what matters.](https://github.com/sponsors). Now my profiles waits for approval. Applying took less then an hour.
+
+Bookmarking [The Complete Guide to iOS and Swift Job Interviews](https://www.hackingwithswift.com/articles/157/the-complete-guide-to-ios-and-swift-job-interviews).
