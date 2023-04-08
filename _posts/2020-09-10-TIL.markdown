@@ -27,6 +27,7 @@ enum Foo {
 print(MemoryLayout<Foo>.size) // 1
 print(MemoryLayout<Foo?>.size) // also 1: `nil` is represented as one of the 254 bit patterns that are not used by `Foo.A` or `Foo.B`.
 ```
+&nbsp;<br>
 
 > Swift's integer and floating point types have fixed size, alignment and stride across platforms, with two exceptions: Int and UInt.
 
