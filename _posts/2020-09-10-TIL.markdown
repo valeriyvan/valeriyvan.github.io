@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "TIL how Swift imports C APIs"
+date:   2020-09-10 19:18:00 +0200
+categories: TIL, Swift, C
+---
+Read Swift's [How Swift imports C APIs](https://github.com/apple/swift/blob/master/docs/HowSwiftImportsCAPIs.md). This is new for me:
+
+> C (and C++) permit non-ASCII Unicode code points in identifiers.
+
+> In C, every type has a size (computed with the `sizeof` operator), and an alignment (computed with `alignof`).
+
+I missed existence of `alignof`. Curious since when it exists.
+
+> Swift tracks the exact size of the data stored in a type so that it can pack additional data into bytes that otherwise would be wasted as padding. Swift also tracks possible and impossible bit patterns for each type, and reuses impossible bit patterns to encode more information.
+
+This example is interesting:
+
+``` Swift
+// This enum takes 1 byte in memory, which has 256 possible bit patterns.
+// However, only 2 bit patterns are used.
+enum Foo {
+  case A
+  case B
+}
+
+print(MemoryLayout<Foo>.size) // 1
+print(MemoryLayout<Foo?>.size) // also 1: `nil` is represented as one of the 254 bit patterns that are not used by `Foo.A` or `Foo.B`.
+```
+
+> Swift's integer and floating point types have fixed size, alignment and stride across platforms, with two exceptions: Int and UInt.
+
+This 👆🏻 is not new, but for the fist time I see this so clearly and briefly formulated.
+
+Hm, from table of matching C/C++ and Swift types I see possible problem. E.g. C's `short`, `signed short` match to Swift's `typealias CShort = Int16`. That might be problematic as C guarantees only that size of `int` is greater or equal to the size of `short`. So might be cases when C's `short` values doesn't fit into Swift's matching `CShort`. So might exist valid portable C code which can't work properly with Swift. TODO: check if Swift has diagnostic about this.
+
+It has so good explanation matching C and Swift pointer types!!! The best I have seen so far! I will refer and use it!
+
+It's completely new for me how plain C `enum`'s are imported into Swift - as `struct`'s! And only if C's `enum`'s are annotated with Clang's `__attribute__((enum_extensibility(closed)))` or `__attribute__((enum_extensibility(open)))` they are imported into Swift as `enum`'s. Objective-C enums declared with `NS_ENUM` were assumed to have "enum nature" and were imported as Swift `enum`'s.
