@@ -21,6 +21,7 @@ if let url = URL(string: "/url/to/image") {
  let contents1 = try? URL(string: "/url/to/image").flatMap(String.init(contentsOf:))
 ```
 
+
 ```swift
 let image: UIImage?
 if let url = URL(string: "https://apple.com/favicon.ico"),
@@ -38,5 +39,6 @@ let image1 = URL(string: "https://apple.com/favicon.ico")
 // flatMap usage is like that because otherwise compiler is not smart enough to use `Data(contentsOf:options)`
 // with default second parameter.
 ```
+
 
 TODO: write to swift forums question if this could be emproved in Swift.
