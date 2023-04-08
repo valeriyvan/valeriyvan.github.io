@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL C++ isn't fast"
+date:   2020-09-24 19:01:00 +0200
+categories: TIL, C++
+---
+Bookmarking blogpost [Is C++ fast?](https://zeux.io/2019/01/17/is-c-fast/) to show to thous who claims C++ is as fast as C.
