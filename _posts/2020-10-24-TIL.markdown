@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "TIL `dynamic` in Swift; what Thunk means in computer programming"
+date:   2020-10-24 19:22:00 +0200
+categories: TIL, Swift, dynamic, Thunk
+---
+Read [What Does the Dynamic Keyword Mean in Swift 3](https://cocoacasts.com/what-does-the-dynamic-keyword-mean-in-swift-3) about static, virtual and dynamic dispatch in Swift. Still, I don't get difference between `@objc` and `dynamic`. I know that `dynamic` implies `@objc`. And I don't know what's the difference between the two.
+
+Ok. Above post was a little outdated. From newer one [`@objc` and `dynamic`](https://swiftunboxed.com/interop/objc-dynamic/) `dynamic` iplied `@objc` pre Swift 4. 
+
+> Here’s the least you need to remember:
+
+> * `@objc` makes things visible to Objective-C code. You might need this for setting up target/action on buttons and gesture recognizers.
+
+> `dynamic` opts into dynamic dispatch. You might need this for KVO support or if you‘re doing method swizzling.
+The only way to do dynamic dispatch currently is through the Objective-C runtime, so you must add `@objc` if you use `dynamic`.
+
+Learnt what [Thunk](https://en.wikipedia.org/wiki/Thunk) is:
+
+> In computer programming, a thunk is a subroutine used to inject an additional calculation into another subroutine.
