@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL storing loaded images with NSCache and NSURLCache in Swift; Network Link Conditioner on macOS; how to print all characters from CharacterSet"
+date:   2020-09-28 19:59:00 +0200
+categories: TIL, Swift, NSCache, NSURLCache, CharacterSet, Network Link Conditioner
+---
+Watched [Swift: Loading Images Asynchronously and storing with NSCache and NSURLCache](https://www.youtube.com/watch?v=BIgqHLTZ_a4). I didn't know Link Conditioner exists for macOS. I always used one in OS. Also I have never used NSURLCache. I only used NSCache previously.
+
+Read NSHipster's [Network Link Conditioner](https://nshipster.com/network-link-conditioner/).
+
+Read NSHipster's [As We May Code](https://nshipster.com/as-we-may-code/). Understood nothing. Then read [Cross-Pollination](https://nshipster.com/cross-pollination/) where also understood very little.
+
+Read [Understanding Swift’s `CharacterSet`](https://medium.com/livefront/understanding-swifts-characterset-5a7a89a32b54). It's brilliant! Has a code to print all characters from any character set. It's eye opener to print out `CharacterSet.decimalDigits`. That's what I always wanted to point my colleagues.
