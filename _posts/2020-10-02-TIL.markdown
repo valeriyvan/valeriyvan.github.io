@@ -1,0 +1,6 @@
+log2020OCT02.md
+
+Read about different ways of [reading/writing GPIO on Linux](https://www.kernel.org/doc/html/v4.17/driver-api/gpio/index.html). 
+
+As I get now [SwiftyGPIO.swift](https://github.com/uraimo/SwiftyGPIO/blob/master/Sources/SwiftyGPIO.swift) is [this code](https://developer.ridgerun.com/wiki/index.php?title=Gpio-int-test.c) ported to Swift.
+
