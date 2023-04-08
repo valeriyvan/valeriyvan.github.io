@@ -13,7 +13,7 @@ CGSize size = [self.valueLabel.text sizeWithFont:self.valueLabel.font
                                constrainedToSize:CGSizeMake(self.valueLabel.frame.size.width, MAXFLOAT)
                                    lineBreakMode:NSLineBreakByWordWrapping];
 ```
-
+&nbsp;<br>
 
 Read [How do closures and callbacks work? It's turtles all the way down](https://desiatov.com/closures),
 [Event loops, building smooth UIs and handling high server load](https://desiatov.com/event-loops), [](https://desiatov.com/event-loops), [What are generators and why Swift needs them?](https://desiatov.com/swift-generators). The idea of Generator is brilliant. I remember being confused seeing `yeild` in Python code. Read [Coroutines and “yield” expressions in Swift](https://desiatov.com/swift-coroutines). 
