@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "TIL unsafelyUnwrapped in Swift"
+date:   2020-09-11 19:51:00 +0200
+categories: TIL, Swift, unsafelyUnwrapped
+---
+Watched [WWDC 2020 session video Unsafe Swift](https://developer.apple.com/videos/play/wwdc2020/10648). Learned:
+
+* `unsafelyUnwrapped` exists and could be used like: `print(optionalInt.unsafelyUnwrapped)`. In optimised builds it doesn't check optional for being not nil like force unwrap is doing. In debug builds it behaves like force unwrap.
+
+* in most cases `withUnsafeMutablePointer` and alike are not needed when interoperating with C APIs. Swift arrays and strings could be used directly, - compiler generates necessary code. I havn't known that.
+
+Watched [WWDC 2020 session video Safely manage pointers in Swift](https://developer.apple.com/videos/play/wwdc2020/10167/?time=1212).
+
+Read [Guarantee (in-memory) tuple layout…or don’t](https://forums.swift.org/t/guarantee-in-memory-tuple-layout-or-dont/40122).
+
+Read [What’s new in CryptoKit](https://developer.apple.com/news/?id=3bwfq45y).
+
+Watched Apple's employee talk at dotSwift 2020 [Cryptography in Swift](https://www.dotconferences.com/2020/02/cory-benfield-cryptography-in-swift). TL;DR: it's about [Swift Crypto](https://github.com/apple/swift-crypto) which is opensource implementation of closedsource CryptoKit.
+
+Read Peter Steinberger's blog post [Logging in Swift](https://steipete.com/posts/logging-in-swift/). Mostly about accessing log from device programmatically on iOS 14.
+
+Browsed [Introducing Swift Cluster Membership](https://swift.org/blog/swift-cluster-membership/). Great that Swift is get widely used on server side!
