@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "TIL how to restore deleted branch in git and some comprehenses of `git stash`"
+date:   2020-11-22 18:45:00 +0200
+categories: TIL, git
+---
+Learned [how to restore deleted branch in git](https://stackoverflow.com/questions/3640764/can-i-recover-a-branch-after-its-deletion-in-git):
+
+1. Find the SHA1 for the commit at the tip of deleted branch running `git reflog --no-abbrev`;
+
+2. Recreate branch running `git checkout -b <branch> <sha>`.
+
+Learned some comprehenses of `git stash`:
+
+* `git stash save “Your stash message”` allow give message to your stash
+
+* `git stash save -u` or `git stash save --include-untracked` stashes untracked files
+
+* `git stash apply stash@{1}` applies specific stash
+
+* `git stash pop` applies the most recent stash and removes it. Could also be run with specific stash `git stash pop stash@{1}`
+
+* `git stash show` shows summary of stash diffs. `git stash show -p` shows full diff. Could be run with specific stash `git stash show stash@{1}`.
+
+* `git stash branch <name> stash@{1}` creates a new branch with the latest stash, and then deletes the latest stash (like `stash pop`).
+
+* `git stash clear` removes all sashes in repo.
+
+* `git stash drop` removes most top stash without applying it. `git stash drop stash@{1}` removes specific stash.
+ 
