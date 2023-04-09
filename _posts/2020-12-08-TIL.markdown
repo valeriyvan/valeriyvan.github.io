@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL about Swift Struct Storage"
+date:   2020-12-11 17:30:00 +0200
+categories: TIL, Swift
+---
+Read Mike Ash's [Friday Q&A 2016-01-29: Swift Struct Storage](https://www.mikeash.com/pyblog/friday-qa-2016-01-29-swift-struct-storage.html).
