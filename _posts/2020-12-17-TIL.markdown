@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "TIL a lot about Swift Packages and Binary Frameworks"
+date:   2020-12-17 18:33:00 +0200
+categories: TIL, SwiftPM, Local Packages
+---
+Read [Migrate Your iOS Project From CocoaPods To Swift Package Manager](https://medium.com/macoclock/migrate-your-ios-project-from-cocoapods-to-swift-package-manager-c7781a4bc172) presents a process to migrate iOS projects to Swift Package Manager fully.
+
+Read [Binary Frameworks as Swift Packages](https://pspdfkit.com/blog/2020/binary-frameworks-as-swift-packages/)
+
+> in this article, we’ll cover both how to integrate a binary Swift package into your project and how we created a binary Swift package using Xcode 12. We’ll also discuss how Swift Package Manager compares to the other dependency managers for iOS like CocoaPods and Carthage. 
+
+Read [Supporting XCFrameworks](https://pspdfkit.com/blog/2020/supporting-xcframeworks/) 
+
+Watched [WWDC 2019 session video Binary Frameworks in Swift](https://developer.apple.com/videos/play/wwdc2019/416/) introducing XCFramework.
