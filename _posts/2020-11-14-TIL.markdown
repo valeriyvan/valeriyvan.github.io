@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Read Create a React- and SwiftUI-Inspired Web App With Swift for WebAssembly on MacOS With SwiftWasm"
+date:   2020-11-14 18:55:00 +0200
+categories: TIL, Swift, WebAssembly
+---
+Working on simulator for SenseHat I have read [Create a React- and SwiftUI-Inspired Web App With Swift for WebAssembly on MacOS With SwiftWasm](https://medium.com/better-programming/create-a-react-and-swiftui-inspired-web-app-with-swift-for-webassembly-on-macos-with-swiftwasm-7741491b2886).
+
+[SwiftWasm Documentation](https://book.swiftwasm.org) is available. Open sourced.
