@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "TIL `FileManager.default.displayName(atPath: url.path)` for displaying name of file/folder to the user"
+date:   2020-11-07 18:20:00 +0200
+categories: TIL, FileManager
+---
+From [NSHipster](https://nshipster.com/filemanager/) learned:
+
+> Long story short, when displaying the name of a file or directory to the user, don’t simply take the last path component. Instead, call the method `displayName(atPath:)`:
+
+```swift
+// Bad
+let filename = directoryURL.pathComponents.last
+
+// Good
+let filename = FileManager.default.displayName(atPath: url.path)
+```
