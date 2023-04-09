@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read GitHub Actions for iOS projects"
+date:   2020-12-22 19:42:00 +0200
+categories: TIL, GitHub Actions
+---
+Read [GitHub Actions for iOS projects](https://leenarts.net/2020/02/12/github-actions-for-ios-projects/).
