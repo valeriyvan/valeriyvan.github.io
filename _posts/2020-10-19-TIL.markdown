@@ -4,12 +4,8 @@ title:  "Watched Mike Ash'es talk Exploring Swift Memory Layout"
 date:   2020-10-19 19:48:00 +0200
 categories: TIL, Swift, Memory Layout
 ---
-Watched (quite old) Mike Ash'es talk [Exploring Swift Memory Layout](https://academy.realm.io/posts/goto-mike-ash-exploring-swift-memory-layout/).
-
-`mach_vm_read_overwrie`
-
-`malloc_size`
-
-`dladdr`
-
-44:00 swizzling possible
+Watched (quite old) Mike Ash'es talk [Exploring Swift Memory Layout](https://academy.realm.io/posts/goto-mike-ash-exploring-swift-memory-layout/). Interesting points:
+* `mach_vm_read_overwrite`
+* `malloc_size`
+* `dladdr`
+* 44:00 swizzling possible
