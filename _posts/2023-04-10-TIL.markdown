@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL about GitHub 3D easter egg"
+date:   2023-04-10 19:20:00 +0200
+categories: TIL, GitHub, Easter egg, 3D, STL
+---
+TIL about interesting [GitHub easter egg - contribution graph represented in 3D](https://skyline.github.com/valeriyvan/2023) which is even possible to download as `.STL` file and 3D-print. This could be very nice birthday or new year present.
+
+Bookmarking [10 Standout GitHub Profile READMEs](https://dev.to/github/10-standout-github-profile-readmes-h2o). Hit Counter. Online games. Dynamically rendered SVGs. Self-updating READMEs. Animating GIFs. A lot of ideas could be implemented with this.
+
+Read cool story [Developer Spotlight: Porting Graphing Calculator from C++ to Swift](https://www.swift.org/blog/graphing-calculator/) in Swift blog about porting big C++ code base into Swift. This is available as [macOS app](https://apps.apple.com/us/app/graphing-calculator-4/id522175477?mt=12) and [iOS app](https://apps.apple.com/us/app/pacific-tech-graphing-calculator/id1135478998?ls=1).
