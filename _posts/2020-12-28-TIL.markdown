@@ -4,6 +4,6 @@ title:  "TIL about ARUCO markers; how to launch built in Python IDE named IDLE"
 date:   2020-12-28 19:20:00 +0200
 categories: TIL, ARUCO, Python, IDLE, IDE
 ---
-Watched video [PRECISION LANDING | with OPENCV and ARUCO Markers | Part 1](https://www.youtube.com/watch?v=wlT_0fhGrGg) and [https://www.youtube.com/watch?v=iezU2PR0hBk](https://www.youtube.com/watch?v=iezU2PR0hBk).
+Watched video [PRECISION LANDING &#124; with OPENCV and ARUCO Markers &#124; Part 1](https://www.youtube.com/watch?v=wlT_0fhGrGg) and [https://www.youtube.com/watch?v=iezU2PR0hBk](https://www.youtube.com/watch?v=iezU2PR0hBk).
 
 Learned that Python has its own built in IDE named IDLE. To launch it, first, python interpreter sholuld be launched, then in it `import idlelib.idle` triggers IDLE launching.
