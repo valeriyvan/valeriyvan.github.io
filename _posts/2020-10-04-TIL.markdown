@@ -1,3 +1,7 @@
-log2020OCT04.md
-
-Read [What's wrong with Raspbery Pi](https://habr.com/ru/post/440584/). Learned that on Raspberry Pi firstly proprietary realtime OS [ThreadX](https://en.wikipedia.org/wiki/ThreadX) loads on GPU (!) which then loads Linux on CPU. And Linux is the second class citizen on the planform. Throttling, powermanagement is controlled by ThreadX, not Linux. That was eyeopenner. Also eyeopenner is fact that ThreadX belongs to Microsoft now according to Wikipedia.
+---
+layout: post
+title:  "TIL ThreadX proprietary realtime OS launches on Raspberry Pi before Linux"
+date:   2020-10-04 19:00:00 +0200
+categories: TIL, Linix, GPIO
+---
+Read [What's wrong with Raspberry Pi](https://habr.com/ru/post/440584/). Learned that on Raspberry Pi firstly proprietary realtime OS [ThreadX](https://en.wikipedia.org/wiki/ThreadX) loads on GPU (!) which then loads Linux on CPU. And Linux is the second class citizen on the platform. Throttling, power management is controlled by ThreadX, not Linux. That was eyeopener. Also eyeopener is fact that ThreadX belongs to Microsoft now according to Wikipedia.
