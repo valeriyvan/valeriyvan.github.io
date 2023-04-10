@@ -4,4 +4,4 @@ title:  "Read Readdle's Swift for Android"
 date:   2020-10-15 19:29:00 +0200
 categories: TIL, Swift, Android
 ---
-Read Readdle's [Swift for Android: Our Experience and Tools](https://blog.readdle.com/why-we-use-swift-for-android-db449feeacaf). Apple's post [Introducing Swift on Windows](https://swift.org/blog/swift-on-windows/) refers Readdle as early adopters.
+Read Readdle's [Swift for Android: Our Experience and Tools](https://readdle.com/blog/swift-for-android-our-experience-and-tools). Apple's post [Introducing Swift on Windows](https://swift.org/blog/swift-on-windows/) refers Readdle as early adopters.
