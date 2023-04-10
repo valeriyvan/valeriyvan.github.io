@@ -1,3 +1,7 @@
-log2020NOV03.md
-
-Today I am scratching my head with rotating image on arbitrary angle. Something which look easy from first look isn't that easy at all. Here's good explanation about how artifacts appear during rotation and how to avoid them [Rotating Images](http://datagenetics.com/blog/august32013/index.html). Nice wiki article gives introduction to rotation matrix [Rotation matrix](https://en.wikipedia.org/wiki/Rotation_matrix). This oldfashioned site [Leptonica](http://www.leptonica.org/) has nice section [Rotation](http://www.leptonica.org/rotation.html) which explains Rotation by Area Mapping.
+---
+layout: post
+title:  "TIL how to rotate images and matrices"
+date:   2020-11-03 19:22:00 +0200
+categories: TIL, Rotate image, Rotate Matrix
+---
+Today I have been scratching my head with rotating image on arbitrary angle. Something which looked easy from first look isn't that easy at all. Here's good explanation about how artifacts appear during rotation and how to avoid them [Rotating Images](http://datagenetics.com/blog/august32013/index.html). Nice wiki article gives introduction to rotation matrix [Rotation matrix](https://en.wikipedia.org/wiki/Rotation_matrix). This oldfashioned site [Leptonica](http://www.leptonica.org/) has nice section [Rotation](http://www.leptonica.org/rotation.html) which explains Rotation by Area Mapping.
