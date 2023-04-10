@@ -6,6 +6,6 @@ categories: TIL, SwiftPM, C, Swift, Library
 ---
 Learned [Making a C library available in Swift using the Swift Package Manager](https://rderik.com/blog/making-a-c-library-available-in-swift-using-the-swift-package/).
 
-[Modules in llvm](http://clang.llvm.org/docs/Modules.html).
+Read [Modules in llvm](http://clang.llvm.org/docs/Modules.html).
 
-SwiftPM's [Usage](https://github.com/apple/swift-package-manager/blob/main/Documentation/Usage.md) is quite detailed. [Creating C Language Targets](https://github.com/apple/swift-package-manager/blob/main/Documentation/Usage.md#creating-c-language-targets) section helped me.
+Read SwiftPM's [Usage](https://github.com/apple/swift-package-manager/blob/main/Documentation/Usage.md) which us surprisingly detailed. [Creating C Language Targets](https://github.com/apple/swift-package-manager/blob/main/Documentation/Usage.md#creating-c-language-targets) section helped me.
