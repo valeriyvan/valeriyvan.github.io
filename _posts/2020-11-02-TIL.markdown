@@ -4,4 +4,4 @@ title:  "Read My Swift Package Manager Release Workflow"
 date:   2020-11-02 18:13:00 +0200
 categories: TIL, SwiftPM
 ---
-Bookmarking [My Swift Package Manager Release Workflow](https://josephduffy.co.uk/posts/my-swiftpm-release-workflow). Soon I will need this.
+Bookmarking [My Swift Package Manager Release Workflow](https://josephduffy.co.uk/posts/my-swiftpm-release-workflow). It's about workflows for [GitHub actions](https://github.com/features/actions): one is the tests workflow which runs on every commit and another is the release workflow which is triggered by the creation of a git tag that starts with a `v`.
