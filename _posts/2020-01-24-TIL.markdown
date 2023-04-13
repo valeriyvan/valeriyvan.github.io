@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "TIL in Swift `unsafeBitCast(_:to:)`, `type(of:)`, `withoutActuallyEscaping(_:do:)`, 'OpaquePointer', `MemoryLayout`, `offset(of:)`, `AutoreleasingUnsafeMutablePointer`"
+date:   2020-01-24 19:24:00 +0200
+categories: TIL, Swift, C, unsafeBitCast, withoutActuallyEscaping, OpaquePointer, MemoryLayout, offset, AutoreleasingUnsafeMutablePointer
+---
+While exploring pointer stuff in Swift read about [`unsafeBitCast(_:to:)`](https://developer.apple.com/documentation/swift/1641250-unsafebitcast) but acually I read declarations inside Xcode. As always it's extremely interesting to read in Swift source code in Xcode because there you always see real declarations along with related stuff.
+
+Then jumped to [`type(of:)`](https://developer.apple.com/documentation/swift/2885064-type) where I barely understood second part about generic context.
+
+Then jumped to [`withoutActuallyEscaping(_:do:)`](https://developer.apple.com/documentation/swift/2827967-withoutactuallyescaping).
+
+Then jumped to ['OpaquePointer'](https://developer.apple.com/documentation/swift/opaquepointer). That's simple:
+
+> Opaque pointers are used to represent C pointers to types that cannot be represented in Swift, such as incomplete struct types.
+
+Then jumpled to [`MemoryLayout`](https://developer.apple.com/documentation/swift/memorylayout). Everything is clear but this is a little obscure:
+
+> Always use a multiple of a type's `stride` instead of its `size` when allocating memory or accounting for the distance between instances in memory. 
+
+Hm, I didn't know that  type's `alignment` should be used when allocating memory using an unsafe pointer. But when accessing memory `stride` should be used.
+
+And [`offset(of:)`](https://developer.apple.com/documentation/swift/memorylayout/2996397-offset) is something I don't fully understand.
+
+Found out strange thing which I have never met in wild [`AutoreleasingUnsafeMutablePointer`](https://developer.apple.com/documentation/swift/autoreleasingunsafemutablepointer):
+
+> This type has implicit conversions to allow passing any of the following to a C or ObjC API:
+
+* `nil`, which gets passed as a null pointer,
+
+* an inout argument of the referenced type, which gets passed as a pointer to a writeback temporary with autoreleasing ownership semantics,
+
+* an `UnsafeMutablePointer<Pointee>`, which is passed as-is.
