@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "TIL how to persist business logic with Swift Combine"
+date:   2020-02-05 19:05:00 +0200
+categories: TIL, Swift, Swift Combine
+---
+Read [From ground to FPV drone: introduction (russian)](https://habr.com/ru/post/486076/). Will return to it later.
+
+Todo: I should definitely create playground for various pointers:
+
+```
+Swift                               C
+UnsafePointer<T>              const T&ast;
+
+UnsafeRawPointer              const void&ast;
+
+UnsafeMutablePointer<T>          T&ast;
+
+UnsafeMutableRawPointer          void&ast;
+
+UnsafeMutableBufferPointer
+```
+
+Read [Control UI with gestures (Keras + CoreML)(russian)](https://habr.com/ru/post/487158/). Simple guide. I should follow it.
+
+Bookmarking [Persist Business Logic With Swift Combine](https://medium.com/better-programming/persist-business-logic-with-swift-combine-519efb3a7e37).
