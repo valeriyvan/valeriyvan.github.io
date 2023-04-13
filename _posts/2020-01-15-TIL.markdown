@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL object initialization in Objective-C"
+date:   2020-01-15 19:15:00 +0200
+categories: TIL, Objective-C
+---
+Today I had to write convinience initializer for `MLMultiArray`. I thought that dealing with memory buffers and pointers will be in Objective-C. But I forgot how to do it. What signature should be? Should I annotate `instancetype` with `__nullable` for failing initializer? What about calling `super`? Do I have to call `super` if I assign new instance to `self`. So I googled for help.  [What does it mean when you assign `[super init]` to self?](https://www.cocoawithlove.com/2009/04/what-does-it-mean-when-you-assign-super.html) - ten years old post by Matt Gallagher. Interesting updated conclusion at the end:
+
+> Update: I have rewritten this conclusion to reflect the fact that I'm not actually suggesting you should stop using "assign [super init] to self" initializers. Thank you to everyone who invented creative ways to tell me I was wrong about this implication.
+
+Read [Object Initialization](https://developer.apple.com/library/archive/documentation/General/Conceptual/CocoaEncyclopedia/Initialization/Initialization.html#//apple_ref/doc/uid/TP40010810-CH6-SW58) chapter in Apple's Concepts in Objective-C Programming documentation.
