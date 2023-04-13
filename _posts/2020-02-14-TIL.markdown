@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL `CIContext` is heavy and should be reused"
+date:   2020-02-14 19:33:00 +0200
+categories: TIL, CIContext, CocoaPods, Podfile, Signal Processing, Dynamic Time Warping
+---
+Learned from [Core Image Programming Guide](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Conceptual/CoreImaging/ci_tasks/ci_tasks.html#//apple_ref/doc/uid/TP30001185-CH3-TPXREF101) that CIContext is heavy and should be reused.
+
+Read again [Podfile Syntax Reference](https://guides.cocoapods.org/syntax/podfile.html). How I hate Cocoapods documentation!
+
+I should definately turn [this my Swift script](https://github.com/valeriyvan/iOSAppIconResizer) into such app [AssetsGenerator for Xcode](https://apps.apple.com/de/app/assetsgenerator-for-xcode/id1053790590?l=en&mt=12).
+
+Read [Signal Processing and Dynamic Time Warping](http://www.ee.columbia.edu/~stanchen/fall12/e6870/slides/lecture2.pdf). It has a lot of interesting material, far more then DTW.
