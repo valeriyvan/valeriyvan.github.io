@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL Speech Framework"
+date:   2020-02-17 19:50:00 +0200
+categories: TIL, Speech Framework
+---
+Read [Recognizing Speech Locally on an iOS Device Using the Speech Framework](https://www.andyibanez.com/posts/speech-recognition-sfspeechrecognizer).
+
+Found with sad that video [WWDC 2014 Session 235: Advanced Scrollviews and Touch Handling Techniques](https://developer.apple.com/videos/wwdc2014) isn't available anymore.
