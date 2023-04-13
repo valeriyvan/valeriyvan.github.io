@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "TIL Swift is not faster than C++ as many think"
+date:   2020-01-17 19:17:00 +0200
+categories: TIL, Swift, C++
+---
+[Evidence Based Scheduling](https://www.joelonsoftware.com/2007/10/26/evidence-based-scheduling/).
+
+[What are similarities and differences between C++ and Swift?](https://www.quora.com/What-are-similarities-and-differences-between-C-and-Swift).
+
+Oh, I will show this to ones which tell Swift is faster then C++:
+
+> Like C++, Swift puts a high premium on performance. In practice, however, it’s not quite in the league of C++ or even Rust.
+
+[Vapor – Deep Dive Guide into Setup and Deployment for Heroku and Ubuntu](https://learningswift.brightdigit.com/vapor-heroku-ubuntu-setup-deploy).
+
+TODO: 
+* watch video [VIDEO: Bad Smells in Code](http://cleanswifter.com/tag/code-smell/)
+
+* follow [How Many Code Smells Can You See in This Short Method?](https://qualitycoding.org/code-smells-exercise/).
+
+* follow [Swift Smells](https://medium.com/compass-true-north/swift-smells-17246905d1d9).
+
+* follow [Code Smell](https://rules.sonarsource.com/swift/type/Code%20Smell)
+
+* [Five Signs Of Code Smell In Swift](https://cocoacasts.com/five-signs-of-code-smell-in-swift/).
