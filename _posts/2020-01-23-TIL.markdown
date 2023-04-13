@@ -1,0 +1,52 @@
+---
+layout: post
+title:  "TIL `memory` command of lldb, `UnsafeMutablePointer` initialization in Swift"
+date:   2020-01-23 19:23:00 +0200
+categories: TIL, vDSP, vdsp_vsadd, bug
+---
+Stack overflow question [How to compare two UIImage objects](https://stackoverflow.com/questions/11342897/how-to-compare-two-uiimage-objects) might be very good example when wrong question is highly vouted up. Would be great if I find time and write longread answer to question.
+
+Example snippet in (vdsp_vsadd)[https://developer.apple.com/documentation/accelerate/1450275-vdsp_vsadd] is not consistent as it doesn't declare variable `stride`. Failed a bug with feedback id FB12116721 on 13 of April 2023. Full fixed snippet should look like:
+
+```
+let a: [Float] = [1, 2, 4, 5]
+let stride = 1
+var b: Float = 2
+
+let n = vDSP_Length(a.count)
+
+var c = [Float](repeating: 0,
+                count: a.count)
+
+vDSP_vsadd(a, stride,
+           &b,
+           &c, stride,
+           n)
+
+// Prints "[3.0, 4.0, 6.0, 7.0]"
+print(c)
+```
+
+SWIFT MEETUP QUESTION: Several questions to above snippet:
+
+* why can't `b` be declared as `let` if appropriate parameter of `vDSP_vsadd` is declared as `UnsafePointer<Float>`? Xcode complains something stupid `Cannot pass immutable value as inout argument: 'b' is a 'let' constant`. Appropriate parameter of `vDSP_vsadd` isn't inout:
+
+> `func vDSP_vsadd(_ __A: UnsafePointer<Float>, _ __IA: vDSP_Stride, _ __B: UnsafePointer<Float>, _ __C: UnsafeMutablePointer<Float>, _ __IC: vDSP_Stride, _ __N: vDSP_Length)`
+
+* what happens under the hood when `a` which is `[Float]` is passed to parameter of type `UnsafePointer<Float>`;
+
+* why in last case `a` might be `let` if here parameter also has type `UnsafePointer<Float>`.
+
+This week every second day I look here for `memory` command in Xcode. Actually `memory read -t float -c50 spectrogram` is what I have looked for. I tried `help memory read`. Firstly, remembering `help whateveryouhavetroublewith` I don't have remember exact syntax anymore. Second, I am shocked how powerfull command `memory` is. It could even store aoutput into a file!
+
+It's very useful to look into Swift declaration of `UnsafeMutablePointer`. It has a lot of information not available anywhere else.
+
+You declare pointer. In Swift it can't be uninitialised. How would you initialise it, let's say, with NULL how C understands that.
+
+```
+// Compiler swallows this.
+// But if you chech type of p1 it's UnsafeMutablePointer<Float>? which is not what we want.
+var p1 = UnsafeMutablePointer<Float>(nil)
+```
+
+But if you stop and think for a moment you start to suppose that probably there's no such thing as NULL pointer in Swift.
