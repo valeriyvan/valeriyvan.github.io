@@ -1,15 +1,23 @@
 ---
 layout: post
-title:  "TIL what’s new in Swift 5.2; Swift Crypto; Sitrep code analyzer utility; URLFormat library"
-date:   2020-02-08 19:27:00 +0200
-categories: TIL, Swift 5.2, Swift Crypto, Sitrep, URLFormat
+title:  "TIL xcode source editor extensions; "
+date:   2020-02-07 19:27:00 +0200
+categories: TIL, xcode source editor extensions
 ---
-Read [release notes for Xcode 11.4(https://developer.apple.com/documentation/xcode_release_notes/xcode_11_4_beta_release_notes).
+Special class of apps, [xcode source editor extensions, exists in the mac app store](https://apps.apple.com/de/story/id1380861178?l=en). There're even paid ones like pretty json formatter. Good to know that!
 
-Read [What’s new in Swift 5.2](https://www.hackingwithswift.com/articles/212/whats-new-in-swift-5-2) by Paul Hundson. It mostly repeat release note above but have more examples.
+Here's tutorial how to create them: [Xcode Source Editor Extension Tutorial: Getting Started](https://www.vadimbulavin.com/xcode-source-editor-extension-tutorial/).
 
-Read [Introducing Swift Crypto](https://swift.org/blog/crypto).
+Read NSHipster post on topic [XcodeKit and Xcode Source Editor Extensions](https://nshipster.com/xcode-source-extensions/). It also describes the process of creation of extension.
 
-Installed [Sitrep](https://github.com/twostraws/Sitrep) new source code analyzer utility for Swift projects by Paul Hudson.
+TODO: watch [WWDC 2016 session 414 video Using and Extending the Xcode Source Editor](https://developer.apple.com/videos/play/wwdc2016/414/).
 
-Shortly browsed URL parsing and formatting library [URLFormat](https://github.com/ilyapuchka/URLFormat).
+Read another NSHipster post [RawRepresentable](https://nshipster.com/rawrepresentable/). WTF? enum in Swift can have both raw value and associated value???
+
+Read [Objective-C Direct Methods](https://nshipster.com/direct/) and linked documentation [Using Imported Lightweight Generics in Swift](https://developer.apple.com/documentation/swift/imported_c_and_objective-c_apis/using_imported_lightweight_generics_in_swift).
+
+Read [what is database sharding](https://medium.com/@jeeyoungk/how-sharding-works-b4dec46b3f6). Mostly accidentally, not because I needed that.
+
+Learned [how to use repo on local machine for Cocoapod](http://guides.cocoapods.org/using/the-podfile.html#using-the-files-from-a-folder-local-to-the-machine). Related post [Development Pods](https://www.cocoanetics.com/2014/07/development-pods/). And another similar one [Working with CocoaPods Lib Locally](https://medium.com/stantmob/working-with-cocoapods-lib-locally-8f5665f059af). And related Cocoapods documentation [](https://guides.cocoapods.org/making/private-cocoapods.html).
+
+Read [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) [russian translation](https://habr.com/ru/post/486358/). Very interesting reading. A lot of illustrations.
