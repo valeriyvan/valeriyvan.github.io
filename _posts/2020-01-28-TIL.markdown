@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "TIL that Apple's documentation for BLAS has bugs"
+date:   2020-01-28 19:28:00 +0200
+categories: TIL, C, matrices multiplication, iOS, Ubuntu, BLAS, CBLAS, vDSP, bug
+---
+Today I faced a problem of making portable C code using matrices multiplication. Target - use same C code on preprocessing before Neural net on iOS and on training in Python on Ubuntu. On iOS vDSP was used for matrices multiplication which is not available on Ubuntu. But iOS have [BLAS](https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms) port where matrix operations also available. BLAS exists nearly on every platform. Here I faced a problem with making [`cblas_dgemm`](https://developer.apple.com/documentation/accelerate/1513282-cblas_dgemm?language=objc) working properly. Assert inside fired saying that parameter 9 was incorrect on entry to `cblas_dgemm`. But call was so simple and documentation so straightforward... An hour of googling have shown that Apple documentation was wrong. Apple documentation clearly says:
+
+> `ldb` The size of the first dimension of matrix `B`; if you are passing a matrix `B[m][n]`, the value should be `m`.
+
+So it looks like `ldb` should match with the first dimension of matrix `B`. No.
+
+Example [Multiplying Matrices Using dgemm](https://software.intel.com/en-us/mkl-tutorial-c-multiplying-matrices-using-dgemm) from documentation on Intel's port of BLAS is much clear in this regard:
+
+> Leading dimension of array `B`, or the number of elements between successive rows (for row major storage) in memory. In the case of this exercise the leading dimension is the same as the number of columns.
+
+Because I use C-arrays where rows go first `ldb` parameter should be second dimension of matrix `B`, not this first! And this worked for me. Shame on Apple!
+
+Filed a bug for this on 13 of April 2023. Feedback id for this bugreport is FB12116665. 
+
+TODO: give answers on stackoverflow.
