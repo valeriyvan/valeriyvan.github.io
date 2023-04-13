@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TIL  Complementary Filter"
+title:  "TIL Complementary Filter"
 date:   2023-02-18 19:01:00 +0200
 categories: TIL, drone, done control, dead reackoning, Complementary Filter
 ---
