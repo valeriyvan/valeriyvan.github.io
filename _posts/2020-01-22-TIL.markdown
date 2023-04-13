@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "TIL `std::log2p1()` calculates popcount (Hamming weight)"
+date:   2020-01-22 19:22:00 +0200
+categories: TIL, popcount, Hamming weight
+---
+Post [Naming implementation and naming result](https://habr.com/ru/post/484860/) raises interesting question about choosing convinient name for functions.
+
+`std::log2p1()` function calculates binary logarithm and adds 1, but for 0 returns zero. Actually that function calculates number of set bits in a word. Didn't know number of set bits could be calculated this way. Always calculated that with shifts. Shame on me.
+
+Didn't know there's CPU instruction [`popcount`](https://en.wikichip.org/wiki/population_count) doing exact that:
+
+> The population count (or popcount) of a specific value is the number of set bits in that value. For example, the population count of 0F0F₁₆, 111116₁₆, and 00₁₆ are 8₁₀, 4₁₀, and 0₁₀ respectively.
+
+It's interesting popcount is actually a (Hamming weight)[https://en.wikipedia.org/wiki/Hamming_weight) of a word.
+
+Learned that stride parameter in some vDSP functions might be strange, like in [`vDSP_polarD(_:_:_:_:_:)`](https://developer.apple.com/documentation/accelerate/1450540-vdsp_polard) when stride parameneter must be even. 
