@@ -12,6 +12,6 @@ Didn't know there's CPU instruction [`popcount`](https://en.wikichip.org/wiki/po
 
 > The population count (or popcount) of a specific value is the number of set bits in that value. For example, the population count of 0F0F₁₆, 111116₁₆, and 00₁₆ are 8₁₀, 4₁₀, and 0₁₀ respectively.
 
-It's interesting popcount is actually a (Hamming weight)[https://en.wikipedia.org/wiki/Hamming_weight) of a word.
+It's interesting popcount is actually a [Hamming weight](https://en.wikipedia.org/wiki/Hamming_weight) of a word.
 
 Learned that stride parameter in some vDSP functions might be strange, like in [`vDSP_polarD(_:_:_:_:_:)`](https://developer.apple.com/documentation/accelerate/1450540-vdsp_polard) when stride parameneter must be even. 
