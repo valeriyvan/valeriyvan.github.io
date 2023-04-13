@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "TIL"
+date:   2023-04-11 19:03:00 +0200
+categories: TIL
+---
+Read [Why open source](https://ben.balter.com/2015/11/23/why-open-source/). I feel I will need it.
+
+Decided to setup temporary static parking page with [DigitalOcean](https://m.do.co/c/e843d5778ae5). DO's documentation mentions only API creation. It took some time to guess what function returning HTML should be. Below it's. DO gives URL for this function. And domain could be forwarded to this URL. HTML for this parking page is generated with ChatGPT, by the way.
+
+```python
+def main(args):
+    html = """
+        <!DOCTYPE html>
+        <html>
+            <head>
+                <title>Coming Soon</title>
+                <style>
+                    html, body {
+                        height: 100%;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    body {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                </style>
+            </head>
+            <body>
+                <h1>Coming soon...</h1>
+            </body>
+        </html>
+    """
+    return {"body": html}
+```
+
+Setting up parking found out that redirect for https isn't so easy to setup, it's impossible to set it up on DNS level. [HTTP REDIRECTS WITH DNS, AND WHY HTTPS REDIRECTS ARE SO &!$%-ING HARD](https://constellix.com/news/http-redirects-with-dns-and-why-https-redirects-are-so-ing-hard).
