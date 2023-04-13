@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "TIL Xcode source editor extensions"
+date:   2020-02-07 19:07:00 +0200
+categories: TIL, Xcode source editor extensions
+---
+Special class of apps, [Xcode source editor extensions, exist in the mac app store](https://apps.apple.com/de/story/id1380861178?l=en). There're even paid ones like pretty json formatter. Good to know that!
+
+Here's tutorial how to create them: [Xcode Source Editor Extension Tutorial: Getting Started](https://www.vadimbulavin.com/xcode-source-editor-extension-tutorial/).
+
+Read NSHipster post on topic [XcodeKit and Xcode Source Editor Extensions](https://nshipster.com/xcode-source-extensions/). It also describes the process of creation of extension.
+
+TODO: watch [WWDC 2016 session 414 video Using and Extending the Xcode Source Editor](https://developer.apple.com/videos/play/wwdc2016/414/).
+
+Read another NSHipster post [RawRepresentable](https://nshipster.com/rawrepresentable/). WTF? enum in Swift can have both raw value and associated value???
+
+Read [Objective-C Direct Methods](https://nshipster.com/direct/). And linked documentation [Using Imported Lightweight Generics in Swift](https://developer.apple.com/documentation/swift/imported_c_and_objective-c_apis/using_imported_lightweight_generics_in_swift).
+
+Read [what is database sharding](https://medium.com/@jeeyoungk/how-sharding-works-b4dec46b3f6). Mostly accidentally, not because I needed that.
+
+Learned [how to use repo on local machine for CocoaPod](http://guides.cocoapods.org/using/the-podfile.html#using-the-files-from-a-folder-local-to-the-machine). Related post [Development Pods](https://www.cocoanetics.com/2014/07/development-pods/). And another similar one [Working with CocoaPods Lib Locally](https://medium.com/stantmob/working-with-cocoapods-lib-locally-8f5665f059af). And related CocoaPods documentation [](https://guides.cocoapods.org/making/private-cocoapods.html).
+
+Read [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) [russian translation](https://habr.com/ru/post/486358/). very interesting reading. A lot of illustrations.
