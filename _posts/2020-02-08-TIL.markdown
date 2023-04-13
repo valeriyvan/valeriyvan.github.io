@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "TIL what’s new in Swift 5.2; Swift Crypto; Sitrep code analyzer utility; URLFormat library"
+date:   2020-02-08 19:27:00 +0200
+categories: TIL, Swift 5.2, Swift Crypto, Sitrep, URLFormat
+---
+Read [release notes for Xcode 11.4(https://developer.apple.com/documentation/xcode_release_notes/xcode_11_4_beta_release_notes).
+
+Read [What’s new in Swift 5.2](https://www.hackingwithswift.com/articles/212/whats-new-in-swift-5-2) by Paul Hundson. It mostly repeat release note above but have more examples.
+
+Read [Introducing Swift Crypto](https://swift.org/blog/crypto).
+
+Installed [Sitrep](https://github.com/twostraws/Sitrep) new source code analyzer utility for Swift projects by Paul Hudson.
+
+Shortly browsed URL parsing and formatting library [URLFormat](https://github.com/ilyapuchka/URLFormat).
