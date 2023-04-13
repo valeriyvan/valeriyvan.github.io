@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Read Five tips to write better todos in Xcode"
+date:   2020-01-14 19:14:00 +0200
+categories: TIL, Xcode, TODO
+---
+Bookmarking [iOS conference calendar 2020](https://www.alexcurylo.com/2020/01/04/2020-ios-conference-calendar/).
+
+Interesting reading [What I've learned after sending 147 proposals to 36 conferences in a year](https://drobinin.com/posts/what-ive-learned-after-sending-147-proposals-to-36-conferences-in-a-year/) by Vadim Drobinin.
+
+[Five tips to write better todos in Xcode](https://www.donnywals.com/five-tips-to-write-better-todos-in-xcode/).
