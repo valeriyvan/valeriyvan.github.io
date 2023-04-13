@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "TIL dynamic time warping algorithm"
+date:   2020-02-10 19:10:00 +0200
+categories: TIL, dynamic time warping, DTW
+---
+Learning [dynamic time warping](https://en.wikipedia.org/wiki/Dynamic_time_warping) algorythm. In Ukrainian it is called Алгоритм динамічної трансформації шкали часу.
+
+Watched 5 times [How DTW (Dynamic Time Warping) algorithm works](https://www.youtube.com/watch?v=_K1OsqCicBY), than three times (Dynamic Time Warping)[https://www.youtube.com/watch?v=tfOevFKQIjQ]. The last is much better and explains how to handle signals of different lengths.
+
+Read [Dynamic Time Warping with Time Series](https://medium.com/@shachiakyaagba_41915/dynamic-time-warping-with-time-series-1f5c05fb8950).
+
+Googling for Dynamic Time Warping accidentally have found [Speech recognition for dummies (russian)](https://habr.com/en/post/226143/). Post of noob for noobs. But I find it interesting. It has:
+* explanation of .wav file format;
+* how detect periods of silence in sound calculating signal entropy;
+* what Mel-frequency cepstral coefficients are and how to calculate them.
+
+Read interesting post [Video with cloud based object detection of Raspberry Pi (russian)](https://habr.com/ru/post/485406/).
