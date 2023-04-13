@@ -16,5 +16,6 @@ Example [Multiplying Matrices Using dgemm](https://software.intel.com/en-us/mkl-
 
 Because I use C-arrays where rows go first `ldb` parameter should be second dimension of matrix `B`, not this first! And this worked for me. Shame on Apple!
 
-TODO: file a bug!
+Filed a bug for this on 13 of April 2023. Feedback id for this bugreport is FB12116665. 
+
 TODO: give answers on stackoverflow.
