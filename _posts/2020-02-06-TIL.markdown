@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "TIL binary or octal literal in Swift; rounding in Swift; shell script to run some cli on every file matching pattern"
+date:   2020-02-06 19:06:00 +0200
+categories: TIL, Swift, Literals, Octal, Binary, shell
+---
+Spend more than an hour for writing simple shell script to run some cli on every file matching pattern:
+
+```bash
+for file in *.pcm; do
+   fromescaped=$(printf '%q' "$file")
+   to="$(basename "$file" .pcm).wav"
+   toescaped=$(printf '%q' "$to")
+   #echo $cmd
+   cmd="ffmpeg -f f32le -ar 16000 -ac 1 -y -i $fromescaped $toescaped"
+   eval $cmd
+done
+```
+
+Had to google how to write binary or octal literal in Swift:
+
+```
+let decimalInteger = 17         // 17 in decimal notation
+let binaryInteger = 0b10001     // 17 in binary notation
+let octalInteger = 0o21         // 17 in octal notation
+let hexadecimalInteger = 0x11   // 17 in hexadecimal notation
+```
+
+Learned about rounding in Swift:
+
+```
+let f: Float = ...
+_ = f.rounded() // rounds to closest integral value, same as 'rounded(.toNearestOrAwayFromZero)''
+_ = f.rounded(.toNearestOrAwayFromZero) // equivalent to the C 'round' function
+_ = f.rounded(.towardZero) // equivalent to the C 'trunc' function
+_ = f.rounded(.up) // equivalent to the C 'ceil' function
+_ = f.rounded(.down) // equivalent to the C 'floor' function
+```
