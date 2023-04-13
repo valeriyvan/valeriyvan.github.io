@@ -4,7 +4,7 @@ title:  "TIL `std::log2p1()` calculates popcount (Hamming weight)"
 date:   2020-01-22 19:22:00 +0200
 categories: TIL, popcount, Hamming weight
 ---
-Post [Naming implementation and naming result](https://habr.com/ru/post/484860/) raises interesting question about choosing convinient name for functions.
+Post [Naming Things: Implementer vs. User Names](https://www.foonathan.net/2019/11/implementer-vs-user-names/) raises interesting question about choosing convinient name for functions.
 
 `std::log2p1()` function calculates binary logarithm and adds 1, but for 0 returns zero. Actually that function calculates number of set bits in a word. Didn't know number of set bits could be calculated this way. Always calculated that with shifts. Shame on me.
 
