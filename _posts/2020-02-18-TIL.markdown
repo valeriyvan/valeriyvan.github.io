@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL Snoop CLI for OSINT"
+date:   2020-02-18 19:44:00 +0200
+categories: TIL, Snoop, OSINT
+---
+Recent finding - cli snoop [Snoop project - incredible tool for OSIMT (Open-source intelligence) (russian)](https://habr.com/en/post/488432/).
