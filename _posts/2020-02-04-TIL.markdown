@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL how to list branches in git ordered by date of the last commit; saturation arithmetic"
+date:   2020-02-04 19:04:00 +0200
+categories: TIL, git, branch, saturation arithmetic
+---
+Learned how to [list branches in git ordered by date of the last commit `git branch --sort=-committerdate`](https://stackoverflow.com/a/52295958/942513).
+
+Reading [Adieu, Quake!](https://www.fwei.tk/blog/adieu-quake.html) ([russian translation Porting Quake on iPod Classic](https://habr.com/ru/post/486818/)) have firstly met term *saturation arithmetic*. Now it look strange for but I have never ever used or even heard of saturation arithmetic. Here I had no other choice as googling and here some results: [wiki: Saturation arithmetic](https://en.wikipedia.org/wiki/Saturation_arithmetic) (curious - neither Russian nor Ukrainian version), [Stackoverflow: How to do unsigned saturating addition in C?](https://stackoverflow.com/questions/121240/how-to-do-unsigned-saturating-addition-in-c).
