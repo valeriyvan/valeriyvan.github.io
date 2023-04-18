@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL something new in C++; how create a Command-Line Tool Using Swift Package Manager"
 date:   2020-01-08 19:44:00 +0200
-categories: TIL, Swift, C++, Command-Line, SwiftPM
+categories: TIL, Swift, C++, Command-Line, SwiftPM, Number plates detection
 ---
 Read [Intriguing C++20 capabilities for embeded developers](https://habr.com/ru/post/536326/).
 
@@ -11,3 +11,7 @@ Read [New operator spaceship in C++20 (Russian)](https://habr.com/ru/company/mic
 Read [Comparisons in C++20](https://brevzin.github.io/c++/2019/07/28/comparisons-cpp20/). Didn't get either. But I like used [Carte Noire](https://github.com/jacobtomlinson/carte-noire) them for Jekyll.
 
 Read [Create a Command-Line Tool Using Swift Package Manager](https://medium.com/better-programming/create-a-command-line-tool-using-swift-package-manager-c2eb0e088e69).
+
+Today I asked on interview what protocol oriented programming is. Then I tried to google how other flormulate this. Here is Paul Hudson's post [What is protocol-oriented programming?](https://www.hackingwithswift.com/example-code/language/what-is-protocol-oriented-programming). Nice header but post itself doesn't have answer to questeion in header.
+
+Played with number plates detection online [Nomeroff Net Online Demo](https://nomeroff.net.ua/onlinedemo.html). [Project's home page](https://nomeroff.net.ua) which has full code, link to datasets.
