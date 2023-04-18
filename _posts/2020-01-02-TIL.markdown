@@ -1,9 +1,7 @@
 ---
 layout: post
-title:  "TIL about implementing throwing protocol functions as non-throwing in Swift"
+title:  "TIL Publish - a static site generator built specifically for Swift developers"
 date:   2020-01-02 19:02:00 +0200
-categories: TIL, Swift, Initializers, throwing, exceptions, protocol
+categories: TIL, Swift, Publish
 ---
-Read John Sundell's [Implementing throwing protocol functions as non-throwing](https://www.swiftbysundell.com/tips/implementing-throwing-protocol-functions-as-non-throwing/).
-
-Read [Initializers in Swift](https://www.swiftbysundell.com/articles/initializers-in-swift/) by the same author.
+Read about [Publish - a static site generator built specifically for Swift developers](https://github.com/JohnSundell/Publish). 
