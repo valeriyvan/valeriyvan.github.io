@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Read about measuring code execution time on iOS; how KVO in Swift works"
+date:   2019-12-09 19:09:00 +0200
+categories: TIL, Swift, CACurrentMediaTime, CFAbsoluteTimeGetCurrent, KVO, Key-Value Observing
+---
+Read [UITableView Swipe Actions in iOS 11](https://chariotsolutions.com/blog/post/uitableview-swipe-actions-in-ios-11/). Somehow I did miss this. [UITableView Leading & Trailing Swipe Actions in iOS 11](https://hackernoon.com/uitableview-leading-trailing-swipe-actions-in-ios-11-18cb1f267f8a) on the same topic mentions `tableView(_:editActionsForRowAt:)` existing since iOS 8.
+
+Needed to measure execution time of some part of code googled for function [`CACurrentMediaTime()`](https://developer.apple.com/documentation/quartzcore/1395996-cacurrentmediatime) because I didn't remember its name. But beware it doesn't work [when device sleeps](https://bendodson.com/weblog/2013/01/29/ca-current-media-time/)! [`CFAbsoluteTimeGetCurrent()`](https://developer.apple.com/documentation/corefoundation/1543542-cfabsolutetimegetcurrent) worth mentioning as well.
+
+Read how to use KVO in Swift [Observing properties with Key-Value Observing](https://www.ralfebert.de/ios-examples/swift/property-key-value-observer/) because my colleagues use it. But it's time to start using Combine.
+
+Read chapter [Access Control](https://docs.swift.org/swift-book/LanguageGuide/AccessControl.html) of The Swift programming language guide.
