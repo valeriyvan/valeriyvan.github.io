@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "TIL about faster `Array` operations with `CollectionOfOne` in Swift"
+date:   2019-12-23 19:23:00 +0200
+categories: TIL, Swift, Array, CollectionOfOne
+---
+Read [Faster `Array` Operations With `CollectionOfOne` in Swift](https://swiftrocks.com/faster-swift-array-operations-with-collectionofone.html). Nothing new. Side learning: `i..<i` is valid range. Empty one.
+
+Looking at implementation of [`insert(_:, at:)`](https://github.com/apple/swift/blob/746b58e8e1c1ef1ac09d8031875fd2a08b65597c/stdlib/public/core/Array.swift#L1259) I am thinking if would it be more effective to add specialised version for replacing subrange with single element instead of creating `CollectionOfOne`:
+
+```swift
+public mutating func insert(_ newElement: __owned Element, at i: Int) {
+    _checkIndex(i)
+    self.replaceSubrange(i..<i, with: CollectionOfOne(newElement))
+}
+ ```
+
+Passed the first week of [Coursera's Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/learn/introduction-tensorflow/).
