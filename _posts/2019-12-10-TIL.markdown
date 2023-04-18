@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Read Access Control and Inheritance from Swift documentation"
+date:   2019-12-10 19:10:00 +0200
+categories: TIL, Swift, documentation, Access Control, Inheritance
+---
+### 10 Dec 2019 Tuesday
+
+Started day with reading again chapter [Access Control](https://docs.swift.org/swift-book/LanguageGuide/AccessControl.html) of The Swift programming language manual.
+
+> A _module_ is a single unit of code distribution—a framework or application that is built and shipped as a single unit and that can be imported by another module with Swift’s import keyword.
+
+> Each build target (such as an app bundle or framework) in Xcode is treated as a separate module in Swift. 
+
+Read chapter [Inheritance](https://docs.swift.org/swift-book/LanguageGuide/Inheritance.html) of The Swift programming language manual.
