@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL how to convert images to MLMultiArray"
+date:   2020-01-09 19:09:00 +0200
+categories: TIL, Swift, MLMultiArray, Combine, Core ML, Number plates recognition
+---
+Read [Why do we use Story Points for Estimating?](https://www.scrum.org/resources/blog/why-do-we-use-story-points-estimating).
+
+Read [Number plates recognition. Practical manual. Part 1. (russian)](https://habr.com/en/post/432444/). Fuuuuck. Ukraine opened data of registered autos [Register about vehicles and their owners](https://data.gov.ua/dataset/06779371-308f-42d7-895e-5a39833375f0). Comment to the post has a lot of useful links. Read [Number plates recognition. How we achieved 97% accuracy for ukrainian number plates. Part 2. (russian)](https://habr.com/ru/post/439330/). 
+
+Read [Core ML and Combine](https://machinethink.net/blog/coreml-and-combine/) by Matthijs Hollemans.
+
+Read [How to convert images to MLMultiArray](https://machinethink.net/blog/coreml-image-mlmultiarray/) by the same author. Unexpectedly interesting and might be useful soon.
