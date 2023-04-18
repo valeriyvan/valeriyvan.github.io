@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "TIL Google Dataset Search; Registry of Open Data on AWS"
+date:   2019-12-17 19:17:00 +0200
+categories: TIL, Dataset, Google, AWS, Open Data
+---
+Hanged a little on post [25 datasets for educational projects](https://habr.com/en/company/edison/blog/480408/). Spent some time on [Coco](http://cocodataset.org) - it has very nice [explore feature](http://cocodataset.org/#explore). [The Chars74K dataset](http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/) might be useful as well. [Objects365](https://www.objects365.org/explore.html) is promising: is has traffic signs category which I should try. [Baidu Apolloscape Dataset](http://apolloscape.auto) has several datasets one of each has traffic signs. 
+
+Google has [Google Dataset Search](https://toolbox.google.com/datasetsearch).
+
+Amazon has [Registry of Open Data on AWS](https://registry.opendata.aws) which exists to help people discover and share datasets that are available via AWS resources.
+
+There's [Russian Traffic Sign Dataset](http://graphics.cs.msu.ru/ru/node/1266) with dataset itself available by [link](https://yadi.sk/d/TX5k2hkEm9wqZ). I have to explore this data set.
+
+TODO: continue with repo [RTSD](https://github.com/artem179/RTSD) because it has what I could reuse.
