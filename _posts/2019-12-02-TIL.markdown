@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "TIL how to make xcode project file from cmake"
+date:   2019-12-02 19:02:00 +0200
+categories: TIL, Xcode, xcodebuild, make, CMake, ios-cmake
+---
+Googled how to make xcode project file from cmake: [CMake Tutorial – Chapter 2: IDE Integration](https://www.johnlamp.net/cmake-tutorial-2-ide-integration.html). This should remember:
+
+`cmake -G "Xcode"`
+
+This lists all the targets and all the build configurations set up in the Xcode project:
+
+`xcodebuild -list`
+
+This runs building:
+
+`xcodebuild`
+
+Interesting to know Google maintains [ios-cmake](https://code.google.com/archive/p/ios-cmake/).
+
+Interesting info on topic: [How to include a CMake project in a Xcode project](https://blog.tomtasche.at/2019/05/how-to-include-cmake-project-in-xcode.html).
