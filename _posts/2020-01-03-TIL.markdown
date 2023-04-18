@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL how to copy a file from one place to another with showing progress"
+date:   2020-01-03 19:03:00 +0200
+categories: TIL, rsync
+---
+[Learned](https://apple.stackexchange.com/a/19150) how to copy a file from one place to another with showing progress: `rsync --progress /copy/from /copy/to`.
+
+Read post [How I have created my own deepfake in two weeks spending 552$ (russian)](https://habr.com/en/post/482684/).
