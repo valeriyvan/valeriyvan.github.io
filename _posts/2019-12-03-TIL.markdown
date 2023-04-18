@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Read about serialization in Swift; State restoration in iOS 13; Type Casting in Swift; Checking for Protocol Conformance in Swift; Key words for use in RFCs to Indicate Requirement Levels; Thoughts on iOS Architecture"
+date:   2019-12-03 19:03:00 +0200
+categories: TIL, Swift, Serialization, PropertyListEncoder, JSONEncoder, State restoration, Type Casting, Any, AnyObject, Architecture
+---
+Read [A first look Apple’s iPadOS multi-tasking improvements](https://www.computerworld.com/article/3405537/a-first-look-apples-ipados-multi-tasking-improvements.html).
+
+Read [Object serialization in iOS](http://dmtopolog.com/object-serialization-in-ios/) - a systematisation of different formats and types of data serialization in iOS development. Learn then `PropertyListEncoder` exists along with `JSONEncoder`.
+
+Read [Serialization of enum with associated type](http://dmtopolog.com/serialisation-of-enum-with-associated-type/). Nothing new. But should practice with it because each time I ran into this I have to google how to do this.
+
+Bookmarking: [Siri Shortcuts Practical Tips](http://dmtopolog.com/siri-shortcuts-practical-tips/) and [Siri Intents](https://dmtopolog.com/siri-intents/).
+
+Read about [State restoration in iOS 13](https://www.kairadiagne.com/2019/11/20/state-restoration-with-nsuseractivity.html). Apple has good Sample Code [Restoring Your App’s State](https://developer.apple.com/documentation/uikit/uiviewcontroller/restoring_your_app_s_state).
+
+Read [The Swift programming language manual chapter Type Casting](https://docs.swift.org/swift-book/LanguageGuide/TypeCasting.html).
+
+Side learning:
+
+* `Any` can represent an instance of any type at all, including function types.
+
+* `AnyObject` can represent an instance of any class type.
+
+Read [Checking for Protocol Conformance](https://docs.swift.org/swift-book/LanguageGuide/Protocols.html#ID283).
+
+Read [Key words for use in RFCs to Indicate Requirement Levels](https://tools.ietf.org/html/rfc2119). SHOULD means RECOMMENDED. Good to know.
+
+Read [Thoughts on iOS Architecture](http://dmtopolog.com/thoughts-on-ios-architecture/)
