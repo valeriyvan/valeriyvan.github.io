@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL some new stuff on Swift Alps 2019"
+date:   2019-11-28 19:28:00 +0200
+categories: TIL, Swift Alps 2019, AI, 
+---
+⛷ The Swift Alps 2019, the first day.
+
+Session 1 Practical AI for iOS. By [Mars Geldard](https://twitter.com/TheMartianLife). The first workshop mentioned [here](https://aiwithswift.com/events/swiftalps19). Got a book [Practical Artificial Intelligence with Swift](http://shop.oreilly.com/product/0636920214946.do). There is [repo with all activities](https://github.com/AIwithSwift/SwiftAlps19_PracticalAI/tree/master/Activities). iOS app which replaces faces in photos with emojis was interesting. All stuff was quite interesting and useful.
+
+Session 2 Frameworks. By [Cecilia Humlelu](https://twitter.com/humlelu) from Spotify. There's kind of tutorial for workshop [Building Hybrid Frameworks](assets/images/Libraries%20-%20SwiftAlps%20Workshop.pdf). I was skeptical about it because all workshop was just following this tutorial. But later I found out it is very practical. Sure I will return to this tutorial later and run it multiple times.
+
+Session 3 Combine. By [Florent Pillet](https://twitter.com/fpillet). Here's [repo for workshop](https://github.com/fpillet/SwiftAlps2019). Can't say workshop was too much practical or useful. Hope it will work like kick-off.
