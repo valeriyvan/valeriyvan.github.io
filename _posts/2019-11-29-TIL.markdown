@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL some new stuff on Swift Alps 2019"
+date:   2019-11-29 19:29:00 +0200
+categories: TIL, Swift Alps 2019, Swift, Swift for TensorFlow, Audio Synthesis, AudioKit, SwiftUI
+---
+⛷ The Swift Alps 2019, the second day.
+
+Session 1 Swift for TensorFlow. By [Paris Buttfield-Addison](https://twitter.com/parisba). Second workshop [here](https://aiwithswift.com/events/swiftalps19).
+
+Session 2 Audio Synthesis. By [Adam Bell](https://twitter.com/b3ll). Presentation is [here](https://my.pcloud.com/publink/show?code=XZA4RmkZI5LywklfUHbL5gUFeTacBBrPBc6y). It was about AudioKit. Demo project is [here](https://tiny.cc/audio-swift-alps-19), based, sure, on AudioKit. Nonetheless, interesting. Could I do same workshop. Sure I could! Firstly, more low-level with really generating sound, filling in buffer and playing it. Second, could do some Fast Fourier Transform staff. Could even combine this with Neural network stuff.
+
+Session 3 SwiftUI. By [Lea Marolt Sonnenschein](https://twitter.com/hellosunschein). There's [repo](https://github.com/leamars/SwiftAlps2019), inside there's file [Instructions](https://github.com/leamars/SwiftAlps2019/blob/master/Instructions.pdf).
