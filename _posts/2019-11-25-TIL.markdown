@@ -1,0 +1,70 @@
+---
+layout: post
+title:  "TIL Changes in the `ViewController` Presentation Style on iOS 13"
+date:   2019-11-25 19:25:00 +0200
+categories: TIL, iOS 13
+---
+Read [iOS 13: Changes in the `ViewController` Presentation Style](https://zonneveld.dev/ios-13-viewcontroller-presentation-style-modalpresentationstyle/). Condenced. Very short. But not full. What learned?
+
+> You must set the `modalPresentationStyle` property of the view controller that will be presented. If you want to present a navigation controller which contains a view controller, the navigation controller that will be presented must have set the property `modalPresentationStyle`, instead of the view controller that will be visible.
+
+The code example below makes it clearer how to deal with the presentation style when presenting a navigation controller:
+
+```swift
+let detailVC = DetailViewController()
+let navigationController = UINavigationController(rootViewController: detailVC)
+navigationController.modalPresentationStyle = .fullScreen
+present(navigationController, animated: true)
+```
+
+Another post of the same topic is much more long and detailed: [View Controller Presentation Changes in iOS 13](https://medium.com/@hacknicity/view-controller-presentation-changes-in-ios-13-ac8c901ebc4e). Worth bookmarking.
+
+Interesting pos of same author [iPad Navigation Bar and Toolbar Height Changes in iOS 12](https://medium.com/@hacknicity/ipad-navigation-bar-and-toolbar-height-changes-in-ios-12-91c5766809f4).
+
+>  iPad Navigation Bar height now 50...
+
+Here is [the app developer refers to in it's posts](https://apps.apple.com/app/id1054670022). Great idea! And nice developer doesn't shy to charge 3.99$ for it. Bought it. For 3.99£ in my case.
+
+Short post [Multi-window development in iPadOS](https://medium.com/flawless-app-stories/multi-window-development-in-ipados-cd6e5de0bc2c).
+
+Long read [Inside Apple’s iPhone Software Shakeup After Buggy iOS 13 Debut](https://www.bloomberg.com/news/articles/2019-11-21/apple-ios-14-features-changes-testing-after-ios-13-bugs).
+
+[Introducing the Apple Developer App](https://developer.apple.com/news/?id=11182019a):
+
+> Starting today, the WWDC app is now the Apple Developer app and delivers in-depth information from Apple experts all year round. Stay up to date with the latest developer news, informative videos, WWDC content, and more.
+
+And this is thrilling:
+
+> Developers in the U.S. can also use the app to conveniently enroll in the Apple Developer Program on iPhone or iPad, with enrollment in additional countries and regions becoming available over time. And since membership is provided as an auto-renewable subscription, keeping your account active is easy.
+
+[Premium iOS App Templates](https://www.iosapptemplates.com) is brilliant idea of making money!
+
+Read [Thread Sanitizer explained: Data Races in Swift](https://www.avanderlee.com/swift/thread-sanitizer-data-races). Nothing new.
+
+Read [How To Build UI and Transitions Programmatically Without SwiftUI](https://medium.com/better-programming/how-to-build-your-user-interface-programatically-without-swiftui-9f0dc52e02bc). It's not what title suggests. It's just about how to make an app without storyboard.
+
+Read [What a Designer Needs to Know about iOS Dark Mode When Working with a Developer](https://swiftsenpai.com/design/what-a-designer-need-to-know-about-ios-dark-mode/). According to Apple documentation:
+
+> developers or designers should use semantic colors whenever it is possible so that their app will be future-proof with any UI changes made by Apple.
+
+To read more about how or when to use semantic colors, you can refer to the [Apple documentation](https://developer.apple.com/documentation/uikit/uicolor/ui_element_colors).
+
+Side learning:
+
+> Prior to iOS 13, there is only 1 type of blur and vibrancy effect. In iOS 13, Apple introduced 4 types of blur effects and 8 types of vibrancy effects. As you might have guessed, all these visual effects will automatically adapt to iOS interface style.
+
+Another reminder about SF:
+
+> SF Symbols are a collection of over 1500 symbols provided by Apple for designers and developers to use within their apps. As mentioned in [iOS Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/dark-mode/), SF Symbols automatically look great in Dark Mode and they are optimised for both light and dark appearances. Therefore, Apple highly recommend everyone to use SF Symbols whenever it is possible.
+
+> In conjunction with the release of iOS 13, Apple also released Xcode 11. By using the asset catalog in Xcode 11, developers can now create custom image and color group that specify what color and image to be shown in light and dark appearance.
+
+But. How to that without Asset catalog in cases where you can't use one, like when you build static library??? That might be Swift meetup question. 
+
+[Apple has locked me out of my developer account](https://rambo.codes/personal/2019/11/20/apple-has-locked-me-out-of-my-developer-account.html). As story. 
+
+Side not from a sad story above. It's an app from that developer [ChibiStudio](https://apps.apple.com/us/app/chibistudio/id1135307199). I could easy do something like that with Kris making drawings.
+
+Read [Navigation Bar Customisation. Part 1 - The Basics.](http://dmtopolog.com/navigation-bar-customization/) and [Navigation Bar Customisation. Part 2 - UINavigationBarAppearance and proper view/model separation.](https://dmtopolog.com/navigation-bar-customisation-2/). The first part is pure gold explaining in details how to customise different parts of navigation part. The second part mentions what iOS 13  brings us - new `UINavigationBarAppearance` for helping customise what was done poor in previous iOS versions. `UINavigationBarAppearance` is not the only one of its kind. It inherits all the general bar customisation functionality from its parent `UIBarAppearance` and shares it with the siblings: `UIToolbarAppearance` and `UITabBarAppearance`.
+
+By the way, that blog is nice example of Jekyll with theme [so-simple-theme](https://github.com/mmistakes/so-simple-theme).
