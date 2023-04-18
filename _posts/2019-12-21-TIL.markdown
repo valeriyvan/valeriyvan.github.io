@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read Read issue #150 of Swift Weekly Brief"
+date:   2019-12-21 19:21:00 +0200
+categories: TIL, Swift
+---
+Read [issue #150 of Swift Weekly Brief](https://swiftweekly.github.io/issue-150/).
