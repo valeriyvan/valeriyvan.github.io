@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "How to properly mention method in Swift similar to Objective-C `-[Class method:parameter]`?"
+date:   2019-10-07 19:07:00 +0200
+categories: TIL, Swift
+---
+*Swift meetup question:* if would like to mention a method of a class in Objective-C in text I do it so `-[Class method:parameter]` or `+[Class method:parameter]` if it's about a class method. How should I do this in case of Swift? If I write `Class.method(_parameter:)` it is not clear is it about method of a class or an instance.
