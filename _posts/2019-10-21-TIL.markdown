@@ -1,0 +1,59 @@
+---
+layout: post
+title:  "Read Sequence Hacking In Swift series; Iterator design pattern in Swift"
+date:   2019-10-21 19:21:00 +0200
+categories: TIL, Swift, Sequence, Pairs iterator
+---
+Have been looking for iterator of pairs of sequence elements which I have used several years ago. Failed to find implementation. I found out I have a gap in knowledge and fail to write iterator on my own. I should fill in this gap. But by now here is implementation of pairs iterator borrowed from [here](https://stackoverflow.com/a/49273009/942513):
+
+```swift
+extension Collection {
+    func pairs() -> AnySequence<(Element, Element)> {
+        return AnySequence(zip(self, self.dropFirst()))
+    }
+}
+```
+
+As it fairly stated 
+
+> this approach is not safe when applied to a `Sequence`, because it is not guaranteed that a sequence can be traversed multiple times non-destructively.
+
+Implementation with a custom iterator type which works on sequences as well
+
+```swift
+struct PairSequence<S: Sequence>: IteratorProtocol, Sequence {
+    var iterator: S.Iterator
+    var last: S.Element?
+
+    init(seq: S) {
+        iterator = seq.makeIterator()
+        last = iterator.next()
+    }
+
+    mutating func next() -> (S.Element, S.Element)? {
+        guard let a = last, let b = iterator.next() else { return nil }
+        last = b
+        return (a, b)
+    }
+}
+
+extension Sequence {
+    func pairs() -> PairSequence<Self> {
+        return PairSequence(seq: self)
+    }
+}
+```
+
+Reading ... forgot exactly what ... found out how interesting [`reversed()` over `Sequence` is implemented in Swift](https://github.com/apple/swift/blob/bb837221138b8ab566301203a539f44f10ced4ff/stdlib/public/core/SequenceAlgorithms.swift#L709). And it seems like I could really optimize it for performance as per FIXME. Sequence itself has also [interesting FIXME](https://github.com/apple/swift/blob/cfae1a3b16e60d6b17db95a681131f88cee65f3b/stdlib/public/core/Sequence.swift#L904) which I could address.
+
+Read [Swift Tip: Lazy Infinite Sequences](https://www.objc.io/blog/2018/03/20/lazy-infinite-sequences/). Nice to clarify that sequence doesn't produce element until it is requested. In following example nothing is computed until we turn results into into an `Array`:
+
+```swift
+let results = (1...)
+   .lazy
+   .map { $0 * $0 }
+   .filter { $0 > 100 }
+Array(results.prefix(10))
+```
+
+Exercise: [improve code from this post](https://www.hackingwithswift.com/example-code/language/how-to-split-an-array-into-chunks).
