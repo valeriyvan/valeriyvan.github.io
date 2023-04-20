@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL `objc_msgSend`'s new prototype; usign ffmpeg to convert audio in video"
+date:   2019-10-12 19:12:00 +0200
+categories: TIL, Objective-C, objc_msgSend, ffmpeg, audio
+---
+Read [`objc_msgSend`'s New Prototype](https://www.mikeash.com/pyblog/objc_msgsends-new-prototype.html).
+
+Learn to use `ffmpeg` to convert audio: `ffmpeg -f f32le -ar 44100 -ac 1 -i output.pcm output.wav`
+
+* `-ar 44100` sets sample rate
+
+* `-ac 1` number of channels. should match number of channels in source audio otherwise output is fast or slow.
