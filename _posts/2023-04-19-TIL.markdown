@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "TIL Swift Power Asserts; Punycode"
+date:   2023-04-19 19:19:00 +0200
+categories: TIL, Swift Power Asserts, Punycode
+---
+Read [Automating Swift command line tool releases with GitHub Actions](https://www.polpiella.dev/automating-swift-package-releases-with-github-actions/). Good tutorial to automate Homebrew releases.
+
+TIL what is [Punycode](https://en.wikipedia.org/wiki/Punycode).
+
+TIL [Swift Power Asserts (also known as diagrammed assertions)](https://github.com/kishikawakatsumi/swift-power-assert). It allows asserts like:
+
+```swift
+#expect(max(a, b) == c)
+        |   |  |  |  |
+        7   4  7  |  12
+                  false
+```
+
+Registered at [buymeacoffee.com](https://www.buymeacoffee.com/). Now you can buy me coffee if you wish.
+
+<a href="https://www.buymeacoffee.com/valeriyvan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
