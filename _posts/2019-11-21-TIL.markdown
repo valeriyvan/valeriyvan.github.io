@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "TIL advanced Operators in Swift"
+date:   2019-11-21 19:21:00 +0200
+categories: TIL, Swift, NSHipster, Subscripting, @objc
+---
+Read [Advanced Operators chapter of The Swift programming language](https://docs.swift.org/swift-book/LanguageGuide/AdvancedOperators.html).
+
+By link jumped to quite old NSHipster post [Object Subscripting](https://nshipster.com/object-subscripting/).
+
+Reading about `@objc` and `@objc(name)` jumped to [Attributes chapter of The Swift programming language](https://docs.swift.org/swift-book/ReferenceManual/Attributes.html).
+
+It's interesting that page by link above links to [Programming with Objective-C](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC).
+
+Read [Subscripts chapter of The Swift programming language](https://docs.swift.org/swift-book/LanguageGuide/Subscripts.html).
+
+> Subscripts are not limited to a single dimension, and you can define subscripts with multiple input parameters to suit your custom type’s needs.
