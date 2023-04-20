@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL `git reflog`"
+date:   2019-10-29 19:29:00 +0200
+categories: TIL, git, reflog
+---
+Here `git reflog` would help with restoring previous states of `HEAD` in git as it described [here](https://stackoverflow.com/a/14757539/942513).
+
+Tried to check if [pugixml parser](https://github.com/zeux/pugixml) is streamable or not with searching for "stream" in Safari. Surprise: Not found. But for "iostream" - 2 matches. Safari by default searches by words, not by substrings. But this could be changed as it explained [here](https://apple.stackexchange.com/a/88468/30465). Changing defaults don't work in macOS 10.15 (Safari 3.0.2). But dropdown from changing from "Starts With" to "Contains" is still there. Strange I've never spotted this dropdown. How many searches might I have missed with such inconsistent defaults!
