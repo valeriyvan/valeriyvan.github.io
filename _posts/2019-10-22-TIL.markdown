@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Read Sequence Hacking In Swift series; Iterator design pattern in Swift"
+date:   2019-10-22 19:22:00 +0200
+categories: TIL, Swift, Sequence, AnyIterator, Iterator design pattern
+---
+Being hooked with sequence yesterday, today jumped to [Sequence Hacking In Swift (I): Extending Sequences](https://digitalleaves.com/blog/2017/02/sequence-hacking-in-swift-i-map-flatmap-sort-filter-reduce/). Nothing new from this part. But this diagram worth keeping it:
+
+![](/assets/images/mini1487439057-600x750.png)
+
+[Sequence Hacking In Swift (II): Extending Sequences](https://digitalleaves.com/blog/2017/02/sequence-hacking-in-swift-ii-extending-sequences/). Nothing new as well. Good to feel I could write example better.
+
+[Sequence Hacking in Swift (III): Building Custom Sequences for Fun and Profit](https://digitalleaves.com/blog/2017/03/sequence-hacking-in-swift-iii-building-custom-sequences-for-fun-and-profit/). Nothing new. But I feel I should practice implementing different kinds of sequences with `AnyIterator` and without it. 
+
+Comparing [How to make a custom sequence](https://www.hackingwithswift.com/example-code/language/how-to-make-a-custom-sequence) with three part post above - a sequence could be also an iterator, It this case only `next()` method has to be implemented.
+
+Another post on the topic: [Iterator design pattern in Swift](https://theswiftdev.com/2018/08/20/iterator-design-pattern-in-swift/). It's interesting because it refers to example from [the gang of four book](https://www.amazon.com/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8).
+
+Didn't know it's possible to declare [`notmutating` setter for property](https://github.com/apple/swift/blob/da61cc8cdf7aa2bfb3ab03200c52c4d371dc6751/stdlib/public/core/ArrayBuffer.swift#L372) in Swift. Sometime it's useful to dig into Swift sources.
+
+Refreshed memory about `NSOperation` reading NSHipster's [`NSOperation`](https://nshipster.com/nsoperation/) and post [NSOperation and NSOperationQueue To Improve Concurrency in iOS](https://medium.com/shakuro/nsoperation-and-nsoperationqueue-to-improve-concurrency-in-ios-e31ee79c98ef).
