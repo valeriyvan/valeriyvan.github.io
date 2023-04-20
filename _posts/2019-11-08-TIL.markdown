@@ -1,0 +1,128 @@
+---
+layout: post
+title:  "TIL `unowned(safe)` and `unowned(unsafe)` exist in Swift"
+date:   2019-11-08 19:08:00 +0200
+categories: TIL, Swift, unowned, Reference counting
+---
+Read [`where` clauses on contextually generic declarations](https://github.com/apple/swift-evolution/blob/master/proposals/0267-where-on-contextually-generic.md).
+
+Read Swift proposal [Increase availability of implicit self in @escaping closures when reference cycles are unlikely to occur](https://github.com/apple/swift-evolution/blob/master/proposals/0269-implicit-self-explicit-capture.md).
+
+Side learning. In following snippet surprised to see just `[self]` in capture list. Usually you see there `[weak self]` or `[unowned self]`. But it's logical to see there just `[self]` as well which means strong capturing.
+
+```swift
+class Test {
+    var x = 0
+    func execute(_ work: @escaping () -> Void) {
+        work()
+    }
+    func method() {
+        execute { [self] in
+            x += 1
+        }
+    }
+}
+```
+
+Fuck! From further reading of proposal found out that also `unowned(safe)` and `unowned(unsafe)` exist. Didn't know that and don't know what that does mean.
+
+Actually The Swift programming language mentions `unowned(unsafe)` in [Automatic Reference Counting chapter](https://docs.swift.org/swift-book/LanguageGuide/AutomaticReferenceCounting.html), but in a little bit different context. Book gives following snippet and then adds a note about `unowned`:
+
+```swift
+class Customer {
+    let name: String
+    var card: CreditCard?
+    init(name: String) {
+        self.name = name
+    }
+    deinit { print("\(name) is being deinitialized") }
+}
+
+class CreditCard {
+    let number: UInt64
+    unowned let customer: Customer
+    init(number: UInt64, customer: Customer) {
+        self.number = number
+        self.customer = customer
+    }
+    deinit { print("Card #\(number) is being deinitialized") }
+}
+```
+
+> The examples above show how to use _safe_ unowned references. Swift also provides _unsafe_ unowned references for cases where you need to disable runtime safety checks—for example, for performance reasons. As with all unsafe operations, you take on the responsibility for checking that code for safety.
+
+> You indicate an unsafe unowned reference by writing `unowned(unsafe)`. If you try to access an unsafe unowned reference after the instance that it refers to is deallocated, your program will try to access the memory location where the instance used to be, which is an unsafe operation.
+
+This snippet opens my eyes that properties could not only be weak but `unowned` as well. It's useful to read documentation.
+
+From [An Exhaustive Look At Memory Management in Swift](http://marksands.github.io/2018/05/15/an-exhaustive-look-at-memory-management-in-swift.html) learned that capture lists could rename captured variables:
+
+```swift
+class Example {
+    var closure: () -> () = { }
+
+    func captureSelf() {
+        closure = { [weak weakSelf = self] in
+            _ = weakSelf
+        }
+    }
+}
+```
+
+One more eye opener example from post above.
+
+> In the example below, the reference cycle is not as apparent since a capture list exists that captures self as a weak reference. However, the capture list only exists on the inner closure. Without the capture list on the outerClosure, self is passed strongly within the block. By the time innerClosure captures self weakly, it is too late. The only way to break the reference cycle in this example is to rely on an external collaborator to nil out the outerClosure–which is not okay!
+
+```swift
+class Example {
+    var outerClosure: (() -> ())?
+
+    func testCycle() {
+        var innerClosure: (() -> ())?
+        outerClosure = {
+            innerClosure = { [weak self] in
+                _ = self
+            }
+        }
+    }
+}
+
+let example = Example()
+example.testCycle() // Leak!
+```
+
+> Let’s modify the example to pass self in weakly to the outer closure, preventing the strong reference cycle.
+
+```swift
+class Example {
+    var outerClosure: (() -> ())?
+
+    func testCycle() {
+        var innerClosure: (() -> ())?
+        outerClosure = { [weak self] in
+            innerClosure = {
+                self?.callAFunction()
+            }
+        }
+    }
+}
+
+let example = Example()
+example.testCycle() // All good!
+```
+
+At least one of examples from post were not working as it was described. Anyway, this is highly useful and post. Sure I will return to it many times to refresh my knowledge. May be I will include some snippets from this post to interview questions.
+
+Above post also refers to [Closures Capture Semantics, Part 1: Catch them all!](https://alisoftware.github.io/swift/closures/2016/07/25/closure-capture-1/) which is interesting. Despite name there's no Part 2.
+
+From [Hover](https://github.com/pedrommcarrasco/Hover) at GitHub jumped by link to [WWDC 2018 session #803 video Designing Fluid Interfaces](https://developer.apple.com/videos/play/wwdc2018/803/). That is where I am complete noob in iOS. Here nice GitHub repo [fluid-interfaces](https://github.com/nathangitter/fluid-interfaces) in the topic with accompanying blog post.
+
+Read post [`NSCopying` uses in Swift](https://swiftrocks.com/nscopying-nszone-uses-in-swift.html).
+
+Side learning. I was intrigued with following. What's `Unmanaged.passUnretained` there?
+
+```Swift
+// Getting memory addresses
+print(Unmanaged.passUnretained(stringBox).toOpaque()) // 0x0000600003620da0
+print(Unmanaged.passUnretained(stringBoxCopy).toOpaque()) // 0x0000600003620e20
+```
