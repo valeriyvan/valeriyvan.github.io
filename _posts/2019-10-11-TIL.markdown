@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "TIL `MemoryLayout<Float>.stride` in Swift as equivalent of `sizeof(float)` in C; `CFBitVector` for bit arrays; no `UInt128` in Swift"
+date:   2019-10-11 19:11:00 +0200
+categories: TIL, Swift, MemoryLayout, CFBitVector, UInt128
+---
+Learned `sizeof(float)` in C equals to `MemoryLayout<Float>.stride` in Swift. 
+
+Trying decode data coming from python server come to this [Don't Pickle Your Data](https://www.benfrederickson.com/dont-pickle-your-data/):
+
+> For most common tasks, just use JSON for serializing your data. It's fast enough, human readable, doesn't cause security issues, and can be parsed in all programming languages that are worth knowing.
+
+TIL Swift doesn't have `UInt128`. What the fuck!?
+
+TIL bit arrays are available in Objective-C [`CFBitVector`](https://developer.apple.com/documentation/corefoundation/cfbitvector-s0t). May be I should use them.
