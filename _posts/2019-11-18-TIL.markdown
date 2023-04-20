@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read XML is almost always misused"
+date:   2019-11-18 19:18:00 +0200
+categories: TIL, XML
+---
+Read [XML is almost always misused](https://www.devever.net/~hl/xml).
