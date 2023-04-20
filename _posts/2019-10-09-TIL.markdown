@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Found out that `DispatchSourceTimer` set to fire every 500ms with leeway 10ms fires first three times with half of that interval"
+date:   2019-10-09 19:09:00 +0200
+categories: TIL, Swift, DispatchSourceTimer, CADisplayLink
+---
+Found out that `DispatchSourceTimer` set to fire every 500ms with leeway 10ms fires first three times with half of that interval:
+
+```
+203.233003616333
+362.44702339172363
+512.6810073852539
+512.36891746521
+511.1290216445923
+533.6190462112427
+512.20703125
+511.90900802612305
+511.6978883743286
+533.7280035018921
+511.7610692977905
+511.9049549102783
+533.6589813232422
+511.79707050323486
+512.0589733123779
+512.2179985046387
+511.40296459198
+512.173056602478
+511.78693771362305
+533.6840152740479
+```
+
+Investigating why dispatch timer fires first three times with interval twice shorter then needed, jumped to [Minimize Timer Use](https://developer.apple.com/library/archive/documentation/Performance/Conceptual/EnergyGuide-iOS/MinimizeTimerUse.html) and [Defer Networking](https://developer.apple.com/library/archive/documentation/Performance/Conceptual/EnergyGuide-iOS/DeferNetworking.html#//apple_ref/doc/uid/TP40015243-CH18-SW1). Then to [How to synchronize code to drawing using `CADisplayLink`](https://www.hackingwithswift.com/example-code/system/how-to-synchronize-code-to-drawing-using-cadisplaylink) and [CADisplayLink and its applications](https://medium.com/@dmitryivanov_54099/cadisplaylink-and-its-applications-bfafb760d738). 
+
+Side note: interesting case for using `CADisplayLink` [Animated `UILabel` with `CADisplayLink`](https://medium.com/@duwei199714/animated-uilabel-with-cadisplaylink-9a761d693ca5).
