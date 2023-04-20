@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Read Differentiable Programming documentation in Swift"
+date:   2019-11-07 19:07:00 +0200
+categories: TIL, Swift, Differentiable Programming, SIMD, String, documenation 
+---
+Run through [Differentiable Programming documentation](https://github.com/apple/swift/blob/master/docs/DifferentiableProgramming.md).
+
+Side note: it's smart how illustration images are embed in this markdown file.
+
+Passed over [Generic Math(s) Functions Swift proposal](https://github.com/apple/swift-evolution/blob/master/proposals/0246-mathable.md) introducing to the standard library two new protocols `ElementaryFunctions` and `Real` to provide "basic math functions" in generic contexts for floating-point and SIMD types, and provide a path to extend that functionality to planned complex types in the future. The third piece of the proposal is the `Math` module. Unlike the previous two additions, the availability of these functions is gated on Swift 5.1.
+
+Passed over [Make `Numeric` Refine a new `AdditiveArithmetic` Protocol proposal](https://github.com/apple/swift-evolution/blob/master/proposals/0233-additive-arithmetic-protocol.md). Already in Swift 5.
+
+Passed over [SIMD additions](https://github.com/apple/swift-evolution/blob/master/proposals/0251-simd-additions.md) and [SIMD Vectors](https://github.com/apple/swift-evolution/blob/master/proposals/0229-simd.md) Swift proposals. Already in Swift 5.1.
+
+Today I was reviewing coding test of job candidate where I found developer was casting Swift `String` into `NSString` just to call [`enumerateSubstrings(in:,options:,using:)`](https://developer.apple.com/documentation/foundation/nsstring/1416774-enumeratesubstrings). The problem is that this function is available on `String` as well. If you know it exists, just start typing its name and Xcode will help you with code completion. But what if you don't know about this function or you forgot its name, what can you do? You can't find this function in help, it's not listed in [`String`](https://developer.apple.com/documentation/swift/string) documentation. In Objective-C time I in such case I would just jump into [String Programming Guide](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/Strings/) where all information about strings processing in Objective-C is available. Apple used to have such programming guides on all important topics, let it be [Cryptographic Services Guide](https://developer.apple.com/library/archive/documentation/Security/Conceptual/cryptoservices/Introduction/Introduction.html#//apple_ref/doc/uid/TP40011172) or [Local and Remote Notification Programming Guide](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/index.html#//apple_ref/doc/uid/TP40008194).
+
+TODO: Consider completing [PR for this FIXME](https://github.com/apple/swift/blob/master/stdlib/public/core/SequenceAlgorithms.swift).
