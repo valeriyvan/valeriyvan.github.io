@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "TIL Flyweight pattern; Multiton pattern; what is String interning; refreshed how to make concurrent `NSOperation`; "
+date:   2019-11-13 19:13:00 +0200
+categories: TIL, Swift, Flyweight pattern, Multiton pattern, NSOperation, concurrency, Tagged pointers, NSObjectProtocol
+---
+Read [Swift Default Protocol Implementations](https://nshipster.com/swift-default-protocol-implementations/). Obsoleted. But anyway, interesting.
+
+[Short strings in Objective-C are tagged pointers](https://www.mikeash.com/pyblog/friday-qa-2015-07-31-tagged-pointer-strings.html). What about Swift? [Thread on Apple developers forum "Is String allocated on the Stack or on the Heap"](https://forums.developer.apple.com/thread/50357) slightly touches the topic.
+
+> By contrast, Swift `Int`s almost always have a value representation. But there are exceptions.
+
+What are these exceptions?
+
+Learned that storing single copy of string literal in a pool is called [String interning](https://en.wikipedia.org/wiki/String_interning).
+
+Learned [Flyweight pattern](https://en.wikipedia.org/wiki/Flyweight_pattern) pattern. In computer programming, **flyweight** is a software design pattern. A **flyweight** is an object that minimizes memory usage by sharing as much data as possible with other similar objects. Wikipedia has very good Swift example of the pattern.
+
+Learned [Multiton pattern](https://en.wikipedia.org/wiki/Multiton_pattern).
+
+Curious [thread on ycombinator about tagged pointers](https://news.ycombinator.com/item?id=9981874). And here is the answer for a question which annoyed me a lot: 
+
+> It's not NSString, but it's interesting to note that Objective-C selectors are just interned strings. By interning them, they can be compared with a simple pointer comparison. Because they're just C strings, you can print a selector by casting it to char &ast;.
+
+Yesterday I was struggling to implement one of operations, concurrent one (nowadays it’s called asynchronous). It might look strange to hear about concurrent (asynchronous ) operations. Aren’t all `NSOperation`s concurrent (asynchronous)? No, not all. I have implemented these many years ago and I remember it was tricky and has pitfalls so I wanted to read documentation first. And here again, nowadays documentation only describes properties and methods and doesn’t contain detailed guide. And here again, the only source of information how to implement it - [old obsoleted Apple documentation](https://developer.apple.com/library/archive/documentation/General/Conceptual/ConcurrencyProgrammingGuide/OperationObjects/OperationObjects.html#//apple_ref/doc/uid/TP40008091-CH101-SW8). It's a [Concurrency Programming Guide](https://developer.apple.com/library/archive/documentation/General/Conceptual/ConcurrencyProgrammingGuide/).
+
+To be true, here it is a documentation of [`asynchronous` property of `NSOperation`](https://developer.apple.com/documentation/foundation/nsoperation/1408275-asynchronous) which refers [Asynchronous Versus Synchronous Operations](https://developer.apple.com/documentation/foundation/nsoperation?language=objc#1661231) which contain up to date information. But anyway, it’s far from be that descriptive and have all details in one place, like in old Concurrency Programming Guide referenced above.
+
+Reviewing PR of one of mine colleges I see conformance to `NSObjectProtocol` in Swift protocol. What's the point nowadays to conform to `NSObjectProtocol`? In such cases I conform to `class` or `AnyObject`.
