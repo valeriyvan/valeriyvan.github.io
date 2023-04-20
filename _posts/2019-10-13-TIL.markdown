@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL googleimagesdownload CLI for downloading images from Google in command line"
+date:   2019-10-13 19:13:00 +0200
+categories: TIL, googleimagesdownload, Yandex.Toloka
+---
+Worth keeping bookmark [How to create your own dataset with Kirkorov and Face on Yandex.Toloka (russian)](https://habr.com/ru/company/ods/blog/358574/), at least for referencing [CLI `googleimagesdownload`](https://github.com/hardikvasa/google-images-download) for downloading images from Google images in command line. Economics is impressive: 1.3$ for classifying 1150 photos. Another similar post [Creating dataset for recognizing meters on Yandex.Toloka (russian)](https://habr.com/ru/company/ods/blog/469633/) describing case which is much closer do my needed for creating data set for [ukrainian traffic signs](http://w7software.com/signs-ukr/stat.html). Author promises follow-up for task for image segmentation for computer vision tasks.
+
+Read post [Specialist for labeling data (russian)](https://habr.com/en/company/newprolab/blog/352572/) which browses tools for labeling data. Nothing new.
