@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Read about `Sequence` and `Collection` in Swift; about type erase"
+date:   2019-10-23 19:23:00 +0200
+categories: TIL, Swift, Strideable, Type erase
+---
+Hang some time on wikipedia [Apple designed processors](https://en.wikipedia.org/wiki/Apple-designed_processors) trying to guess how many cores modern iPads and iPhones have. Short answer is: 6 or 8.
+
+Watched [Everything You Ever Wanted to Know on Sequence & Collection](https://academy.realm.io/posts/try-swift-soroush-khanlou-sequence-collection/) by Soroush Khanlou. Soroush says that extending sequence one should remember that sequence might be consumable (means it could be iterated only once) but gives as example implementation of `eachPair` which internally consumes sequence twice.
+
+Watched [Keep Calm and Type Erase On](https://academy.realm.io/posts/tryswift-gwendolyn-weston-type-erasure/). I have already watched this some time ago. Nothing new.
