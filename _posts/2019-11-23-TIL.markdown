@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "TIL Changes in the `ViewController` Presentation Style on iOS 13"
+date:   2019-11-23 19:23:00 +0200
+categories: TIL, iOS 13
+---
+Read [iOS 13: Changes in the `ViewController` Presentation Style](https://zonneveld.dev/ios-13-viewcontroller-presentation-style-modalpresentationstyle/). Condensed. Very short. But not full. What learned?
+
+> You must set the `modalPresentationStyle` property of the view controller that will be presented. If you want to present a navigation controller which contains a view controller, the navigation controller that will be presented must have set the property `modalPresentationStyle`, instead of the view controller that will be visible.
+
+The code example below makes it clearer how to deal with the presentation style when presenting a navigation controller:
+
+```swift
+let detailVC = DetailViewController()
+let navigationController = UINavigationController(rootViewController: detailVC)
+navigationController.modalPresentationStyle = .fullScreen
+present(navigationController, animated: true)
+```
+
+Watched [Introducing Multiple Windows on iPad](https://developer.apple.com/videos/play/wwdc2019/212/).
+
+Watched [WWDC 2019 Session 224 video Modernizing Your UI for iOS 13](https://developer.apple.com/videos/play/wwdc2019/224/).
+
+Watched [WWDC 2019 Session 246 Window Management in Your Multitasking App](https://developer.apple.com/videos/play/wwdc2019/246/).
+
+Being iPad user I don't use these features a lot. That why I had to re-watched [Apple iPad Slideout Multitasking Demo at WWDC 2015](https://www.youtube.com/watch?v=4H7YVLUZ-GI). This video from Apple support is useful as well [How to multitask with Split View on your iPad — Apple Support](https://www.youtube.com/watch?v=nSBZKr5kXYM).
+
+Watched old [WWDC 2015 Session 205 Getting Started with Multitasking on iPad in iOS 9](https://developer.apple.com/videos/play/wwdc2015/205/). New learned:  
+
+* `UIView.readableContentGuide`;
+
+* Window of correct size used by app now could now be created with `UIWindow()` instead of `UIWindow(frame: UIScreen.main.bounds)`.
+
+Apple in the last video recommends to follow with [Adopting Multitasking Enhancements on iPad chapter of iOS programming guide](https://developer.apple.com/library/archive/documentation/WindowsViews/Conceptual/AdoptingMultitaskingOniPad/index.html) and with sample code [AdaptivePhotos: Using UIKit Traits and Size Classes](https://developer.apple.com/library/archive/samplecode/AdaptivePhotos/Introduction/Intro.html#//apple_ref/doc/uid/TP40014636).
+
+TODO: [run this tutorial about building CCTV on raspberry Pi](https://www.pyimagesearch.com/2019/09/02/opencv-stream-video-to-web-browser-html-page/).

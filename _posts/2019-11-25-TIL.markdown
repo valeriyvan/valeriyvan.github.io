@@ -1,23 +1,10 @@
 ---
 layout: post
-title:  "TIL Changes in the `ViewController` Presentation Style on iOS 13"
+title:  "TIL again Changes in the `ViewController` Presentation Style on iOS 13"
 date:   2019-11-25 19:25:00 +0200
 categories: TIL, iOS 13
 ---
-Read [iOS 13: Changes in the `ViewController` Presentation Style](https://zonneveld.dev/ios-13-viewcontroller-presentation-style-modalpresentationstyle/). Condenced. Very short. But not full. What learned?
-
-> You must set the `modalPresentationStyle` property of the view controller that will be presented. If you want to present a navigation controller which contains a view controller, the navigation controller that will be presented must have set the property `modalPresentationStyle`, instead of the view controller that will be visible.
-
-The code example below makes it clearer how to deal with the presentation style when presenting a navigation controller:
-
-```swift
-let detailVC = DetailViewController()
-let navigationController = UINavigationController(rootViewController: detailVC)
-navigationController.modalPresentationStyle = .fullScreen
-present(navigationController, animated: true)
-```
-
-Another post of the same topic is much more long and detailed: [View Controller Presentation Changes in iOS 13](https://medium.com/@hacknicity/view-controller-presentation-changes-in-ios-13-ac8c901ebc4e). Worth bookmarking.
+Read [View Controller Presentation Changes in iOS 13](https://medium.com/@hacknicity/view-controller-presentation-changes-in-ios-13-ac8c901ebc4e). Worth bookmarking.
 
 Interesting pos of same author [iPad Navigation Bar and Toolbar Height Changes in iOS 12](https://medium.com/@hacknicity/ipad-navigation-bar-and-toolbar-height-changes-in-ios-12-91c5766809f4).
 
