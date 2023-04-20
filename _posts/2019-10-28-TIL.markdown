@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "TIL `stride(from:, to:, by:)` function returns `StrideTo<Element>`"
+date:   2019-10-28 19:28:00 +0200
+categories: TIL, Swift, Strideable
+---
+For the first time looked into type returned by function `stride(from:, to:, by:)`. It returns a struct `StrideTo<Element>` which conforms to `Sequence` protocol. Here how declaration begins:
+
+```swift
+/// A sequence of values formed by striding over a half-open interval.
+///
+/// Use the `stride(from:to:by:)` function to create `StrideTo` instances.
+public struct StrideTo<Element> where Element : Strideable {
+```
+
+Curious why function is used and not regular constructor?
+
+Another finding that there's `first` property. This wasn't a surprise - I expected to have it. Surprise is that it is not optional. And it is logical for a sequence. Failed to find where this exact `first` is declared. Xcode is shitty bad in that. And navigating in code manually given nothing. Another surprise - there's no `last`. And that's also logical. 
+
+*Meetup question*: where `first` accessible from `StrideTo` is actually declared. Failed to find it in `StrideTo` itself as well as in `Sequence`.
