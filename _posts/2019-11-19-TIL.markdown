@@ -1,0 +1,55 @@
+---
+layout: post
+title:  "Read Properties chapter of The Swift programming language"
+date:   2019-11-19 19:19:00 +0200
+categories: TIL, Swift, Properties
+---
+Read [Properties chapter of The Swift programming language](https://docs.swift.org/swift-book/LanguageGuide/Properties.html). Easy? Even here I have found something new:
+
+```swift
+struct Point {
+    var x = 0.0, y = 0.0
+}
+struct Size {
+    var width = 0.0, height = 0.0
+}
+struct Rect {
+    var origin = Point()
+    var size = Size()
+    var center: Point {
+        get {
+            let centerX = origin.x + (size.width / 2)
+            let centerY = origin.y + (size.height / 2)
+            return Point(x: centerX, y: centerY)
+        }
+        set(newCenter) { // <- dodn't know it's possible here
+            origin.x = newCenter.x - (size.width / 2)
+            origin.y = newCenter.y - (size.height / 2)
+        }
+    }
+}
+```
+
+This is interesting note:
+
+> If you pass a property that has observers to a function as an in-out parameter, the willSet and didSet observers are always called. This is because of the copy-in copy-out memory model for in-out parameters: The value is always written back to the property at the end of the function. For a detailed discussion of the behavior of in-out parameters, see [In-Out Parameters](https://docs.swift.org/swift-book/ReferenceManual/Declarations.html#ID545).
+
+Section [Property Wrappers](https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID617) is quite interesting as well. And this is new for me [Projecting a Value From a Property Wrapper](https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID617). Understood very little.
+
+In section [Global and Local Variables](https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID263) see clearly stated first time:
+
+> The capabilities described above for computing and observing properties are also available to _global variables_ and _local variables_.
+
+Subsection [Type Property Syntax](https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID265) of section [Type Properties](https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID264) is also bring something new:
+
+> You define type properties with the `static` keyword. For computed type properties for class types, you can use the `class` keyword instead to allow subclasses to override the superclass’s implementation.
+
+Hm, from that could be good interview question.
+
+Read [Methods chapter of The Swift programming language](https://docs.swift.org/swift-book/LanguageGuide/Methods.html).
+
+Same finding with `class` and `static` keywords for type method like for type properties:
+
+> You indicate type methods by writing the `static` keyword before the method’s `func` keyword. Classes can use the `class` keyword instead, to allow subclasses to override the superclass’s implementation of that method.
+
+Neither of chapters explains how to call type property or method having instance. It's expecially interesting to know how it works in case of override (classes only). Are all ovverides in chain get called? What's called if overritten property (or function) is called when instance is casted to base class? Which versions get called?
