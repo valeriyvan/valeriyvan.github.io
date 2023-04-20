@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TIL Flyweight pattern; Multiton pattern; what is String interning; refreshed how to make concurrent `NSOperation`; "
+title:  "TIL Flyweight pattern; Multiton pattern; what is String interning; refreshed how to make concurrent `NSOperation`"
 date:   2019-11-13 19:13:00 +0200
 categories: TIL, Swift, Flyweight pattern, Multiton pattern, NSOperation, concurrency, Tagged pointers, NSObjectProtocol
 ---
