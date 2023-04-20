@@ -1,7 +1,25 @@
 ---
 layout: post
-title:  "Read again NSHipster's post `NSOperation`"
-date:   2019-11-12 19:12:00 +0200
-categories: TIL, NSOperation, concurrency
+title:  "Read NSHipster's Device Identifiers and Fingerprinting on iOS; TIL Apple provides Supported iPhone models"
+date:   2019-11-11 19:11:00 +0200
+categories: TIL, Fingerprinting, NSUserDefaults, 
 ---
-Read again NSHipster's post [`NSOperation`](https://nshipster.com/nsoperation/). Hm, no example of asynchronous operation. And there's no good example of such operation in Swift anywhere in internet. TODO: Probably, I should put some my own example to GitHub gist. 
+Read NSHipster's [Device Identifiers and Fingerprinting on iOS](https://nshipster.com/device-identifiers/). Didn't know that back in iOS 11 was introduced `DeviceCheck.framework` "which allows developers to assign two bits of information that are persisted by Apple until the developer manually removes them". Didn't know about these two bits! Chapter of this post about fingerprinting is interesting as well, especially about using locale information for fingerprinting.
+
+But this drawn my attention the most: `UserDefaults.standard.object(forKey: "AppleKeyboards")`. Obvious thing have being slipping from my attention to the moment: System is writing to standard user defaults. Simple line `dump(UserDefaults.standard.dictionaryRepresentation())` put into `application(_:didFinishLaunchingWithOptions:)` of freshly created up being run on iPhone 6S running iOS 13.2.2 shows there are 33 items (12 if run in simulator). Here are keys: `ApplePasscodeKeyboards`, `com.apple.content-rating.ExplicitBooksAllowed`, `com.apple.Animoji.StickerRecents.SplashVersion`, `com.apple.content-rating.ExplicitMusicPodcastsAllowed`, `AKLastCheckInSuccessDate`, `INNextFreshmintRefreshDateKey`, `AKLastEmailListRequestDateKey`, `AppleLanguagesDidMigrate`, `CarCapabilities`, `com.apple.content-rating.AppRating`, `AppleKeyboardsExpanded`, `AppleICUForce24HourTime`, `PKContactlessInterfaceHomeButtonSourceHasOccuredKey`, `com.apple.content-rating.TVShowRating`, `AppleLocale`, `PKKeychainVersionKey`, `AppleLanguagesSchemaVersion`, `INNextHearbeatDate`, `NSInterfaceStyle`, `AddingEmojiKeybordHandled`, `AppleITunesStoreItemKinds`, `AppleTemperatureUnit`, `AppleKeyboards`, `AKLastIDMSEnvironment`, `MSVLoggingMasterSwitchEnabledKey`, `AKLastCheckInAttemptDate`, `AKDeviceUnlockState`, `NSLanguages`, `com.apple.content-rating.MovieRating`, `PKEnableStockholmSettings`, `AppleLanguages`. What I have learned from that - use [reverse domain name notation](https://en.wikipedia.org/wiki/Reverse_domain_name_notation) for user defaults keys.
+
+Apple provides [Supported iPhone models](https://support.apple.com/en-gb/guide/iphone/iphe3fa5df43/ios) - a list of supported iOS devices. Remember iOS nowadays means iPhone.
+
+Here is a reminder how units should be now formatted: `Measurement<UnitInformationStorage>(value: Double(processInfo.physicalMemory), unit: .bytes).converted(to: .gigabytes) // 16GB`
+
+That post is a gold having pieces of info like following one for collecting information without permission if user is able to send emails and text message:
+
+```swift
+import MessageUI
+MFMailComposeViewController.canSendMail()
+MFMessageComposeViewController.canSendText()
+```
+
+Learned about `git log -S <whatever> --source --all`:
+
+> To find all commits that added or removed the **fixed string** `whatever`. The `--all` parameter means to start from every branch and `--source` means to show which of those branches led to finding that commit. It's often useful to add `-p` to show the patches that each of those commits would introduce as well.
