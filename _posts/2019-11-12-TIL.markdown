@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read again NSHipster's post `NSOperation`"
+date:   2019-11-12 19:12:00 +0200
+categories: TIL, NSOperation, concurrency
+---
+Read again NSHipster's post [`NSOperation`](https://nshipster.com/nsoperation/). Hm, no example of asynchronous operation. And there's no good example of such operation in Swift anywhere in internet. TODO: Probably, I should put some my own example to GitHub gist. 
