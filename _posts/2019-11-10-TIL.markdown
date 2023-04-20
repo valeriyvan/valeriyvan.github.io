@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Read Closures chapter of The Swift Programming Language book"
+date:   2019-11-10 19:10:00 +0200
+categories: TIL, Swift, Closures, Reference types
+---
+Read [Closures](https://docs.swift.org/swift-book/LanguageGuide/Closures.html) of The Swift Programming Language book.
+
+Where the term **Closure** comes from? 
+
+> Closures can capture and store references to any constants and variables from the context in which they are defined. This is known as _closing over_ those constants and variables
+
+> Closures take one of three forms:
+
+* Global functions are closures that have a name and do not capture any values.
+
+* Nested functions are closures that have a name and can capture values from their enclosing function.
+
+* Closure expressions are unnamed closures written in a lightweight syntax that can capture values from their surrounding context.
+
+Functions and closures are reference types!
