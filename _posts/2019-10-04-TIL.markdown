@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Read An in-depth look at CoreML 3"
+date:   2019-10-04 19:04:00 +0200
+categories: TIL, Swift, SIMD
+---
+Read [An in-depth look at Core ML 3](https://machinethink.net/blog/new-in-coreml3/):
+
+> We’re mostly going to look at the mlmodel format here, not the API from CoreML.framework (which, except for adding training functionality, didn’t really change much).
+
+> Do you need to know this stuff if you’re just looking to convert an existing model and use it in your app? Probably not. But it’s definitely good to have as a reference for when you’re designing your own machine learning models that you intend to use with Core ML 3, or when you’re not sure an existing model can be converted.
+
+Learned keystroke for force quit on macOS. Hard to believe that after 15 years on Mac I still can't remember it.
+![](/assets/mages/key-caps-macos-force-quit.png)
