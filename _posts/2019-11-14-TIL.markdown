@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "Read Memory Safety, Deinitialization, Strings and Characters chapters of The Swift programming language"
+date:   2019-11-14 19:14:00 +0200
+categories: TIL, Swift, Memory Safety, String, Charachter, Multiline
+---
+Read again [Memory Safety](https://docs.swift.org/swift-book/LanguageGuide/MemorySafety.html) chapter of The Swift programming language, then chapter [Deinitialization](https://docs.swift.org/swift-book/LanguageGuide/Deinitialization.html), then [Strings and Characters](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html). Some details of Multiline String Literals slippered from my mind:
+
+```swift
+// `multilineString` doesn't have line breaks
+let multilineString = """
+These are the same.
+"""
+```
+
+```swift
+// Multi line literal could have \ at end of each line meaning it will be no new line there 
+let softWrappedQuotation = """
+The White Rabbit put on his spectacles.  "Where shall I begin, \
+please your Majesty?" he asked.
+
+"Begin at the beginning," the King said gravely, "and go on \
+till you come to the end; then stop."
+"""
+```
+
+This shows strings are tricky collections:
+
+```Swift
+// Concatenating two strings of length 1 creates a string of length 1
+let combinedEAcuteS1: String = "\u{65}"         // e
+print(combinedEAcuteS1, combinedEAcuteS1.count) // e 1
+let combinedEAcuteS2: String = "\u{301}"        //  ́
+print(combinedEAcuteS2, combinedEAcuteS1.count) //  ́ 1
+let combinedEAcute2: String = combinedEAcuteS1 + combinedEAcuteS2
+print(combinedEAcute2, combinedEAcute2.count)   // é 1
+```

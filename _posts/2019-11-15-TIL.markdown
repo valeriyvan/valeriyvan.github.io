@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL `URLSession` in iOS 13 already supports WebSockets"
+date:   2019-11-15 19:15:00 +0200
+categories: TIL, URLSession, WebSockets, Vapor
+---
+From last [Vapor Meetup in Berlin](https://www.meetup.com/VaporBerlin/events/265972908/) have learned that URLSession in iOS 13 already supports WebSockets. Here follow up reading [WebSockets in iOS Using Swift](https://medium.com/better-programming/websockets-in-ios-using-swift-a176791e139f), [WebSockets in iOS 13 Using Swift and Xcode 11](https://medium.com/better-programming/websockets-in-ios-13-using-swift-and-xcode-11-18fa3000d802).
