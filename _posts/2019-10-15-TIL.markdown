@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Read Identifiable and Hashable / Hasher chapters at NSHipster; TIL Apple is using version 4 of UUID"
+date:   2019-10-15 19:15:00 +0200
+categories: TIL, Swift, Identifiable, Equatable, Hashable, UUID
+---
+Read [Identifiable](https://nshipster.com/identifiable/) at NSHipster. Not as useless reading as one might think. Post discusses topics like Identifiable vs. Equatable, Identifiable vs. Hashable.
+
+* Unlike identifiers, hash values are typically _state-dependent_, changing when an object is mutated.
+
+* Identifiers are _stable_ across launches, whereas hash values are calculated by randomly generated hash seeds, making them _unstable_ between launches.
+
+Identifiers are _unique_, whereas hash values may _collide_, requiring additional equality checks when fetched from a collection.
+
+Identifiers can be _meaningful_, whereas hash values are chaotic by virtue of their hashing functions.
+
+NSHipster's posts are always gold!
+
+Jumped to [Versions of Universally unique identifier in WiKi](https://en.wikipedia.org/wiki/Universally_unique_identifier#Versions). Apple uses Version 4 for UUID. Did know that all UUIDs have version number in them.
+
+> As in other UUIDs, 4 bits are used to indicate version 4.
+
+Jumped to [Hashable / Hasher](https://nshipster.com/hashable/).
+
+Exercise: Use sequence function to walk tree.
+
+Sidenote: [About here in LinkedIn](https://www.linkedin.com/in/iurimatsuura/) is really good! I should learn from this.
