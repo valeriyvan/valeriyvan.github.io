@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL how `Range` is implemented in Swift"
+date:   2019-10-16 19:16:00 +0200
+categories: TIL, Swift, Range
+---
+Read [Range](https://github.com/apple/swift/blob/da61cc8cdf7aa2bfb3ab03200c52c4d371dc6751/stdlib/public/core/Range.swift) implementation in Swift.
