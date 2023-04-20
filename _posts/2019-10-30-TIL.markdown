@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "TIL about comparing floats in Swift"
+date:   2019-10-30 19:30:00 +0200
+categories: TIL, Swift, Float 
+---
+Fun with comparing floats again: [Floating-point Swift, ulp, and epsilon](https://www.jessesquires.com/blog/floating-point-swift-ulp-and-epsilon/), [talk on the topic](https://www.youtube.com/watch?v=cdRn4DJq9eY) from iOS Conf SG 2017.
+
+Based on what's discussed in video above it's interesting to refactor following two extensions with code duplication into one:
+
+```
+extension Array where Element == Double {
+    public init(txtFileURL: URL) throws {
+        self =
+            try String(contentsOf: txtFileURL)
+            .trimmingCharacters(in: .whitespacesAndNewlines)
+            .components(separatedBy: .whitespacesAndNewlines)
+            .map { Double($0)! } // force unwrap intentionally!
+    }
+}
+
+extension Array where Element == Float {
+    public init(txtFileURL: URL) throws {
+        self =
+            try String(contentsOf: txtFileURL)
+            .trimmingCharacters(in: .whitespacesAndNewlines)
+            .components(separatedBy: .whitespacesAndNewlines)
+            .map { Float($0)! } // force unwrap intentionally!
+    }
+}
+```
+
+Browsed Swift proposal [Approximate Equality for Floating Point](https://github.com/apple/swift-evolution/blob/master/proposals/0259-approximately-equal.md) because it's connected to the topic.
+
+Passed over [Float by Example - Swift Programming Language](https://developerinsider.co/float-by-example-swift-programming-language/) and [Double by Example - Swift Programming Language](https://developerinsider.co/double-by-example-swift-programming-language/) to check if I familiar with everything.
+
+Interesting finding [Create Object Detection and Segmentation Neural Networks without Code](https://makeml.app).
+
+Here post by Alexey Korotkov, creator of MakeML.app [MakeML’s Automated Video Annotation Tool for Object Detection on iOS](https://heartbeat.fritz.ai/makemls-automated-video-annotation-tool-for-object-detection-on-ios-889ef7bb5253). Has great hint for speeding app creation of dataset for object detection.
+
+Crosslink the post above worth reading [Object Detection Guide. Almost everything you need to know about how object detection works.](https://www.fritz.ai/object-detection/).
+
+Learned about [baseline for Xcode performance tests](https://www.hackingwithswift.com/example-code/testing/how-to-set-baselines-for-your-performance-tests). Here's explained where baselines are stored inside project.
+
+Read about [office access system in mail.ru office](https://habr.com/ru/company/mailru/blog/473828/) developed with OpenCV and Vision, their cloud computer vision service.
