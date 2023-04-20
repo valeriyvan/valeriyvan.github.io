@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "TIL how to write parser using SIMD operations"
+date:   2019-10-05 19:05:00 +0200
+categories: TIL, Swift, SIMD
+---
+Watched [Swift Talk # 171 A Parser Using SIMD and Bitwise Operations (Part 1)](https://talk.objc.io/episodes/S01E171-a-parser-using-simd-and-bitwise-operations-part-1). It's so interesting how bit twiddling is used to find control characters in a string. It's even more interesting that I have met similar trick last week in Python code which I am porting to iOS and couldn't get how it works.
+![](/assets/images/Screenshot%202019-10-05%20at%2021.33.55.png)
+
+Tricks reminded me [Bit Twiddling Hacks](https://graphics.stanford.edu/~seander/bithacks.html) but applied to strings.
+
+Code in Swift Talk # 171 above uses Swift function [`padding(toLength:withPad:startingAt:)`](https://developer.apple.com/documentation/foundation/nsstring/1416395-padding) which I have never used. Googling for it found that method description has what Apple calls a documentation bug: [String padding method is broken?](https://forums.swift.org/t/string-padding-method-is-broken/14417). Still not fixed. To be short, method is applied to code points, not characters. Which means this method could break strings with some emoji, e.g. Good to know and remember this.
+
+From [Supporting Low Data Mode in your app](https://www.donnywals.com/supporting-low-data-mode-in-your-app) TIL that iOS 13 introduced Low Data Mode.
+
+Read [Fast app prototyping with SwiftUI](https://medium.com/flawless-app-stories/fast-app-prototyping-with-swiftui-39ae03ab3eaa).
+
+Read [Announcing Our iOS Fall Sale!](https://www.raywenderlich.com/5722842-announcing-our-ios-fall-sale).
+
+Read [Auditing Your Mac for 32-bit applications and go 64](https://www.macsparky.com/blog/2019/10/auditing-your-mac-for-32-bit-applications-and-go64).
