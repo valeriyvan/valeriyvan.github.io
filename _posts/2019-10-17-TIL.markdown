@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Intersection over Union (IoU) for object detection; read Swift Property Wrappers"
 date:   2019-10-17 19:17:00 +0200
-categories: TIL, Swift, Swift Property Wrappers
+categories: TIL, Swift, Intersection over Union, IoU, Swift Property Wrappers
 ---
 Read [Intersection over Union (IoU) for object detection](https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/).
 
