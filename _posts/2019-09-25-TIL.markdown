@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL Modality changes in iOS13"
+date:   2019-09-25 19:25:00 +0200
+categories: TIL, iOS 13, Swift, Property wrappers
+---
+Read [Supporting iOS Billing Grace Period](https://www.revenuecat.com/2019/09/13/supporting-ios-billing-grace-period.
+
+Read [Atomic property wrapper in Swift](https://www.onswiftwings.com/posts/atomic-property-wrapper/).
+
+Read [Modality changes in iOS13](https://sarunw.com/posts/modality-changes-in-ios13).
