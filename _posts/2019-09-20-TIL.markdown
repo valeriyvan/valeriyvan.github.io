@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Watched Paul Hudson's video The Evolution of Swift: Are we there yet?"
+date:   2019-09-20 19:20:00 +0200
+categories: TIL, Swift
+---
+Watched  Paul Hudson's [The Evolution of Swift: Are we there yet?](https://www.youtube.com/watch?v=tF47KiiAU_0).
