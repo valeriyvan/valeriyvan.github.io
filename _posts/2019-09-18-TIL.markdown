@@ -1,0 +1,85 @@
+---
+layout: post
+title:  "Firstly used Swift's Array Initializer with Access to Uninitialized Storage; Read about Curry Function in Swift"
+date:   2019-09-18 19:18:00 +0200
+categories: TIL, Swift, Curry Function
+---
+First time used Swift 5.1. feature [Array Initializer with Access to Uninitialized Storage](https://github.com/apple/swift-evolution/blob/master/proposals/0245-array-uninitialized-initializer.md) refactoring this:
+
+```Swift
+extension Data {
+    var sha1: [UInt8] {
+        var digest = [UInt8](repeating: 0, count: Int(CC_SHA1_DIGEST_LENGTH))
+        withUnsafeBytes { unsafeBytes in
+            _ = CC_SHA1(unsafeBytes.baseAddress, CC_LONG(count), &digest)
+        }
+        return digest
+    }
+}
+```
+
+into this:
+
+```Swift
+extension Data {
+    var sha1: [UInt8] {
+        let dLength = Int(CC_SHA1_DIGEST_LENGTH)
+        return withUnsafeBytes { bytes in
+            return [UInt8](unsafeUninitializedCapacity: dLength) { buf, initedCount in
+                _ = CC_SHA1(bytes.baseAddress, CC_LONG(count), buf.baseAddress)
+                initedCount = dLength
+            }
+        }
+    }
+}
+```
+
+[Functional Swift: Curry Function](https://medium.com/swift-india/functional-swift-curry-function-4d26190139ed). First time I got which this feature called this way. Oh, no! This feature was called after [Haskel Curry](https://en.wikipedia.org/wiki/Haskell_Curry).
+
+Why I started to read about curried functions? I have this:
+
+```Swift
+sha1.map { String(format: "%02hhx", $0) }.joined()
+
+```
+
+The idea is to get rid of `String(format: "%02hhx", $0)` inside map and to get something similar to:
+
+```Swift
+let hexformat: (CVarArg...) -> String = format("%02hhx")
+sha1.map(hexformat).joined()
+// or even shorter - that's idea!
+sha1.map(format("%02hhx")).joined()
+```
+
+Implementation of curried `format` function is very short:
+
+```Swift
+func format(_ fmt: String) -> (CVarArg...) -> String {
+    return { String(format: fmt, arguments: $0) } // (1)
+}
+
+let s1 = format("%02hhx")(255)
+let s2 = format("%02hhx-%02hhx")(255, 255)
+let s3 = format("%02hhx-%02hhx-%@")(255, 255, "string")
+
+```
+
+Unfortunately it doesn't compile with error at (1):
+
+```
+Cannot convert return expression of type '([CVarArg]) -> String' to return type '(CVarArg...) -> String'
+```
+
+The problem is because parameter `CVarArg...` is visible inside function having type `[CVarArg]`. But closure has to be converted back to `CVarArg...`. Or I can't find how to do this conversion. Or this doesn't exist.
+
+It works like charm for single value formatting:
+
+```Swift
+func singleValueFormat(_ fmt: String) -> (CVarArg) -> String {
+    return { String(format: fmt, arguments: [$0]) }
+}
+[1,2,3,4,5].map(singleValueFormat("%02hhx")).joined() // "0102030405"
+```
+
+*Swift meetup question*: how to cast `[CVarArg]` to `CVarArg...`?
