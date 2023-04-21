@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Read chapter Error Handling of The Swift programming language guide"
+date:   2019-10-02 19:02:00 +0200
+categories: TIL, Swift, Error Handling, iOS, UINavigationController, preferredContentSize
+---
+Read chapter [Error Handling](https://docs.swift.org/swift-book/LanguageGuide/ErrorHandling.html) of The Swift programming language guide. `catch is VendingMachineError` - is what I have missed before.
+
+Read [Popovers, UINavigationController, and preferredContentSize](https://noahgilmore.com/blog/popover-uinavigationcontroller-preferredcontentsize/). Relevant topic for current task.
