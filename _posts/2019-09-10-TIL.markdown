@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Read Swift Generics Evolution"
+date:   2019-09-10 19:10:00 +0200
+categories: TIL, Swift, Generics
+---
+Looked into this [xcode-dev-cleaner](https://github.com/vashpan/xcode-dev-cleaner) to fix md calculation.
+
+Read [Building an iOS camera calculator with Core ML’s Vision and Tesseract OCR](https://heartbeat.fritz.ai/building-a-camera-calculator-with-vision-and-tesseract-ocr-in-ios-26f16240fe51).
+
+Read [Swift Generics Evolution](https://www.timekl.com/blog/2019/04/14/swift-generics-evolution/): value-level abstraction, existential types, reverse generics.
