@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Watched Paul Hudson's How to use the Coordinator pattern in iOS"
+date:   2019-09-02 19:02:00 +0200
+categories: TIL, Swift
+---
+This [CLI to eliminate unused Swift code](https://github.com/peripheryapp/periphery) might be useful.
+
+Watched [How to use the Coordinator pattern in iOS](https://www.youtube.com/watch?v=7HgbcTqxoN4) and [Advanced Coordinators in iOS](https://www.youtube.com/watch?v=ueByb0MBMQ4) by Paul Hudson.
