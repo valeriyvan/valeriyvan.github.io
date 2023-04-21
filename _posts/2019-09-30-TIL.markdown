@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL AltStore"
+date:   2019-09-30 19:30:00 +0200
+categories: TIL, AltStore
+---
+Read bout AltStore [Introducing AltStore](http://rileytestut.com/blog/2019/09/25/introducing-altstore). Curious. But I hope Apple will hut it down soon with all its tricks with background silent audio playing, background refresh, weekly resigning. And whole idea installing apps doing whatever they like is suspicious.
