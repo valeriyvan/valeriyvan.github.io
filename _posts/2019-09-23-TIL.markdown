@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL `Unmanaged` in Swift"
+date:   2019-09-23 19:23:00 +0200
+categories: TIL, Swift, Unmanaged, Reference counting
+---
+Firstly, came across `Unmanaged` in Swift. Which exists since 2015. Completely missed this along with `CF_IMPLICIT_BRIDGING_ENABLED`, `CF_IMPLICIT_BRIDGING_DISABLED`, `CF_RETURNS_RETAINED`, `CF_RETURNS_NOT_RETAINED`. Therefor I jumped to NSHipster's [Unmanaged](https://nshipster.com/unmanaged/) and Mike Ash's [Friday Q&A 2017-08-11: Swift.Unmanaged](https://www.mikeash.com/pyblog/friday-qa-2017-08-11-swiftunmanaged.html) and Erica Sadun's [Swift: Working with Unmanaged Objects](https://ericasadun.com/2015/04/06/swift-working-with-unmanaged-objects/).
