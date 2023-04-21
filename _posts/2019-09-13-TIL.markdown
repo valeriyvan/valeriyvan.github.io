@@ -1,0 +1,79 @@
+---
+layout: post
+title:  "Read What is NSUserDefaults?]; What’s new in Swift 5.1"
+date:   2019-09-13 19:13:00 +0200
+categories: TIL, Swift, NSUserDefaults
+---
+Read [What is NSUserDefaults?](http://dscoder.com/defaults.html).
+
+> If you find yourself needing to do anything else to read a preference, you should take a step back and reconsider: caching values from NSUserDefaults is usually unnecessary, since it's extremely fast to read from. Calling `-synchronize` before reading a value is always unnecessary. Responding when the value changes is almost always unnecessary, since the nature of "settings" is that they control what a program does when it does it, rather than actually causing it to do something. Having an alternate code path for "no value set" is also generally unnecessary, as you can provide a default value instead (see Providing Default Values below).
+
+This is also a good reminder:
+
+```Objective-C
+[[NSUserDefaults standardUserDefaults] registerDefaults:@{
+    @"Something" : initialValue
+}];
+```
+
+> Prior to iOS 12/macOS Mojave, if you set a default, and then immediately call `exit()` or `abort()` (but not `-terminate`, or the like), the value you set may be lost. You can use `CFPreferencesAppSynchronize()` to wait until it's safe to exit.
+
+> The first time you read a default, it will load all the defaults for that suite into memory. This can take a meaningful amount of time on slower systems. One implication of this is to not store huge amounts of data in defaults, since it'll all be loaded at once. Another is to not have tons and tons of defaults suites, since each one will require its own initial load.
+
+Read [Dos and Don’ts for creating an onboarding journey on iOS](https://benoitpasquier.com/dos-donts-onboarding-ios/). 
+
+Posted these quotes to our team Slack channel:
+
+> Don’t assume your users is already converted. I’ve discovered many apps asking for email and personal informations in onboarding to finish on a pay subscription page. As a mobile user, I still haven’t the value of the app and won’t pay for it.
+
+> Do work on the right timing to onboard. You might want to leave the user to go through the onboarding process only once he discovered a bit about the app. It can be a second launch, or maybe after launching a search request. It’s can be nice to let it accessible through an help page if user want to replay it.
+
+Read [What’s new in Swift 5.1](https://www.hackingwithswift.com/articles/182/whats-new-in-swift-5-1) this seem to be it's russian translation [Swift 5.1 — что нового?](https://habr.com/ru/post/446522/), [What’s New in Swift 5.1?](https://www.raywenderlich.com/4187396-what-s-new-in-swift-5-1):
+
+* synthesized memberwise initializers with defaults;
+
+* implicit returns from single-expression functions;
+
+* universal `Self`;
+
+* opaque return types;
+
+* static and class subscripts;
+
+* warnings for ambiguous `none` cases;
+
+* matching optional enums against non-optionals;
+
+* ordered collection diffing;
+
+* creating uninitialized arrays;
+
+* function builders `@functionBuilder`;
+
+* property wrappers `@propertyWrapper`;
+
+* dynamic member lookup (`@dynamicMemberLookup`) for keypaths;
+
+* keypaths for tuples;
+
+* `Equatable` and `Hashable` conformance for `weak` and `unowned` properties;
+
+* new [features for `Strings`](https://github.com/apple/swift-evolution/blob/master/proposals/0248-string-gaps-missing-apis.md), `base` at `Substring` worth mentioning;
+
+* contiguous strings;
+
+* converting tuple types;
+
+* fix of a bug of allowing duplicate labels in tuples;
+
+* fix overloading functions with any parameters;
+
+* allow type aliases for `@autoclosure` parameters;
+
+* fix for methods returning `Self` from Objective-C;
+
+* [stable ABI libraries (`@frozen`)](https://github.com/apple/swift-evolution/blob/master/proposals/0260-library-evolution.md);
+
+[CHANGELOG](https://github.com/apple/swift/blob/master/CHANGELOG.md)
+
+This is [interesting link to documentation on Swift](https://developer.apple.com/documentation/swift).
