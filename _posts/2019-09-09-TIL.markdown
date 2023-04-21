@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Read Secrets of “printf`"
+date:   2019-09-09 19:09:00 +0200
+categories: TIL, printf
+---
+Today while reviewing code of my colleague I came across of this:
+
+```Swift
+private func signedValueText(_ value: Int) -> String {
+    let sign = value > 0 ? "+" : ""
+    return sign + String(value)
+}
+```
+
+Read [Secrets of `printf`](https://www.cypress.com/file/54441/download):
+
+> In the most simple case, `printf` takes one argument: a string of characters to be printed. This string is composed of characters, each of which is printed exactly as it appears. So `printf("xyz");` would simply print an "x", then a "y", and finally a "z". This is not exactly “formatted” printing, but it is still the basis of what `printf` does.
+
+WRONG!
