@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "TIL Apple's port of BLAS (Basic Linear Algebra Subprograms) and Compression as part of Accelerate framework"
+date:   2019-10-01 19:01:00 +0200
+categories: TIL, BLAS, Compression, Accelerate framework
+---
+Read post [Struct References](http://chris.eidhof.nl/post/references/) by Chris Aidhof.
+
+Read review by Chris Eidhof [Swift Analytics](http://chris.eidhof.nl/post/swift-analytics/) about building analytics system in Swift with enums, structs, protocols and subclasses.
+
+Browsed post by Cris Eidhof [Swift Mirrors and JSON](http://chris.eidhof.nl/post/swift-mirrors-and-json/) about using reflection to build JSON codable. Post mentions library doing exactly this [](https://github.com/matthewcheok/JSONCodable).
+
+And finally with Cris, read [Undo History in Swift](http://chris.eidhof.nl/post/undo-history-in-swift/).
+
+Jumped to [BLAS (Basic Linear Algebra Subprograms)](https://developer.apple.com/documentation/accelerate/blas?changes=_2) which is part of Accelerate framework. Jumped because we have been discussing if BLAS could help me with my current task of interpreting CoreML model output. The answer is "No".
+
+Read about [Compression](https://developer.apple.com/documentation/compression?changes=_2), part of Accelerate framework.
