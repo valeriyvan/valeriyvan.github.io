@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Completely forgot `dispatch_once` was removed"
+date:   2019-09-19 19:19:00 +0200
+categories: TIL, Swift, dispatch_once
+---
+As follow up after discussion about way of tolling payment for subscription for iOS app explored way how and why Netflix doesn't give way to pay trough iTunes for new users. [Billing FAQs](https://help.netflix.com/en/node/25097):
+
+> iTunes billing for Netflix is not available to new or rejoining Netflix customers. If you are currently billed by iTunes, you can continue to use iTunes billing until your account is cancelled.
+
+Read [Netflix permanently pulls iTunes billing for new users](https://venturebeat.com/2018/12/28/netflix-permanently-pulls-itunes-billing-for-new-users/).
+
+> Apple and Google charge 15 percent on each in-app subscription on their platforms. The two used to take a 30 percent cut, but in the past two years have slashed their ask.
+
+Read [Netflix ditching iTunes billing for new customers](https://9to5mac.com/2018/12/28/netflix-removes-itunes-billing/):
+
+> Currently, Apple takes a 30% cut from all purchases made through the App Store. Recurring subscriptions that are longer than a year will see a smaller 15% cut from Apple.
+
+[Netflix: ‘We No Longer Support iTunes as a Method of Payment for New Members’](https://www.multichannel.com/news/netflix-officially-cuts-apple-out-of-signup-coin):
+
+> Apple recoups 15% - 30% of all subscription revenue, current and moving forward, when a user signs up for a service through its iTunes App Store and uses its billing system.
+
+Completely forgot `dispatch_once` was removed. It seems to have in Swift 3, so 2 years ago.
