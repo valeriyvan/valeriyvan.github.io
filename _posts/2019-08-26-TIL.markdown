@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "TIL `expandingTildeInPath` exists for `NSString` but not for `String`"
+date:   2019-08-26 19:26:00 +0200
+categories: TIL, NSString, String
+---
+Learned how to [turn on Gather coverage](https://cocoacasts.com/how-to-enable-code-coverage-in-xcode) in Xcode. I always forget where this should be turned on.
+
+Do you know `expandingTildeInPath` exists for `NSString` but not for `String`. `URL` has `standardizedFileURL` but it isn't doing what you would expect. The easiest way fill gap - bridge to `NSString`:
+
+```swift
+let expandedPath = (CommandLine.arguments[1] as NSString).expandingTildeInPath
+let url = URL(fileURLWithPath: expandedPath)
+``` 
+
+TODO: add here explanation of what is `standardizedFileURL` really doing. And use `NSString` initializer instead of cast.
