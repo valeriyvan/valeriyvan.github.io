@@ -1,0 +1,47 @@
+---
+layout: post
+title:  "Found good mini-reference and mini-manual on Scrum"
+date:   2019-08-23 19:23:00 +0200
+categories: TIL, Scrum
+---
+Today I hang at this snippet:
+
+```swift
+let numbers: [String?] = ["1", "two", nil]
+let mapped: [Int?] = numbers.compactMap { Int($0 ?? "0") }
+mapped.count
+// What's the value of mapped.count?
+```
+
+Correct answer is 3.
+
+Reason is not in source array at all and not in coalescing inside of transform in compactMap as it might seem after first look.
+
+It's because of type annotation of `mapped` variable. `[Int?]` for result of compactMap which is returning non-`nil` results. Here what documentation says:
+
+/// Returns an array containing the non-`nil` results of calling the given
+/// transformation with each element of this sequence.
+///
+/// Use this method to receive an array of non-optional values when your
+/// transformation produces an optional value.
+
+Ok, `[Int?]` for result of `compactMap` looks strange. But how is that influencing result? Here how `compactMap` is declared:
+
+`func compactMap<ElementOfResult>(_ transform: (Element) throws -> ElementOfResult?) rethrows -> [ElementOfResult]`
+
+And its [implementation](
+https://github.com/apple/swift/blob/df2307e035b02fc5828adbd6847e7fa3a5976366/stdlib/public/core/FlatMap.swift) is dead simple:
+
+`return self.map(transform).filter { $0 != nil }.map { $0! }`
+
+Attention to function declaration. `compactMap` is generic on type of element of returning array.
+`compactMap` returning `[ElementOfResult]` and its transform parameter is `(Element) throws -> ElementOfResult?`.
+
+But what if we enforce ElementOfResult to be optional providing type annotation for `mapped` variable?
+Not a problem. Then transform will wrap all transformation results in optinal giving double optional.
+Then `compactMap` will get rid of wrapper optional because none of elemens could be nil.
+And now elements of array returned from `compactMap` is optional some of which might be `nil`.
+That what we have in our case. That why count of mapped is 3 but not 2.
+But if you make type annotation of `mapped` `[Int]` or get rid of it completely we get count 2 as expected.
+
+Interesting example when explicite type annotation might play bad. If they are wrong.
