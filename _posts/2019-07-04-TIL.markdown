@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL about market for software for audio units"
+date:   2019-07-04 19:04:00 +0200
+categories: TIL, Audio Unit, Accelerate framework, vDSP
+---
+Read [Diatonic Shifter 2 User Manual](http://www.audiowish.com/downloads/manuals/Diatonic-Shifter-2-User-Manual.pdf). Such Audio Units could be used in host apps Apple’s like Logic (Pro), Garageband and AU Lab. [This unit costs 29.99$](http://www.audiowish.com/audio-units/diatonic-shifter.html). Interesting to learn that market for such type of software exists. Probably I could try to make something similar. E.g. [this developer](https://apps.apple.com/de/app/stereo-phaser/id1251879829?l=en&mt=12) as a bunch of similar stuff in the Mac App Store including [tuning app](https://apps.apple.com/de/app/fine-chromatic-tuner/id1174330003?l=en&mt=12) which I definitely could make.
+
+Audio Unit manual by link above has quite a lot of very useful links. Some I would like to bookmark here. [Pitch Shifting Using The Fourier Transform](http://blogs.zynaptiq.com/bernsee/pitch-shifting-using-the-ft/) has detailed explanation of Short Time Fourier transform with implementation of which I am struggling at the moment including question of choosing of stride.
+
+Site of company standing behind audiowish stuff mentioned above has not bad post about accelerate framework [Vectorizing with `vDSP` and `vecLib`](http://www.ffnn.nl/pages/articles/apple-mac-os-x/vectorizing-with-vdsp-and-veclib.php). Unfortunately it doesn't mention question which bothers me a lot: can `vDSP` and `veclib` use as output vector one of its input vectors and how this use case influence performance.
