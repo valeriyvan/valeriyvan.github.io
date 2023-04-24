@@ -1,0 +1,67 @@
+---
+layout: post
+title:  "Came across very strange runtime error instantiating CoreML model - solution was unexpected"
+date:   2019-07-24 19:24:00 +0200
+categories: TIL, Swift, Error Handling, CoreML
+---
+Today came across very strange runtime error instantiating CoreML model:
+
+```
+2019-07-24 10:57:07.346799+0300 amt-model-sandbox[16309:2126534] *** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: '*** -[NSURL initFileURLWithPath:]: nil string parameter'
+*** First throw call stack:
+(
+	0   CoreFoundation                      0x0000000106eb26fb __exceptionPreprocess + 331
+	1   libobjc.A.dylib                     0x000000010601bac5 objc_exception_throw + 48
+	2   CoreFoundation                      0x0000000106eb2555 +[NSException raise:format:] + 197
+	3   Foundation                          0x0000000105b22cf3 -[NSURL(NSURL) initFileURLWithPath:] + 127
+	4   Foundation                          0x0000000105b2355f +[NSURL(NSURL) fileURLWithPath:] + 45
+	5   amt-model-sandbox                   0x0000000104e9a3c9 +[onset_frames urlOfModelInThisBundle] + 169
+	6   amt-model-sandbox                   0x0000000104e9a43c -[onset_frames init] + 60
+	7   amt-model-sandbox                   0x0000000104ea1133 $sSo12onset_framesCABSgycfcTO + 19
+	8   amt-model-sandbox                   0x0000000104e9dc4f $sSo12onset_framesCABSgycfC + 31
+	9   amt-model-sandbox                   0x0000000104e9b554 $s17amt_model_sandbox14ViewControllerC11viewDidLoadyyF + 580
+	10  amt-model-sandbox                   0x0000000104e9e6b4 $s17amt_model_sandbox14ViewControllerC11viewDidLoadyyFTo + 36
+	11  UIKitCore                           0x00000001119bc43b -[UIViewController loadViewIfRequired] + 1183
+	12  UIKitCore                           0x00000001119bc868 -[UIViewController view] + 27
+	13  UIKitCore                           0x0000000111ff4c33 -[UIWindow addRootViewControllerViewIfPossible] + 122
+	14  UIKitCore                           0x0000000111ff5327 -[UIWindow _setHidden:forced:] + 289
+	15  UIKitCore                           0x0000000112007f86 -[UIWindow makeKeyAndVisible] + 42
+	16  UIKitCore                           0x0000000111fb7f1c -[UIApplication _callInitializationDelegatesForMainScene:transitionContext:] + 4555
+	17  UIKitCore                           0x0000000111fbd0c6 -[UIApplication _runWithMainScene:transitionContext:completion:] + 1617
+	18  UIKitCore                           0x00000001118026d6 __111-[__UICanvasLifecycleMonitor_Compatability _scheduleFirstCommitForScene:transition:firstActivation:completion:]_block_invoke + 904
+	19  UIKitCore                           0x000000011180afce +[_UICanvas _enqueuePostSettingUpdateTransactionBlock:] + 153
+	20  UIKitCore                           0x00000001118022ec -[__UICanvasLifecycleMonitor_Compatability _scheduleFirstCommitForScene:transition:firstActivation:completion:] + 236
+	21  UIKitCore                           0x0000000111802c48 -[__UICanvasLifecycleMonitor_Compatability activateEventsOnly:withContext:completion:] + 1091
+	22  UIKitCore                           0x0000000111800fba __82-[_UIApplicationCanvas _transitionLifecycleStateWithTransitionContext:completion:]_block_invoke + 782
+	23  UIKitCore                           0x0000000111800c71 -[_UIApplicationCanvas _transitionLifecycleStateWithTransitionContext:completion:] + 433
+	24  UIKitCore                           0x00000001118059b6 __125-[_UICanvasLifecycleSettingsDiffAction performActionsForCanvas:withUpdatedScene:settingsDiff:fromSettings:transitionContext:]_block_invoke + 576
+	25  UIKitCore                           0x0000000111806610 _performActionsWithDelayForTransitionContext + 100
+	26  UIKitCore                           0x000000011180571d -[_UICanvasLifecycleSettingsDiffAction performActionsForCanvas:withUpdatedScene:settingsDiff:fromSettings:transitionContext:] + 223
+	27  UIKitCore                           0x000000011180a6d0 -[_UICanvas scene:didUpdateWithDiff:transitionContext:completion:] + 392
+	28  UIKitCore                           0x0000000111fbb9a8 -[UIApplication workspace:didCreateScene:withTransitionContext:completion:] + 514
+	29  UIKitCore                           0x0000000111b72dfa -[UIApplicationSceneClientAgent scene:didInitializeWithEvent:completion:] + 361
+	30  FrontBoardServices                  0x00000001109da125 -[FBSSceneImpl _didCreateWithTransitionContext:completion:] + 448
+	31  FrontBoardServices                  0x00000001109e3ed6 __56-[FBSWorkspace client:handleCreateScene:withCompletion:]_block_invoke_2 + 283
+	32  FrontBoardServices                  0x00000001109e3700 __40-[FBSWorkspace _performDelegateCallOut:]_block_invoke + 53
+	33  libdispatch.dylib                   0x0000000107f78db5 _dispatch_client_callout + 8
+	34  libdispatch.dylib                   0x0000000107f7c2ba _dispatch_block_invoke_direct + 300
+	35  FrontBoardServices                  0x0000000110a15146 __FBSSERIALQUEUE_IS_CALLING_OUT_TO_A_BLOCK__ + 30
+	36  FrontBoardServices                  0x0000000110a14dfe -[FBSSerialQueue _performNext] + 451
+	37  FrontBoardServices                  0x0000000110a15393 -[FBSSerialQueue _performNextFromRunLoopSource] + 42
+	38  CoreFoundation                      0x0000000106e19be1 __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 17
+	39  CoreFoundation                      0x0000000106e19463 __CFRunLoopDoSources0 + 243
+	40  CoreFoundation                      0x0000000106e13b1f __CFRunLoopRun + 1231
+	41  CoreFoundation                      0x0000000106e13302 CFRunLoopRunSpecific + 626
+	42  GraphicsServices                    0x000000010b7822fe GSEventRunModal + 65
+	43  UIKitCore                           0x0000000111fbeba2 UIApplicationMain + 140
+	44  amt-model-sandbox                   0x0000000104ea1e9b main + 75
+	45  libdyld.dylib                       0x0000000107fed541 start + 1
+	46  ???                                 0x0000000000000001 0x0 + 1
+)
+libc++abi.dylib: terminating with uncaught exception of type NSException
+(lldb) 
+```
+
+Solution was unexpected. Changing CoreML Model Class Generation Language parameter from Automatic to Swift, firstly, solved this runtime bug. Second, Xcode started generate Swift but not Objective-C class for CoreML model. Don't know why in case of Automatic parameter it generated Objective-C code.
+
+![](/assets/images/Screenshot%202019-07-25%20at%2003.10.48.png)
