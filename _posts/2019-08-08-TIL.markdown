@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Read Opaque Types chapter in Swift manual"
+date:   2019-08-08 19:08:00 +0200
+categories: TIL, Swift, Opaque Types
+---
+Transformation while vectorizing code I have been tinkering with:
+
+![](/assets/images/Screenshot%202019-08-07%20at%2016.45.29.png)
+
+![](/assets/images/Screenshot%202019-08-07%20at%2016.49.49.png)
+
+![](/assets/images/Screenshot%202019-08-07%20at%2018.09.09.png)
+
+Read [Opaque Types](https://docs.swift.org/swift-book/LanguageGuide/OpaqueTypes.html) chapter in Swift manual.
+
+Read Swift evolution proposal [Add a String Initializer with Access to Uninitialized Storage](https://github.com/apple/swift-evolution/blob/master/proposals/0263-string-uninitialized-initializer.md).
