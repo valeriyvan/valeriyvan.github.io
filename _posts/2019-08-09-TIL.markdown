@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read Useful obscure Foundation types in Swift"
+date:   2019-08-09 19:09:00 +0200
+categories: TIL, Swift, Foundation
+---
+Passed over [Useful obscure Foundation types in Swift](https://swiftrocks.com/useful-obscure-foundation-types-in-swift.html). Well. I have used 'NSScanner' 10 years ago or so for [this](https://gist.github.com/valeriyvan/a70e8af69662ed58caef). TODO: rewrite that in Swift. [`CFBinaryHeap`](https://developer.apple.com/documentation/corefoundation/cfbinaryheap?language=objc) and [`CFTree`](https://developer.apple.com/documentation/corefoundation/cftree?language=objc) are new for me. Have heard but never used [`NSCache`](https://developer.apple.com/documentation/foundation/nscache?language=objc), [`NSOrderedSet`](https://developer.apple.com/documentation/foundation/nsorderedset?language=objc), [`NSByteCountFormatter`](https://developer.apple.com/documentation/foundation/nsbytecountformatter), [`NSDataDetector`](https://developer.apple.com/documentation/foundation/nsdatadetector?language=objc).
