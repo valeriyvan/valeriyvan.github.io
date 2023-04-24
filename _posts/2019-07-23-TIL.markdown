@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "Open question: how to assign reference type to self in initializer"
+date:   2019-07-23 19:23:00 +0200
+categories: TIL, Swift, initializer
+---
+*Swift meetup question.* Got stumbled with this Swift extension (below) where convenience failable initializer is implemented. At the very bottom there's `image` which is what is needed. How to use this `image` to init `self`. Assignment to self in initializers only allowed for value types. To complete initialization here some `self.init` should be called (for not convenience initializers it will be `super.init`). But there's no initializer for `UIImage` with `UIImage` parameter. As a workaround I use one with `CGImage` parameter. But it isn't good solution as `cgImage` getter is failable. Nicer solution should exist!
+
+```swift
+extension UIImage {
+
+    public convenience init?(from buffer: UnsafeMutablePointer<Double>, rows: Int, cols: Int, toRange0_1: Bool) {
+        if toRange0_1 {
+            let size: vDSP_Length = vDSP_Length(rows * cols)
+            var min: Double = 0.0
+            vDSP_minvD(buffer, 1, &min, size)
+            min *= -1.0
+            vDSP_vsaddD(buffer, 1, &min, buffer, 1, size)
+            var max: Double = 0.0
+            vDSP_maxvD(buffer, 1, &max, size)
+            if max != 0 {
+                vDSP_vsdivD(buffer, 1, &max, buffer, 1, size)
+            } else {
+                print("🔥 can't proceed with division by 0")
+                return nil
+            }
+        }
+        // TODO: do it with data provider!
+        let size = CGSize(width: rows, height: cols)
+        UIGraphicsBeginImageContextWithOptions(size, true, 1.0 /* we need just single resolution */)
+        defer { UIGraphicsEndImageContext() }
+        for r in 0..<rows {
+            for c in 0..<cols {
+                let pixelValue = buffer[r * cols + c]
+                UIColor(red: CGFloat(pixelValue), green: 0.0, blue: 0.0, alpha: 1.0).setFill()
+                UIRectFill(CGRect(x: CGFloat(r), y: CGFloat(c), width: CGFloat(1.0), height: CGFloat(1.0))) // Draw just one pixel in r,c
+            }
+        }
+        guard let image = UIGraphicsGetImageFromCurrentImageContext(),
+              let cgImage = image.cgImage
+        else {
+            return nil
+        }
+        // TODO: What a way to do this without cgImage?
+        // cgImage is workaround here to build UIImage with existing initializer.
+        self.init(cgImage: cgImage)
+    }
+
+}
+```
