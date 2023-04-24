@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Read Assert, Precondition and Fatal Error in Swift - Five Ways to Fail; Reducing Memory Footprint and OOM Terminations in iOS; Played with generating MIDI in iOS"
+date:   2019-07-26 19:26:00 +0200
+categories: TIL, Swift, Error Handling, Assert, Exception, MIDI, AVAudioEngine
+---
+Read [Assert, Precondition and Fatal Error in Swift - Five Ways to Fail](https://agostini.tech/2017/10/01/assert-precondition-and-fatal-error-in-swift/).
+
+Read [Reducing Memory Footprint and OOM Terminations in iOS](https://medium.com/flawless-app-stories/techniques-to-reduce-memory-footprint-and-oom-terminations-in-ios-a0f6bef38217). One more reminder to use `UIGraphicsRenderer` instead of `UIImage(named:)`. Quite detailed post with references to some example projects on GitHub and to appropriate WWDC sessions.
+
+Read [Why iOS developers should pay attention to Flutter in 2019](https://flawlessapp.io/blog/why-ios-developers-should-pay-attention-to-flutter-in-2019/). Not convincing.
+
+Run through [Building a MIDI Sequence in Swift](https://medium.com/@oleary.audio/building-a-midi-sequence-in-swift-bed5f5c2bb7d) accustoming myself to `AudioKit` and Midi. Too much over-complicate for simple task of playing generated on a fly MIDI.
+
+Passed over [Building a MIDI Music App for iOS in Swift](https://blog.codeship.com/building-a-midi-music-app-for-ios-in-swift/). It is better because it doesn't depend on third party frameworks. Unfortunately it depends on deprecated APIs.
+
+[What is MIDI?](https://www.instructables.com/id/What-is-MIDI/) Finally I came to this question. Answer is concise.
+
+Watched [WWDC 2019 Session 509 video What's New in AVAudioEngine](https://developer.apple.com/videos/play/wwdc2019/510/). Nothing relevant for me at the moment.
