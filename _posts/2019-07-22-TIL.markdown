@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Read Utilizing value semantics in Swift; Cracking my windshield and earning $10,000 on the Tesla Bug Bounty Program"
+date:   2019-07-22 19:22:00 +0200
+categories: TIL, Swift, Value types, Bug, Tesla
+---
+Read post [Utilizing value semantics in Swift](https://www.swiftbysundell.com/posts/utilizing-value-semantics-in-swift) in Swift by Sundell.
+
+Read interesting post about vulnerability in Tesla [Cracking my windshield and earning $10,000 on the Tesla Bug Bounty Program](https://samcurry.net/cracking-my-windshield-and-earning-10000-on-the-tesla-bug-bounty-program/). It doesn't relate what I am doing. But. Learned about [format string attacks](https://www.owasp.org/index.php/Format_string_attack) - sometime enter `%x.%x.%x.%x` into text fields could be fun. As well as giving devices/users name like `><sctript src=//somesite.com></sctript>`.
