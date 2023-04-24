@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Read swifting.io issue #53 First steps with NFC on iOS 13"
+date:   2019-07-30 19:30:00 +0200
+categories: TIL, 
+---
+After reading [Unused images and resources clean up in Xcode](https://www.avanderlee.com/optimization/unused-images-clean-up/) started to use new tools including bonus [DevCleaner](https://github.com/vashpan/xcode-dev-cleaner) for cleaning up  Xcode developer files. Tools for cleaning up Xcode from unused localized string are waiting: [Unused localized strings clean up from a Strings file](https://www.avanderlee.com/xcode/unused-localized-strings/).
+
+Read [swifting.io issue #53 First steps with NFC on iOS 13](https://swifting.io/blog/2019/07/11/53-first-steps-with-nfc-on-ios-13/)
+
+> In iOS 13 Apple expanded possibilities of Core NFC. Now iOS is able to read more complex NFC tags, including those that meet ISO 7816 and ISO 15693 standards. Now is enabled to read the data stored on tags associated with passports, driving licenses, and other forms of official identification.
+
+> The second important thing is that now iPhone apps will be able to write directly to blank tags.
+
+> iPhone XS, XS Max and XR (with the new A12 Bionic chip) posses a background feature that allows them to scan NFC tags without the need to open an app.
