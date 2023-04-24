@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL `git clean`; Fortran is still in use on macOS"
+date:   2019-07-31 19:07:00 +0200
+categories: TIL, Fortran, git clean
+---
+Don't laugh. Learned [git clean](https://git-scm.com/docs/git-clean).
+
+Found out Fortran 77 still exists, Fortran compiler is installed on OSX by default and there's something which still using it.
+
+![](/assets/images/Screenshot%202019-07-31%20at%2015.32.48.png)
+
+Curious if it is possible to write generic function in Swift which uses [vDSP_mtrans](https://developer.apple.com/documentation/accelerate/1449988-vdsp_mtrans) or [vDSP_mtransD](https://developer.apple.com/documentation/accelerate/1450422-vdsp_mtransd). I need versions for `Float` and `Double` but don't like to have two implementations.
