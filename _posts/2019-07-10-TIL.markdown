@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Read again What Every Programmer Should Know About Floating-Point Arithmetic; Watched IEEE-754 Analysis; Example code for FFT"
+date:   2019-07-10 19:10:00 +0200
+categories: TIL, Swift, memset, Floating-Point Arithmetic, IEEE-754, FFT, Fast Fourier Transfer
+---
+Again returned back to [What Every Programmer Should Know About Floating-Point Arithmetic](https://floating-point-gui.de). "LANGUAGE CHEAT SHEETS" section misses C/C++/Swift. Probably I should fix this. At least `memset` with `0` for floating point buffer bug should be reflected here. Nice that even [Apple employees make this errors(https://forums.developer.apple.com/thread/24124).
+
+Bookmarking [IEEE-754 Analysis](https://babbage.cs.qc.cuny.edu/IEEE-754/index.xhtml) - nice tool for converting binaries/decimals/hex to 754 float/double.
+
+I have to write my own example code like [here](https://qiita.com/Talokay/items/5fbaa181a4c4e16dd575) about FFT. But without common errors initializing statically allocated buffers with `memset` (it's actually double bug - not effective and `memset` of float buffer is not correct). Binary logarithm called natural. I have feelings that `freq_bins` is calculated incorrectly for common case. But I like approach, plots for every step, even hamming window, signal before/after window.
