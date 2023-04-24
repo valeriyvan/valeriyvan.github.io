@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Read An in-depth look at Core ML 3; Custom Layers in Core ML; MobileNetV2 + SSDLite with Core ML"
+date:   2019-07-08 19:08:00 +0200
+categories: TIL, CoreML, SoundAnalysisPreprocessing, MobileNetV2, SSDLite, YOLO
+---
+Read [An in-depth look at Core ML 3](https://machinethink.net/blog/new-in-coreml3/) and accidentally found that Core ML 3 brought SoundAnalysisPreprocessing layer — this is for Create ML’s new sound classification model. It takes audio samples and converts them to mel spectrograms. This can be used in a Pipeline as the input to an audio feature extraction model (typically a neural network). I have been working the last month exactly on this. Unfortunately [sizes are fixed and limited](https://github.com/apple/coremltools/blob/master/mlmodel/format/SoundAnalysisPreprocessing.proto) for task I am working on.
+
+Jumped to post [Custom Layers in Core ML](https://machinethink.net/blog/coreml-custom-layers/) which explains in details how to build custom layer implementation for CPU (plain Swift implementation with loops and vectorized 150 times faster one with Accelerate framework) and for GPU (with metal shader).
+
+Browsed [MobileNetV2 + SSDLite with Core ML](https://machinethink.net/blog/mobilenet-ssdlite-coreml/). Interesting reading. A lot of comparisons SSD vs. YOLO. I should repeat all this steps myself.
+
+Browsed [A peek inside Core ML](http://machinethink.net/blog/peek-inside-coreml/). If whenever I would need to examine Core ML file I would go to this post.
+
+First time tried to [compile CoreML model on device](https://developer.apple.com/documentation/coreml/core_ml_api/downloading_and_compiling_a_model_on_the_user_s_device). Interesting that console output matches one of xcode.
+
+Read [Building a Neural Style Transfer app on iOS with PyTorch and CoreML](https://medium.com/@alexiscreuzot/building-a-neural-style-transfer-app-on-ios-with-pytorch-and-coreml-76e00cd14b28). People don't shy to wrap ready style transfer neural nets into [paid apps](https://apps.apple.com/us/app/looq-ai-powered-filters/id1159704664).
+
+Re-watched videos of week 2 of course [Audio Signal Processing for Music Applications](https://www.coursera.org/lecture/audio-signal-processing/stft-2-tjEQe), accomplished quiz and assignment.
