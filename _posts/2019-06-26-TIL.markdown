@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "Read What Every Programmer Should Know About Floating-Point Arithmetic; TIL how to show in Xcode memory area formatted to some basic types like `float`"
+date:   2019-06-26 19:26:00 +0200
+categories: TIL, Floating-Point Arithmetic, Xcode, Debugging
+---
+Read [What Every Programmer Should Know About Floating-Point Arithmetic](https://floating-point-gui.de) and this is especially curious [Comparison](https://floating-point-gui.de/errors/comparison/). I used to think that `abs(a-b) < 0.00001` is good enough way to compare floats.
+
+It bugs me a lot that in Xcode there's no way to show memory area formatted to some basic types like `float`. E.g. I have dynamic array of floats on Objective-C `float *file_contents`. What I can do is examine contents of pointer and contents of pointee:
+
+![](/assets/images/Screenshot%202019-06-26%20at%2010.52.39.png)
+
+Context menu of pointer variable has item 'View Memory of "\*ppointer_variable"':
+
+![](/assets/images/Screenshot%202019-06-26%20at%2010.59.48.png).
+
+But it shows only raw bytes along with textual represintation:
+
+![](/assets/images/Screenshot%202019-06-26%20at%2010.53.36.png)
+
+Which helps very little in case of array of floats. The only way is to use lldb command like `memory read -t float -c50 \`file_contents\`` where `-t` specifies type and -c amount of values to show. `memory read -ff -c10 \`file_contents\`` produces same results, where `-f` specifies format. And there's even shortcut `x/10f file_contents`! Good to remember that `help memory read' and help 'help x' work in debugger console in Xcode.
+
+![](/assets/images/Screenshot%202019-06-26%20at%2011.08.07.png)
+
+And actually there's one more way of doing the same - casting the pointer to a pointer-to-array and use `p` lldb command. `p *(float(*)[30])file_contents` in our case:
+
+![](/assets/images/Screenshot%202019-06-26%20at%2011.16.11.png)
+
+One more way - use `parray` lldb command, `parray 50 file_contents` will print 50 elements. And if count of elements is variable it could be `parray ``file_size`` file_contents`.
+
+![](/assets/images/Screenshot%202019-06-26%20at%2011.22.06.png)
