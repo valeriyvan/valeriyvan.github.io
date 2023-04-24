@@ -1,9 +1,7 @@
 ---
 layout: post
-title:  "TIL about `SimulatorStatusMagic` and `simctl status_bar`"
+title:  "Watched WWDC 2011 session video #209 Inside the Accelerate Framework for iOS"
 date:   2019-07-19 19:19:00 +0200
-categories: TIL, Swift, AppStore
+categories: TIL, Swift, WWDC, Accelerate Framework, vDSP
 ---
-### 19 JUL 2019 Friday
-
-Finding that Stephen Canon answering my [comments on stackoverflow question]() is Accelerate framework team member jumped to watch WWDC 2011 session [Inside the Accelerate Framework for iOS](https://developer.apple.com/videos/play/wwdc2011/209/).
+Finding that Stephen Canon from Apple and [Point Free](https://www.pointfree.co) answering my [comments on stackoverflow question](https://stackoverflow.com/a/12143923/942513) is Accelerate framework team member jumped to watch WWDC 2011 session [Inside the Accelerate Framework for iOS](https://developer.apple.com/videos/play/wwdc2011/209/).
