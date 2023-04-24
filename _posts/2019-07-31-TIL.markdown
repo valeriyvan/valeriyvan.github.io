@@ -4,7 +4,7 @@ title:  "TIL `git clean`; Fortran is still in use on macOS"
 date:   2019-07-31 19:07:00 +0200
 categories: TIL, Fortran, git clean
 ---
-Don't laugh. Learned [git clean](https://git-scm.com/docs/git-clean).
+Don't laugh. TIL [git clean](https://git-scm.com/docs/git-clean).
 
 Found out Fortran 77 still exists, Fortran compiler is installed on OSX by default and there's something which still using it.
 

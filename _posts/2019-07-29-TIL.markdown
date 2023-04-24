@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Read On Code Review about prioritizing code review above other work"
+date:   2019-07-29 19:29:00 +0200
+categories: TIL, git, Code review
+---
+Read [Swift Weekly Brief](https://swiftweekly.github.io/issue-139/). Particularly got interested with [SR-10855: Added non-ASCII characters to String benchmarking](https://github.com/apple/swift/pull/25309). Now I know what [Bicameral scripts](https://en.wikipedia.org/wiki/Letter_case#Bicameral_script) are as well as unicameral scripts or unicase. Read also proposal [SE-0261: Identifiable Protocol](https://forums.swift.org/t/se-0261-identifiable-protocol/26602).
+
+Read post [Continuous Integration](http://khanlou.com/2019/07/continuous-integration/). It brings interesting topic:
+
+> You need to build a feature that takes 1,000 lines of code, but you’d like to merge it in in smaller chunks. How can you merge the code in if it’s not finished?
+
+> Ultimately, continuous integration isn’t a build server, it’s a mindset. Keep your outstanding branches small and get code into the mainline branch steadily and frequently, and your team will see appreciable yields.
+
+Will point this post when next time I will face review of big PR.
+
+Above post refers this [On Code Review](https://medium.com/@9len/on-code-review-16ea85f7c585). It's about prioritizing code review above other work. Unexpectedly good post with advice for good review practices, goof review requests and good reviews.
+
+Browsed [The Great AVAudioUnitSampler workout](http://www.rockhoppertech.com/blog/the-great-avaudiounitsampler-workout/). Tomorrow I will be using it to load sound fonts into sampler of audio engine.
