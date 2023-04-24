@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Came across interesting repo Lickability Swift Best Practices Guide"
+date:   2019-08-07 19:07:00 +0200
+categories: TIL, Swift, Best Practices Guide
+---
+Read interesting repo Lickability [Swift Best Practices Guide](https://github.com/Lickability/swift-best-practices/). "Read repo" sounds funny, I know. Lickability is small app agency from NY.
+
+It [describes app architecture](https://github.com/Lickability/swift-best-practices/blob/master/CombinedDocument.md). Especially interesting [Common Controller Types](https://github.com/Lickability/swift-best-practices/blob/master/CommonControllerTypes.md). It contain a lot of interesting and important things even about Project Groups in Xcode project. So it could be good reference point.
