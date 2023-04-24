@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Watched Swift Talk episode #160 Lazy Data Loading; Point Free episode #64 Parser Combinators; Read Problem Solving with Combine Swift"
+date:   2019-07-13 19:13:00 +0200
+categories: TIL, Swift, Dictionary, UnsafeMutablePointer, Lazyness, Combine
+---
+Watched [Swift Talk episode #160 Lazy Data Loading](https://talk.objc.io/episodes/S01E160-lazy-data-loading).
+
+Watched [Point Free episode #64 Parser Combinators: Part 3](https://www.pointfree.co/episodes/ep64-parser-combinators-part-3).
+
+Brilliant idea - store where developer could buy template for app for quick start of development [iOS App Templates](https://www.iosapptemplates.com/).
+
+Nice introduction to Combine [Problem Solving with Combine Swift](https://medium.com/flawless-app-stories/problem-solving-with-combine-swift-4751885fda77) with marble diagrams.
