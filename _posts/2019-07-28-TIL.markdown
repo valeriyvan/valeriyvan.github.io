@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Read chapter 4 of Machine Learning with CoreML book"
+date:   2019-07-28 19:28:00 +0200
+categories: TIL, Swift, MLMultiArray
+---
+Read chapter 4 of [Machine Learning with CoreML book](https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-core-ml).
+
+Read chapter about `MLMultiArray` in [CoreML survival guide](https://leanpub.com/coreml-survival-guide). Found out many things which I have already solved during last two weeks.
+
+> Have never thought that Swift misses multidimensional arrays. Arrays of arrays are different.
+
+> In Core ML, all tensors are represented as 5-dimensional multi-arrays with the shape: (sequence length, batch size, channels, height, width). If a dimension isn’t used, it is set to 1. So if the (200, 50, 75) array is really (1, 1, 200, 50, 75), then it is interpreted by Core ML as having 200 channels, a height of 50, and a width of 75. Note: The height comes before the width!
+
+> It's a pity I haven't get section about subscripting two weeks ago.
+
+> Example with use of `withExtendedLifetime` worth mentioning.
+
+> Examples with fast transposing `MLMultiArray` might come useful soon.
+
+> Examples with converting `MLMultiArray` into image with help of functions like `UIImage.fromByteArrayRGBA()` and other from vImage framework are also brilliant.
