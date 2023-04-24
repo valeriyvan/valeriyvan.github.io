@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "TIL how to make private gist public"
+date:   2019-08-19 19:19:00 +0200
+categories: TIL, git, gist
+---
+Learned [how to make private gist public](https://www.dzombak.com/blog/2011/05/making-private-gist-public.html) and that there's no need for that any more! Made public [Obj-C gist created many years ago](https://gist.github.com/valeriyvan/a70e8af69662ed58caef). TODO: made AWS Swift lambda for this coordinates transforms. Just for practicing with AWS lambdas.
+
+Read [Binary Frameworks in Swift](https://pspdfkit.com/blog/2018/binary-frameworks-swift/) by [Peter Steinberger](https://twitter.com/steipete):
+
+> TL;WR: ABI stability won’t change much for you, and it’s not enough to ship binary Swift frameworks.
+
+Jumped (indirectly) to (quite old) [Are the Top Apps Using Swift?](https://medium.com/@ryanolsonk/are-the-top-apps-using-swift-42e880e7727f).
+
+> I once again downloaded the top 100 free apps and wrote some scripts to analyze the .ipa files.
+
+*Swift meetup question*: how people now download apps from the AppStore. Manually one by one? Hard to believe!
+
+Read again [The Coordinator](http://khanlou.com/2015/01/the-coordinator/) by Soroush Khanlou.
+
+Then jumped to post of the Martin Fowler [Application Controller](https://martinfowler.com/eaaCatalog/applicationController.html).
