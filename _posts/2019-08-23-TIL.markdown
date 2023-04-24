@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Found good mini-reference and mini-manual on Scrum"
+title:  "Interesting Swift interview question"
 date:   2019-08-23 19:23:00 +0200
-categories: TIL, Scrum
+categories: TIL, Swift, Interview question
 ---
 Today I hang at this snippet:
 
