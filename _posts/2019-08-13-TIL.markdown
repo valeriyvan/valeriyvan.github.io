@@ -1,0 +1,68 @@
+---
+layout: post
+title:  "TIL details about protocol extensions in Swift"
+date:   2019-08-13 19:13:00 +0200
+categories: TIL, Swift, Protocols, Protocol extensions
+---
+Have been exploring [this quiz](https://www.objc.io/quiz/11/):
+
+``` Swift
+var quiz = ("iOS", "Quiz") {
+    didSet {
+        quiz.1 = "Swift"
+    }
+}
+quiz.0 = "Advanced"
+// What's the value of quiz?
+```
+
+Answer is obvious. Value of `quiz` variable is `("Advanced", "Swift")`. 
+
+> Solution: `("Advanced", "Swift")`
+
+But what the hell are they talking about "observer will only avoid being recursively called" and "property is set on self":
+
+> In Swift 5, when setting a property from within its own didSet or willSet observer, the observer will only avoid being recursively called if the property is set on self (either implicitly or explicitly)
+
+First, `1` isn't a property but element of tuple, at least [Swift reference manual](https://docs.swift.org/swift-book/ReferenceManual/Types.html) calls it so. Second, it isn't accessed with `self`, but with the name of the variable. Actually it isn't possible to use `self.1` in context of `didSet` here, compiler complains `Use of unresolved identifier 'self'`. I find it weird as you have to remember to change name of observed variable in `didSet` when you change name of variable `quiz`. Third, despite element `1` is accessed not with `self`, observer avoids running recursively.
+
+What I have learned here, is that any variable could be observed, not only property. So this is valid:
+
+``` swift
+var a = 10 {
+    didSet {
+        print(a)
+    }
+}
+```
+
+Again, `a` in snipped above could be accessed with variable name, not with `self`. I find it to ba a flow of the language.
+
+Another quiz. I find [this quiz question](https://www.objc.io/quiz/3/) really useful for understanding protocol extensions:
+
+```swift
+protocol Drawing {
+    func render()
+}
+
+extension Drawing {
+    func circle() { print("protocol") }
+    func render() { circle() }
+}
+
+class SVG: Drawing {
+    func circle() { print("class") }
+}
+
+SVG().render()
+
+// What's the output?
+```
+
+TODO: I am feeling like I have to reread about protocol extensions in Swift.
+
+Exploring apple docs about protocol extensions found out that the first snippet in chapter [Protocols](https://docs.swift.org/swift-book/LanguageGuide/Protocols.html#ID521) of Swift language guide doesn't compile. [Asked](https://forums.swift.org/t/snippet-from-swift-language-guide-doesnt-compile/27863?u=valeriyvan) Swift forums if I should report this.
+
+Finally, I got quiz question with Drawing above. Extension of `Drawing` adds `func circle()` and this isn't additional requirement! This is just part of implementation of protocol extensions. Protocol extension can't extend protocols with new requirements! This means that `func circle()` from `SVG` conforming to protocol `Drawing` is just different function, it doesn't implements protocol requirement or override something!
+
+Accidentally found [Appetize](https://appetize.io/) which allows to run demo of iOS apps in web. I should use it!
