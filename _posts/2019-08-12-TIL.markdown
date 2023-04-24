@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL details about `RawRepresentable` in Swift"
+date:   2019-08-12 19:12:00 +0200
+categories: TIL, Swift, RawRepresentable, enums
+---
+[This quiz](https://www.objc.io/quiz/10/) about enums with raw values moved me to read about RawRepresentable. [Swift language guide](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html#ID149) says:
+
+> Raw values can be strings, characters, or any of the integer or floating-point number types.
+
+Which isn't true. To be continued.
