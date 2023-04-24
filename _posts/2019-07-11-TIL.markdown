@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Read NSHipster's `UIStackView` and `CAEmitterLayer`"
+date:   2019-07-11 19:11:00 +0200
+categories: TIL, Swift, TensorFlow, CoreML, UIStackView, CAEmitterLayer, objc.io, Interview question, quiz
+---
+Was caught with this quiz answering it wrong. And most developers answer it wrong. Appearance of default case should have made this suspicious! Nice interview question.
+
+[![objc.io Swift Quiz](/assets/images/Screenshot%202019-07-11%20at%2012.18.43.png)](https://twitter.com/objcio/status/1148963985758347264)
+
+Read NSHipster's [`UIStackView`](https://nshipster.com/uistackview/) post. Quite good explanation. Despite I use UIStackView in nearly every app I develop, I have found something new in the post. I have missed this:
+
+> To remove an arranged subview that you no longer want around, you need to call `removeFromSuperview()` on it. The stack view will automatically remove it from the arranged subview list. In contrast, calling `removeArrangedSubview(_ view: UIView)` on the stack view will only remove the view passed as a parameter from the arranged subview list, without removing it from the subview hierarchy. Keep this distinction in mind if you are modifying the stack view content during runtime.
+
+Nice post [`CAEmitterLayer`](https://nshipster.com/caemitterlayer/) about confetti effect. Would wait promised full code to give it a try.
+
+Passed over [TensorFlow and CoreML – inference on iOS](https://medium.com/@chrisparsonsdev/tensorflow-and-coreml-inference-on-ios-2dbe31756bef).
+
+Passed over post [Hotswapping Core ML models on the iPhone](https://corp.zedge.net/developers-blog/hotswapping-machine-learning-models-in-coreml-for-iphone) which describes quite sophisticated techniques of deploying CoreML models. 

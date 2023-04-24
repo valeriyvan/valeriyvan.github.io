@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Read Fast.ai’s Deep Learning from the Foundations with Swift for TensorFlow; Read about `swiftbrew` CLI"
+date:   2019-07-12 19:12:00 +0200
+categories: TIL, Swift, TensorFlow, swiftbrew
+---
+Read [Fast.ai’s Deep Learning from the Foundations with Swift for TensorFlow](https://medium.com/tensorflow/fast-ais-deep-learning-from-the-foundations-with-swift-for-tensorflow-3ee7dfb68387). [fast.ai](https://course.fast.ai) is updated for Swift for TensorFlow. Time to start it. And one more reminder tat there's [browser playground for S4TF](https://github.com/tensorflow/swift#getting-started).
+
+Read about [swiftbrew](https://github.com/swiftbrew/Swiftbrew) a tool for installing command line Swift packages.
