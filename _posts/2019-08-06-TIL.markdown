@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Looked in one FFT implementation"
+date:   2019-08-06 19:06:00 +0200
+categories: TIL, FFT, Fast Fourier Transform
+---
+While procrastinating had a look at [FFT implementation](https://github.com/mattt/Surge/blob/master/Sources/Surge/FFT.swift) of [Surge](https://github.com/mattt/Surge/). I doubt anyone will use this implementation:
+
+* It's doing real-to-complex Fourier transform but uses complex-to-complex implementation `vDSP_fft_zip` and to use this function it builds complex array with zero imaginary parts. It just waists memory allocated in line 27 for array `imaginary`. There's real-to-complex implementation of 1D FFT `vDSP_fft_zrip` which might be used to avoid allocation of array of zeros for imaginary part. TODO: check if complex implementation takes more time fo running on same buffer length.
+
+* Usually FFT is run multiple times for several chunks of data of same length. For that usage of FFT in vDSP (and all other effective libraries for same purpose, e.g. fftw) split on two parts: setup of FFT which has to be done once and consecutive run of FFT for chunks of data of same length. But here setup is calculated inside of a function and isn't reused.
+
+* vDSP isn't able to run FFT on a buffer of arbitrary length as it uses FFT algorithm operating only on buffer of length of pow of 2. Here the length of the buffer is calculated as `let length = vDSP_Length(floor(log2(Float(input.count))))` (line 30). Which means FFT will run on whole buffer only if its length is pow of 2, otherwise FFT will be run on part of the buffer. Let's say FFT function was called with array of 1000 floats. This means FFT will be run only for 512 items of it, leaving rest 488 items as they are.
+
+* line 40 calculates squares of magnitudes, but runs it on whole `input.count` items of `splitComplex`. In our example 512 items contain calculated FFT and the rest - raw signal. After this calculation 512 items will contain squares of magnitude of FFT and 488 squares of raw signal.
+
+* line 46 calculates square first going from squares of magnitudes to just magnitudes. Than multiplies magnitudes by 2.0 divided by length of input signal. Whatever the last means, again, result of calculation is mixed with input signal.
