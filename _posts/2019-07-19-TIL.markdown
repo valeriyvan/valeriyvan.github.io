@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL about `SimulatorStatusMagic` and `simctl status_bar`"
+date:   2019-07-19 19:19:00 +0200
+categories: TIL, Swift, AppStore
+---
+### 19 JUL 2019 Friday
+
+Finding that Stephen Canon answering my [comments on stackoverflow question]() is Accelerate framework team member jumped to watch WWDC 2011 session [Inside the Accelerate Framework for iOS](https://developer.apple.com/videos/play/wwdc2011/209/).
