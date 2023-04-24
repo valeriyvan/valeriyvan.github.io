@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "TIL Presenting Coordinators; `reduce` in Swift along with `reduce(_:_:)` has version `reduce(into:_:)`"
+date:   2019-08-20 19:20:00 +0200
+categories: TIL, Swift, Coordinator pattern, reduce, Swift meetup question
+---
+Watched talk from NSSpain [Presenting Coordinators by Soroush Khanlou](https://vimeo.com/144116310).
+
+Reviewing code of my colleague learned that Swift provides two `reduce` functions on `Sequence`:
+
+> Use the `reduce(_:_:)` method to produce a single value from the elements of an entire sequence. For example, you can use this method on an array of numbers to find their sum or product.
+
+> Use the `reduce(into:_:)` method to produce a single value from the elements of an entire sequence. For example, you can use this method on an array of integers to filter adjacent equal entries or count frequencies.
+
+*Swift meetup question*: trivial task for testing string if it contains only characters from valid character set. I know only one easy way to do this test - using inverted character set (below). But creating inverted character set seems to be not that cheap. Strange that `String` in Swift doesn't provide such basic primitive operation.
+
+```Swift
+let sample = "123"
+let validCharacterSet = CharacterSet.decimalDigits
+let notValidCharacterSet = validCharacterSet.inverted
+let valid = sample.rangeOfCharacter(from: notValidCharacterSet) == nil
+```
