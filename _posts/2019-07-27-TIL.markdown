@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Read Core Audio Introduction"
+date:   2019-07-27 19:27:00 +0200
+categories: TIL, Swift, CoreAudio
+---
+Read [Core Audio Introduction](https://medium.com/@kardakov/core-audio-introduction-3ce40b7b9066), [Core Audio: don’t forget the headphones](https://medium.com/@kardakov/core-audio-dont-forget-the-headphones-bfbf32b8326f), [Core Audio: Sampling](https://medium.com/@kardakov/core-audio-sampling-54c97e4994ea).
+
+Read [Improve your iOS team’s productivity by building features as frameworks](https://medium.com/flawless-app-stories/improve-your-ios-teams-productivity-by-building-features-as-frameworks-9d2a64cbcab5). Probably it's the path we will follow nearest weeks.
+
+Read [Why you should stop using Git rebase](https://medium.com/@fredrikmorken/why-you-should-stop-using-git-rebase-5552bee4fed1). 
+
+Accidentally came across [Audio Classification using FastAI and On-the-Fly Frequency Transforms](https://towardsdatascience.com/audio-classification-using-fastai-and-on-the-fly-frequency-transforms-4dbe1b540f89). It's about Short-time Fourier Transform (STFT) and melspectrograms with which I struggled several weeks ago in iOS.
