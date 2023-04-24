@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Watched Week 2 of Coursera course Audio Signal Processing for Music Applications"
+date:   2019-06-27 19:27:00 +0200
+categories: TIL, Coursera, Audio Signal Processing
+---
+Watched Week 2 of [Coursera course Audio Signal Processing for Music Applications](https://www.coursera.org/learn/audio-signal-processing/).
