@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Read Swift 5.1 Collection Diffing"
+date:   2019-08-01 19:01:00 +0200
+categories: TIL, Swift, Diffing
+---
+Read post about musical app idea [Can you sing well?](https://swifting.io/blog/2017/08/07/45-can-you-sing-well/), source is [available](https://github.com/swiftingio/SingTest). It's interesting to write it without AiduoKit but with raw iOS stuff available.
+
+Read [Swift 5.1 Collection Diffing](https://www.fivestars.blog/code/swift-5-1-collection-diffing.html).
+
+After publishing [gist with my solution](https://gist.github.com/valeriyvan/4b69a78f2e4718b8cbeae596f9040ec2) read [Vending machine change problem](https://putridparrot.com/blog/the-vending-machine-change-problem/).
