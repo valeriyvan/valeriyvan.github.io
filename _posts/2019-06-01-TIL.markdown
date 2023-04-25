@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Dug in some old plane C code with blocked file reading/writing"
+date:   2019-06-01 19:01:00 +0200
+categories: TIL, C
+---
+Dug in some old plane C code with blocked file reading/writing. Haven't been doing this for ages.
