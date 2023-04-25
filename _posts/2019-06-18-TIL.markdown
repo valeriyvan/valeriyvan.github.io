@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL how to examine memory areas in Xcode"
+date:   2019-06-19 19:19:00 +0200
+categories: TIL, Xcode, gdb, Debug, Memory
+---
+TIL how to examine memory areas in Xcode [Examining Memory With a Debugger](http://bob.cs.sonoma.edu/IntroCompOrg-RPi/sec-gdb1.html), in gdb to be true. That's what you rare do in Xcode. Usually you just check variables.
