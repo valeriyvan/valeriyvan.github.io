@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Whole day digging into vDSP Programming Guide"
+date:   2019-06-11 19:11:00 +0200
+categories: TIL, vDSP, Discrete Fourier Transform, DFT, Short-Time Fourier Transform, STFT
+---
+Whole day digging into [vDSP Programming Guide](https://developer.apple.com/library/archive/documentation/Performance/Conceptual/vDSP_Programming_Guide/Introduction/Introduction.html) figuring out how to implement Short-Time Fourier Transform having only Discrete Fourier Transform primitives.
