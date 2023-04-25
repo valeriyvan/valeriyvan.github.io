@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Read Read Exposing `NSMutableArray`"
+date:   2019-06-21 19:21:00 +0200
+categories: TIL, Swift, NSMutableArray, Function builders
+---
+Read Swift forum post [Function builders](https://forums.swift.org/t/function-builders/25167) to proposal [Function builders (draft proposal)](https://github.com/apple/swift-evolution/blob/9992cf3c11c2d5e0ea20bee98657d93902d5b174/proposals/XXXX-function-builders.md).
+
+Read [Exposing NSMutableArray](https://ciechanow.ski/exposing-nsmutablearray/).
+
+> Once we’re through the low level details, I present the non obvious characteristics of the class.
