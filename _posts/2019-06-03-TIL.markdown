@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Watched WWDC 2019 keynote; Brush up my understanding of Fast Fourier transform"
+date:   2019-06-03 19:03:00 +0200
+categories: TIL, C++, Exceptions, Fast Fourier transform, WWDC
+---
+WTH this `catch(...)` is???
+
+```C++
+    catch (CAXException &e) {
+        NSLog(@"Error returned from setupAudioSession: %d: %s", (int)e.mError, e.mOperation);
+    }
+    catch (...) {
+        NSLog(@"Unknown error returned from setupAudioSession");
+    }
+```
+
+Found out it's [C++ feature](http://www.cplusplus.com/doc/tutorial/exceptions/), it's kind of default case for `catch` clauses.
+
+Working with audio this week. Just checked if I understand [dB](https://en.wikipedia.org/wiki/Decibel) correctly.
+
+Trying to brush up my understanding of Fast Fourier transform read [1](https://habr.com/ru/post/196374/) and [2](https://habr.com/ru/post/274175/).
+
+Watched online [WWDC 2019 keynote](https://developer.apple.com/videos/play/wwdc2019/101/) and [Platforms State of the Union](https://developer.apple.com/videos/play/wwdc2019/103/). Downloaded Xcode 11 and played with it and SwiftUI.
