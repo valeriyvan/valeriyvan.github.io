@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Read WWDC 2019 - The Things You May Have Missed; Contributing to the Swift Benchmark Suite"
+date:   2019-06-15 19:15:00 +0200
+categories: TIL, WWDC 2019, Fastlane, Benchmark, AudioKit, Interview
+---
+Passed over [WWDC 2019 - The Things You May Have Missed](https://patrickbalestra.com/blog/2019/06/07/wwdc-2019-the-things-you-may-have-missed.html) which lists all new what was declared on WWDC 19. List is impressive.
+
+Passed over [Continuous Integration and Continuous Delivery with Jenkins and Fastlane](https://www.appcoda.com/ci-cd-jenkins-fastlane/) and [Getting Started with Fastlane for Automating Beta Testing and App Deployment](https://www.appcoda.com/fastlane-introduction/) and [Swift—Continuous Integration (CI)](https://medium.com/@luisfmachado/swift-continuous-integration-ci-6d069bd54ab2) and [Adding Continuous Integration to a Swift project](https://medium.com/@johnsundell/adding-continuous-integration-to-a-swift-project-4c99252eedb0). Next week I will probably follow all this.
+
+Passed over [Contributing to the Swift Benchmark Suite](https://patrickbalestra.com/blog/2018/11/12/contributing-to-the-swift-benchmark-suite.html).
+
+Passed over parts of [AudioKit](https://github.com/AudioKit/AudioKit) which implement [FFT](https://github.com/AudioKit/AudioKit/tree/79cebe3ff8acc64e743b9e9536693c193e478eb4/AudioKit/Core/Soundpipe/lib/kissfft) and [STFT](https://github.com/AudioKit/AudioKitArchive/blob/master/AudioKit/Operations/Analysis/AKTrackedFrequency.h). Probably will use one of these.
+
+Read [My Tech Interviews Experience: Failures, Successes and Tips for you](https://patrickbalestra.com/blog/2018/08/06/my-tech-interviews-experience.html). Authors own [one page CV](https://patrickbalestra.com/CV.pdf) worth keeping a bookmark. Mentions in the post that Apple employee given him some tips on what to add to the CV since he knew what Apple recruiters look for.
