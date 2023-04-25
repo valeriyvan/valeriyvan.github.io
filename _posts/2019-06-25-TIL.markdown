@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "TIL swift-sh - a tool which allows to write CLI in Swift with dependencies; Watched Swift Talk #157 Asynchronous Networking with SwiftUI"
+date:   2019-06-25 19:25:00 +0200
+categories: TIL, swift-sh, CLI, WWDC, Xcode, Parser, SwiftUI, Networking
+---
+Jumped to [swift-sh](https://github.com/mxcl/swift-sh) a tool which allows to write CLI in Swift with dependencies.
+
+```swift
+#!/usr/bin/swift sh
+
+import Foundation
+import PromiseKit  // @mxcl ~> 6.5
+print("That is how it works 👆🏿")
+```
+
+Nice gists of all sessions in [WWDC 2019 Session Notes](https://github.com/Blackjacx/WWDC).
+
+Great idea to store app container and use in tests [one small change for Xcode, one giant leap for productivity](http://mohsen.dev/2019/05/19/one-small-change-for-xcode-one-giant-leap-for-productivity.html).
+
+Xcode 11 Previews could be used without SwiftUI and while developing for iOS versions prior to 13: [Using Xcode Previews with existing views without using SwiftUI](https://www.avanderlee.com/xcode/xcode-previews/).
+
+Watched [Point-Free episode #62 Parser Combinators: Part 1](https://www.pointfree.co/episodes/ep62-parser-combinators-part-1).
+
+Flashback:
+
+![](/assets/images/Screenshot%202019-06-25%20at%2012.40.23.png)
+
+Watched [Swift Talk #157 Asynchronous Networking with SwiftUI](https://talk.objc.io/episodes/S01E157-asynchronous-networking-with-swiftui).
