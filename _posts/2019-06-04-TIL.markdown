@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Watched WWDC 2019 session #204 video Introducing SwiftUI: Building Your First App"
+date:   2019-06-04 19:04:00 +0200
+categories: TIL, Netron
+---
+Installed [Netron](https://github.com/lutzroeder/netron) and played with exploring CoreML models.
+
+Read [Reading and Understanding the Swift Driver Source Code](https://modocache.io/reading-and-understanding-the-swift-driver-source-code).
+
+Read [Swift Literals](https://nshipster.com/swift-literals/).
+
+Watched online WWDC 2019 session 204 [Introducing SwiftUI: Building Your First App](https://developer.apple.com/videos/play/wwdc2019/204/).
