@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read a chapter of Deep Work book"
+date:   2019-06-02 19:02:00 +0200
+categories: TIL
+---
+Read a chapter of [Deep Work](https://www.amazon.de/Deep-Work-Focused-Success-Distracted/dp/0349411905/ref=sr_1_1?keywords=deep+work+book&qid=1558333003&s=gateway&sr=8-1) book.
