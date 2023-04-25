@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Read Mel Frequency Cepstral Coefficient (MFCC) tutorial"
+date:   2019-06-06 19:06:00 +0200
+categories: TIL, Audio signal processing, Mel Frequency Cepstral Coefficient, MFCC
+---
+Read [Mel Frequency Cepstral Coefficient (MFCC) tutorial](http://practicalcryptography.com/miscellaneous/machine-learning/guide-mel-frequency-cepstral-coefficients-mfccs/).
+
+[This](https://github.com/alejes/VAD/wiki/MFCC) might help, and [this](https://www.top-technologies.ru/ru/article/view?id=35724).
