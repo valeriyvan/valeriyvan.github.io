@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Played with mel-spectrograms"
+date:   2019-05-31 19:31:00 +0200
+categories: TIL, mel-spectrogram, librosa, Audio Signal Processing
+---
+Listened [episode 5](https://www.swiftcommunitypodcast.org/episodes/5) of [Swift community podcast](https://www.swiftcommunitypodcast.org/).
+Command Line Flags Mentioned:
+* Dump the Swift AST: `-parse-ast`
+* Dump the Clang AST: `-Xclang -ast-dump -fsyntax-only`
+* Dump Constraints: `-debug-constraints`
+
+Browsed mention in podcast post [Contributing to Swift — Part 1](https://edit.theappbusiness.com/contributing-to-swift-part-1-ea19108a2a54).
+
+Read mentioned in podcast Slava Pestov's post [The secret life of types in Swift](https://medium.com/@slavapestov/the-secret-life-of-types-in-swift-ff83c3c000a5).
+
+Trying to understand [aurioTouch sample code](https://developer.apple.com/library/archive/samplecode/aurioTouch/Introduction/Intro.html) came to this post [Understanding AurioTouch](http://www.kevatron.co.uk/understanding-auriotouch/).
+
+Succeeded to modify [aurioTouch sample code](https://developer.apple.com/library/archive/samplecode/aurioTouch/Introduction/Intro.html) have [Mel-spectrogram also known as Mel-frequency cepstrum](https://en.wikipedia.org/wiki/Mel-frequency_cepstrum) in form of image. This is needed to feed these images to neural network. There're a lot of samples how to do this in Python with librosa. But no samples how to build mel-spectrogram in Swift or Objective-C.
+
+![](/assets/images/melspectrogram.png)
+
+Watched [Swift Talk #154 Markdown Playgrounds: Building a Link Checker](https://talk.objc.io/episodes/S01E154-building-a-link-checker). Havn't got why is it all for.
