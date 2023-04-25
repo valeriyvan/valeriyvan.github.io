@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Read Nate Cook's post Swift's Pointy Bits: Unsafe Swift & Pointer Types; Watched videos about Short-time Fast Fourier Transform"
+date:   2019-06-12 19:12:00 +0200
+categories: TIL, Swift, UnsafeRawPointer, UnsafeMutablePointer, UnsafeMutableRawPointer, STFT
+---
+Read Nate Cook's post [Swift's Pointy Bits: Unsafe Swift & Pointer Types](https://academy.realm.io/posts/nate-cook-tryswift-tokyo-unsafe-swift-and-pointer-types/) about raw memory manipulation in Swift with `UnsafePointer<T>`, `UnsafeRawPointer`, `UnsafeMutablePointer<T>`, and `UnsafeMutableRawPointer`, `withUnsafeBytes`. It has curious example of speeding up array manipulation with `withUnsafeMutableBufferPointer` by getting rid of bounds check. Unfortunately it mentions only slightly `bindMemory` and `assumingMemoryBound`.
+
+Watched videos about Short-time Fast Fourier Transform from [Audio Signal Processing for Music Applications](https://www.coursera.org/lecture/audio-signal-processing/stft-2-tjEQe).
+
+This [PDF](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=2ahUKEwj2wP2viuTiAhUOI1AKHW_tDDEQFjACegQICRAC&url=https%3A%2F%2Fwww.cse.unr.edu%2F~bebis%2FCS474%2FLectures%2FShortTimeFourierTransform.ppt&usg=AOvVaw2qsjVnWSuBNWR-9H0xQ3zP) with slides from lecture helped a little with understanding how STFT is build. Hand drawing at the bottom of this [cheat-sheet](http://www.cs.princeton.edu/~fiebrink/314/2009/week12/FFT_handout.pdf) helped understand how hop size and window size work together.
