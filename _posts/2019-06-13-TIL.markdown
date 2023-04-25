@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Watched again WWDC 2019 session #704 [Core ML 3 Framework"
+date:   2019-06-13 19:13:00 +0200
+categories: TIL, WWDC, CoreML
+---
+Watched again WWDC 2019 session #704 [Core ML 3 Framework](https://developer.apple.com/videos/play/wwdc2019/704/). Get something which missed when watched online, like that 100 new network layers are available, and new layers which allow build execution flows.
