@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Read vDSP Programming Guide; Re-watched WWDC 2019 session #204 video Introducing SwiftUI: Building Your First App"
+date:   2019-06-10 19:10:00 +0200
+categories: TIL, vDSP, SwiftUI, WWDC
+---
+Read [vDSP Programming Guide](https://developer.apple.com/library/archive/documentation/Performance/Conceptual/vDSP_Programming_Guide/Introduction/Introduction.html). How I miss this old format of Apple docs!
+
+Re-watched now offline WWDC 2019 session #204 [Introducing SwiftUI: Building Your First App](https://developer.apple.com/videos/play/wwdc2019/204/) with running all code in Xcode. Found three places where code couldn't match one on slides.
