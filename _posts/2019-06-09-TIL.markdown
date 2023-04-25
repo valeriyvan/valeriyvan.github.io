@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Passed through First lecture of Coursera's Audio signal processing course"
+date:   2019-06-09 19:09:00 +0200
+categories: TIL, Audio signal processing
+---
+Passed through [First lecture of Coursera's Audio signal processing course](https://www.coursera.org/learn/audio-signal-processing/lecture/wqOJw/basic-mathematics). Here's output:
+
+![](/assets/images/Screenshot%202019-06-10%20at%2000.30.18.png)
