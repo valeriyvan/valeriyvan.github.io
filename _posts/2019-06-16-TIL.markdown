@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read RxSwift: Requiescat in Pace (RIP)"
+date:   2019-06-16 19:16:00 +0200
+categories: TIL, RxSwift
+---
+Read [RxSwift: Requiescat in Pace (RIP)](https://medium.com/swlh/rxswift-requiescat-in-pace-a7ab111a5c9c).
