@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Read `UIAppearance` seems not to be that simple; Read Architecture of networking core in iOS app"
+date:   2019-05-29 19:29:00 +0200
+categories: TIL, UIAppearance, Architecture, UIKonf, Future, Promise
+---
+Read [`UIAppearance` seems not to be that simple](https://habr.com/ru/post/453126/). `UI_APPEARANCE_SELECTOR` - I have never ever met such a beast.
+
+Read [Architecture of networking core in iOS app](https://habr.com/ru/post/309990/).
+
+Passed over [Face Recognition with OpenCV](https://www.objc.io/issues/21-camera-and-photos/face-recognition-with-opencv/) just because accidentally found it was written by Engin Kurutepe from UIKonf.
+
+Watched UIKonf 2019 talk [Advanced Colors in iOS](https://www.youtube.com/watch?v=IKRkSbkS0zg) by Neha Kulkarni.
+
+Watched UIKonf 2019 talk [*Promises* in iOS](https://www.youtube.com/watch?v=IKRkSbkS0zg) by Anne Cahalan.
+* *Future* is readonly placeholder for unknown future value.
+* *Promise* is writable single assignment container.
+
+Watched very interesting UIKonf 2019 talk [Muse Prototype Challenges](https://www.youtube.com/watch?v=IKRkSbkS0zg) by Julia Roggatz. Nice work! A little bet more information [here](https://www.inkandswitch.com//muse-studio-for-ideas.html).
