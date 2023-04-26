@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "TIL Backend Driven UI and Server-sent events"
+date:   2019-05-30 19:30:00 +0200
+categories: TIL, Server-sent events
+---
+From UIKonf 2019 talk [What to expect when you are templating? Clue’s approach to Backend Driven UIs](https://www.youtube.com/watch?v=IKRkSbkS0zg) by Kate Castellano first time heard about [server-sent events](https://www.w3schools.com/html/html5_serversentevents.asp).
+
+Would be nice to experiment with this [Tracking stolen bike by protocol NB-IoT](https://habr.com/ru/company/globalsign/blog/453938/) for monitoring sea water temperature. Interesting to know that NB-IoT (Narrow Band Internet of Things) is supported by many mobile carriers around the world. One battery could power device for a year.
+
+Read NSHipster's [NSDataAsset](https://nshipster.com/nsdataasset/) because met `NSDataAsset` in one of talks from UIKonf.
+
+Read NSHipster's [CMMotionActivity](https://nshipster.com/cmmotionactivity/) because it was suggested next article. And then [CMDeviceMotion](https://nshipster.com/cmdevicemotion/).
+
+Watched episode [The Power of Swift for Machine Learning](https://www.youtube.com/watch?v=z5M4otA4S3A) of TensorFlow Meets. Chris mentioned this [https://github.com/tensorflow/swift](https://github.com/tensorflow/swift) and I jumped to it to find links to nice jupyter notebooks tutorials for Swift for TensorFlow.
+
+Browsed [Swift weekly issue 135](https://swiftweekly.github.io/issue-135/). 
