@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL utf8everywhere.org"
+date:   2023-04-25 19:25:00 +0200
+categories: TIL, Unicode, UTF-16, UTF-8, String, NSString
+---
+TIL [utf8everywhere.org](http://utf8everywhere.org).
+
+> In particular, we believe that the very popular UTF-16 encoding (often mistakenly referred to as ‘widechar’ or simply ‘Unicode’ in the Windows world) has no place in library APIs except for specialized text processing libraries, e.g. ICU.
+
+Nothing new or interesting. Thanks God, `NSString` in Objective-C and `String` in Swift are extremely good designed pieces of software.
+
+Read, probably, not the first time, [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/). Hm, this page is 20 years old.
