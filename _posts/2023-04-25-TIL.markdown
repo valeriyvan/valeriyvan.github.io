@@ -11,3 +11,5 @@ TIL [utf8everywhere.org](http://utf8everywhere.org).
 Nothing new or interesting. Thanks God, `NSString` in Objective-C and `String` in Swift are extremely good designed pieces of software.
 
 Read, probably, not the first time, [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/). Hm, this page is 20 years old.
+
+Finally, I've got [Hackers Delight book by Henry Warren](https://www.amazon.com/Hackers-Delight-2nd-Henry-Warren/dp/0321842685/ref=sr_1_1?crid=3UQJ628GFB7TB&amp;keywords=Hackers+delight&amp;qid=1682496545&amp;sprefix=hackers+delight%252Caps%252C282&amp;sr=8-1&_encoding=UTF8&tag=valeriyvan-20&linkCode=ur2&linkId=0449f8aff859f8a27a9caad8baefb711&camp=1789&creative=9325). A lot of interesting stuff! Hope will use it occasionally.
