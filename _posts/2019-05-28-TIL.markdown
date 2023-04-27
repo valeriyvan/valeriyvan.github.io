@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL XOR linked list and Unrolled linked lists"
+date:   2019-05-28 19:28:00 +0200
+categories: TIL, Linked list, XOR linked list, Unrolled linked lists
+---
+Read [XOR linked list](https://en.wikipedia.org/wiki/XOR_linked_list). Nice trick. But not practical. On modern CPU with cache unrolled lists are faster.
+
+Read about [Unrolled linked lists](https://blogs.msdn.microsoft.com/devdev/2005/08/22/unrolled-linked-lists/).
+
+Read [Improving code readability in iOS development](https://habr.com/ru/post/453428/). Holy war in comments about `weak`/`strong` outlets confused me a bit. 
+
+Read how to create Xcode project from make file [Simple C++: From Makefiles to Xcode Builds](https://hiltmon.com/blog/2015/08/01/simple-c-plus-plus-from-makefiles-to-xcode-builds/). And this [Setup a C/C++ makefile project in Xcode: syntax highlight, autocompletion, jump to definition… and more!](https://medium.com/@acecilia/setup-a-c-c-makefile-project-in-xcode-syntax-highlight-autocompletion-jump-to-definition-and-80405bd4542e) which I fine much better!
