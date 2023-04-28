@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "TIL How OS X Executes Applications"
+date:   2019-05-27 19:27:00 +0200
+categories: TIL, macOS, OSX, otool, bitcode
+---
+Read [Alex Denisov's](https://github.com/AlexDenisov) post [BITCODE DEMYSTIFIED](https://lowlevelbits.org/bitcode-demystified/). What I have learned from it:
+
+* Bitcode is a bitstream representation of LLVM IR;
+* LLVM IR is intermediate representation of LLVM;
+* Mach-O (format for iOS and OS X executables) file has segment with compressed bitcode;
+* AppStore does thinning striping segments for other platforms (CPUs) but not for all iOS versions.
+
+Read [How OS X Executes Applications](http://0xfe.blogspot.com/2006/03/how-os-x-executes-applications.html).
+
+* In order to get a list of dependencies for an executable on OS X, you need to use `otool`. Here I can see that `/bin/ls` references three dynamic libraries:
+
+```bash
+otool -L /bin/ls
+/bin/ls:
+	/usr/lib/libutil.dylib (compatibility version 1.0.0, current version 1.0.0)
+	/usr/lib/libncurses.5.4.dylib (compatibility version 5.4.0, current version 5.4.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1319.100.3)
+```
