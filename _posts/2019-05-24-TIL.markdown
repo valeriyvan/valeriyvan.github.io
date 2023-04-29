@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Watched Swift talk #153 Making Impossible States Impossible"
+date:   2019-05-24 19:24:00 +0200
+categories: TIL, Swift talk
+---
+Read post of Jeremy Howard from [fast.ai](https://fast.ai) [C++11, random distributions, and Swift](https://www.fast.ai/2019/01/13/swift-random/). Interesting to learn what is *discrete distribution* or *triangular distribution*.
+
+Side learning:
+
+> You might be wondering about the protocol `Nullary` that’s mentioned above. Perhaps you’ve already heard of *unary* (a function or operator with one argument), *binary* (two arguments), and *ternary*); less known, but equally useful, is the term *nullary*, which is simply a function or operator with no arguments. As discussed earlier, Swift doesn’t support overloading the `()` operator, so we add a `Nullary` protocol using subscript:
+```swift
+    public protocol Nullary {
+        associatedtype Element: SignedNumeric
+        subscript()->Element { get }
+    }
+```
+
+Read Rachel Thomas' from [fast.ai](https://fast.ai) post [Advice for Better Blog Posts](https://www.fast.ai/2019/05/13/blogging-advice/). Very useful. One day I will start blogging instead of these logging.
+
+Watched [Swift talk #153 Making Impossible States Impossible](http://talk.objc.io/episodes/S01E153-making-impossible-states-impossible). Nothing new. Then jumped to referenced [Type-Safe File Paths with Phantom Types](https://talk.objc.io/episodes/S01E71-type-safe-file-paths-with-phantom-types) which was a little bit more useful. And then jumped to original talk [Strings Are Evil](https://www.youtube.com/watch?v=UTm5p96KlEc).
+
+Trying to choose proper library for rendering SVG in iOS app browsed [SVG element reference](https://developer.mozilla.org/en-US/docs/Web/SVG/Element).
