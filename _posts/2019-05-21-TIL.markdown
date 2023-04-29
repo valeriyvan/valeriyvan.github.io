@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "TIL time CLI"
+date:   2019-05-21 19:21:00 +0200
+categories: TIL, time, CLI
+---
+Read NSHipster's recently updated post [Swift Code Formatters](https://nshipster.com/swift-format/).
+
+Side learning: `time` command line utility for running anything from command line and measure execution time.
+
+Made a bug writing in iOS app out of sandbox. And found this bug only running on real device. Seems like app in simulator can easily write out of sandbox. Are there already malicious repositories which wipe out home folder of your mac when you clone and run app in simulator?
+![](/assets/images/Screenshot%202019-05-21%20at%2014.27.36.png)
+
+TODO: make CLI for opening app data container by parsing output `xcrun simctl appinfo booted com.enote.ScoreView`. Then make menu macOS app for this. There's [app with price tag 10$ doing just that](https://simpholders.com).
