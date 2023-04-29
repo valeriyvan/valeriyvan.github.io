@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Reread Andrej Karpathy's Software 2.0"
+date:   2019-05-23 19:23:00 +0200
+categories: TIL, Software 2.0
+---
+Reread again Andrej Karpathy's [Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35). Previously I missed mentioning about techniques of training image classifier with defining not only weights but even changing net architecture: [Large-Scale Evolution of Image Classifiers](https://arxiv.org/pdf/1703.01041.pdf).
+
+Bookmarking nice post about building command line Swift utility with colorful output [Lets build a Command line app in Swift](https://medium.com/quick-code/lets-build-a-command-line-app-in-swift-328ce274f1cc).
