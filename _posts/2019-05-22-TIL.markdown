@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Reread Flow coordinator pattern on steroids"
+date:   2019-05-22 19:22:00 +0200
+categories: TIL, Flow coordinator pattern, Design pattern
+---
+Read, again, about coordinator pattern, [Flow coordinator pattern on steroids](https://medium.com/flawless-app-stories/flow-coordinator-pattern-on-steroids-a52021e31bfe).
+
+In attempt to build library for iOS run trough [Rust on iOS](https://medium.com/visly/rust-on-ios-39f799b3c1dd), [Building and Deploying a Rust library on iOS](https://mozilla.github.io/firefox-browser-architecture/experiments/2017-09-06-rust-on-ios.html), and [Building an iOS App in Rust, Part 1: Getting Started with Rust](https://www.bignerdranch.com/blog/building-an-ios-app-in-rust-part-1/).
+
+TODO: read [Create a Cool 3D Sidebar Menu Animation](https://www.raywenderlich.com/1782844-create-a-cool-3d-sidebar-menu-animation).
