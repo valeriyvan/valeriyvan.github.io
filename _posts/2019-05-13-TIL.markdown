@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "Read Readdle's Swift for Android: Our Experience and Tools; Watched Swift Talk episode #115
+Building a Custom XML Decoder; Read Ash Furrow's post Swift Type Aliases: Use Early and Often; Read Dependency Injection in Swift; Read post The Wrong Binary"
+date:   2019-05-14 19:14:00 +0200
+categories: TIL, Swift, Android, Readdle, XML, FileManager, AnyObject, Toptal, Type Alias, Dependency Injection, UICollectionView, enum, Boolean 
+---
+Researching a way to run Swift code on Android, read Readdle's [Swift for Android: Our Experience and Tools](https://blog.readdle.com/why-we-use-swift-for-android-db449feeacaf) and then browsed [Swift doc Getting Started with Swift on Android](https://github.com/apple/swift/blob/master/docs/Android.md).
+
+Researching library for parsing MusicXML jumped to watch [Swift Talk episode #115
+Building a Custom XML Decoder](https://talk.objc.io/episodes/S01E115-building-a-custom-xml-decoder). I like their way to approach implementing complex things: start with stubs provided by Xcode, put `fatalError()` in all stubs and see where you really need to start with. TODO: watch [Part 2](https://talk.objc.io/episodes/S01E116-building-a-custom-xml-decoder-part-2).
+
+Accidentally jumped to [Designing Code to "Feel" Like Swift, Not Just Compile](https://www.smoothterminal.com/articles/designing-code-to-feel-like-swift-not-just-compile):
+
+> It was clearly written by someone with an expert knowledge of the Apple-included zlib and the C language, and how Swift interoperates with C. But that was the problem, it felt like C, not Swift. It used UnsafeMutableRawBufferPointer and String file paths, and (turns nose up in air) that ain't Swift.
+
+Side note. I have never heard of such limitation:
+
+> If you use the FileManager.default singleton, we're actually limited to 4 per thread.
+
+Jumped to [Working with `FileWrapper`'s in Swift](https://www.meandmark.com/blog/2018/07/working-with-file-wrappers-in-swift/).
+
+Passed over Toptal's [10 Essential Swift Interview Questions](https://www.toptal.com/swift/interview-questions) while preparing for interviewing.
+
+Side note:
+
+```swift
+enum IntEnum : Int { // `Int` here defines type of rawValue of IntEnum.
+                     // Syntax is similar to inheritance for classes and for protocol conformance. 
+                     // Does documentation have a name for this?
+                     // There's a name for it. It's raw type!
+    case one = 1
+    case two = 2
+    case three = 3
+}
+```
+
+This quote is interesting. I didn't know it's only for reference types.
+
+> Swift defines the `AnyObject` type alias to represent instances of any reference type, and it’s internally defined as a protocol.
+
+Came across Ash Furrow's post [Swift Type Aliases: Use Early and Often](https://artsy.github.io/blog/2016/06/24/typealias-for-great-good/).
+
+And then [Dependency Injection in Swift](https://artsy.github.io/blog/2016/06/27/dependency-injection-in-swift/). Ha-ha:
+
+> Dependency Injection (DI) is a $25 word for a 5¢ idea...
+
+From where jumped to [UICollectionView: Unjustly Maligned](https://ashfurrow.com/blog/uicollectionview-unjustly-maligned/). Hm, I have implemented something very similar 3-4 years ago.
+
+Then jumped to very short post giving good example when two-values-enum is better then boolean [The Wrong Binary](https://ashfurrow.com/blog/the-wrong-binary/).
