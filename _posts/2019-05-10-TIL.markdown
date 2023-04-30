@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Read Accio – SwiftPM for iOS & Co. today!; Read Pure functions in Swift; Read Static factory methods in Swift; Read Using child view controllers as plugins in Swift, all three by John Sundell; Read NSHipster's post Optional, throws, Result, and async/await"
+date:   2019-05-10 19:10:00 +0200
+categories: TIL, Swift, John Sundell, Pure functions, Static factory methods, child view controllers, plugins
+---
+Watched video [Secret of 432Hz](https://www.youtube.com/watch?v=JZYBVh1hJis) and [Again about 432Hz](https://www.youtube.com/watch?v=C9BiVzdUsQg). It's about 432Hz vs 440Hz for la of first octave. Yes, I am trying to fill gaps in my knowledge about music for my new job.
+
+Interesting [post about expectations from Marzipan](https://blog.iconfactory.com/2019/05/what-to-expect-from-marzipan/).
+
+Passed again over [Introducing CwlViews](https://www.cocoawithlove.com/blog/introducing-cwlviews.html).
+
+> A limited iOS implementation was included as part of the MAVB chapter of the App Architecture book I wrote with Chris Eidhof and Florian Kugler, last year. Fun fact: much of the terminology in CwlViews was invented by Chris since the terms I initially used didn’t make sense.
+
+> The code that became CwlViews started with a simple question: why are view controllers not reusable? 
+
+Passed over [Accio – SwiftPM for iOS & Co. today!](https://medium.com/@Dschee/accio-swiftpm-for-ios-co-today-ab4d19cefb74). Not bad. But I will not use it.
+
+This is actually a problem I have writing `try` `catch` code in Swift: [Elementary Swift: Catching the Actual Error](http://inessential.com/2019/05/05/elementary_swift_catching_the_actual_err).
+
+Passed over John Sundell's post [Pure functions in Swift](https://www.swiftbysundell.com/posts/pure-functions-in-swift). I like example of refactoring button logic from complex view controller into separate `structure ReaderNextButtonLogic`.
+
+Passed over [Static factory methods in Swift](https://www.swiftbysundell.com/posts/static-factory-methods-in-swift) of same author.
+
+And [Using child view controllers as plugins in Swift](https://www.swiftbysundell.com/posts/using-child-view-controllers-as-plugins-in-swift). I like idea of using `LoadingViewController`, a subclass of `UIViewController`, and using it as child view controller in any app that needs to show activity indicator. Never thought of such use of child view controllers. Definite, it's better then using kind of `BaseViewController` as parent for all controllers in app that need activity indicator. There's even helpers there which simplify adding and removing child view controllers. I didn't get another example with `ErrorViewController` but nontheless, `LoadingViewController` as child view controller is nice.
+
+[Nice answer](https://github.com/NSHipster/articles/issues/611#issuecomment-491345635) to my issue to NSHipster post [Optional, throws, Result, and async/await](https://nshipster.com/optional-throws-result-async-await/) led me to [Programming to an interface](https://tuhrig.de/programming-to-an-interface/). Fair point:
+
+> Program to an interface, not an implementation
