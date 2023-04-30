@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "TIL time CLI; Firstly used NS_SWIFT_NAME"
+date:   2019-05-20 19:20:00 +0200
+categories: TIL, time, CLI, NS_SWIFT_NAME
+---
+```swift
+let hourlyRate: Double = 19.5
+let hoursWorked: Int = 10
+let hoursWorked_ = 10
+let totalCost: Double = hourlyRate * hoursWorked // Binary operator '*' cannot be applied to operands of type 'Double' and 'Int'
+```
+
+```swift
+let i: Double = 10.0
+let d = i + 100 // Why is this different??? Why there's no compile error here?
+```
+
+That because literal has no exact type and late could become type used in expression.
+
+Everything happens sometimes for the first time. Today is the first time I used `NS_SWIFT_NAME`. Haven't been using Objective-C actively for several years already. And last week I had to use huge C++ library in iOS app and for using it from Swift I had to write adapter. Today I decided to polish it for Swift where it happened to use `NS_SWIFT_NAME` for the first time. But firstly I had to read [Renaming Objective-C APIs for Swift](https://developer.apple.com/documentation/swift/objective-c_and_c_code_customization/renaming_objective-c_apis_for_swift) about `NS_SWIFT_NAME`, [Improving Objective-C API Declarations for Swift](https://developer.apple.com/documentation/swift/objective-c_and_c_code_customization/improving_objective-c_api_declarations_for_swift) about `NS_REFINED_FOR_SWIFT`, and [Grouping Related Objective-C Constants](https://developer.apple.com/documentation/swift/objective-c_and_c_code_customization/grouping_related_objective-c_constants) about `NS_ENUM`, `NS_CLOSED_ENUM`, `NS_OPTIONS`, `NS_TYPED_ENUM`, `NS_TYPED_EXTENSIBLE_ENUM`, [Marking API Availability in Objective-C](https://developer.apple.com/documentation/swift/objective-c_and_c_code_customization/marking_api_availability_in_objective-c) about `API_AVAILABLE`. This one `NS_SWIFT_NOTHROW` probably gone away.
+
+Have you ever get error 'swift_name' attribute has invalid identifier for parameter name"? Like here:
+
+![](/assets/mages/Screenshot%202019-05-20%20at%2015.17.11.png)
+
+Spent 2 hours googling. There's no examples in internet for using `NS_SWIFT_NAME` for method with more than one parameter (`Error*` parameter doesn't count). It realized there should be no comma in parameter list in `NS_SWIFT_NAME`:
+
+![](/assets/images/Screenshot%202019-05-20%20at%2015.21.20.png)
