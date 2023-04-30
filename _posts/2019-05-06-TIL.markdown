@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Read Handling Input from Apple Pencil and Pencil Interactions documentation; read Apple Pencil at pspdfkit.com; Read John Sundell's Building iPad Pro features in Swift"
+date:   2019-05-06 19:06:00 +0200
+categories: TIL, Apple Pencil, Swift, iPad
+---
+Refreshed Apple Pencil API [Handling Input from Apple Pencil](https://developer.apple.com/documentation/uikit/pencil_interactions/handling_input_from_apple_pencil) and [Pencil Interactions](https://developer.apple.com/documentation/uikit/pencil_interactions).
+
+Read [Apple Pencil API](https://github.com/tensorflow/models/tree/master/research/object_detection). It has model trained on [Open Images Dataset](https://storage.googleapis.com/openimages/web/challenge.html). It has [traffic sign category](https://storage.googleapis.com/openimages/web/challenge_visualizer/index.html?set=detection&c=%2Fm%2F01mqdt). I should give it a try!
+
+It's interesting to read in [Apple Pencil at pspdfkit.com]https://pspdfkit.com/guides/ios/current/annotations/apple-pencil/ 
+
+> There is no simple way to know whether a device supports Apple Pencil, whether the user has one, and if it is currently connected. All an app knows is that if it receives a touch event of type UITouchTypeStylus, then an Apple Pencil was connected at that time.
+
+But SO gives smart solution for that which I should check [Stackoverflow thread Detect whether Apple Pencil is connected to an iPad Pro](https://stackoverflow.com/questions/32542250/detect-whether-apple-pencil-is-connected-to-an-ipad-pro).
+
+Interesting essay [Apple Pencil Note-Taking: Why You Should Use Apple Notes, actually](https://www.kennethreitz.org/essays/apple-pencil-note-taking-why-you-should-use-apple-notes-actually).
+
+John Sundell [Building iPad Pro features in Swift](https://www.swiftbysundell.com/posts/building-ipad-pro-features-in-swift).
+
+TODO: fix [this](https://superuser.com/questions/369880/you-are-not-in-the-sudoers-file-error-after-running-sudo-command).
+
+TODO: try [this](https://github.com/tensorflow/examples/tree/master/lite/examples/object_detection/ios) and [this](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/experimental/swift).
+
+TODO: Write sample app detecting hand-written input of digits on iOS device screen and drawing in bounding box detected character instead of handwriting. Use MNIST detector for that.
+
+TODO: Play with [this sample](https://developer.apple.com/documentation/uikit/touches_presses_and_gestures/leveraging_touch_input_for_drawing_apps) and [this](https://developer.apple.com/documentation/uikit/touches_presses_and_gestures/illustrating_the_force_altitude_and_azimuth_properties_of_touch_input).
+
+TODO: go through [this tutorial](https://www.raywenderlich.com/1407-apple-pencil-tutorial-getting-started).
