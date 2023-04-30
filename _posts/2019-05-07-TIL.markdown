@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Watched WWDC 2018 session Metal for Accelerating Machine Learning"
+date:   2019-05-07 19:07:00 +0200
+categories: TIL, Metal, WWDC, ScreenSaverDefaults
+---
+Watched [WWDC 2018 session Metal for Accelerating Machine Learning](https://developer.apple.com/videos/play/wwdc2018/609/).
+
+Accidentally found mentioning of [`ScreenSaverDefaults`](https://developer.apple.com/documentation/screensaver/screensaverdefaults) in documentation of [`ScreenSaver` framework](https://developer.apple.com/documentation/screensaver) which reminded me about this [PR to Aerial screensaver](https://github.com/JohnCoates/Aerial/pull/649). How did I miss `ScreenSaverDefaults`!?
+
+TODO: try to build [Forge](https://github.com/hollance/Forge). Project has [link](http://machinethink.net/faster-neural-networks/). Nonetheless there's no code there and library itself for fast running ML faster then CoreML is for a license, description is very interesting!
+
+I did miss that CoreMl since iOS 11.2 supports custom layers [Custom Layers in Core ML](https://machinethink.net/blog/coreml-custom-layers/). There's even example code there!
