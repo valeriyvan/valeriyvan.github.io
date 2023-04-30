@@ -1,0 +1,43 @@
+---
+layout: post
+title:  "Read post of Jeremy Howard from fast.ai High Performance Numeric Programming with Swift: Explorations and Reflections; Read Post Choosing Between Structures and Classes by Apple; Read Swift for TensorFlow Design Overview; Read NSHipster's OptionSet; Read a chapter of Deep Work book"
+date:   2019-05-19 19:19:00 +0200
+categories: TIL, fast.ai, Jeremy Howard, NSHipster, OptionSet, Deep Work
+---
+Read post of Jeremy Howard from [fast.ai](fast.ai) [High Performance Numeric Programming with Swift: Explorations and Reflections](https://www.fast.ai/2019/01/10/swift-numerics/). Very nice post describing all nice feature of Swift and comparing Swift's expressiveness and performance to Python, C, C++.
+
+It is interesting that Howard proposes way to add functionality in both Float and Double without code duplication. I've run into same problem sometime ago. Howard says that he failed to find this problem discussed anywhere online.
+
+Side learning from digging into library: [finding](https://github.com/jph00/BaseMath/blob/5fd3d82b6f342a90efaed26fae2c0de1b5f2edaa/Tests/BaseMathTests/BaseMathTests.swift#L45) I jumped to playground to experiment with kinds of `map(+)`:
+```swift
+let v1 = [1.0, -2,  3, 0]
+let v2 = [0.5, 12, -2, 1]
+let r1 = v1.map { abs($0) }
+let r2 = v1.map(abs)
+let r3 = zip(v1,v2).map(+)
+```
+
+It works with `map(+)` on array of tuples. Interesting how in gets compiled. Is `+` defined on a tuple? Or function parameters which look like a tuple in a source code is a tuple in reality??? I don't know.
+
+Post refers this nice document by Apple [Choosing Between Structures and Classes](https://developer.apple.com/documentation/swift/choosing_between_structures_and_classes). Short summary:
+* Use structures by default.
+* Use classes when you need Objective-C interoperability.
+* Use classes when you need to control the identity of the data you're modeling.
+* Use structures along with protocols to adopt behavior by sharing implementations.
+
+Read [Swift for TensorFlow Design Overview](https://github.com/tensorflow/swift/blob/master/docs/DesignOverview.md). Now I know where quote below comes from:
+
+> Swift is just "syntactic sugar for LLVM"
+
+Full quote:
+
+> A final pertinent aspect of the design of Swift is that much of the Swift language is actually implemented in its standard library. "Builtin" types like Int and Bool are actually just structs defined in the standard library that wrap magic types and operations. As such, sometimes we joke that Swift is just "syntactic sugar for LLVM".
+
+
+Hm, one more quote:
+
+> Chris [Lattner] described the language to me as “syntax sugar for LLVM”, since it maps so closely to many of the ideas in that compiler framework.
+
+Read NSHipster's [OptionSet](https://nshipster.com/optionset/).
+
+Read a chapter of [Deep Work](https://www.amazon.de/Deep-Work-Focused-Success-Distracted/dp/0349411905/ref=sr_1_1?keywords=deep+work+book&qid=1558333003&s=gateway&sr=8-1) book.
