@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Read NSHipster's API Pollution in Swift Modules; TIL Swift's Numeric Protocol; TIL what exactly means SVG"
+date:   2019-05-16 19:16:00 +0200
+categories: TIL, Xcode, Build Configuration Files, xcconfig, SCREAMING_SNAKE_CASE, CGAffineTransform
+---
+Read NSHipster's [API Pollution in Swift Modules](https://nshipster.com/swift-api-pollution/).
+
+Ok, learned about existence of (`Numeric`)[https://swiftdoc.org/v4.2/protocol/numeric/]. This is very interesting [Swift's Numeric Protocol](https://swiftunboxed.com/protocols/numeric/).
+
+SVG. These day I research existing solutions to render music score on iOS. One of solutions renders into SVG. What's SVG? 
+
+> Scalable Vector Graphics (SVG) is an XML-based vector image format for two-dimensional graphics with support for interactivity and animation. The SVG specification is an open standard developed by the World Wide Web Consortium (W3C) since 1999.
