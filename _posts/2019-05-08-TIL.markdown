@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Read Why I don’t use PDFs for iOS assets; Read NSHipster's Optional, throws, Result, and async/await"
+date:   2019-05-08 19:08:00 +0200
+categories: TIL, NSHipster, PDF, specrogram, spectrum, FFT, DICOM
+---
+Bookmarking this [TORoundedButton](https://github.com/TimOliver/TORoundedButton) that not to invent bicycle next time.
+
+Bookmarking [Why I don’t use PDFs for iOS assets](https://bjango.com/articles/idontusepdfs/) to support my voice against using PDFs in Xcode assets.
+
+Nice post [Optional, throws, Result, and async/await](https://nshipster.com/optional-throws-result-async-await). From where jumped to [Async/Await for Swift proposal](https://gist.github.com/lattner/429b9070918248274f25b714dcfc7619).
+
+[This](https://developer.apple.com/library/archive/samplecode/aurioTouch/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007770) could be good starting point for using FFT to build specrogram.
+
+Read [RepetitiveTask](https://blog.krzyzanowskim.com/2016/01/06/retry-in-the-wild/), accompanying (playground)[https://github.com/krzyzanowskim/RepetitiveTask].
+
+Would be nice to install [this Online Swift Playground](https://github.com/krzyzanowskim/OnlineSwiftPlayground) on Linux.
+
+TODO: run through [this tutorial](https://www.raywenderlich.com/2714-how-to-make-a-music-visualizer-in-ios).
+
+TODO: run [this](https://github.com/welbesw/CoreAudioMixer) on device. It's accompanying repo for post [Visualizing the audio frequency spectrum on iOS via the Accelerate Framework and FFT(Fast Fourier Transform)](http://www.myuiviews.com/2016/03/04/visualizing-audio-frequency-spectrum-on-ios-via-accelerate-vdsp-fast-fourier-transform.html).
+
+Wow, [DICOM viewer for OSX](https://github.com/welbesw/dicom-data-view) which depend on [DCMFramework which points here](https://www.osirix-viewer.com). Should give it a try.
