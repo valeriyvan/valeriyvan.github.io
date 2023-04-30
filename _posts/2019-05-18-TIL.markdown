@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Watched Processing CommonMark using Folds"
+date:   2019-05-18 19:18:00 +0200
+categories: CommonMark, Folds
+---
+Watched [Processing CommonMark using Folds](https://talk.objc.io/episodes/S01E152-processing-commonmark-using-folds).
