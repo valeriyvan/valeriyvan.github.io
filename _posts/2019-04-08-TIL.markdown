@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Re-read [Getting Started with Swift Compiler Development; Watched Point Free issue #53 Swift Syntax Enum Properties"
+date:   2019-04-08 19:08:00 +0200
+categories: TIL, Swift, RawValue, CodingUserInfoKey
+---
+Shouldn't `RawValue` be used somewhere in [`CodingUserInfoKey` struct](https://github.com/apple/swift/blob/22b514353c96343c6336fd095bb186bdecc93c34/stdlib/public/core/Codable.swift.gyb)? Otherwise it isn't needed.
+
+Reread [Getting Started with Swift Compiler Development](https://modocache.io/getting-started-with-swift-development) to refresh how to build swift.
+
+Watched [Point Free issue #53 Swift Syntax Enum Properties](https://www.pointfree.co/episodes/ep53-swift-syntax-enum-properties). It's about using new Apple's tool SwiftSyntax for parsing Swift enum declarations and generating some Swift code. Talk has nice recap of Swift Package Manager.
