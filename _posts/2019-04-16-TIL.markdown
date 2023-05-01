@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Watched WWDC episode #409 Optimizing Swift Performance"
+date:   2019-04-16 19:16:00 +0200
+categories: TIL, Swift, Performance, WWDC
+---
+Watched [WWDC episode #409 Optimizing Swift Performance](https://developer.apple.com/videos/play/wwdc2015/409/).
