@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Watched, probably, hundredth time, WWDC 2015 session #408 video Protocol-Oriented Programming in Swift"
-date:   2019-04-13 19:13:00 +0200
+date:   2019-04-12 19:12:00 +0200
 categories: TIL, Swift, Protocol-Oriented Programming
 ---
 Watched, probably, hundredth time, [WWDC 2015 session #408 video Protocol-Oriented Programming in Swift](https://developer.apple.com/videos/play/wwdc2015/408/).

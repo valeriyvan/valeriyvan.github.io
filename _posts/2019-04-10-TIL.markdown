@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Read fun post by Jesse Squires Agile by degrees: How to estimate engineering project timelines; Read NSHipster's post `NSOperation`"
+date:   2019-04-10 19:10:00 +0200
+categories: TIL, Agile, Estimating, Swift, Operation, NSOperation
+---
+Read fun post by Jesse Squires [Agile by degrees: How to estimate engineering project timelines](https://www.jessesquires.com/blog/how-to-estimate-engineering-project-timelines/). Worth keeping bookmark as it has a link on paper why humans are [naturally terrible at estimating](https://evolution.berkeley.edu/evolibrary/news/110201_throwing) for evolutionary reasons, as well as psychological ones — namely, the [planning fallacy](https://en.wikipedia.org/wiki/Planning_fallacy), [optimism bias](https://en.wikipedia.org/wiki/Optimism_bias), and [anchoring](https://en.wikipedia.org/wiki/Anchoring).
+
+Read another fun post by Jesse Squires [Summoning Lucifer: on making my first Mac app as an iOS developer](https://www.jessesquires.com/blog/introducing-lucifer/).
+
+Read post (russian) [Could user data monetization be a trend in 2019?](https://habr.com/ru/post/440164/). Bullshit.
+
+Before writing `Operation` what I havn't done for several years, refreshed my knowledge by reading NSHipster post [`NSOperation`]([https://nshipster.com/nsoperation/).
+
