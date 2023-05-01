@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Watched WWDC 2015 session 412 Time profiling in depth"
+date:   2019-04-22 19:22:00 +0200
+categories: TIL, WWDC, Time profiling
+---
+Watched [WWDC 2015 session 412 Time profiling in depth](https://developer.apple.com/videos/play/wwdc2015/412/).
