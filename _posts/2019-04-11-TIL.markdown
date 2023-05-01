@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Read The Pragmatic Guide to Scalable Swift Architecture for 2019"
+date:   2019-04-11 19:11:00 +0200
+categories: TIL, Swift, Architecture, PromiseKit, Dependency injection, Coordinator pattern
+---
+Post [The Pragmatic Guide to Scalable Swift Architecture for 2019](https://blog.usejournal.com/the-pragmatic-guide-to-scalable-swift-architecture-in-2019-dbe662f7f516) have good tips:
+* Refactor WHILE working on bugs or within features.
+* For every new feature, you write it correctly from the start.
+* Make SMALL tickets for refactoring specific parts of the codebase
+
+5 Important Swift Patterns that will Immediately Improve your Apps Scalability:
+* make models structs
+* `PromiseKit`
+* dependency injection
+* Coordinator pattern for decoupling states and events
+* ...
+
+Read [Advanced String interpolation in Swift 5.0 (russion)](https://habr.com/ru/post/447586/). Fuck! I didn't know that string literals are possible in interpolation since Swift 2.1: `print("Hi, \(user ?? "Anonymous")")`.
+
+Came across a post [Autonomous driving on pavement using PoenCV and Tensorflow (russian)](https://habr.com/ru/post/439928/).
+
+Passed through [https://www.raywenderlich.com/158-coordinator-tutorial-for-ios-getting-started](https://www.raywenderlich.com/158-coordinator-tutorial-for-ios-getting-started).
