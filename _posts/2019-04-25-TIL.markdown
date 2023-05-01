@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "TIL `partition` function of `Collection`; TIL `__consumable` in Swift"
+date:   2019-04-25 19:25:00 +0200
+categories: TIL, Swift, Collection, partition, __consumable, 
+---
+Writing answer to comment on this [PR](https://github.com/tensorflow/swift-models/pull/123) looked for where `first` of `Array` is declared in Swift. Found `partition` function. I should use it!
+
+```swift
+    var numbers = [30, 40, 20, 30, 30, 60, 10]
+    let p = numbers.partition(by: { $0 > 30 })
+    // p == 5
+    // numbers == [30, 10, 20, 30, 30, 60, 40]
+```
+
+Further exploring Swift library sources came across `__consumable` and jumped to [Preparing the iteration ABI for move-only types](https://forums.swift.org/t/preparing-the-iteration-abi-for-move-only-types/12980) and to [Ownership Manifesto](https://github.com/apple/swift/blob/master/docs/OwnershipManifesto.md#non-copyable-types).
+
+Accidentally came across this [Cityscapes dataset](https://www.cityscapes-dataset.com). Worth keeping a bookmark. Hope to use it later for my own purpose.
