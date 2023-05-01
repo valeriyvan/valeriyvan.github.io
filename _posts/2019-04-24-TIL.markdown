@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Came back to Google's Swift Style Guide"
+date:   2019-04-24 19:24:00 +0200
+categories: TIL, Swift, Google, Google's Swift Style Guide, Style Guide 
+---
+Change requests in [PR to swift-model](https://github.com/tensorflow/swift-models/pull/120) brought me again to [Google's Swift Style Guide](https://google.github.io/swift/#function-declarations).
