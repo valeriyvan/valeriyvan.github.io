@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Watched Swift talk episode 147 Markdown Playgrounds: Executing Swift Code and episode 148 Markdown Playgrounds: String Handling; Read documentation Support Universal Links and `NSUserActivity`"
+date:   2019-04-23 19:23:00 +0200
+categories: TIL, Swift, Markdown, Playground, Universal Links, NSUserActivity
+---
+Watched [Swift talk episode 147 Markdown Playgrounds: Executing Swift Code](https://talk.objc.io/episodes/S01E147-executing-swift-code).
+
+Watched [Swift talk episode 148 Markdown Playgrounds: String Handling](https://talk.objc.io/episodes/S01E148-string-handling).
+
+Refreshed knowledge about Universal Links reading [Support Universal Links](https://developer.apple.com/library/archive/documentation/General/Conceptual/AppSearch/UniversalLinks.html) and [NSUserActivity](https://developer.apple.com/documentation/foundation/nsuseractivity).
