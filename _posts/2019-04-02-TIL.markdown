@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Read John Sundell's Different flavors of type erasure in Swift and Avoiding race conditions in Swift"
+date:   2019-04-02 19:02:00 +0200
+categories: TIL, Swift, Type erasure, Race conditions
+---
+Read [Different flavors of type erasure in Swift](https://www.swiftbysundell.com/posts/different-flavors-of-type-erasure-in-swift) by John Sundell. It refined my understanding of Swift protocols having `Self` or associated type requirements and what makes Swift protocols different from Objective-C ones.
+
+Post explains three flavors of type erasure:
+* Generic wrapper types;
+* Type erasure with closures; 👈🏿 I favor this.
+* External specialization.
+
+Read [Avoiding race conditions in Swift](https://www.swiftbysundell.com/posts/avoiding-race-conditions-in-swift) by John Sundell because previous post had a link to it.
