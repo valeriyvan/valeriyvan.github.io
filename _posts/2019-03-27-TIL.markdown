@@ -1,0 +1,52 @@
+---
+layout: post
+title:  "Read [Method Dispatch in Swift; `@objc` and `dynamic`"
+date:   2019-03-27 19:27:00 +0200
+categories: TIL, Swift, Method Dispatch, @objc, dynamic, Protocol-Oriented Programming
+---
+Read [Method Dispatch in Swift](https://www.raizlabs.com/dev/2016/12/swift-method-dispatch/). Old but relevant.
+
+Read [`@objc` and `dynamic`](https://swiftunboxed.com/interop/objc-dynamic/).
+
+> `dynamic` opts into dynamic dispatch. You might need this for KVO support or if you‘re doing method swizzling.
+
+Interesting:
+```swift
+    protocol MyProtocol {
+        //func extensionMethod()
+    }
+    struct MyStruct: MyProtocol {
+    }
+    extension MyStruct {
+        func extensionMethod() {
+            print("In Struct")
+        }
+    }
+    extension MyProtocol {
+        func extensionMethod() {
+            print("In Protocol")
+        }
+    }
+
+    let myStruct = MyStruct()
+    let proto: MyProtocol = myStruct
+
+    myStruct.extensionMethod() // -> “In Struct”
+    proto.extensionMethod() // -> “In Protocol”
+```
+
+Conclusion:
+
+> Many people new to Swift expect `proto.extensionMethod()` to invoke the `struct`’s implementation. However, the reference type determines the dispatch selection, and the only method that is visible to the protocol is to use direct dispatch. If the declaration for `extensionMethod` is moved into the protocol declaration, table dispatch is used, and results in the `struct`’s implementation being invoked. Also, note that both declarations use direct dispatch, so the expected “override” behavior is just not possible, given the direct dispatch semantics. This has caught many new Swift developers off guard, as it seems like expected behavior when coming from an Objective-C background.
+
+So, uncommenting declaration of `extensionMethod()` in `MyProtocol` in both cases prints `“In Struct”`.
+
+Interesting very detailed explanation how `objc_msgSend()` works [`objc_msgSend()` Tour Part 1: The Road Map](http://www.friday.com/bbum/2009/12/18/objc_msgsend-part-1-the-road-map/).
+
+That is quite interesting [The Ghost of Swift Bugs Future](https://nomothetis.svbtle.com/the-ghost-of-swift-bugs-future):
+
+> ...watching the Protocol-Oriented Programming in Swift session, a particular construct struck me as the most likely source of arcane, incomprehensible bugs in the future. I expect it to be the novice’s crucible, similar to the way deallocated delegates would lead to crashes in the days before the weak attribute was introduced. I’m not yet sure what the searches will look like, but the fundamental question will be a variation of:
+
+_“Why does the method that I wrote overriding protocol extension X never get called?”_
+
+Read Mike Ash's [Friday Q&A 2016-04-15: Performance Comparisons of Common Operations, 2016 Edition](https://www.mikeash.com/pyblog/friday-qa-2016-04-15-performance-comparisons-of-common-operations-2016-edition.html).
