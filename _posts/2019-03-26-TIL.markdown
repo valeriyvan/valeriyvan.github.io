@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read Watch out for protocol extensions in your Swift API (unit tests trap)"
+date:   2019-03-26 19:26:00 +0200
+categories: TIL, Swift, Protocol-Oriented Programming, Protocol extensions
+---
+Read [Watch out for protocol extensions in your Swift API (unit tests trap)](https://medium.com/@londeix/watch-out-for-protocol-extensions-in-your-swift-api-unit-tests-trap-e28ad4ef3268).
