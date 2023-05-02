@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Watched Swift talk about String interpolation in Swift 5; Read very old post of Natasha The Robot Swift: What are Protocols with Associated Types?; Watched Alexis Gallagher's talk Protocols with Associated Types"
+date:   2019-03-16 19:16:00 +0200
+categories: TIL, Swift, String, String interpolation, Protocols, rotocols with Associated Types, Associated Types
+---
+Watched Swift talk about [string interpolation in Swift 5](https://talk.objc.io/episodes/S01E143-string-interpolation-in-swift-5). Yes, Swift 5 is coming.
+
+Read very old post of Natasha The Robot [Swift: What are Protocols with Associated Types?](https://www.natashatherobot.com/swift-what-are-protocols-with-associated-types/).
+
+> That’s it! A protocol with associated type is just a fancy term to a protocol that has generics in it. By using PATs (and protocols in general), we have a powerful tool that promotes really nice composition in favor of messy inheritance.
+
+Then watched Alexis Gallagher's talk [Protocols with Associated Types](https://www.youtube.com/watch?v=XWoNjiSPqI8). Very good explanation of what Protocols with associated types are.
+
+> Are Protocols with associated types just generic protocols with wacky syntax? No. And yes, sort of.
