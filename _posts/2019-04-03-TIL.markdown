@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Read John Sundell's [String parsing in Swift"
+title:  "Read John Sundell's String parsing in Swift"
 date:   2019-04-03 19:03:00 +0200
 categories: TIL, Swift, String parsing, tokenizer, Scanner
 ---
