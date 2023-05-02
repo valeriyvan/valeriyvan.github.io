@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Browsed post Using Google Cloud Translation API to Power Your iOS App with Instant Translation; Read fun post Everything you need to know about Loading Animations; TIL What is a configurable initialization"
+date:   2019-03-22 19:22:00 +0200
+categories: TIL, Swift, Google, Google Cloud Translation API, GTAlertCollection, Configurable Initializations
+---
+Browsed quite wordy and detailed post [Using Google Cloud Translation API to Power Your iOS App with Instant Translation](https://www.appcoda.com/google-translation-api). Post worth keeping a bookmark. Quite good following of MVVM architecture.
+
+Above post mentions [`GTAlertCollection`](https://github.com/gabrieltheodoropoulos/gtalertcollection) which worth keeping a bookmark and using. Unfortunately neither Carthage nor CocoaPods is supported.
+
+Fun post about loading animation [Everything you need to know about Loading Animations](https://medium.com/flawless-app-stories/everything-you-need-to-know-about-loading-animations-10db7f9b61e).
+
+From [A Better Syntax for Configurable Initializations](https://mackarous.com/dev/2019/1/23/a-better-syntax-for-configurable-initializations) TIL what is a configurable initialization?. I don't like solution. I find [Then](https://github.com/devxoul/Then) much consistent.
