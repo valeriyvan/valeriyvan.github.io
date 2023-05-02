@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Read UTF-8 String swift.org blog post; Watched talk on Swift for TensorFlow by Chris Lattner and Brennan Saeta; Passed over swift-log, a Logging API package for Swift 5; Read Key Path Expressions as Functions Swift evolution proposal"
+date:   2019-03-23 19:23:00 +0200
+categories: TIL, Swift, String, Encoding, Unicode, UTF-16, UTF-8, Objective-C-interoperability, TensorFlow, Swift for TensorFlow, Swift evolution, KeyPath
+---
+Read [UTF-8 String](https://swift.org/blog/utf8-string) about Swift 5 the preferred encoding of strings from UTF-16 to UTF-8 while preserving efficient Objective-C-interoperability.
+
+Watched [a talk on Swift for TensorFlow by Chris Lattner and Brennan Saeta given at Dev Summit 2019](https://www.youtube.com/watch?v=s65BigoMV_I).
+
+Passed over [swift-log, a Logging API package for Swift 5](https://github.com/apple/swift-log).
+
+> a community-driven open-source project which is actively seeking contributions, be it code, documentation, or ideas. 
+
+Hope [Key Path Expressions as Functions](https://forums.swift.org/t/se-0249-key-path-expressions-as-functions/21780) proposal will be accepted.
