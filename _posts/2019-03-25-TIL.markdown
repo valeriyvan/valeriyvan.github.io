@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Watched Point Free episode #51 Structs 🤝 Enums; Read How not to get desperate with MVVM implementation; Read How to implement MVVM pattern in Swift from scratch"
+date:   2019-03-25 19:25:00 +0200
+categories: TIL, Swift, Struct, Enum, MVVM
+---
+Watched [Point Free episode #51 Structs 🤝 Enums](https://www.pointfree.co/episodes/ep51-structs-enums). As always, absolutely crazy. Unpractical, but very interesting.
+
+Read [How not to get desperate with MVVM implementation](https://medium.com/flawless-app-stories/how-to-use-a-model-view-viewmodel-architecture-for-ios-46963c67be1b).
+
+> You might notice that the ViewModel is kinda complex. In the end of this article, we will discuss the bad part of the MVVM. Anyway, for a medium sized project, the MVVM is still a good choice to eat an elephant one bite at a time!
+
+Read [How to implement MVVM pattern in Swift from scratch](https://benoitpasquier.com/ios-swift-mvvm-pattern/). It's so interesting to compare what different people understand as MVVM. Here [Working With Static Patterns: A Swift MVVM Tutorial](https://www.toptal.com/swift/static-patterns-swift-mvvm-tutorial) is something different.
