@@ -1,0 +1,69 @@
+---
+layout: post
+title:  "Read Capture lists in Swift; Passed over Enumeration and Closures chapters in The Swift programming language guide"
+date:   2019-03-21 19:21:00 +0200
+categories: TIL, Swift, Closures, weak, strong, unowned, Reference counting
+---
+Read post [Capture lists in Swift: what’s the difference between weak, strong, and unowned references?](https://www.hackingwithswift.com/articles/179/capture-lists-in-swift-whats-the-difference-between-weak-strong-and-unowned-references).
+
+Read Wikipedia article [Tail recursion](https://en.wikipedia.org/wiki/Tail_call) about TCA (= tail call optimisation) in some programming languages.
+
+Passed over [Enumeration](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html) chapter in The Swift programming language guide.
+
+Having this definition from chapter above:
+
+```swift
+    enum ArithmeticExpression {
+        case number(Int)
+        indirect case addition(ArithmeticExpression, ArithmeticExpression)
+        indirect case multiplication(ArithmeticExpression, ArithmeticExpression)
+    }
+```
+
+it is interesting to check real limitation (in regards of stack usage) of recursive implementation of following function:
+
+```swift
+    func evaluate(_ expression: ArithmeticExpression) -> Int {
+        switch expression {
+        case let .number(value):
+            return value
+        case let .addition(left, right):
+            return evaluate(left) + evaluate(right)
+        case let .multiplication(left, right):
+            return evaluate(left) * evaluate(right)
+        }
+    }
+```
+
+Interesting to do something like in post [Tail Recursion, Objective-C, and ARC
+](http://devetc.org/code/2014/05/24/tail-recursion-objc-and-arc.html). Hint for future self: `-S` key of `swiftc` is for producing Assembly output `swiftc -S main.swift`. Different `-O` options might be needed to experiment with different optimisation levels.
+
+By the way, blog [dev etc](http://devetc.org) is not get updated but anyway has many interesting posts, like [No parameters](http://devetc.org/code/2015/10/14/no-parameters.html). That's it: `()` (in (Objective-)C) in a function type declaration means unspecified parameters, not no parameters! This post I will reference when I fix seeing returning mutable collections from method/functions declared immutable return value [Mutable Return Values](http://devetc.org/code/2014/11/08/mutable-return-values.html). Very good explanation about self sizing view [Auto Layout and Views that Wrap](http://devetc.org/code/2014/07/07/auto-layout-and-views-that-wrap.html). Especially good is explained Why it doesn’t “just work”. In snippet from example interesting that `[super layoutSubviews]` is called twice.
+
+```Objective-C
+    - (void)layoutSubviews {
+        [super layoutSubviews];
+
+        CGFloat availableLabelWidth = self.label.frame.size.width;
+        self.label.preferredMaxLayoutWidth = availableLabelWidth;
+
+        [super layoutSubviews];
+    }
+```
+
+This [Subclassing Delegates](http://devetc.org/code/2014/03/02/subclassing-delegates.html#summary-and-code-snippets) is also interesting.
+
+And this [Timers, Clocks, and Cocoa](http://devetc.org/code/2014/01/21/timers-clocks-and-cocoa.html) I could reference when seeing misused timers in apps.
+
+Passed over [Closures](https://docs.swift.org/swift-book/LanguageGuide/Closures.html) chapter of The Swift programming language guide.
+
+Post [INVERTED EXPECTATIONS](https://pfandrade.me/blog/inverted-expectations) mentions useful but barely mentioned property `isInverted` of `XCTestExpectation`:
+
+```Swift
+    let notificationExpectation = expectation(forNotification: NSNotification.Name.SomeNotification, object: obj, handler: nil)
+    notificationExpectation.isInverted = true
+    // exercise your code and wait for the expectation
+    wait(for: [notificationExpectation], timeout: 1.0)
+```
+
+Watched quite old talk [Convolutional Neural Networks with Metal & Swift 2017 iOS 11 talk](https://academy.realm.io/posts/brett-koonce-cnns-swift-metal-swift-language-user-group-2017/) and [2018 iOS 12 talk](https://www.youtube.com/watch?v=jki130apVhI) to which I came over [keras_mnist_demo repo](https://github.com/asparagui/keras_mnist_demo) to which I came exploring who left ["🍀" comment in my PR](https://github.com/tensorflow/swift-models/pull/64). It did worth spending time watching.
