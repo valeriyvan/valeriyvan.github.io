@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Played with Swift models for Tensorflow"
+date:   2019-03-19 19:19:00 +0200
+categories: TIL, Swift, Tensorflow
+---
+Played with [Swift models for Tensorflow](https://github.com/tensorflow/swift-models) which end up with [PR1](https://github.com/tensorflow/swift-models/pull/64) and [PR2](https://github.com/tensorflow/swift-models/pull/65).
