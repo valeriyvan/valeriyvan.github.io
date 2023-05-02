@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Read What’s new in Swift 5.0; Watched String Interpolation in Swift 5 (Part 2)"
+date:   2019-03-28 19:28:00 +0200
+categories: TIL, Swift, Swift 5
+---
+Watched [String Interpolation in Swift 5 (Part 2)](https://talk.objc.io/episodes/S01E144-string-interpolation-in-swift-5-part-2).
+
+Read [What’s new in Swift 5.0](https://www.hackingwithswift.com/articles/126/whats-new-in-swift-5-0):
+* `Result` is now part of Swift bringing new features:
+	* `get()` method either returning the successful value or throwing error
+	* initializer accepting a throwing closure makes possible `let r = Result { try String(contentsOfFile: f) }`
+	* general `Error` protocol could be used, rather than using `Result<Int, NetworkError>` could use `Result<Int, Error>`
+* raw strings;
+* customizable string interpolation bring absolutely crazy stuff. should experiment with it (TODO:);
+* `@dynamicCallable` serves for Python or JavaScript bridging but could be used for creating some creasy stuff;
+* `@unknown` for handling future enum cases;
+* nested optionals resulting from `try?` are flattened;
+* `isMultiple(of:)` for checks like `rowNumber % 2 == 0`;
+* `compactMapValues()` in dictionaries for transforming values while keeping keys intact;
+* `count(where:)` was discarded in betatesting, may be will return in later swift versions;
+
+Other sources mention also:
+* [Conform Never to Equatable and Hashable](https://github.com/apple/swift-evolution/blob/master/proposals/0215-conform-never-to-hashable-and-equatable.md);
+* [Add Unicode Properties to Unicode.Scalar](https://github.com/apple/swift-evolution/blob/master/proposals/0211-unicode-scalar-properties.md) `isAlphabetic`, `isASCIIHexDigit` and so on;
+* [Character Properties](https://github.com/apple/swift-evolution/blob/master/proposals/0221-character-properties.md) like `isASCII`;
+* [Add Codable conformance to Range types](https://github.com/apple/swift-evolution/blob/master/proposals/0239-codable-range.md).
+
+By the way, [CHANGELOG](https://github.com/apple/swift/blob/master/CHANGELOG.md) is available!
