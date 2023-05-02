@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read again post of John Sundell Replacing legacy code using Swift protocols"
+date:   2019-03-17 19:17:00 +0200
+categories: TIL, Swift, Protocols
+---
+Read again post of John Sundell [Replacing legacy code using Swift protocols](https://www.swiftbysundell.com/posts/replacing-legacy-code-using-swift-protocols). I like this approach to refactoring legacy code. Unfortunately it will be hard to change architecture of app (framework) with this approach.
