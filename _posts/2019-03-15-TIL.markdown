@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Passed over Apple docs Logging; Read post of Peter Steinberger Adding Logging to Crash Reports; Read Unused localized strings clean up from a Strings file"
+date:   2019-03-15 19:15:00 +0200
+categories: TIL, Swift, Logging, Crash reports, AbandonedStrings
+---
+Passed through fun post of Marco Arment [Why it’s hard to read the time on Infograph](https://marco.org/2018/10/09/infograph-legibility).
+
+Passed over Apple docs [Logging](https://developer.apple.com/documentation/os/logging) about unified logging available since iOS 10.0 which I should start using instead of `print`.
+
+Read post of Peter Steinberger [Adding Logging to Crash Reports](https://pspdfkit.com/blog/2019/logs-for-your-crash-reports).
+
+> Ideally, we’d love to fully switch to Apple’s os_log API. However, it has one major downside: There’s still no way to access the rolling log to add to the reports that get sent back to us.
+
+I should make some of my websites as AWS Lambdas in Swift [Websites using Swift and AWS Lambda](https://www.jasonzurita.com/websites-using-swift-and-aws-lambda). Worth passing through all these stuff.
+
+Just to bookmark useful link [A Jekyll theme for automatically generating and deploying landing page sites for mobile apps](https://github.com/emilbaehr/automatic-app-landing-page).
+
+Read [Unused localized strings clean up from a Strings file](https://www.avanderlee.com/xcode/unused-localized-strings). It's about [open sourced command line tool `AbandonedStrings`](https://github.com/ijoshsmith/abandoned-strings).
+
+Glanced over post about [“Subscription Offers”](https://www.revenuecat.com/2019/03/12/subscription-offers), newly announced for iOS 12.2 feature.
+
+Read short post [Grouping elements for better accessibility on iOS](https://thoughtbot.com/blog/grouping-elements-for-better-accessibility-on-ios).
+
+Read post of member of Zeplin team about [detail on how to automate notarizing a macOS app using command line tools](https://blog.zeplin.io/dev-journal-automate-notarizing-macos-apps-94b0b144ba9d).
