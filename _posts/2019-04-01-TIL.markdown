@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Watched Point Free Issue #52 Enum Properties"
+date:   2019-04-01 19:01:00 +0200
+categories: TIL, Swift, Enum, Property
+---
+Watched [Point Free Issue #52 Enum Properties](https://www.pointfree.co/episodes/ep52-enum-properties). As usual, absolutely crazy stuff!
+
+**Side note**. Operator for promoting a key path into a function to make possible `let admins = userts.filter(^\.isAdmin)`:
+
+```swift
+    prefix operator ^
+    prefix func ^ <Root, Value>(_ keyPath: KeyPath<Root, Value>) -> (Root) -> Value {
+        return { root in root[keyPath: keyPath] }
+    }
+```
