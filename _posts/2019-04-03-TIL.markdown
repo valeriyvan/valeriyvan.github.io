@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read John Sundell's [String parsing in Swift"
+date:   2019-04-03 19:03:00 +0200
+categories: TIL, Swift, String parsing, tokenizer, Scanner
+---
+Read John Sundell's [String parsing in Swift](https://www.swiftbysundell.com/posts/string-parsing-in-swift). I haven't used `Scanner` from Objective-C for ages! Lazy implementation of tokenizer worth a bookmark.
