@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "watched WWDC 2017 session What's New in Swift"
+date:   2019-03-08 19:08:00 +0200
+categories: TIL, Swift, ArraySlice, Codable
+---
+Trying to understand `ArraySlice`, watched [WWDC 2017 session What's New in Swift](https://developer.apple.com/videos/play/wwdc2017/402/). This didn't help much to understand `ArraySlice` but was useful anyway. Side learnings:
+
+* `private` in declaration works for all extensions in a file!!! There's no need to use `fileprivate` for that!
+
+* it's possible to compose a class with any number of protocols like in  `func f(_ controls: [UIControl & Shakeable]) {}` 
+
+Working on [PR for Gnosis safe](https://github.com/gnosis/safe-ios/pull/610) realised that the only way to avoid such double conversion of JSON object (in sense of Objective-C) into Codable is to write custom Encoder which accepts not data but such JSON object and encodes it into Codable. After googling ([1](https://github.com/a2/MessagePack.swift/pull/61), [2](https://forums.swift.org/t/pitch-export-jsonencoder-jsondecoder/6945)) realised that the only way to implement it by now is copy-paste [JSONEncoder.swift](https://github.com/apple/swift/blob/master/stdlib/public/Darwin/Foundation/JSONEncoder.swift) with minor changes. [Mike Ash's Friday Q&A 2017-07-28: A Binary Coder for Swift](https://www.mikeash.com/pyblog/friday-qa-2017-07-28-a-binary-coder-for-swift.html) worth learning before jumping in.
