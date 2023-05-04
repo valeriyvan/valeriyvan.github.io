@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "Watched some videos from dotSwift conferences; TIL libraries Unbox, ObjectMapper, Gloss for mapping objects in Swift "
+date:   2019-03-05 19:05:00 +0200
+categories: TIL, Swift, dotSwift, Mapping, Unbox, ObjectMapper, Gloss, High performance systems
+---
+Watched some videos from dotSwift conferences:
+
+* short video from dotSwift 2017 [Subclassing structs](https://www.dotconferences.com/2017/01/dimitri-dupuis-latour-subclassing-structs). Title is misleading.
+
+* Marin Todotov's talk from dotSwift 2017 [RxSwift on iOS](https://www.dotconferences.com/2017/01/marin-todorov-rxswift-on-ios). `debounce(_:, scheduler:)` is nice! I like how Marin defines what RxSwift is:
+  1. Sync-like async code
+  1. With functionalaspect
+
+* small talk from dotSwift 2017 [IOT and iOS](https://www.dotconferences.com/2017/01/hugues-bernet-rollande-iot-and-ios-lessons-learned). Nothing new.
+
+* talk [Scientific Swift](https://www.dotconferences.com/2019/01/jeff-biggus-scientific-swift) from dotSwift 2019. Curious. Nice reminder about Accelerate framework from the talk:
+```swift
+        import Accelerate
+
+        extension Array where Element == Double {
+            func sin() -> [Double] {
+                var values = [Double](repeating: 0, count: count)
+                var selfie = self
+                var selfieCount = Int32(count)
+                vvsin(&values, &selfie, &selfieCount)
+                return values
+            }
+        }
+
+        // Playing with it in playground found that vectorised (SIMD) calculations of sin differ from scalar one. Difference is subtle, but it exists:
+
+        let a = Array(stride(from: -1.0, to: 1.0, by: 0.1))
+        let diff = zip(a.map(sin), a.sin()).map{ $0-$1 }
+        print(diff)
+        // printed this for one run (because of random input results differ between runs)
+        // [0.0, 1.1102230246251565e-16, -1.1102230246251565e-16, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.1102230246251565e-16, 0.0] 
+```
+
+* talk [High performance systems in Swift](https://www.dotconferences.com/2019/01/johannes-weiss-high-performance-systems-in-swift). Good reminder about `isKnownUniquelyReferenced(_:)`. Talk is mostly about implementing reference semantic for classes to speed up copying.
+
+Working on this [PR](https://github.com/gnosis/safe-ios/pull/608) found that some nice Swift libraries for mapping objects exist (more could be found in [awesome-ios](https://github.com/vsouza/awesome-ios#json)):
+* [Unbox](https://github.com/JohnSundell/Unbox) by John Sundell;
+* [ObjectMapper](https://github.com/tristanhimmelman/ObjectMapper);
+* [Gloss](https://github.com/hkellaway/Gloss).
