@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read interesting post about ukrainian number plates detection and recognition"
+date:   2019-03-10 19:10:00 +0200
+categories: Number plates detection, number plates recognition, Jupyter notebook
+---
+Read interesting post about ukrainian number plates detection and recognition [Part 1](https://habr.com/ru/post/432444/) and [Part 2](https://habr.com/ru/post/439330/), [GitHub](https://github.com/ria-com/nomeroff-net), [online demo](https://nomeroff.net.ua/onlinedemo.html), [Jupyter notebook example demonstrating license plate mask recognition](https://github.com/ria-com/nomeroff-net/blob/master/examples/demo1.ipynb), [Jupyter notebook example demonstrating license plate rectangle detection](https://github.com/ria-com/nomeroff-net/blob/master/examples/demo2.ipynb), [Jupyter notebook example demonstrating license plate number detection](https://github.com/ria-com/nomeroff-net/blob/master/examples/demo3.ipynb). Have to go over all notebooks some time.
