@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Watched Swift Talk #142 Flow Testing with Protocols; Read Safely supporting new versions of Swift; Read iOS Responder Chain: UIResponder, UIEvent, UIControl and uses"
+date:   2019-03-09 19:09:00 +0200
+categories: TIL, Swift, Potocol, testing, Responder chain,
+---
+Watched [Swift Talk #142 Flow Testing with Protocols](https://talk.objc.io/episodes/S01E142-flow-testing-with-protocols).
+
+Read post [Safely supporting new versions of Swift](https://medium.com/@alanzeino/safely-supporting-new-versions-of-swift-e722b7eb9963). Usually I change Swift version 'In one big go' as it described in the post.
+
+Read [iOS Responder Chain: UIResponder, UIEvent, UIControl and uses](https://swiftrocks.com/understanding-the-ios-responder-chain.html). Reminds that very long time ago I wanted to experiment with `inputView` to check what else can it show except `UIPickerView`. Look into `UIResponder` shows up a lot of new stuff like `inputAssistantItem` appeared in iOS 9, `inputViewController` and `inputAccessoryViewController` in iOS 8. Didn't get part with implementation of `CoordenableViewController`. Otherwise post was an interesting reading. 
