@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Re-watched year old Point Free episode Algebraic Data Types and Some news about `contramap`"
+date:   2019-03-06 19:06:00 +0200
+categories: TIL, Swift, Algebraic Data Types, contramap, pullback, KeyPath, Model, Singleton pattern
+---
+Re-watched year old Point Free episode [Algebraic Data Types](https://www.pointfree.co/episodes/ep4-algebraic-data-types).
+
+Watched [Some news about `contramap`](https://www.pointfree.co/blog/posts/22-some-news-about-contramap) by Point Free guys. It's about giving `contramap` better name `pullback`.
+
+Watched dotSwift 2019 short talk [The underestimated power of keypaths](https://www.dotconferences.com/2019/01/vincent-pradeilles-the-underestimated-power-of-keypaths). That is cool:
+```swift
+    people.sorted(by: their(\.lastName)) // read as 'people sorted by their last names'
+```
+
+That have brought me to [The power of key paths in Swift](https://www.swiftbysundell.com/posts/the-power-of-key-paths-in-swift).
+
+And that have brought me to [Preventing views from being model aware in Swift](https://www.swiftbysundell.com/posts/preventing-views-from-being-model-aware-in-swift). It's about creating something like `UserTableViewCellConfigurator`. It has nice use case for dependency injection for avoiding singletons.
+
+And that have brought me to [Avoiding singletons in Swift](https://www.swiftbysundell.com/posts/avoiding-singletons-in-swift). Again, dependency injection is a solution. There is a solution in post how to start moving away from singletons in a non-disruptive way.
+
+That have brought me to [Testing Swift code that uses system singletons in 3 easy steps](https://www.swiftbysundell.com/posts/testing-swift-code-that-uses-system-singletons-in-3-easy-steps). It has very good example of testing code which uses ` URLSession.shared` singleton.
+
+Read (yes, starting with John Sundell's blog I can't stop) [Replacing legacy code using Swift protocols](https://www.swiftbysundell.com/posts/replacing-legacy-code-using-swift-protocols).
+
+Watched [Implementing JsonRPC with SwiftNIO](https://www.dotconferences.com/2019/01/tom-doron-implementing-json-rpc-with-swiftnio). That reminds question about implementing RPC which I was asked at interview in Gnosis.
