@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL Nice trick to spawn playground with shortcut; Watched Generative Art: Part 1"
+date:   2019-03-04 19:04:00 +0200
+categories: TIL, Swift, Playgound, 
+---
+Nice trick to [spawn playground with shortcut](https://mobile.twitter.com/twolivesleft/status/1100964316675637250).
+
+Watched [Generative Art: Part 1](https://www.pointfree.co/episodes/ep49-generative-art-part-1). What these guys are doing is complete madness!
