@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read post The Sad State of Logging Bugs for Apple"
+date:   2019-03-13 19:13:00 +0200
+categories: Apple, Bugs, Quality
+---
+Read sad post [The Sad State of Logging Bugs for Apple](https://www.corbinstreehouse.com/blog/2019/03/the-sad-state-of-logging-bugs-for-apple).
