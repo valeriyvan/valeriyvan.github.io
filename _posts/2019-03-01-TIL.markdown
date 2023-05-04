@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "watched WWDC 2018 video Embracing Algorithms"
+date:   2019-03-01 19:01:00 +0200
+categories: Complexity, Algorithms, Coding standards
+---
+Inspired by yesterday's reading of [Analyzing Complexity](http://khanlou.com/2018/12/analyzing-complexity/), watched [WWDC 2018 video Embracing Algorithms](https://developer.apple.com/videos/play/wwdc2018/223/#). Probably, I watched it fifth time today. It's pure gold. I should watch it again!
+
+> Every time you write a loop, replace it with a call to an algorithm. If you can't find one, make that algorithm yourself and move the loop into its implementation. 
+
+> If you want to improve the code quality in your organization, replace all of your coding standards with one goal, No Raw Loops.
