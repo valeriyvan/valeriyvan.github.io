@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "watched WWDC 2017 session What's New in Swift"
+title:  "Watched WWDC 2017 session What's New in Swift"
 date:   2019-03-08 19:08:00 +0200
 categories: TIL, Swift, ArraySlice, Codable
 ---

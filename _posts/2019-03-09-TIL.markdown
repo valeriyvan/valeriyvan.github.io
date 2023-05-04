@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched Swift Talk #142 Flow Testing with Protocols; Read Safely supporting new versions of Swift; Read iOS Responder Chain: UIResponder, UIEvent, UIControl and uses"
 date:   2019-03-09 19:09:00 +0200
-categories: TIL, Swift, Potocol, testing, Responder chain,
+categories: TIL, Swift, Protocol, testing, Responder chain
 ---
 Watched [Swift Talk #142 Flow Testing with Protocols](https://talk.objc.io/episodes/S01E142-flow-testing-with-protocols).
 

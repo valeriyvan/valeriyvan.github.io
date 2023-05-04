@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "TIL how to work properly with ArraySlice in Swift"
+date:   2019-03-07 19:07:00 +0200
+categories: TIL, Swift, ArraySlice
+---
+Spent all day implementing different kinds of merge sorting in Swift. It was very useful. One of side findings is in Swift. It seems I don't understand `ArraySlice` in particular I don't understand what happens on write to `ArraySlice`:
+
+```swift
+var arr = Array(stride(from: 10, to: 100, by: 10))
+print(arr)              // [10, 20, 30, 40, 50, 60, 70, 80, 90]
+var slice = arr[3..<5]
+print(slice)            // [40, 50]
+arr[3] = 9
+print(arr)              // [10, 20, 30, 9, 50, 60, 70, 80, 90]
+print(slice)            // [40, 50]
+slice[slice.indices.lowerBound] = 999
+print(arr)              // [10, 20, 30, 9, 50, 60, 70, 80, 90]
+print(slice)            // [999, 50]
+```
+
+`ArraySlice` is explained as 'window' to array itself. And it actually is. But. When array (or slice) is written to, it doesn't influence slice (array). I didn't understand this behavior. This makes very interesting to have a look in Swift source how Slice is implemented. Don't see how it might be implemented just with reference to original Array storage.
