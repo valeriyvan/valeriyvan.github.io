@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Watched Stanford's CS193P Spring 2021 Lecture 4: Memorize Game Logic"
+date:   2023-05-08 19:50:00 +0200
+categories: Stanford, CS193P, Swift, SwiftUI, MVVM
+---
+Watched [Stanford's CS193P Spring 2021 Lecture 4: Memorize Game Logic](https://www.youtube.com/watch?v=oWZOFSYS5GE).
