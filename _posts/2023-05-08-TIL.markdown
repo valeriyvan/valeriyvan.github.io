@@ -8,7 +8,7 @@ Watched [Stanford's CS193P Spring 2021 Lecture 4: Memorize Game Logic](https://w
 
 Watched [5 SwiftUI Concepts Every Beginning SwiftUI Developer Needs To Know (2020)](https://www.youtube.com/watch?v=51xIHDm_BDs).
 
-TIL Editor in Xcode allows copy Qualified Symbol Name. Here is how copied qualified symbol name `ContentView.getter:body` looks like.
+TIL Editor in Xcode allows copy Qualified Symbol Name. Here is how copied qualified symbol name looks like: `ContentView.getter:body`.
 ![Screenshot of Xcode showing contextual menu with Copy Qualified Symbol Name item](/assets/images/Screenshot%202023-05-08%20at%2020.52.25.png).
 
 TIL there's a thing in Xcode called Code Actions. If code is selected, code action for it could be called with CMD-Shift-A or with CMD-Shift-Click on a Symbol.
