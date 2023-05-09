@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Read The Joel Test: 12 Steps to Better Code; The Guerrilla Guide to Interviewing (version 3.0); Sorting Resumes"
+date:   2019-02-08 19:08:00 +0200
+categories: Interview, Pointers
+---
+[The Joel Test: 12 Steps to Better Code](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/). It's actually questions how employer could be evaluated.
+
+This is fun [The Guerrilla Guide to Interviewing (version 3.0)](https://www.joelonsoftware.com/2000/03/23/the-guerrilla-guide-to-interviewing/). It cynical and humorous. 
+
+> For some reason most people seem to be born without the part of the brain that understands pointers.
+
+As well as links from it [Sorting Resumes](https://www.joelonsoftware.com/2006/09/08/sorting-resumes-2/) and [The Phone Screen](https://www.joelonsoftware.com/2006/10/24/the-phone-screen-2/). Joel is smart and cynical!
