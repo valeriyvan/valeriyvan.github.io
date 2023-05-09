@@ -1,7 +1,15 @@
 ---
 layout: post
-title:  "Watched Stanford's CS193P Spring 2021 Lecture 4: Memorize Game Logic"
+title:  "Watched Stanford's CS193P Spring 2021 Lecture 4: Memorize Game Logic and 5 SwiftUI Concepts Every Beginning SwiftUI Developer Needs To Know"
 date:   2023-05-08 19:50:00 +0200
-categories: Stanford, CS193P, Swift, SwiftUI, MVVM
+categories: Stanford, CS193P, Swift, SwiftUI, MVVM, Xcode, Qualified Symbol Name
 ---
 Watched [Stanford's CS193P Spring 2021 Lecture 4: Memorize Game Logic](https://www.youtube.com/watch?v=oWZOFSYS5GE).
+
+Watched [5 SwiftUI Concepts Every Beginning SwiftUI Developer Needs To Know (2020)](https://www.youtube.com/watch?v=51xIHDm_BDs).
+
+TIL Editor in Xcode allows copy Qualified Symbol Name. Here is how copied qualified symbol name `ContentView.getter:body` looks like.
+![Screenshot of Xcode showing contextual menu with Copy Qualified Symbol Name item](/assets/images/Screenshot%202023-05-08%20at%2020.52.25.png).
+
+TIL there's a thing in Xcode called Code Actions. If code is selected, code action for it could be called with CMD-Shift-A or with CMD-Shift-Click on a Symbol.
+![Screenshot from Youtube video 5 SwiftUI Concepts Every Beginning SwiftUI Developer Needs To Know (2020) showing Code Actions in Xcode](/assets/images/Screenshot%202023-05-08%20at%2021.00.56.png).
