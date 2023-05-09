@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TIL swift weekly newsletter; Read a couple of very promising Swift proposals"
+title:  "TIL Swift weekly newsletter; Read a couple of very promising Swift proposals"
 date:   2019-02-02 19:02:00 +0200
 categories: Swift, Diffing, Keypaths, Fuzz tests
 ---
