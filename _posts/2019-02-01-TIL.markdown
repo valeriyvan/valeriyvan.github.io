@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Read fun post [Initialization in C++ is Seriously Bonkers; Watched Point-Free episode The Many Faces of Flat-Map: Part 4"
+date:   2019-02-01 19:01:00 +0200
+categories: C++, Initialization, Swift, Flat-Map, flatMap, compactMap, Functional programming
+---
+As a side note, not relevant to iOS, Swift, Objective-C or anything else I am doing - [Thermondo](https://thermondo.github.io). First, site is beautiful, minimalistic, hosted on GitHub pages, made with [Minimal Theme](https://github.com/orderedlist/minimal). But content is what has caught me - interesting how open companies might be. Each of links from this page worth reading.
+
+* Work @ Thermondo – Meet our Team
+* Hiring – How to join us
+* Code of Conduct
+* Developer Style Guide
+* Our Tech Stack
+
+Fun post [Initialization in C++ is Seriously Bonkers](https://mikelui.io/2019/01/03/seriously-bonkers.html).
+
+Watched [The Many Faces of Flat-Map: Part 4](https://www.pointfree.co/episodes/ep45-the-many-faces-of-flat-map-part-4). Guys mention about the reason why `flatMap` in Swift standard library was renamed into `compactMap`. I didn't know the story behind this rename. Interesting examples of functions `fromThrowing` to transform throwing function into another function returning result, and `toThrowing` function doing vice versa. Even examples of using these functions are bizarre I find them interesting. 
