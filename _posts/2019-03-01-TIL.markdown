@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "watched WWDC 2018 video Embracing Algorithms"
+title:  "Watched WWDC 2018 video Embracing Algorithms"
 date:   2019-03-01 19:01:00 +0200
 categories: Complexity, Algorithms, Coding standards
 ---
