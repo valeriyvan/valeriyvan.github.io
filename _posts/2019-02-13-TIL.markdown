@@ -2,6 +2,6 @@
 layout: post
 title:  "Read first chapters from App Architecture book"
 date:   2019-02-13 19:13:00 +0200
-categories: TIL, Swift, Architecture”
+categories: TIL, Swift, Architecture
 ---
 Read first chapters from [“App Architecture” book by Chris Eidhof, Matt Gallagher, and Florian Kugler](https://www.objc.io/books/app-architecture/). I like this definition of App architecture from the book: “the structures and tools used to bring smaller components together to form an application. ”
