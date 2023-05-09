@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Watched Point-Free episode #48 Predictable Randomness: Part 2"
+date:   2019-02-25 19:25:00 +0200
+categories: TIL, Swift, Randomness
+---
+Watched [Point-Free episode #48 Predictable Randomness: Part 2](https://www.pointfree.co/episodes/ep48-predictable-randomness-part-2). Again, got very little.
+
