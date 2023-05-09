@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Read fun post [How I have interviewed hundred people, rejected everyone and only then learnt how to interview"
+title:  "Read fun post How I have interviewed hundred people, rejected everyone and only then learnt how to interview"
 date:   2019-02-20 19:20:00 +0200
 categories: TIL, Interview process
 ---
