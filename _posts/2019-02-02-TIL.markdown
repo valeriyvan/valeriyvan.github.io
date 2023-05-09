@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "TIL swift weekly newsletter; Read a couple of very promising Swift proposals"
+date:   2019-02-02 19:02:00 +0200
+categories: Swift, Diffing, Keypaths, Fuzz tests
+---
+Listened [issue #2 Scaling A Codeless Open Source Swift Community of of Swift Community Podcast](https://www.swiftcommunitypodcast.org/episodes/2). 
+
+Thanks to the podcast I have subscribed to [swift weekly newsletter](https://swiftweekly.github.io), a community-driven weekly newsletter about what's happening in the Swift open source projects at Swift.org. It's so unexpected to find in Swift resource in [issue 126](https://swiftweekly.github.io/issue-126/) reference of Jeremy Howard from [fast.ai](https://www.fast.ai/2019/01/10/swift-numerics/). Jeremy's try to use Swift is interesting. Interesting his evaluation of Swift.
+
+Wow, Swift discusses inclusion of [ordered collections diffing](https://github.com/apple/swift-evolution/blob/master/proposals/0240-ordered-collection-diffing.md). Not that I needed such functionality ever. But discussion of such complex functionality to standard library is a good sign. By the way, this could change way of updating datasource of table views in iOS and macOS.
+
+Stephen Celis from [PointFree](https://www.pointfree.co) proposes for [Swift to treat keypaths expressions like functions](https://forums.swift.org/t/key-path-expressions-as-functions/19587). That's interesting.
+
+[Fuzz tests](https://forums.swift.org/t/support-for-fuzz-testers-in-swift-packages/19494) for Swift proposal! So many crazy thing people are doing in Swift!
