@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Run through `UITableView` Infinite Scrolling Tutorial; Read very short introduction into Swift compiler internals"
+date:   2019-02-04 19:04:00 +0200
+categories: UITableView, Swift, Compiler
+---
+Run through [UITableView Infinite Scrolling Tutorial](https://www.raywenderlich.com/5786-uitableview-infinite-scrolling-tutorial). `UITableViewDataSourcePrefetching` is something I have read long ano but have never tried. Where those days when I have implemented prefetching logic manually.
+
+Interesting post about [creating 3D stereo pairs with bare C++](https://habr.com/ru/post/438646/). It's continue of post [Ray tracing with 256 lines of bare C++](https://habr.com/ru/post/436790/). It's absolutely crazy!
+
+Very short introduction into [Swift compiler internals](https://habr.com/ru/company/e-Legion/blog/438204/). Second part about [Internals of front end of Swift compiler](https://habr.com/ru/company/e-Legion/blog/438664/). The most interesting part that it contains link to tutorial how to [implement with LLVM simple language Kaleidoscope](http://llvm.org/docs/tutorial/index.html).
