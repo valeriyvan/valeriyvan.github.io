@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "Read `UIView` styling with functions"
+date:   2019-02-27 19:27:00 +0200
+categories: Swift, Composition pattern
+---
+Nice reading [`UIView` styling with functions](https://felginep.github.io/2019-02-19/uiview-styling-with-functions).
+
+> When you use subclasses in Swift to style your views, you loose composition. For example, if you create two UIButton subclasses, FilledButton and RoundedButton, how do you create a button that is both filled and rounded?
+
+Side story. Having this I couldn't realise what's going on in curly braces where `filled` is initialized:
+
+```swift
+struct ViewStyle<T> {
+    let style: (T) -> Void
+}
+
+let filled = ViewStyle<UIButton> {
+    $0.setTitleColor(.white, for: .normal)
+    $0.backgroundColor = .red
+}
+```
+
+It took some efort to get it's just trailing closure for style parameter of default initializer:
+
+```swift
+let filled = ViewStyle<UIButton>(style: {
+    $0.setTitleColor(.white, for: .normal)
+    $0.backgroundColor = .red
+})
+```
+
+**Conclusion of the post at whole**. After playing with it in playground for more than an hour I think that some things are rough, but approach definetly worth following it. What I would add - operations like `+` to compose styles easily.
