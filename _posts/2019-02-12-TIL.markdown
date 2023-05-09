@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL `String` in Swift has `sorted()` returning `[Character]`; `Array` of `Equatable` is `Equatable`"
+date:   2019-02-12 19:12:00 +0200
+categories: TIL, Swift, String, Array, API
+---
+Findings of the day:
+
+* `String` has `sorted()` returning `[Character]`. First, I wasn't expecting it having this at all. Second, I wasn't expecting this func return array of characters but not a `String`. Probably I should examine all `String` API. Haven't done this in a while.
+
+* `Array` of `Equatable` is `Equatable`. This is logical. But I remember implementing this on my own sime time ago. Interesting to find which Swift version broght this.
