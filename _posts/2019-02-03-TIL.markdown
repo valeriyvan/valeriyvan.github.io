@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "Read What’s new in Swift 5.0; Read interesting post about Sowftware 2.0 or Differentiable Programming; TIL Moya - Network abstraction layer written in Swift"
+date:   2019-02-03 19:03:00 +0200
+categories: Swift 5.0, Sowftware 2.0, URLSession, Moya
+---
+Read [What’s new in Swift 5.0](https://www.hackingwithswift.com/articles/126/whats-new-in-swift-5-0). Not too much. Those are the features that have already been implemented in the Swift 5.0 branch, but more will undoubtedly come in the months leading up to Swift 5.0's release.
+
+Apple's release note for Xcode 10.2 beta is much more detailed and has more information.
+
+Read interesting post about [Sowftware 2.0 or Differentiable Programming](https://techburst.io/deep-learning-est-mort-vive-differentiable-programming-5060d3c55074). Original [post of Andrej Karpathy Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35) is much more detailed and interesting.
+
+>  In the 2.0 stack, the programming is done by accumulating, massaging and cleaning datasets. ... Who is going to develop the first Software 2.0 IDEs, which help with all of the workflows in accumulating, visualizing, cleaning, labeling, and sourcing datasets?
+
+This quote reminds me my lookup of appropriate tooling for labling my own [dataset of traffic signs](http://w7software.com/signs-ukr/stat.html).
+
+> Similarly, Github is a very successful home for Software 1.0 code. Is there space for a Software 2.0 Github?
+
+That's true as well. There's no convinient way neither to publish dataset nor way for several people collaborate on same dataset.
+
+Browsing links for [episode #2 of Swift Community podcast](https://www.swiftcommunitypodcast.org/episodes/2) accidently come to [Moya - Network abstraction layer written in Swift](https://github.com/Moya/Moya).
+
+> You're a smart developer. You probably use Alamofire to abstract away access to URLSession and all those nasty details you don't really care about. But then, like lots of smart developers, you write ad hoc network abstraction layers. They are probably called "APIManager" or "NetworkModel", and they always end in tears.
+
+I envy people able writing such prose.
+
+Don't understand the need of such framework. And example code looks weird: use of NSArray without any obvious need. Will look into it.
+
+Has to listen podcast again - don't remember what was talked about Maya there.
+
+Interesting how people contribute in various ways. Ole Begeman contributed with running podcast through [Amazon's Transcribe service](https://aws.amazon.com/transcribe/). Interesting to give it a try once.
