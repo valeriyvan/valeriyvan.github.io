@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "TIL `prefix(while:)` and `\"0\"...\"9\"`"
+date:   2019-02-26 19:26:00 +0200
+categories: TIL, Swift, Swift standard library
+---
+It's interesting to read Swift standard library declarations. E.g., I didn't know about existence of `prefix(while:)` and I didn't know it is possible to make a range of strings like `"0"..."9"`. It's never too late to mend.
+
+```swift
+let rawInput = "126 a.b 22219 zzzzzz"
+let numericPrefix = rawInput.prefix(while: { "0"..."9" ~= $0 })
+// numericPrefix is the substring "126"
+```
+
+And I don't know a way to enumerate the range `"0"..."9"`. `enumerated()` is not available because String is not `Strideable`. `Array("0"..."9")` isn't working for the same reason. May be it does make sence. We could check if value belongs to range because we don't need anything more then bounds for this. That's not enough to enumerate. Swift is full of puzzles.
