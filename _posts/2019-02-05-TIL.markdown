@@ -1,0 +1,46 @@
+---
+layout: post
+title:  "TIL some tricks of using macOS Character Viewer; Passed through of NSHipster's post about using `swift-sh`; Returned to NSHipster's post about `TextOutputStream`"
+date:   2019-02-05 19:05:00 +0200
+categories: TIL, macOSm, Character Viewer, Swift, swift-sh, CLI, TextOutputStream
+---
+TIL some tricks of using [macOS Character Viewer](https://nshipster.com/character-viewer/). Control-clicking a character and choose “Copy Character Info” - it's sweet! Don't know why I would need this but it's good to know that's possible: 
+
+`String(decoding: [0xF0, 0x9F, 0x98, 0x82], as: UTF8.self) // 😂`. 
+
+This is nice feature as well: 
+
+`"\\N{FACE WITH TEARS OF JOY}".applyingTransform(.toUnicodeName, reverse: true) // "😂"`. 
+
+And it's good to remember about "Customize List…"" option which is available through Action button at the top left corner of the Character Viewer panel.
+
+Passed through of NSHipster post about using [swift-sh](https://nshipster.com/swift-sh/) to manage dependencies in Swift command line scripts. It's peice of cake to make [bridge example](https://gist.github.com/mattt/b9d35a41c6599b7237a423715a2665c1) working in command line. It might be whole cake going to refactor the script simplifying it.
+
+Returning again to NSHipster's post about [TextOutputStream](https://nshipster.com/textoutputstream/). Why `print` is declared as:
+
+`func print<Target>(_ items: Any..., separator: String = " ", terminator: String = "\n", to output: inout Target) where Target : TextOutputStream
+`
+
+and not as
+
+`func print(_ items: Any..., separator: String = " ", terminator: String = "\n", to output: inout TextOutputStream)`
+
+Swift allows both. What's the difference? Or these are different ways to express the same?
+
+Swift 5 gets this [extention for Character](https://github.com/apple/swift-evolution/blob/master/proposals/0221-character-properties.md) making possible these:
+
+```
+("a" as Character).isASCII // true
+("π" as Character).isASCII // false
+("a" as Character).asciiValue // Optional(65)
+("π" as Character).asciiValue // nil
+("\t" as Character).isWhitespace // true
+("\n" as Character).isNewline // true
+("5" as Character).isNumber // true
+("½" as Character).isNumber // true
+("5" as Character).isWholeNumber // true
+("5" as Character).wholeNumberValue // Optional(5)
+("½" as Character).isWholeNumber // false
+("½" as Character).wholeNumberValue // nil
+```
+and [so on...](https://github.com/apple/swift-evolution/blob/master/proposals/0221-character-properties.md)
