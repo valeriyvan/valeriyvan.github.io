@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read Missing Guide on Swift Code Style"
+date:   2019-01-31 19:31:00 +0200
+categories: Swift, Style guide
+---
+It seems non only I have thought last week about which Swift style guide we use - [Missing Guide on Swift Code Style](http://www.vadimbulavin.com/swift-code-style/).
