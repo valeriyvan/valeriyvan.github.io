@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL `cmark` CLI; Read `TextOutputStream` post in NSHeapster"
+date:   2019-01-24 19:24:00 +0200
+categories: cmark, NSHeapster, TextOutputStream, print
+---
+Looking for replacement for [pandoc](https://github.com/jgm/pandoc) installed [cmark](https://github.com/commonmark/cmark). For my use cases it works better transforming `.md` into `.html`. The only inconvenience is absence of headers, but that not a big deal.
+
+Read [`TextOutputStream` post in NSHeapster](https://nshipster.com/textoutputstream/).
+
+Hipster asks, did you know that the actual signature of print is [`print(_:separator:terminator:)`](https://developer.apple.com/documentation/swift/1541053-print)? Yes I did know that and I am using it regularly. Or that it had a variant named [`print(_:separator:terminator:to:)`](https://developer.apple.com/documentation/swift/1641736-print)? Noooooo! `to` parameter is for printing into `String`. Actually not to a `String` but to a `TextOutputStream` to which `String` conforms to. I used to write `String(format:)`, or a loop, or `map` to build string where `print(_:to:)` could have been used.
+
+Fixed [what I believe is a bug](https://github.com/spotify/SPTPersistentCache/pull/110) in [spotify's SPTPersistentCache](https://github.com/spotify/SPTPersistentCache).
