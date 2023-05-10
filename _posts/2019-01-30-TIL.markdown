@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read NSHipster's post about import in Swift"
+date:   2019-01-30 19:30:00 +0200
+categories: Swift, Import
+---
+Read [NSHipster's post about import in Swift](https://nshipster.com/import/). Stuff like `import func AppKit.NSUserName` with importing separate entity, like func or class is discouraged by [Google Swift style guide](https://google.github.io/swift/#import-statements).
