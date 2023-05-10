@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "TIL Apple’s Swift standard library, Google's, Official raywenderlich.com, Linkedin and Coursera Swift Style Guides; TIL API Design Guidelines from Swift.org"
+date:   2019-01-27 19:27:00 +0200
+categories: Swift, Style Guide
+---
+Yesterday I was asked at job interview which style guide I use for Swift. I don't know which one. I don't know even which exist. I definitely use some because I can't refrain from fixing function call to trailing closure syntax or to add space before opening curly brace. The question is what's the name of style guide I use. I started to google to name swift style guides available.
+
+1. [Google's Swift Style guide](https://google.github.io/swift/) which is based on Apple’s Swift standard library style. Now I know which style guide I use: Apple’s Swift standard library style. Or one required by default by swiftlint tool.
+
+1. [The Official raywenderlich.com Swift Style Guide](https://github.com/raywenderlich/swift-style-guide).
+
+1. [Linkedin Swift Style Guide](https://github.com/linkedin/swift-style-guide).
+
+1. [Coursera Swift coding guidelines](https://github.com/coursera/swift-style-guide). Wow, it's so short!
+
+And that's it!
+
+[Swift.org](http://swift.org) has [API Design Guidelines](https://swift.org/documentation/api-design-guidelines/), which should be mentioned here.
+
+A book [Swift Style: An Opinionated Guide to an Opinionated Language by Erica Sadun](https://pragprog.com/book/esswift/swift-style) should be mentioned. But because the book is of 2017 and style itself is not available without buying a copy of book, this doesn't count.
