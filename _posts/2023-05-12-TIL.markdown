@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Read Telegram's Bots: An introduction for developers"
+date:   2023-05-12 19:12:00 +0200
+categories: TIL, Telegram, Bot, API, Swift
+---
+Read [Telegram's Bots: An introduction for developers](https://core.telegram.org/bots).
+
+TIL that Swift package Manager needs 4GB RAM to compile medium project like example project in [telegram-vapor-bot](https://github.com/nerzh/telegram-vapor-bot).
+
+Filed an issue to Swift Package manager [swift build fails with error error: emit-module command failed due to signal 9 on Ubuntu 22.10 x64](https://github.com/apple/swift-package-manager/issues/6548). Guys in comment there write that it's not a problem of Swift Package Manager but of compiler/linker.
+
+Launched the first Telegram bot today, written in Swift and hosted in droplet in Digital Ocean.
