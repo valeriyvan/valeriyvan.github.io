@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Watched Lecture #1 - Common mistakes preventing iOS devs from becoming true seniors of iOS Architect Crash Course"
+date:   2023-05-15 19:15:00 +0200
+categories: Architecture, iOS
+---
+Watched [Lecture #1 - Common mistakes preventing iOS devs from becoming true seniors](/assets/media/Lecture%20%231%20-%20Common%20mistakes%20preventing%20iOS%20devs%20from%20becoming%20true%20seniors.mp4) of [iOS Architect Crash Course](https://iosacademy.essentialdeveloper.com/p/ios-architect-crash-course-orga0eb/).
