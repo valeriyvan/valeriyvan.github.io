@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Watched iOS Architect Crash Course Lecture #3 - The fastest and simplest way to become a complete Senior iOS Developer"
+date:   2023-05-19 10:19:00 +0200
+categories: iOS, Architecture
+---
+Watched [Lecture #3 - The fastest and simplest way to become a complete Senior iOS Developer](https://s3.eu-central-1.amazonaws.com/com.w7software.myfirsttestbucket/essentialdeveloper.com+iOS+Architect+Crash+Course+Lecture+%233+-+The+fastest+and+simplest+way+to+become+a+complete+Senior+iOS+Developer.mp4) of [iOS Architect Crash Course](https://iosacademy.essentialdeveloper.com/p/ios-architect-crash-course-orga0eb/).
