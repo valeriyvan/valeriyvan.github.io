@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Read “The Pragmatic Programmer” Is Essential Reading for Software Developers and Swift CoreNFC as quick as possible"
+date:   2019-01-17 19:17:00 +0200
+categories: CoreNFC, iOS
+---
+Went through blog post [“The Pragmatic Programmer” Is Essential Reading for Software Developers](https://blog.usejournal.com/the-pragmatic-programmer-is-essential-reading-for-software-developers-443940b8ef9f) which reminded me I have reread this book again.
+
+Went trough [Swift CoreNFC as quick as possible](https://medium.com/@myrickchow32/swift-corenfc-as-quick-as-possible-79544796cd0a) blog post with testing NFC reader in iOS app. Post has small mistake. The first step with enabling NFC reading in developer.apple.com for App ID is not needed. As soon as the feature is enabled in Xcode for the app, this is set in developer.apple.com for app as well.
