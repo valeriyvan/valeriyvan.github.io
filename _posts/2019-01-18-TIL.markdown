@@ -1,0 +1,85 @@
+---
+layout: post
+title:  "Read Memory safety of Swift language guide; TIL Swift runtime is able to detect conflicting accesses to memory"
+date:   2019-01-18 19:18:00 +0200
+categories: TIL, flatMap, Functional programming, Memory safety, Swift
+---
+Interesting reading in Swift language guide about [Memory safety](https://docs.swift.org/swift-book/LanguageGuide/MemorySafety.html). Tried this snippet:
+
+```Swift
+var stepSize = 1
+
+func increment(_ number: inout Int) {
+    number += stepSize
+}
+
+increment(&stepSize)
+// Error: conflicting accesses to stepSize
+```
+
+Compiles silently. But running produces following runtime error. Have never seen something similar. Good that Swift catches this conflict in runtime, bad it is not able to detect this in compile time.
+
+
+```Swift
+Simultaneous accesses to 0x1112e2000, but modification requires exclusive access.
+Previous access (a modification) started at  (0x1112e3039).
+Current access (a read) started at:
+0    libswiftCore.dylib                 0x00000001116f5ed0 swift_beginAccess + 469
+3    swift                              0x000000010b3620d0 llvm::MCJIT::runFunction(llvm::Function*, llvm::ArrayRef<llvm::GenericValue>) + 365
+4    swift                              0x000000010b368830 llvm::ExecutionEngine::runFunctionAsMain(llvm::Function*, std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > > const&, char const* const*) + 1004
+5    swift                              0x000000010a5bd230 performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&, swift::FrontendObserver*, swift::UnifiedStatsReporter*) + 52660
+6    swift                              0x000000010a5b7f10 swift::performFrontend(llvm::ArrayRef<char const*>, char const*, void*, swift::FrontendObserver*) + 7717
+7    swift                              0x000000010a55f420 main + 1349
+8    libdyld.dylib                      0x00007fff5ba79ed8 start + 1
+Fatal access conflict detected.
+0  swift                    0x000000010e33759a PrintStackTraceSignalHandler(void*) + 42
+1  swift                    0x000000010e336d4e SignalHandler(int) + 302
+2  libsystem_platform.dylib 0x00007fff5bc64b3d _sigtramp + 29
+3  libsystem_platform.dylib 0x000000011ce8d7c7 _sigtramp + 3240266919
+4  libsystem_c.dylib        0x00007fff5bb221c9 abort + 127
+5  libswiftCore.dylib       0x00000001116f5ca5 swift::fatalError(unsigned int, char const*, ...) + 149
+6  libswiftCore.dylib       0x00000001116f61a6 swift_beginAccess + 726
+7  libswiftCore.dylib       0x00000001112e30ad swift_beginAccess + 4290695645
+8  libswiftCore.dylib       0x00000001112e3048 swift_beginAccess + 4290695544
+9  swift                    0x000000010b36223d llvm::MCJIT::runFunction(llvm::Function*, llvm::ArrayRef<llvm::GenericValue>) + 365
+10 swift                    0x000000010b368c1c llvm::ExecutionEngine::runFunctionAsMain(llvm::Function*, std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > > const&, char const* const*) + 1004
+11 swift                    0x000000010a5c9fe4 performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&, swift::FrontendObserver*, swift::UnifiedStatsReporter*) + 52660
+12 swift                    0x000000010a5b9d35 swift::performFrontend(llvm::ArrayRef<char const*>, char const*, void*, swift::FrontendObserver*) + 7717
+13 swift                    0x000000010a55f965 main + 1349
+14 libdyld.dylib            0x00007fff5ba79ed9 start + 1
+Stack dump:
+0.  Program arguments: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift -frontend -interpret ConflictingAccessToInOutParameters.swift -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -color-diagnostics -module-name ConflictingAccessToInOutParameters 
+Abort trap: 6
+```
+
+Another snippet doesn't even compile.
+
+```Swift
+func balance(_ x: inout Int, _ y: inout Int) {
+    let sum = x + y
+    x = sum / 2
+    y = sum - x
+}
+var playerOneScore = 42
+var playerTwoScore = 30
+balance(&playerOneScore, &playerTwoScore)  // OK
+balance(&playerOneScore, &playerOneScore)
+// Error: conflicting accesses to playerOneScore
+```
+
+Produces following compile time errors. That's better.
+
+```Swift
+ConflictingAccessToInOutParameters2.swift:9:26: error: inout arguments are not allowed to alias each other
+balance(&playerOneScore, &playerOneScore)
+                         ^~~~~~~~~~~~~~~
+ConflictingAccessToInOutParameters2.swift:9:9: note: previous aliasing argument
+balance(&playerOneScore, &playerOneScore)
+        ^~~~~~~~~~~~~~~
+ConflictingAccessToInOutParameters2.swift:9:9: error: overlapping accesses to 'playerOneScore', but modification requires exclusive access; consider copying to a local variable
+balance(&playerOneScore, &playerOneScore)
+        ^~~~~~~~~~~~~~~
+ConflictingAccessToInOutParameters2.swift:9:26: note: conflicting access is here
+balance(&playerOneScore, &playerOneScore)
+                         ^~~~~~~~~~~~~~~
+```
