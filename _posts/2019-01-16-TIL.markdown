@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "Read the first chapter of Machine Learning with CoreML book"
+date:   2019-01-16 19:16:00 +0200
+categories: CoreML
+---
+Passing over the first chapter of [Machine Learning with CoreML book](https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-core-ml) a couple of days ago I spotted immediately that this function might be written shorter, meaning reduce should be just `reduce(0, +)` and having blurred feelings that map might be shorter.
+
+```Swift
+func calcSimilarity(userRatingsA: [String:Float], userRatingsB:[String:Float]) -> Float{
+    let distance = userRatingsA.map( { (movieRating) -> Float in
+        if userRatingsB[movieRating.key] == nil{
+            return 0
+        }
+        let diff = movieRating.value - (userRatingsB[movieRating.key] ?? 0)
+        return diff * diff
+    }).reduce(0) { (prev, curr) -> Float in
+        return prev + curr
+    }.squareRoot()
+    return 1 / (1 + distance)
+}
+```
+
+I wasn't expecting it's possible to turn it into oneliner:
+
+```Swift
+func calcSimilarity(userRatingsA: [String:Float], userRatingsB: [String:Float]) -> Float {
+    let distance = userRatingsA.merging(userRatingsB){$0 - $1}.map{$0.value}.map{$0 * $0}.reduce(0.0, +).squareRoot()
+    return 1.0 / (1.0 + distance)
+}
+```
+
+Testing refactored function I couldn't get why results differ from original one. Until I have found out that original implementation is incorrect. This lead to openning [issue and pull request for fixing it](https://github.com/PacktPublishing/Machine-Learning-with-Core-ML/pull/9).
+
+Exploring [Swift.org](https://swift.org) found out that [swift-corelibs-foundation](https://github.com/apple/swift-corelibs-foundation) welcomes writing unit tests to improve test coverage.
+
+Attended [Cocoaheads Berlin January 2019 meetup](https://www.meetup.com/Cocoaheads-Berlin/events/257922091/). The first talk was boring. Talk "DIY Build System for iOS Apps" by Vojta Stavik was quite interesting. It was about building iOS app with command line tools by steps, like compile source files, compile resources, copy runtime(for swift), sign, install in simulator or device. After this talk I can't answer question: "Why have I thought it's difficult?". There's no practical implication after talk. But it was curious. Slide with app recognising bank notes in the last talk "Creating an Augmented Reality football game with ARKit + CoreML" lead to idea adding similar feature to my abandoned CashCalk app.
