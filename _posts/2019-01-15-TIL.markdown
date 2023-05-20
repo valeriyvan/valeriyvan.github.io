@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "TIL Overflow operators in Swift language guide"
+date:   2019-01-15 19:15:00 +0200
+categories: TIL, Swift, Overflow operators, arithmetic
+---
+Innocent code `i += 1`. What might be wrong with it? Definately, overflow. In Objective-C developer should anticipate where overflow might happen. Otherwise it just happens silently:
+
+![](/assets/images/Screenshot%202019-01-15%20at%2018.05.38.png)
+
+Equal Swift code doesn't even compile. Compiler is smart enough to detect overflow here:
+
+![](/assets/images/Screenshot%202019-01-15%20at%2016.29.44.png)
+
+When value isn't available in source code compiler isn't that helpful.
+
+The truth is these snippets are not equal. Objective-C as well as C doesn't care about overflow. It's burden of developer to anticipate possible overflow and deal with it. Swift, contrary, raises exception on overflow in arithmentic operations. And this code is not throwable, exception can't be cought.
+
+![](/assets/images/Screenshot%202019-01-15%20at%2017.26.20.png)
+
+App just crashes on overflow. That's main difference between similar looking Objective-C code:
+
+![](/assets/images/Screenshot%202019-01-15%20at%2017.36.14.png)
+
+Swift code behaving similar to one in Objective-C is looking like below. These operators are called in Swift language guide [overflow operators](https://docs.swift.org/swift-book/LanguageGuide/AdvancedOperators.html#ID37).
+
+![](/assets/images/Screenshot%202019-01-15%20at%2017.45.05.png)
+
+What are not reflected in Swift language guide are arithmetic operations with reporting overflow:
+
+![](/assets/images/Screenshot%202019-01-15%20at%2017.52.13.png)
+
+It might be interesting interview question to ask if there any difference in behaviour of operator `i += 1` in Swift and Objective-C.
