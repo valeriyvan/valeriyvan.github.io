@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL `FloatingPoint` protocol in Swift; Read Training YOLOv3 for custom objects"
+date:   2019-01-13 19:13:00 +0200
+categories: TIL, Swift, FloatingPoint, Math.Floating, Float, Double, Float80, BinaryFloatingPoint, YOLOv3
+---
+Minor [PR](https://github.com/JohnCoates/Aerial/pull/700) to Aerial.
+
+Cope with the first chapter of [Machine Learning with CoreML book](https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-core-ml). Later [fixed](https://github.com/PacktPublishing/Machine-Learning-with-Core-ML/pull/7) link to cover book if repo with code from book.
+
+Refactoring stupid snippet from the first chapter I jumped to `Math.Floating` where found about `FloatingPoint` protocol (`Float`, `Double` and `Float80` conform to it). `Float80` - that's new for me! As well as `BinaryFloatingPoint` from there. Conclusion from browsing this file: instead of extending `Float` and/or `Double` with some functions one should consider defining this functions over `FloatingPoint` making new functionality available to all float types.
+
+Just on time comes post about [training YOLOv3 for custom objects](https://www.learnopencv.com/training-yolov3-deep-learning-based-custom-object-detector/?ck_subscriber_id=272204938). Hope to have time follow this tonight.
