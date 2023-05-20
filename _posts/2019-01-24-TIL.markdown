@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL `cmark` CLI; Read `TextOutputStream` post in NSHeapster"
 date:   2019-01-24 19:24:00 +0200
-categories: cmark, NSHeapster, TextOutputStream, print
+categories: TIL, cmark, NSHeapster, TextOutputStream, print
 ---
 Looking for replacement for [pandoc](https://github.com/jgm/pandoc) installed [cmark](https://github.com/commonmark/cmark). For my use cases it works better transforming `.md` into `.html`. The only inconvenience is absence of headers, but that not a big deal.
 
