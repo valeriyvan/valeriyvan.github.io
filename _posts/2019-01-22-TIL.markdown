@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Watched Point Free episode #44 The many faces of flatMap part 3"
+date:   2019-01-22 19:22:00 +0200
+categories: TIL, flatMap, map, zip, Functional programming, xctool
+---
+Watched [Point Free episode \#44 The many faces of `flatMap` part 3](https://www.pointfree.co/episodes/ep44-the-many-faces-of-flat-map-part-3). This issue is a gold. `Optional.init` or `case let` used to flatten pyramid of `if let` and `if` with non optionals is what I have dreamt a long. But issue is not about these but about how to get rid of these at all. Sure I will return to this issue many times as well as to other issues about `map`, `flatMap` and `zip`.
+
+Looking for a way to fix Xcode failing run unit tests with stupid error `encountered an error (Early unexpected exit, operation never finished bootstrapping - no restart will be attempted. (Underlying error: The test runner exited with code 1 before checking in.))` came across [Top 5 Command Line Tools for iOS Developer](https://shashikantjagtap.net/top-5-command-line-tools-ios-developer/) and then eventually to Facebook's [xctool](https://github.com/facebook/xctool/). Should give it a try.
+
