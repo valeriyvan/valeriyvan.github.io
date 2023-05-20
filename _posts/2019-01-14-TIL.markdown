@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL what's result of `-9 % 4` in Swift"
+date:   2019-01-14 19:14:00 +0200
+categories: TIL, Swift, arithmetic, %
+---
+Hm. I understood hash in Cartfile as [requirement of exact version with commit specified by its hash](https://github.com/Carthage/Carthage/blob/master/Documentation/Artifacts.md#version-requirement). Why then it gets updated with `carthage update`?
+
+![](logimages/Screenshot%202019-01-14%20at%2011.46.53.png)
+
+This might be Swift interview question: "What's result of `-9 % 4`? I didn't know about difference between module and remainder.
+
+![](logimages/Screenshot%202019-01-14%20at%2013.01.16.png)
