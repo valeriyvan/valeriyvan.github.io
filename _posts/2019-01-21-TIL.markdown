@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL Do What the Fuck You Want To Public License"
+date:   2019-01-21 19:21:00 +0200
+categories: TIL, WTFPL
+---
+Ha-ha, that's fun [Do What the Fuck You Want To Public License](https://en.wikipedia.org/wiki/WTFPL). This is from this great post [Tracer in 256 lines of pure C++](https://habr.com/ru/post/436790/). Should go through this!
