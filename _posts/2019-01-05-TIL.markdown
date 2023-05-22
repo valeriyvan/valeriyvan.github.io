@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL iOS stuff could be used for detecting traffic signs rectangles"
+date:   2019-01-05 19:05:00 +0200
+categories: TIL, Computer Vision, Detecting traffix signs
+---
+While working on [PR](https://github.com/WeTransfer/WeScan/pull/104) to WeScan checked how WeScan (which actually uses iOS goodies) could cope with detecting traffic signs as rectangles. It's quite promising. Seems I could use this to detect candidates for signs detection:
+
+![](/assets/images/IMG_5562.png) ![](/assets/images/IMG_5563.png) ![](/assets/images/IMG_5567.png) ![](/assets/images/IMG_5569.png) ![](logimages/IMG_5572.png) ![](logimages/IMG_5575.png)
