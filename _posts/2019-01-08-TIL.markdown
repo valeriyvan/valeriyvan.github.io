@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Watched issue #42 of Point-free The many faces of flatMap Part 1"
+date:   2019-01-08 19:08:00 +0200
+categories: TIL, flatMap, Swift
+---
+Watched [issue \#42 of Point-free The many faces of flatMap Part 1](https://www.pointfree.co/episodes/ep42-the-many-faces-of-flat-map-part-1).
