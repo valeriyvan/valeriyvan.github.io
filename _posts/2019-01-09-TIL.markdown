@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "TIL SSH tunnels; For exercise implemented singly linked lists in Swift and tortoise and hare algorithm (aka Floyd's algorithm) for detecting loops in lists algorithm"
+date:   2019-01-09 19:09:00 +0200
+categories: TIL, SSH, tunnels, Tortoise and hare algorithm , Floyd's algorithm, Liked list, Swift
+---
+Implemented SinglyLinkedList in Swift. Just to train implementing [tortoise and hare algorithm (aka Floyd's algorithm)](https://codingfreak.blogspot.com/2012/09/detecting-loop-in-singly-linked-list_22.html) for looking loops in lists. It was good exercise. List it is not something you work often in Swift.
+
+Read interesting post [Practical advises, examples and SSH tunnels](https://habr.com/post/435546/). Especial gems:
+* reverse tunnel `ssh -v -R 0.0.0.0:1999:127.0.0.1:902 192.168.1.100 user@remoteserver`
+* copying identity on remote server `ssh-copy-id user@remoteserver`
+* remote command execution `localhost:~$ ssh remoteserver "cat /var/log/nginx/access.log"`
+* copy (tared) local folder on remote server `tar -cvj /datafolder | ssh remoteserver "tar -xj -C /datafolder"`
+* editing remote files locally `vim scp://user@remoteserver//etc/hosts` (read explanation in \#15 there)
+* mounting remote as local folder over ssh `sshfs user@remoteserver:/media/data ~/data/` failed to make it work on OSX.
