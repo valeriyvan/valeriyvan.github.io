@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Watched Swift talk episode about chaining downloads"
+date:   2019-01-11 19:11:00 +0200
+categories: TIL, Xcake, XcodeGen, Xgen, 
+---
+Accidentally found [Xcake - tool for creating Xcode's `.pbxproj` files](https://github.com/igor-makarov/xcake). Didn't like it because it's rubi. But this reminded me about similar tools written in Swift: [XcodeGen](https://github.com/yonaskolb/XcodeGen) and [Xgen](https://github.com/JohnSundell/Xgen) (the last is by John Sundell). Both are reguary updated. Connected John Sundell's project [Marathon](https://github.com/johnsundell/marathon) solves problem where to store Swift command line scripts. That's sweet! John even has [repo with examples of
+scripts](https://github.com/JohnSundell/Marathon-Examples) which could be placed to Marathon.
+
+A [`try`](https://github.com/JohnSundell/Marathon-Examples/blob/c6ed7fd9fd652c5f5cf73bc5c4885498a0d8e6d9/AddSuffix/addSuffix.swift#L16) without catch? I am missing something?
+
+Watched [swift talk episode about chaining downloads](https://talk.objc.io/episodes/S01E134-combined-resources-part-1). Worth watching it again and playing in playground.
+
+When looking for a way to add Firebase with Carthage found [this](https://github.com/firebase/firebase-ios-sdk/blob/master/Carthage.md).
+Have never seen this before. Anyway, integrating Firebase is a nightmare!
