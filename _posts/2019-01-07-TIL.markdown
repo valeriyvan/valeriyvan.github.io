@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL keystrokes for Bash for clearing command line"
+date:   2019-01-07 19:07:00 +0200
+categories: TIL, Bash, chmod
+---
+TIL keystrokes for Bash for clearing command line:
+* **Ctrl+U** to clear up to the beginning;
+* **Ctrl+W** to delete just a word;
+* **Ctrl+C** to cancel;
+* **Alt+Shift+\#** to make input a comment and keep it in history.
+
+Note to future self with macOS command line to clone permissions: ```chmod ``stat -f %A fileWithPerm`` fileToSetPerm```.
