@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "TIL different kinds of ranges in Swift"
+date:   2019-01-12 19:12:00 +0200
+categories: TIL, Swift, Range, PartialRangeThrough, PartialRangeUpTo, PartialRangeFrom, UnboundedRange_, DefaultIndices, RangeExpression, CountableRange, CountablePartialRangeFrom
+---
+Watched first video from missed Vapor meetup. `0...` - that's new for me. It seems I have read about this kinds of ranges but have forgotten. TIL this range is called [`PartialRangeFrom`](https://developer.apple.com/documentation/swift/partialrangefrom). Beside regular half-open range [`Range`](https://developer.apple.com/documentation/swift/range) swift also has [`PartialRangeThrough`](https://developer.apple.com/documentation/swift/partialrangethrough), [`PartialRangeUpTo`](https://developer.apple.com/documentation/swift/partialrangeupto), and [`UnboundedRange_`](https://developer.apple.com/documentation/swift/unboundedrange_), yes, with undersscore at the end. There're also [`CountableRange`](https://developer.apple.com/documentation/swift/countablerange), [`CountablePartialRangeFrom`](https://developer.apple.com/documentation/swift/countablepartialrangefrom).
+
+TIL Swift has a thing called [`DefaultIndices`](https://developer.apple.com/documentation/swift/defaultindices), a collection of indices for an arbitrary collection.
+
+TIL Swift's `RangeExpression` protocol has [`relative(to:)`](https://developer.apple.com/documentation/swift/rangeexpression/relative(to:)) function which allows to convert range expression which might be missing one of one or both of its endpoints, into a concrete range that is bounded on both sides.
+
+```Swift 
+let numbers = [10, 20, 30, 40, 50, 60, 70]
+let upToFour: PartialRangeUpTo<Int> = ..<4
+print(upToFour) // PartialRangeUpTo<Int>(upperBound: 4)
+let r1: Range<Int> = upToFour.relative(to: numbers)
+print(r1) // 0..<4
+```
