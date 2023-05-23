@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "TIL using IBM Watson and Azure to train models for CoreML"
+date:   2018-12-07 19:07:00 +0200
+categories: TIL, IBM Watson, Azure, CoreML, CreateML, Turi, Swift, NSAttributedString
+---
+Taken small research on using eGPU with Turi Create. It seems Thunderbolt 3 or USB-C MacBook Pro needed to connect eGPU. I am out of game.
+
+Interesting post about using IBM Watson to train models for CoreML [Machine Learning in iOS: IBM Watson and CoreML](https://medium.com/flawless-app-stories/detecting-avengers-superheroes-in-your-ios-app-with-ibm-watson-and-coreml-fe38e493a4d1). Don't see sense for this having CreateML and Turi Create. May be reason is that training uses all power of GPUs at Watson. Follow up post about using Azure for same purpose [Machine Learning in iOS: Azure Custom Vision and CoreML](https://medium.com/flawless-app-stories/machine-learning-in-ios-azure-custom-vision-and-coreml-645e93f35eee). And one more follow up about using Turi Create [Machine Learning in iOS: Turi Create and CoreML](https://medium.com/flawless-app-stories/machine-learning-in-ios-turi-create-and-coreml-5ddce0dc8e26).
+
+Interesting post [When to Avoid Libraries](https://sandofsky.com/blog/third-party-libraries.html?utm_campaign=iOS%2BDev%2BWeekly&utm_medium=web&utm_source=iOS%2BDev%2BWeekly%2BIssue%2B380).
+
+Useful post [Attributed String with Style](https://felginep.github.io/2018-11-23/attributed-string-with-style?utm_campaign=iOS%2BDev%2BWeekly&utm_medium=web&utm_source=iOS%2BDev%2BWeekly%2BIssue%2B380). Not only about `NSAttributedString`, but about splitting configuring UserTableViewCell in UserTableViewCellViewModel, UserTableViewCellViewModelMapper and something [AttributedStringStyler](https://github.com/felginep/AttributedStringStyle). Good site, by the way, created with Jekyll using using the Tale theme. 
+
+I should read about [coordinators](https://felginep.github.io/2017-09-14/coordinators-and-back-button) in this blog!
