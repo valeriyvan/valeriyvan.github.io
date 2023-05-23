@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "TIL how to make screen saver in Swift; read several post about secure development"
+date:   2018-12-12 19:12:00 +0200
+categories: TIL, Swift, Sceen saver, ScreenSaverView, Playground Graphs, Dependency injection
+---
+Run all steps of creating screen saver in Swift with help of [Saving your screen](https://pedrommcarrasco.github.io/posts/Saving-your-screen/). Tree lessons learnt:
+
+* writing screen saver in Swift remember to change Principal class value in `Info.plist` to `ModuleName.ScreenSaverView`;
+* set `Always Embed Swift Standard Libraries` to `YES` in build settings;
+* never ever use emoji in class name or target name.
+
+Read post [Secure Development Is Dead, Long Live Secure Development](https://deprogrammaticaipsum.com/2018/12/03/secure-development-is-dead-long-live-secure-development/) by Anastasiia Vixentael. Really boring. Zero new knowledge. Post [The Weakest Link](https://deprogrammaticaipsum.com/2018/12/03/the-weakest-link/) from the same issue of De Programmatica Ipsum was much more interesting. Not practical, but entertaining.
+
+Nice short post [Mac Sandboxing: Privileged File Operations](https://bitsplitting.org/2018/11/15/mac-sandboxing-privileged-file-operations/) about special keys in entitlements in OSX app bundle to allow out of SandBox file operations. These keys are `com.apple.developer.security.privileged-file-operations` and `com.apple.security.automation.apple-events`.
+
+While writing unit tests for Date extension in Parkling app came across post [Time traveling in Swift unit tests](https://medium.com/@johnsundell/time-traveling-in-swift-unit-tests-583a2c3ce85b) which helped me a lot. TODO: read follow up post [Simple Swift dependency injection with functions](https://medium.com/@johnsundell/simple-swift-dependency-injection-with-functions-7b0ec5b49e60).
+
+TIL [Playground Graphs](https://indiestack.com/2018/02/playground-graphs/). That's nice!
