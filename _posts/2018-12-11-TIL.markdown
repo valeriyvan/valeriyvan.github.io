@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL Amazon S3 vs EBS vs EFS; TIL AWS instances spot market"
+date:   2018-12-11 19:11:00 +0200
+categories: TIL, Amazon, AWS, EBS, EFS, 
+---
+TIL [Amazon S3 vs EBS vs EFS](https://www.cloudberrylab.com/resources/blog/amazon-s3-vs-ebs-vs-efs/) differences between Amazon S3, Amazon EFS, and Amazon EBS. Amazon S3 is a scalable, durable, highly available, publicly accessible data storage. Amazon EBS is a storage for the drives of your virtual machines. Amazon EFS is automatically scalable storage which you can mount EFS to various AWS services and access it from various virtual machines.
+
+Browsed [Howto: Automated AWS spot instance provisioning with persisting of data](https://medium.com/@radekosmulski/automated-aws-spot-instance-provisioning-with-persisting-of-data-ce2b32bdc102) about automating acquiring AWS spot instance and run ML task on it. I should practice it.
+
+Read similar post [How to train Deep Learning models on AWS Spot Instances using Spotty?](https://towardsdatascience.com/how-to-train-deep-learning-models-on-aws-spot-instances-using-spotty-8d9e0543d365). Should examine [spotty github repo](https://github.com/apls777/spotty) if it universal and could actually run whatever I feed it.
+
+One more similar post [Deep Learning on Amazon EC2 Spot Instances Without the Agonizing Pain](https://hackernoon.com/deep-learning-on-amazon-ec2-spot-instances-without-the-agonizing-pain-4cedf9b129c4). It mentions another [tool for automating routine tasks associated with the management of Spot Instances](https://github.com/Coderik/portal-gun).
