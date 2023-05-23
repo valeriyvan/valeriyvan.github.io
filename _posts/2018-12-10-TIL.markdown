@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "TIL a lot about integers in Swift"
+date:   2018-12-10 19:10:00 +0200
+categories: TIL, Swift, Integer
+---
+Writing unit tests have found that there's no such thing like `Int.random()`, only things like `Int.random(in:)`. Findings after small research:
+
+* Instead of `Int.random(in: Int.min ... Int.max)` one could write `Int.random(in: .min ... .max)`.
+* Exclusion of `random()` was deliberate decision to protect users from a common error called [modulo bias](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle#Modulo_bias).
+* There's one `random()`, `Bool.random()`.
+* Before Swift 4.2 people were using GameplayKit to shuffle arrays. GameKit has shaped random number generators, like GKGaussianDistribution or GKShuffledDistribution.
+* There's a bunch of initializers of numeric types, like `Int8(exactly: 1_000)`, `Int8(clamping: 500)`, `Int8(truncatingIfNeeded: q)`.
+* That is smart use of generic `public static func >> <RHS>(lhs: Self, rhs: RHS) -> Self where RHS : BinaryInteger`.
+* Quotient /ˈkwoʊʃənt/ is a term of a result of division, "Частка" in Ukrainian, "Частное"" in Russian.
+* `signum()` returns -1, 0 or 1.
+* `quotientAndRemainder(dividingBy: n)` returns tuple `(quotient, remainder)`.
+* interesting example inside of FixedWidthInteger:
+```
+extension FixedWidthInteger {
+    var binaryString: String {
+        var result: [String] = []
+        for i in 0..<(Self.bitWidth / 8) {
+            let byte = UInt8(truncatingIfNeeded: self >> (i * 8))
+            let byteString = String(byte, radix: 2)
+            let padding = String(repeating: "0",
+                                     count: 8 - byteString.count)
+            result.append(padding + byteString)
+        }
+        return "0b" + result.reversed().joined(separator: "_")
+    }
+        }
+```
+* and here goes my [first PR into Swift](https://github.com/apple/swift/pull/21167) fixing follow up comment for above mentioned snippet for binaryString.
+* FixedWidthInteger has set of operations like addingReportingOverflow(n) returning tuple `(partialValue: Self, overflow: Bool)`. And `multipliedFullWidth(n)` returning tuple `(high: Self, low: Self.Magnitude)` as well as a little bit trickier dividingFullWidth. Don't understand these two. But hope I will recall this when I need to deal with overflows in miltiplication and/or division.
+* `leadingZeroBitCount` and `nonzeroBitCount` might be useful. As well as `bigEndian`, `littleEndian`, `byteSwapped`.
+* Interesting to remember about existence of initializers like `Int("-123", radix: 8)` where `radix` could be from range `2...36`. Why not up to 64? TODO: look into implementation. Important to remember that string parameter should be trimmed otherwise it fails!
+* Operations like masking addition assignment operator `&+=` exist. Swift programming language book refers these as Overflow Operators while documentation - [Advanced Operators](https://docs.swift.org/swift-book/LanguageGuide/AdvancedOperators.html#ID37).
+* `words` property exists in integer types. It's collection of words representing integer type.
+
+May be once I will have time to browse all 40K lines of Integer in Swift.
