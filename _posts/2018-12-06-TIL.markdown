@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Watched several interesting videos from try! Swift NYC 2018 conference"
+date:   2018-12-06 19:06:00 +0200
+categories: TIL, Debouncing in Swift, String, CoreML, Siri Shortcuts
+---
+Interesting post [Debouncing in Swift while your iOS app is in the background](http://blog.hellocode.co/post/debounce-swift/). I have been doing something similar implementing auto-completion, but not for background.
+
+Video from try! Swift NYC 2018 [Strings Seven Ways](https://www.youtube.com/watch?v=8pnHolNHD2Y&index=17&list=PLCl5NM4qD3u8NyOjK0deNu4AQk2hgyhjS&t=0s). I should use this:
+```Swift
+struct Identifier<Value>: Equatable, Hashable where Value : Equatable & Hashable { 
+	private let value: Value 
+} 
+
+struct Product { 
+	let identifier: Identifier<String> 
+}
+```
+
+Watched [Swift Services are Simple](https://www.youtube.com/watch?v=tBogAmEzJCk&index=22&list=PLCl5NM4qD3u8NyOjK0deNu4AQk2hgyhjS&t=0s) from try! Swift NYC 2018 about Kitura.
+
+Watched [Super Resolution with CoreML](https://www.youtube.com/watch?v=S73T0TdE9SI&index=10&list=PLCl5NM4qD3u8NyOjK0deNu4AQk2hgyhjS&t=0s) from try! Swift NYC 2018. He has created [Framework SuperResolutionKit](https://github.com/kenmaz/SuperResolutionKit) for this.
+
+Watched [Let Them Say What They Want: Adding Siri Shortcuts](https://www.youtube.com/watch?v=_0PzPj2VUVw&index=7&list=PLCl5NM4qD3u8NyOjK0deNu4AQk2hgyhjS&t=0s) from try! Swift NYC 2018. It will be useful to re-watch this when I come
+to implementing this in Parkling.
