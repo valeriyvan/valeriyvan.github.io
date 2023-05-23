@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Watched Swift talk about building Dijkstra path"
+date:   2018-12-21 19:21:00 +0200
+categories: Dijkstra path, Algorythm
+---
+Watched [Swift talk about building Dijkstra path](https://talk.objc.io/episodes/S01E132-dijkstra-s-shortest-path-algorithm). I have implemented this several times and would be interesting to match this implementation with my own. Unfortunately I have failed to find where I have implement Dijkstra))).
