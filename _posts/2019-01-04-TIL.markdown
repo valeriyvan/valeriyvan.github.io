@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Read post The Complete Guide to iOS and Swift Job Interviews by Paul Hudson"
+date:   2019-01-04 19:04:00 +0200
+categories: TIL, Swift, min, max, Job Interview
+---
+Read post of Paul Hudson, hacking-with-swift-guy, [The Complete Guide to iOS and Swift Job
+Interviews](https://www.hackingwithswift.com/articles/157/the-complete-guide-to-ios-and-swift-job-interviews?utm_campaign=Indie%2BiOS%2BFocus%2BWeekly&utm_medium=email&utm_source=Indie_iOS_Focus_Weekly_202). Worth keeping a bookmark. Found [Antoine van der Lee](https://github.com/AvdLee), one of maintainers of [WeScan](https://github.com/WeTransfer/WeScan), to which I have contributed to, was interviewed in the post.
+
+That's why I jumped to WeScan, downloaded last changes. Looked to comments of Antoine to my PRs to check if he was that nice with me how he pretends to be in the interview. He really was! Maid PRs: [minor fix](https://github.com/WeTransfer/WeScan/pull/102), [another minor fix](https://github.com/WeTransfer/WeScan/pull/103) for WeScan. The last one resulted in long discussion in comments. That might be a reason to fix Swift documentation for `min` and `max` funcs.
