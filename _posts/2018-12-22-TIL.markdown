@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Watched Point Free Episode #41 A tour of snapshot testing; TIL `xed` CLI to run Xcode"
+date:   2018-12-22 19:22:00 +0200
+categories: Swift, Testing, Snapshot testing, Xcode, xed
+---
+Watched [Episode \#41 of Point Free about snapshot testing](https://www.pointfree.co/episodes/ep41-a-tour-of-snapshot-testing).
+
+* Side learning - `xed` CLI utility to run Xcode. It exists since Xcode 3. Interesting how have I missed it.
+
+* In issue guys write snapshot tests for [attributed strings library](https://github.com/raizlabs/BonMot). Library on its own worth giving it a try. About snapshot testing. Definitely I should use it!
+
+* Fuck. Initialiser `UIImage(named:)` has two more optional parameters, `bundle` and `compatibleWith`. I always have been opening images not from main bundle in two steps: building path and loading image with `UIImage(contentsOfFile:)`.
