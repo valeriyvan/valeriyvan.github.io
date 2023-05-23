@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL using Turi Create"
+date:   2018-11-29 19:29:00 +0200
+categories: TIL, Machine learning, Turi Create
+---
+Watched [A Guide to Turi Create](https://developer.apple.com/videos/play/wwdc2018/712/). Tried to create Jupyter notebook for training first model for object detector for traffic signs. Read [turicreate documentation](https://apple.github.io/turicreate/docs/userguide/object_detection/) about object detector and preparing data.
