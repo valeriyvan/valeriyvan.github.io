@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "TIL `git reflog`"
+date:   2019-01-03 19:03:00 +0200
+categories: TIL, git reflog
+---
+Came across post about git basics [Just enough Git to be (less) dangerous](https://eev.ee/blog/2015/04/24/just-enough-git-to-be-less-dangerous/) and decided to keep a bookmark to share when someone asks stupid basic question about git. Wait. I have learnt `git reflog` from this post! And set `conflictstyle = diff3` in `[merge]` section of my `.gitconfig`. And colors set as well. Funny hack of storing empty file `.keep` to force git store empty folder.
+
+Read ancient but interesting post [How Apple Cheats](http://marksands.github.io/2014/05/27/how-apple-cheats.html) about how Apple using iPad only `UIPopoverController` in some apps on iPhone. Post in outdated but nonetheless interesting.
+
+Interesting post [Doom of SceneKit](https://habr.com/company/yandex/blog/431880/). Hope to come back to this bookmark when I start using SceneKit in my app for testing traffic rules.
+
+[Repo with links to open source OSX apps](https://github.com/serhii-londar/open-source-mac-os-apps) might be useful some time.
+
+Installed [SwiftRewriter](https://github.com/inamiy/SwiftRewriter). Should give it a try.
