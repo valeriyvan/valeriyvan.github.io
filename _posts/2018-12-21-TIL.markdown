@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL Bloom filter"
+date:   2018-12-21 19:21:00 +0200
+categories: TIL, Bloom filter, Data structure
+---
+TIL [Bloom filter](https://en.wikipedia.org/wiki/Bloom_filter) - very interesting data structure. Never heard of it. Google uses it in BigTable for avoiding costly disk look ups.
