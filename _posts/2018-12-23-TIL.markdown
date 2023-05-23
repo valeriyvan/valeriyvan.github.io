@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read Introduction To Swift Memory Layout"
+date:   2018-12-23 19:23:00 +0200
+categories: Swift, Memory Layout
+---
+Read [Introduction To Swift Memory Layout](https://medium.com/@JimmyMAndersson/introduction-to-swift-memory-layout-114141149ad2). Haven't learnt anything new.
