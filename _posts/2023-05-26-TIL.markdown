@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL how to use `URLSession` on Linux"
+date:   2023-05-26 16:00:00 +0200
+categories: TIL, Swift, Linux, URLSession
+---
+Working on [geometrizebot Telegam bot](https://github.com/valeriyvan/geometrizebot) learned `URLSession` is not available on Linux. From [URLSession Concurrency on Linux](https://diegolavalle.com/posts/2021-11-11-urlsession-concurrency-linux/) learned that `FoundationNetworking` module provides implementation of `URLSession` for Linux and implementation of `URLSession` differs a bit in Apple platforms and Linux.
