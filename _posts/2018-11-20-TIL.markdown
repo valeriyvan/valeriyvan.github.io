@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Read Ranges and Intervals in Swift"
-date:   2018-11-21 19:21:00 +0200
+date:   2018-11-20 19:20:00 +0200
 categories: TIL, Swift, Range, Interval
 ---
 Read [Ranges and Intervals in Swift](https://oleb.net/blog/2015/09/swift-ranges-and-intervals) about difference between Range (which are collections) and Interval (which are not) in Swift 2. Interval were represented by protocol IntervalType and two implementations HalfOpenInterval and ClosedInterval. Post refers to very interesting [gist](https://gist.github.com/natecook1000/3b15b8bd974c8c08b3df) by [Nate Cook](https://nshipster.com/authors/nate-cook/).
