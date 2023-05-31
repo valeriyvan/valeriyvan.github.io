@@ -1,0 +1,43 @@
+---
+layout: post
+title:  "Read How to Prepare for a Technical Interview at Facebook; Dug in sources of Swift standard library"
+date:   2018-11-28 19:28:00 +0200
+categories: TIL, Technical Interview, Swift, Swift standard library
+---
+Read [How to Prepare for a Technical Interview at Facebook](https://extras.waynewbishop.com/swift/technical-interview-facebook) I was caught up with solution:
+
+```swift
+func isStringUnique(_ s: String) -> Bool {
+    return s.count == Set(s).count
+}
+```
+
+That's why I have jumped to source of Swift standard library to check complexity of `Set.init(_: Array)`.
+
+Side note, why they use both `Dictionary<Key, Value>` and `[Key : Value]` in same source file: `mutating func remove(at index: Dictionary<Key, Value>.Index) -> [Key : Value].Element` and `mutating func removeValue(forKey key: [Key : Value].Key) -> [Key : Value].Value`? It sounds like a good point for experimentation with compiling Swift.
+
+Interesting comment to lazy property of Dictionary:
+
+```swift
+/// A view onto this collection that provides lazy implementations of
+/// normally eager operations, such as `map` and `filter`.
+///
+/// Use the `lazy` property when chaining operations to prevent
+/// intermediate operations from allocating storage, or when you only
+/// need a part of the final collection to avoid unnecessary computation.
+public var lazy: LazyCollection<Dictionary<Key, Value>> { get }
+```
+
+Swift standard library worth looking into all header files!!!
+
+Again, caught with comment
+
+```swift
+/// Creates a new set from a finite sequence of items.
+```
+
+Are there infinite sequences?
+
+And I haven't found answer about complexity of `Set.init(_: Array)`.
+
+Returning to `isStringUnique`, there's follow up [Code Challenge: Using ASCII & Unicode with Swift](https://extras.waynewbishop.com/swift/code-challenge-unicode). I didn't get why his THE UNICODE APPROACH implementation is correct. In particular, guard to count less then 128. Or I am missing something or this implementation is incorrect. I have checked everything in playground and have an example of a string which produces wrong result.
