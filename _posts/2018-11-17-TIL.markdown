@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Watched WWDC 2018 session video 703 Introducing Create ML"
+date:   2018-11-17 19:17:00 +0200
+categories: TIL, Create ML, Ubuntu, Linux
+---
+Watched [WWDC 2018 session video 703 Introducing Create ML](https://developer.apple.com/videos/play/wwdc2018/703/). I should try to train some simple classifier with my data om Mac. And give it a try on Ubuntu in command line.
