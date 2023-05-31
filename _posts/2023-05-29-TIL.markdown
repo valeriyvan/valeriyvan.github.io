@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL difference between Sequence, AsyncSequence, and AsyncStream"
+date:   2023-05-29 18:55:00 +0200
+categories: TIL, Swift, Sequence, AsyncSequence, AsyncStream, AWS, S3
+---
+Read [Hacking with Swift's What’s the difference between Sequence, AsyncSequence, and AsyncStream?](https://www.hackingwithswift.com/quick-start/concurrency/whats-the-difference-between-sequence-asyncsequence-and-asyncstream).
+
+Read [Swift by Sudlell's Async sequences, streams, and Combine](https://www.swiftbysundell.com/articles/async-sequences-streams-and-combine/).
+
+TIL the difference between prefixes and folders in S3: [Organizing objects using prefixes](https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-prefixes.html#), [For Amazon S3 request rates, what's the difference between prefixes and nested folders? How many prefixes can I have in an S3 bucket?](https://repost.aws/knowledge-center/s3-prefix-nested-folders-difference), [Organizing objects in the Amazon S3 console by using folders](https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-folders.html).
