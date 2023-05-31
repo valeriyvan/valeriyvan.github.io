@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Read Natasha the Robot's post Swift: When to use guard vs if; Watched Everything a Swift Dev Needs to Know About Machine Learning"
+date:   2018-11-21 19:21:00 +0200
+categories: TIL, Swift, Machine Learning
+---
+Read Natasha the Robot's post [Swift: When to use guard vs if](https://www.natashatherobot.com/swift-when-to-use-guard-vs-if/). Her approach pretty much matches mine. Reading article I have found `"Coffee Break".localized()` which I should definitely use!
+
+Watched [Everything a Swift Dev Needs to Know About Machine Learning](https://academy.realm.io/posts/swift-developer-on-machine-learning-try-swift-2017-gallagher/). Didn't worth spending time. The only output - references on [Videos of Siraj that shows a lot of simple projects made with just a few lines of code](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A) and [Tutorials of Tensor Flow](https://www.tensorflow.org/tutorials/).
