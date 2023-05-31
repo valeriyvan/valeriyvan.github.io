@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "TIL Swift Package Manager treats dependencies based on branch as unstable"
+date:   2023-05-24 19:24:00 +0200
+categories: TIL, SwiftPM, AWS SDK for Swift
+---
+Trying to build telegram bot for geometrizing images using my swift package [swift-geometrize](https://github.com/valeriyvan/swift-geometrize) as dependency I came across error:
+```
+error: Dependencies could not be resolved because root depends on 'swift-geometrize' 0.0.0..<1.0.0.
+'swift-geometrize' cannot be used because no versions of 'swift-geometrize' match the requirement {0.0.0..<0.9.0, 0.9.1..<1.0.0} and package 'swift-geometrize' is required using a stable-version but 'swift-geometrize' depends on an unstable-version package 'jpeg'.
+```
+
+From this I have learned that Swift Package manager treats dependencies based on branch unstable version because branch means variable version.
+
+TIL [Getting started with AWS SDK for Swift](https://docs.aws.amazon.com/sdk-for-swift/latest/developer-guide/getting-started.html#building-and-running-an-spm-project).
