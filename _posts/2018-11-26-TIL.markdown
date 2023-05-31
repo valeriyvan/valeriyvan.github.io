@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Read iOS 11: Machine Learning for everyone; Read Why learn algorithms?; Read One-shot object detection"
+date:   2018-11-26 19:26:00 +0200
+categories: TIL, iOS 11, Algorithms, YOLO
+---
+Read [iOS 11: Machine Learning for everyone](http://machinethink.net/blog/ios-11-machine-learning-for-everyone/). Mostly it's self-advertising but has useful info as well.
+
+Read [Why learn algorithms?](http://machinethink.net/blog/why-learn-algorithms/) with real examples when knowing algorithms needed for making real iOS app. Would be interesting to write same post about my experience.
+
+Read [One-shot object detection](http://machinethink.net/blog/object-detection/). TODO: <http://machinethink.net/blog/object-detection-with-yolo>.
+
