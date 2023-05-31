@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "TIL contextual actions in Xcode"
+date:   2018-11-15 19:15:00 +0200
+categories: TIL, Xcode
+---
+![](/assets/images/Screenshot%202018-11-15%20at%2011.25.51.png)
+
+What are these actions in Xcode 10??? **UPDATE**: I am stupid! Xcode is showing some contextual actions, like "Discard Change" here. And list of actions could be filtered by typing in Actions text field. I have thought it's for entering command line actions.
+
+Post of John Sundell [about `@autoclosure`](https://www.swiftbysundell.com/posts/using-autoclosure-when-designing-swift-apis) reminded about safe feature of extracting values from dictionaries which I have forgotten about: `letterCounts[letter, defaultValue: 0] += 1`.
+
+Happy finally to use `Dictionary(grouping: students, by: { $0.first! })`. But then had to remove that code.
+
