@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Read Where the &$!#% is Localizable.strings?!?; Read Unit testing retain cycles; Read Clustarisation: algorithms k-means and c-means"
+date:   2018-11-27 19:27:00 +0200
+categories: TIL, Localization, Clustarisation, k-means, c-means, bezier curves
+---
+Read [Where the &$!#% is Localizable.strings?!?](https://martiancraft.com/blog/2018/11/where-is-localizable-string/).
+
+Read [Clustarisation: algorithms k-means and c-means](https://habr.com/post/67078/). Post mentions XLIFF format which I was not aware of.
+
+Read [Unit testing retain cycles](https://paul-samuels.com/blog/2018/11/20/unit-testing-retain-cycles). Nothing new. And I haven't got the last snippet.
+
+Not practical but curious visualization of bezier curves [The Ever so Lovely Bézier Curve](https://medium.com/@Acegikmo/the-ever-so-lovely-b%C3%A9zier-curve-eb27514da3bf).
