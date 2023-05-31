@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "TIL date formatters in Swift leaking important details; Read Using unit tests to identify & avoid memory leaks in Swift"
+date:   2018-11-23 19:23:00 +0200
+categories: TIL, Swift, Date formatters, Unit testing memory leaks, MVC, UIGraphicsImageRenderer, MVVM, Siri Shortcuts, Race conditions, Storyboards
+---
+Interesting post [Sneaky date formatters exposing more than you think](https://williamboles.me/sneaky-date-formatters-exposing-more-than-you-think/). If you refactor date formatter into property and make it let, formatter still can by changed because it's class. It could lead interesting consequences when some part change formatter thinking they change local copy.
+
+Read post [Using unit tests to identify & avoid memory leaks in Swift](https://www.swiftbysundell.com/posts/using-unit-tests-to-identify-avoid-memory-leaks-in-swift?utm_campaign=This%2BWeek%2Bin%2BSwift&utm_medium=web&utm_source=This_Week_in_Swift_150). Havn't got everything, especially about closures.
+
+Read post [Capturing objects in Swift closures](https://www.swiftbysundell.com/posts/capturing-objects-in-swift-closures) discussing some alternatives to weakly capture self on closures. Haven't got everything. But might return here later on.
+
+Interesting [blog](http://machinethink.net) of iOS developer with very narrow specialisation - deep learning on iOS. One of services he provides - converting neural nets to run on iOS devices. Definitely I should keep an eye on this blog. It has [very interesting and useful post](http://machinethink.net/blog/object-detection/) about one-shot networks like YOLO. And [post specifically about YOLO](http://machinethink.net/blog/object-detection-with-yolo/).
+
+Interesting post about MVC on iOS [iOS Development and the Wrong Kind of MVC](https://medium.com/@JimmyMAndersson/ios-development-and-the-wrong-kind-of-mvc-4e3e2decb82e).
+
+Interesting post [`UIGraphicsImageRenderer`](https://www.swiftjectivec.com/uigraphicsimagerenderer/), about block based API on CGContext.
+
+Very interesting post [Re-creating the Siri Shortcuts Drawer Interaction](https://medium.com/@phillfarrugia/re-creating-the-siri-shortcuts-drawer-interaction-9b2bc94e0b05) about building drawer like in Shortcuts app from Apple. Worth further reading and step by step recreation. And it draws attention to how good Shortcuts app is. I should give it a try.
+
+This post about creating infinite scroll view [Custom UI Master Class: Infinite Paging Scroll View](https://medium.com/swift2go/custom-ui-master-class-infinite-paging-scroll-view-4be78d0de88f) worth keeping a bookmark on. Haven't read this carefully.
+
+[A Swift MVVM Tutorial](https://www.toptal.com/swift/static-patterns-swift-mvvm-tutorial) just saved for further reading.
+
+Very useful post of John Sundell [Avoiding race conditions in Swift](https://www.swiftbysundell.com/posts/avoiding-race-conditions-in-swift). Fuck! `private extension`! Whole extension can be private! TODO: follow-ups of that post are [Unit testing asynchronous Swift code](https://www.swiftbysundell.com/posts/unit-testing-asynchronous-swift-code), and [Mocking in Swift](https://www.swiftbysundell.com/posts/mocking-in-swift) and [Reducing flakiness in Swift tests](https://www.swiftbysundell.com/posts/reducing-flakiness-in-swift-tests).
+
+[AloeStackView](https://github.com/airbnb/AloeStackView) of AirBnB worth trying. AirBnB writes about motivation of developing this in [post](https://medium.com/airbnb-engineering/introducing-aloestackview-for-ios-a676d253c6ba).
+
+[What's New in Storyboards 401 WWDC 2015 video](https://developer.apple.com/videos/play/wwdc2015/215/):
+
+* Storyboard references (connections between scenes in different storyboards or in one complex storyboard).
+* 7:00 shows interesting custom container view controller which manages several "tabs". Might be very interesting to build this myself.
+* if view controller doesn't have view, runtime falls back to loadView method.
