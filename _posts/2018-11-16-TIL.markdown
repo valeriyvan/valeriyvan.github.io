@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Watched WWDC 2018 session video 408 Building faster in Xcode 10"
+date:   2018-11-16 19:16:00 +0200
+categories: TIL, Xcode, Swift
+---
+Watched [WWDC 2018 session video 408 Building faster in Xcode 10](https://developer.apple.com/videos/play/wwdc2018/408/). Somehow `xcodebuild -showBuildTimingSummary` doesn't work for me. It just rebuilds project. Nothing else really interested.
+
+Watched [WWDC 2018 session video 401 What's New in Swift](https://developer.apple.com/videos/play/wwdc2018/401/).
+
+Interesting finding [Guides to contributing to Apple/Swift](https://modocache.io). Some posts are only available for patrons.
