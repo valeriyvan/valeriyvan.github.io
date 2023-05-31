@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL capitalization matters in URLs"
+date:   2023-05-31 18:40:00 +0200
+categories: TIL, URL, Capitalization
+---
+TIL [capitalization matters in URLs](https://www.computerhope.com/issues/ch000709.htm#:~:text=An%20Internet%20address%20is%20only,%2C%20it%20is%20case%2Dsensitive.).
