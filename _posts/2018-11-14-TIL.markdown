@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Read Chapter 2 of RxSwift book"
+date:   2018-11-14 19:14:00 +0200
+categories: TIL, Swift, RxSwift
+---
+Interesting project [Aerial screen saver](https://github.com/JohnCoates/Aerial) where I could contribute. Definitely I should merge core feature of [Motivation](https://github.com/soffes/Motivation).
+
+Cope with Chapter 2 of RxSwift book.

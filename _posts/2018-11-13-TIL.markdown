@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Read NSHipster's post UIFieldBehavior; Read Chapter 1 of RxSwift book"
+date:   2018-11-13 19:13:00 +0200
+categories: TIL, Swift, UIFieldBehavior, UIDynamics, RxSwift
+---
+Read NSHipster's post [UIFieldBehavior](https://nshipster.com/uifieldbehavior/). It's about UIDynamics. Have never touched this. Interesting that I have implemented behavior similar to described in article manually about 5
+years ago.
+
+Read Chapter 1 of RxSwift book. Decided to go a chapter per day.
