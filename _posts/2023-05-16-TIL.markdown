@@ -6,7 +6,7 @@ categories: TIL, macOS, Hardened Runtime, Threading, Queues, Operations
 ---
 TIL what is [Hardened Runtime](https://developer.apple.com/documentation/security/hardened_runtime).
 
-Watched [bonus Threading Operations and Queues](https://s3.eu-central-1.amazonaws.com/com.w7software.myfirsttestbucket/essentialdeveloper.com+iOS+Dev+Mentoring+%23013+-+Threading%2C+Operations%2C+and+Queues.mp4) of [iOS Architect Crash Course](https://iosacademy.essentialdeveloper.com/p/ios-architect-crash-course-orga0eb/).
+Watched [bonus Threading Operations and Queues](https://s3.eu-central-1.amazonaws.com/w7-public/essentialdeveloper.com+iOS+Dev+Mentoring+%23013+-+Threading%2C+Operations%2C+and+Queues.mp4) of [iOS Architect Crash Course](https://iosacademy.essentialdeveloper.com/p/ios-architect-crash-course-orga0eb/).
 
 TIL github somehow makes impossible mp4 files committed to repo be to played. So I have had to find a place to host media files. It would selfhosting on own server or on Digital Ocean Spaces or in AWS S3 bucket.
 
