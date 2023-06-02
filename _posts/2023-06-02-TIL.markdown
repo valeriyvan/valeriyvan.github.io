@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "TIL what's AWS S3 bucket policy to allow public read access to all objects in bucket looks like; TIL double click on brace/bracket in Xcode jumps to opposite one and selects block"
+date:   2023-06-02 18:41:00 +0200
+categories: TIL, AWS, S3, bucket policy
+---
+TIL what's AWS S3 bucket policy to allow public read access to all objects in bucket looks like:  
+
+```
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": [
+        "s3:GetObject"
+      ],
+      "Resource": "arn:aws:s3:::YOUR_BUCKET_NAME/*"
+    }
+  ]
+}
+```
+
+[![Screen recording of Xcode showing how double click on brace/bracket works](/assets/images/Screenshot%202023-06-02%20at%2018.13.23.png)](https://w7-public.s3.eu-central-1.amazonaws.com/Xcode+Screen+Recording+2023-06-02+at+18.14.34.mov "Double click on braces/brackets in Xcode makes magic!")
