@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Read Rules of Thumb for Software Development Estimations"
+date:   2023-06-08 18:16:00 +0200
+categories: TIL, Software Development, Estimations
+---
+Read [Rules of Thumb for Software Development Estimations](https://vadimkravcenko.com/shorts/project-estimates/).
+
+> Ah, software estimation - the bane of many developers’ existence and the scourge of project managers everywhere. A constant battle of “tell me how much it’s going to take you” and “give me a clear description of the task first.”
+
+😂
