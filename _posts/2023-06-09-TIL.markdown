@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL Double Protocol Conformance could be a problem in Swift"
+date:   2023-06-08 18:16:00 +0200
+categories: TIL, Swift, Xcode, Protocol, Double Protocol Conformance
+---
+TIL [Double Protocol Conformance](https://alexanderweiss.dev/blog/2023-04-23-double-protocol-conformance) could be problematic in Swift. Different target could implement conformance differently and Xcode some time doesn't even warn.
