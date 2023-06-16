@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Watched WWDC 2023 session video Debug with structured logging and Discover machine learning enhancements in Create ML"
+date:   2023-06-13 18:13:00 +0200
+categories: TIL, Xcode, Debugging, Logging
+---
+Watched [WWDC 2023 session video Debug with structured logging](https://developer.apple.com/wwdc23/10226).
+
+Watched [WWDC 2023 session video Discover machine learning enhancements in Create ML].
