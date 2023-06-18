@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL AWS allows to add your own code to S3 GET requests"
+date:   2023-06-18 18:18:00 +0200
+categories: TIL, Amazon, AWS, S3, Lambda
+---
+TIL [AWS allows to add your own code to S3 GET requests](https://www.youtube.com/watch?v=uTBgpK07E38) to modify and process data as it is returned to an application. Filter rows, resize images dynamically, redact confidential data, and more.
