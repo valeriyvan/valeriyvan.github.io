@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL how to rotate UIImage properly"
+date:   2023-06-23 18:40:00 +0200
+categories: TIL, UIImage, iOS 17, Image rotation, Image orientation
+---
+TIL iOS 17 introduces new [initializer for `UIImage` `init(resource: ImageResource)`](https://developer.apple.com/documentation/uikit/uiimage/4176594-init). `ImageResource` is [opaque structure having initializer `init(name: String, bundle: Bundle)`](https://developer.apple.com/documentation/developertoolssupport/imageresource).
+
+Last several days I have been working on [issue in WeScan](https://github.com/WeTransfer/WeScan/issues/356). This is kind of bug which is eaiser to fix then to test. After spending several days with playing with UIImage rotation, I've created [repo Understand UIImage rotation](https://github.com/valeriyvan/Understand-UIImage-rotation).
+
+From [WeScan](https://github.com/WeTransfer/WeScan) TIL about [`Measurement`](https://developer.apple.com/documentation/foundation/measurement). I didn't know this is possible: [`let finalImage = rotated(by: Measurement(value: imageAngle, unit: .radians)) {`](https://github.com/WeTransfer/WeScan/blob/7961f41cc69d9e53b7fc3525c1c699ae616cb461/Sources/WeScan/Extensions/UIImage%2BOrientation.swift#L92).
