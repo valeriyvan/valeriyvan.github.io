@@ -6,4 +6,4 @@ categories: TIL, Xcode, Debugging, Logging
 ---
 Watched [WWDC 2023 session video Debug with structured logging](https://developer.apple.com/wwdc23/10226).
 
-Watched [WWDC 2023 session video Discover machine learning enhancements in Create ML].
+Watched [WWDC 2023 session video Discover machine learning enhancements in Create ML](https://developer.apple.com/wwdc23/10044).
