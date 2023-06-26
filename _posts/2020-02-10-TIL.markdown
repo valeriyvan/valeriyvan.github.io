@@ -6,7 +6,7 @@ categories: TIL, dynamic time warping, DTW
 ---
 Learning [dynamic time warping](https://en.wikipedia.org/wiki/Dynamic_time_warping) algorythm. In Ukrainian it is called Алгоритм динамічної трансформації шкали часу.
 
-Watched 5 times [How DTW (Dynamic Time Warping) algorithm works](https://www.youtube.com/watch?v=_K1OsqCicBY), than three times (Dynamic Time Warping)[https://www.youtube.com/watch?v=tfOevFKQIjQ]. The last is much better and explains how to handle signals of different lengths.
+Watched 5 times [How DTW (Dynamic Time Warping) algorithm works](https://www.youtube.com/watch?v=_K1OsqCicBY), than three times [Dynamic Time Warping](https://www.youtube.com/watch?v=tfOevFKQIjQ). The last is much better and explains how to handle signals of different lengths.
 
 Read [Dynamic Time Warping with Time Series](https://medium.com/@shachiakyaagba_41915/dynamic-time-warping-with-time-series-1f5c05fb8950).
 
