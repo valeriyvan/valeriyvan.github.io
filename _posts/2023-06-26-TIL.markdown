@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "TIL FIFTYONE utility for building/browsing datasets for computer vision models"
+date:   2023-06-26 20:23:00 +0200
+categories: TIL, FIFTYONE, dataset, 
+---
+Bookmarking [What are the URL tricks to save YouTube offline](https://mobi.easeus.com/ios-tips/download-youtube-videos-by-changing-url.html).
+
+TIL [FIFTYONE - open-source tool for building high-quality datasets and computer vision models](https://docs.voxel51.com). [Repo](https://github.com/voxel51/fiftyone). Failed to install it on mac so far.
+
+TIL [how to extract directory, filename and extension in bash](https://stackoverflow.com/a/70980686/942513):
+```bash
+[[ $path =~ ^(\.{1,2}|.*/\.{0,2})$|^(.*/)([^/]+)(\.[^/]*)$|^(.*/)(.+)$|^(.+)(\..*)$|^(.+)$ ]]
+dirpath=${BASH_REMATCH[1]}${BASH_REMATCH[2]}${BASH_REMATCH[5]}
+filename=${BASH_REMATCH[3]}${BASH_REMATCH[6]}${BASH_REMATCH[7]}${BASH_REMATCH[9]}
+filext=${BASH_REMATCH[4]}${BASH_REMATCH[8]}
