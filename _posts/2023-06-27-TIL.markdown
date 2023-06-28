@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL mktmp cli for making temporary files/directories in Linux"
+date:   2023-06-27 20:20:00 +0200
+categories: TIL, mktmp, Linux, Bash, CLI, Commandline
+---
+TIL [mktmp cli for making temporary files/directories in Linux](https://stackoverflow.com/a/74233412/942513).
