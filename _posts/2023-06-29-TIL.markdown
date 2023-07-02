@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "TIL about Webots capabilities; Dug in Core Graphics documentation"
+date:   2023-06-29 20:03:00 +0200
+categories: TIL, Webots, Core Graphics, CGContextGetUserSpaceToDeviceSpaceTransform, exiftool
+---
+Read [Webots (open-source three-dimensional mobile robot simulator) User Guide](https://cyberbotics.com/doc/guide/menu).
+
+> Webots is a professional mobile robot simulation software package. It offers a rapid prototyping environment, that allows the user to create 3D virtual worlds with physics properties such as mass, joints, friction coefficients, etc. The user can add simple passive objects or active objects called mobile robots. These robots can have different locomotion schemes (wheeled robots, legged robots, or flying robots). Moreover, they may be equipped with a number of sensor and actuator devices, such as distance sensors, drive wheels, cameras, motors, touch sensors, emitters, receivers, etc. Finally, the user can program each robot individually to exhibit the desired behavior.
+
+This [bug in WeScan](https://github.com/WeTransfer/WeScan/issues/356) gets me dipper and dipper. [This code for rotating UIImage](https://github.com/valeriyvan/Understand-UIImage-rotation) which I was intended to use has a bug which I am struggling to find. Something important related to affine transform and user/device coordinate systems slippers from my mind.
+
+New [Core Graphics reference documentation](https://developer.apple.com/documentation/coregraphics) starts nicely, but later refers to looking old but still useful [Quartz 2D Programming Guide](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Conceptual/drawingwithquartz2d/Introduction/Introduction.html).
+
+[Coordinate Systems and Transforms](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/CocoaDrawingGuide/Transforms/Transforms.html).
+
+Completely missed following.
+
+## Getting the User to Device Space Transform
+
+Typically when you draw with Quartz 2D, you work only in user space. Quartz takes care of transforming between user and device space for you. If your application needs to obtain the affine transform that Quartz uses to convert between user and device space, you can call the function `CGContextGetUserSpaceToDeviceSpaceTransform`.
+
+Quartz provides a number of convenience functions to transform the following geometries between user space and device space. You might find these functions easier to use than applying the affine transform returned from the function `CGContextGetUserSpaceToDeviceSpaceTransform`.
+
+* Points. The functions `CGContextConvertPointToDeviceSpace` and `CGContextConvertPointToUserSpace` transform a `CGPoint` data type from one space to the other.
+* Sizes. The functions `CGContextConvertSizeToDeviceSpace` and `CGContextConvertSizeToUserSpace` transform a `CGSize` data type from one space to the other.
+* Rectangles. The functions `CGContextConvertRectToDeviceSpace` and `CGContextConvertRectToUserSpace` transform a `CGRect` data type from one space to the other.
+
+Read [Coordinate Transforms in iOS using Swift, Part 0: The Problems](https://rethunk.medium.com/image-coordinate-transforms-in-ios-using-swift-part-0-the-problems-a28d676030b0). [Coordinate Transforms in iOS using Swift, Part 1: The L Triangle](https://rethunk.medium.com/coordinate-transforms-in-ios-using-swift-part-1-the-l-triangle-c8204177a7e2). But now. Instead of explaining and making things simpler it brings new staff to the table and make more complex.
+
+Bookmarking usage of `exiftool` CLI for removing all exifs from a file: `exiftool -all= path_to_file`.
