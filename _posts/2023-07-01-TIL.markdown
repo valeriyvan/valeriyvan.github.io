@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL MAVLink capabilities; ArduPilot's Mission Planner capabilities"
+date:   2023-07-01 18:21:00 +0200
+categories: TIL, MavLink, ArduPilot, ArduPilot Mission Planner, Orthophoto, ByteTrack
+---
+Read [MAVLink Interface documentation](https://ardupilot.org/dev/docs/mavlink-commands.html) trying to understand what is it and how it could be used.
+
+TIL [Mission Planner](https://ardupilot.org/planner/). Waypoints and events of mission are set with MAVLink commands. Cool stuff. Why havn't I played with it earlier with my Phantoms doing missions to automatically run photo/video recording sessions? Cool that [mission even could be extended with running any python code](https://ardupilot.org/planner/docs/using-python-scripts-in-mission-planner.html).
+
+TIL what is [orthophoto, orthophotograph, orthoimage or orthoimagery](https://en.wikipedia.org/wiki/Orthophoto#:~:text=An%20orthophoto%2C%20orthophotograph%2C%20orthoimage%20or,follows%20a%20given%20map%20projection.) - it is an aerial photograph or satellite imagery geometrically corrected ("orthorectified") such that the scale is uniform: the photo or image follows a given map projection.
+
+TIL about [ByteTrack](https://github.com/ifzhang/ByteTrack).
