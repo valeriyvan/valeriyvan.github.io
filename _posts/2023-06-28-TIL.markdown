@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "TIL software for simulating robots"
+date:   2023-06-28 20:01:00 +0200
+categories: TIL, RTP, NoMachine, ssh-copy-id, Webots
+---
+TIL a bit about [Real-Time Transport Protocol (often referred to as RTP streaming)](https://www.wowza.com/blog/rtp-streaming-explained) and [Real-Time Streaming Protocol (RTSP)](https://en.wikipedia.org/wiki/Real_Time_Streaming_Protocol).
+
+TIL about remote desktop [NoMachine](https://www.nomachine.com). Will not use it as it installs on macOS startup items which I don't like.
+
+TIL [`ssh-copy-id`](https://www.ssh.com/academy/ssh/copy-id). I used to copy `~/.ssh/id_rsa.pub` manually from machine to machine. it founds out that I should have copied key to `~/.ssh/authorized_keys`, not to `~/.ssh/`.
+
+Read [A Survey on Open-Source Simulation Platforms for Multi-Copter UAV Swarms](/assets/images/Paper%20A%20Survey%20on%20Open-Source%20Simulation%20Platforms%20for%20Multi-Copter%20UAV%20Swarms.pdf).
+
+Downloaded and installed the first one, [Webots](https://cyberbotics.com). It could be launched as CLI `/Applications/Webots.app/Contents/MacOS/webots --help`.
