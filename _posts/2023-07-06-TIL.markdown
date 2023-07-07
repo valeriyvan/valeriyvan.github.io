@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "TIL how to mount on a mac a folder on remote machine using `sshfs`"
+date:   2023-07-06 18:59:00 +0200
+categories: TIL, sshfs, FUSE, macFUSE, fuseFS, Linux, ext2, ext4, ext
+---
+TIL how to mount on a mac a folder from remote machine:
+
+```
+sudo sshfs -o 'allow_other,gid=NNN,uid=MMM' user-on-remote@remotehost:/folder /mountpoint/folder
+```
+
+TIL `id` CLI command which among others prints numeric values for user id (UID) and group id (GID). I needed these for `sshfs`.
+
+
+Mount point for `sshfs` should be preliminary created as:
+
+```
+sudo mkdir -p /mount/point
+sudo chown -R $USER:staff /mount/point/
+```
+
+I don't get why chown is needed. For me it didn't change any rights.
+
+I don't know if `sshfs` needs any fuse software for its use. I installed previously [extFS from Paragon](https://www.paragon-software.com/home/extfs-mac/) to be able to read flashcards formatted for Linux.
+
+It's interesting that [extFS from Paragon](https://www.paragon-software.com/home/extfs-mac/) is the only software for mac to read/write Linux volumes which I was able to make work. And it costed me 39.95$. It's might be viable idea to make an app for this. It's about implementing linux FUSE interface. Mounting volumes from cloud services like Google Cloud or S3 bucket - another application where FUSE could be used. [CloudMounter works this way](https://mac.eltima.com/what-is-fuse.html).
+
+TIL what FUSE stands for in macFuse, fuseFS and so on. FUSE stands for Filesystem in Userspace which originates in Linux. [How to mount and manage non-native file systems in OS X with FUSE](https://www.macworld.com/article/224627/how-to-mount-and-manage-non-native-file-systems-in-os-x-with-fuse.html). 
+
+Useful link on topic [The reference implementation of the Linux FUSE (Filesystem in Userspace) interface](https://github.com/libfuse/libfuse).
