@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "TIL AT Protocol; TIL how to simulate robots in Webots"
+date:   2023-07-07 19:07:00 +0200
+categories: TIL, AT Protocol, Webots, Crazyflie, Robot simulation
+---
+TIL [The AT Protocol](https://blueskyweb.xyz/blog/10-18-2022-the-at-protocol). It has dedicated [Protocol website](https://atproto.com).
+
+> The “AT Protocol” is a new federated social network. It integrates ideas from the latest decentralized technologies into a simple, fast, and open network.
+
+> What’s a “federated” network? It’s a way for servers to communicate with each other — like email. Instead of one site running the network, you can have many sites. It means you get a choice of provider, and individuals and businesses can self-host if they want.
+
+TIL [Big Rocks strategy](https://twitter.com/stevetimoney/status/1676954493894918145?s=43&t=6rmSjK21fIpso2_vOjKRhg).
+
+Watched [Bitcraze Dev meeting July 2023 about simulating Crazyflie in Webots](https://www.youtube.com/watch?v=yneriZeUwqY).
+
+Dug in [Coco dataset](https://cocodataset.org) a bit. It has very nice interface for [explore mode](https://cocodataset.org/#explore). Would be nice to create something similar for my Ukrainian traffic signs dataset.
+
+Browsed all [documentation for Webots](https://cyberbotics.com/doc/guide/foreword).
+
+Read interesting post [Aibo and Webots: Simulation, wireless remote control and controller transfer](https://www.sciencedirect.com/science/article/abs/pii/S0921889006000327).
+
+Watched [Installation and Introduction to Webots &vert; Make your first custom world in minutes](https://www.youtube.com/watch?v=2CWHfbuEbAY&list=PLt69C9MnPchkLuNNc4q9SeMFA96_v4THJ&index=1) from playlist [Webots Crash Course](https://www.youtube.com/playlist?list=PLt69C9MnPchkLuNNc4q9SeMFA96_v4THJ).
+
+It took me a while to find how do I launch Guided Tour on Mac.
+![It took me a while to find how do I launch Guided Tour on Mac](/assets/images/Screenshot%202023-07-07%20at%2017.55.33.png)
