@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "TIL a lot about MAVLink and ArduPilot"
+date:   2023-07-10 19:28:00 +0200
+categories: TIL, MAVLink, pymavlink, VS Code, lsusb, APM, ArduPilot Mega,
+---
+Watched [01 Pymavlink Connect by Intelligent Quads](https://www.youtube.com/watch?v=kecnaxlUiTY).
+
+From video learned how to launch VS Code in command line with `code .`. It needed [additional setup for macOS](https://code.visualstudio.com/docs/setup/mac).
+
+Followed [Connecting PixHawk to Raspberry Pi and NVIDIA Jetson](https://www.hackster.io/Matchstic/connecting-pixhawk-to-raspberry-pi-and-nvidia-jetson-b263a7). But actually I could just connect USB-USB - in may case both have USB, USB-C on PixHawk and USB-A on Jetson carrier board.
+
+Passed through [Python Virtual Environments: A Primer](https://realpython.com/python-virtual-environments-a-primer/).
+
+TIL [`lsusb` cli for Linux](https://linuxhint.com/list-usb-devices-linux/) which I installed on mac with `brew` as well.
+
+[MavLink Tutorial for Absolute Dummies (Part –I)](https://storage.ning.com/topology/rest/1.0/file/get/3691077473?profile=original).
+
+TIL that [APM in context of drones stands for ArduPilot Mega](https://www.ardupilot.co.uk/#:~:text=Ardupilot%20Mega%20(APM)%20is%20a,as%20well%20as%20traditional%20helicopters.)
+
+> Ardupilot Mega (APM) is a professional quality IMU autopilot that is based on the Arduino Mega platform.  This autopilot can control fixed-wing aircraft, multi-rotor helicopters, as well as traditional helicopters. 
+
+TIL [APM Planner 2](https://ardupilot.org/planner2/) which works on macOS and Linux, contrary to ArduPilot Mission Planer.
+
+TIL [ArduPilot's documentation](https://ardupilot.org/ardupilot/) is quite good.
+
+Documentation on [MAVLink Interface](https://ardupilot.org/dev/docs/mavlink-commands.html)
+
+ArduPilot has a section ["Companion Computers"](https://ardupilot.org/dev/docs/companion-computers.html)
+which lists different hardware and software for companion computers. This worth looking and bookmarking [Maverick](https://goodrobots.github.io/maverick/). As well as [rpanion-server](https://www.docs.rpanion.com/software/rpanion-server). It has several promising looking features like configurations over WiFi and Ethernet, Flight Controller telemetry forwarding, Telemetry log management and so on.
+
+Bookmarking amazing video of a drone [Flying Fast through Tight Passages and Avoiding Moving Obstacles](https://www.youtube.com/watch?v=k6jKkpmj4-k). Here's [companion repo aerial_navigation_development_environment](https://github.com/caochao39/aerial_navigation_development_environment).
+
+Bookmaking building instructions [DRONE WITH APM (EASIEST WAY)](https://www.instructables.com/DRONE-WITH-APM-EASIEST-WAY/).
+
+Watched [VSCode SSH setup (and remote Python interpreter)](https://www.youtube.com/watch?v=C8oFdXE-WAw).
