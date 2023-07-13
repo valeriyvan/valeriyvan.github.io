@@ -1,23 +1,13 @@
 ---
 layout: post
-title:  "TIL swift-http-types package; TIL how to control drone servoes with MAVLink"
-date:   2023-07-11 19:05:00 +0200
-categories: TIL, Swift, swift-http-types, MAVLink, git gui
+title:  "TIL a lot about MAVLink; TIL what is Antenna Tracking"
+date:   2023-07-12 19:43:00 +0200
+categories: TIL, MAVLink, CRC, CRC32, Antenna Tracking
 ---
-TIL new swift package [Swift HTTP Types](https://www.swift.org/blog/introducing-swift-http-types/) which provides a shared set of currency types for client/server HTTP operations in Swift. It's repo [swift-http-types](https://github.com/apple/swift-http-types).
+Browsed again [Guide on MAVLink(https://mavlink.io/en/guide/).
 
-Watched [Connecting Raspberry Pi w/ Pixhawk and Communicating via MAVLink Protocol](https://www.youtube.com/watch?v=DGAB34fJQFc). It shows shortly how to communicate with flight controller with MAVProxy. Following screenshot saved my day:
-![](/assets/images/Screenshot%202023-07-11%20at%2014.40.07.png)
+Hung on [MAVLink CRC](https://mavlink.io/en/guide/crc.html) which refers to [Brief tutorial on CRC computation](https://github.com/torvalds/linux/blob/master/Documentation/staging/crc32.rst) in Linux documentation. Last refers to ["High Octane CRC Generation with the Intel Slicing-by-8 Algorithm"](/assets/images/a_systematic_approach_to_building_high_performance_software_based_crc.pdf). [Message in a group](https://groups.google.com/g/open-iscsi/c/GXiqsDQr5FY) refers to this [implementation made public by Intel](https://sourceforge.net/projects/slicing-by-8/) which gives 2.6 performance boost (according to message).
 
-In my case command launching MAVProxy was `~/mavlink/bin/mavproxy.py --master=/dev/ttyACM0 --baudrate 57600 --aircraft MyDrone`. Later I found out that all parameters could be omitted and `MAVProxy` launches fine without parameters.
+I have yet to go over all of [MAVLink Microservices](https://mavlink.io/en/services/).
 
-TIL git has it's own GUI which could be called with `git gui`. 
-![](/assets/images/Screenshot%202023-07-11%20at%2016.10.22.png)
-
-TIL how to edit/run files on remote machine with Visual Studio Code.
-
-Watched [02 Pymavlink Arm Command](https://www.youtube.com/watch?v=6M7e7DDLTQc).
-
-Read section [Command Protocol](https://mavlink.io/en/services/command.html) of MAVLink documentation.
-
-TIL how to control servos with MAVLink.
+TIL what is [Antenna Tracking](https://ardupilot.org/copter/docs/common-antenna-tracking.html).
