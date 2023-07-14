@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL PWM (Pulse Width Modulation) works to control servos; TIL how to takeoff and move drone with MAVLink"
+date:   2023-07-13 19:33:00 +0200
+categories: TIL, PWM, MAVLink, ExpressLRS
+---
+Read how [PWM (Pulse Width Modulation) works to control servos](https://www.digikey.in/en/articles/servo-motors-and-control-with-arduino-platforms#:~:text=Servo%20motor%20control%20of%20the,rotate%20the%20shaft%20counter%20clockwise.). Whole post is interesting. It explains topics like "How to select a servo motor for your application".
+
+Watched and fallowed video [03 Pymavlink Takeoff](https://www.youtube.com/watch?v=NTjEcHmqmu4) and [04 Pymavlink Movement](https://www.youtube.com/watch?v=yyt4VjBRG_Y&t=5s).
+
+Googling for SBUS have found a series [How to Write your own Flight Controller Software](https://medium.com/p/ac08b6ecc01e). Marvelous!
+
+Looking [ExpressLRS Configurator](https://github.com/ExpressLRS/ExpressLRS-Configurator#macos) found something I didn't know: how to launch app if macOS cannot be opened because the developer cannot be identified - Control - Open. Alternatively, following could be used `sudo xattr -rd com.apple.quarantine /Applications/ExpressLRS\ Configurator.app`.
