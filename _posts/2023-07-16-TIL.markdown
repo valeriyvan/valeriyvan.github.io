@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Watched video 5" Freestyle FPV Drone Build"
+date:   2023-07-16 19:39:00 +0200
+categories: TIL, Betaflight, DIY, FPV
+---
+Watched video [2022 - 5" Freestyle FPV Drone Build](https://www.youtube.com/watch?v=Z5t0M2sluLA). There'ra some useful tip on how to setup drone with Betaflight.
