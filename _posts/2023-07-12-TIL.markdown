@@ -4,7 +4,7 @@ title:  "TIL a lot about MAVLink; TIL what is Antenna Tracking"
 date:   2023-07-12 19:43:00 +0200
 categories: TIL, MAVLink, CRC, CRC32, Antenna Tracking
 ---
-Browsed again [Guide on MAVLink(https://mavlink.io/en/guide/).
+Browsed again [Guide on MAVLink](https://mavlink.io/en/guide/).
 
 Hung on [MAVLink CRC](https://mavlink.io/en/guide/crc.html) which refers to [Brief tutorial on CRC computation](https://github.com/torvalds/linux/blob/master/Documentation/staging/crc32.rst) in Linux documentation. Last refers to ["High Octane CRC Generation with the Intel Slicing-by-8 Algorithm"](/assets/images/a_systematic_approach_to_building_high_performance_software_based_crc.pdf). [Message in a group](https://groups.google.com/g/open-iscsi/c/GXiqsDQr5FY) refers to this [implementation made public by Intel](https://sourceforge.net/projects/slicing-by-8/) which gives 2.6 performance boost (according to message).
 
