@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Dug with MAVLink"
+date:   2023-07-14 12:25:00 +0200
+categories: TIL, MAVLink, pymavlink
+---
+Came accross [pymavlink examples](https://www.ardusub.com/developers/pymavlink.html) which containe snippets for common tasks like:
+* Autopilot connected to the computer via serial
+* Run pyMavlink on the surface computer
+* Run pyMavlink on the companion computer
+* Send Message to QGroundControl
+* Arm/Disarm the vehicle
+* Change flight mode
+* Send RC (Joystick)
+* Send Manual Control
+* Read all parameters
+* Read and write parameters
+* Receive data and filter by message type
+* Request message interval
+* Control Camera Gimbal
+* Set Servo PWM
+* Advanced Servo/Gripper Example
+* Set Target Depth/Attitude
+* Send GPS position
+* Send rangefinder/computer vision distance measurement to the autopilot
+
+Watched [PX4 and the art of Custom MAVLink Messages - Hamish Willee, Auterion](https://www.youtube.com/watch?v=qfDGdgIAU5g).
