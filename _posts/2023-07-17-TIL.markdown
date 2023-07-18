@@ -20,7 +20,7 @@ Installed [Gazebo Garden](https://gazebosim.org/docs/garden/install_osx) for mac
 
 Read about [ArduPilot's Flight Modes](https://ardupilot.org/copter/docs/flight-modes.html).
 
-Watched [WWDC 2022 video Create macOS or Linux virtual machines](https://developer.apple.com/videos/play/wwdc2022/10002/). Same in form of article: [Creating and Running a Linux Virtual Machine](https://developer.apple.com/documentation/virtualization/creating_and_running_a_linux_virtual_machine). [Running GUI Linux in a virtual machine on a Mac](https://developer.apple.com/documentation/virtualization/running_gui_linux_in_a_virtual_machine_on_a_mac). 
+Watched [WWDC 2022 video Create macOS or Linux virtual machines](https://developer.apple.com/videos/play/wwdc2022/10002/). Same in form of article: [Creating and Running a Linux Virtual Machine](https://developer.apple.com/documentation/virtualization/creating_and_running_a_linux_virtual_machine). Absolutly marvelouse sample code [Running GUI Linux in a virtual machine on a Mac](https://developer.apple.com/documentation/virtualization/running_gui_linux_in_a_virtual_machine_on_a_mac). 
 
 > This sample code project demonstrates how to install and run GUI Linux virtual machines (VMs) on a Mac.
 
@@ -29,4 +29,6 @@ Watched [WWDC 2022 video Create macOS or Linux virtual machines](https://develop
 
 Ubuntu desktop image for ARM could be found [here](https://cdimage.ubuntu.com/jammy/daily-live/pending/).
 
-No Virtual desktop, No Parallel Desktop anymore!
+No Virtual desktop, no Parallels Desktop anymore!
+
+![No Virtual desktop, no Parallels Desktop anymore!](/assets/images/Screenshot%202023-07-17%20at%2018.13.47.png).
