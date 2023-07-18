@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "TIL how to download file with CLI on macOS; TIL Gezebo simulator doesn't work on macOS; TIL how to launch Linux on macOS with new Vurtualization framework"
+date:   2023-07-17 20:22:00 +0200
+categories: TIL, wget, curl, Gazebo
+---
+TIL how to download file with CLI on macOS. I tried to download a video file hosted on github. `wget` got 404 while curl downloaded file successfully.
+
+```bash
+wget url-to-file
+```
+
+```bash
+curl -o url-to-file
+```
+
+Watched [How To Start a Mission Using Pymavlink](https://www.youtube.com/watch?v=pAAN055XCxA).
+
+Installed [Gazebo Garden](https://gazebosim.org/docs/garden/install_osx) for macOS. Didn't work on macOS for me. Ended up with openning issue [Fail to start shapes.sdf on macOS after fresh install](https://github.com/gazebosim/gz-sim/issues/2033).
+
+Read about [ArduPilot's Flight Modes](https://ardupilot.org/copter/docs/flight-modes.html).
+
+Watched [WWDC 2022 video Create macOS or Linux virtual machines](https://developer.apple.com/videos/play/wwdc2022/10002/). Same in form of article: [Creating and Running a Linux Virtual Machine](https://developer.apple.com/documentation/virtualization/creating_and_running_a_linux_virtual_machine). [Running GUI Linux in a virtual machine on a Mac](https://developer.apple.com/documentation/virtualization/running_gui_linux_in_a_virtual_machine_on_a_mac). 
+
+> This sample code project demonstrates how to install and run GUI Linux virtual machines (VMs) on a Mac.
+
+
+> The Xcode project includes a single target, GUILinuxVirtualMachineSampleApp, which is a macOS app that installs a Linux distribution from an ISO image into a VM, and subsequently runs the installed Linux VM.
+
+Ubuntu desktop image for ARM could be found [here](https://cdimage.ubuntu.com/jammy/daily-live/pending/).
+
+No Virtual desktop, No Parallel Desktop anymore!
