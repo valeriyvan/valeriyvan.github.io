@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL MAVSDK is sh*t mostly capable of controlling simulated drones"
+date:   2023-07-18 017:50:00 +0200
+categories: TIL, MAVSDK, AWS Lambda
+---
+Watched [Controlling MAVLink Drones with MAVSDK](https://www.youtube.com/watch?v=VFT4P_N7wc8&t=10s).
+
+Unfortunately, because of this issue [Is there any tutorial explaining connecting to real done instead of SITL using mavsdk?](https://github.com/mavlink/MAVSDK-Python/issues/526) it's not usable in real life.
+
+Bookmarking post [Developing Telegram bot on Go and AWS Lambda](https://habr.com/ru/articles/555518/). I should deploy two my Telegram bots to AWS Lambda instead of Digital Ocean.
