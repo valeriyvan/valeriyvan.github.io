@@ -7,4 +7,6 @@ categories: TIL
 ---
 EOF
 )
-echo "$string" > "_posts/$(date '+%Y-%m-%d')-TIL.markdown"
+filename="_posts/$(date '+%Y-%m-%d')-TIL.markdown"
+echo "$string" > "$filename"
+open -a Sublime\ Text "$filename"
