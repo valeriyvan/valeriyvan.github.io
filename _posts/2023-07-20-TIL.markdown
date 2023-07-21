@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL simple-pid Python library; TIL what for is `~/.local` folder"
+date:   2023-07-20 12:59:00 +0200
+categories: TIL, Python, simple-pid
+---
+TIL [simple-pid](https://pypi.org/project/simple-pid/) Python library.
+
+TIL [what for is `~/.local` folder](https://askubuntu.com/a/14536) on Ubuntu. If find some apps on macOS, e.g. Neovim, also use it.
