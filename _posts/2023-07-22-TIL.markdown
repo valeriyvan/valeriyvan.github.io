@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Dug with MavLink whole day"
+date:   2023-07-22 17:35:00 +0200
+categories: TIL, MavLink
+---
+Read [A Review of Open-Source Flight Control Systems](https://reefwing.medium.com/a-review-of-open-source-flight-control-systems-2fe37239c9b6).
+
+Watched [04 Pymavlink Movement](https://www.youtube.com/watch?v=yyt4VjBRG_Y).
+
+[MAVLink Messages \| Dissecting the Protocol](https://www.youtube.com/watch?v=Ha66uKC-od0).
+![](/assets/images/Screenshot%202023-07-22%20at%2018.38.16.png)
