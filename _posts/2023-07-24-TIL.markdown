@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL MAVLink drone movements commands"
+date:   2023-07-24 14:50:00 +0200
+categories: TIL, Python, OOP, Abstract class, NOP
+---
+TIL how to use [abstract classes in Python](https://docs.python.org/3/library/abc.html).
+
+TIL [`pass` statement in Python](https://www.programiz.com/python-programming/pass-statement). It's NOP in Python.
+
+Dug in [drone movements commands](https://ardupilot.org/dev/docs/copter-commands-in-guided-mode.html#copter-commands-in-guided-mode-set-position-target-local-ned).
