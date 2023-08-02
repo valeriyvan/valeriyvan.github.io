@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "TIL what is Real-time kinematic positioning"
+date:   2023-07-31 11:50:00 +0200
+categories: TIL, UAVCAN, GStreamer, Real-time kinematic positioning
+---
+Bookmarking [ARDU Remote: simple RC radio controller](https://github.com/whoim2/arduremote). Radio remote controller - that's what is missing for [Crazyflie](https://github.com/bitcraze).
+
+Read about UAVCAN(https://habr.com/ru/companies/innopolis/articles/513192/).
+
+TIL about [GStreamer](https://gstreamer.freedesktop.org/features/) - an extremely powerful and versatile framework for creating streaming media applications.
+
+TIL [Real-time kinematic positioning](https://en.wikipedia.org/wiki/Real-time_kinematic_positioning).
+
+Bookmarking post about selecting drone components [DIY autonomous drone controlled over Internet](https://habr.com/ru/articles/414121/). From above learned about [xcopterCalc - Multicopter Calculator](https://www.ecalc.ch/xcoptercalc.php).
+
+Read (Choosing platform for experiments with drones)[https://habr.com/ru/articles/375239/].
