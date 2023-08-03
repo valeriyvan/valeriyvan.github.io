@@ -27,6 +27,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://valeriyvan.com" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:year/:month/:day/:title:output_ext
 
+google_analytics: G-4M4HDTKYJP
 #twitter_username: valeriyvan
 github_username:  valeriyvan
 
