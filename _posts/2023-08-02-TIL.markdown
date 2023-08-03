@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "TIL different ways to detect key presses in Python"
+date:   2023-08-02 11:43:00 +0200
+categories: TIL, Python, Curses, pynput, keyboard
+---
+TIL about [Curses - terminal-independent screen-painting and keyboard-handling facility for text-based terminals](https://docs.python.org/3/howto/curses.html). Nice to build GUI inside terminal. But it's not what I need.
+
+TIL [pynput](https://pypi.org/project/pynput/). Library allows to control and monitor input devices. Currently, mouse and keyboard input and monitoring are supported. Very nice but in monitors keyboard input even if app is not active which need special rights which I don't like. And on Ubuntu it says platform is not supported:
+
+```
+ raise ImportError('this platform is not supported: {}'.format(
+ImportError: this platform is not supported: ('failed to acquire X connection: Bad display name ""', DisplayNameError(''))
+
+Try one of the following resolutions:
+
+ * Please make sure that you have an X server running, and that the DISPLAY environment variable is set correctly
+ ```
+
+TIL [keyboard](https://pypi.org/project/keyboard/), but it requires sudo on Linux so isn't pactical.
+
+So I stopped on [python-keyboard-detection](https://github.com/HullRaspJam/python-keyboard-detection/blob/master/detect-keyboard.py).
