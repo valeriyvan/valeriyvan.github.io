@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL Python 3.10 intoduced `match case`"
+date:   2023-08-03 18:22:00 +0200
+categories: TIL, Python, match case, Google Analytics
+---
+TIL [How to add Google Analytics to a blog hosted on Github pages](https://morotsman.github.io/blog,/google/analytics,/jekyll,/github/pages/2020/07/07/add-google-analytics.html) to find out that no one is reading this.
+
+TIL [Python 3.10 intoduced `match case`](https://www.freecodecamp.org/news/python-switch-statement-switch-case-example/) which is fo `switch case` exists in C and Swift.
