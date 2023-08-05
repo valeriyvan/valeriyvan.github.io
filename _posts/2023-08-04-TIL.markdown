@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "TIL about Xcode Releases and how now lod Xcode releases could be launched"
+date:   2023-08-04 18:31:00 +0200
+categories: TIL, Xcode, Xcode Releases
+---
+TIL about [Xcode Releases](https://xcodereleases.com) with download links to all versions of Xcode.
+
+TIL downloaded old version of Xcode couldn't be just run as earlier. [](https://stackoverflow.com/a/75109186/942513):
+* Download the desired xcode version app from https://xcodereleases.com
+* Unzip the app and rename it to `Xcode-<version>.app`;
+* Move it to `/Applications` directory;
+* Run xcode-select command: `xcode-select -s /Applications/Xcode-<version>.app`;
+* Confirm that the correct Xcode version is selected with `xcode-select -p`.
+
