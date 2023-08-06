@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL Raspberry Pi Zero doesn't have power LED"
+date:   2023-08-05 19:21:00 +0200
+categories: TIL, Raspberry Pi Zero 
+---
+TIL Raspberry Pi Zero doesn't have power LED: [Raspberry Pi Zero Headless Quick Start: Is There Even Life?](https://learn.adafruit.com/raspberry-pi-zero-creation/is-my-pi-zero-dead).
