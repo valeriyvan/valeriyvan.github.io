@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TIL about Xcode Releases and how now lod Xcode releases could be launched"
+title:  "TIL about Xcode Releases and how now old Xcode releases could be launched"
 date:   2023-08-04 18:31:00 +0200
 categories: TIL, Xcode, Xcode Releases
 ---
@@ -12,4 +12,3 @@ TIL downloaded old version of Xcode couldn't be just run as earlier. [](https://
 * Move it to `/Applications` directory;
 * Run xcode-select command: `xcode-select -s /Applications/Xcode-<version>.app`;
 * Confirm that the correct Xcode version is selected with `xcode-select -p`.
-
