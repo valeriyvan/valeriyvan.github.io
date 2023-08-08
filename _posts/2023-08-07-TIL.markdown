@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL brave search"
+date:   2023-08-07 18:20:00 +0200
+categories: TIL, brave
+---
+[TIL brave search](https://search.brave.com).
