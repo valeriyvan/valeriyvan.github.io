@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL about `foobar.withgoogle.com`"
+date:   2023-08-08 19:20:00 +0200
+categories: TIL, foobar.withgoogle.com
+---
+TIL about `foobar.withgoogle.com`. Google cought me when I googled about multithreading in Python.
+
+![](/assets/images/Screenshot%222023-08-08%22at%2215.18.15.png).
+
+![](/assets/images/Screenshot%222023-08-08%22at%2215.18.56).
+
+Read [D-Bus WiKi page](https://en.wikipedia.org/wiki/D-Bus).
