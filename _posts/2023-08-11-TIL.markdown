@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL CLI for macOS `system_profiler SPUSBDataType` to list available USB devices"
+date:   2023-08-11 18:30:00 +0200
+categories: TIL, terminal, macOS, USB
+---
+Noce reading [Building Wireless Soil Moisture Sensors With Custom PCB](https://www.bennettnotes.com/projects/building-wireless-soil-sensors-with-pcb/).
+
+TIL CLI for macOS terminal to list available USB devices `system_profiler SPUSBDataType`.
