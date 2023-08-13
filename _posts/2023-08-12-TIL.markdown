@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL how to setup Raspbery Pi with Raspberry Pi Imager"
+date:   2023-08-12 19:20:00 +0200
+categories: TIL, Raspberry Pi Imager
+---
+Was surprised today how easy it is to make bootable SD card for Raspberry Pi with help of Raspberry Pi Imager [Raspberry Pi OS](https://www.raspberrypi.com/software/).
+
+![Raspberry Pi Imager](Raspberry%20Pi%20Imager%20Screenshot.png "Raspberry Pi Imager")
+
+TIL how to setup WiFi on Raspberry Pi. The first one could be adjusted with Raspberry Pi Imager mention above. Later new SSID could be added with `raspi-config`.
+
+TIL CLI for macOS to list WiFi SSID in terminal: `/System/Library/PrivateFrameworks/Apple80211.framework/Resources/airport -I`. [Source - stackoverflow](https://stackoverflow.com/a/4481019).
