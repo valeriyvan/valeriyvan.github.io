@@ -10,4 +10,4 @@ Watched and fallowed video [03 Pymavlink Takeoff](https://www.youtube.com/watch?
 
 Googling for SBUS have found a series [How to Write your own Flight Controller Software](https://medium.com/p/ac08b6ecc01e). Marvelous!
 
-Looking [ExpressLRS Configurator](https://github.com/ExpressLRS/ExpressLRS-Configurator#macos) found something I didn't know: how to launch app if macOS cannot be opened because the developer cannot be identified - Control - Open. Alternatively, following could be used `sudo xattr -rd com.apple.quarantine /Applications/ExpressLRS\ Configurator.app`.
+Looking [ExpressLRS Configurator](https://github.com/ExpressLRS/ExpressLRS-Configurator#macos) found something I didn't know: how to launch app if macOS cannot be opened because the developer cannot be identified - Control - Open. Alternatively, following could be used `sudo xattr -rd com.apple.quarantine /Applications/ExpressLRS\ Configurator.app`. The latter didn't work for me giving a bunch of permission errors. But Control - Open in Finder worked pretty well.
