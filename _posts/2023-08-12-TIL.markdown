@@ -6,7 +6,7 @@ categories: TIL, Raspberry Pi Imager
 ---
 Was surprised today how easy it is to make bootable SD card for Raspberry Pi with help of Raspberry Pi Imager [Raspberry Pi OS](https://www.raspberrypi.com/software/).
 
-![Raspberry Pi Imager](Raspberry%20Pi%20Imager%20Screenshot.png "Raspberry Pi Imager")
+![Raspberry Pi Imager](/assets/images/Raspberry%20Pi%20Imager%20Screenshot.png "Raspberry Pi Imager")
 
 TIL how to setup WiFi on Raspberry Pi. The first one could be adjusted with Raspberry Pi Imager mention above. Later new SSID could be added with `raspi-config`.
 
