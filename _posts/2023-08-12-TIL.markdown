@@ -10,4 +10,4 @@ Was surprised today how easy it is to make bootable SD card for Raspberry Pi wit
 
 TIL how to setup WiFi on Raspberry Pi. The first one could be adjusted with Raspberry Pi Imager mention above. Later new SSID could be added with `raspi-config`.
 
-TIL CLI for macOS to list WiFi SSID in terminal: `/System/Library/PrivateFrameworks/Apple80211.framework/Resources/airport -I`. [Source - stackoverflow](https://stackoverflow.com/a/4481019).
+TIL CLI for macOS to show WiFi SSID in terminal: `/System/Library/PrivateFrameworks/Apple80211.framework/Resources/airport -I`. [Source - stackoverflow](https://stackoverflow.com/a/4481019).
