@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "TIL"
+title:  "Wasted time trying to launch BLHeli Configurator on macOS"
 date:   2023-08-13 15:06:00 +0200
-categories: TIL
+categories: TIL, BLHeli Configurator
 ---
-[BLHeli Configurator](https://chrome.google.com/webstore/detail/blheli-configurator/mejfjggmbnocnfibbibmoogocnjbcjnk)
+Wasted time trying to launch [BLHeli Configurator](https://chrome.google.com/webstore/detail/blheli-configurator/mejfjggmbnocnfibbibmoogocnjbcjnk). It just doesn't run on macOS anymore. There are lot of posts searching for help how to launch it on macOS. There's open source for it: [blheli-configurator](https://github.com/blheli-configurator/blheli-configurator). It's not maintained. Building instruction are tedious as for Apple developer. Might be commercially viable idea to make paid app for this.
