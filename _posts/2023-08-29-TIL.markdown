@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL `htop`, human `top`"
+date:   2023-08-29 20:14:00 +0200
+categories: TIL, htop
+---
+TIL `htop`, human `top`.
+
+![htop sceenshot](/assets/images/Screenshot%202023-08-29%20at%2011.41.16%20htop.png "htop")
