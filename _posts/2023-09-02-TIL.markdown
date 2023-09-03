@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL about Sensor Fusion algorithms"
+date:   2023-09-02 19:36:00 +0200
+categories: TIL, Sensor Fusion
+---
+Read [Concept of Sensor Fusion and Its Types](https://www.geeksforgeeks.org/concept-of-sensor-fusion-and-its-types/).
+
+Read [Sensor Fusion Algorithms Explained](https://www.udacity.com/blog/2020/08/sensor-fusion-algorithms-explained.html).
+
+Read paper [Experimental Comparison of Sensor Fusion Algorithms for Attitude Estimation](/assets/docs/1-s2.0-S1474667016428089-main.pdf).
