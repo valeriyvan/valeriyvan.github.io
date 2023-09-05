@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "TIL how to set up in Betaflight newly built drone"
+date:   2023-09-03 19:02:00 +0200
+categories: TIL, betaflight, GPS, Mateksys
+---
+Watched once again [Betaflight for Beginners | The settings you need to get your drone in the air](https://www.youtube.com/watch?v=iEo19JtVe1U).
+
+Some notes for future self.
+
+GPS didn't want to start working. 
+
+Set baud rate taken from GPS module datasheet:
+!["Set baud rate taken from GPS module datasheet"](/assets/images/Screenshot%202023-09-03%20at%2014.31.00%20betaflight%20configurator.png Set baud rate taken from GPS module datasheet")
+
+Set protocol from same datasheet:
+!["Set protocol from GPS module datasheet"](/assets/images/Screenshot%202023-09-03%20at%2014.31.31%20betaflight%20configurator.png "Set protocol from GPS module datasheet")
+
+It stays unclear how do I setup TX/RX channels for GPS and radio receiver if at all. I set GPS receiver and radio receiver on lines which match RX/TX channels where they are soldered. But that UART channels, not RX/TX channels.
+![GPS receiver is soldered to RX/TX](/assets/images/IMG_9301%20matek%20flight%20controller.jpeg "GPS receiver is soldered to TX2/RX2")
+
+Finally everything worked and I firstly got self built drone in the air:
+
+![Self built drone in the air](/assets/images/IMG_9304%20the%20first%20fpv%20flying.jpeg "Self built drone in the air")
