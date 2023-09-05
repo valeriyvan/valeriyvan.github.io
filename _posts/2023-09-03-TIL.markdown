@@ -14,11 +14,15 @@ Set baud rate taken from GPS module datasheet:
 !["Set baud rate taken from GPS module datasheet"](/assets/images/Screenshot%202023-09-03%20at%2014.31.00%20betaflight%20configurator.png "Set baud rate taken from GPS module datasheet")
 
 Set protocol from same datasheet:
-!["Set protocol from GPS module datasheet"](/assets/images/Screenshot%202023-09-03%20at%2014.31.31%20betaflight%20configurator.png "Set protocol from GPS module datasheet")
+![Set protocol from GPS module datasheet](/assets/images/Screenshot%202023-09-03%20at%2014.31.31%20betaflight%20configurator.png "Set protocol from GPS module datasheet")
 
 It stays unclear how do I setup TX/RX channels for GPS and radio receiver if at all. I set GPS receiver and radio receiver on lines which match RX/TX channels where they are soldered. But that UART channels, not RX/TX channels.
 
 ![GPS receiver is soldered to RX/TX](/assets/images/IMG_9301%20matek%20flight%20controller.jpeg "GPS receiver is soldered to TX2/RX2")
+
+Here are final settings:
+
+![Final settings](/assets/images/Screenshot%202023-09-03%20at%2016.03.04%20betaflight%20configurator.png "Final settings")
 
 Finally everything worked and I firstly got self built drone in the air:
 
