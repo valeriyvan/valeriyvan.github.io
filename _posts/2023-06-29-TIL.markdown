@@ -28,4 +28,4 @@ Quartz provides a number of convenience functions to transform the following geo
 
 Read [Coordinate Transforms in iOS using Swift, Part 0: The Problems](https://rethunk.medium.com/image-coordinate-transforms-in-ios-using-swift-part-0-the-problems-a28d676030b0). [Coordinate Transforms in iOS using Swift, Part 1: The L Triangle](https://rethunk.medium.com/coordinate-transforms-in-ios-using-swift-part-1-the-l-triangle-c8204177a7e2). But now. Instead of explaining and making things simpler it brings new staff to the table and make more complex.
 
-Bookmarking usage of `exiftool` CLI for removing all exifs from a file: `exiftool -all= path_to_file`.
+Bookmarking usage of `exiftool` CLI for removing all exifs from a file: `exiftool -all= path_to_files`. Space after `=` is important! Original photos are saved in file with extension like `.jpeg_original`.
