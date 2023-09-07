@@ -1,0 +1,67 @@
+---
+layout: post
+title:  "Read great series how to build quadcopter's Flight Controller from scratch"
+date:   2023-09-06 09:23:00 +0200
+categories: TIL, Python, Flight Controller
+---
+Read [Automatic labeling (russian)](https://habr.com/ru/articles/759064/).
+
+Was puzzled to come accross asterisk before parameter in Python which looked like pointer deaddressing in C:
+
+```
+self.mavlink_connection.mav.rc_channels_override_send(
+    self.mavlink_connection.target_system,
+    self.mavlink_connection.target_component,
+    *rc_channel_values
+)
+```
+
+[Understanding the asterisk(\*) of Python](https://medium.com/understand-the-python/understanding-the-asterisk-of-python-8b9daaa4a558).
+
+Interesting that asterisk (\*) and forward slash (\) could be used in Python instead of parameter in function call. It's absolutly crasy as for my taste. These two divide positional and keyword parameters. [What Are Python Asterisk and Slash Special Parameters For?](https://realpython.com/python-asterisk-and-slash-special-parameters/).
+
+Read great serie [My Greatest Engineering Accomplishment: The Scout Flight Controller](https://timhanewich.medium.com/my-greatest-engineering-accomplishment-the-scout-flight-controller-d8937fb45b24).
+
+> I started the project on April 29, 2023. 70 days and 1,194 code commits later, on July 7, 2023, Scout achieved its first successful flight.
+
+[How I Developed the Scout Flight Controller, Part 1: Quadcopter Flight Dynamics](https://timhanewich.medium.com/how-i-developed-the-scout-flight-controller-part-1-quadcopter-flight-dynamics-400af73d21db).
+
+[How I Developed the Scout Flight Controller, Part 2: Capturing Telemetry with the Gyroscope](https://timhanewich.medium.com/how-i-developed-the-scout-flight-controller-part-2-gyroscope-telemetry-91f40b76d0f9)
+
+> To rectify this issue, we must account for gyroscope bias with a calibration. The calibration process is conceptually simple: upon system boot-up, we dedicate a few seconds to monitor the raw gyroscope readings while the quadcopter remains perfectly stationary. We then calculate the average of these observed values across all three axes. In all subsequent gyroscope readings, we will subtract each axis’ respective calibration reading (the average we calculated) to get the “calibrated” reading; essentially, we are subtracting the bias out of the raw reading. This adjustment effectively eliminates the bias from the raw readings, providing us with a “clean” reading that can be utilized within our flight controller code.
+
+[How I Developed the Scout Flight Controller, Part 3: Receiving Control Inputs via an RC Receiver](https://timhanewich.medium.com/how-i-developed-the-scout-flight-controller-part-3-receiving-control-inputs-via-an-rc-receiver-afb4fa5183f5)
+
+Following idea I will borrow along with provided `normalize` function.
+
+> Instead of working with these values that range from 1,000 to 2,000, I preferred to normalize each within the range of -1.0 to 1.0 for the roll, pitch, and yaw, and between 0.0 and 1.0 for the throttle. This makes the values easier to understand and work with. I wrote the following simple function in Python to handle the normalization process:
+
+```python
+def normalize(value:float, original_min:float, original_max:float, new_min:float, new_max:float) -> float:
+    """ Normalizes (scales) a value to within a specific range. """
+    return new_min + ((new_max - new_min) * ((value - original_min) / (original_max - original_min)))
+```
+
+[How I Developed the Scout Flight Controller, Part 4: Stabilizing Flight with PID Controllers](https://timhanewich.medium.com/how-i-developed-the-scout-flight-controller-part-4-stabilizing-flight-with-pid-controllers-1e945577a9aa). It's described here how 3 PID controllers for pitch, roll, yaw work together to calculate thrust for 4 drone motors.
+
+```python
+# calculate throttle values
+t1:float = adj_throttle + pid_pitch + pid_roll - pid_yaw
+t2:float = adj_throttle + pid_pitch - pid_roll + pid_yaw
+t3:float = adj_throttle - pid_pitch + pid_roll + pid_yaw
+t4:float = adj_throttle - pid_pitch - pid_roll - pid_yaw
+```
+
+Beside of above snippet, article containe full PID controller inplementation.
+
+[How I Developed the Scout Flight Controller, Part 5: Controlling Brushless Motors with ESC’s and PWM](https://timhanewich.medium.com/how-i-developed-the-scout-flight-controller-part-5-controlling-brushless-motors-with-escs-and-2529606bfdc5).
+
+[How I Developed the Scout Flight Controller, Part 6: Hardware](https://timhanewich.medium.com/how-i-developed-the-scout-flight-controller-part-6-hardware-9f7e77acf874).
+
+TIL that a circuit to convert DC current to lower voltage is called battery eliminator circuit (BEC). BEC to 5V is integrated in some ESC.
+
+> The BEC, a separate circuit within the ESC, provides power to other 5V components on the quadcopter. Instead of needing to install a secondary 5V battery, we can tap into the BEC of one of the ESCs. It handles the conversion from the LiPo’s 16.8V to a stable 5V, which we can utilize to power these devices.
+
+> Please note that not every ESC includes a BEC.
+
+[How I Developed the Scout Flight Controller, Part 7: Full Flight Controller Code](https://timhanewich.medium.com/how-i-developed-the-scout-flight-controller-part-7-full-flight-controller-code-4269c83b3b48). This contain full code. I am surprised how minimalistic this code is. Greate work!
