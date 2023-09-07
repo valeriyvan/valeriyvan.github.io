@@ -4,9 +4,9 @@ title:  "Read great series how to build quadcopter's Flight Controller from scra
 date:   2023-09-06 09:23:00 +0200
 categories: TIL, Python, Flight Controller
 ---
-Read [Automatic labeling (russian)](https://habr.com/ru/articles/759064/).
+Read [Automatic labeling (russian)](https://habr.com/ru/articles/759064/). Semi-automatic I would say. The idea is to use Grounding DINO model to detect objects of interest and set bounding boxes. Grounding DINO model detects object by their text prompts. Then human in CVAT should manually set a label for each detected box. The post was inspired by [Grounding DINO: SOTA Zero-Shot Object Detection](https://blog.roboflow.com/grounding-dino-zero-shot-object-detection/) and [tutorial in format of Jupyter notebook](https://github.com/roboflow/notebooks/blob/main/notebooks/zero-shot-object-detection-with-grounding-dino.ipynb?ref=blog.roboflow.com). Provided docker image requires nvidia video card with 3GB RAM. The whole [flow in opensource on GitHub](https://github.com/DenisN03/automated-dataset-annotation). I don't see the reason why the last step, which essentially object classification, cannot be automated as well. 
 
-Was puzzled to come accross asterisk before parameter in Python which looked like pointer deaddressing in C:
+Was puzzled to come across asterisk before parameter in Python which looked like pointer deaddressing in C:
 
 ```
 self.mavlink_connection.mav.rc_channels_override_send(
@@ -18,9 +18,9 @@ self.mavlink_connection.mav.rc_channels_override_send(
 
 [Understanding the asterisk(\*) of Python](https://medium.com/understand-the-python/understanding-the-asterisk-of-python-8b9daaa4a558).
 
-Interesting that asterisk (\*) and forward slash (\) could be used in Python instead of parameter in function call. It's absolutly crasy as for my taste. These two divide positional and keyword parameters. [What Are Python Asterisk and Slash Special Parameters For?](https://realpython.com/python-asterisk-and-slash-special-parameters/).
+Interesting that asterisk (\*) and forward slash (\) could be used in Python instead of parameter in function call. It's absolutely crazy as for my taste. These two divide positional and keyword parameters. [What Are Python Asterisk and Slash Special Parameters For?](https://realpython.com/python-asterisk-and-slash-special-parameters/).
 
-Read great serie [My Greatest Engineering Accomplishment: The Scout Flight Controller](https://timhanewich.medium.com/my-greatest-engineering-accomplishment-the-scout-flight-controller-d8937fb45b24).
+Read great series [My Greatest Engineering Accomplishment: The Scout Flight Controller](https://timhanewich.medium.com/my-greatest-engineering-accomplishment-the-scout-flight-controller-d8937fb45b24).
 
 > I started the project on April 29, 2023. 70 days and 1,194 code commits later, on July 7, 2023, Scout achieved its first successful flight.
 
@@ -52,7 +52,7 @@ t3:float = adj_throttle - pid_pitch + pid_roll + pid_yaw
 t4:float = adj_throttle - pid_pitch - pid_roll - pid_yaw
 ```
 
-Beside of above snippet, article containe full PID controller inplementation.
+Beside of above snippet, article contain full PID controller implementation.
 
 [How I Developed the Scout Flight Controller, Part 5: Controlling Brushless Motors with ESC’s and PWM](https://timhanewich.medium.com/how-i-developed-the-scout-flight-controller-part-5-controlling-brushless-motors-with-escs-and-2529606bfdc5).
 
@@ -64,4 +64,4 @@ TIL that a circuit to convert DC current to lower voltage is called battery elim
 
 > Please note that not every ESC includes a BEC.
 
-[How I Developed the Scout Flight Controller, Part 7: Full Flight Controller Code](https://timhanewich.medium.com/how-i-developed-the-scout-flight-controller-part-7-full-flight-controller-code-4269c83b3b48). This contain full code. I am surprised how minimalistic this code is. Greate work!
+[How I Developed the Scout Flight Controller, Part 7: Full Flight Controller Code](https://timhanewich.medium.com/how-i-developed-the-scout-flight-controller-part-7-full-flight-controller-code-4269c83b3b48). This contain full code. I am surprised how minimalistic this code is. Create work!
