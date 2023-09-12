@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Read Martin Fowler's CodeSmell"
+date:   2023-09-11 19:15:00 +0200
+categories: TIL, CodeSmell
+---
+Read Martin Fowler's [CodeSmell](https://martinfowler.com/bliki/CodeSmell.html).
+
+> Some long methods are just fine. You have to look deeper to see if there is an underlying problem there - smells aren't inherently bad on their own - they are often an indicator of a problem rather than the problem themselves.
