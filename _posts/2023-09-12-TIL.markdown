@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL git looses commit signature after rebasing and merging with GitHub"
+date:   2023-09-12 10:20:00 +0200
+categories: TIL, git rebase, git signing commits
+---
+TIL git looses commit signature after rebasing and merging with GitHub. Rebasing locally and then force pushing into main is bad idea. Here is one solution [Rebase And Sign Multiple Git Commits](https://duan.ca/2016/12/24/rebase-multiple-git-commits-with-signing/) to do it locally and manually. But it doesn't solve a problem of need to force push into main.
