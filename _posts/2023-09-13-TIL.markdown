@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL what does '!r' in format string mean in Python"
+date:   2023-09-13 19:37:00 +0200
+categories: TIL, Python, __repr__, __str__
+---
+TIL what does '!r' in format string mean: [Python: the !r string format and the \_\_repr\_\_() and \_\_str\_\_() methods](https://dev.to/behainguyen/python-the-r-string-format-and-the-repr-and-str-methods-29i7).
+
+Read AnyLeaf Blog [ExpressLRS overview](https://www.anyleaf.org/blog/expresslrs-overview).
