@@ -17,6 +17,6 @@ Try one of the following resolutions:
  * Please make sure that you have an X server running, and that the DISPLAY environment variable is set correctly
  ```
 
-TIL [keyboard](https://pypi.org/project/keyboard/), but it requires sudo on Linux so isn't pactical.
+TIL [keyboard](https://pypi.org/project/keyboard/), but it requires sudo on Linux so isn't practical.
 
 So I stopped on [python-keyboard-detection](https://github.com/HullRaspJam/python-keyboard-detection/blob/master/detect-keyboard.py).
