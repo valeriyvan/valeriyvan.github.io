@@ -1,9 +1,21 @@
 ---
 layout: post
-title:  "TIL what does '!r' in format string mean in Python"
+title:  "TIL what does '!r' in format string mean in Python; What ExpressLRS and Crossfire have in common"
 date:   2023-09-13 19:37:00 +0200
-categories: TIL, Python, __repr__, __str__
+categories: TIL, Python, __repr__, __str__, ExpressLRS, Crossfire, CRSF
 ---
 TIL what does '!r' in format string mean: [Python: the !r string format and the \_\_repr\_\_() and \_\_str\_\_() methods](https://dev.to/behainguyen/python-the-r-string-format-and-the-repr-and-str-methods-29i7).
 
-Read AnyLeaf Blog [ExpressLRS overview](https://www.anyleaf.org/blog/expresslrs-overview).
+Some time ago I was confused by one of my colleagues stating and insisting that ExpressLRS and Crossfire are the same and both use Crossfire protocol. So I spent some time googling for that. The answer is "No". ExpressLRS and Crossfire are different. What they have in common - they both use CRSF protocol.
+
+Following exerts are from AnyLeaf Blog post [ExpressLRS overview](https://www.anyleaf.org/blog/expresslrs-overview). AnyLeaf manufactures flight controllers, ExpressLRS receivers and other drone electronics as well as some water products.
+
+> Receivers (Rx modules) process RF signals, then pass them to the FC over a pair of UART lines. The protocol they use with the FC is [Crossfire (CRSF)](https://github.com/ExpressLRS/ExpressLRS/wiki/CRSF-Protocol). (CRSF is also associated with a radio system, but ELRS only uses it to communicate with the FC) This means that FC firmware that supports CRSF supports ELRS. This protocol rarely changes, so FC firmware doesn't need to be updated to take advantage of ELRS updates.
+
+> Recall how we described how ELRS communicates with the FC using CRSF - ELRS maps its own channel configuration on CRSF's. Unless you write or maintain FC firmware (like Betaflight), you don't need to worry about this. Note that ELRS channels - including number of channels, what they correspond to, and their bit depth - doesn't correspond exactly to the CRSF channels your FC reads.
+
+Interesting issue [CRSF Protocol Repo](https://github.com/tbs-fpv/freedomtx/issues/26) where TBS (Team Black Sheep - team behind Crossfire) discussing opening CRSF protocol and making separate repo for it.
+
+Here is [WiKi CRSF Protocol](https://github.com/ExpressLRS/ExpressLRS/wiki/CRSF-Protocol) in ExpressLRS repo.
+
+If we talk about ExpressLRS - Crossfire differences, here is interesting [reddit topic ELRS VS CROSSFIRE](https://www.reddit.com/r/fpv/comments/w20yr8/elrs_vs_crossfire/). It has very interesting links. ExpressLRS has lower latency and huge distance range.
