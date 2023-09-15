@@ -1,0 +1,43 @@
+---
+layout: post
+title:  "TIL PPM, PGM, PBM, PAM textual file formats for images/bitmaps"
+date:   2023-09-14 19:23:00 +0200
+categories: TIL, PPM, PGM, PBM, PAM
+---
+In my projects I often reinvent textual formats for images or bitmaps, e.g. like [in this unit test of Swift package `RaspberryPiSenseHat` for Raspberry Pi Sense ](https://github.com/valeriyvan/RaspberryPiSenseHat/blob/f9c93a609e0d53e5a6af5da67574d18269d68f2a/Tests/SenseHatTests/SenseHatTests.swift#L467)
+[](https://en.wikipedia.org/wiki/Netpbm), or [like this bitmap saved for unit test in swift-geometrize Swift package](https://github.com/valeriyvan/swift-geometrize/blob/c8d85b8aeaf98820167a91038a38437813cc92b6/Tests/geometrizeTests/Resources/defaultEnergyFunction%20target%20bitmap.txt). TIL I learned since 1980s there is a family of formats for this:
+
+* portable pixmap format (.PPM)
+* portable graymap format (.PGM)
+* portable bitmap format (.PBM)
+
+> They are also sometimes referred to collectively as the portable anymap format (.PNM), not to be confused with the related portable arbitrary map format (.PAM). 
+
+> The "magic number" (Px) at the beginning of a file determines the type, not the file extension, although it is best practice to use the right extension if possible.
+
+```
+P1
+# This is an example bitmap of the letter "J"
+6 10
+0 0 0 0 1 0
+0 0 0 0 1 0
+0 0 0 0 1 0
+0 0 0 0 1 0
+0 0 0 0 1 0
+0 0 0 0 1 0
+1 0 0 0 1 0
+0 1 1 1 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+```
+
+Here is the resulting image:
+![Example of ASCII-art turned into a bitmap](/assets/images/Example_of_ASCII-art_turned_into_a_bitmap.pbm.png "Example of ASCII-art turned into a bitmap")
+
+It does make sense to make swift package for this and then reuse this package in my projects.
+
+Came accross interesting contest for generating PBM file from ASCII text with minimal count of source code lines [Generating PBM bitmap files from ASCII text](https://codegolf.stackexchange.com/questions/4638/generating-pbm-bitmap-files-from-ascii-text). Swift is mising there. It's a challenge!
+
+Read PointFree's blog post [Inline Snapshot Testing](https://www.pointfree.co/blog/posts/113-inline-snapshot-testing) about releasing new version of [swift-snapshot-testing](https://github.com/pointfreeco/swift-snapshot-testing). 3 years old blog post of initial implemeneter: [Inline Snapshot Testing](https://medium.com/@rjchatfield/inline-snapshot-testing-e5e237fc47f3).
+
+TIL [CLI `ioreg | grep -i cam` for macOS to list all available camera/video devices](https://apple.stackexchange.com/a/401156). Same with [ffmpeg](https://trac.ffmpeg.org/wiki/Capture/Webcam#OSX): `ffmpeg -f avfoundation -list_devices true -i ""`.
