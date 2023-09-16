@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL servo can be Positional rotation and Continuous rotation"
+date:   2023-09-15 19:55:00 +0200
+categories: TIL, Positional rotation servo, Continuous rotation servo, Quaternion
+---
+TIL that regular servo motors which are rotating on some angle are called Positional rotation servo. TIL that beside of Positional rotation servo exist Continuous rotation servos. [Introduction to Servo Motors](https://www.sciencebuddies.org/science-fair-projects/references/introduction-to-servo-motors).
+
+Read Anyleaf's blog post [Quadcopter flight controller MCU comparison Or, what H7, G4, F7, F4 etc mean](https://www.anyleaf.org/blog/quadcopter-flight-controller-mcu-comparison). [Estimating drone attitude](https://www.anyleaf.org/blog/estimating-drone-attitude).
+
+Read [Quaternions: A practical guide](https://www.anyleaf.org/blog/quaternions:-a-practical-guide).
