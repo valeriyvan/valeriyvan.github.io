@@ -1,0 +1,81 @@
+---
+layout: post
+title:  "TIL about SBUS"
+date:   2023-09-18 13:18:00 +0200
+categories: TIL, SBUS
+---
+Googled for SBUS specification and failed to find good source of information. Then I asked ChatGPT: "Give me specification of SBUS protocol used in remote controlled vehicles." Here is the answer:
+
+SBUS (Serial Bus) is a digital communication protocol commonly used in remote-controlled vehicles, especially in the radio control (RC) hobby industry. It is known for its low latency and high precision, making it suitable for controlling various functions of RC vehicles such as drones, airplanes, helicopters, cars, and boats. Below are the key specifications of the SBUS protocol:
+
+1. **Serial Communication:** SBUS uses serial communication to transmit data between the RC transmitter (controller) and the receiver (onboard the vehicle). It operates at a baud rate of 100,000 bits per second (100kbps).
+
+2. **Data Frame:** SBUS uses a continuous stream of data frames, with each frame being 25 bytes (200 bits) long.
+
+3. **Channel Information:** SBUS supports up to 16 proportional channels, typically used for controlling different functions of the RC vehicle, such as throttle, steering, pitch, roll, yaw, and auxiliary functions. Each channel is represented by a 11-bit data word within the SBUS frame.
+
+4. **Digital Signals:** Unlike PWM (Pulse Width Modulation) signals commonly used in older RC systems, SBUS uses digital signals, which are less susceptible to interference and provide more precise control.
+
+5. **Redundancy:** SBUS systems often provide redundancy by using dual receivers. If one receiver fails or experiences interference, the system seamlessly switches to the other receiver to maintain control.
+
+6. **Compatibility:** SBUS is a common protocol in the RC industry, and many manufacturers produce SBUS-compatible transmitters, receivers, and flight controllers. It is widely used in conjunction with flight controllers in drones and other RC vehicles.
+
+7. **Failsafe:** SBUS systems include failsafe functionality. In the event of signal loss or interference, the receiver can be programmed to take specific actions, such as holding the last known control positions or returning the vehicle to a predefined safe state.
+
+8. **Inverted SBUS:** Some receivers offer an inverted SBUS signal, which can be useful when connecting to certain flight controllers or other devices that require inverted signals.
+
+9. **Telemetry:** In some cases, SBUS receivers can transmit telemetry data back to the transmitter, providing information about the status of the vehicle, such as battery voltage, signal strength, and more.
+
+10. **Compatibility with Flight Controllers:** SBUS is often used as the communication protocol between RC receivers and flight controllers in drones and other aircraft. Flight controllers interpret SBUS data to stabilize and control the vehicle.
+
+Then I asked ChatGPT: "How to send SBUS message to Betaflight flight controller from companion computer?" Here's the quite good answer:
+
+Keep in mind that while SBUS is a widely used protocol in the RC hobby industry, there are other communication protocols available as well, such as PPM (Pulse Position Modulation) and PWM, which have different characteristics and are used in various applications within the RC community.
+
+To send SBUS messages to a Betaflight flight controller from a companion computer (e.g., a Raspberry Pi or any other computer), you will need to use a communication protocol like SBUS or Serial/UART to interface with the flight controller. Here's a general guide on how to achieve this:
+
+1. **Hardware Setup:**
+   Ensure that you have the necessary hardware components in place:
+   - Betaflight-compatible flight controller with an SBUS input.
+   - Companion computer (e.g., Raspberry Pi).
+   - USB-to-Serial adapter (if your companion computer doesn't have a built-in UART).
+   - Appropriate cables and connectors.
+
+2. **SBUS to UART Converter (if needed):**
+   If your companion computer doesn't have a UART port (many Raspberry Pi models do not), you may need to use a USB-to-Serial adapter to create a UART interface for communication. Connect the SBUS signal wire to the adapter's RX pin and connect the adapter to the USB port on the companion computer.
+
+3. **Configure UART Communication:**
+   On your companion computer, configure the UART port (or USB-to-Serial adapter) for communication. This may involve setting the baud rate, parity, and stop bits to match the SBUS protocol requirements. You'll need to use a programming language like Python or a similar language to interact with the UART port.
+
+4. **Install Appropriate Libraries:**
+   Depending on your companion computer's platform, you may need to install libraries or packages that allow you to work with UART communication. For example, if you're using a Raspberry Pi, you can use the `serial` library in Python.
+
+5. **SBUS Message Encoding:**
+   Write a program on your companion computer that encodes your control data into the SBUS message format. This should include start and end bytes, status, and channel data, adhering to the SBUS protocol specifications.
+
+6. **Send SBUS Data:**
+   Use your program to send the SBUS messages to the Betaflight flight controller via the UART interface. This typically involves opening the UART port, sending the SBUS data frames, and closing the port when you're done.
+
+7. **Configure Betaflight:**
+   Ensure that your Betaflight flight controller is configured to receive SBUS signals. This may involve setting the correct receiver protocol in the Betaflight configurator software and mapping the SBUS channels to the appropriate functions (e.g., throttle, yaw, pitch, roll).
+
+8. **Testing and Calibration:**
+   Test your setup thoroughly to ensure that the SBUS data is being transmitted from the companion computer to the flight controller accurately. You may also need to calibrate your RC transmitter and flight controller to ensure proper control response.
+
+9. **Safety Precautions:**
+   When testing your setup, always do so in a controlled environment, and ensure that your RC vehicle is securely placed on a stand or surface to prevent unexpected movement.
+
+10. **Debugging and Optimization:**
+    Debug and optimize your setup as needed to ensure reliable communication and control. Monitor any error messages or feedback from the flight controller and adjust your code accordingly.
+
+Remember that the specific implementation details may vary depending on the hardware and software you're using, so consult the documentation for your companion computer and flight controller for more detailed instructions and compatibility information.
+
+Not bad. Far better then I could google.
+
+Some info about [S-BUS protocol](https://os.mbed.com/users/Digixx/notebook/futaba-s-bus-controlled-by-mbed/#:~:text=The%20Futaba%20S%2DBUS%20protocol,signal%20must%20be%20first%20inverted.)
+
+SBUS implementation in C++: [FUTABA_SBUS]()https://github.com/mikeshub/FUTABA_SBUS/tree/master/FUTABA_SBUS with usage example.
+
+Watched [Everybody should be using these FPV Lua Scripts](https://www.youtube.com/watch?v=RCS72GVR0gs).
+
+Browsed ArduPilots [Lua Scripts](https://ardupilot.org/copter/docs/common-lua-scripts.html) section. This feature looks solid. It seems quite sophisticated algorithms like target following could be implemented by LUA script provided target coordinates in video frame are feed on some port like UART. ArduPilot's [LUA documentation](https://github.com/ArduPilot/ardupilot/blob/master/libraries/AP_Scripting/docs/docs.lua), [LUA script examples](https://github.com/ArduPilot/ardupilot/tree/master/libraries/AP_Scripting/examples). Watched [ArduPilot Lua scripts - basic examples](https://www.youtube.com/watch?v=HVV8Jd67Q8o) has several quite interesting examples. [ArduPilot Lua Scripting Basics](https://www.youtube.com/watch?v=EGWrmJAVWkY).
