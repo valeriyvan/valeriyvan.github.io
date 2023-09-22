@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL a lot about PID controller"
+date:   2023-09-21 19:15:00 +0200
+categories: TIL, PID
+---
+Read [Phenomenological Introduction to PID controllers](https://vanhunteradams.com/PID/PID.html).
+
+> This document focuses on building a phenomenological understanding of PID controllers through demos.
+
+Read [Analytical Introduction to PID controllers](https://vanhunteradams.com/PID/PID_Analytical.html).
+
+Watched [PID controller explained](https://www.youtube.com/watch?v=fv6dLTEvl74), [What are PID Tuning Parameters?](https://www.youtube.com/watch?v=1ImhKwpSmuc), [How to Tune a PID Controller](https://www.youtube.com/watch?v=IB1Ir4oCP5k). These are very good.
