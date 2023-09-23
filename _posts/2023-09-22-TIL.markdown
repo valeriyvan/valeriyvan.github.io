@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Read extreemly interesting post Exploring EXIF"
+date:   2023-09-22 19:22:00 +0200
+categories: TIL, EXIF, SQL, Python, Loguru
+---
+Read extreemly interesting post [Exploring EXIF](https://hturan.com/writing/exploring-exif) with examples how to make sql requests to Apple Photo Library on macOS.
+
+Read [A Complete Guide to Logging in Python with Loguru](https://betterstack.com/community/guides/logging/loguru/).
