@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "TIL URL Text Fragments"
+date:   2023-09-23 19:29:00 +0200
+categories: TIL, URL Text Fragments
+---
+[Puffed LiPo Batteries - Oops!](https://www.rchelicopterfun.com/puffed-lipo.html) Puffing is caused by gassing of the electrolyte or electrolyte decomposition.
+
+TIL about [Text Fragments](https://stackoverflow.com/a/63004167/942513) to select part in URL. E.g. [https://www.rchelicopterfun.com/puffed-lipo.html#:~:text=Some%20feel%20once%20a%20LiPo,and%20must%20be%20disposed%20of.](https://www.rchelicopterfun.com/puffed-lipo.html#:~:text=Some%20feel%20once%20a%20LiPo,and%20must%20be%20disposed%20of.) opens page with text fragment selected.
+
+Explanation [Boldly link where no one has linked before: Text Fragments](https://web.dev/text-fragments/),
+Draft [URL Fragment Text Directives](https://wicg.github.io/scroll-to-text-fragment/).
+
+Read [RC LiPo Batteries. How to get the most life & fun out of them!](https://www.rchelicopterfun.com/lipo-batteries.html). The website itself [RC HELICOPTER FUN](https://www.rchelicopterfun.com) is dedicated to helicopters but has a lot of useful information related to RC models.
+
+[Simple data pipeline powertools: sqlite, pandas, gnuplot and friends. Why my favourite API is a zipfile on the European Central Bank's website](https://csvbase.com/blog/5).
+
+TIL [Bokeh](https://docs.bokeh.org).
+
+Read [Using Uninitialized Memory for Fun and Profit](https://research.swtch.com/sparse)
+
+> This is the story of a clever trick that's been around for at least 35 years, in which array values can be left uninitialized and then read during normal operations, yet the code behaves correctly no matter what garbage is sitting in the array. 
