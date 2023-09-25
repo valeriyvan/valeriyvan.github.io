@@ -20,3 +20,9 @@ TIL [Bokeh](https://docs.bokeh.org).
 Read [Using Uninitialized Memory for Fun and Profit](https://research.swtch.com/sparse)
 
 > This is the story of a clever trick that's been around for at least 35 years, in which array values can be left uninitialized and then read during normal operations, yet the code behaves correctly no matter what garbage is sitting in the array. 
+
+Browsed paper [An Efficient Representation for Sparse Sets](/assets/docs/An%20Efficient%20Representation%20for%20Sparse%20Sets%20Preston%20Briggs%20Linda%20Torczon%20Rice%20University.pdf).
+
+`swift-collection` has an [issue discussing possible addition of Sparse Set](https://github.com/apple/swift-collections/issues/24).
+
+Watched [Betaflight 4.4 Tuning Guide + Tips and Tricks for the BEST tune!](https://www.youtube.com/watch?v=sNAV4gx_gBY) This include PID tuning.
