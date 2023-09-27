@@ -8,6 +8,31 @@ Read how [PWM (Pulse Width Modulation) works to control servos](https://www.digi
 
 Watched and fallowed video [03 Pymavlink Takeoff](https://www.youtube.com/watch?v=NTjEcHmqmu4) and [04 Pymavlink Movement](https://www.youtube.com/watch?v=yyt4VjBRG_Y&t=5s).
 
-Googling for SBUS have found a series [How to Write your own Flight Controller Software](https://medium.com/p/ac08b6ecc01e). Marvelous!
+Googling for SBUS have found a series [How to Write your own Flight Controller Software](https://medium.com/p/ac08b6ecc01e). Marvelous! [How to Write your own Flight Controller Software — Part 3](https://reefwing.medium.com/how-to-write-your-own-flight-controller-software-part-3-add80cb78736) has quite interesting info about PID regulators.
+
+Following image, explaining effect of changing PID coefficients I find useful:
+![Effect of Changing PID Loop Gains: Kp, Ki and Kd](/assets/images/Effect%20of%20Changing%20PID%20Loop%20Gains%20Kp%20Ki%20and%20Kd.webp "Effect of Changing PID Loop Gains: Kp, Ki and Kd")
+
+[How to Write your own Flight Controller Software — Part 4](https://reefwing.medium.com/how-to-write-your-own-flight-controller-software-part-4-8d4c9ce4319) has good explanation about cascading PID loops as one possible approach of controlling multirotor.
+
+![Motor Mixing Algorithm](/assets/images/Motor%20Mixing%20Algorithm.webp "Motor Mixing Algorithm")
+
+[How to Write your own Flight Controller Software — Part 5](https://reefwing.medium.com/how-to-write-your-own-flight-controller-software-part-5-a59bf9ed8c69).
+
+> In Part 5 of our series on writing your own flight controller software we will focus on the IMU and in particular explain the best ways to convert the gyro rate and accelerometer force data to a roll and pitch angle. The yaw angle is then calculated using the pitch and roll and magnetometer data. 
+
+It's discussed building of IMU based on Arduino Nano 33 BLE.
+
+[How to Write your own Flight Controller Software — Part 6](https://reefwing.medium.com/how-to-write-your-own-flight-controller-software-part-6-7ce0fa3e8008). It's about LiPo Battery Monitoring using a scheduler.
+
+[How to Write your own Flight Controller Software — Part 7](https://reefwing.medium.com/how-to-write-your-own-flight-controller-software-part-7-64daef8299ee) which covers the Attitude and Heading Reference System (AHRS), IMU Filters and Sensor Fusion. We have released the open source ReefwingAHRS Arduino library to demonstrate these techniques on the Nano 33 BLE. 
+
+[How to Write your own Flight Controller Software — Part 8](https://reefwing.medium.com/how-to-write-your-own-flight-controller-software-part-8-812f0bc9e619) covers building A light weight Arduino implementation of the MultiWii Serial Protocol.
+
+[How to Write your own Flight Controller Software — Part 9](https://reefwing.medium.com/how-to-write-your-own-flight-controller-software-part-9-c87fffb426eb) ESC Arming and an Introduction to BLDC Motors.
+
+[How to Write your own Flight Controller Software — Part 10](https://reefwing.medium.com/how-to-write-your-own-flight-controller-software-part-10-996ed6786c5) Understanding and Controlling Brushed DC Motors
+
+[How to Write your own Flight Controller Software — Part 11](https://reefwing.medium.com/how-to-write-your-own-flight-controller-software-part-11-dee7feef05f2) Managing Brushless DC (BLDC) Motors
 
 Looking [ExpressLRS Configurator](https://github.com/ExpressLRS/ExpressLRS-Configurator#macos) found something I didn't know: how to launch app if macOS cannot be opened because the developer cannot be identified - Control - Open. Alternatively, following could be used `sudo xattr -rd com.apple.quarantine /Applications/ExpressLRS\ Configurator.app`. The latter didn't work for me giving a bunch of permission errors. But Control - Open in Finder worked pretty well.
