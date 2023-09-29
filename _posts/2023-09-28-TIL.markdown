@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read Access Control and `protected` post in Apple Swift blog"
+date:   2023-09-28 19:20:00 +0200
+categories: TIL, Swift, Access Control
+---
+Read [Access Control and protected](https://developer.apple.com/swift/blog/?id=11) post in Apple Swift blog explaining why Swift doesn't have `protected` access control.
