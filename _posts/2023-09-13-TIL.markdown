@@ -16,6 +16,8 @@ Following exerts are from AnyLeaf Blog post [ExpressLRS overview](https://www.an
 
 Interesting issue [CRSF Protocol Repo](https://github.com/tbs-fpv/freedomtx/issues/26) where TBS (Team Black Sheep - team behind Crossfire) discussing opening CRSF protocol and making separate repo for it.
 
+Some details of CRSF protocol could be found in [`crsf.c`](https://github.com/betaflight/betaflight/blob/master/src/main/rx/crsf.c) of betaflight.
+
 Here is [WiKi CRSF Protocol](https://github.com/ExpressLRS/ExpressLRS/wiki/CRSF-Protocol) in ExpressLRS repo.
 
 If we talk about ExpressLRS - Crossfire differences, here is interesting [reddit topic ELRS VS CROSSFIRE](https://www.reddit.com/r/fpv/comments/w20yr8/elrs_vs_crossfire/). It has very interesting links. ExpressLRS has lower latency and huge distance range.
