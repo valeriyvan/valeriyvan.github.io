@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "TIL what does process legacyScreenSaver-x84-64 mean on Apple M1"
+date:   2023-09-29 19:46:00 +0200
+categories: TIL, macOS, Sonoma, Screen Saver framework
+---
+Yesterday I have updated macOS to 14.0 Sonoma and have some difficulties making my beloved [Motivation screenshot](https://github.com/valeriyvan/Motivation) working after macOS update. Introducing new screen savers Apple has broken screensavers used before 14.0 release. Accidently I have found that process `legacyScreenSaver-x84-64` takes ~100% of one of cores. Things are nore broken than I might have expected.
+
+Googling for found this [ScreenSaver: legacyScreenSaver process?](https://developer.apple.com/forums/thread/117136) thread on Apple developer forums. From it I jumped to [Screen Saver framework](https://developer.apple.com/documentation/screensaver).
+
+> Because screen savers are plug-ins for the screen saver engine, the screen saver binary must support the same hardware architecture of the running engine. As with any application, the screen saver engine uses the native architecture of the host computer. For full compatibility, make sure your screen saver supports both the x86_64 and arm64 architectures.
+
+But why do I have `legacyScreenSaver-x84-64` on M1?
+
+Inspecting `Motivation.saver` bundle in `/Libary/Screen Savers/` I have found that it was build in 2021. Probably, on Intel. After rebuilding on M1 and installing I see only process `legacyScreenSaver (Wallpaper)` taking periodically 1.9% of one CPU core. Why to take CPU time at all if screen saver is not running? But anyway it's better then ~100% of one CPU core.
