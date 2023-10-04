@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "TIL Pipenv"
+date:   2023-10-03 18:36:00 +0200
+categories: TIL, Pipenv
+---
+Read Bicraze's [Discussion – How to handle the increasing complexity of the expansion decks](https://www.bitcraze.io/2023/10/discussion-how-to-handle-the-increasing-complexity-of-the-expansion-decks/)
+
+TIL [Pipenv: A Guide to the New Python Packaging Tool](https://realpython.com/pipenv-guide/).
+
+TIL [**Ctrl+M** in Xcode for formatting function parameters](https://twitter.com/lukeeep_/status/1707064508143768002?s=43&t=6rmSjK21fIpso2_vOjKRhg). It's magic.
+
