@@ -1,0 +1,61 @@
+---
+layout: post
+title:  "TIL what is 6DOF and 9DOF sensor fusion"
+date:   2023-10-04 19:21:00 +0200
+categories: TIL, 6DOF, 9DOF, Sensor fusion, UML, Code smells
+---
+TIL what is 9DOF and 6DoF [Sensor Fusion Algorithms](https://learn.adafruit.com/ahrs-for-adafruits-9-dof-10-dof-breakout/sensor-fusion-algorithms).
+
+> Adafruit's 9DOF (9 Degrees of Freedom) breakout board allows you to capture nine distinct types of motion or orientation related data: 3 degrees each of acceleration, magnetic orientation, and angular velocity.
+
+> Six-degree-of-freedom (6DoF) sensors measure translation along three axes and rotation around three axes. These collocated measurements make it possible to fully describe building motion without the need for an external reference point.
+
+Read [Basics of 6DOF and 9DOF sensor fusion](https://embeddedcomputing.com/technology/analog-and-power/basics-of-6dof-and-9dof-sensor-fusion).
+
+TIL [Magnetometer ∞ shaped calibration](https://electronics.stackexchange.com/questions/22144/magnetometer-∞-shaped-calibration) aka Figure 8 method of calibration.
+
+Read [Accelerometer Specifications: Deciphering an Accelerometer's Datasheet](https://blog.endaq.com/accelerometer-specifications-decoding-a-datasheet).
+
+Came across a line in documentation: Gyroscope measures angular velocity, in 3 axis, in °/s, scale factor is LSB/(°/s). And I was puzzled how could I convert raw gyro reading into °/s. Googled it but failed to find something helpful. Then I asked ChatGPT. It's not the first time when ChatGPT come handy:
+
+To convert accelerometer raw readings to degrees per second (°/s), you need to follow these steps:
+
+1. **Understand the Sensitivity**: Determine the sensitivity or scale factor of your accelerometer. You mentioned in your question that the scale factor is given as LSB/g, which means it measures acceleration in units of least significant bits per gravitational force (g). This scale factor tells you how many LSBs correspond to 1 g of acceleration.
+
+2. **Calculate Acceleration**: Calculate the linear acceleration in g units from your accelerometer's raw readings. The raw readings may be in counts or LSBs. Let's call this value "acceleration_g."
+
+3. **Convert to Angular Velocity**: To convert linear acceleration to angular velocity, you need to know the radius (distance from the rotation axis) at which the accelerometer is mounted. Let's call this "r" in meters.
+
+4. **Apply the Formula**: Use the formula for angular velocity due to linear acceleration in circular motion:
+
+   Angular Velocity (ω) = acceleration_g / r
+
+   This formula assumes that the linear acceleration is occurring at a constant radius from the rotation axis. If the radius varies, you'll need additional information to account for that.
+
+5. **Units**: Ensure that the units match your requirement. If your accelerometer's raw readings were in LSBs per g, and your radius is in meters, the resulting angular velocity will be in °/s.
+
+Here's an example of the calculation:
+
+Suppose you have an accelerometer with a scale factor of 1000 LSB/g, and it measures a linear acceleration of 2 g. You have it mounted at a radius of 0.1 meters (10 cm) from the rotation axis.
+
+1. Scale factor (LSB/g) = 1000 LSB/g
+2. Linear acceleration (acceleration_g) = 2 g
+3. Radius (r) = 0.1 meters
+
+Now, calculate the angular velocity:
+
+Angular Velocity (ω) = acceleration_g / r
+Angular Velocity (ω) = (2 g) / (0.1 meters)
+Angular Velocity (ω) = 20 °/s
+
+So, in this example, the accelerometer's raw reading of 2 g corresponds to an angular velocity of 20 °/s when mounted at a radius of 0.1 meters from the rotation axis.
+
+TIL what is [UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language).
+
+>The unified modeling language (UML) is a general-purpose visual modeling language that is intended to provide a standard way to visualize the design of a system.[1]
+
+> UML provides a standard notation for many types of diagrams which can be roughly divided into 3 main groups: behavior diagrams, interaction diagrams, and structure diagrams.
+
+Read [Sequence Diagram Tutorial – Complete Guide with Examples](https://creately.com/guides/sequence-diagram-tutorial/).
+
+Read interesting [Code smells catalog](https://luzkan.github.io/smells).
