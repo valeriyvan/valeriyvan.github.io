@@ -1,0 +1,65 @@
+---
+layout: post
+title:  "TIL Metatypes in Swift"
+date:   2023-10-09 19:44:00 +0200
+categories: TIL, Swift, Metatype, swift-testing
+---
+Today I have tried to replace [`ShapeType`](https://github.com/valeriyvan/swift-geometrize/blob/3b36706cbd4e516a00344008886a77c1ecd7dcbb/Sources/geometrize/Shapes/Shape.swift#L6) with something more swifty.
+
+```Swift
+public enum ShapeType: String, CaseIterable {
+    case rectangle
+    case rotatedRectangle
+    case triangle
+    case ellipse
+    case rotatedEllipse
+    case circle
+    case line
+    case quadraticBezier
+    case polyline
+    // ...
+}
+```
+
+And came across several sharp edges of Swift.
+
+Found out Metatypes in Swift are neither hashable nor equatable so I had to use an array where I wanted to use a set.
+
+Read [Chapter Types of Language reference of The Swift Programming Language](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/types/) book.
+
+Following is a bit confusing. Being asked what are *compound types* in Swift I would answer about structures and classes.
+
+> A *compound type* is a type without a name, defined in the Swift language itself. There are two compound types: function types and tuple types. A compound type may contain named types and other compound types. For example, the tuple type `(Int, (Int, Int))` contains two elements: The first is the named type `Int`, and the second is another compound type `(Int, Int)`.
+
+Following is curious. Being asked what declares `(Int)` I would answer it's a tuple with one member.
+
+> You can put parentheses around a named type or a compound type. However, adding parentheses around a type doesn’t have any effect. For example, `(Int)` is equivalent to `Int`.
+
+When an element of a tuple type has a name, that name is part of the type. I thought about tuple element names as optional. But it only means tuple element names just could be inferred.
+
+```Swift
+var someTuple = (top: 10, bottom: 12)  // someTuple is of type (top: Int, bottom: Int)
+someTuple = (top: 4, bottom: 42) // OK: names match
+someTuple = (9, 99)              // OK: names are inferred <-- This is interesting.
+someTuple = (left: 5, right: 5)  // Error: names don't match
+```
+
+I thought `()` is strange alias for `Void`. It's vise versa:
+
+> All tuple types contain two or more types, except for `Void` which is a type alias for the empty tuple type, `()`.
+
+Hm, interesting:
+
+> Argument names in functions and methods aren’t part of the corresponding function type. 
+
+> Because argument labels aren’t part of a function’s type, you omit them when writing a function type.
+
+```Swift
+var operation: (lhs: Int, rhs: Int) -> Int     // Error
+var operation: (_ lhs: Int, _ rhs: Int) -> Int // OK
+var operation: (Int, Int) -> Int               // OK
+```
+
+TIL beside of `.Type` in Swift exists `.Protocol`: [Metatype Type](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/types#Metatype-Type).
+
+TIL about [swift-testing](https://github.com/apple/swift-testing). It looks like future replacement of XCTest.
