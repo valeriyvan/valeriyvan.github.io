@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Read great A Primer on Bézier Curves"
+date:   2023-10-12 19:27:00 +0200
+categories: TIL, git, Bresenham
+---
+TIL how to unstash certain files: `git checkout stash@{<index-no>} -- <filename>` or `git restore -- source=stash@{<index-no>} -- <filename>`
+
+It's gem: [A Primer on Bézier Curves](https://pomax.github.io/bezierinfo/).
+
+From [Stack overflow answer on a question how to draw a thick straight line with modified Brasenham algorithm(https://stackoverflow.com/a/20754640/942513) come to [working C code on GitHub](https://github.com/ArminJo/Arduino-BlueDisplay/blob/master/src/LocalGUI/ThickLine.hpp) which I am using now in [swift-geometrize](https://github.com/valeriyvan/swift-geometrize).
+
+Found paper [A Rasterizing Algorithm for Drawing Curves](/assets/docs/A%20Rasterizing%20Algorithm%20for%20Drawing%20Curves.pdf) which I am going to use later to draw Bezier Curves with thickness on swift-geometrize.
