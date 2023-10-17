@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "TIL about `withLock` existing in all kinds of locks"
+date:   2023-10-16 19:16:00 +0200
+categories: TIL, Swift, NSLocking, GitHub Action, YAML
+---
+TIL about `withLock` existing in all kinds of locks. It's strange I haven't encountered it before. It's declared in [NSLocking protocol](https://developer.apple.com/documentation/foundation/nslocking).
+
+```swift
+private let lock = NSRecursiveLock()
+lock.withLock {
+    state[keyPath: keyPath]
+}
+```
+
+Set up [workflow to build and test swift-geometrize on Ubuntu](https://github.com/valeriyvan/swift-geometrize/blob/main/.github/workflows/build-run-tests-ubuntu.yml). Side effect of this - [`install-swift.sh` script for installing Swift 5.9 on Ubuntu 22.04](https://gist.github.com/valeriyvan/4801ca8b727bfde5d573179063e79f67). Currently workflow installs dependencies with `apt-get` everytime it runs. That's waist of resources. It could be improved with [caching](https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows). It looks a bit complicated. May be later I will [return to it](https://github.com/valeriyvan/swift-geometrize/issues/89).
+
+I see this [GitHub Actions' Workflow for Swift Package](https://gist.github.com/YOCKOW/352b3594bfcb2c06d953647adaf65e78) which builds Swift package on both Ubuntu 22.04 and macOS and uses caching for dependencies. A bit more complex Action [Swift Setup](https://github.com/marketplace/actions/swift-setup) of the same author in Actions marketplace. May be I should just use it.
+
+This is nice Action [Swift Release](https://github.com/marketplace/actions/swift-release) for releasing Swift package.
+
+TIL how strange YAML syntax is that it needs dedicated website to explain [how to make multi-line string in YAML](https://yaml-multiline.info). I needed multi-line string for incorporating Swift install commands into GitHub workflow.
