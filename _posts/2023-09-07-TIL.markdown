@@ -4,4 +4,6 @@ title:  "TIL `ssh -X` for X Windows forwarding"
 date:   2023-09-07 19:59:00 +0200
 categories: TIL, X Windows forwarding
 ---
-TIL `-X` option to enable X Windows forwarding [X Windows Forwarding on Mac OS X](http://www.dba-oracle.com/t_linux_x_windows_mac_os.htm). X Windows has to be installed on local Mac. I downloaded  [X11 for Mac OS X 1.0](https://support.apple.com/kb/DL641?locale=en_GB) from Apple. But after launching it says it's from unidettified developers.
+TIL `-X` option to enable X Windows forwarding [X Windows Forwarding on Mac OS X](http://www.dba-oracle.com/t_linux_x_windows_mac_os.htm). X Windows has to be installed on local Mac. I downloaded [XQuartz](https://www.xquartz.org), a version of X Window System that runs on macOS. Than I could login `ssh -X my-ubuntu-server` and there run `xclock` and see:
+
+![xclock](/assets/images/xclock%20Screenshot%202023-10-18%20at%2014.17.39.png "xclock")
