@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Read slides of VimConf 2019 talk by NeoVim creator Justin Key"
+date:   2023-10-19 19:27:00 +0200
+categories: TIL, neovim
+---
+Read [slides of VimConf 2019 talk by neovim creator Justin Key](https://vimconf.org/2019/slides/justin.pdf).
+
