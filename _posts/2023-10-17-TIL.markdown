@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Dug in interesting 2D geometry C++ library"
+date:   2023-10-17 19:20:00 +0200
+categories: TIL, git svn
+---
+Googling about rendering thick Bezier curves came across [Adaptive Subdivision of Bezier Curves.
+An attempt to achieve perfect result in Bezier curve approximation](https://agg.sourceforge.net/antigrain.com/research/adaptive_bezier/). It's by author of [C++ library Anti-Grain Geometry](https://agg.sourceforge.net/antigrain.com/index.html).
+
+For ages I haven't worked with `svn`. Now I had to [install `git svn` on macOS](https://stackoverflow.com/a/65602702/942513). What I wanted to make a copy in git of svn repo is: `git svg clone svn://svn.code.sf.net/p/agg/svn/ agg-svn`.
