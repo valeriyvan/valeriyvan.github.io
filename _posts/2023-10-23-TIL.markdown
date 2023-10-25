@@ -4,12 +4,12 @@ title:  "Dug in AirSim sources"
 date:   2023-10-23 19:15:00 +0200
 categories: TIL, AirSim, Swift Package Manager
 ---
-Dug in [AirSim](https://github.com/microsoft/AirSim/) sources and found in [`RotorParams.hpp`](https://github.com/microsoft/AirSim/blob/main/AirLib/include/vehicles/multirotor/RotorParams.hpp) in teresting link to [propeller performance database](http://m-selig.ae.illinois.edu/props/propDB.html): [UIUC Propeller Data Site](https://m-selig.ae.illinois.edu/props/propDB.html).
+Dug in [AirSim](https://github.com/microsoft/AirSim/) sources and found in [`RotorParams.hpp`](https://github.com/microsoft/AirSim/blob/main/AirLib/include/vehicles/multirotor/RotorParams.hpp) interesting link to [propeller performance database](http://m-selig.ae.illinois.edu/props/propDB.html): [UIUC Propeller Data Site](https://m-selig.ae.illinois.edu/props/propDB.html).
 
-[Editing Swift Packages in Visual Studio Code](https://www.timc.dev/posts/editing-pacakges-vscode/).
+Read [Editing Swift Packages in Visual Studio Code](https://www.timc.dev/posts/editing-pacakges-vscode/). Looks much more convinient than in Xcode.
 
-[Understanding Swift Packages and Dependency Declarations](https://www.timc.dev/posts/understanding-swift-packages/):
+Read [Understanding Swift Packages and Dependency Declarations](https://www.timc.dev/posts/understanding-swift-packages/). That's interesting. I used to see swift packages as dependecies in Xcode for once which were used only in test targets. That draw question like "What this package is doing in my project?".
 
-no longer would you have to download all transitive dependencies if some were only used in testing of your dependencies.
+> no longer would you have to download all transitive dependencies if some were only used in testing of your dependencies.
 
-I should look into this when next time I have strange errors resolving dependencies after editing package manifest.
+I should look into this post next time I have strange errors resolving dependencies after editing package manifest.
