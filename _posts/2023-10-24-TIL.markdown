@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "TIL ssh -A for agent forwarding"
+date:   2023-10-24 19:21:00 +0200
+categories: TIL, ssh, agent forward
+---
+TIL ssh -A aka agent forward while setting vscode to work with project on remote computer. I did't get from man what exactly -A is for so I asked chatGPT:
+
+> Explain me please ssh agent forward like I am five years old.
+
+> Sure! Imagine you have a magic key that can open a treasure chest, but you don't want to carry the key with you all the time because it's very special and important. So, you keep the key in a safe place at home.
+
+> Now, let's say you go to your friend's house, and your friend also has a treasure chest that you want to open. Instead of bringing your magic key with you, you tell your friend, "Hey, I have a special key at home that can open chests. Can you help me use it?" Your friend says, "Sure, just tell me when you need it."
+
+> When you want to open your friend's treasure chest, you ask your friend to use your special key, and your friend magically makes it work without giving you the actual key. Your friend helps you open the chest with your key, and you get the treasure without ever having to carry the key around.
+
+> In the world of computers, SSH (Secure Shell) Agent Forwarding works in a similar way. Instead of carrying your special key (used for logging into remote computers securely) with you everywhere, you keep it on your own computer. When you connect to another computer using SSH, you can tell that computer to use your special key without actually sharing the key itself. This way, you can log in securely to different computers without carrying your key with you all the time. It's like having a magical key that you can use wherever you go!
