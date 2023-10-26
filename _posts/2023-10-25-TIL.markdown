@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "TIL how to make Vapor listen port in external IP address"
+date:   2023-10-25 19:20:00 +0200
+categories: TIL, PID, Amazon ECS
+---
+Hung in [Improving the Beginner’s PID – Introduction](http://brettbeauregard.com/blog/2011/04/improving-the-beginners-pid-introduction/). I should pass through all series. May be, reimplementing everything in Swift package swift-pid.
+
+Read [How To Open a Port on Linux](https://www.digitalocean.com/community/tutorials/opening-a-port-on-linux). [How To Set Up a Firewall with UFW on Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-22-04). It finds out that in my case a problem was not in closed port when I tried access Vapor app by external IP from another machine, but rather with the fact that by default Vapor waits for connection only from `127.0.0.1`. It has to be run like `swift run App serve --hostname 164.90.230.212` to wait for connection from external IP address of its host machine: [Vapor Server documentation](https://docs.vapor.codes/advanced/server/). It funny, that book Server Side Swift never mentions how to launch Vapor app for waiting for external connections.
+
+Read [Running Vapor apps in the Cloud using Docker and Digital Ocean](https://maartene.github.io/blog/files/fc49f9fdc7928f8ecead7e6003bfa5cb-21.html).
+
+TIL AWS has special service to run containers - [Amazon Elastic Container Service](https://aws.amazon.com/ecs/).
+
+TIL [what to do when `Ctrl-C` doesn't stop process](https://superuser.com/a/243472). Short answer: `Ctrl-Z` and if process reacts on that, then `kill -9 PID`.
