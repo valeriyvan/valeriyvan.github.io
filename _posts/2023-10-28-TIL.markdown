@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL about `keyboardLayoutGuide` in iOS 15"
+date:   2023-10-28 19:22:00 +0200
+categories: TIL, iOS, keyboardLayoutGuide, Vulkan, Nvidia
+---
+TIL about [`keyboardLayoutGuide`](https://developer.apple.com/documentation/uikit/uiview/3752221-keyboardlayoutguide) which appeared in iOS 15.
+
+TIL what is [Vulkan](https://developer.nvidia.com/vulkan):
+
+> Vulkan is a new-generation graphics and compute API for high-efficiency, cross-platform access to GPUs. As the industry’s only open standard modern GPU API, Vulkan is unique in enabling developers to write applications that are portable to multiple diverse platforms.
