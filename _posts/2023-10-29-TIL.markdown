@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Passed over chapter 3 of Practical Server Side Swift book"
+date:   2023-10-29 19:30:00 +0200
+categories: TIL, Server Side Swift
+---
+Passed over chapter 3 of [Practical Server Side Swift book](https://theswiftdev.gumroad.com/l/practical-server-side-swift).
