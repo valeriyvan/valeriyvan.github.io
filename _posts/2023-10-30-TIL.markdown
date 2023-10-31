@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "TIL what is slug in URL"
+date:   2023-10-30 19:32:00 +0200
+categories: TIL, Swift, static library, dynamic library, System package, slug, UL
+---
+Read [Building static and dynamic Swift libraries using the Swift compiler](https://theswiftdev.com/building-static-and-dynamic-swift-libraries-using-the-swift-compiler/) -  it is all about emitting various Swift binaries without the Swift package manager, but only using the Swift compiler.
+
+TIL [what `noqa` means](https://www.geeksforgeeks.org/no-quality-assurance-noqa-in-python).
+
+TIL `library` target in Swift Packet Manager has `type` which could be `static` or `dynamic`:
+
+![](/assets/images/SPM%20static%20library%20Screenshot%202023-10-30%20at%2017.17.53.png)
+
+
+Came accross [`SystemPackageProvider`](https://developer.apple.com/documentation/packagedescription/systempackageprovider) in [`systemLibrary(name:path:pkgConfig:providers:)`](https://developer.apple.com/documentation/packagedescription/target/systemlibrary(name:path:pkgconfig:providers:)) in [`PackageDescription`](https://developer.apple.com/documentation/packagedescription). System package could install system library with `brew` or `apt` on macOS and Linux.
+
+TIL [What Is a Slug? URL Slugs and Why They Matter for SEO](https://www.semrush.com/blog/what-is-a-url-slug/).
