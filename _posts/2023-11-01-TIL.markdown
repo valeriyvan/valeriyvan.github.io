@@ -4,6 +4,6 @@ title:  "Tried neovim-qt for the first time"
 date:   2023-11-01 19:50:00 +0200
 categories: TIL, vim, NeoVim, Qt
 ---
-Installed [neovim-qt](https://github.com/equalsraf/neovim-qt) on Ubuntu server and tried using it on server with X-forwarding GUI to my mac.
+Installed [neovim-qt](https://github.com/equalsraf/neovim-qt) on Ubuntu server and tried using it on server with X-forwarding GUI to my mac. Note to future self: it's launched with `nvim-qt`.
 
 Read [Tired of crashing? Use Open Gimbal!](https://www.bitcraze.io/2023/10/tired-of-crashing-use-open-gimbal) by Bitcraze. It's brilliant idea.
