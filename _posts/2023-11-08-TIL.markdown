@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Read That is Why You and I Should Become Rustaceans"
+date:   2023-11-08 18:47:00 +0200
+categories: Rust, Rustacean
+---
+Read [That is Why You and I Should Become Rustaceans](https://medium.com/kbtg-life/that-is-why-you-and-i-should-become-rustaceans-31ddd212e52f).
+
+> Crab comes from the fact that Rust developers call themselves, “Rustaceans”, which comes from playing with the English word “Crustacean”. Crustacean refers to marine animals with hard shells. Then, Karen Rustad Tölva designed a cute crab named “Ferris the Crab” and it somehow became an unofficial mascot of the Rust language. The name “Ferris” comes from playing with the word “Ferrous”, which means “related to iron”, and this is in turn a play on the fundamental meaning of the word “Rust”, which means “corrosion”. “Again… it’s really multi-layered. It is slightly beyond my imagination”... 
+
+WiKi now defines [Rustacean](https://en.wiktionary.org/wiki/Rustacean) as a user of the Rust programming language.
