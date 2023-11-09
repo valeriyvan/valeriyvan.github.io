@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Read paper State Machine Design Pattern"
+date:   2023-11-06 19:20:00 +0200
+categories: TIL, State Machine Design Pattern, PID controller
+---
+Read paper [State Machine Design Pattern](/assets/docs/Paper%20State%20Machine%20Design%20Pattern.pdf).
+
+Browsed classical book [PID controllers theory design and tuning](/assets/docs/1-0-1-k-j-astrom-pid-controllers-theory-design-and-tuning-2ed.pdf).
+
+Played with online [PID control simulator allowing you to try out a PID controller interactively by adjusting the tuning parameters in realtime](http://grauonline.de/alexwww/ardumower/pid/pid.html). Would be good task to port this into Swift.
+
+Played with [sandbox application where you can play with a basic, manually-tuned PID control loop](https://eliottwiener.github.io/pidcontroldemo/).
