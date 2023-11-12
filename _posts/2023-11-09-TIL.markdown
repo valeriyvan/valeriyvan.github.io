@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL Apple has service to check whether clients connecting to your server are valid instances of your app"
+date:   2023-11-09 19:35:00 +0200
+categories: TIL, Attest, setup-swift, NSProcess
+---
+TIL Apple has Attest - service to check whether clients connecting to your server are valid instances of your app [Validating Apps That Connect to Your Server](https://developer.apple.com/documentation/devicecheck/validating_apps_that_connect_to_your_server).
+
+[setup-swift GitHub action](https://github.com/swift-actions/setup-swift) for configuring Swift for both macOS and Ubuntu which I should definately use instaed of [manually installing Swift as I do now](https://github.com/valeriyvan/swift-geometrize/blob/main/.github/workflows/build-run-tests-ubuntu.yml).
+
+TIL [`processorCount` in `NSProcess`](https://developer.apple.com/documentation/foundation/nsprocessinfo/1415622-processorcount) which I should use in [swift-geometrize](https://github.com/valeriyvan/swift-geometrize).
