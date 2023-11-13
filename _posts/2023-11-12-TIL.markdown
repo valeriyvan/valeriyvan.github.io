@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL Linker script"
+date:   2023-11-12 19:10:00 +0200
+categories: TIL, Linker script, GPS Fix
+---
+While exploring [betaflight](https://github.com/betaflight/betaflight/tree/master/src/link) I learned there's a programming languge for linker - [linker script](https://ftp.gnu.org/old-gnu/Manuals/ld-2.9.1/html_chapter/ld_3.html#SEC6).
+
+TIL what GPS fix state means: [Understanding the 3 States of GPS/GNSS Signals](https://learn.rockrobotic.com/understanding-the-3-states-of-gps/gnss-signals):
+
+> GPS or GNSS receiver can pick up signals from at least four satellites, it is said to be in the "Fix" state. In this state, the receiver can determine the user's location within a high range and can provide accurate information about the user's movement and velocity. The location is stable and does not change rapidly. This state is common in places with good satellite visibility, such as in open countryside or clear skies.
+
+All three states Of GPS/GNSS are: Single, Float and Fix.
