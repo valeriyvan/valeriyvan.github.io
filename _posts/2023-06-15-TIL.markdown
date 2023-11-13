@@ -6,4 +6,4 @@ categories: TIL, Swift, Vapor, Leaf
 ---
 Read [Vapor documentation](https://docs.vapor.codes/), post [File upload using Vapor 4](https://theswiftdev.com/file-upload-using-vapor-4/), book [Practical Server Side Swift](https://theswiftdev.gumroad.com/l/practical-server-side-swift) to make a [web page for geometrizing images](http://139.59.148.64:8080) which shares server and code with Telegram bot [Geometrizebot](https://t.me/geometrizebot).
 
-Is going change the page using AJAX with help of [AJAX calls using Vapor 4](https://theswiftdev.com/ajax-calls-using-vapor-4/).
+I am going change the page using AJAX with help of [AJAX calls using Vapor 4](https://theswiftdev.com/ajax-calls-using-vapor-4/).
