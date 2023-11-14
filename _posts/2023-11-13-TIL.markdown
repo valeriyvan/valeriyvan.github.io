@@ -1,0 +1,43 @@
+---
+layout: post
+title:  "TIL what is Proportional navigation"
+date:   2023-11-13 19:08:00 +0200
+categories: TIL, Proportional navigation, PID, GPS, UBlox, Betaflight
+---
+TIL what is [Proportional navigation](https://en.wikipedia.org/wiki/Proportional_navigation).
+
+TIL formal definition of [Guidance, navigation, and control (abbreviated GNC, GN&C, or G&C)](https://en.wikipedia.org/wiki/Guidance,_navigation,_and_control).
+
+Read [The complete guide to Betaflight GPS Rescue Mode](https://noirfpv.com/betaflight-gps-rescue-mode-the-complete-guide/). Other posts of the author on various FPV topic also worth attention.
+
+Read [GPS Rescue 4.4 chapter of Betaflight WiKi](https://betaflight.com/docs/wiki/archive/GPS-Rescue-v4-4). Side learning:
+
+> Use UBlox. GPS units configured to use NMEA often update only once per second, or even slower. This makes GPS Rescue very jerky, and almost unusable. It's better to use UBlox, which by default return data regularly at 5 times a second.
+
+Read [How to Tune Betaflight FPV Drone Filters and PID with Blackbox](https://oscarliang.com/pid-filter-tuning-blackbox/):
+
+> You can totally tune your quad to fly decently without Blackbox as I described in [Betaflight FPV Drone Tuning In 10 Simple Steps](https://oscarliang.com/fpv-drone-tuning/), but Blackbox gives you the full insight into what’s really going on with the drone and allows you to unleash its full potential. Things like noise filtering and tiny overshoots you can only see clearly in Blackbox. If you are a perfectionist or just someone who like to tinker, this is going to be the tutorial for you.
+
+Above mentioned [Betaflight FPV Drone Tuning In 10 Simple Steps](https://oscarliang.com/fpv-drone-tuning/) also worth reading!
+
+
+Read Betaflight's [PID Tuning Guide](https://betaflight.com/docs/wiki/archive/PID-Tuning-Guide).
+
+This image is so good that I put it here:
+![PID Compensation Animated](/assets/images/PID_Compensation_Animated.gif "PID Compensation Animated")
+
+* P = The present (proportional)
+* I = The Past (integral)
+* D = The Future (derivative / damping) !Dangerous
+
+# PID-tuning in a nutshell
+
+Raise P till quad is "sharp"
+
+Raise D till it's soft enough
+
+Raise I till (too much looses control (slow response)
+
+if oscillation is fast, reduce D
+
+if oscillation is slow, raise D (or lower P)
