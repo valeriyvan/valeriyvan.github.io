@@ -4,9 +4,9 @@ title:  "TIL `memory` command of lldb, `UnsafeMutablePointer` initialization in 
 date:   2020-01-23 19:23:00 +0200
 categories: TIL, vDSP, vdsp_vsadd, bug
 ---
-Stack overflow question [How to compare two UIImage objects](https://stackoverflow.com/questions/11342897/how-to-compare-two-uiimage-objects) might be very good example when wrong question is highly vouted up. Would be great if I find time and write longread answer to question.
+Stack overflow question [How to compare two UIImage objects](https://stackoverflow.com/questions/11342897/how-to-compare-two-uiimage-objects) might be very good example when wrong question is highly voted up. Would be great if I find time and write longread answer to question.
 
-Example snippet in (vdsp_vsadd)[https://developer.apple.com/documentation/accelerate/1450275-vdsp_vsadd] is not consistent as it doesn't declare variable `stride`. Failed a bug with feedback id FB12116721 on 13 of April 2023. Full fixed snippet should look like:
+Example snippet in [`vdsp_vsadd`](https://developer.apple.com/documentation/accelerate/1450275-vdsp_vsadd) is not consistent as it doesn't declare variable `stride`. Filed a bug with feedback id FB12116721 on 13 of April 2023. Full fixed snippet should look like:
 
 ```
 let a: [Float] = [1, 2, 4, 5]
@@ -37,7 +37,7 @@ SWIFT MEETUP QUESTION: Several questions to above snippet:
 
 * why in last case `a` might be `let` if here parameter also has type `UnsafePointer<Float>`.
 
-This week every second day I look here for `memory` command in Xcode. Actually `memory read -t float -c50 spectrogram` is what I have looked for. I tried `help memory read`. Firstly, remembering `help whateveryouhavetroublewith` I don't have remember exact syntax anymore. Second, I am shocked how powerfull command `memory` is. It could even store aoutput into a file!
+This week every second day I look here for `memory` command in Xcode. Actually `memory read -t float -c50 spectrogram` is what I have looked for. I tried `help memory read`. Firstly, remembering `help whateveryouhavetroublewith` I don't have remember exact syntax anymore. Second, I am shocked how powerful command `memory` is. It could even store output into a file!
 
 It's very useful to look into Swift declaration of `UnsafeMutablePointer`. It has a lot of information not available anywhere else.
 
