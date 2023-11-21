@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "TIL about dbus"
+date:   2023-11-20 19:48:00 +0200
+categories: TIL, dbus, UNIX_FD, NSAppClipRequestEphemeralUserNotification
+---
+Browsed [dbus specification](https://dbus.freedesktop.org/doc/dbus-specification.html).
+
+TIL what is `UNIX_FD`. Here is ChatGPT's answer on question "What is `UNIX_FD`?" The answer is much better then Google search results.
+
+ `UNIX_FD` typically refers to a file descriptor in Unix-like operating systems. In Unix, everything is treated as a file, and file descriptors are a way to represent and manage I/O resources, such as files, pipes, sockets, etc.
+
+A file descriptor is a non-negative integer that uniquely identifies an open file within a process. The three standard file descriptors are:
+
+0: Standard Input (stdin)
+1: Standard Output (stdout)
+2: Standard Error (stderr)
+
+Additional file descriptors can be opened for other purposes.
+
+I like terms Marshalling/Demarshalling.
+
+TIL about `NSAppClipRequestEphemeralUserNotification`, ephemeral push notifications to which there's no need to request user permission.
