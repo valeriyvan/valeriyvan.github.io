@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read D-Bus Tutorial"
+date:   2023-11-21 19:48:00 +0200
+categories: D-Bus
+---
+Read [D-Bus Tutorial](https://dbus.freedesktop.org/doc/dbus-tutorial.html).
