@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read Open Source Motion Capture for Autonomous Drones: $20 system for room-scale millimeter level precision motion capture"
+date:   2023-11-23 19:31:00 +0200
+categories: TIL
+---
+Read [Open Source Motion Capture for Autonomous Drones: $20 system for room-scale millimeter level precision motion capture](https://joshuabird.com/blog/post/mocap-drones).
