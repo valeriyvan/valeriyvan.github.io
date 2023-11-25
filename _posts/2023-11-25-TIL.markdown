@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "TIL Ziegler Nichols Method for tuning PID controllers"
+date:   2023-11-25 19:36:00 +0200
+categories: TIL, Betaflight, Ziegler Nichols Method, PID controller
+---
+Read [Demystifying FPV Drone Rates: Betaflight & Actual Rates Explained](https://oscarliang.com/rates/).
+
+> Note that my rates differ depending on how I hold the sticks. 
+
+Read [You are holding the sticks wrong! Thumb, Pinch or Hybrid-Pinch?](https://oscarliang.com/pinch-thumb-stick/).
+
+ Read [How to Tune FPV Drone Filters and PID with Blackbox](https://oscarliang.com/pid-filter-tuning-blackbox/).
+
+> You can totally [tune your quad to fly decently without Blackbox as I described in this post](https://oscarliang.com/fpv-drone-tuning/), but Blackbox gives you the full insight into what’s really going on with the drone and allows you to unleash its full potential. Things like noise filtering and tiny overshoots you can only see clearly in Blackbox. If you are a perfectionist or just someone who like to tinker, this is going to be the tutorial for you.
+
+TIL [Ziegler Nichols Method](https://en.wikipedia.org/wiki/Ziegler%E2%80%93Nichols_method) for tuning PID controllers.
