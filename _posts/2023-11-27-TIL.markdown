@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL what is Balun"
+date:   2023-11-27 19:09:00 +0200
+categories: TIL, Balun
+---
+TIL what is [Balun](https://en.wikipedia.org/wiki/Balun). It's from **balanced to unbalanced**, originally, but now dated from **balancing unit**. It's an electrical device that allows balanced and unbalanced lines to be interfaced without disturbing the impedance arrangement of either line.
