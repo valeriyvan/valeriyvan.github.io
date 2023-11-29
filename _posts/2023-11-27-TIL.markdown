@@ -5,3 +5,17 @@ date:   2023-11-27 19:09:00 +0200
 categories: TIL, Balun
 ---
 TIL what is [Balun](https://en.wikipedia.org/wiki/Balun). It's from **balanced to unbalanced**, originally, but now dated from **balancing unit**. It's an electrical device that allows balanced and unbalanced lines to be interfaced without disturbing the impedance arrangement of either line.
+
+TIL [Odometry](https://en.wikipedia.org/wiki/Odometry) -  is the use of data from motion sensors to estimate change in position over time. The word odometry is composed of the Greek words odos (meaning "route") and metron (meaning "measure").
+
+TIL what is [Rotary encoder](https://en.wikipedia.org/wiki/Rotary_encoder).
+
+Came across [Agilicious: Open-Source and Open-Hardware Agile Quadrotor for Vision-Based Flight](https://github.com/uzh-rpg/agilicious).
+
+Read [Deep Drone Acrobatics](https://rpg.ifi.uzh.ch/docs/RSS20_Kaufmann.pdf).
+
+Read [How to avoid common problems with charts](https://github.com/cxli233/FriendsDontLetFriends).
+
+Came across great answer for the question [Is putting your favicon.ico file in a non-root path a bad idea?](https://stackoverflow.com/a/21359390/942513).
+
+TIL [Vapor 4 supports SSL (TLS), despite of Vapor 3 which needed Ngnx for this](https://stackoverflow.com/a/55897653/942513).
