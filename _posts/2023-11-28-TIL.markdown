@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read Create a Text File in Memory Then Download It on Button Click With Vanilla JS"
+date:   2023-11-28 19:19:00 +0200
+categories: TIL, Javascript
+---
+Read [Create a Text File in Memory Then Download It on Button Click With Vanilla JS](https://zwbetz.com/create-a-text-file-in-memory-then-download-it-on-button-click-with-vanilla-js/), used this in [PR Add button for downloading svg on web page](https://github.com/valeriyvan/geometrizebot/pull/54).
