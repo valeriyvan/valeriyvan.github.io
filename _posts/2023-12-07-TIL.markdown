@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL Webber, SwifWeb, swiftlang.xyz; Dug in swiftwasm.org"
+date:   2023-12-07 20:35:00 +0200
+categories: TIL, Swift, WebAssembly, Wasm, swiftwasm
+---
+Dug with [swiftwasm.org](https://swiftwasm.org). Would like to give it a try for [web page for geometrize bot](http://139.59.148.64:8080).
+
+This is interesting [How to Use Swift for Web Development](https://hackernoon.com/how-to-use-swift-for-web-development). Besides of Carton it mentions Webber, which is made for SwifWeb projects. SwifWeb is different in that it wraps the entire HTML and CSS standards, as well as all of the web APIs.
+
+TIL [swiftlang.xyz](https://swiftlang.xyz/), hassle-free install of the Swift programming language on Ubuntu/Debian using the apt package manager.
