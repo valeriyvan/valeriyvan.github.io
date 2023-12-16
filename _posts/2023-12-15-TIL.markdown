@@ -6,11 +6,7 @@ categories: TIL, .netrc, Swift Package Manager
 ---
 TIL [.netrc](https://everything.curl.dev/usingcurl/netrc).
 
-TIL how to run specific test case with `swift test`?
-
-`swift test -l` lists all available tests.
-
-Here's option to use to runs specific test:
+TIL how to run specific test case with `swift test`. Option to use to runs specific test:
 ```
 --filter <filter>       Run test cases matching regular expression, Format:
                           <test-target>.<test-case> or <test-target>.<test-case>/<test>
@@ -18,6 +14,8 @@ Here's option to use to runs specific test:
 
 `swift test --filter "geometrizeTests.BitmapTests/testRotateLeft"` runs specific test
 
-`swift test --filter "geometrizeTests.BitmapTests"` run all tests in test case.
+`swift test --filter "geometrizeTests.BitmapTests"` runs all tests in test case.
+
+`swift test -l` lists all available tests.
 
 TIL how to ["rename" git tag if I changed my mind](https://stackoverflow.com/a/5719854/942513).
