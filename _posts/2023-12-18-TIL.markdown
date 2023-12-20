@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL asyncio.sleep"
+date:   2023-12-18 19:12:00 +0200
+categories: TIL, Python, asyncio.sleep
+---
+Read [Acro Mode vs. Self-Level Mode](https://oscarliang.com/rate-acro-horizon-flight-mode-level/).
+
+Came across this line in Python code I have been reviewing `await asyncio.sleep(1)`. Intuitively it is understandable what it is for but I wanted to double check and asked ChatGPT. Answer was quite good:
+
+![](/assets/images/ChatGPT%20asyncio.sleep%20Screenshot%202023-12-20%20at%2018.56.33.png)
+![](/assets/images/ChatGPT%20asyncio.sleep%20Screenshot%202023-12-20%20at%2018.57.15.png)
+![](/assets/images/ChatGPT%20asyncio.sleep%20Screenshot%202023-12-20%20at%2018.57.53.png)
