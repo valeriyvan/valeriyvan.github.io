@@ -6,3 +6,10 @@ categories: TIL, Python
 ---
 TIL [what does ** (double star/asterisk) and * (star/asterisk) for parameters in Python](https://stackoverflow.com/q/2921847/942513).
 
+Browsed [Quadcopter stabilization based on IMU and Monocamera Fusion](/assets/docs/Quadcopter%20stabilization%20based%20on%20IMU%20and%20Monocamera%20Fusion.pdf).
+
+Browsed [Target Recognition and Following in Small Scale UAVs](/assets/docs/Target Recognition and Following in Small Scale UAVs.pdf).
+
+All these are about Crazyflie. May be onetime I could run these.
+
+Browsed [Autonomous drone hunter operating by deep learning and all-onboard computations in GPS-denied environments](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0225092) referenced from latter.
