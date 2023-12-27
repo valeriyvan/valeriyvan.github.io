@@ -4,4 +4,6 @@ title:  "TIL `git cherry`"
 date:   2023-12-27 20:54:00 +0200
 categories: TIL, git, git cherry
 ---
-TIL [`git cherry`](https://linux.die.net/man/1/git-cherry). Nice to check of all commits from local branch were merged with rebase.
+TIL [`git cherry`](https://linux.die.net/man/1/git-cherry). Nice to check if all commits from local branch were merged with rebase.
+
+TIL how to copy permissions from one file to another file: `chmod --reference=file-to-copy-permissions-from file-to-copy-permissions-to`.

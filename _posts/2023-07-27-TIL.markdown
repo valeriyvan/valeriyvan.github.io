@@ -4,4 +4,63 @@ title:  "TIL `arp -a` for listing devices in local network"
 date:   2023-07-27 18:22:00 +0200
 categories: TIL, arp
 ---
-`arp -a` lists devices in local network.
+TIL `arp -a` discovers and lists devices in local network. Could be helpful if network has not too many devices connected.
+
+```bash
+arp -a
+? (192.168.99.80) at dc:4a:3e:7d:dc:e8 [ether] on wlp5s0
+? (192.168.99.101) at f2:b8:bb:a6:12:02 [ether] on wlp5s0
+? (192.168.99.206) at f0:d5:bf:2e:46:59 [ether] on wlp5s0
+? (192.168.99.49) at 7e:b9:e5:d7:ea:d2 [ether] on wlp5s0
+? (192.168.99.248) at c0:b8:83:a5:bb:9e [ether] on wlp5s0
+work.local (192.168.99.115) at b4:2e:99:93:c1:ac [ether] on wlp5s0
+```
+
+TIL `nmap` could be more helpful.
+
+``` bash
+nmap 192.168.99.0/24
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-07-27 19:23 EET
+Nmap scan report for routerdr.lan (192.168.99.1)
+Host is up (0.0012s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE
+53/tcp   open  domain
+80/tcp   open  http
+1723/tcp open  pptp
+2000/tcp open  cisco-sccp
+8291/tcp open  unknown
+
+Nmap scan report for 192.168.99.14
+Host is up (0.0028s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+9000/tcp open  cslistener
+
+Nmap scan report for 192.168.99.49
+Host is up (0.0045s latency).
+All 1000 scanned ports on 192.168.99.49 are closed
+
+Nmap scan report for 192.168.99.80
+Host is up (0.0018s latency).
+Not shown: 990 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+222/tcp  open  rsh-spx
+443/tcp  open  https
+1935/tcp open  rtmp
+3000/tcp open  ppp
+5000/tcp open  upnp
+7070/tcp open  realserver
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+9080/tcp open  glrpc
+
+Nmap scan report for ThinkPad (192.168.99.119)
+Host is up (0.000092s latency).
+All 1000 scanned ports on VV-ThinkPad-E490 (192.168.99.119) are closed
+
+Nmap done: 256 IP addresses (5 hosts up) scanned in 32.47 seconds
+```
