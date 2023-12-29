@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL how to use xcconfig for setting development team id and bundle id"
+date:   2023-12-29 15:11:00 +0200
+categories: TIL, Xcode, xcconfig
+---
+From [opensource app IceCubesApp for accessing the decentralized social network Mastodon](https://github.com/Dimillian/IceCubesApp) learned the idea of putting development team ID and bundle id prefix into `xcconfig` file [IceCubesApp-release.xcconfig](https://github.com/Dimillian/IceCubesApp/blob/main/IceCubesApp-release.xcconfig).
