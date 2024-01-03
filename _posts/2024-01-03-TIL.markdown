@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "TIL how to use `do` block in Swift to narrow scope of vars inside block"
+date:   2024-01-03 20:07:00 +0200
+categories: TIL, Swift
+---
+TIL how to use `do` block in Swift just how usually `{}` is used in C to narrow vars scope. Following snippet is take from [PR in Vapor](https://github.com/vapor/vapor/pull/3118/files#diff-5b405b8544340a8eaeeb0905dd36d90bd58dc65945baacd16209ad2597874f0cR173-R181):
+
+```swift
+do {
+    let foo = "foo"
+    let uri: URI = "/\(foo)/bar/baz"
+    XCTAssertEqual(uri.path, "/foo/bar/baz")
+}
+do {
+    let uri = URI(scheme: "foo", host: "host", port: 1, path: "test", query: "query", fragment: "fragment")
+    XCTAssertEqual(uri.string, "foo://host:1/test?query#fragment")
+}
+```
