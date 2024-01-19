@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "TIL how to claim back disk space from git repo: `git gc --aggressive`"
+date:   2024-01-18 21:31:00 +0200
+categories: TIL, Apple, String Catalogs, Grammatical agreement, git gc
+---
+Watched [Unlock the power of grammatical agreement](https://developer.apple.com/videos/play/wwdc2023/10153/). Surprized Apple has such an API.
+
+Watched [Discover String Catalogs](https://developer.apple.com/videos/play/wwdc2023/10155/).
+
+Seeking of ways to free some diskspace come to [How to clean up the git repo and reduce its disk size](https://gitbetter.substack.com/p/how-to-clean-up-the-git-repo-and).
+
+Only `git gc --aggressive` did work freeing 1.6GB on 7.9GB `.git`:
+
+```bash
+% du -sh .git
+7.9G	.git
+% git gc --aggressive
+Enumerating objects: 734435, done.
+Counting objects: 100% (734435/734435), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (721093/721093), done.
+Writing objects: 100% (734435/734435), done.
+Total 734435 (delta 571805), reused 149607 (delta 0), pack-reused 0
+Checking connectivity: 734435, done.
+% du -sh .git        
+6.3G	.git
+```
+
+In another repo in goes from 3.6GB to 1.3GB.
