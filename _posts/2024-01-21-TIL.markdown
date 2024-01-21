@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Read The world's smallest PNG which could serve as short introduction into PNG format"
+date:   2024-01-21 19:59:00 +0200
+categories: TIL, PNG
+---
+Read [The world's smallest PNG](https://evanhahn.com/worlds-smallest-png/). The post could be short introduction into PNG format. Here are the world's smallest PNG zoomed 200x times. It's just one black pixel.
+
+<img src="/assets/images/world%27s%20smallest%20PNG.png" alt="The world's smallest PNG" width="200" height="200" />
+
+Here is hex dump of the image:
+
+```
+% xxd world\'s\ smallest\ PNG.png
+00000000: 8950 4e47 0d0a 1a0a 0000 000d 4948 4452  .PNG........IHDR
+00000010: 0000 0001 0000 0001 0100 0000 0037 6ef9  .............7n.
+00000020: 2400 0000 0a49 4441 5478 0163 6000 0000  $....IDATx.c`...
+00000030: 0200 0173 7501 1800 0000 0049 454e 44ae  ...su......IEND.
+00000040: 4260 82                                  B`.
+```
+
+Browsed shortly [Portable Network Graphics (PNG) Specification (Third Edition)](https://www.w3.org/TR/png-3/).
+
+TIL [`xcbeautify`](https://github.com/cpisciotta/xcbeautify) tool for making `xcodebuild`'s output more readable.
