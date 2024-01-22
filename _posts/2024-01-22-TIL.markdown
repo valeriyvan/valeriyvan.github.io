@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL shortcut could include steps like entering free text"
+date:   2024-01-22 19:15:00 +0200
+categories: TIL, Shortcut
+---
+TIL shortcut could include steps like entering free text, e.g. how in this [shortcut for generating QR for WiFi](https://www.icloud.com/shortcuts/71ecdf91ccef4036a738d8cafa83406e)
+
+![Shortcut Generate WiFi QR](/assets/images/Shortcut%20Generate%20Wi-Fi%20QR%20Screenshot.jpg "Shortcut Generate WiFi QR")
+
+Probably, I could create shortcut for geometrizing images with running API call with curl or something similar.
