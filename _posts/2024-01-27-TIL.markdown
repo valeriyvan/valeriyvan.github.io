@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Ran through SwiftUI essentials: Handling user input"
+date:   2024-01-27 19:24:00 +0200
+categories: TIL, SwiftUI
+---
+Ran through [SwiftUI essentials: Handling user input](https://developer.apple.com/tutorials/swiftui/handling-user-input) tutorial.
+
+TIL how to move whole line up/down in Xcode with `Command` + `Option` + `{` or `}` sortcuts respectively:
+
+![You can use `Command` + `Option` + `{` or `}` to move the selected lines of code up and down, respectively](/assets/images/Screen%20Recording%20Moving%20Line%20in%20Xcode.gif "You can use `Command` + `Option` + `{` or `}` to move the selected lines of code up and down, respectively")
+
+TIL how to convert `.mov` file into animated gif in command line with ffmpeg:
+
+```bash 
+ffmpeg -i ~/Downloads/Screen\ Recording\ Moving\ Line\ in\ Xcode.mov  -pix_fmt rgb24 ~/Downloads/output.gif
+```
