@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL how servomotors work"
+date:   2024-02-01 19:30:00 +0200
+categories: TIL, servo motors 
+---
+Watched video [Servo Motors, how do they work?](https://www.youtube.com/watch?v=1WnGv-DPexc). TIL how servo motors work. Some technical details have slipped from my mind till now. I was sure servo motors have stepper motors inside. I was wrong. Some really have stepper motors. But most servos use regular DC motors.
