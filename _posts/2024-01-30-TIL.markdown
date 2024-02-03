@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Browsed Book Small unmanned aircraft. Theory and Practice"
+date:   2024-01-30 19:59:00 +0200
+categories: TIL, aircraft, GPS
+---
+Browsed [Book Small unmanned aircraft. Theory and Practice](/assets/docs/Book%20Small%20unmanned%20aircraft%20Theory%20and%20Practice%20by%20Randal%20W%20Beard%20Timothy%20W%20McLain.pdf). Too much math as for me. But has a lot of details I am interested in, like GPS Smoothing, Following Waypoints, Transitioning Between Waypoints, Point-to-Point Algorithms (Voronoi Graphs, Rapidly Exploring Random Trees), Vision-guided Navigation (Gimbal Pointing algo, Time to Collision, Precision Landing) and more.
