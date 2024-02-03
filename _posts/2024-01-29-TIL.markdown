@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Read How Did REST Come To Mean The Opposite of REST"
+date:   2024-01-29 18:48:00 +0200
+categories: TIL, Robotics Academy, FastUI, REST
+---
+Bookmarking [Robotics Academy](http://jderobot.github.io/RoboticsAcademy/). 
+
+> Robotics Academy is an open source collection of exercises and challenges to learn robotics in a practical way. There are exercises about drone programming, about computer vision, about mobile robots, about autonomous cars, etc.
+
+This [Drone Cat and Mouse](http://jderobot.github.io/RoboticsAcademy/exercises/Drones/drone_cat_mouse) exercise is especially interesting :
+
+> The goal of this exercise is to implement the logic that allows a quadrotor to play a game of cat and mouse with a second quadrotor.
+
+Looked [FastUI](https://github.com/pydantic/FastUI) FastUI is a new way to build web application user interfaces defined by declarative Python code.
+
+Read [How Did REST Come To Mean The Opposite of REST?](https://htmx.org/essays/how-did-rest-come-to-mean-the-opposite-of-rest). Controversial article. 
