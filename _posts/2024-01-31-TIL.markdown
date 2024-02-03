@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "TIL how inner/outer stokes could be reacreated in SVG"
+title:  "TIL how inner/outer stokes could be recreated in SVG"
 date:   2024-01-31 19:56:00 +0200
 categories: TIL, SVG
 ---
-Read [Drawing inner/outer strokes in SVG (clips and masks)](https://alexwlchan.net/2021/inner-outer-strokes-svg/) trying to understend how inner/outer stokes could be reacreated in SVG.
+Read [Drawing inner/outer strokes in SVG (clips and masks)](https://alexwlchan.net/2021/inner-outer-strokes-svg/) while trying to understand how inner/outer stokes could be recreated in SVG.
