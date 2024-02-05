@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Ran through SwiftUI essentials: Building lists and navigation tutorial"
+title:  "Ran through SwiftUI tutorial SwiftUI essentials. Building lists and navigation"
 date:   2024-01-25 20:30:00 +0200
 categories: TIL, SwiftUI
 ---
-Ran through [SwiftUI essentials: Building lists and navigation](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation).
+Ran through SwiftUI tutorial [SwiftUI essentials. Building lists and navigation](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation).
