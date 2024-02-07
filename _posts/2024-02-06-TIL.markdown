@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL on-crash backtraces introduced in Swift 5.9"
+date:   2024-02-06 19:51:00 +0200
+categories: TIL, Python, Swift, Crash reports, debug
+---
+TIL [typeguard](https://github.com/agronholm/typeguard) for runtime typechecking in Python:
+
+> This library provides run-time type checking for functions defined with [PEP 484](https://www.python.org/dev/peps/pep-0484/) argument (and return) type annotations, and any arbitrary objects. It can be used together with static type checkers as an additional layer of type safety, to catch type violations that could only be detected at run time.
+
+TIL [On-Crash Backtraces in Swift](https://www.swift.org/blog/swift-5.9-backtraces/) introduced in Swift 5.9:
+
+> The new Swift 5.9 release contains a number of helpful, new features for debugging code, including an out-of-process, interactive crash handler to inspect crashes in real time, the ability to trigger the debugger for just-in-time debugging, along with concurrency-aware backtracing to make it easier to understand control flow in a program that uses structured concurrency.
