@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL Galileo AI"
+date:   2024-02-12 19:17:00 +0200
+categories: TIL, Galileo, AI, prompt-to-UI
+---
+TIL [Galileo AI, prompt-to-UI generative AI tool for designers and builders](https://www.usegalileo.ai/blog/seed). Definately will use it.
