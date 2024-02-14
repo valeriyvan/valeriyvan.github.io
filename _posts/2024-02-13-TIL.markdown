@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "Read paper A Systematic Approach to Building High Performance Software-Based CRC Generators"
+date:   2024-02-13 19:51:00 +0200
+categories: TIL, PNG, Swift, CRC, CRC32, slicing-by-8
+---
+Read [PNG (Portable Network Graphics)](https://www.w3.org/TR/png/).
+
+TIL alpha is not a must in PNG files. [PNG. Specification. Version 1.0. 2. Data Representation](https://www.w3.org/TR/PNG-DataRep.html):
+
+> An alpha channel, representing transparency information on a per-pixel basis, can be included in grayscale and truecolor PNG images.
+
+> Alpha channels can be included with images that have either 8 or 16 bits per sample, but not with images that have fewer than 8 bits per sample. Alpha samples are represented with the same bit depth used for the image samples. The alpha sample for each pixel is stored immediately following the grayscale or RGB samples of the pixel.
+
+> Transparency control is also possible without the storage cost of a full alpha channel. In an indexed-color image, an alpha value can be defined for each palette entry. In grayscale and truecolor images, a single pixel value can be identified as being "transparent". These techniques are controlled by the tRNS ancillary chunk type.
+
+> If no alpha channel nor tRNS chunk is present, all pixels in the image are to be treated as fully opaque.
+
+TIL PNG uses Latin-1 for textual fields:
+
+> A PNG file can store text associated with the image, such as an image description or copyright notice. Keywords are used to indicate what each text string represents. ISO 8859-1 (Latin-1) is the character set recommended for use in text strings [ISO-8859]. This character set is a superset of 7-bit ASCII.
+
+TIL PNG specification includes also rationale which is interesting to read.
+
+[PNG. Specification. Version 1.0. 1. Introduction](https://www.w3.org/TR/PNG-Introduction.html):
+
+> The main part of this specification gives the definition of the file format and recommendations for encoder and decoder behavior. An appendix gives the rationale for many design decisions. Although the rationale is not part of the formal specification, reading it can help implementors understand the design. Cross-references in the main text point to relevant parts of the rationale. Additional appendixes, also not part of the formal specification, provide tutorials on gamma and color theory as well as other supporting material.
+
+TIL PNG by intention doesn't have version number. [PNG file signature rationale](https://www.w3.org/TR/PNG-Rationale.html#R.PNG-file-signature):
+
+> Note that there is no version number in the signature, nor indeed anywhere in the file. This is intentional: the chunk mechanism provides a better, more flexible way to handle format extensions, as explained in Chunk naming conventions.
+
+Read paper [A Systematic Approach to Building High Performance Software-Based CRC Generators" by Michael E. Kounavis and Frank L. Berry](/assets/docs/a_systematic_approach_to_building_high_performance_software_based_crc.pdf). [OpenJDK implements 'slicing-by-8' algorithm described in the paper](https://github.com/apple/openjdk/blob/356491bda24e6c4781c6b650f4efda05a6bc1296/src/java.base/share/classes/java/util/zip/CRC32C.java#L49):
+
+Swift uses straightforward naïve CRC32 implementation in at least two places: in [Swift standard library](https://github.com/apple/swift/blob/main/stdlib/public/Backtracing/Elf.swift) and in [swift-testing package](https://github.com/apple/swift-testing/blob/dfb2ae6d19a2c77071ee0a3a2a75e69dbc80fb38/Sources/TestingMacros/Support/CRC32.swift#L70). Don't see why Swift standard library couldn't not have more robust implementation. 
