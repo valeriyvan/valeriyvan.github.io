@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "TIL how to get string from AttributedString in Swift"
+date:   2024-02-19 22:27:00 +0200
+categories: TIL, Swift, AttributedString, NSAttributedString, String
+---
+I was confused today I cannot access regular string of `AttributedString` in Swift. In case of `NSAttributedString`, it was trivial as `NSAttributedString` is subclass of `NSString`. I haven't found straight way in documentation so I googled. Thread in swift forums [AttributedString to String](https://forums.swift.org/t/attributedstring-to-string/61667) mentions only what I've got from documentation - go over characters view:
+
+```swift
+let string = String(attributedString.characters)
+```
+
+I could add one more way - use `NSAttributedString` as middleware:
+
+```swift
+let string = NSAttributedString(attributedString).string
+```
