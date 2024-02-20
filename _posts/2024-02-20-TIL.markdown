@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Passed through guides and documentation on SwiftUI List"
+date:   2024-02-20 21:59:00 +0200
+categories: TIL, SwiftUI, List
+---
+Passed through [Getting Started with SwiftUI Tables: A Beginner’s Guide](https://www.swiftyplace.com/blog/chy7hvne).
+
+Passed through [Expandable List In SwiftUI](https://medium.com/swiftui-forum/expandable-list-in-swiftui-46ce5377c504).
+
+Passed through Apple's documentation on [List](https://developer.apple.com/documentation/swiftui/list). Unexpectedly good.
+
+Here's the result:
+
+![SwiftUI Expandible List](/assets/images/SwiftUIExpandibleList.gif "SwiftUI Expandible List")
