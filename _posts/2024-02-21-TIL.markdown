@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "TIL setters in Swift could be `nonmutating`"
+date:   2024-02-21 21:18:00 +0200
+categories: TIL, SwiftUI, Swift, Property wrappers, nonmutating setter
+---
+TIL [The SwiftUI Field Guide](https://www.swiftuifieldguide.com/) very nice visual guide on SwiftUI modifiers.
+
+Refreshed knowledge of property wrappers in Swift by reading [Property wrappers in Swift](https://www.swiftbysundell.com/articles/property-wrappers-in-swift/). Has good example of `@UserDefaultsBacked`.
+
+Read [Screen vs View in SwiftUI](https://scottsmithdev.com/screen-vs-view-in-swiftui) post about how to split SwiftUI views into separate source files and how to name source files. Use `*Screen.swift` rather then `*View.swift` for views responsible for whole screen. Extract SwiftUI views into separate files only if they are used in several places. Makes sense for big projects as mean to keep count of files under control.
+
+TIL [setters in Swift could be `nonmutating`](https://forums.swift.org/t/non-mutating-setters/14379) as well as getters could be `mutating`. It is unusual even for Xcode - it cannot highlight code properly:
+
+![Swift nonmutating setter](/assets/images/Screenshot%202024-02-21%20at%2012.59.03%20Swift%20nonmutating%20setter.png "Swift nonmutating setter")
+
+[Git Tips 1: Oldies but Goodies](https://blog.gitbutler.com/git-tips-1-theres-a-git-config-for-that/). Oh, it's possible to have git config for some folders which will work for all sub-folders. So I could finally tune git config for my working folder and it will not interfere with the rest. 
+
+`git push --force-with-lease` is nice feature. `git config --global column.ui auto` as well which makes `git branch` output much nicer:
+
+```bash
+git branch
+  cicd/build-ubuntu-workflow          fix/reserveCapacity
+* feature/asynciterator               main
+  feature/bitmap-orientation          minusone
+  feature/bresenham                   refactor/bounds
+  feature/incremental-export          refactor/bresenham
+  feature/string-shapetype            refactor/cleanup
+  feature/strokeWidth                 refactor/clear-shape
+  fix/accesscontrol                   refactor/comment-color-perception
+  fix/assert                          refactor/main
+  fix/downsample-public               refactor/shape-equality
+  ```
+
+  I don't fully understand `git push --signed` but I will give it a try on my next push.
