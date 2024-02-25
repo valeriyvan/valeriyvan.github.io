@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL about JSON Pointers"
+date:   2024-02-25 21:43:00 +0200
+categories: TIL, JSON Pointers
+---
+TIL about JSON Pointers - [JavaScript Object Notation (JSON) Pointer](https://datatracker.ietf.org/doc/html/rfc6901). It's a way to query JSON loke XPath for XML.
