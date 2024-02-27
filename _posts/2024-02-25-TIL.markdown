@@ -2,6 +2,10 @@
 layout: post
 title:  "TIL about JSON Pointers"
 date:   2024-02-25 21:43:00 +0200
-categories: TIL, JSON Pointers
+categories: TIL, JSON Pointers, JSON Schema
 ---
 TIL about JSON Pointers - [JavaScript Object Notation (JSON) Pointer](https://datatracker.ietf.org/doc/html/rfc6901). It's a way to query JSON loke XPath for XML.
+
+Read [JSON Schema Reference](https://json-schema.org/understanding-json-schema/reference) trying to find means of reusing parts of JSON inside same JSON.
+
+Read [Swift Macros: Understanding Freestanding & Attached Macros](https://quickbirdstudios.com/blog/swift-macros/).
