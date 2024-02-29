@@ -14,8 +14,7 @@ Read [Swift Numerics](https://www.swift.org/blog/numerics/) which introduces `Re
 
 From one of above leared about [μSwift](https://github.com/compnerd/uswift).
 
-[C Isn't A Programming Language Anymore
-](https://gankra.github.io/blah/c-isnt-a-language/). "C is an inscrutable implementation-defined mess". "C is the lingua franca of programming." Target triples, like `aarch64-apple-ios-sim`.
+Read [C Isn't A Programming Language Anymore](https://gankra.github.io/blah/c-isnt-a-language/). "C is an inscrutable implementation-defined mess". "C is the lingua franca of programming." Target triples, like `aarch64-apple-ios-sim`.
 
 Side-reading [What's wrong with Raspberry Pi (in Russian)](https://habr.com/ru/post/440584/) about (Microsoft own closed sourced) [ThreadX](https://en.wikipedia.org/wiki/ThreadX) real-time OS which runs Raspberri Pi under the hood.
 
