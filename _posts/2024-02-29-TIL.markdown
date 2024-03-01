@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "TIL to use tinkercad and have drawn and printed the firsth thing"
+date:   2024-02-29 22:30:00 +0200
+categories: TIL, tinkercad, 3d, stl, ffmpeg, gyroflow
+---
+TIL [tinkercad](https://www.tinkercad.com/). The first part drawn and printed:
+
+![Camera mount bracket in Thinkercad](/assets/images/Screenshot%202024-02-29%20at%2015.12.06%20thinkercad.png "Camera mount bracket in Thinkercad")
+
+![Camera mount bracket](/assets/images/IMG_2993%20camera%20mount%20bracket.jpeg "Camera mount bracket")
+
+TIL how to get info about video file, e.g. frame rate: `ffmpeg -i RC5_0001.MP4`.
+
+TIL what is `.gcsv` file: https://docs.gyroflow.xyz/app/technical-details/gcsv-format
+
+> (short for gyro csv or Gyroflow csv) is a text-based gyro log format that can be implemented in custom hardware/firmware. File contains information about the gyro orientation, scaling, and a unique identifier. If present, file could have accelerometer and magnetometer data as well.
+
+[Gyroflow](https://docs.gyroflow.xyz/app/) is an advanced video stabilization tool, which uses gyro data for accurate motion compensation (meaning stabilization). 
