@@ -4,11 +4,11 @@ title:  "TIL about image stippling"
 date:   2024-02-28 20:53:00 +0200
 categories: TIL, Stippled images, Voronoi, Kalman filter
 ---
-TIL about image stippling. [WiKi page Stippling](https://en.wikipedia.org/wiki/Stippling) is quite general. Here what is meant (the image is from [stippled-image repo](https://github.com/pshihn/stippled-image):
+TIL about image stippling. [WiKi page Stippling](https://en.wikipedia.org/wiki/Stippling) is quite general. Here what is meant (the image is from [stippled-image repo](https://github.com/pshihn/stippled-image)):
 
 ![Stippled Obama](https://user-images.githubusercontent.com/833927/81328553-f8414800-9051-11ea-9581-86434b72ace9.png)
 
-Watched [Coding Challenge 181: Weighted Voronoi Stippling](https://www.youtube.com/watch?v=Bxdt6T_1qgc). It's great! Would be nice make in Swift Swift packages for Voronoi and for stippling images.
+Watched [Coding Challenge 181: Weighted Voronoi Stippling](https://www.youtube.com/watch?v=Bxdt6T_1qgc). It's great! Would be nice make in Swift packages for Voronoi and for stippling images. Stippling is similar to dithering a bit.
 
 Finally I know what FPV frame size means [All About Multirotor Drone FPV Frames](https://www.getfpv.com/learn/new-to-fpv/all-about-multirotor-fpv-drone-frame/):
 
