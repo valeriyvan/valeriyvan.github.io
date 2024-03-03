@@ -6,4 +6,6 @@ categories: TIL, SwiftUI, async/await
 ---
 Read [SwiftUI Toolbar: Everything You Need to Know](https://holyswift.app/how-to-create-toolbar-in-swiftui/).
 
-TIL [How async/await works internally in Swift](https://swiftrocks.com/how-async-await-works-internally-in-swift).
+TIL [How async/await works internally in Swift](https://swiftrocks.com/how-async-await-works-internally-in-swift). 
+
+> Unlike traditional `DispatchQueues`, which creates and terminates threads dynamically as it deems necessary, the *Cooperative Thread Pool* manages a fixed number of threads that are constantly helping each other with their tasks.
