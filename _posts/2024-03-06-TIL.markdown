@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL `withCheckedContinuation` and `withUnsafeContinuation` in Swift 5.5"
+date:   2024-03-06 21:29:00 +0200
+categories: TIL, Swift, withCheckedContinuation, withUnsafeContinuation, Memory leaks
+---
+TIL [`withCheckedContinuation` and `withUnsafeContinuation` for interfacing async tasks with synchronous code](https://www.hackingwithswift.com/swift/5.5/continuations) in Swift.
+
+Read [Discovering iOS memory leaks: A case study with Firefox app](https://www.amanjeet.me/discovering-ios-memory-leaks-case-study/).
