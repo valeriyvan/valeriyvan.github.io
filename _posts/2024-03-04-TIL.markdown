@@ -6,4 +6,4 @@ categories: TIL, Hardened Runtime
 ---
 TIL about [Hardened Runtime](https://developer.apple.com/documentation/security/hardened_runtime).
 
-Came accross video [Build Your Own Drone Tracking Radar: Part 1](https://www.youtube.com/watch?v=igrN_wd_g74). The idea is absolutly crazy. So craze that I have decided to bookmark the video.
+Came accross video [Build Your Own Drone Tracking Radar: Part 1](https://www.youtube.com/watch?v=igrN_wd_g74). The idea is absolutly crazy.
