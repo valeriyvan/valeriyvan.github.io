@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Read Creating a Betaflight target from scratch"
+date:   2024-03-07 22:04:00 +0200
+categories: TIL, HAL, Betaflight
+---
+TIL what is [HAL](https://en.wikipedia.org/wiki/HAL_(software)).
+
+Read [Creating a Betaflight target from scratch](https://www.flying-rabbit-fpv.com/2020/11/07/creating-a-betaflight-target/) from which I have learnt about Betaflight's new unified targets.
+
+Watched [Beginner ➡️ Advanced: Betaflight 4.4 ultimate walkthrough](https://www.youtube.com/watch?v=x1bFuRePxSw).
