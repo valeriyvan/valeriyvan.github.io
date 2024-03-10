@@ -30,6 +30,10 @@ TIL PNG by intention doesn't have version number. [PNG file signature rationale]
 
 > Note that there is no version number in the signature, nor indeed anywhere in the file. This is intentional: the chunk mechanism provides a better, more flexible way to handle format extensions, as explained in Chunk naming conventions.
 
+I have looked in Mac App Store. There's no app like PNG explorer. For me it would be interesting to have/make such app. Something similar to [TweakPNG](https://entropymine.com/jason/tweakpng/).
+
+TIL open source [exiv2 CLI](https://github.com/Exiv2/exiv2) for exploring 
+
 Read paper [A Systematic Approach to Building High Performance Software-Based CRC Generators" by Michael E. Kounavis and Frank L. Berry](/assets/docs/a_systematic_approach_to_building_high_performance_software_based_crc.pdf). [OpenJDK implements 'slicing-by-8' algorithm described in the paper](https://github.com/apple/openjdk/blob/356491bda24e6c4781c6b650f4efda05a6bc1296/src/java.base/share/classes/java/util/zip/CRC32C.java#L49):
 
 Swift uses straightforward naïve CRC32 implementation in at least two places: in [Swift standard library](https://github.com/apple/swift/blob/main/stdlib/public/Backtracing/Elf.swift) and in [swift-testing package](https://github.com/apple/swift-testing/blob/dfb2ae6d19a2c77071ee0a3a2a75e69dbc80fb38/Sources/TestingMacros/Support/CRC32.swift#L70). Don't see why Swift standard library couldn't not have more robust implementation. 

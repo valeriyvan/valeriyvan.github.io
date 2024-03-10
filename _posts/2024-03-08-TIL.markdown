@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL about DSHOT"
+date:   2024-03-08 20:22:00 +0200
+categories: TIL, DSHOT, ESC
+---
+TIL about [DSHOT](https://betaflight.com/docs/development/Dshot) on Betaflight, and [DSHOT](https://oscarliang.com/dshot/) on Sscar Liang. Read [DSHOT - the missing Handbook](https://brushlesswhoop.com/dshot-and-bidirectional-dshot/).
+
+Read [What’s New in Betaflight 4.4 | How to Update?](https://oscarliang.com/betaflight-4-4/).
