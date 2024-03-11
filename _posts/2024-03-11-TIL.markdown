@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL Correct Horse Battery Staple"
+date:   2024-03-11 21:22:00 +0200
+categories: TIL, Correct Horse Battery Staple, git switch, git worktree
+---
+TIL phrase Correct Horse Battery Staple and [open source password generator with the same name](https://correcthorse.pw).
+
+Read [Arduino Plane Failsafe Function](https://ardupilot.org/plane/docs/apms-failsafe-function.html).
+
+TIL [`git switch`](https://git-scm.com/docs/git-switch) and [`git worktree`](https://git-scm.com/docs/git-worktree) git commandc.
