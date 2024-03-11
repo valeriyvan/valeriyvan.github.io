@@ -8,4 +8,4 @@ TIL phrase Correct Horse Battery Staple and [open source password generator with
 
 Read [Arduino Plane Failsafe Function](https://ardupilot.org/plane/docs/apms-failsafe-function.html).
 
-TIL [`git switch`](https://git-scm.com/docs/git-switch) and [`git worktree`](https://git-scm.com/docs/git-worktree) git commandc.
+TIL [`git switch`](https://git-scm.com/docs/git-switch) and [`git worktree`](https://git-scm.com/docs/git-worktree) git commands.

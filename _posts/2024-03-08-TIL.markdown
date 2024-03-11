@@ -6,4 +6,6 @@ categories: TIL, DSHOT, ESC
 ---
 TIL about [DSHOT](https://betaflight.com/docs/development/Dshot) on Betaflight, and [DSHOT](https://oscarliang.com/dshot/) on Sscar Liang. Read [DSHOT - the missing Handbook](https://brushlesswhoop.com/dshot-and-bidirectional-dshot/).
 
-Read [What’s New in Betaflight 4.4 | How to Update?](https://oscarliang.com/betaflight-4-4/).
+Read [What’s New in Betaflight 4.4 \| How to Update?](https://oscarliang.com/betaflight-4-4/).
+
+Looking a way to repair broken .MOV files which SKYZONE goggles live which turned off before recording stops, came across [Repairing Corrupt DJI Video Files](http://djifix.live555.com). Fantastically, it gives at least something from a file.
