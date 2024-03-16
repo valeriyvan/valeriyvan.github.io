@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL How to use Environment in SwiftUI"
+date:   2024-03-15 20:06:00 +0200
+categories: TIL, Swift, SwiftUI, @Environment
+---
+TIL [How to use Environment in SwiftUI](https://medium.com/swiftly-engineered-ios/how-to-use-environment-in-swiftui-bd34695f0cdb).
