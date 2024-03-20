@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Read Debugging Improvements in Swift 5.9"
+date:   2024-03-18 19:41:00 +0200
+categories: TIL, Swift
+---
+Udemy course [Introduction to Quadrotors and Control Theory](https://www.udemy.com/course/quadrotors/).
+
+Read [Bad practice: using `.lowercased()` to compare strings](https://www.swiftwithvincent.com/blog/bad-practice-using-lowercased-to-compare-strings). which I will quote in PRs.
+
+Bookmarking [Swift Developer Roadmap 2024: With 7 Samples App](https://medium.com/@ugurelsevket/swift-developer-roadmap-2024-with-7-samples-app-8d6fffd9c468).
+
+Read [Debugging Improvements in Swift 5.9](https://www.swift.org/blog/whats-new-swift-debugging-5.9/).
