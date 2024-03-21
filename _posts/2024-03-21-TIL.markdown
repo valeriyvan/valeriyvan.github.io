@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL some debug techniques in SwiftUI"
+date:   2024-03-21 21:51:00 +0200
+categories: TIL, SwiftUI, Debug
+---
+Read [Debugging techniques in SwiftUI](https://abdulahd1996.medium.com/debugging-techniques-in-swiftui-519b1b81cbe4), [Building SwiftUI debugging utilities](https://www.swiftbysundell.com/articles/building-swiftui-debugging-utilities/).
