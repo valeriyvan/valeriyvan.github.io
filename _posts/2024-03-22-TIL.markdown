@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "TIL how macros work in Swift"
+date:   2024-03-22 21:29:00 +0200
+categories: TIL, SwiftUI, Swift, Observable, Macro
+---
+Browsed [Managing model data in your app](https://developer.apple.com/documentation/swiftui/managing-model-data-in-your-app).
+
+Read [Macro `Observable()`](https://developer.apple.com/documentation/Observation/Observable()).
+
+Read The Swift Programming Language (5.10) [Macros](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/macros/).
+
+Whay Macro is called so? WiKi: [Macro (computer science)](https://en.wikipedia.org/wiki/Macro_(computer_science)):
+
+> In computer programming, a macro (short for "macro instruction"; from Greek μακρο- 'long, large'[1]) is a rule or pattern that specifies how a certain input should be mapped to a replacement output. Applying a macro to an input is known as macro expansion.
+
+Read [`@Environment`](https://developer.apple.com/documentation/swiftui/environment) documentation.
