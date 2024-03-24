@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "TIL SwiftUI View's Instance Method `onChange(of:initial:_:)`"
+date:   2024-03-23 19:43:00 +0200
+categories: TIL, SwiftUI
+---
+Have found strange declaration in SwiftUI sources as for me:
+
+```swift
+@available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
+public typealias ObservableObject = ObservableObject
+```
+
+TIL [SwiftUI View's Instance Method `onChange(of:initial:_:)`](https://developer.apple.com/documentation/swiftui/view/onchange(of:initial:_:)-4psgg)
