@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL PETOI maker of open source Arduino and Raspberry Pi-based quadruped robotic pets"
+date:   2024-03-24 19:25:00 +0200
+categories: TIL, PETOI, Arduino, Raspberry Pi, stl
+---
+TIL [PETOI Robot pets for every student to build and code](https://www.petoi.com/) and repo [OpenCat](https://github.com/PetoiCamp/OpenCat) is the open-source Arduino and Raspberry Pi-based quadruped robotic pet framework developed by Petoi, the maker of futuristic programmable robotic pets. [NonCodeFiles](https://github.com/PetoiCamp/NonCodeFiles) repo has among other resources .stl files for 3d-printing.
