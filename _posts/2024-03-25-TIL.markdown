@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL list of Mission Commands in ArduPilot"
+date:   2024-03-25 19:42:00 +0200
+categories: TIL, ArduPilot, Mission Planner, GitHub Actions
+---
+TIL [gha-setup-swift](https://github.com/compnerd/gha-setup-swift) for automating installation of the Swift toolchain for Windows hosts on GitHub Actions runners.
+
+TIL list of [Mission Commands](https://ardupilot.org/plane/docs/common-mavlink-mission-command-messages-mav_cmd.html) for ArduPilot plane. The most important ones for creating looping missions are following. [`DO_JUMP`](https://ardupilot.org/plane/docs/common-mavlink-mission-command-messages-mav_cmd.html#mav-cmd-do-jump). param1 - index of waypoint to jump to, param2 - number of times that the DO_JUMP command will execute before moving to the next sequential command. If the value is zero the next command will execute immediately. A value of -1 will cause the command to repeat indefinitely. ['DO_CHANGE_SPEED'](https://ardupilot.org/plane/docs/common-mavlink-mission-command-messages-mav_cmd.html#mav-cmd-do-jump). param1	- speed type (0 = Airspeed, 1 = Ground Speed), param2 - target speed (m/s). If airspeed, a value below or above min/max airspeed limits results in no change. a value of -2 uses `AIRSPEED_CRUISE`, param3 - throttle as a percentage (0-100%). A value of 0 or negative indicates no change.
+
+TIL `DO_JUMP` command in ArduPilot Mission Planner cannot be the last command in a mission: [Problem with DO_JUMP in mission planner](https://diydrones.com/forum/topics/problem-with-do-jump-in-mission-planner).
