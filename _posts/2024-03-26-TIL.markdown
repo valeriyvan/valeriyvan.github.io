@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "TIL Adwaita"
+date:   2024-03-26 20:23:00 +0200
+categories: TIL, Adwaita
+---
+TIL Adwaita - a framework for creating user interfaces for GNOME with an API similar to SwiftUI: [Writing GNOME Apps with Swift](https://www.swift.org/blog/adwaita-swift/).
+
+TIL that Storage section in Settings for Mac allows to clean up storage without third party apps:
+
+![Storage section in Settings](/assets/images/Screenshot%202024-03-26%20at%2006.04.18.png "Storage section in Settings")
+
+E.g. Developer section allows to clean up much more the [Xcode DevCleaner](https://github.com/vashpan/xcode-dev-cleaner) which I used to use for this purpose:
+
+![Developer section in Storage](/assets/images/Screenshot%202024-03-26%20at%2006.28.53.png "Developer section in Storage")
+
+![Xcode DevCleaner](/assets/images/Screenshot%202024-03-26%20at%2006.29.12.png "Xcode DevCleaner")
+
+It also shows that 2.67GB caches of Command Line Tools could be clean up but for whatever reason Delete button is inactive:
+
+![Command Line Tools](/assets/images/Screenshot%202024-03-26%20at%2006.32.40.png "Command Line Tools")
+
+It also has shown more then year old 22.28GB iOS backup about which I forgotten:
+
+![iOS backups](/assets/images/Screenshot%202024-03-26%20at%2006.33.30.png "iOS backups")
