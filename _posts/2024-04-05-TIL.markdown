@@ -1,0 +1,46 @@
+---
+layout: post
+title:  "TIL how to flash flight controller with Ardupilot on Mac without STM32Cube Programmer"
+date:   2024-04-05 21:41:00 +0200
+categories: TIL, Ardupilot, STM32Cube
+---
+TIL how to flash flight controller with Ardupilot on Mac without STM32Cube Programmer, just by using CLI `dfu-util`. The steps are described at [Loading a bootloader with DFU](https://ardupilot.org/dev/docs/using-DFU-to-load-bootloader.html).
+
+```
+% dfu-util --list
+dfu-util 0.11
+
+Copyright 2005-2009 Weston Schmidt, Harald Welte and OpenMoko Inc.
+Copyright 2010-2021 Tormod Volden and Stefan Schmidt
+This program is Free Software and has ABSOLUTELY NO WARRANTY
+Please report bugs to http://sourceforge.net/p/dfu-util/tickets/
+
+Found DFU: [0483:df11] ver=0200, devnum=1, cfg=1, intf=0, path="0-1", alt=1, name="@Option Bytes   /0x5200201C/01*128 e", serial="200364500000"
+Found DFU: [0483:df11] ver=0200, devnum=1, cfg=1, intf=0, path="0-1", alt=0, name="@Internal Flash   /0x08000000/16*128Kg", serial="200364500000"
+% dfu-util -a 0 --dfuse-address 0x08000000 -D ~/Downloads/MatekH743_bl.bin
+dfu-util 0.11
+
+Copyright 2005-2009 Weston Schmidt, Harald Welte and OpenMoko Inc.
+Copyright 2010-2021 Tormod Volden and Stefan Schmidt
+This program is Free Software and has ABSOLUTELY NO WARRANTY
+Please report bugs to http://sourceforge.net/p/dfu-util/tickets/
+
+dfu-util: Warning: Invalid DFU suffix signature
+dfu-util: A valid DFU suffix will be required in a future dfu-util release
+Opening DFU capable USB device...
+Device ID 0483:df11
+Device DFU version 011a
+Claiming USB DFU Interface...
+Setting Alternate Interface #0 ...
+Determining device status...
+DFU state(2) = dfuIDLE, status(0) = No error condition is present
+DFU mode device DFU version 011a
+Device returned transfer size 1024
+DfuSe interface name: "Internal Flash   "
+Downloading element to address = 0x08000000, size = 17404
+Erase   	[=========================] 100%        17404 bytes
+Erase    done.
+Download	[=========================] 100%        17404 bytes
+Download done.
+File downloaded successfully
+```
