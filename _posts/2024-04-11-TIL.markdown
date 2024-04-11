@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL about Panic's Playdate console which could be programmed with Swift"
+date:   2024-04-11 21:49:00 +0200
+categories: TIL, Playdate, Swift
+---
+TIL about [Panic's Playdate console](https://play.date) which could be programmed with Swift: [Byte-sized Swift: Building Tiny Games for the Playdate](https://www.swift.org/blog/byte-sized-swift-tiny-games-playdate/).
+
+TIL [swift-http-types package](https://github.com/apple/swift-http-types): [Introducing Swift HTTP Types](https://www.swift.org/blog/introducing-swift-http-types/).
+
+TIL [swift.org](https://swift.org) got top level [Packages](https://www.swift.org/packages/) page.
