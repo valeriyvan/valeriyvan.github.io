@@ -6,4 +6,30 @@ categories: TIL, git, git cherry
 ---
 TIL [`git cherry`](https://linux.die.net/man/1/git-cherry). Nice to check if all commits from local branch were merged with rebase.
 
+> `git cherry [-v] [<upstream> [<head> [<limit>]]]`
+
+> Every commit that doesn't exist in the <upstream> branch has its id (sha1) reported, prefixed by a symbol. The ones that have equivalent change already in the <upstream> branch are prefixed with a minus (-) sign, and those that only exist in the <head> branch are prefixed with a plus (+) symbol:
+
+E.g. command `git cherry -v main feature/bitmap-orientation` outputs only commits marked with minus meaning branch `feature/bitmap-orientation` is all right to be deleted:
+
+```bash
+git cherry -v main feature/bitmap-orientation
+- 29a60b3c8457acf64af5b4c8525458b91af66338 Add transpose
+- 3988c4516e45b275a7f7bde236944aa980129db7 Add swap function and test
+- f19ae6f7121472d2f1d49995e61a87fdac20bb07 Add reflectVertically function and test
+- 93c33708967a72c0642debf685c561ec0dc943d5 Add reflectHorizontally function and test
+- f2867487b9491db869dd28430f1d0d9cb7707266 Add snapshots
+- af49a3b0aa534d132b50a886cbdc656a67859ea1 Add test for rotateToUpOrientation(accordingTo: .up)
+- 0e59f81dd2ab54209d7bbabaabceb7c66856f21a Add test for rotateToUpOrientation(accordingTo: .upMirrored)
+- fa3c6783065c240eafa0981925c4229161b5ede3 Add test for rotateToUpOrientation(accordingTo: .down)
+- c2891a35301d18efe7873d54fbc9f40d224d72c7 Add test for rotateToUpOrientation(accordingTo: .downMirrored)
+- 36ea2c9e584e1092ac1bd7844c3a857db6c57a59 Add test for rotateToUpOrientation(accordingTo: .leftMirrored)
+- 016ead45a57013c8a7bcd857fea41ced142fef68 Add test for rotateToUpOrientation(accordingTo: .left)
+- 7eb3b5ced68f81705bdabd43d30598f024aad669 Add test for rotateToUpOrientation(accordingTo: .rightMirrored)
+- 034e489fe02b95808adf648da0c3a85798f2678f Add test for rotateToUpOrientation(accordingTo: .right)
+- 578b31fb2633945cfdb2ad21918683120633239c Rewrite rotation tests
+- 3c9735c4a2bcdac61f70f257f07c0a5e24391cee Implement Bitmap rotation according to exif orientation tag
+
+```
+
 TIL how to copy permissions from one file to another file: `chmod --reference=file-to-copy-permissions-from file-to-copy-permissions-to`.
