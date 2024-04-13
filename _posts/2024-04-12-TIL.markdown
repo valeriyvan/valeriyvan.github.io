@@ -8,4 +8,4 @@ TIL about [Lockdown Mode](https://support.apple.com/en-gb/105120) on iOS and mac
 
 TIL about [SPI Playgrounds.app](https://swiftpackageindex.com/try-in-a-playground) and from latter [Arena](https://github.com/finestructure/arena).
 
-TIL about Swift evolution proposal [Module Aliasing For Disambiguation](https://github.com/apple/swift-evolution/blob/main/proposals/0339-module-aliasing-for-disambiguation.md) for solving old issue I faced some time ago.
+TIL about Swift evolution proposal [Module Aliasing For Disambiguation](https://github.com/apple/swift-evolution/blob/main/proposals/0339-module-aliasing-for-disambiguation.md) for solving [issue I faced some time ago trying to use two Swift packages having identical structure](https://forums.swift.org/t/product-names-from-different-packages-collide-if-packages-are-used-as-dependencies-in-same-package/60178) and here is [PR](https://github.com/valeriyvan/swift-geometrize/pull/116) for fix.
