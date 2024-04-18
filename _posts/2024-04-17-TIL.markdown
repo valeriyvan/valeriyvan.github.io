@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "TIL 3MF 3D Manufacturing Format"
+date:   2024-04-17 22:11:00 +0200
+categories: TIL, 3D printing, 3MF
+---
+TIL [3D printing is called additive manufacturing](https://en.wikipedia.org/wiki/3D_printing).
+
+TIL about [3MF 3D Manufacturing Format](https://en.wikipedia.org/wiki/3D_Manufacturing_Format).
+
+> 3MF is an XML-based data format designed specifically for additive manufacturing. It includes information about materials, colors, and other information that cannot be represented in the STL format.
+
+Microsoft is part of consortium behind 3MF therefore format is natively supported on Windows. macOS lucks native QuickLook viewer and I failed to find working third-party one. 3MF is XML, part describing 3D object structure is not complex. Theoretically it wouldn't be difficult to convert 3MF into STL inside QuickLook.
+
+[3MF 3D Manufacturing Format](https://github.com/3MFConsortium/spec_core) is open source, [lib3mf](https://github.com/3MFConsortium/lib3mf), a C++ implementation of the 3D Manufacturing Format file standard is opensource either.
