@@ -4,8 +4,8 @@ title:  "TIL PPM, PGM, PBM, PNM textual file formats for images/bitmaps"
 date:   2023-09-14 19:23:00 +0200
 categories: TIL, PPM, PGM, PBM, PNM, Netpbm
 ---
-In my projects I often reinvent textual formats for images or bitmaps, e.g. like [in this unit test of Swift package `RaspberryPiSenseHat` for Raspberry Pi Sense ](https://github.com/valeriyvan/RaspberryPiSenseHat/blob/f9c93a609e0d53e5a6af5da67574d18269d68f2a/Tests/SenseHatTests/SenseHatTests.swift#L467)
-[](https://en.wikipedia.org/wiki/Netpbm), or [like this bitmap saved for unit test in swift-geometrize Swift package](https://github.com/valeriyvan/swift-geometrize/blob/c8d85b8aeaf98820167a91038a38437813cc92b6/Tests/geometrizeTests/Resources/defaultEnergyFunction%20target%20bitmap.txt). TIL I learned since 1980s there is a family of formats for this:
+In my projects I often reinvent textual formats for images or bitmaps, e.g. like [in this unit test of Swift package `RaspberryPiSenseHat` for Raspberry Pi Sense](https://github.com/valeriyvan/RaspberryPiSenseHat/blob/f9c93a609e0d53e5a6af5da67574d18269d68f2a/Tests/SenseHatTests/SenseHatTests.swift#L467)
+[](https://en.wikipedia.org/wiki/Netpbm), or [like this bitmap saved for unit test in swift-geometrize Swift package](https://github.com/valeriyvan/swift-geometrize/blob/c8d85b8aeaf98820167a91038a38437813cc92b6/Tests/geometrizeTests/Resources/defaultEnergyFunction%20target%20bitmap.txt). TIL I learned [there is a family of formats for this since 1980s](https://en.wikipedia.org/wiki/Netpbm):
 
 * portable pixmap format (.PPM)
 * portable graymap format (.PGM)
@@ -32,7 +32,7 @@ P1
 ```
 
 Here is the resulting image:
-![Example of ASCII-art turned into a bitmap](/assets/images/Example_of_ASCII-art_turned_into_a_bitmap.pbm.png "Example of ASCII-art turned into a bitmap")
+![This is an example bitmap of the letter "J" turned into PNG](/assets/images/Example_of_ASCII-art_turned_into_a_bitmap.pbm.png "This is an example bitmap of the letter \"J\" turned into PNG")
 
 It does make sense to make swift package for this and then reuse this package in my projects.
 
