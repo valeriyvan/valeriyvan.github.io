@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "TIL SSH deployment with GitHub actions"
+date:   2024-04-25 22:04:00 +0200
+categories: TIL, GitHub, SSH, Shapr3D, Herelink
+---
+Read [SSH deployment with GitHub actions](https://stanleymasinde.medium.com/ssh-deployment-with-github-actions-f2274269d9f3). Exact my case:
+
+> This article assumes you are deploying to a single machine with a known IP address accessible via SSH.
+
+Also read [Deploying to a Server with GitHub Actions using ssh](https://medium.com/@balazskocsis/deploying-to-a-server-with-github-actions-a-deep-dive-e8558e83a4d7).
+
+Read [Herelink User Guides](https://docs.cubepilot.org/user-guides/herelink/herelink-user-guides) to learn how to setup Herelink Controller unit.
+
+Watched and followed [Day #1: 3D Printable One-Hand Book Holder in Shapr3D](https://www.youtube.com/watch?v=zDiym4xmgPk).
