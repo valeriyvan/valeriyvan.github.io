@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL about `.scss`"
+date:   2024-04-24 22:19:00 +0200
+categories: TIL, HTML, CSS, SCSS, JavaScript, Interview
+---
+Ran over [How to create a “Before & After” image slider with CSS and JS](https://levelup.gitconnected.com/how-to-create-a-before-after-image-slider-with-css-and-js-a609d9ba77bf). TIL about `.scss` but I used [SCSS to CSS Compiler](https://www.cssportal.com/scss-to-css/) to compile it into regular CSS.
+ 
+While working on slder I failed to make example work and asked ChatGPT for suggestion. [The best help I have got from chatgpt so far!](https://chat.openai.com/share/ffc2cdd6-978c-49ab-8600-13c3ff48efe3).
+
+Interesting reading [Why I Keep Failing Candidates During Google Interviews…](https://levelup.gitconnected.com/why-i-keep-failing-candidates-during-google-interviews-dc8f865b2c19).
