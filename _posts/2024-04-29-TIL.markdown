@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL How To Engrave Text On A Part in Shapr3D"
+date:   2024-04-29 21:41:00 +0200
+categories: TIL, Shapr3D
+---
+Watched [Day #2: User Interface and Navigation - Learn Shapr3D in 10 Days for Beginners](https://www.youtube.com/watch?v=Voous6R9YWQ).
+
+TIL [How To Engrave Text On A Part in Shapr3D](https://www.youtube.com/watch?v=ovW-S45VHRk).
