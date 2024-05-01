@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL about Privacy manifest files"
+date:   2024-04-30 21:38:00 +0200
+categories: TIL, Privacy manifest files, PrivacyInfo.xcprivacy, Required reason API, Privacy Nutrition Label
+---
+TIL about [Privacy manifest files](https://developer.apple.com/documentation/bundleresources/privacy_manifest_files) for apps and third-party SDKs — distributed as XCFrameworks, Swift packages, or Xcode projects. If some common third-parties are used like AFNetworking or Alamofire, app must include privacy manifest: [Upcoming third-party SDK requirements](https://developer.apple.com/support/third-party-SDK-requirements/). Some APIs which used for fingerprinting, like `NSFileSystemFreeSize`, now require explanation why they are used [Describing use of required reason API](https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_use_of_required_reason_api). Watched [WWDC 2023 video Get started with privacy manifests](https://developer.apple.com/videos/play/wwdc2023/10060/). Watched [Create your Privacy Nutrition Label](https://developer.apple.com/videos/play/wwdc2022/10167). Watched [Verify app dependencies with digital signatures](https://developer.apple.com/videos/play/wwdc2023/10061).
