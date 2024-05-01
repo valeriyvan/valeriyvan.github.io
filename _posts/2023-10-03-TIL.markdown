@@ -10,3 +10,4 @@ TIL [Pipenv: A Guide to the New Python Packaging Tool](https://realpython.com/pi
 
 TIL [**Ctrl+M** in Xcode for formatting function parameters](https://twitter.com/lukeeep_/status/1707064508143768002?s=43&t=6rmSjK21fIpso2_vOjKRhg). It's magic.
 
+![Formatting function parameters in Xcode](/assets/images/Screen%20Recording%20format%20function%20call%20in%20Xcode.gif "Formatting function parameters in Xcode")
