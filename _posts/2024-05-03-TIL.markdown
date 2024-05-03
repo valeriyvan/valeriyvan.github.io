@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Dug in Netpbm"
+date:   2024-05-03 22:04:00 +0200
+categories: TIL, Netpbm
+---
+Dug in [Netpbm](https://sourceforge.net/projects/netpbm/) sources as I currently trying to add to [swift-geometrize](https://github.com/valeriyvan/swift-geometrize) ability to read/write .PPM files. Accidentally found `dither.h` source file. Interesting. There have found a reference to a book [Beyond Photography. The Digital Darkroom. Gerard J. Holzmann.pdf](/assets/docs/Book%20Beyond%20Photography.%20The%20Digital%20Darkroom.%20Gerard%20J.%20Holzmann.pdf) which was published in 1988, a year when I became a student.
