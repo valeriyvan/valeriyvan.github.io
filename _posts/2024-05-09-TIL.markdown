@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL what are Monads in Swift"
+date:   2024-05-09 22:36:00 +0200
+categories: TIL, Monads, Swift
+---
+Read a very short explanation what are [Monads in Swift](https://chris.eidhof.nl/post/monads-in-swift/) by Chris Eidhof. Whatched [John Gallagher’s talk](http://2014.funswiftconf.com/speakers/john.html) about Monads.
