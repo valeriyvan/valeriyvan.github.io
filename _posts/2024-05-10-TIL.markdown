@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read about Result builders in Swift"
+date:   2024-05-10 21:13:00 +0200
+categories: TIL, Swift, resultBuilder
+---
+Read [Result builders](https://www.hackingwithswift.com/swift/5.4/result-builders).
