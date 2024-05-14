@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Read bout developing embedded applications with Swift"
+date:   2024-05-13 21:38:00 +0200
+categories: TIL, Swift
+---
+
+Read [Developing Embedded Applications with Swift](https://fatbobman.com/en/posts/developing-embedded-applications-with-swift/) and [Create falling sand simulation](https://docs.madmachine.io/blog/Program%20falling%20sand%20simulation%20using%20embedded%20Swift.)
+
+Read [Balancing cube](https://willempennings.nl/balancing-cube/). Cool engineering.
+
+Read documentation [Concurrency.Perform asynchronous operations.](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/concurrency/).
