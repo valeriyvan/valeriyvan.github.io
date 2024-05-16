@@ -29,7 +29,6 @@ git cherry -v main feature/bitmap-orientation
 - 034e489fe02b95808adf648da0c3a85798f2678f Add test for rotateToUpOrientation(accordingTo: .right)
 - 578b31fb2633945cfdb2ad21918683120633239c Rewrite rotation tests
 - 3c9735c4a2bcdac61f70f257f07c0a5e24391cee Implement Bitmap rotation according to exif orientation tag
-
 ```
 
 TIL how to copy permissions from one file to another file: `chmod --reference=file-to-copy-permissions-from file-to-copy-permissions-to`.
