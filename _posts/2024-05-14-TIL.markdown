@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "TIL about test coverage reports in Swift Package apps"
+date:   2024-05-14 10:41:00 +0200
+categories: TIL, Swift, SPM, Quadcopter, Render, Embedded Swift
+---
+Read again [Reporting test coverage for Swift packages without Xcode](https://medium.com/touchwonders/reporting-test-coverage-for-swift-packages-without-xcode-958ce9965abd).
+
+```bash
+swift test --enable-code-coverage --verbose
+```
+
+For me codecove files are in folder `./.build/arm64-apple-macosx/debug/codecov`
+
+Read [Code coverage for Swift Package Manager based apps](https://bitrise.io/blog/post/code-coverage-for-swift-package-manager-based-apps).
+
+Watched [15 | Combine a gyroscope and accelerometer to measure angles - precisely](https://www.youtube.com/watch?v=5HuN9iL-zxU).
+
+Read [Low-level Swift optimization tips](https://swiftinit.org/articles/low-level-swift-optimization).
+
+> Reasonably well-written Swift code without any detailed optimization can easily achieve run time performance within 200 to 250 percent of a bare-metal C implementation.
+
+Ha-ha. Twice slower than plane C.
+
+Came accross nice tutorial [Quadcopter build and programming manual](https://github.com/CarbonAeronautics/Manual-Quadcopter-Drone) how to build Quadcopter from scratch, including PCB bouard for self made flight controller.
+
+
+Read [Making a 3D Modeler, in C, in a Week](https://danielchasehooper.com/posts/shapeup/). 
+
+Read [Get Started with Embedded Swift on ARM and RISC-V Microcontrollers](https://www.swift.org/blog/embedded-swift-examples/). [Embedded Swift Example Projects](https://github.com/apple/swift-embedded-examples). [Introduce embedded development using Swift](https://forums.swift.org/t/introduce-embedded-development-using-swift/56573) has examples of cross compiling.
+
+Read [A Vision for Embedded Swift](https://github.com/apple/swift-evolution/blob/main/visions/embedded-swift.md).
