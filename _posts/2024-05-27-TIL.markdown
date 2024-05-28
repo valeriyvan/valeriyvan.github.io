@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL setjmp/longjmp are undefined behaviors in Swift"
+date:   2024-05-27 22:11:00 +0200
+categories: TIL, Swift, setjmp/longjmp
+---
+[setjmp/longjmp are undefined behaviors in Swift](https://forums.swift.org/t/on-the-road-to-swift-6/32862/146?page=8) and [cannot be used with ARC Objective-C either](https://x.com/jckarter/status/528971489257984000).
+
+Read [Netpbm Programming Library Errors](https://netpbm.sourceforge.net/doc/liberror.html). libnetpbm or just exists app in case of any error (io error or broken file) or uses longjpm as alternative.
+
+These two make libnetpbm unusable with Swift. The only way to use libnetpbm in Swift - port it into Swift.
