@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL Swift sucks at running initialization code e.g. for framework initialisation"
+date:   2024-05-26 22:00:00 +0200
+categories: TIL, Swift
+---
+[Automatically run Swift code when your framework gets initialized](https://blog.eidinger.info/automatically-run-swift-code-when-your-framework-gets-initialized). But all these methods are shit.
