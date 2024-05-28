@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "TIL interesting method of reading stdin in Swift"
+date:   2024-05-22 22:08:00 +0200
+categories: TIL, netpbm, Swift, stdin
+---
+TIL how to build [netpbm](https://github.com/valeriyvan/netpbm) on macOS. Running `./configure` succeeds, but `make` fails with an error. I checked the [netpbm Homebrew formula](https://formulae.brew.sh/formula/netpbm) and reviewed the [formula code](https://github.com/Homebrew/homebrew-core/blob/4b5fcc2b6e303da0d5deb6f3d2a702808b1b8434/Formula/n/netpbm.rb), which applies some fixes in `config.mk`. Now I can try wrapping libnetpbm into a Swift package.
+
+Dug in [Libnetpbm User's Guide](https://netpbm.sourceforge.net/doc/libnetpbm_ug.html).
+
+TIL interesting method of reading stdin in Swift:
+
+```Swift
+import Foundation
+
+if let input = try? String(contentsOfFile: "/dev/stdin", encoding: .utf8) {
+    print("Input from file: \(input)")
+}
+```
+
+This reads the entire content of stdin as a string. This method is useful if you're dealing with redirected input from files or other streams.
