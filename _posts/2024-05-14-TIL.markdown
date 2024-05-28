@@ -14,7 +14,7 @@ For me codecove files are in folder `./.build/arm64-apple-macosx/debug/codecov`
 
 Read [Code coverage for Swift Package Manager based apps](https://bitrise.io/blog/post/code-coverage-for-swift-package-manager-based-apps).
 
-Watched [15 | Combine a gyroscope and accelerometer to measure angles - precisely](https://www.youtube.com/watch?v=5HuN9iL-zxU).
+Watched [15 \| Combine a gyroscope and accelerometer to measure angles - precisely](https://www.youtube.com/watch?v=5HuN9iL-zxU).
 
 Read [Low-level Swift optimization tips](https://swiftinit.org/articles/low-level-swift-optimization).
 
@@ -22,7 +22,7 @@ Read [Low-level Swift optimization tips](https://swiftinit.org/articles/low-leve
 
 Ha-ha. Twice slower than plane C.
 
-Came accross nice tutorial [Quadcopter build and programming manual](https://github.com/CarbonAeronautics/Manual-Quadcopter-Drone) how to build Quadcopter from scratch, including PCB bouard for self made flight controller.
+Came accross nice tutorial [Quadcopter build and programming manual](https://github.com/CarbonAeronautics/Manual-Quadcopter-Drone) how to build Quadcopter from scratch, including PCB bouard for self made flight controller. It's so nice I checked in [pdf](/assets/docs/Carbon_Aeronautics_Quadcopter_Manual.pdf).
 
 
 Read [Making a 3D Modeler, in C, in a Week](https://danielchasehooper.com/posts/shapeup/). 
@@ -30,3 +30,7 @@ Read [Making a 3D Modeler, in C, in a Week](https://danielchasehooper.com/posts/
 Read [Get Started with Embedded Swift on ARM and RISC-V Microcontrollers](https://www.swift.org/blog/embedded-swift-examples/). [Embedded Swift Example Projects](https://github.com/apple/swift-embedded-examples). [Introduce embedded development using Swift](https://forums.swift.org/t/introduce-embedded-development-using-swift/56573) has examples of cross compiling.
 
 Read [A Vision for Embedded Swift](https://github.com/apple/swift-evolution/blob/main/visions/embedded-swift.md).
+
+TIL terminal on macOS shows preview of a file if you select its URL and press space:
+
+![terminal on macOS shows preview of a file if you select its URL and press space](/assets/images/Screenshot%202024-05-14%20at%2011.57.21.png "terminal on macOS shows preview of a file if you select its URL and press space")
