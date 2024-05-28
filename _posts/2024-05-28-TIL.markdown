@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Watched I made an RC flying wing"
+date:   2024-05-28 23:11:00 +0200
+categories: TIL, RC flying wing 
+---
+Bookmark video [I made an RC flying wing | Joywing 1.1 an improved version](https://www.youtube.com/watch?v=hqu7El1IaLU).
