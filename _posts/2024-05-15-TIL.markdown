@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "TIL a lot new things about ArduPilot"
+date:   2024-05-15 21:07:00 +0200
+categories: TIL, ArduPilot
+---
+Read [Measuring Vibration](https://ardupilot.org/plane/docs/common-measuring-vibration.html) in ArduPilot documentation. Interesting if Betaflight has similar means/tool for measuring vibrations. [Vibration Damping](https://ardupilot.org/plane/docs/common-vibration-damping.html#common-vibration-damping).
+
+Read [Firmware Limitations on AutoPilot Hardware](https://ardupilot.org/plane/docs/common-limited-firmware.html). [RAM Limitations](https://ardupilot.org/plane/docs/common-limited-firmware.html#ram-limitations) section shows possible symptoms when flight controller has insufficient RAM. This symptoms, like compass calibration not starting or logging not starting or parameters download in Ground Control Station are slow are interesting. 
+
+> in Mission Planner’s STATUS tab, you can monitor the “freemem” status for current free RAM
+
+Read [Connect Mission Planner to AutoPilot](https://ardupilot.org/plane/docs/common-connect-mission-planner-autopilot.html#common-connect-mission-planner-autopilot).
+
+Read [Diagnosing some common problems using Logs](https://ardupilot.org/plane/docs/common-diagnosing-problems-using-logs.html).
+
+Read [Learning the ArduPilot Codebase](https://ardupilot.org/dev/docs/learning-the-ardupilot-codebase.html).
+
+Read [Battery Monitors (aka Power Monitors/Modules)](https://ardupilot.org/plane/docs/common-powermodule-landingpage.html).
