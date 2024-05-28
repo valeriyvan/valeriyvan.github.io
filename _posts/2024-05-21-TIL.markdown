@@ -8,8 +8,10 @@ Read [How to use Blackbox in Betaflight FPV Drones](https://oscarliang.com/black
 
 TIL the Lenna has own website: [The Lenna Story](http://www.lenna.org). The Lenna (or Lena) picture is one of the most widely used standard test images used for compression algorithms.
 
+![Lena](/assets/images/lena_std.tif "Lena")
+	
 TIL x86's [`mov` is Turing-complete](https://drwho.virtadpt.net/files/mov.pdf):
 
-> It is well-known that the x86 instruction set is baroque, overcom- plicated, and redundantly redundant. We show just how much fluff it has by demonstrating that it remains Turing-complete when re- duced to just one instruction.
+> It is well-known that the x86 instruction set is baroque, over-complicated, and redundantly redundant. We show just how much fluff it has by demonstrating that it remains Turing-complete when reduced to just one instruction.
 
 > The instruction we choose is mov, which can do both loads and stores. We use no unusual addressing modes, self-modifying code, or runtime code generation. Using just this instruction (and a single unconditional branch at the end of the program to make nontermination possible), we demonstrate how an arbitrary Turing machine can be simulated.
