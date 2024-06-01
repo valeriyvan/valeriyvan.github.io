@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read ChatGPT for Swift: Top 5 code generation prompts"
+date:   2024-05-31 22:03:00 +0200
+categories: TIL, Swift, ChatGPT
+---
+Read [ChatGPT for Swift: Top 5 code generation prompts](https://www.avanderlee.com/swift/chatgpt-code-generation-prompts/). Part of these I already use.
