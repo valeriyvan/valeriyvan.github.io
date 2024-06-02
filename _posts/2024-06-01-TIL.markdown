@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read Different flavors of type erasure in Swift"
+date:   2024-06-01 21:11:00 +0200
+categories: TIL, Swift, Type erasure
+---
+Read [Different flavors of type erasure in Swift](https://swiftbysundell.com/articles/different-flavors-of-type-erasure-in-swift/).
