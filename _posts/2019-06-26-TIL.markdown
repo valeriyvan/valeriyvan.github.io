@@ -14,11 +14,11 @@ Context menu of pointer variable has item 'View Memory of "\*ppointer_variable"'
 
 ![](/assets/images/Screenshot%202019-06-26%20at%2010.59.48.png).
 
-But it shows only raw bytes along with textual represintation:
+But it shows only raw bytes along with textual representation:
 
 ![](/assets/images/Screenshot%202019-06-26%20at%2010.53.36.png)
 
-Which helps very little in case of array of floats. The only way is to use lldb command like `memory read -t float -c50 \`file_contents\`` where `-t` specifies type and -c amount of values to show. `memory read -ff -c10 \`file_contents\`` produces same results, where `-f` specifies format. And there's even shortcut `x/10f file_contents`! Good to remember that `help memory read' and help 'help x' work in debugger console in Xcode.
+Which helps very little in case of array of floats. The only way is to use lldb command like `memory read -t float -c50 \`file_contents\`` where `-t` specifies type and `-c` count of values to show. `memory read -ff -c10 \`file_contents\`` produces same results, where `-f` specifies format. And there's even shortcut `x/10f file_contents`! Good to remember that `help memory read` and help 'help x' work in debugger console in Xcode.
 
 ![](/assets/images/Screenshot%202019-06-26%20at%2011.08.07.png)
 
