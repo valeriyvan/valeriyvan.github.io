@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Watched PointFree's issue Modern UIKit: Sneak Peek, Part 2"
+date:   2024-06-10 22:54:00 +0200
+categories: TIL, UIKit
+---
+Watched PointFree's issue [Modern UIKit: Sneak Peek, Part 2](https://www.pointfree.co/episodes/ep282-modern-uikit-sneak-peek-part-2).
