@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Watched a bunch of WWDC 2024 videos"
+date:   2024-06-12 21:34:00 +0200
+categories: TIL, Swift, SwiftUI, Flipper Zero
+---
+Watched WWDC 2024 session video [Meet Swift Testing](https://developer.apple.com/videos/play/wwdc2024/10179/).
+
+Watched WWDC 2024 session video [What’s new in Swift](https://developer.apple.com/videos/play/wwdc2024/10136/). Boyond other things it mentions (9m 50s) how to cross-compile on mac for Linux platform.
+
+Read [Iterate Over Parameter Packs in Swift 6.0](https://www.swift.org/blog/pack-iteration/).
+
+TIL about Swift 6 types throws - from video What’s new in Swift above.
+
+TIL about Atomics And Mutexes in Swift 6, from the same video.
+
+Watched  WWDC 2024 session video [What’s new in SwiftUI](https://developer.apple.com/videos/play/wwdc2024/10144/).
+
+Watched [Opening safe with Flipper Zero](https://www.youtube.com/watch?v=trpOoM6ugnk). Interesting how Flipper Zero could be used to inspect what is sent through RX, with the help of `minicom` CLI (available on macOS over brew):
+
+```
+minicom -b 4800 --displayhex -D /dev/tty.usbmodemflip_Himano1
+```
