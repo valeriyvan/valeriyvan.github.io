@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "TIl how pbm, pgm, ppm, pam images could be previewed on macOS"
+date:   2024-06-14 23:42:00 +0200
+categories: TIL, Netpbm, macOS, bug
+---
+TIl how pbm, pgm, ppm, pam images could be previewed on macOS:
+
+`pnmtopng feep.ascii.p5.pgm | open -f -a Preview`
+
+Preview of netpbm file with means of netpbm on macOS is important as macOS renders these file often incorrectly. E.g. as on following screenshot correct preview is on the bottom.
+
+![Finder screenshot][/assets/images/Screenshot%202024-06-16%20at%2023.10.49.png "Finder screenshot"]
+
+Analogous pipe on Ubuntu will look like `pnmtoxwd /Users/valeriyvan/Downloads/surf.ascii.pgm | xwud`. This works on macOS as well if X Windows is installed.
+
+
+Found dithering command line in netpbm - `pamditherbw`:
+
+`pamditherbw baboon.ascii.pgm | open -f -a Preview`
