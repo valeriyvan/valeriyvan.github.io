@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "TIL how to Create an Ubuntu bootable USB stick on macOS"
+title:  "TIL how to Create Ubuntu bootable USB stick on macOS"
 date:   2024-06-15 21:42:00 +0200
 categories: TIL, Ubuntu
 ---
-TIL how to [Create an Ubuntu bootable USB stick on macOS](https://ubuntu.com/tutorials/create-a-usb-stick-on-macos).
+TIL how to [Create Ubuntu bootable USB stick on macOS](https://ubuntu.com/tutorials/create-a-usb-stick-on-macos).
