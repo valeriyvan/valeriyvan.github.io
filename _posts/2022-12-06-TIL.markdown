@@ -32,4 +32,4 @@ People do things like [swift-ci, CI written in Swift](https://github.com/BinaryB
 
 Read [Deep dive into Swift frameworks: Learn everything about Swift modules, libraries, packages, closed source frameworks, command line tools and more.](https://theswiftdev.com/deep-dive-into-swift-frameworks/).
 
-Brewsed [Swift Package Manager Usage](https://github.com/apple/swift-package-manager/blob/main/Documentation/Usage.md). I did missed that such documentation exists. Why there's no direct link to it from README.md? Learned about `swift package resolve`.
+Browsed [Swift Package Manager Usage](https://github.com/apple/swift-package-manager/blob/main/Documentation/Usage.md). I did missed that such documentation exists. Why there's no direct link to it from README.md? Learned about `swift package resolve`.
