@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read Quick Look Programming Guide in documentation archive"
+date:   2024-06-30 22:02:00 +0200
+categories: TIL, QuickLook
+---
+Read [Quick Look Programming Guide](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/Quicklook_Programming_Guide/) in documentation archive while thinking of creating QuickLook for PAM files. New documentation for [QuickLook framework](https://developer.apple.com/documentation/quicklook) is far from be than good.
