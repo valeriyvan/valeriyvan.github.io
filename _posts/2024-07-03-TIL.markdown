@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "TIL about typed throws in Swift"
+date:   2024-07-03 22:05:00 +0200
+categories: TIL, git, worktree, Swift, exeption
+---
+TIL `git checkout -`. The minus (-) at the end of the command tells `git` to switch to the previous branch you were on before the current one. It's a way to quickly toggle back and forth between two branches without needing to type out the full branch names.
+
+TIL `pushd` and `popd`: [`git worktree` example](https://git-scm.com/docs/git-worktree#_examples):
+
+```bash
+$ git worktree add -b emergency-fix ../temp master
+$ pushd ../temp
+# ... hack hack hack ...
+$ git commit -a -m 'emergency fix for boss'
+$ popd
+$ git worktree remove ../temp
+```
+
+TIL about [Typed throws](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0413-typed-throws.md) in Swift.
