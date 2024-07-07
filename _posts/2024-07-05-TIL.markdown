@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Read Plotting a Path to a Package Ecosystem without Data Race Errors"
+date:   2024-07-05 21:04:00 +0200
+categories: TIL, Swift, Data Race, Macro
+---
+Read [Plotting a Path to a Package Ecosystem without Data Race Errors](https://www.swift.org/blog/ready-for-swift-6/).
+
+Read [Macros](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/macros/) Swift documentation.
