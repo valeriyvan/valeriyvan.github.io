@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "TIL about Swift structured concurrency"
+date:   2024-07-08 21:38:00 +0200
+categories: TIL, Swift, Swift structured concurrency, async/await
+---
+TIL `swift package clean` command for deleting build artifacts and `swift package purge-cache` for purging the global repository cache.
+
+Read [Concurrency](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/concurrency/) chapter of Swift documentation. Some quotes follow.
+
+TIL how to transform throwing function into one returning Result:
+
+```
+func availableRainyWeekendPhotos() -> Result<[String], Error> {
+    return Result {
+        try listDownloadedPhotos(inGallery: "A Rainy Weekend")
+    }
+}
+```
+
+>  there’s no safe way to wrap asynchronous code so you can call it from synchronous code and wait for the result. The Swift standard library intentionally omits this unsafe functionality — trying to implement it yourself can lead to problems like subtle races, threading issues, and deadlocks. When adding concurrent code to an existing project, work from the top down. Specifically, start by converting the top-most layer of code to use concurrency, and then start converting the functions and methods that it calls, working through the project’s architecture one layer at a time. There’s no way to take a bottom-up approach, because synchronous code can’t ever call asynchronous code.
+
+This is new for me:
+
+> To call an asynchronous function and let it run in parallel with code around it, write async in front of let when you define a constant, and then write await each time you use the constant.
+
+``` Swift
+async let firstPhoto = downloadPhoto(named: photoNames[0])
+async let secondPhoto = downloadPhoto(named: photoNames[1])
+async let thirdPhoto = downloadPhoto(named: photoNames[2])
+
+let photos = await [firstPhoto, secondPhoto, thirdPhoto]
+show(photos)
+```
+
+> In this example, all three calls to downloadPhoto(named:) start without waiting for the previous one to complete. If there are enough system resources available, they can run at the same time. None of these function calls are marked with await because the code doesn’t suspend to wait for the function’s result. Instead, execution continues until the line where photos is defined — at that point, the program needs the results from these asynchronous calls, so you write await to pause execution until all three photos finish downloading.
+
+
+TIL why structured concurrency is called so:
+
+> Tasks are arranged in a hierarchy. Each task in a given task group has the same parent task, and each task can have child tasks. Because of the explicit relationship between tasks and task groups, this approach is called *structured concurrency*.
