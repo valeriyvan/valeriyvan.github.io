@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Read Anatomy of High-Performance Matrix Multiplication"
+date:   2024-07-10 22:18:00 +0200
+categories: TIL, Matrix Multiplication
+---
+Read [Anatomy of High-Performance Matrix Multiplication](/assets/docs/Anatomy%20of%20High-Performance%20Matrix%20Multiplication.pdf).
+
+Bookmarking textbook [The theory of matrices](/assets/docs/Book%20The%20theory%20of%20matrices%20by%20Gantmacher.pdf).
