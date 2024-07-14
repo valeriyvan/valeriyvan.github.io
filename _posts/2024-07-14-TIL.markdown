@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL `swiftly` - a Swift toolchain installer and manager, written in Swift"
+date:   2024-07-14 13:53:00 +0200
+categories: TIL, Swift, swiftly
+---
+TIL [https://github.com/swiftlang/swiftly](`swiftly`) - s Swift toolchain installer and manager, written in Swift.
+
+[Building a sub 250g Autonomous Drone with Ardupilot and ExpressLRS AirPort Telemetry](https://www.youtube.com/watch?v=u_ArriXbrR0). Interesting install with separate pair of ExpressLRS in AirPort mode for telemetry which allow to use Mission Planner to control drone during the flight.
