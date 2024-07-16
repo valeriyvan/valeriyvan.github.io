@@ -1,0 +1,52 @@
+---
+layout: post
+title:  "Read Build settings reference - a detailed list of individual Xcode build settings that control or change the way a target is built"
+date:   2024-07-15 21:53:00 +0200
+categories: TIL, Xcode
+---
+Read [Build settings reference - a detailed list of individual Xcode build settings that control or change the way a target is built](https://developer.apple.com/documentation/xcode/build-settings-reference). Some drew attention.
+
+Misuse of Grand Central Dispatch
+Setting name: CLANG_ANALYZER_GCD
+Check for misuses of the Grand Central Dispatch API.
+
+Performance Anti-Patterns with Grand Central Dispatch
+Setting name: CLANG_ANALYZER_GCD_PERFORMANCE
+Check for Grand Central Dispatch idioms that may lead to poor performance.
+
+EXPERIMENTAL Buffer overflows
+Setting name: CLANG_ANALYZER_SECURITY_BUFFER_OVERFLOW_EXPERIMENTAL
+Check for potential buffer overflows.
+
+Use of ‘strcpy’ and ‘strcat’
+Setting name: CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY
+Warn on uses of the strcpy and strcat functions, which can result in buffer overflows. Use strlcpy or strlcat instead.
+
+Compress PNG Files
+Setting name: COMPRESS_PNG_FILES
+If enabled, PNG resource files are compressed as they are copied.
+
+Setting name: GCC_ENABLE_PASCAL_STRINGS
+Recognize and construct Pascal-style string literals. Its use in new code is discouraged.
+Pascal string literals take the form "\pstring" . The special escape sequence \p denotes the Pascal length byte for the string, and will be replaced at compile time with the number of characters that follow. The \p may only appear at the beginning of a string literal, and may not appear in wide string literals or as an integral constant.
+
+Setting name: GCC_ENABLE_SSE3_EXTENSIONS
+Specifies whether the binary uses the builtin functions that provide access to the SSE3 extensions to the IA-32 architecture.
+
+Setting name: GCC_ENABLE_SSE41_EXTENSIONS
+Specifies whether the binary uses the builtin functions that provide access to the SSE4.1 extensions to the IA-32 architecture.
+
+Setting name: GCC_ENABLE_SSE42_EXTENSIONS
+Specifies whether the binary uses the builtin functions that provide access to the SSE4.2 extensions to the IA-32 architecture.
+
+App Can Run Independently of Companion iPhone App
+Setting name: INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp
+When GENERATE_INFOPLIST_FILE is enabled, sets the value of the WKRunsIndependentlyOfCompanionApp key in the Info.plist file to the value of this build setting.
+
+Swift Language Version
+Setting name: SWIFT_VERSION
+The language version used to compile the target’s Swift code.
+
+Read [Swift 6: Incrementally migrate your Xcode projects and packages](https://www.avanderlee.com/concurrency/swift-6-migrating-xcode-projects-packages/).
+
+TIL how to stash individual files with git: `git stash push [file]` or `git stash push -m "message" [file]` or even `git stash push --patch`
