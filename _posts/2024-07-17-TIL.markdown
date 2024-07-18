@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Read Swift Actors — in depth"
+date:   2024-07-17 21:59:00 +0200
+categories: TIL, Swift, Actors, Structured concurrency
+---
+Read [Swift Actors — in depth](https://medium.com/@valentinjahanmanesh/swift-actors-in-depth-19c8b3dbd85a#:~:text=In%20Swift%2C%20an%20actor%20is,a%20printer%20in%20an%20office.)
+
+Watched WWDC 2021 video [Explore structured concurrency in Swift](https://developer.apple.com/videos/play/wwdc2021/10134/).
