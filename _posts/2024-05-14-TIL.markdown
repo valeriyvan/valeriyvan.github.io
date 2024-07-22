@@ -22,8 +22,7 @@ Read [Low-level Swift optimization tips](https://swiftinit.org/articles/low-leve
 
 Ha-ha. Twice slower than plane C.
 
-Came accross nice tutorial [Quadcopter build and programming manual](https://github.com/CarbonAeronautics/Manual-Quadcopter-Drone) how to build Quadcopter from scratch, including PCB bouard for self made flight controller. It's so nice I checked in [pdf](/assets/docs/Carbon_Aeronautics_Quadcopter_Manual.pdf).
-
+Came accross nice tutorial [Quadcopter build and programming manual](https://github.com/CarbonAeronautics/Manual-Quadcopter-Drone) how to build Quadcopter from scratch, including PCB bouard for self made flight controller. It's so nice I checked in [Carbon Aeronautics Quadcopter Manual.pdf](/assets/docs/Carbon_Aeronautics_Quadcopter_Manual.pdf). Totorial has videos for each of chapters: [Carbon Aeronautics video channel](https://www.youtube.com/@carbonaeronautics).
 
 Read [Making a 3D Modeler, in C, in a Week](https://danielchasehooper.com/posts/shapeup/). 
 
