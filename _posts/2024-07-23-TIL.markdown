@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "TIL swift-noise"
+date:   2024-07-23 21:16:00 +0200
+categories: TIL, Swift, SVG
+---
+TIL [swift-noise](https://github.com/tayloraswift/swift-noise) - a free, pure Swift procedural noise generation library.
+
+Read SVG noise filter series: [Part I — Introduction](https://medium.com/@codebro/svg-noise-filter-45b5edbbc28d),
+[Part II — Applying noise to shapes](https://medium.com/@codebro/svg-noise-filter-fd5a5edfba86), [Part III — Bells and whistles](https://medium.com/@codebro/svg-noise-filter-f38a9327f66c), [Part IV — Animating the noise](https://medium.com/@codebro/svg-noise-filter-bc6247ba4399), [Part V — Thick noise](https://medium.com/@codebro/svg-noise-filter-part-v-6836c8351c45).
+
+Read [SVG Filter Effects: Creating Texture with <feTurbulence>](https://tympanus.net/codrops/2019/02/19/svg-filter-effects-creating-texture-with-feturbulence/). Has nice examples how noise could be added to static images to produce effect of old/broken computer monitor.
+
+Read [The beginners guide to Drones](https://www.bitcraze.io/2024/07/the-beginners-guide-to-drones/?mc_cid=e62447ff51&mc_eid=50541aef74) by Bitcraze.
+
+> “The Beginner’s Guide to Drones” for programmers curious about exploring the world of unmanned aerial vehicles (UAVs). If you’re a coder from another field, this guide will walk you through the basics of drones, their components, and how to start programming them. Let’s dive in and see how your coding skills can take flight!
