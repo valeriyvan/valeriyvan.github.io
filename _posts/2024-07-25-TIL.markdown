@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Read Aerial Robotic Landscape"
+date:   2024-07-25 21:46:00 +0200
+categories: TIL, iOS, Widget, Robotic
+---
+Read [How I've made a Widget with info of electricity availability at my home (ukr)](https://vadymklymenko.com/blog/shutdown-ios-widget/).
+
+TIL [Read the Docs](https://docs.readthedocs.io/en/stable/tutorial/index.html).
+
+Read [Aerial Robotic Landscape](https://ros-aerial.github.io/aerial_robotic_landscape/) from which the [Education and tutorials](https://ros-aerial.github.io/aerial_robotic_landscape/education_and_tutorial/) section is the most useful. The post by Kimberly McGuire from Bitcraze, [Online courses in Aerial Robotics](https://www.bitcraze.io/2023/07/online-courses-in-aerial-robotics/), extends the list of tutorials and online courses.
+
+I'm saving the book [Small Unmanned Aircraft: Theory and Practice](https://github.com/randybeard/mavsim_public) separately as it contains a lot of interesting links in the Supplemental Material.
+
+This might be a good start: [Drone Programming. Software Development for Ardupilot Powered Unmanned Systems.](https://www.udemy.com/course/software-development-for-ardupilot-powered-unmanned-systems/). It seems that only the last point in the curriculum will be more or less new.
