@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Read Memory management when using async/await in Swift"
+date:   2024-07-24 21:50:00 +0200
+categories: TIL, Swift, Crazyflie
+---
+Read [Memory management when using async/await in Swift](https://www.swiftbysundell.com/articles/memory-management-when-using-async-await/).
+
+Read [Autonomous flight of the micro drone Crazyflie 2.1 through an obstacle course](/assets/docs/Autonomous%20flight%20of%20the%20micro%20drone%20Crazyflie%202.1%20through%20an%20obstacle%20course.pdf) which seems to be report on research work done by students.
