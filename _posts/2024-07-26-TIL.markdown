@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read Read [Scan HTML even faster with SIMD instructions (C++ and C#)"
+date:   2024-07-26 21:23:00 +0200
+categories: TIL, SIMD
+---
+Read [Scan HTML even faster with SIMD instructions (C++ and C#)](https://lemire.me/blog/2024/07/20/scan-html-even-faster-with-simd-instructions-c-and-c/).
