@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL it's not easy install Python dependencies on macOS"
+date:   2024-07-27 21:28:00 +0200
+categories: TIL
+---
+Came accross error while trying pip install some packages on macOS: [Tackling the “Externally Managed Environment” error while using Pip3](https://medium.com/@Po1s1n/tackling-the-externally-managed-environment-error-while-using-pip3-6d45b367c561).
+
+TIL `COMMAND + SHIFT + .`` in Finder shows hidden forders.
+
+Came accross `cd "$HOME" || exit 1` in bash script. It's smart to break script execution in case of error whithout explicit branching.
