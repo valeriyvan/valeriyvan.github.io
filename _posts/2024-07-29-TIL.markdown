@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "TIL swift-testing-revolutionary"
+date:   2024-07-29 22:17:00 +0200
+categories: TIL, Swift, XCTest, swift-testing, Actors, Swift concurrency, Dependency injection, Dependency inversion
+---
+TIL [swift-testing-revolutionary](https://github.com/giginet/swift-testing-revolutionary) for converting test cases written in XCTest to [swift-testing](https://github.com/apple/swift-testing).
+
+[swift-geometrize](https://swiftpackageindex.com/valeriyvan/swift-geometrize) is safe from data races now:
+
+[![swift-geometrize is safe from data races now](/assets/images/Screenshot%202024-07-29%20at%2011.19.06.png "swift-geometrize is safe from data races now")](https://swiftpackageindex.com/valeriyvan/swift-geometrize)
+
+
+Read [Async await in Swift: The Full Toolkit](https://www.emergetools.com/blog/posts/swift-async-await-the-full-toolkit).
+
+Read [Advanced Swift Actors: Re-entrancy & Interleaving](https://jacobbartlett.substack.com/p/advanced-swift-actors-re-entrancy).
+
+Watched WWDC 2021 video [Swift concurrency: Behind the scenes](https://developer.apple.com/videos/play/wwdc2021/10254/).
+
+Read Wiki articles [Dependency injection](https://en.wikipedia.org/wiki/Dependency_injection) and [Dependency inversion principle](https://en.wikipedia.org/wiki/Dependency_inversion_principle).
+
+> The principle states:[1]
+>
+>A. High-level modules should not import anything from low-level modules. Both should depend on abstractions (e.g., interfaces).
+>
+>B. Abstractions should not depend on details. Details (concrete implementations) should depend on abstractions.
