@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Read how to build QuickLook in SwiftUI"
+date:   2024-08-02 22:30:00 +0200
+categories: TIL, Swift, SwiftUI, QuickLook, Xcode
+---
+Read [Preview files with QuickLook in SwiftUI](https://nilcoalescing.com/blog/PreviewFilesWithQuickLookInSwiftUI/).
+
+Read [How do I show QLPreviewPanel with SwiftUI on macOS?](https://stackoverflow.com/a/59697842/942513).
+
+Read [Configuring a new target in your project](https://developer.apple.com/documentation/xcode/configuring-a-new-target-in-your-project) in Xcode. Exactly I was interested in [Configure a dependency between two targets](https://developer.apple.com/documentation/xcode/configuring-a-new-target-in-your-project#Configure-a-dependency-between-two-targets).
