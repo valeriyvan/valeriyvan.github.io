@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL Why Charset Matters"
+date:   2024-08-11 10:59:00 +0200
+categories: TIL, Encoding, Web development
+---
+TIL [Encoding Differentials: Why Charset Matters](https://www.sonarsource.com/blog/encoding-differentials-why-charset-matters/)
+
+> Another, less common way to indicate the character encoding is the [Byte-Order Mark](https://en.wikipedia.org/wiki/Byte_order_mark). This is a specific Unicode character (`U+FEFF`) that can be placed in front of a string to indicate the byte endianness and character encoding. It is mainly used in files, but since these might be served via a web server, modern browsers support it. A Byte-Order Mark at the beginning of an HTML document even takes precedence over a `charset` attribute in the `Content-Type` header and the `<meta>` tag.
