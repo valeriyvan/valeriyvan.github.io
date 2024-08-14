@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "TIL usvg library"
+date:   2024-08-13 22:11:00 +0200
+categories: TIL, SVG, usvg, resvg, ESC, Ring Tone Text Transfer Language, RTTTL, DSHOT, GitHub
+---
+TIL [usvg](https://github.com/RazrFalcon/resvg/tree/master/crates/usvg), an [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) parser that tries to solve most of SVG complexity. It's part of [resvg](https://github.com/RazrFalcon/resvg), an SVG rendering library. Some time ago I have looked for decent SVG parser.
+
+TIL [esc-configurator](https://github.com/stylesuxx/esc-configurator) ([esc-configurator.com](https://esc-configurator.com)), a PWA (Progressive Web App) to flash BLHeli_S and AM32 based ESCs from the browser using the [Web-Serial API](https://wicg.github.io/serial/).
+
+TIL [Ring Tone Text Transfer Language, RTTTL](https://en.wikipedia.org/wiki/Ring_Tone_Text_Transfer_Language). Some ESC support RTTTL.
+
+Read [bluejay ESC wiki](https://github.com/bird-sanctuary/bluejay/wiki).
+
+Read [DSHOT - the missing Handbook](https://brushlesswhoop.com/dshot-and-bidirectional-dshot/). DSHOT is supported on all BLHELI_S, BLEHLI_32 and KISS ESC’s.
+
+Read [Anyone can Access Deleted and Private Repository Data on GitHub](https://trufflesecurity.com/blog/anyone-can-access-deleted-and-private-repo-data-github): the implication here is that any code committed to a public repository may be accessible forever as long as there is at least one fork of that repository.
