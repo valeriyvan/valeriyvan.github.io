@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL CocoaPods goes off the scene"
+date:   2024-08-14 13:09:00 +0200
+categories: TIL, CocoaPods, Sherlocked, SwiftUI, Swift, Property wrappers
+---
+TIL CocoaPods goes off the scene: [CocoaPods Support & Maintenance Plans](https://blog.cocoapods.org/CocoaPods-Support-Plans/).
+
+TIL what sherlocked means: [Apple just made your app obsolete? You've been 'Sherlocked'](https://www.npr.org/2024/06/17/g-s1-4912/apple-app-store-obsolete-sherlocked-tapeacall-watson-copy).
+
+> It dates back to the 1990s when Apple introduced a desktop search tool called Sherlock that was strikingly similar to another desktop search program, known as Watson. Since then, the term has stuck.
+
+Read [Projecting a Value From a Property Wrapper](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/properties/#Projecting-a-Value-From-a-Property-Wrapper) for reminding what does dollar sign mean in SwiftUI code, like `Picker("Number of people", selection: $numberOfPeople)`.
