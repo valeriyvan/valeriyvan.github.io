@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL how to make XCFramework from swift package"
+date:   2024-08-17 09:28:00 +0200
+categories: TIL, Xcode, SPM, XCFramework
+---
+Read [Creating XCFramework from SPM package (russian)](https://habr.com/ru/companies/psb/articles/836566/).
+
+Read [Building Swift Package as XCFramework](https://waynestalk.com/en/build-swift-package-as-xcframework-en/).
+
+Read [Creating a multiplatform binary framework bundle](https://developer.apple.com/documentation/xcode/creating-a-multi-platform-binary-framework-bundle).
