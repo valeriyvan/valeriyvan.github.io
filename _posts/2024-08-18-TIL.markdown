@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "TIL `sending` keyword in Swift"
+date:   2024-08-18 22:10:00 +0200
+categories: TIL, Swift 6, Sendable, sending
+---
+[Migrating to Swift 6](https://www.swift.org/migration/documentation/migrationguide/).
+
+TIL [`sending`](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0430-transferring-parameters-and-results.md) keyword in Swift:
+
+```swift
+func populate(island: Island, with chicken: sending Chicken) async {
+    await island.adopt(chicken)
+}
+```
+
+> The compiler can now provide the guarantee that at all call sites, the `chicken` parameter will never be subject to unsafe access. This is a relaxing of an otherwise significant constraint. Without `sending`, this function would only be possible to implement by requiring that `Chicken` first conform to `Sendable`.
+
+
+Hm. actors could be passed between isolation domains. Here's quote from [Migrating to Swift 6](https://www.swift.org/migration/documentation/migrationguide/):
+
+> Actors are not value types, but because they protect all of their state in their own isolation domain, they are inherently safe to pass across boundaries. This makes all actor types implicitly `Sendable`, even if their properties are not `Sendable` themselves.
+
+Watched PointFree episode [Cross-Platform Swift: View Paradigms](https://www.pointfree.co/episodes/ep290-cross-platform-swift-view-paradigms).
