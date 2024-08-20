@@ -4,7 +4,7 @@ title:  "TIL `sending` keyword in Swift"
 date:   2024-08-18 22:10:00 +0200
 categories: TIL, Swift 6, Sendable, sending
 ---
-[Migrating to Swift 6](https://www.swift.org/migration/documentation/migrationguide/).
+Read [Migrating to Swift 6](https://www.swift.org/migration/documentation/migrationguide/).
 
 TIL [`sending`](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0430-transferring-parameters-and-results.md) keyword in Swift:
 
