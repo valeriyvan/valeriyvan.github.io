@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL Skip"
+date:   2024-08-21 21:42:00 +0200
+categories: TIL, Skip
+---
+TIL [Skip](https://skip.tools):
+
+> Skip brings Swift app development to Android. It is a tool that enables developers to use a single modern programming language (Swift) and first-class development environment (Xcode) to build genuinely native apps for both iOS and Android.
+
+> Skip is the only tool that enables you to develop genuinely native apps for both major mobile platforms with a single codebase.
