@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "TIL what is primary asosiated type in Swift"
+date:   2024-08-23 11:51:00 +0200
+categories: TIL, Swift, Type erasure, Primary asosiated type
+---
+Read [What is type erasure in Swift? An explanation with code samples](https://www.donnywals.com/understanding-type-erasure-in-swift/).
+
+Read [What are primary associated types in Swift 5.7?](https://www.donnywals.com/what-are-primary-associated-types-in-swift-5-7/).
+
+TIL what is primary asosiated type in Swift. In snippet below in `Element` because it is in angle brackets `<Element>` in protocol declaration. 
+
+```Swift
+public protocol Collection<Element> : Sequence {
+
+    @available(*, deprecated, message: "all index distances are now of type Int")
+    typealias IndexDistance = Int
+
+    associatedtype Element
+
+    /// A type that represents a position in the collection.
+    ///
+    /// Valid indices consist of the position of every element and a
+    /// "past the end" position that's not valid for use as a subscript
+    /// argument.
+    associatedtype Index : Comparable where Self.Index == Self.Indices.Element, Self.Indices.Element == Self.Indices.Index, Self.Indices.Index == Self.SubSequence.Index
+
+
+    /// A lot of other stuff...
+}
+```
