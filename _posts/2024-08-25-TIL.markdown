@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL that since iOS 15 `BinaryFloatingPoint` has `formatted()`"
+date:   2024-08-25 22:41:00 +0200
+categories: TIL, Swift, Logging, BinaryFloatingPoint
+---
+Read [Logging in Swift](https://swiftwithmajid.com/2022/04/06/logging-in-swift/).
+
+TIL that since iOS 15 `BinaryFloatingPoint` has `formatted()`. Learnt that from [100 days of SwiftUI](https://www.hackingwithswift.com/books/ios-swiftui/entering-numbers-with-stepper). It's possible to write:
+
+```
+Stepper("\(sleepAmount.formatted()) hours", value: $sleepAmount, in: 4...12, step: 0.25)
+```
