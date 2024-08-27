@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Bookmarking auto generating git commit message"
+date:   2024-08-27 21:22:00 +0200
+categories: TIL, git
+---
+Bookmarking [auto generating git commit message](https://x.com/karpathy/status/1827810695658029262?s=43&t=6rmSjK21fIpso2_vOjKRhg) by Andrej Karpathy.
