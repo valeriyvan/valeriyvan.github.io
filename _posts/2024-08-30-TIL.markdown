@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read and followed Build an embedded application for a microcontroller"
+date:   2024-08-30 21:29:00 +0200
+categories: TIL, Swift
+---
+Read and followed [Build an embedded application for a microcontroller](https://www.swift.org/getting-started/embedded-swift/) at [swift.org](https://swift.org).
