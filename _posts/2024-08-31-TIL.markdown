@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "TIL `kMDItemKeywords` entry in `Info.plist` could be used to improve iOS app visibility on a device"
+date:   2024-08-31 21:55:00 +0200
+categories: TIL, Swift, iOS, Embeded, Dashcam
+---
+Read [Embedded Swift -- User Manual](https://github.com/swiftlang/swift/blob/main/docs/EmbeddedSwift/UserManual.md). [Embedded Swift -- Integrating with embedded SDKs](https://github.com/swiftlang/swift/blob/main/docs/EmbeddedSwift/IntegratingWithSDKs.md), [Getting started with Raspberry Pi Pico-series](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf).
+
+Read [DIY Dashcam: Car Security Camera with a Raspberry Pi Zero W](https://www.technicallywizardry.com/diy-dashcam-raspberry-pi-zero-w-motion-eye/).
+
+TIL [motionEyeOS](https://github.com/motioneye-project/motioneyeos), a Linux distribution that turns your single board computer into a video surveillance system.
+
+Read [IOT in Cars (and Vans): Home Automation on the Road](https://www.technicallywizardry.com/iot-cars-vans-home-automation/).
+
+TIL [`kMDItemKeywords` entry in `Info.plist` could be used to improve iOS app visibility on a device](https://dou.ua/forums/topic/50065/).
