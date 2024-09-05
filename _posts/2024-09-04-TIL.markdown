@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Read Embedded Swift on the Raspberry Pi Pico/RP2040 without the Pico SDK"
+date:   2024-09-04 22:30:00 +0200
+categories: TIL, Swift, Embedded, Raspberry Pi Pico
+---
+Read [Embedded Swift on the Raspberry Pi Pico/RP2040 without the Pico SDK](https://forums.swift.org/t/embedded-swift-on-the-raspberry-pi-pico-rp2040-without-the-pico-sdk/69338).
+
+TIL `usr` in `/usr/bin` stands for "universal system resources" not "user", and `dev` in `/dev/vdiskO` stands for "device" not "development".
+
+![`usr` in `/usr/bin` stands for "universal system resources" not "user"](/assets/images/IMG_5597.PNG "`usr` in `/usr/bin` stands for \"universal system resources\" not \"user\"")
