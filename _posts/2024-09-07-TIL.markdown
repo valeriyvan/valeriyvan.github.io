@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL dependency mirroring and Package Manager Workspace"
+date:   2024-09-07 21:25:00 +0200
+categories: TIL, Swift Package Manager
+---
+TIL about [dependency mirroring](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0219-package-manager-dependency-mirroring.md) in Swift package.
+
+TIL about [Package Manager Workspace](https://github.com/aciidgh/swift-evolution/blob/workspace/proposals/NNNN-package-manager-workspaces.md) which help Swift package authors to develop packages that depend on each other.
