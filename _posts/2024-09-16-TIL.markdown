@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL how to draw ellipsoid in shapr3d"
+date:   2024-09-16 21:25:00 +0200
+categories: TIL, SwiftUI, shapr3d
+---
+Read [Jailbreak your Enemies with a Link: Remote Execution on iOS](https://jacobbartlett.substack.com/p/jailbreak-enemies-with-a-link-remote-execution).
+
+Read [SwiftUI apps at scale](https://jacobbartlett.substack.com/p/swiftui-apps-at-scale).
+
+TIL [how to draw complex 3d bodies like ellipsoid in shapr3d](https://discourse.shapr3d.com/t/prolate-ellipsoid/9208).
