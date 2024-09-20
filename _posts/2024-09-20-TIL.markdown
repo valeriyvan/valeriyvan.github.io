@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL `.mailmap` in git"
+date:   2024-09-20 21:42:00 +0200
+categories: TIL, git, mailmap
+---
+TIL [`.mailmap` in git](https://git-scm.com/docs/gitmailmap).
