@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL Noncopyable structs and enums in Swift"
+date:   2024-09-23 21:49:00 +0200
+categories: TIL, Swift 6
+---
+Read [Announcing Swift 6](https://www.swift.org/blog/announcing-swift-6/).
+
+TIL [Noncopyable structs and enums](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0390-noncopyable-structs-and-enums.md) in Swift.
