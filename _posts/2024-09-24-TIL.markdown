@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "TIL new Synchronization framework available since iOS 18"
+date:   2024-09-24 21:32:00 +0200
+categories: TIL, Kahan algorithm, Mutex, Swift 6
+---
+TIL [Kahan summation algorithm](https://en.wikipedia.org/wiki/Kahan_summation_algorithm).
+
+TIL new [Synchronization framework](https://developer.apple.com/documentation/synchronization) available since iOS 18. Learnt this from [Thread safety with Mutex in Swift 6](https://medium.com/@noahlittle199/thread-safety-with-mutex-in-swift-6-575e79f14386).
+
