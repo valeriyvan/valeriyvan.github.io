@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Watched how Linus Torvalds explains \"taste\" in code"
+date:   2024-09-30 22:46:00 +0200
+categories: TIL, Linus Torvalds
+---
+Watched how [Linus Torvalds explains "taste" in code by showing how to remove an entry from a singly linked list in C without adding extra complexity.](https://x.com/7etsuo/status/1840610002270408919).
