@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL Raspberry Pi AI Camera on sale now at $70, there's also Raspberry Pi AI Kit available since June 2024"
+date:   2024-10-01 21:51:00 +0200
+categories: TIL, Raspberry Pi AI Camera, Raspberry Pi AI Kit
+---
+TIL [Raspberry Pi AI Camera on sale now at $70](https://www.raspberrypi.com/news/raspberry-pi-ai-camera-on-sale-now/). TIL [Raspberry Pi AI Kit available now at $70](https://www.raspberrypi.com/news/raspberry-pi-ai-kit-available-now-at-70/).
