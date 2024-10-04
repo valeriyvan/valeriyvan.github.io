@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read Image Dithering: Eleven Algorithms and Source Code"
+date:   2024-10-03 21:39:00 +0200
+categories: TIL, Dithering
+---
+Accidently came accross post [Image Dithering: Eleven Algorithms and Source Code](https://tannerhelland.com/2012/12/28/dithering-eleven-algorithms-source-code.html). Now I understand how dithering works.
