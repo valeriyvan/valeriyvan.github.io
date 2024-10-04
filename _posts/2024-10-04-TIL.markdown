@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL what does `!$` mean in shell"
+date:   2024-10-04 21:44:00 +0200
+categories: TIL, shell, Digital Ocean App Platform, Swift, 
+---
+TIL [what does `!$` mean in shell](https://unix.stackexchange.com/a/254571). `!` means the last command used, `$` - the last word. So `!$` means the last word of the last command.
+
+TIL [Digital Ocean App Platform](https://cloud.digitalocean.com/apps), it's possible to write this apps in Swift: [App Platform sample Swift application](https://github.com/digitalocean/sample-swift).
