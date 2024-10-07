@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read some posts about image processing"
+date:   2024-10-06 21:49:00 +0200
+categories: TIL, Image temperature, Lens distortion correction, Diffuse (Spread) Image Filter
+---
+Read [Simple algorithms for adjusting image temperature and tint](https://tannerhelland.com/2014/07/01/simple-algorithms-adjusting-image-temperature-tint.html), [A simple algorithm for correcting lens distortion](https://tannerhelland.com/2013/02/11/simple-algorithm-correcting-lens-distortion.html), [Real-time Diffuse (Spread) Image Filter](https://tannerhelland.com/2011/07/01/realtime-diffuse-spread-image-filter-vb6.html).
