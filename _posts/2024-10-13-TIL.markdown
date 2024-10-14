@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL what are Test Doubles"
+date:   2024-10-13 21:38:00 +0200
+categories: TIL, Test Doubles, XCTest, swift-testing
+---
+Read [Apple's swift-testing documentation](https://developer.apple.com/xcode/swift-testing/).
+
+Read [Hello Swift Testing, Goodbye XCTest](https://leocoout.medium.com/welcome-swift-testing-goodbye-xctest-7501b7a5b304).
+
+Read [iOS Unit Test Master 101 — Vol. 1](https://leocoout.medium.com/become-a-unit-test-master-84f4fa276deb). Learned new terms. "Test Doubles": test objects that are used to mimic the behavior of some real object. I always called this mocks. But no. Test double could be a "Dummy", "Fake", "Stub", "Spy" or "Mock". "Fixture": predefined set of conditions or data used to initialize a system or environment for testing, ensuring consistent and repeatable results. I knew what is that. But use case example is very good.
