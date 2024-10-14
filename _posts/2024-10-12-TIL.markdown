@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL what is blurhash"
+date:   2024-10-12 21:58:00 +0200
+categories: TIL, blurhash, QR
+---
+TIL tools for making nice snippets for blogs exist, like [showcode](https://showcode.app) and [codetoimg](https://codetoimg.com).
+
+Read the best QR code description ever: [Reading QR codes without a computer!](https://qr.blinry.org).
+
+TIL what is [blurhash](https://blurha.sh), its [repo contains Swift code but only for iOS UIImage](https://github.com/woltapp/blurhash/tree/master/Swift). Read blogpost where blurhash explain why and how: [How we came to create a new image placeholder algorithm, BlurHash](https://careers.wolt.com/en/blog/tech/how-we-came-to-create-a-new-image-placeholder-algorithm-blurhash).
+
+read [I sped up the generation of blurhash by 128 times](https://habr.com/ru/articles/850114/).
