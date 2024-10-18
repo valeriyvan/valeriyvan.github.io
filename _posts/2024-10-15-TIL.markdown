@@ -1,7 +1,9 @@
 ---
 layout: post
-title:  "TIL"
+title:  "TIL how Discrete Cosine Transform is used in JPEG"
 date:   2024-10-15 21:02:00 +0200
-categories: TIL
+categories: TIL, JPEG, Discrete Cosine Transform
 ---
-[Преобразования #5: примеры восстановления векторов и изображений при ДКП](https://www.youtube.com/watch?v=XhON8QvozG8).
+Read [JPEG DCT, Discrete Cosine Transform (JPEG Pt2)- Computerphile](https://www.youtube.com/watch?v=Q2aEzeMDHMA).
+
+Watched [The Unreasonable Effectiveness of JPEG: A Signal Processing Approach](https://www.youtube.com/watch?v=0me3guauqOU).
