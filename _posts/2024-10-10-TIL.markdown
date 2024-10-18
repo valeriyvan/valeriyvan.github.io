@@ -9,4 +9,4 @@ TIL what is [Immediate Operand](https://www.sciencedirect.com/topics/computer-sc
 > Some instructions use data encoded in the instruction itself as a source operand. The operands are called immediate operands. For example, the following instruction loads the `EAX` register with zero.
 > `MOV EAX, 00`
 
-[Swift on RISC-V: Launch of New Toolchain for RISC-V Hardware](https://linuxgizmos.com/swift-on-risc-v-launch-of-new-toolchain-for-risc-v-hardware/).
+Read [Swift on RISC-V: Launch of New Toolchain for RISC-V Hardware](https://linuxgizmos.com/swift-on-risc-v-launch-of-new-toolchain-for-risc-v-hardware/).
