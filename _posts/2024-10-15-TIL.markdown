@@ -6,4 +6,4 @@ categories: TIL, JPEG, Discrete Cosine Transform
 ---
 Read [JPEG DCT, Discrete Cosine Transform (JPEG Pt2)- Computerphile](https://www.youtube.com/watch?v=Q2aEzeMDHMA).
 
-Watched [The Unreasonable Effectiveness of JPEG: A Signal Processing Approach](https://www.youtube.com/watch?v=0me3guauqOU).
+Watched [The Unreasonable Effectiveness of JPEG: A Signal Processing Approach](https://www.youtube.com/watch?v=0me3guauqOU). TIL what is chrome downsampling (chroma subsampling).
