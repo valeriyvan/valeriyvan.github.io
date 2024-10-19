@@ -4,9 +4,9 @@ title:  "TIL two instances of `UIColor` can't be directly compared"
 date:   2019-08-27 19:27:00 +0200
 categories: TIL, UIColor
 ---
-Spend half of a day explaining to colleague that callbacks are not always better then delegate. As a result created this [gist](https://gist.github.com/valeriyvan/5268d656ececbb666f15c4fc4a60adf1).
+I spent half a day explaining to a colleague why callbacks aren't always better than delegates. To clarify the concept, I created this [gist](https://gist.github.com/valeriyvan/5268d656ececbb666f15c4fc4a60adf1) to summarize the discussion and key differences.
 
-Two instances of `UIColor` [can't be directly compared](https://stackoverflow.com/questions/27559937/how-to-compare-colors-in-swift/44246991#44246991). Color space should be considered. 
+Another interesting discovery: two instances of `UIColor` [can't be directly compared](https://stackoverflow.com/questions/27559937/how-to-compare-colors-in-swift/44246991#44246991). This is because color space needs to be considered. 
 
 [CGColorEqualToColor](https://developer.apple.com/documentation/coregraphics/1455217-cgcolorequaltocolor?language=objc) clearly says:
 
@@ -17,9 +17,11 @@ let blackColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
 blackColor.isEqual(UIColor.black) // false
 ```
 
+This behavior highlights that simple equality checks don’t work as expected.
+
 Another thing I have learned that [`func getRed(_ red:, green:, blue:, alpha:) -> Bool`](
 https://developer.apple.com/documentation/uikit/uicolor/1621919-getred) may not return color components if color isn't compatible with RGB.
 
-Probably, it's time revise habit that color is on 0...1 range.
+It might be a good time to revise the assumption that color components are always in the 0...1 range:
 
 >  On applications linked for iOS 10 or later, the red/green/blue component is specified in an extended range sRGB color space and can have any value. Values between 0.0 and 1.0 are inside the sRGB color gamut. On earlier versions of iOS, the specified value is always between 0.0 and 1.0.
