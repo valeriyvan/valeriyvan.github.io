@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL Mothbox DIY project for learning insects"
+date:   2024-10-18 21:32:00 +0200
+categories: TIL, Mothbox, SwiftUI, @EnvironmentObject
+---
+TIL [Mothbox](https://digital-naturalism-laboratories.github.io/Mothbox/), a low-cost, high-performance insect monitor. ...its low-cost nature means you can build one to study the biodiversity at your home.
+
+Read [[iOS/SwiftUI] Explaining and Using `@EnvironmentObject` in SwiftUI](https://medium.com/@jongchanko/ios-swiftui-explaining-and-using-environmentobject-in-swiftui-375bd58aa8df).
