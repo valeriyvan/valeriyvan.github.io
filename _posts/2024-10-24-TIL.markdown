@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL `package-benchmark`"
+date:   2024-10-24 21:14:00 +0200
+categories: TIL, package-benchmark
+---
+TIL [`package-benchmark`](https://github.com/ordo-one/package-benchmark), Swift benchmark runner with many performance metrics and great CI support: [Introducing the Benchmark Package: Complementing Unit Tests with Performance Checks](https://www.swift.org/blog/benchmarks/). I wasn't yet able to use it because of [linking error](https://github.com/ordo-one/package-benchmark/issues/294).
+
+Read Apple documentation [Improving code assessment by organizing tests into test plans](https://developer.apple.com/documentation/xcode/organizing-tests-to-improve-feedback), [Test coverage](https://developer.apple.com/documentation/xcode/test-coverage).
+
+TIL about [`prepareThumbnail(of:completionHandler:)`](https://developer.apple.com/documentation/uikit/uiimage/3750845-preparethumbnail) for creating a thumbnail image at the specified size asynchronously on a background thread, available since iOS 15. There's no need anymore to downscale image manually on iOS.
