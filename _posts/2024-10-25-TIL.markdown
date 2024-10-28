@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL jemalloc"
+date:   2024-10-25 21:56:00 +0200
+categories: TIL, jemalloc
+---
+TIL [jemalloc](https://jemalloc.net).
