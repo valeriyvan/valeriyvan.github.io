@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "TIL What Are Textons"
+date:   2024-10-28 21:21:00 +0200
+categories: TIL, IMG2GPS, Texton, gist
+---
+TIL [IM2GPS: estimating geographic information from a single image](http://graphics.cs.cmu.edu/projects/im2gps/im2gps.pdf). [im2gps/ page on uni site](http://graphics.cs.cmu.edu/projects/im2gps/) includes even link [Code for finding and downloading images on Flickr](http://graphics.cs.cmu.edu/projects/im2gps/flickr_code.html).
+
+TIL [What Are Textons](/assets/docs/texton.pdf).
+
+TIL what is gist:
+
+>  In computer vision, GIST descriptors are a representation of a low-dimensional image that contains enough information to identify the scene in an image. Global GIST descriptors allow a very small size representation of an image.
+
+TIL many people started there own TIL sites: [1](https://github.com/simonw/til), [2](https://github.com/jbranchaud/til), [3](https://github.com/pdubroy/til), [4 by Chris Eidhof from objc.io](https://github.com/chriseidhof/til).
