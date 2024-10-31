@@ -2,6 +2,6 @@
 layout: post
 title:  "Read Apple is Killing Swift"
 date:   2024-10-22 21:47:00 +0200
-categories: TIL
+categories: TIL, Swift
 ---
-Read [Apple is Killing Swift](https://blog.jacobstechtavern.com/p/apple-is-killing-swift).
+Read [Apple is Killing Swift](https://blog.jacobstechtavern.com/p/apple-is-killing-swift) by Jacob Bartlett.
