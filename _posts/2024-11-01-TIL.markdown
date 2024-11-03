@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL what are mixins and traits"
+date:   2024-11-01 21:51:00 +0200
+categories: TIL, mixin, trait, Swift, Unix
+---
+TIL what are mixins and traits: [Unlocking Mixins with Swift 5.9 Macros](https://alejandromp.com/development/blog/swift-5-9-macros-unlock-mixins/).
+
+Read [Using Binaries as Libraries](https://alejandromp.com/development/blog/using-binaries-as-libraries/) in Swift. it has condensed snippet for running external binary (ffmpeg in this case) from Swift using `Process` and `Pipe`.
+
+Read [It’s a trap! React to Unix signals in Swift](https://alejandromp.com/development/blog/swift-catch-os-signals-trap/).
+
+TIL [`swift-service-lifecycle`](https://github.com/swift-server/swift-service-lifecycle) package.
