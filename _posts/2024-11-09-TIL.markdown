@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL about App Intents in iOS"
+date:   2024-11-09 21:50:00 +0200
+categories: TIL, iOS, App Intents
+---
+Watch WWDC 2024 video [Bring your app’s core features to users with App Intents](https://developer.apple.com/videos/play/wwdc2024/10210).
+
+[Prepare for iOS 18: App Intents](https://medium.com/@williewilson99/prepare-for-ios-18-app-intents-74e38850f034).
