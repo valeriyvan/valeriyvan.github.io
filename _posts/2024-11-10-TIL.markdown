@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL Apple Quietly Introduced iPhone Reboot Code Which is Locking Out Cops"
+date:   2024-11-10 21:46:00 +0200
+categories: TIL, Apple
+---
+TIL [Apple Quietly Introduced iPhone Reboot Code Which is Locking Out Cops](https://www.404media.co/apple-quietly-introduced-iphone-reboot-code-which-is-locking-out-cops/).
