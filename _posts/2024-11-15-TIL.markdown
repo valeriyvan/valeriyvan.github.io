@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL `powermetrics`"
+date:   2024-11-15 22:04:00 +0200
+categories: TIL, macOS, powermetrics
+---
+TIL [`powermetrics`](https://www.unix.com/man-page/osx/1/powermetrics/) CLI on macOS.
