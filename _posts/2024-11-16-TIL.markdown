@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "TIL How async/await works internally in Swift"
+date:   2024-11-16 13:13:00 +0200
+categories: TIL, Swift, async/await
+---
+TIL [How async/await works internally in Swift](https://swiftrocks.com/how-async-await-works-internally-in-swift).
+
+TIL [Real-time kinematic positioning (RTK)](https://en.wikipedia.org/wiki/Real-time_kinematic_positioning).
+
