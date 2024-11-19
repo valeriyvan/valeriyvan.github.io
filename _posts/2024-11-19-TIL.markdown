@@ -1,0 +1,46 @@
+---
+layout: post
+title:  "TIL about global actors in Swift"
+date:   2024-11-19 21:28:00 +0200
+categories: TIL, Swift, Global actors, async/await
+---
+TIL about global actors in Swift: [Swift proposal SE-0316 Global actors](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0316-global-actors.md) implemented in Swift 5.5.
+
+Interesting that with `await` could be called func not marked with `async`:
+
+```Swift
+class IconViewController: NSViewController {
+  @MainActor @objc private dynamic var icons: [[String: Any]] = []
+    
+  @MainActor var url: URL? {
+	didSet {
+	  // Asynchronously perform an update
+	  Task.detached { [url] in                   // not isolated to any actor
+	    guard let url = url else { return }
+	    let newIcons = self.gatherContents(url)
+	    await self.updateIcons(newIcons)         // 'await' required so we can hop over to the main actor
+	  }
+	}
+  }
+
+  @MainActor private func updateIcons(_ iconArray: [[String: Any]]) {
+    icons = iconArray
+        
+    // Notify interested view controllers that the content has been obtained.
+    // ...
+  }
+}
+```
+
+Another interesting case calling with `await` a func not marked with `async`:
+
+```Swift
+actor Counter {
+  var value = 0
+  
+  @MainActor func updateUI(view: CounterView) async {
+    view.intValue = value  // error: `value` is actor-isolated to `Counter` but we are in a 'MainActor'-isolated context
+    view.intValue = await value // okay to asynchronously read the value
+  }
+}
+```
