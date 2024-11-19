@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "TIL `MainActor.assumeIsolated` and `@preconcurrency`"
+date:   2024-11-18 21:30:00 +0200
+categories: TIL, Swift, MainActor, @preconcurrency
+---
+TIL `MainActor.assumeIsolated`: [What on earth is going on with `awakeFromNib`?](https://www.massicotte.org/awakefromnib)
+
+> The thing is, there are examples of `NSObject` subclasses that mix `MainActor` and non-`MainActor` methods. If the compiler were to treat all overrides as matching the isolation of its enclosing type, it would completely break `NSDocument`. Now, I want to be fair: `NSDocument` is probably as close to pathological as you can get. It uses a custom concurrency system that is not based on GCD or `OperationQueue`. And, it regularly mixes in main thread and background work, which is pretty much all configurable at runtime.
+
+[So how does this whole `@preconcurrency` thing work?](https://www.massicotte.org/preconcurrency).
+
+> Remember, Swift concurrency is all about the type system. This means that definitions are hugely important to how things function. The `@preconcurrency` attribute alters how definitions are interpreted by the compiler. In general, it relaxes some rules that might otherwise make a definition difficult or even impossible to use.
+
+[The End of Singleton? Why Swift 6 Actors Are the Future of iOS Development](https://medium.com/@garg.vivek/the-end-of-singleton-why-swift-6-actors-are-the-future-of-ios-development-bbbe8501ee8f)
+
+TIL [CodeUA](https://codeua.com/).
