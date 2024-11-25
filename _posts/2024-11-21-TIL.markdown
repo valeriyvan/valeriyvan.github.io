@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "TIL Swift Package Description could define iOS app product"
+date:   2024-11-21 21:49:00 +0200
+categories: TIL, Swift, Swift Package Manager
+---
+TIL Swift Package Description could define product of iOS app. `PackageDescription` defines following `enum`:
+From `PackageDescription`:
+
+```Swift
+public enum ProductSetting : Equatable {
+
+    case bundleIdentifier(String)
+
+    case teamIdentifier(String)
+
+    case displayVersion(String)
+
+    case bundleVersion(String)
+
+    case iOSAppInfo(PackageDescription.ProductSetting.IOSAppInfo)
+
+    public struct IOSAppInfo : Equatable {
+
+    // ...
+```
+
+This definition is not available in [swift-package-manager repo](https://github.com/swiftlang/swift-package-manager). But is available in Xcode if Control-click on `import PackageDescription`.
