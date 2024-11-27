@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Watched SwiftUI Tutorial: Build a Real App! Payment Calculator"
+date:   2024-11-25 21:09:00 +0200
+categories: TIL, Swift, SwiftUI, iOS
+---
+Watched [SwiftUI Tutorial: Build a Real App! Payment Calculator 1/6](https://www.youtube.com/watch?v=2xOmBeHJ8VE) and [part 2/6](https://www.youtube.com/watch?v=eZNwFW-vztI). 
