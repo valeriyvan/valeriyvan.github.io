@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "TIL what is Duff's device"
+date:   2024-11-27 11:33:00 +0200
+categories: TIL, Luneburg lens, framework, library, macOS, SwiftUI, iOS
+---
+TIL what is [Luneburg lens](https://en.wikipedia.org/wiki/Luneburg_lens).
+
+TIL what is [Duff's device](https://en.wikipedia.org/wiki/Duff%27s_device).
+
+Read about libraries/frameworks on Apple platforms: [Static, Dynamic, Mergeable, oh, my!](https://blog.jacobstechtavern.com/p/static-dynamic-mergeable-oh-my).
+
+> If you want to embarrass a senior iOS engineer, ask them to explain the difference between Dynamic Frameworks and Static Libraries.
+
+> These concepts are enormously important, but for years, they were packaged up in a box in my brain labelled “I’ll learn about these one day, but until then, I’ll have impostor syndrome”.
+
+> Unless you’re working to reduce app bundle size, simplify your dependency graph, optimise launch performance, or speed up build times, you won’t get to put this knowledge into practice.
+
+> Let’s change that with a primer on libraries, frameworks, and linking, and then let’s understand what is meant by **static** and **dynamic**. We’ll finish by learning about the new mergeable libraries available in Xcode.
+
+Bookmarking [Creating a macOS Screensaver in SwiftUI](https://digitalbunker.dev/creating-a-macos-screensaver-in-swiftui/).
+
+Read [Reverse Engineering iOS 18 Inactivity Reboot](https://naehrdine.blogspot.com/2024/11/reverse-engineering-ios-18-inactivity.html).
+
+Read [Impress at Job Interviews by Inspecting their App Bundle](https://blog.jacobstechtavern.com/p/impress-at-job-interviews-by-decompiling). I have been doing this for years.
