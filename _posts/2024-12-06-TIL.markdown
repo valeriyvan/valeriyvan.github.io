@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL `@ObservedObject` vs `@StateObject`"
+date:   2024-12-06 22:04:00 +0200
+categories: TIL, @ObservedObject, @StateObject
+---
+TIL `@ObservedObject` vs `@StateObject`: 
+
+`@ObservedObject` is for when the an external entity owns the reference to the view model - don’t init in the view or it’ll get recreated on every redraw!
+
+`@StateObject` is created & owned by the view, and tied to its lifecycle.
+
+![](/assets/images/@ObservedObject%20vs%20@StateObject.jpeg)
