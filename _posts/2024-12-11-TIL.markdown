@@ -1,7 +1,9 @@
 ---
 layout: post
-title:  "Started to read a book A philosophy of software design by John Ousterhout"
+title:  "Started to read book A philosophy of software design by John Ousterhout"
 date:   2024-12-11 21:07:00 +0200
-categories: TIL, Software design
+categories: TIL, Software design, ChatGPT, Xcode
 ---
 Started to read a book [A philosophy of software design by John Ousterhout](/assets/images/Book%20A%20philosophy%20of%20software%20design%20by%20John%20Ousterhout.jpeg). I like it's less than 200 pages.
+
+Read [ChatGPT in Xcode: is it good?](https://www.swiftwithvincent.com/blog/chatgpt-in-xcode-is-it-good).
