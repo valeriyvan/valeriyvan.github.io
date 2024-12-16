@@ -6,7 +6,7 @@ categories: TIL, INAV, Swift, Sendable, Protocol Conformance Isolation Mismatch,
 ---
 [(1/7) INAV for Beginners 2022: What is it and what can it do?](https://www.youtube.com/watch?v=WkBuqtc-Qe8&list=PLYsWjANuAm4rGA4yqHHlYlFuOrkKwBY0G&index=1), [(2/7) INAV for Beginners 2022: Downloading, flashing and basic radio setup](https://www.youtube.com/watch?v=uWBMi839lHA&list=PLYsWjANuAm4rGA4yqHHlYlFuOrkKwBY0G&index=2), [(3/7) INAV for Beginners 2022: Completing the basic setup and adding GPS](https://www.youtube.com/watch?v=2XWR6WW_Jps&list=PLYsWjANuAm4rGA4yqHHlYlFuOrkKwBY0G&index=3).
 
-Followed [The Basics of Getting INAV Working on an Airplane](https://github.com/iNavFlight/inav/wiki/Fixed-Wing-Guide) tuning airplane.
+Followed [The Basics of Getting INAV Working on an Airplane](https://github.com/iNavFlight/inav/wiki/Fixed-Wing-Guide) tuning airplane. I like INAV for supporting macOS. [inav-configurator could even be installed with homebrew](https://formulae.brew.sh/cask/inav-configurator).
 
 Read [Non-Sendable types are cool too you know](https://www.massicotte.org/non-sendable). That's very interesting!
 
