@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL `@DebugDescription`"
+date:   2024-12-12 21:39:00 +0200
+categories: TIL, Swift, @DebugDescription
+---
+TIL [`@DebugDescription`](https://www.swiftwithvincent.com/blog/new-in-swift-6-a-macro-to-make-debugging-easier) macro in Swift.
