@@ -4,8 +4,8 @@ title:  "TIL github cli"
 date:   2024-08-29 21:16:00 +0200
 categories: TIL, github cli
 ---
-TIL it's not necessary to open github.com to create PR - it could be done with `gh create pr!`:
+TIL it's not necessary to open github.com to create PR - it could be done with `gh pr create`:
 
-![`gh create pr!`](/assets/images/IMG_5621.PNG "`gh create pr!`")
+![`gh pr create`](/assets/images/IMG_5621.PNG "`gh pr create`")
 
 TIL [llm cli ](https://llm.datasette.io/en/stable/).
