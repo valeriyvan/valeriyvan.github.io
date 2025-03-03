@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Using A Genetic Algorithm For Table Seating"
+title:  "Read Using A Genetic Algorithm For Table Seating"
 date:   2025-03-02 21:50:00 +0200
 categories: TIL, algorithm
 ---
