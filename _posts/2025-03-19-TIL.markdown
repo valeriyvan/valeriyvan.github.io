@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read about global actors in Swift"
+date:   2025-03-19 21:20:00 +0200
+categories: TIL, Swift, Global Actors
+---
+Read [Global actors in Swift](https://swiftwithmajid.com/2024/03/12/global-actors-in-swift/).
