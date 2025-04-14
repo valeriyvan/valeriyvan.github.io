@@ -4,7 +4,7 @@ title:  "Read a couple of articles about using Coordinator pattern in iOS"
 date:   2025-04-08 21:46:00 +0200
 categories: TIL, SwiftUI, Coordinator Pattern, Dependency injection
 ---
-Read [Coordinators & SwiftUI. Can we apply Coordinator approach for SwiftUI?](https://vbat.dev/coordinators-swiftui).
+Read [Coordinators & SwiftUI. Can we apply Coordinator approach for SwiftUI?](https://vbat.dev/coordinators-swiftui). I find article a bit inconsistent if you try to follow it.
 
 Read [DI in SwiftUI](https://vbat.dev/di-in-swiftui).
 
