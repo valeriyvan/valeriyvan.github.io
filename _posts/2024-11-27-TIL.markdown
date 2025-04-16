@@ -22,4 +22,4 @@ Bookmarking [Creating a macOS Screensaver in SwiftUI](https://digitalbunker.dev/
 
 Read [Reverse Engineering iOS 18 Inactivity Reboot](https://naehrdine.blogspot.com/2024/11/reverse-engineering-ios-18-inactivity.html).
 
-Read [Impress at Job Interviews by Inspecting their App Bundle](https://blog.jacobstechtavern.com/p/impress-at-job-interviews-by-decompiling). I have been doing this for years.
+Read [Impress at Job Interviews by Inspecting their App Bundle](https://blog.jacobstechtavern.com/p/impress-at-job-interviews-by-decompiling) by Jacob’s Tech Tavern. I have been doing this for years.
