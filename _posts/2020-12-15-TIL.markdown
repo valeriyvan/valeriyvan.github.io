@@ -4,4 +4,6 @@ title:  "After several years I have again project with git submodules"
 date:   2020-12-15 18:20:00 +0200
 categories: TIL, git, submodules
 ---
-After several years I have again project with git submodules.
+After several years I have again project with [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
+
+> Since the URL in the `.gitmodules` file is what other people will first try to clone/fetch from, make sure to use a URL that they can access if possible. For example, if you use a different URL to push to than others would to pull from, use the one that others have access to. You can overwrite this value locally with git config `submodule.DbConnector.url PRIVATE_URL` for your own use. When applicable, a relative URL can be helpful.
