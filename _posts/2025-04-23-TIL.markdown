@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "TIL it's not easy to build macOS app depending on Swift Package wrapping system library installed with homebrew"
+date:   2025-04-23 22:36:00 +0200
+categories: TIL, libpcap
+---
+TIL macOS app cannot be linked with libpcap library wrapped in Swift package as system library installed with homebrew. Came accross this solution:
+
+As last resort: rebuild libpcap from source, disabling SIP-signature enforcement:
+```
+brew uninstall libpcap
+git clone https://github.com/the-tcpdump-group/libpcap.git
+cd libpcap
+./configure && make
+sudo make install
+```
+
+This approach is wrong. After several days of debugging I have started getting same runtime error:
+
+```
+dyld[5541]: Library not loaded: /usr/local/lib/libpcap.A.dylib
+  Referenced from: <C6B84835-7D5E-31F1-B303-25F0D1A580C8> /Users/**********/Library/Developer/Xcode/DerivedData/wirereplay-gggbmywjfqczwdhfddywaliqyowk/Build/Products/Debug/wirereplay.app/Contents/MacOS/wirereplay.debug.dylib
+  Reason: tried: '/Users/**********/Library/Developer/Xcode/DerivedData/wirereplay-gggbmywjfqczwdhfddywaliqyowk/Build/Products/Debug/libpcap.A.dylib' (no such file), '/usr/lib/system/introspection/libpcap.A.dylib' (no such file, not in dyld cache), '/usr/local/lib/libpcap.A.dylib' (code signature in <6D8643CE-EF31-3939-810D-5E9EA5D9F308> '/usr/local/lib/libpcap.1.11.0-PRE-GIT.dylib' not valid for use in process: mapping process and mapped file (non-platform) have different Team IDs), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/lib/libpcap.A.dylib' (no such file), '/usr/local/lib/libpcap.A.dylib' (code signature in <6D8643CE-EF31-3939-810D-5E9EA5D9F308> '/usr/local/lib/libpcap.1.11.0-PRE-GIT.dylib' not valid for use in process: mapping process and mapped file (non-platform) have different Team IDs), '/Users/**********/Library/Developer/Xcode/DerivedData/wirereplay-gggbmywjfqczwdhfddywaliqyowk/Build/Products/Debug/libpcap.1.11.0-PRE-GIT.dylib' (no such file), '/usr/lib/system/introspection/libpcap.1.11.0-PRE-GIT.dylib' (no such file, not in dyld cache), '/usr/local/lib/libpcap.1.11.0-PRE-GIT.dylib' (code signature in <6D8643CE-EF31-3939-810D-5E9EA5D9F308> '/usr/local/lib/libpcap.1.11.0-PRE-GIT.dylib' not valid for use in process: mapping process and mapped file (non-platform) have different Team IDs), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/lib/libpcap.1.11.0-PRE-GIT.dylib' (no such file), '/usr/local/lib/libpcap.1.11.0-PRE-GIT.dylib' (code signature in <6D8643CE-EF31-3939-810D-5E9EA5D9F308> '/usr/local/lib/libpcap.1.11.0-PRE-GIT.dylib' not valid for use in process: mapping process and mapped file (non-platform) have different Team IDs)
+  ```
+  
