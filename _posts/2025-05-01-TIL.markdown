@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "TIL swift-cross-ui"
+date:   2025-05-01 21:36:00 +0200
+categories: TIL, SwiftUI, adwaita-swift, swift-cross-ui, Ubuntu, apt, Homebrew
+---
+TIL [adwaita-swift](https://git.aparoksha.dev/aparoksha/adwaita-swift) advertised in blog post [Writing GNOME Apps with Swift](https://www.swift.org/blog/adwaita-swift/) on [Swift.org](https://www.swift.org/) is bullshit. I wasn't able to run any demo app on Ubuntu. Filed a bug [adwaita-swift build error](https://git.aparoksha.dev/aparoksha/adwaita-swift/issues/60).
+
+
+That why I have started to look other SwiftUI-like cross platform frameworks. TIL [swift-cross-ui](https://github.com/stackotter/swift-cross-ui). This failed on step of installing `swift-bundler`. Filed a bug [Installing on Ubuntu 22.04 fails](https://github.com/stackotter/swift-bundler/issues/74). Maintainer has given suggestion in issue how to install `swift-bundler`.
+
+TIL `apt` is just a newer version of `apt-get`: [What’s the Difference Between APT and APT-GET?](https://aws.amazon.com/compare/the-difference-between-apt-and-apt-get/). Linux is pain. `brew install libadwaita` terminated with error 
+
+``
+`==> Pouring llvm--20.1.3.x86_64_linux.bottle.tar.gz
+Error: Too many open files @ rb_sysopen - /home/linuxbrew/.linuxbrew/Cellar/llvm/20.1.3/bin/llvm-lto
+```
+
+
+TIL uninstalling packages in `apt` and `apt-get` is done with `remove` instead of expected `uninstall`, like `sudo apt uninstall libadwaita-1-dev libgtk-4-dev`.
+
+TIL how to check Ubuntu version in command line: `lsb_release -a`:
+
+```bash
+$>lsb_release -a
+No LSB modules are available.
+Distributor ID:	Ubuntu
+Description:	Ubuntu 22.04.5 LTS
+Release:	22.04
+Codename:	jammy
+```
+
+TIL [Homebrew could be used on Linux as well](https://docs.brew.sh/Homebrew-on-Linux).
+
+
+At the end of the day I succeeded with running first UI app on Ubuntu written in Swift:
+
+![](/assets/images/Screenshot%20from%202025-05-01%2017-24-31.png)
