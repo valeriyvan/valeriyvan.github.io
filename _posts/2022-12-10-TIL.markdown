@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "TIL swift-system package; yield keyword in Swift"
+title:  "TIL swift-system package; `yield` keyword in Swift"
 date:   2022-12-10 19:45:00 +0200
-categories: TIL, swift-system
+categories: TIL, swift-system, Swift, Yielding Accessors, yield
 ---
 GitHub recommended [swift-system package](https://github.com/apple/swift-system). Interesting stuff. Browsing came across `yeild` keyword in [`FilePathComponentView` source](https://github.com/apple/swift-system/blob/main/Sources/System/FilePath/FilePathComponentView.swift).
 
-Jumped to [The `yield` keyword](https://trycombine.com/posts/swift-read-modify-coroutines/) post.
+I jumped to the post [Yielding Accessors in Swift](https://trycombine.com/posts/swift-read-modify-coroutines/). The proposal [SE-0474: Yielding Accessors](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0474-yielding-accessors.md) is still under active review as of May 2025.
