@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "TIL calling `CustomStringConvertible.description` property directly is discouraged"
+date:   2025-05-06 17:18:00 +0200
+categories: TIL, Swift, CustomStringConvertible
+---
+[How to avoid calling `CustomStringConvertible.description` as a property?](https://forums.swift.org/t/how-to-avoid-calling-customstringconvertible-description-as-a-property/72605)
+
+[](https://swiftinit.org/docs/swift/swift/customstringconvertible.description) Calling `description` property directly is discouraged.
+
+> Hmm. It's interesting that CustomStringConvertible doesn't mention why String(describing:) is the preferred method of converting a value of Any type to a String.
+
+> Calling this property directly is discouraged. Instead, convert an instance of any type to a string by using the `String(describing:)` initializer. This initializer works with any type, and uses the custom description property for types that conform to `CustomStringConvertible`.
