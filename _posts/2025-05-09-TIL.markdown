@@ -10,3 +10,4 @@ TIL [Swift 6.2 brings default to optional string interpolation](https://github.c
 var age: Int? = 48
 print("Your age is \(age, default: "unknown")")
 ```
+Read [Understanding SwiftUI's onChange](https://fatbobman.com/en/posts/onchange/).
