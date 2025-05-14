@@ -34,6 +34,6 @@ Codename:	jammy
 
 TIL [Homebrew could be used on Linux as well](https://docs.brew.sh/Homebrew-on-Linux).
 
-At the end of the day, I finally got my first Swift-based UI app running on Ubuntu:
+At the end of the day, I finally got my first Swift-based UI app running on Ubuntu, build with [swift-cross-ui](https://github.com/stackotter/swift-cross-ui):
 
 ![My first Swift-based UI app running on Ubuntu](/assets/images/Screenshot%20from%202025-05-01%2017-24-31.png "My first Swift-based UI app running on Ubuntu")
