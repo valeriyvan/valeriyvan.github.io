@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL how to send TCP packets with SwiftNIO"
+date:   2025-05-19 22:10:00 +0200
+categories: TIL, SwiftNIO, TCP
+---
+Read [Developing a basic Swift Echo Server using Swift-NIO](https://www.process-one.net/blog/developing-a-basic-swift-echo-server-using-swift-nio/).
+
+Read [SwiftNIO Channels](https://swiftonserver.com/using-swiftnio-channels/).
+
+Watched [Swift NIO MUD tutorial - EP 01 - The Echo Server](https://www.youtube.com/watch?v=_BGx5THJpvE).
