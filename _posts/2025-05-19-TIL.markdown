@@ -6,7 +6,7 @@ categories: TIL, SwiftNIO, TCP, Swift, TaskLocal
 ---
 Read [Developing a basic Swift Echo Server using Swift-NIO](https://www.process-one.net/blog/developing-a-basic-swift-echo-server-using-swift-nio/).
 
-[SwiftNIO Fundamentals](https://swiftonserver.com/using-swiftnio-fundamentals/).
+Read [SwiftNIO Fundamentals](https://swiftonserver.com/using-swiftnio-fundamentals/).
 
 Read [SwiftNIO Channels](https://swiftonserver.com/using-swiftnio-channels/).
 
