@@ -4,9 +4,9 @@ title:  "TIL Snippets in Swift packages"
 date:   2025-05-22 22:01:00 +0200
 categories: TIL, Swift, Swift Package manager, Swift Snippets
 ---
-TIL Snippets in Swift packages: [Getting started with SwiftPM Snippets](https://swiftonserver.com/getting-started-with-swiftpm-snippets/). Read also [A critical look at Swift Snippets (Swift 5.7)](https://blog.eidinger.info/a-critical-look-at-swift-snippets-swift-57#heading-usage-in-the-wild). Il will definately use this feature. Documentation for Snippet feature is missing, [Swift Snippets Swift forums thread](https://forums.swift.org/t/swift-snippets/51947) is the best documentation replacement.
+TIL Snippets in Swift packages: [Getting started with SwiftPM Snippets](https://swiftonserver.com/getting-started-with-swiftpm-snippets/). Read also [A critical look at Swift Snippets (Swift 5.7)](https://blog.eidinger.info/a-critical-look-at-swift-snippets-swift-57). I will definitely use this feature. Documentation for Snippet feature is missing, [Swift Snippets Swift forums thread](https://forums.swift.org/t/swift-snippets/51947) is the best documentation replacement. Here is my first snippet [chessboard-ppm.swift](https://github.com/valeriyvan/swift-geometrize/blob/main/Snippets/chessboard-ppm.swift).
 
-[A card displaying a ``Snippet`` at the terminal](https://github.com/swiftlang/swift-package-manager/pull/3694/files) in sources of Swift Package manager. How to use this stuff?
+I see [A card displaying a ``Snippet`` at the terminal](https://github.com/swiftlang/swift-package-manager/pull/3694/files) in sources of Swift Package manager. How to use this stuff?
 
 TIL [swift-identified-collections](https://github.com/pointfreeco/swift-identified-collections) which fits nicely with SwiftUI.
 
