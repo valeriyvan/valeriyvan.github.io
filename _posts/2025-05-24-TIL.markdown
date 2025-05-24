@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL Tiny Pointer data structure"
+date:   2025-05-24 19:46:00 +0200
+categories: TIL, Tiny Pointers
+---
+TIL [Tiny Pointer](assets/docs/2111.12800v1.pdf) data structure.
