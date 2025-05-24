@@ -2,7 +2,7 @@
 layout: post
 title:  "Read [Method Dispatch in Swift; `@objc` and `dynamic`"
 date:   2019-03-27 19:27:00 +0200
-categories: [Swift, "Method Dispatch", @objc, dynamic, "Protocol-Oriented Programming"]
+categories: [Swift, "Method Dispatch", "@objc", dynamic, "Protocol-Oriented Programming"]
 ---
 Read [Method Dispatch in Swift](https://www.raizlabs.com/dev/2016/12/swift-method-dispatch/). Old but relevant.
 

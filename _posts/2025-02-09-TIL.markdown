@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Swift will have fixed size arrays"
 date:   2025-02-09 21:13:00 +0200
-categories: [Swift, InlineArray, @available, ManagedBuffer]
+categories: [Swift, InlineArray, "@available", ManagedBuffer]
 ---
 TIL Swift will have fixed size arrays: [InlineArray, a fixed-size array](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0453-vector.md).
 
