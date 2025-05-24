@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Secrets of “printf`"
 date:   2019-09-09 19:09:00 +0200
-categories: TIL, printf
+categories: [printf]
 ---
 Today while reviewing code of my colleague I came across of this:
 

@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL how to extract speech from youtube video ans transform speech into text"
 date:   2018-12-17 19:17:00 +0200
-categories: TIL, Tensorflow, Speech to text
+categories: [Tensorflow, "Speech to text"]
 ---
 Came across [Interesting example of processing youtube videos to extract speech and transform speech into text (Russian)](https://m.habr.com/post/433532/). Tensorflow, code presents.

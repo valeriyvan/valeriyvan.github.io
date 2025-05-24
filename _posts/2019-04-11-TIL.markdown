@@ -2,7 +2,7 @@
 layout: post
 title:  "Read The Pragmatic Guide to Scalable Swift Architecture for 2019"
 date:   2019-04-11 19:11:00 +0200
-categories: TIL, Swift, Architecture, PromiseKit, Dependency injection, Coordinator pattern
+categories: [Swift, Architecture, PromiseKit, "Dependency injection", "Coordinator pattern"]
 ---
 Post [The Pragmatic Guide to Scalable Swift Architecture for 2019](https://blog.usejournal.com/the-pragmatic-guide-to-scalable-swift-architecture-in-2019-dbe662f7f516) have good tips:
 * Refactor WHILE working on bugs or within features.

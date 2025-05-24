@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Robot pattern; swift-system package"
 date:   2020-09-27 19:48:00 +0200
-categories: TIL, Robot pattern, Testing, Swift, swift-system
+categories: ["Robot pattern", Testing, Swift, swift-system]
 ---
 Read about Robot pattern [UI Testing in iOS - Robot Pattern](https://code.egym.de/ui-testing-in-ios-robot-pattern-6e0dfb72514d).
 

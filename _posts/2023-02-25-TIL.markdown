@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Voxel, Polyhedron, 2.5D maps"
 date:   2023-02-25 19:55:00 +0200
-categories: TIL, Voxel, Polyhedron, 2.5D
+categories: [Voxel, Polyhedron, 2.5D]
 ---
 TIL that [Voxel](https://en.wikipedia.org/wiki/Voxel) is the same as Pixel, but for 3D. Voxel stands for volume element. Pixel - picture element.
 

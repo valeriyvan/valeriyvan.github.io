@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to make static parking page for website with DigitalOcean Functions or with DigitalOcean's static website App"
 date:   2023-04-11 19:03:00 +0200
-categories: TIL, DigitalOcean, Lambda
+categories: [DigitalOcean, Lambda]
 ---
 Read [Why open source](https://ben.balter.com/2015/11/23/why-open-source/). I feel I will need it.
 

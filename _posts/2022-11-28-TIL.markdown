@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL How to share code between targets in Swift package; Codable vs NSCoding"
 date:   2022-11-28 21:02:00 +0200
-categories: TIL, Swift Package
+categories: ["Swift Package"]
 ---
 From [swift-numerics package](https://github.com/apple/swift-numerics) learned how to organize package with internal dependencies [Package.swift](https://github.com/apple/swift-numerics/blob/main/Package.swift). I am going to follow this pattern to [get rid of symlinks in swift-png package](https://github.com/kelvin13/swift-png/issues/35).
 

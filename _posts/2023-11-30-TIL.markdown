@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to hide and show HTML elements with JavaScript"
 date:   2023-11-30 19:43:00 +0200
-categories: TIL, HTML, Javascript, ESC
+categories: [HTML, Javascript, ESC]
 ---
 TIL how to hide and show HTML elements with JavaScript: [Buttons to hide and show an element in JavaScript](https://code.mu/en/javascript/book/prime/dom/practice/hide-show-button/).
 

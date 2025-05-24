@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL a lot about MAVLink and ArduPilot"
 date:   2023-07-10 19:28:00 +0200
-categories: TIL, MAVLink, pymavlink, VS Code, lsusb, APM, ArduPilot Mega,
+categories: [MAVLink, pymavlink, "VS Code", lsusb, APM, "ArduPilot Mega", ]
 ---
 Watched [01 Pymavlink Connect by Intelligent Quads](https://www.youtube.com/watch?v=kecnaxlUiTY).
 

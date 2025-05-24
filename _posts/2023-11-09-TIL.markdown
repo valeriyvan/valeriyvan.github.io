@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Apple has service to check whether clients connecting to your server are valid instances of your app"
 date:   2023-11-09 19:35:00 +0200
-categories: TIL, Attest, setup-swift, NSProcess
+categories: [Attest, setup-swift, NSProcess]
 ---
 TIL Apple has Attest - service to check whether clients connecting to your server are valid instances of your app [Validating Apps That Connect to Your Server](https://developer.apple.com/documentation/devicecheck/validating_apps_that_connect_to_your_server).
 

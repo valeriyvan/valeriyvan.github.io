@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Advancements in Apple’s Vision Framework: 2019 Year-in-Review; Swift's String Manifesto"
 date:   2020-01-10 19:10:00 +0200
-categories: TIL, Swift, String, DateComponents, Vision Framework
+categories: [Swift, String, DateComponents, "Vision Framework"]
 ---
 Tried to play with [Tutorial Create images from rectangular shapes in the user's environment, and augment their appearance.](https://github.com/martco/altered-beast) referenced in [Fritz AI mail list](https://www.fritz.ai). But CoreML model is missing there.
 

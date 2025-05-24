@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched video Simple AWS Lambda website"
 date:   2022-04-22 19:03:00 +0200
-categories: AWS, Lambda
+categories: [AWS, Lambda]
 ---
 Watched [Build a Simple AWS Lambda website](https://www.youtube.com/watch?v=lrr6h7YIcI8).
 

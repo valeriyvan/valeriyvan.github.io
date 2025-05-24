@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL again Changes in the `ViewController` Presentation Style on iOS 13"
 date:   2019-11-25 19:25:00 +0200
-categories: TIL, iOS 13
+categories: ["iOS 13"]
 ---
 Read [View Controller Presentation Changes in iOS 13](https://medium.com/@hacknicity/view-controller-presentation-changes-in-ios-13-ac8c901ebc4e). Worth bookmarking.
 

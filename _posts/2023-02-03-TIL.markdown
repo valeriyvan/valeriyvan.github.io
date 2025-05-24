@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched the first lecture of Princeton: Introduction to Robotics"
 date:   2023-02-03 18:01:00 +0200
-categories: TIL
+categories: []
 ---
 Read [Introduction to Embedding, Clustering, and Similarity. A close look at key elements of ML and Latent Spaces](https://towardsdatascience.com/introduction-to-embedding-clustering-and-similarity-11dd80b00061).
 

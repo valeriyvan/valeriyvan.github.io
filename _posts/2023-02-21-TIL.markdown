@@ -2,7 +2,7 @@
 layout: post
 title:  "Tinkered with SIMD operations in Swift"
 date:   2023-02-21 16:20:00 +0200
-categories: TIL, SIMD, Swift evolution
+categories: [SIMD, "Swift evolution"]
 ---
 Working on PRs [[string] SIMD-izes internal func in StringCreate.swift](https://github.com/apple/swift/pull/30300/files) and on `SIMD` variant of PR [[stdlib] Add to Unsafe[Mutable]RawBufferPointer implementation of _custom[Last]IndexOfEquatableElement](https://github.com/apple/swift/pull/63128) explained [in post](https://valeriyvan.com/2022/12/15/TIL.html) I have found that Swift's implementation of `SIMD` misses operations for checking if `SIMD` vector includes particular scalar. At the same time, `simd` implementation in Objective-C has [`simd_any` and `simd_all`](https://github.com/xybp888/iOS-SDKs/blob/master/iPhoneOS13.0.sdk/usr/include/simd/logic.h). These is poor documented in Apple documentation. These operations allow check not only presence of some scalar but allow use conditions like
 

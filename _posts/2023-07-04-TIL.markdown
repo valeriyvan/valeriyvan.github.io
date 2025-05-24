@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL GitHub Projects; How to copy files to S3 bucket with CLI; `URLSessionConfiguration`'s `waitsForConnectivity` property"
 date:   2023-07-04 18:44:00 +0200
-categories: TIL, GitHub Projects, AWS S3, 
+categories: ["GitHub Projects", "AWS S3", ]
 ---
 TIL [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects).
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Read The world's smallest PNG which could serve as short introduction into PNG format"
 date:   2024-01-21 19:59:00 +0200
-categories: TIL, PNG
+categories: [PNG]
 ---
 Read [The world's smallest PNG](https://evanhahn.com/worlds-smallest-png/). The post could be short introduction into PNG format. Here are the world's smallest PNG zoomed 200x times. It's just one black pixel.
 

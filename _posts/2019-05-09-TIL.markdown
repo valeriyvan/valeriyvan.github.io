@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Nimble and Quick"
 date:   2019-05-09 19:09:00 +0200
-categories: TIL, Swift, John Sundell, Pure functions, Static factory methods, child view controllers, plugins
+categories: [Swift, "John Sundell", "Pure functions", "Static factory methods", "child view controllers", plugins]
 ---
 I should start to use [Nimble](https://github.com/Quick/Nimble) [to make assertions in unit tests clear](https://github.com/Quick/Quick/blob/master/Documentation/en-us/NimbleAssertions.md). Well, companion [Quick](https://github.com/Quick/Quick) i still don't understand.
 

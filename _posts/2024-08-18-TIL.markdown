@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL `sending` keyword in Swift"
 date:   2024-08-18 22:10:00 +0200
-categories: TIL, Swift 6, Sendable, sending
+categories: ["Swift 6", Sendable, sending]
 ---
 Read [Migrating to Swift 6](https://www.swift.org/migration/documentation/migrationguide/).
 

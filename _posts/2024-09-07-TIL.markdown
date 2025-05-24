@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL dependency mirroring and Package Manager Workspace"
 date:   2024-09-07 21:25:00 +0200
-categories: TIL, Swift Package Manager
+categories: ["Swift Package Manager"]
 ---
 TIL about [dependency mirroring](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0219-package-manager-dependency-mirroring.md) in Swift package.
 

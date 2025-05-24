@@ -2,7 +2,7 @@
 layout: post
 title:  "Read The Worst Programmer I Know essay; Requested access to llama"
 date:   2023-09-04 19:25:00 +0200
-categories: TIL, llama
+categories: [llama]
 ---
 Read [The Worst Programmer I Know essay](https://dannorth.net/2023/09/02/the-worst-programmer/). It's so good! I would have shown this essay to some of my past employers.
 

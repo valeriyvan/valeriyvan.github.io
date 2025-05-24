@@ -2,7 +2,7 @@
 layout: post
 title:  "Read iOS 11: Machine Learning for everyone; Read Why learn algorithms?; Read One-shot object detection"
 date:   2018-11-26 19:26:00 +0200
-categories: TIL, iOS 11, Algorithms, YOLO
+categories: ["iOS 11", Algorithms, YOLO]
 ---
 Read [iOS 11: Machine Learning for everyone](http://machinethink.net/blog/ios-11-machine-learning-for-everyone/). Mostly it's self-advertising but has useful info as well.
 

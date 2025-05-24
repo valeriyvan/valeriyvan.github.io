@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL how to call C functions from Python and how to pass pointers"
 date:   2020-01-29 19:29:00 +0200
-categories: TIL, C, Python, pointers
+categories: [C, Python, pointers]
 ---
 Learned [how to call C functions from Python](https://www.journaldev.com/31907/calling-c-functions-from-python). This simple example worked well for me as starter. More trickier was to guess how to pass pointers to C functions from Python. This documentation was handy [A foreign function library for Python](https://docs.python.org/3/library/ctypes.html). 

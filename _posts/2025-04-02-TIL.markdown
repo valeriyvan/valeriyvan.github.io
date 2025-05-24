@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Swift 6.1 Released"
 date:   2025-04-02 22:13:00 +0200
-categories: TIL, Swift, Swift Package Manager
+categories: [Swift, "Swift Package Manager"]
 ---
 TIL [Swift 6.1 Released](https://www.swift.org/blog/swift-6.1-released/).
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Read NSHipster's API Pollution in Swift Modules; TIL Swift's Numeric Protocol; TIL what exactly means SVG"
 date:   2019-05-16 19:16:00 +0200
-categories: TIL, Xcode, Build Configuration Files, xcconfig, SCREAMING_SNAKE_CASE, CGAffineTransform
+categories: [Xcode, "Build Configuration Files", xcconfig, SCREAMING_SNAKE_CASE, CGAffineTransform]
 ---
 Read NSHipster's [API Pollution in Swift Modules](https://nshipster.com/swift-api-pollution/).
 

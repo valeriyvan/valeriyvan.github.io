@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL a lot new things about ArduPilot"
 date:   2024-05-15 21:07:00 +0200
-categories: TIL, ArduPilot
+categories: [ArduPilot]
 ---
 Read [Measuring Vibration](https://ardupilot.org/plane/docs/common-measuring-vibration.html) in ArduPilot documentation. Interesting if Betaflight has similar means/tool for measuring vibrations. [Vibration Damping](https://ardupilot.org/plane/docs/common-vibration-damping.html#common-vibration-damping).
 

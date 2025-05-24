@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL about Webots capabilities; Dug in Core Graphics documentation"
 date:   2023-06-29 20:03:00 +0200
-categories: TIL, Webots, Core Graphics, CGContextGetUserSpaceToDeviceSpaceTransform, exiftool
+categories: [Webots, "Core Graphics", CGContextGetUserSpaceToDeviceSpaceTransform, exiftool]
 ---
 Read [Webots (open-source three-dimensional mobile robot simulator) User Guide](https://cyberbotics.com/doc/guide/menu).
 

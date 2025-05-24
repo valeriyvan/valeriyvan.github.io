@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched several interesting videos from try! Swift NYC 2018 conference"
 date:   2018-12-06 19:06:00 +0200
-categories: TIL, Debouncing in Swift, String, CoreML, Siri Shortcuts
+categories: ["Debouncing in Swift", String, CoreML, "Siri Shortcuts"]
 ---
 Interesting post [Debouncing in Swift while your iOS app is in the background](http://blog.hellocode.co/post/debounce-swift/). I have been doing something similar implementing auto-completion, but not for background.
 

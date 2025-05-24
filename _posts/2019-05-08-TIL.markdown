@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Why I don’t use PDFs for iOS assets; Read NSHipster's Optional, throws, Result, and async/await"
 date:   2019-05-08 19:08:00 +0200
-categories: TIL, NSHipster, PDF, specrogram, spectrum, FFT, DICOM
+categories: [NSHipster, PDF, specrogram, spectrum, FFT, DICOM]
 ---
 Bookmarking this [TORoundedButton](https://github.com/TimOliver/TORoundedButton) that not to invent bicycle next time.
 

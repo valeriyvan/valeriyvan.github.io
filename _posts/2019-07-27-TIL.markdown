@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Core Audio Introduction"
 date:   2019-07-27 19:27:00 +0200
-categories: TIL, Swift, CoreAudio
+categories: [Swift, CoreAudio]
 ---
 Read [Core Audio Introduction](https://medium.com/@kardakov/core-audio-introduction-3ce40b7b9066), [Core Audio: don’t forget the headphones](https://medium.com/@kardakov/core-audio-dont-forget-the-headphones-bfbf32b8326f), [Core Audio: Sampling](https://medium.com/@kardakov/core-audio-sampling-54c97e4994ea).
 

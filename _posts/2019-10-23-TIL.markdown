@@ -2,7 +2,7 @@
 layout: post
 title:  "Read about `Sequence` and `Collection` in Swift; about type erase"
 date:   2019-10-23 19:23:00 +0200
-categories: TIL, Swift, Strideable, Type erase
+categories: [Swift, Strideable, "Type erase"]
 ---
 Hang some time on wikipedia [Apple designed processors](https://en.wikipedia.org/wiki/Apple-designed_processors) trying to guess how many cores modern iPads and iPhones have. Short answer is: 6 or 8.
 

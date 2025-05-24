@@ -2,6 +2,6 @@
 layout: post
 title:  "Read about telegram bot webhooks"
 date:   2024-04-26 22:19:00 +0200
-categories: TIL, Telegram Bot
+categories: ["Telegram Bot"]
 ---
 Read about Telegram Bot webhooks: [Marvin's Marvellous Guide to All Things Webhook](https://core.telegram.org/bots/webhooks), [How to create a Telegram bot with Swift using Vapor on Ubuntu / macOS](https://www.fabriziobrancati.com/posts/how-create-telegram-bot-swift-vapor-ubuntu-macos). Set [webhook for Geometrizebot](https://github.com/valeriyvan/geometrizebot/pull/101).

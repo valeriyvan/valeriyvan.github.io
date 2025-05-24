@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL protocols used in radio control"
 date:   2023-07-02 18:49:00 +0200
-categories: TIL
+categories: []
 ---
 Bookmarking [quick list/explanation of different protocols used in radio control (russian)](https://rc-hobby.com.ua/infocenter/obzory-i-stati/protokoly-peredachi-v-rc_-pwm_-ppm_-sbus_-dsm2_-dsmx_-sumd-i-drugie_-gde-i-kak-eto-rabotaet_-chto-lu/).

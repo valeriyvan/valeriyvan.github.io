@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how Discrete Cosine Transform is used in JPEG"
 date:   2024-10-15 21:02:00 +0200
-categories: TIL, JPEG, Discrete Cosine Transform
+categories: [JPEG, "Discrete Cosine Transform"]
 ---
 Read [JPEG DCT, Discrete Cosine Transform (JPEG Pt2)- Computerphile](https://www.youtube.com/watch?v=Q2aEzeMDHMA).
 

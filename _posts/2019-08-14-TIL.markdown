@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL `didSet` doesn't fire for wiped out weak optional"
 date:   2019-08-14 19:14:00 +0200
-categories: TIL, WWDC 2018, Subscriptions
+categories: ["WWDC 2018", Subscriptions]
 ---
 This is my finding today that `didSet` doesn't fire for wiped out weak optional. Could be interview question.
 

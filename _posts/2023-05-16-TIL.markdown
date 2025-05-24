@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL what is Hardened Runtime and watched bonus Threading Operations and Queues of iOS Architect Crash Course"
 date:   2023-05-16 19:16:00 +0200
-categories: TIL, macOS, Hardened Runtime, Threading, Queues, Operations
+categories: [macOS, "Hardened Runtime", Threading, Queues, Operations]
 ---
 TIL what is [Hardened Runtime](https://developer.apple.com/documentation/security/hardened_runtime).
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL `objc_msgSend`'s new prototype; usign ffmpeg to convert audio in video"
 date:   2019-10-12 19:12:00 +0200
-categories: TIL, Objective-C, objc_msgSend, ffmpeg, audio
+categories: [Objective-C, objc_msgSend, ffmpeg, audio]
 ---
 Read [`objc_msgSend`'s New Prototype](https://www.mikeash.com/pyblog/objc_msgsends-new-prototype.html).
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Apple now provides Swift runtime for AWS Lambda"
 date:   2024-11-20 21:12:00 +0200
-categories: TIL, Swift, AWS Lambda
+categories: [Swift, "AWS Lambda"]
 ---
 TIL Apple now provides Swift runtime for AWS Lambda: [Introducing Swift AWS Lambda Runtime](https://www.swift.org/blog/AWS-lambda-runtime/), its repo [swift-aws-lambda-runtime](https://github.com/swift-server/swift-aws-lambda-runtime).
 

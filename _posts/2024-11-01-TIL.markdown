@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL what are mixins and traits"
 date:   2024-11-01 21:51:00 +0200
-categories: TIL, mixin, trait, Swift, Unix
+categories: [mixin, trait, Swift, Unix]
 ---
 TIL what are mixins and traits: [Unlocking Mixins with Swift 5.9 Macros](https://alejandromp.com/development/blog/swift-5-9-macros-unlock-mixins/).
 

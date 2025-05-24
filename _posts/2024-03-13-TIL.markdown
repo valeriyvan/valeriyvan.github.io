@@ -2,6 +2,6 @@
 layout: post
 title:  "Read and tried How to display a WebView in SwiftUI"
 date:   2024-03-13 19:57:00 +0200
-categories: TIL, Swift, SwiftUI, Text, WebView, WKWebView
+categories: [Swift, SwiftUI, Text, WebView, WKWebView]
 ---
 Read and tried [How to display a WebView in SwiftUI](https://asynclearn.medium.com/how-to-display-a-webview-in-swiftui-d60b4bff6ba7). I have found that SwiftUI's `Text` become slow for showing big real life documents so I tried switching back to `WKWebView`. I found `WKWebView` is extremely fast in comparison with SwiftUI `Text`.

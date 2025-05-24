@@ -2,6 +2,6 @@
 layout: post
 title:  "Watched again WWDC 2016 session video Unified Logging and Activity Tracing"
 date:   2019-11-16 19:16:00 +0200
-categories: TIL, Logging, WWDC
+categories: [Logging, WWDC]
 ---
 Watched again [WWDC 2016 session video Unified Logging and Activity Tracing](https://developer.apple.com/videos/play/wwdc2016/721/).

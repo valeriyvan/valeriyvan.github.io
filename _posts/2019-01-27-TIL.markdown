@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Apple’s Swift standard library, Google's, Official raywenderlich.com, Linkedin and Coursera Swift Style Guides; TIL API Design Guidelines from Swift.org"
 date:   2019-01-27 19:27:00 +0200
-categories: Swift, Style Guide
+categories: [Swift, "Style Guide"]
 ---
 Yesterday I was asked at job interview which style guide I use for Swift. I don't know which one. I don't know even which exist. I definitely use some because I can't refrain from fixing function call to trailing closure syntax or to add space before opening curly brace. The question is what's the name of style guide I use. I started to google to name swift style guides available.
 

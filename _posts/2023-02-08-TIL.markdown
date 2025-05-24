@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Fletcher checksum, UART"
 date:   2023-02-08 19:22:00 +0200
-categories: TIL, Fletcher checksum, UART
+categories: ["Fletcher checksum", UART]
 ---
 TIL Fletcher checksum: [rfc1146](https://datatracker.ietf.org/doc/html/rfc1146).
 

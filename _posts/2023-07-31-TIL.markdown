@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL what is Real-time kinematic positioning"
 date:   2023-07-31 11:50:00 +0200
-categories: TIL, UAVCAN, GStreamer, Real-time kinematic positioning
+categories: [UAVCAN, GStreamer, "Real-time kinematic positioning"]
 ---
 Bookmarking [ARDU Remote: simple RC radio controller](https://github.com/whoim2/arduremote). Radio remote controller - that's what is missing for [Crazyflie](https://github.com/bitcraze).
 

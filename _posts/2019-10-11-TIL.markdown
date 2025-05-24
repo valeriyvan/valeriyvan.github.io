@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL `MemoryLayout<Float>.stride` in Swift as equivalent of `sizeof(float)` in C; `CFBitVector` for bit arrays; no `UInt128` in Swift"
 date:   2019-10-11 19:11:00 +0200
-categories: TIL, Swift, MemoryLayout, CFBitVector, UInt128
+categories: [Swift, MemoryLayout, CFBitVector, UInt128]
 ---
 Learned `sizeof(float)` in C equals to `MemoryLayout<Float>.stride` in Swift. 
 

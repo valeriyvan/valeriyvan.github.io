@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Aerial Robotic Landscape"
 date:   2024-07-25 21:46:00 +0200
-categories: TIL, iOS, Widget, Robotic
+categories: [iOS, Widget, Robotic]
 ---
 Read [How I've made a Widget with info of electricity availability at my home (ukr)](https://vadymklymenko.com/blog/shutdown-ios-widget/).
 

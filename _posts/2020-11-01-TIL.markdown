@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to make C library available in Swift using the Swift Package Manager"
 date:   2020-11-01 19:20:00 +0200
-categories: TIL, SwiftPM, C, Swift, Library
+categories: [SwiftPM, C, Swift, Library]
 ---
 Learned [Making a C library available in Swift using the Swift Package Manager](https://rderik.com/blog/making-a-c-library-available-in-swift-using-the-swift-package/).
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL what is frequency response"
 date:   2019-08-22 19:22:00 +0200
-categories: TIL, Frequency response
+categories: ["Frequency response"]
 ---
 Preparing requirements for this screen learned what [frequency response](https://en.wikipedia.org/wiki/Frequency_response) [(russian амплитудно-частотная характеристика)](https://samesound.ru/g/instruments/89208-frequency-response-explain) is. I havn't literally meant "learned". I have learned that when I was in school 40 yeas ago. And yes, this screen isn't connected directly with notion of frequency response.
 

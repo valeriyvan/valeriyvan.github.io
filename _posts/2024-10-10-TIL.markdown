@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL what is Immediate Operand"
 date:   2024-10-10 21:12:00 +0200
-categories: TIL, RISC-V
+categories: [RISC-V]
 ---
 TIL what is [Immediate Operand](https://www.sciencedirect.com/topics/computer-science/immediate-operand):
 

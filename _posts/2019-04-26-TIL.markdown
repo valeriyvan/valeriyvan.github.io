@@ -2,7 +2,7 @@
 layout: post
 title:  "Passed through App form design best practices; Watched Swift Talk #149 We use SwiftSyntax to add highlighting for Swift code blocks"
 date:   2019-04-26 19:26:00 +0200
-categories: TIL, Swift, Forms, Placeholders
+categories: [Swift, Forms, Placeholders]
 ---
 Passed through [App form design best practices](https://www.justinmind.com/blog/mobile-app-forms-best-practices/). It has link to [Placeholders in Form Fields Are Harmful](https://www.nngroup.com/articles/form-design-placeholders/) which I will hand over to designers I am working with.
 

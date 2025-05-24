@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL a lot about integers in Swift"
 date:   2018-12-10 19:10:00 +0200
-categories: TIL, Swift, Integer
+categories: [Swift, Integer]
 ---
 Writing unit tests have found that there's no such thing like `Int.random()`, only things like `Int.random(in:)`. Findings after small research:
 

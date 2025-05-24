@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Popovers, UINavigationController, and preferredContentSize and a lot of other interesting stuff"
 date:   2019-10-08 19:08:00 +0200
-categories: TIL, Swift, iOS, UINavigationController, Popovers, preferredContentSize, UICollectionViewCompositionalLayout, Caching, SwiftErrorHandler
+categories: [Swift, iOS, UINavigationController, Popovers, preferredContentSize, UICollectionViewCompositionalLayout, Caching, SwiftErrorHandler]
 ---
 Switched to use [Catalina](https://www.apple.com/macos/catalina/) and after first minutes found out [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) got retired and I have to [learn to use zsh](https://support.apple.com/en-us/HT208050). Note to future self: just remember to set the shebang in your scripts to `#!/bin/zsh` - taken from [Moving to zsh](https://scriptingosx.com/2019/06/moving-to-zsh/).
 

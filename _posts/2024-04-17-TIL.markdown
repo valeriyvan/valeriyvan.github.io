@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL 3MF 3D Manufacturing Format"
 date:   2024-04-17 22:11:00 +0200
-categories: TIL, 3D printing, 3MF
+categories: ["3D printing", 3MF]
 ---
 TIL [3D printing is called additive manufacturing](https://en.wikipedia.org/wiki/3D_printing).
 

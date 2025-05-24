@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Adwaita"
 date:   2024-03-26 20:23:00 +0200
-categories: TIL, Adwaita
+categories: [Adwaita]
 ---
 TIL Adwaita - a framework for creating user interfaces for GNOME with an API similar to SwiftUI: [Writing GNOME Apps with Swift](https://www.swift.org/blog/adwaita-swift/).
 

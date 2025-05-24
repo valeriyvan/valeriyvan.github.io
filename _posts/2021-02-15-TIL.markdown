@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL a lot about CRC32"
 date:   2021-02-15 18:17:00 +0200
-categories: TIL, CRC32, Intel, ARM, SIMD
+categories: [CRC32, Intel, ARM, SIMD]
 ---
 Trying to use [ZIPFoundation Swift package](https://github.com/weichsel/ZIPFoundation), I came across this:
 

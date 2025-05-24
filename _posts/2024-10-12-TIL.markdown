@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL what is blurhash"
 date:   2024-10-12 21:58:00 +0200
-categories: TIL, blurhash, QR
+categories: [blurhash, QR]
 ---
 TIL tools for making nice snippets for blogs exist, like [showcode](https://showcode.app) and [codetoimg](https://codetoimg.com).
 

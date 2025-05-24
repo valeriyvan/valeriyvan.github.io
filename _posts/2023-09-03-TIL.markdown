@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to set up in Betaflight newly built drone"
 date:   2023-09-03 19:02:00 +0200
-categories: TIL, betaflight, GPS, Mateksys
+categories: [betaflight, GPS, Mateksys]
 ---
 Watched once again [Betaflight for Beginners \| The settings you need to get your drone in the air](https://www.youtube.com/watch?v=iEo19JtVe1U).
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL subst Windows command; Managed to make Swift on Windows working"
 date:   2022-11-24 19:22:00 +0200
-categories: TIL, Windows, Swift on Windows, SSH
+categories: [Windows, "Swift on Windows", SSH]
 ---
 TIL [`subst`](https://learn.microsoft.com/ru-ru/windows-server/administration/windows-commands/subst) Windows command for creating virtual drive from a folder.
 

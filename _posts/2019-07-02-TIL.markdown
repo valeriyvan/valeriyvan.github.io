@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL about Audio Signal Processing for Music Applications"
 date:   2019-07-02 19:02:00 +0200
-categories: TIL, Audio Signal Processing, Fourier Transform
+categories: ["Audio Signal Processing", "Fourier Transform"]
 ---
 Watched videos of week 2 of course [Audio Signal Processing for Music Applications](https://www.coursera.org/lecture/audio-signal-processing/stft-2-tjEQe).
 

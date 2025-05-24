@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Swift Package Description could define iOS app product"
 date:   2024-11-21 21:49:00 +0200
-categories: TIL, Swift, Swift Package Manager
+categories: [Swift, "Swift Package Manager"]
 ---
 TIL Swift Package Description could define product of iOS app. `PackageDescription` defines following `enum`:
 From `PackageDescription`:

@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched Stanford's CS193P Spring 2021 Lecture 1: Getting started with SwiftUI"
 date:   2023-05-06 19:20:00 +0200
-categories: Stanford, CS193P
+categories: [Stanford, CS193P]
 ---
 Watched [Stanford's CS193P Spring 2021 Lecture 1: Getting started with SwiftUI](https://www.youtube.com/watch?v=bqu6BquVi2M).
 

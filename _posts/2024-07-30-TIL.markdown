@@ -2,6 +2,6 @@
 layout: post
 title:  "Read about Uniform Type Identifiers"
 date:   2024-07-30 21:41:00 +0200
-categories: TIL, UTI
+categories: [UTI]
 ---
 Read [Introduction to Uniform Type Identifiers Overview](https://developer.apple.com/library/archive/documentation/FileManagement/Conceptual/understanding_utis/understand_utis_intro/understand_utis_intro.html), [Uniform Type Identifiers Reference](https://developer.apple.com/library/archive/documentation/Miscellaneous/Reference/UTIRef/).

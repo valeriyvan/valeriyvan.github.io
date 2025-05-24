@@ -2,7 +2,7 @@
 layout: post
 title:  "Dug with MAVLink"
 date:   2023-07-14 12:25:00 +0200
-categories: TIL, MAVLink, pymavlink
+categories: [MAVLink, pymavlink]
 ---
 Came accross [pymavlink examples](https://www.ardusub.com/developers/pymavlink.html) which containe snippets for common tasks like:
 * Autopilot connected to the computer via serial

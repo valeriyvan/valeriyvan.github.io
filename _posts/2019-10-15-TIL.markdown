@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Identifiable and Hashable / Hasher chapters at NSHipster; TIL Apple is using version 4 of UUID"
 date:   2019-10-15 19:15:00 +0200
-categories: TIL, Swift, Identifiable, Equatable, Hashable, UUID
+categories: [Swift, Identifiable, Equatable, Hashable, UUID]
 ---
 Read [Identifiable](https://nshipster.com/identifiable/) at NSHipster. Not as useless reading as one might think. Post discusses topics like Identifiable vs. Equatable, Identifiable vs. Hashable.
 

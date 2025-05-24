@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL `swiftly` - a Swift toolchain installer and manager, written in Swift"
 date:   2024-07-14 13:53:00 +0200
-categories: TIL, Swift, swiftly
+categories: [Swift, swiftly]
 ---
 TIL [https://github.com/swiftlang/swiftly](`swiftly`) - s Swift toolchain installer and manager, written in Swift.
 

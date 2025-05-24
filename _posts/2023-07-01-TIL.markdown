@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL MAVLink capabilities; ArduPilot's Mission Planner capabilities"
 date:   2023-07-01 18:21:00 +0200
-categories: TIL, MavLink, ArduPilot, ArduPilot Mission Planner, Orthophoto, ByteTrack
+categories: [MavLink, ArduPilot, "ArduPilot Mission Planner", Orthophoto, ByteTrack]
 ---
 Read [MAVLink Interface documentation](https://ardupilot.org/dev/docs/mavlink-commands.html) trying to understand what is it and how it could be used.
 

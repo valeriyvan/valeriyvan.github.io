@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Midpoint Circle Algorithm"
 date:   2024-11-22 21:04:00 +0200
-categories: TIL, Image Search, Midpoint Circle Algorithm
+categories: ["Image Search", "Midpoint Circle Algorithm"]
 ---
 Read [Demo Showcase Reverse Image Search](https://manticoresearch.com/blog/reverse-image-search-demo/).
 

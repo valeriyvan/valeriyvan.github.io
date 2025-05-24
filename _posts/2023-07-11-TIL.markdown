@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL swift-http-types package; TIL how to control drone servoes with MAVLink"
 date:   2023-07-11 19:05:00 +0200
-categories: TIL, Swift, swift-http-types, MAVLink, git gui
+categories: [Swift, swift-http-types, MAVLink, "git gui"]
 ---
 TIL new swift package [Swift HTTP Types](https://www.swift.org/blog/introducing-swift-http-types/) which provides a shared set of currency types for client/server HTTP operations in Swift. It's repo [swift-http-types](https://github.com/apple/swift-http-types).
 

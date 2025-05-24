@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL why airplane electric motors are called outrunner"
 date:   2024-08-05 21:03:00 +0200
-categories: TIL, Outrunner, Inrunner
+categories: [Outrunner, Inrunner]
 ---
 TIL why airplane electric motors are called outrunner: [Brushless Inrunner vs Outrunner motor?](https://www.radiocontrolinfo.com/brushless-inrunner-vs-outrunner-motor/).

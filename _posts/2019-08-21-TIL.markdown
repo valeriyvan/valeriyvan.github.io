@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Robot pattern; Costs of sharing code between iOS and Android"
 date:   2019-08-21 19:21:00 +0200
-categories: TIL, Swift, Robot pattern
+categories: [Swift, "Robot pattern"]
 ---
 There're not obvious costs of sharing code between iOS and Android, means Dropbox: [The (not so) hidden cost of sharing code between iOS and Android](https://blogs.dropbox.com/tech/2019/08/the-not-so-hidden-cost-of-sharing-code-between-ios-and-android/).
 

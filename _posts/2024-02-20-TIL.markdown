@@ -2,7 +2,7 @@
 layout: post
 title:  "Passed through guides and documentation on SwiftUI List"
 date:   2024-02-20 21:59:00 +0200
-categories: TIL, SwiftUI, List
+categories: [SwiftUI, List]
 ---
 Passed through [Getting Started with SwiftUI Tables: A Beginner’s Guide](https://www.swiftyplace.com/blog/chy7hvne).
 

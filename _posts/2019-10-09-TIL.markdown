@@ -2,7 +2,7 @@
 layout: post
 title:  "Found out that `DispatchSourceTimer` set to fire every 500ms with leeway 10ms fires first three times with half of that interval"
 date:   2019-10-09 19:09:00 +0200
-categories: TIL, Swift, DispatchSourceTimer, CADisplayLink
+categories: [Swift, DispatchSourceTimer, CADisplayLink]
 ---
 Found out that `DispatchSourceTimer` set to fire every 500ms with leeway 10ms fires first three times with half of that interval:
 

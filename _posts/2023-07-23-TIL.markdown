@@ -2,6 +2,6 @@
 layout: post
 title:  "Bookmarking TextPaths"
 date:   2023-07-23 18:20:00 +0200
-categories: TIL, swift-geometrize, vector art
+categories: [swift-geometrize, "vector art"]
 ---
 Bookmarking [TextPaths](https://github.com/malczak/TextPaths) which I am going to use to generate vector for some alphabet to [swift-geometrize](https://github.com/valeriyvan/swift-geometrize) feature to produce art similar to [James Cook The Type Writer Artist](https://jamescookartwork.com/).

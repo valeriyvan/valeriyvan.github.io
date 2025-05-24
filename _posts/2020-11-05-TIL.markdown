@@ -2,6 +2,6 @@
 layout: post
 title:  "Read Modern Dependency Injection in Swift"
 date:   2020-11-05 18:13:00 +0200
-categories: TIL, Swift, Dependency Injection
+categories: [Swift, "Dependency Injection"]
 ---
 Read [Modern Dependency Injection in Swift](https://medium.com/better-programming/modern-dependency-injection-in-swift-952286b308be).

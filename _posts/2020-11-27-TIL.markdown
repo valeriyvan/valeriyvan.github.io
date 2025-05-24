@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Swift on Raspberry Pi Workshop"
 date:   2020-11-27 19:29:00 +0200
-categories: TIL, Swift, Raspberry Pi
+categories: [Swift, "Raspberry Pi"]
 ---
 Read [Swift on Raspberry Pi Workshop: Part 1](https://lickability.com/blog/swift-on-raspberry-pi-workshop/), from which I learned about [Swish](https://github.com/thomaspaulmann/Swish), script for remote building your Swift projects on a Linux machine. Unfortunately, is not updated since 2016. Anyway, I didn't get how to use it without Xcode, only with Swift package manager. Probably, I need this tool [Builder](https://github.com/elegantchaos/Builder).
 

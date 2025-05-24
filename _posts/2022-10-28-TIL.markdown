@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how Swift generics are compiled and usefull compiler flags"
 date:   2022-10-28 18:34:00 +0200
-categories: TIL, Swift, Generics, Compilation, Compiler flags
+categories: [Swift, Generics, Compilation, "Compiler flags"]
 ---
 Read Swift documentation [Compiling Swift Generics](https://github.com/apple/swift/blob/main/docs/Generics/generics.tex). Useful reading. 
 

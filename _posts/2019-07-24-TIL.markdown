@@ -2,7 +2,7 @@
 layout: post
 title:  "Came across very strange runtime error instantiating CoreML model - solution was unexpected"
 date:   2019-07-24 19:24:00 +0200
-categories: TIL, Swift, Error Handling, CoreML
+categories: [Swift, "Error Handling", CoreML]
 ---
 Today came across very strange runtime error instantiating CoreML model:
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL what macOS menu extras are"
 date:   2025-01-18 21:21:00 +0200
-categories: TIL, Human Interface Guidelines, macOS
+categories: ["Human Interface Guidelines", macOS]
 ---
 From the post [Add launch at login setting to a macOS app](https://nilcoalescing.com/blog/LaunchAtLoginSetting/), I learned how a macOS app can add a menu item to the right side of the menu bar. These items are officially referred to as *menu extras*. Informally, apps that use this feature are often referred to as Menu Bar Apps.
 

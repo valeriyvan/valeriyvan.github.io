@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL swift-mmio"
 date:   2023-11-18 19:28:00 +0200
-categories: TIL, Command pattern, swift-mmio
+categories: ["Command pattern", swift-mmio]
 ---
 Read [Command Design Pattern](https://www.digitalocean.com/community/tutorials/command-design-pattern) and [Command Design Pattern](https://sourcemaking.com/design_patterns/command).
 

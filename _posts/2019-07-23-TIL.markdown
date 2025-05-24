@@ -2,7 +2,7 @@
 layout: post
 title:  "Open question: how to assign reference type to self in initializer"
 date:   2019-07-23 19:23:00 +0200
-categories: TIL, Swift, initializer
+categories: [Swift, initializer]
 ---
 *Swift meetup question.* Got stumbled with this Swift extension (below) where convenience failable initializer is implemented. At the very bottom there's `image` which is what is needed. How to use this `image` to init `self`. Assignment to self in initializers only allowed for value types. To complete initialization here some `self.init` should be called (for not convenience initializers it will be `super.init`). But there's no initializer for `UIImage` with `UIImage` parameter. As a workaround I use one with `CGImage` parameter. But it isn't good solution as `cgImage` getter is failable. Nicer solution should exist!
 

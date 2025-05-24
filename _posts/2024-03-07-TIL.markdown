@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Creating a Betaflight target from scratch"
 date:   2024-03-07 22:04:00 +0200
-categories: TIL, HAL, Betaflight
+categories: [HAL, Betaflight]
 ---
 TIL what is [HAL](https://en.wikipedia.org/wiki/HAL_(software)).
 

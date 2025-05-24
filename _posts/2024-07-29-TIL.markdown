@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL swift-testing-revolutionary"
 date:   2024-07-29 22:17:00 +0200
-categories: TIL, Swift, XCTest, swift-testing, Actors, Swift concurrency, Dependency injection, Dependency inversion
+categories: [Swift, XCTest, swift-testing, Actors, "Swift concurrency", "Dependency injection", "Dependency inversion"]
 ---
 TIL [swift-testing-revolutionary](https://github.com/giginet/swift-testing-revolutionary) for converting test cases written in XCTest to [swift-testing](https://github.com/apple/swift-testing).
 

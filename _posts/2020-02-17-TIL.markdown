@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Speech Framework"
 date:   2020-02-17 19:50:00 +0200
-categories: TIL, Speech Framework
+categories: ["Speech Framework"]
 ---
 Read [Recognizing Speech Locally on an iOS Device Using the Speech Framework](https://www.andyibanez.com/posts/speech-recognition-sfspeechrecognizer).
 

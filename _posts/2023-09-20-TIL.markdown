@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL about Side Force"
 date:   2023-09-20 19:58:00 +0200
-categories: TIL, Side Force Generator, Yaw, Heading, FPV
+categories: ["Side Force Generator", Yaw, Heading, FPV]
 ---
 From [In-flight propulsion system test](http://shrediquette.blogspot.com/2018/04/in-flight-propulsion-system-test.html) got brilliant idea how to compare different propellers in flight. The site [Shrediquette - the award-winning multirotors by William Thielicke](http://shrediquette.blogspot.com) is interesting and contains a lot of info about different self built drones. The guy seems to be from Bremen, Germany.
 

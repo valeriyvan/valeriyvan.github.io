@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL different ways to detect key presses in Python"
 date:   2023-08-02 11:43:00 +0200
-categories: TIL, Python, Curses, pynput, keyboard
+categories: [Python, Curses, pynput, keyboard]
 ---
 TIL about [Curses - terminal-independent screen-painting and keyboard-handling facility for text-based terminals](https://docs.python.org/3/howto/curses.html). Nice to build GUI inside terminal. But it's not what I need.
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Read ExpressLRS Vs Crossfire"
 date:   2023-08-31 18:40:00 +0200
-categories: TIL, ExpressLRS, Crossfire, hostname
+categories: [ExpressLRS, Crossfire, hostname]
 ---
 Read [ExpressLRS Vs Crossfire: Which to Choose for FPV Drones?](https://dronesumo.com/expresslrs-vs-crossfire-which-for-fpv-drones/#:~:text=Latency%3A%20Both%20systems%20offer%20low,smoother%20and%20more%20responsive%20control.)
 

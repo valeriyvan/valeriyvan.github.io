@@ -2,7 +2,7 @@
 layout: post
 title:  "Read What’s new in Swift 5.0; Watched String Interpolation in Swift 5 (Part 2)"
 date:   2019-03-28 19:28:00 +0200
-categories: TIL, Swift, Swift 5
+categories: [Swift, "Swift 5"]
 ---
 Watched [String Interpolation in Swift 5 (Part 2)](https://talk.objc.io/episodes/S01E144-string-interpolation-in-swift-5-part-2).
 

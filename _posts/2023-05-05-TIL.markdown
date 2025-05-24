@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched How to create a Generic Networking Layer in iOS apps"
 date:   2023-05-05 15:05:00 +0200
-categories: TIL, Architecture, iOS, Networking
+categories: [Architecture, iOS, Networking]
 ---
 Watched [How to create a Generic Networking Layer in iOS apps - iOS Dev Live Mentoring](https://www.youtube.com/watch?v=M5SKjkfRAzc).
 

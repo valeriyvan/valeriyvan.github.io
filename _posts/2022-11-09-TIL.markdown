@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL Compiler Explorer. Again"
 date:   2022-11-09 20:00:00 +0200
-categories: TIL, Compilation, SIMD
+categories: [Compilation, SIMD]
 ---
 Played with [Compiler Explorer](https://godbolt.org) while thinking of adding some SIMD optimizations to Swift. Read [How it works: Compiler Explorer](https://xania.org/201609/how-compiler-explorer-runs-on-amazon). Really cool stuff. Surprizing it works on single Amazon EC2 instance most of the time.

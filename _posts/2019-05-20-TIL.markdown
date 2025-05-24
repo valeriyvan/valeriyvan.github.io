@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL time CLI; Firstly used NS_SWIFT_NAME"
 date:   2019-05-20 19:20:00 +0200
-categories: TIL, time, CLI, NS_SWIFT_NAME
+categories: [time, CLI, NS_SWIFT_NAME]
 ---
 ```swift
 let hourlyRate: Double = 19.5

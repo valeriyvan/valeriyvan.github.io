@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL the Lenna has own website"
 date:   2024-05-21 22:00:00 +0200
-categories: TIL, Lenna
+categories: [Lenna]
 ---
 Read [How to use Blackbox in Betaflight FPV Drones](https://oscarliang.com/blackbox/).
 

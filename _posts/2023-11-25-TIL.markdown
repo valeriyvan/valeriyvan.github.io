@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Ziegler Nichols Method for tuning PID controllers"
 date:   2023-11-25 19:36:00 +0200
-categories: TIL, Betaflight, Ziegler Nichols Method, PID controller
+categories: [Betaflight, "Ziegler Nichols Method", "PID controller"]
 ---
 Read [Demystifying FPV Drone Rates: Betaflight & Actual Rates Explained](https://oscarliang.com/rates/).
 

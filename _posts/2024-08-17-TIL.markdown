@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to make XCFramework from swift package"
 date:   2024-08-17 09:28:00 +0200
-categories: TIL, Xcode, SPM, XCFramework
+categories: [Xcode, SPM, XCFramework]
 ---
 Read [Creating XCFramework from SPM package (russian)](https://habr.com/ru/companies/psb/articles/836566/).
 

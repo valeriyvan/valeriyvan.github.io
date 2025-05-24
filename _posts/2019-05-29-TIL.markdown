@@ -2,7 +2,7 @@
 layout: post
 title:  "Read `UIAppearance` seems not to be that simple; Read Architecture of networking core in iOS app"
 date:   2019-05-29 19:29:00 +0200
-categories: TIL, UIAppearance, Architecture, UIKonf, Future, Promise
+categories: [UIAppearance, Architecture, UIKonf, Future, Promise]
 ---
 Read [`UIAppearance` seems not to be that simple](https://habr.com/ru/post/453126/). `UI_APPEARANCE_SELECTOR` - I have never ever met such a beast.
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL `script`"
 date:   2023-08-19 19:22:00 +0200
-categories: TIL, script
+categories: [script]
 ---
 TIL `script` shell command for recording termial session.
 

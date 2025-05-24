@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Protocol Conformance Isolation Mismatch"
 date:   2024-08-15 22:10:00 +0200
-categories: TIL, INAV, Swift, Sendable, Protocol Conformance Isolation Mismatch, XCTMemoryMetric
+categories: [INAV, Swift, Sendable, "Protocol Conformance Isolation Mismatch", XCTMemoryMetric]
 ---
 [(1/7) INAV for Beginners 2022: What is it and what can it do?](https://www.youtube.com/watch?v=WkBuqtc-Qe8&list=PLYsWjANuAm4rGA4yqHHlYlFuOrkKwBY0G&index=1), [(2/7) INAV for Beginners 2022: Downloading, flashing and basic radio setup](https://www.youtube.com/watch?v=uWBMi839lHA&list=PLYsWjANuAm4rGA4yqHHlYlFuOrkKwBY0G&index=2), [(3/7) INAV for Beginners 2022: Completing the basic setup and adding GPS](https://www.youtube.com/watch?v=2XWR6WW_Jps&list=PLYsWjANuAm4rGA4yqHHlYlFuOrkKwBY0G&index=3).
 

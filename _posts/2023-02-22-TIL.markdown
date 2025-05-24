@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL copyleft-next"
 date:   2023-02-22 19:44:00 +0200
-categories: TIL, copyleft-next license, technical interview
+categories: ["copyleft-next license", "technical interview"]
 ---
 In news about next Linux release read Linux started to accept code licensed under [copyleft-next license](https://github.com/copyleft-next/copyleft-next). Never heard of it before.
 

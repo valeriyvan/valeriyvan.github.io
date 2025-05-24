@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL how to detect taps in SwiftUI"
 date:   2021-04-12 22:00:00 +0200
-categories: TIL
+categories: []
 ---
 Watched objc.io Swift Talk [SwiftUI Path Builder: Detecting Taps](https://talk.objc.io/episodes/S01E244-swiftui-path-builder-detecting-taps).

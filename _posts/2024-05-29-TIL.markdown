@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL there're bitmap fonts in textual human readable format"
 date:   2024-05-29 22:02:00 +0200
-categories: TIL, Font, bitmap
+categories: [Font, bitmap]
 ---
 TIL there're bitmap fonts in textual human readable format: [Bitmap_fonts](https://en.wikipedia.org/wiki/Computer_font#Bitmap_fonts).

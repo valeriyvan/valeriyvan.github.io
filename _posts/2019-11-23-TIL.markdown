@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Changes in the `ViewController` Presentation Style on iOS 13"
 date:   2019-11-23 19:23:00 +0200
-categories: TIL, iOS 13
+categories: ["iOS 13"]
 ---
 Read [iOS 13: Changes in the `ViewController` Presentation Style](https://zonneveld.dev/ios-13-viewcontroller-presentation-style-modalpresentationstyle/). Condensed. Very short. But not full. What learned?
 

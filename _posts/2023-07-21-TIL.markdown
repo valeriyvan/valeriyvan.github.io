@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL argparse Python module"
 date:   2023-07-21 18:30:00 +0200
-categories: TIL, Python, argparse,
+categories: [Python, argparse, ]
 ---
 TIL [argparse Python module](https://docs.python.org/3/library/argparse.html).

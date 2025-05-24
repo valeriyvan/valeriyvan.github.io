@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL in Swift `unsafeBitCast(_:to:)`, `type(of:)`, `withoutActuallyEscaping(_:do:)`, 'OpaquePointer', `MemoryLayout`, `offset(of:)`, `AutoreleasingUnsafeMutablePointer`"
 date:   2020-01-24 19:24:00 +0200
-categories: TIL, Swift, C, unsafeBitCast, withoutActuallyEscaping, OpaquePointer, MemoryLayout, offset, AutoreleasingUnsafeMutablePointer
+categories: [Swift, C, unsafeBitCast, withoutActuallyEscaping, OpaquePointer, MemoryLayout, offset, AutoreleasingUnsafeMutablePointer]
 ---
 While exploring pointer stuff in Swift read about [`unsafeBitCast(_:to:)`](https://developer.apple.com/documentation/swift/1641250-unsafebitcast) but acually I read declarations inside Xcode. As always it's extremely interesting to read in Swift source code in Xcode because there you always see real declarations along with related stuff.
 

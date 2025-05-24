@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Linker script"
 date:   2023-11-12 19:10:00 +0200
-categories: TIL, Linker script, GPS Fix
+categories: ["Linker script", "GPS Fix"]
 ---
 While exploring [betaflight](https://github.com/betaflight/betaflight/tree/master/src/link) I learned there's a programming languge for linker - [linker script](https://ftp.gnu.org/old-gnu/Manuals/ld-2.9.1/html_chapter/ld_3.html#SEC6).
 

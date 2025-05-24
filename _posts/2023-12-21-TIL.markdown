@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL what does ** (double star/asterisk) and * (star/asterisk) for parameters in Python"
 date:   2023-12-21 19:13:00 +0200
-categories: TIL, Python
+categories: [Python]
 ---
 TIL [what does ** (double star/asterisk) and * (star/asterisk) for parameters in Python](https://stackoverflow.com/q/2921847/942513).
 

@@ -2,6 +2,6 @@
 layout: post
 title:  "Read The Advanced Guide to UserDefaults in Swift"
 date:   2019-12-15 19:15:00 +0200
-categories: TIL, Swift, UserDefaults
+categories: [Swift, UserDefaults]
 ---
 Read [The Advanced Guide to UserDefaults in Swift](https://www.vadimbulavin.com/advanced-guide-to-userdefaults-in-swift/). Side learning: I didn't know `__PRETTY_FUNCTION__` exists.

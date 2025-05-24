@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL VTracer"
 date:   2024-12-07 21:05:00 +0200
-categories: TIL, VTracer, autotrace, vectorize
+categories: [VTracer, autotrace, vectorize]
 ---
 TIL [VTracer](https://github.com/visioncortex/vtracer), an open source software to convert raster images (like jpg & png) into vector graphics (svg). It can vectorize graphics and photographs and trace the curves to output compact vector files.
 

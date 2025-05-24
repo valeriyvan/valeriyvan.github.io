@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL FIGlet"
 date:   2024-08-22 21:38:00 +0200
-categories: TIL, FIGlet, ASCII
+categories: [FIGlet, ASCII]
 ---
 TIL [FIGlet](http://www.figlet.org), a program for making large letters out of ordinary text:
 

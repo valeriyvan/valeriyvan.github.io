@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL about Swift structured concurrency"
 date:   2024-07-08 21:38:00 +0200
-categories: TIL, Swift, Swift structured concurrency, async/await
+categories: [Swift, "Swift structured concurrency", async/await]
 ---
 TIL `swift package clean` command for deleting build artifacts and `swift package purge-cache` for purging the global repository cache.
 

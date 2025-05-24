@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL shortcut could include steps like entering free text"
 date:   2024-01-22 19:15:00 +0200
-categories: TIL, Shortcut
+categories: [Shortcut]
 ---
 TIL shortcut could include steps like entering free text, e.g. how in this [shortcut for generating QR for WiFi](https://www.icloud.com/shortcuts/71ecdf91ccef4036a738d8cafa83406e)
 

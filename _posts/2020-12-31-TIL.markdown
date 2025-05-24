@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL details about inlining in Swift"
 date:   2020-12-31 19:20:00 +0200
-categories: TIL, Swift, inlining
+categories: [Swift, inlining]
 ---
 Read [Understanding `@inlinable` in Swift](https://medium.com/better-programming/understanding-inlinable-in-swift-6987a05d03cb). Then read two years older of the same author [The Forbidden `@inline` Attribute in Swift](https://swiftrocks.com/the-forbidden-inline-attribute-in-swift.html). Read [Cross-module inlining and specialization](https://github.com/apple/swift-evolution/blob/master/proposals/0193-cross-module-inlining-and-specialization.md). Read [When should both `@inlinable` and `@inline(__always)` be used?](https://forums.swift.org/t/when-should-both-inlinable-and-inline-always-be-used/37375). The last is extremely interesting.

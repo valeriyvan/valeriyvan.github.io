@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL How to use SwiftUI View as UIView"
 date:   2025-02-18 21:41:00 +0200
-categories: TIL, SwiftUI
+categories: [SwiftUI]
 ---
 TIL [How to use SwiftUI View as UIView](https://sarunw.com/posts/swiftui-view-as-uiview/).
 

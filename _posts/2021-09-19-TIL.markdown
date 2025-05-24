@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL about __auto_type in Objective-C"
 date:   2021-09-19 19:22:00 +0200
-categories: TIL
+categories: []
 ---
 ```Objective-C
 __auto_type layersOnlySet = [NSSet setWithArray:layersOnly];

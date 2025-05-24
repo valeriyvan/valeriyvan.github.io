@@ -2,7 +2,7 @@
 layout: post
 title:  "Read FPV Drone Rates Explained: Betaflight & Actual Rates"
 date:   2024-07-22 21:31:00 +0200
-categories: TIL, PID, FPV
+categories: [PID, FPV]
 ---
 Played with [pid-demo/](https://chev.me/pid-demo/).
 

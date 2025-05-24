@@ -2,6 +2,6 @@
 layout: post
 title:  "Bookmarking The Unofficial Guide to xcconfig files"
 date:   2024-09-05 22:31:00 +0200
-categories: TIL, Xcode, xcconfig
+categories: [Xcode, xcconfig]
 ---
 Bookmarking [The Unofficial Guide to xcconfig files](https://pewpewthespells.com/blog/xcconfig_guide.html).

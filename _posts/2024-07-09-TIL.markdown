@@ -2,6 +2,6 @@
 layout: post
 title:  "Read Concurrency-safe global variables to prevent data races"
 date:   2024-07-09 21:50:00 +0200
-categories: TIL, Swift
+categories: [Swift]
 ---
 Read [Concurrency-safe global variables to prevent data races](https://www.avanderlee.com/concurrency/concurrency-safe-global-variables-to-prevent-data-races/).

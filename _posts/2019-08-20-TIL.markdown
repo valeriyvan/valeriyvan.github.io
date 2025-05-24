@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Presenting Coordinators; `reduce` in Swift along with `reduce(_:_:)` has version `reduce(into:_:)`"
 date:   2019-08-20 19:20:00 +0200
-categories: TIL, Swift, Coordinator pattern, reduce, Swift meetup question
+categories: [Swift, "Coordinator pattern", reduce, "Swift meetup question"]
 ---
 Watched talk from NSSpain [Presenting Coordinators by Soroush Khanlou](https://vimeo.com/144116310).
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched a bunch of Tips and Tricks in Cocoacast"
 date:   2020-09-12 19:25:00 +0200
-categories: TIL, Xcode, Build Configurations
+categories: [Xcode, "Build Configurations"]
 ---
 Watched Building Reactive Applications With Combine [What Is Reactive Programming](https://cocoacasts.com/building-reacting-applications-with-combine-what-is-reactive-programming), then [Combine First-Class Functions and Function Types](https://cocoacasts.com/building-reacting-applications-with-combine-first-class-functions-and-function-types) and [Pure Functions and Higher-Order Functions](https://cocoacasts.com/building-reacting-applications-with-combine-pure-functions-and-higher-order-functions). Nothing new in either.
 

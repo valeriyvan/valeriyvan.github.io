@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL swift-sh - a tool which allows to write CLI in Swift with dependencies; Watched Swift Talk #157 Asynchronous Networking with SwiftUI"
 date:   2019-06-25 19:25:00 +0200
-categories: TIL, swift-sh, CLI, WWDC, Xcode, Parser, SwiftUI, Networking
+categories: [swift-sh, CLI, WWDC, Xcode, Parser, SwiftUI, Networking]
 ---
 Jumped to [swift-sh](https://github.com/mxcl/swift-sh) a tool which allows to write CLI in Swift with dependencies.
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL where Xcode stores derived data"
 date:   2023-07-28 18:56:00 +0200
-categories: TIL, Xcode
+categories: [Xcode]
 ---
 Bookmarking [SwiftDraw](https://github.com/swhitty/SwiftDraw/). It's candidate to be used to convert characters into vector to build vector font to be used to build new feature for [swift-geometrize](https://github.com/valeriyvan/swift-geometrize)
 

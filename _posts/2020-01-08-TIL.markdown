@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL something new in C++; how create a Command-Line Tool Using Swift Package Manager"
 date:   2020-01-08 19:44:00 +0200
-categories: TIL, Swift, C++, Command-Line, SwiftPM, Number plates detection
+categories: [Swift, C++, Command-Line, SwiftPM, "Number plates detection"]
 ---
 Read [Intriguing C++20 capabilities for embeded developers](https://habr.com/ru/post/536326/).
 

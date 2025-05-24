@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL about typed throws in Swift"
 date:   2024-07-03 22:05:00 +0200
-categories: TIL, git, worktree, Swift, exeption
+categories: [git, worktree, Swift, exeption]
 ---
 TIL `git checkout -`. The minus (-) at the end of the command tells `git` to switch to the previous branch you were on before the current one. It's a way to quickly toggle back and forth between two branches without needing to type out the full branch names.
 

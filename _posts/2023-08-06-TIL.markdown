@@ -2,6 +2,6 @@
 layout: post
 title:  "Watched Learn To Test Your Flight Controller With A Multimeter"
 date:   2023-08-06 18:47:00 +0200
-categories: TIL, Flight Controller
+categories: ["Flight Controller"]
 ---
 Watched [Learn To Test Your Flight Controller With A Multimeter! Don't Throw It Away!](https://www.youtube.com/watch?v=s6crOUQK-UQ).

@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL Leaf - templating language with Swift-inspired syntax"
 date:   2025-02-08 17:03:00 +0200
-categories: TIL, Swift, Vapor, Leaf
+categories: [Swift, Vapor, Leaf]
 ---
 TIL [Leaf - templating language with Swift-inspired syntax](https://docs.vapor.codes/leaf/getting-started/).

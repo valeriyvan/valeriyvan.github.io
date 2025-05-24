@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL `rm -rf $(brew --cache)` could free up 7GB om my machine"
 date:   2023-01-17 19:19:00 +0200
-categories: TIL
+categories: []
 ---
 TIL how could I free up 7GB of memory from caches of Homebrew. It's `rm -rf $(brew --cache)`. It's from `man brew`.

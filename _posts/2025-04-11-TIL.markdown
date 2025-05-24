@@ -2,6 +2,6 @@
 layout: post
 title:  "Came accross error Docker.app was not opened because it contains malware"
 date:   2025-04-11 21:37:00 +0200
-categories: TIL
+categories: []
 ---
 Came accross error Docker.app was not opened because it contains malware. This action did not harm your Mac. [Completely reinstalling docker via brew worked for me](https://github.com/docker/for-mac/issues/7520#issuecomment-2611706565).

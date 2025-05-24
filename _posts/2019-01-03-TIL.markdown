@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL `git reflog`"
 date:   2019-01-03 19:03:00 +0200
-categories: TIL, git reflog
+categories: ["git reflog"]
 ---
 Came across post about git basics [Just enough Git to be (less) dangerous](https://eev.ee/blog/2015/04/24/just-enough-git-to-be-less-dangerous/) and decided to keep a bookmark to share when someone asks stupid basic question about git. Wait. I have learnt `git reflog` from this post! And set `conflictstyle = diff3` in `[merge]` section of my `.gitconfig`. And colors set as well. Funny hack of storing empty file `.keep` to force git store empty folder.
 

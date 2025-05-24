@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL NavigationStack"
 date:   2025-01-09 22:09:00 +0200
-categories: TIL, SwiftUI, Navigator Pattern, NavigationStack, Betaflight, Pinio, PinioBox
+categories: [SwiftUI, "Navigator Pattern", NavigationStack, Betaflight, Pinio, PinioBox]
 ---
 TIL [Programmatic navigation in SwiftUI with NavigationPath and navigationDestination](https://www.donnywals.com/programmatic-navigation-in-swiftui-with-navigationpath-and-navigationdestination/).
 

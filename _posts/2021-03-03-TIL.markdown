@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to print git remote branches sorted by last commit date"
 date:   2021-03-03 19:22:00 +0200
-categories: TIL, git
+categories: [git]
 ---
 One-liner for listing remote git branches sorted by the last commit date for each branch ([gist with source](https://gist.github.com/jasonrudolph/1810768)):
 

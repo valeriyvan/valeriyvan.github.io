@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL MoCap positioning system"
 date:   2023-12-12 19:41:00 +0200
-categories: TIL, MoCap positioning, Architectural decision
+categories: ["MoCap positioning", "Architectural decision"]
 ---
 TIL what [MoCap positioning system](https://www.bitcraze.io/documentation/system/positioning/mocap-positioning/) is - it's Motion Capture positioning. There's also [Loco positioning system](https://www.bitcraze.io/documentation/system/positioning/loco-positioning-system/) - a local positioning system.
 

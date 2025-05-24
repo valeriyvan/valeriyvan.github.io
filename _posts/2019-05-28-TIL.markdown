@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL XOR linked list and Unrolled linked lists"
 date:   2019-05-28 19:28:00 +0200
-categories: TIL, Linked list, XOR linked list, Unrolled linked lists
+categories: ["Linked list", "XOR linked list", "Unrolled linked lists"]
 ---
 Read [XOR linked list](https://en.wikipedia.org/wiki/XOR_linked_list). Nice trick. But not practical. On modern CPU with cache unrolled lists are faster.
 

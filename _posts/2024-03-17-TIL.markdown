@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched Optimising a VTOL and Configuring GPS Rescue (Return to Home, Failsafe) on Betaflight 4"
 date:   2024-03-17 21:39:00 +0200
-categories: TIL, VTOL, GPS Rescue, Failsafe, Betaflight 4
+categories: [VTOL, "GPS Rescue", Failsafe, "Betaflight 4"]
 ---
 Watched [Optimising a VTOL](https://www.youtube.com/watch?v=XPXN0QejqM0).
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL `std::log2p1()` calculates binary logarithm and adds 1 which is number of bit needed for storing argument"
 date:   2020-01-22 19:22:00 +0200
-categories: TIL, log2p1, bitwidth, popcount, Hamming weight
+categories: [log2p1, bitwidth, popcount, "Hamming weight"]
 ---
 Post [Naming Things: Implementer vs. User Names](https://www.foonathan.net/2019/11/implementer-vs-user-names/) raises interesting question about choosing convinient name for functions.
 

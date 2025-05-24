@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL that Apple's documentation for BLAS has bugs"
 date:   2020-01-28 19:28:00 +0200
-categories: TIL, C, matrices multiplication, iOS, Ubuntu, BLAS, CBLAS, vDSP, bug
+categories: [C, "matrices multiplication", iOS, Ubuntu, BLAS, CBLAS, vDSP, bug]
 ---
 Today I faced a problem of making portable C code using matrices multiplication. Target - use same C code on preprocessing before Neural net on iOS and on training in Python on Ubuntu. On iOS vDSP was used for matrices multiplication which is not available on Ubuntu. But iOS have [BLAS](https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms) port where matrix operations also available. BLAS exists nearly on every platform. Here I faced a problem with making [`cblas_dgemm`](https://developer.apple.com/documentation/accelerate/1513282-cblas_dgemm?language=objc) working properly. Assert inside fired saying that parameter 9 was incorrect on entry to `cblas_dgemm`. But call was so simple and documentation so straightforward... An hour of googling have shown that Apple documentation was wrong. Apple documentation clearly says:
 

@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL how to extract data from documents using Vision framework"
 date:   2021-07-10 20:06:00 +0200
-categories: TIL
+categories: []
 ---
 Watched [WWDC 21 session video Extract document data using Vision](https://developer.apple.com/videos/play/wwdc2021/10041/).

@@ -2,7 +2,7 @@
 layout: post
 title:  "Read “The Pragmatic Programmer” Is Essential Reading for Software Developers and Swift CoreNFC as quick as possible"
 date:   2019-01-17 19:17:00 +0200
-categories: CoreNFC, iOS
+categories: [CoreNFC, iOS]
 ---
 Went through blog post [“The Pragmatic Programmer” Is Essential Reading for Software Developers](https://blog.usejournal.com/the-pragmatic-programmer-is-essential-reading-for-software-developers-443940b8ef9f) which reminded me I have reread this book again.
 

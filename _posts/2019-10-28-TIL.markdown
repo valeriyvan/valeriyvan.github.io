@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL `stride(from:, to:, by:)` function returns `StrideTo<Element>`"
 date:   2019-10-28 19:28:00 +0200
-categories: TIL, Swift, Strideable
+categories: [Swift, Strideable]
 ---
 For the first time looked into type returned by function `stride(from:, to:, by:)`. It returns a struct `StrideTo<Element>` which conforms to `Sequence` protocol. Here how declaration begins:
 

@@ -2,6 +2,6 @@
 layout: post
 title:  "Ran through SwiftUI tutorial Drawing and animation. Animating views and transitions"
 date:   2024-02-04 19:20:00 +0200
-categories: TIL, SwiftUI
+categories: [SwiftUI]
 ---
 Ran through SwiftUI tutorial [Drawing and animation. Animating views and transitions](https://developer.apple.com/tutorials/swiftui/animating-views-and-transitions).

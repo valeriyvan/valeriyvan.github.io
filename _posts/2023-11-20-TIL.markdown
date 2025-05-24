@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL about dbus"
 date:   2023-11-20 19:48:00 +0200
-categories: TIL, dbus, UNIX_FD, NSAppClipRequestEphemeralUserNotification
+categories: [dbus, UNIX_FD, NSAppClipRequestEphemeralUserNotification]
 ---
 Browsed [dbus specification](https://dbus.freedesktop.org/doc/dbus-specification.html).
 

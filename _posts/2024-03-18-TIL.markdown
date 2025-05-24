@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Debugging Improvements in Swift 5.9"
 date:   2024-03-18 19:41:00 +0200
-categories: TIL, Swift
+categories: [Swift]
 ---
 Udemy course [Introduction to Quadrotors and Control Theory](https://www.udemy.com/course/quadrotors/).
 

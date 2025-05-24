@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL SSH tunnels; For exercise implemented singly linked lists in Swift and tortoise and hare algorithm (aka Floyd's algorithm) for detecting loops in lists algorithm"
 date:   2019-01-09 19:09:00 +0200
-categories: TIL, SSH, tunnels, Tortoise and hare algorithm , Floyd's algorithm, Liked list, Swift
+categories: [SSH, tunnels, "Tortoise and hare algorithm", "Floyd's algorithm", "Liked list", Swift]
 ---
 Implemented SinglyLinkedList in Swift. Just to train implementing [tortoise and hare algorithm (aka Floyd's algorithm)](https://codingfreak.blogspot.com/2012/09/detecting-loop-in-singly-linked-list_22.html) for looking loops in lists. It was good exercise. List it is not something you work often in Swift.
 

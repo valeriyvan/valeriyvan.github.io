@@ -2,7 +2,7 @@
 layout: post
 title:  "Read John Sundell's Different flavors of type erasure in Swift and Avoiding race conditions in Swift"
 date:   2019-04-02 19:02:00 +0200
-categories: TIL, Swift, Type erasure, Race conditions
+categories: [Swift, "Type erasure", "Race conditions"]
 ---
 Read [Different flavors of type erasure in Swift](https://www.swiftbysundell.com/posts/different-flavors-of-type-erasure-in-swift) by John Sundell. It refined my understanding of Swift protocols having `Self` or associated type requirements and what makes Swift protocols different from Objective-C ones.
 

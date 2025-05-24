@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Hindley–Milner type system"
 date:   2024-12-17 21:20:00 +0200
-categories: TIL, Hindley–Milner type system, Swift Runtime
+categories: ["Hindley–Milner type system", "Swift Runtime"]
 ---
 TIL [Hindley–Milner type system](https://en.wikipedia.org/wiki/Hindley–Milner_type_system).
 

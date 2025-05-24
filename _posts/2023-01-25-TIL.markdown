@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL NULL is disfavored in C++ in sake of nullptr"
 date:   2023-01-25 19:02:00 +0200
-categories: TIL, C++, nullptr
+categories: [C++, nullptr]
 ---
 TIL [`NULL` is disfavored in C++ in sake of `nullptr`](https://www.geeksforgeeks.org/understanding-nullptr-c/).

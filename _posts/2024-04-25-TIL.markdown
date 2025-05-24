@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL SSH deployment with GitHub actions"
 date:   2024-04-25 22:04:00 +0200
-categories: TIL, GitHub, SSH, Shapr3D, Herelink
+categories: [GitHub, SSH, Shapr3D, Herelink]
 ---
 Read [SSH deployment with GitHub actions](https://stanleymasinde.medium.com/ssh-deployment-with-github-actions-f2274269d9f3). Exact my case:
 

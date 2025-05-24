@@ -2,6 +2,6 @@
 layout: post
 title:  "Read AI-deck Documentation and Examples Update"
 date:   2023-04-18 19:18:00 +0200
-categories: TIL, Bitcraze
+categories: [Bitcraze]
 ---
 Read [AI-deck Documentation and Examples Update](https://www.bitcraze.io/2023/03/ai-deck-documentation-and-examples-update).

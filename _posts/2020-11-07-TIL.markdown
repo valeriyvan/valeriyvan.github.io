@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL `FileManager.default.displayName(atPath: url.path)` for displaying name of file/folder to the user"
 date:   2020-11-07 18:20:00 +0200
-categories: TIL, FileManager
+categories: [FileManager]
 ---
 From [NSHipster](https://nshipster.com/filemanager/) learned:
 

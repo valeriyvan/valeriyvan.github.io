@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Where the &$!#% is Localizable.strings?!?; Read Unit testing retain cycles; Read Clustarisation: algorithms k-means and c-means"
 date:   2018-11-27 19:27:00 +0200
-categories: TIL, Localization, Clustarisation, k-means, c-means, bezier curves
+categories: [Localization, Clustarisation, k-means, c-means, "bezier curves"]
 ---
 Read [Where the &$!#% is Localizable.strings?!?](https://martiancraft.com/blog/2018/11/where-is-localizable-string/).
 

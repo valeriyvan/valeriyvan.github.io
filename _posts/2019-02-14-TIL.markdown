@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL pipeline Yndex is using for turning satellite images into maps"
 date:   2019-02-14 19:14:00 +0200
-categories: TIL, Computer vision, Yandex
+categories: ["Computer vision", Yandex]
 ---
 Step by step guide of building machine learning microservice taking image in POST HTTP request and returning JSON [Scala + MXNet = Microservice with neural net in prod (Russian)](https://habr.com/ru/company/mailru/blog/439226/). Dockerised. TODO: write such guide for Swift.
 

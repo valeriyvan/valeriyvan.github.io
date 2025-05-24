@@ -2,7 +2,7 @@
 layout: post
 title:  "(opinionated) iOS Interview Questions"
 date:   2022-12-14 18:13:00 +0200
-categories: TIL
+categories: []
 ---
 Read how to embed Python interpreter in iOS or macOS app and successfully publish it to the AppStore. Don't know why I need this.
 

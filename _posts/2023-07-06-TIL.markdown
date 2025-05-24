@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to mount on a mac a folder on remote machine using `sshfs`"
 date:   2023-07-06 18:59:00 +0200
-categories: TIL, sshfs, FUSE, macFUSE, fuseFS, Linux, ext2, ext4, ext
+categories: [sshfs, FUSE, macFUSE, fuseFS, Linux, ext2, ext4, ext]
 ---
 TIL how to mount on a mac a folder from remote machine:
 

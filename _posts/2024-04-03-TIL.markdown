@@ -2,6 +2,6 @@
 layout: post
 title:  "Bookmarking Ray Tracing in One Weekend"
 date:   2024-04-03 21:32:00 +0200
-categories: TIL, Ray Tracing
+categories: ["Ray Tracing"]
 ---
 Bookmarking [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html).

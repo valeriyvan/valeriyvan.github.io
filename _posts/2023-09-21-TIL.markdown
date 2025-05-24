@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL a lot about PID controller"
 date:   2023-09-21 19:15:00 +0200
-categories: TIL, PID
+categories: [PID]
 ---
 Read [Phenomenological Introduction to PID controllers](https://vanhunteradams.com/PID/PID.html).
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL to use tinkercad and have drawn and printed the firsth thing"
 date:   2024-02-29 22:30:00 +0200
-categories: TIL, tinkercad, 3d, stl, ffmpeg, gyroflow
+categories: [tinkercad, 3d, stl, ffmpeg, gyroflow]
 ---
 TIL [tinkercad](https://www.tinkercad.com/). The first part drawn and printed:
 

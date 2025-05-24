@@ -2,7 +2,7 @@
 layout: post
 title:  "Passed over Swift evolution `String` Gaps and Missing APIs"
 date:   2019-04-09 19:09:00 +0200
-categories: TIL, Swift, API, String, Substring, ArraySlice
+categories: [Swift, API, String, Substring, ArraySlice]
 ---
 Read about already accepted additions to `String` API in Swift [`String` Gaps and Missing APIs](https://github.com/apple/swift-evolution/blob/master/proposals/0248-string-gaps-missing-apis.md). Will appear in Swift 5.1.
 

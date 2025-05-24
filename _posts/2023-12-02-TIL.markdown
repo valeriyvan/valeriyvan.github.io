@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched some intro lectures on topic Control systems engineering"
 date:   2023-12-02 19:44:00 +0200
-categories: TIL, Control systems engineering
+categories: ["Control systems engineering"]
 ---
 Cool [playlist on control systems engineering](https://www.youtube.com/playlist?list=PLA47nUxs3Tf6qBwKEB9IQpn9iL3ed3WhJ).
 

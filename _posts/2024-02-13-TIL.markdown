@@ -2,7 +2,7 @@
 layout: post
 title:  "Read paper A Systematic Approach to Building High Performance Software-Based CRC Generators"
 date:   2024-02-13 19:51:00 +0200
-categories: TIL, PNG, Swift, CRC, CRC32, slicing-by-8
+categories: [PNG, Swift, CRC, CRC32, slicing-by-8]
 ---
 Read [PNG (Portable Network Graphics)](https://www.w3.org/TR/png/).
 

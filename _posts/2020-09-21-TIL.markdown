@@ -2,6 +2,6 @@
 layout: post
 title:  "Watched cocoacast episode Mastering MVVM With Swift"
 date:   2020-09-21 16:20:00 +0200
-categories: TIL, Swift, MVVM pattern
+categories: [Swift, "MVVM pattern"]
 ---
 Watched several episodes of [Mastering MVVM With Swift](https://cocoacasts.com/rinse-and-repeat).

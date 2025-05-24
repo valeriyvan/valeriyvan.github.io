@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL swift-code-metrics"
 date:   2019-02-19 19:19:00 +0200
-categories: TIL, Swift, swift-code-metrics
+categories: [Swift, swift-code-metrics]
 ---
 Read [Swift code metrics](https://medium.com/@matsoftware/swift-code-metrics-ea9ebf85416f) about open source Python tool [available on GitHub](https://github.com/matsoftware/swift-code-metrics). It really has a lot of interesting metrics! But why Python and not Swift? Ok, would be nice to port it to Swift.

@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Customizing the build schemes for a project"
 date:   2024-09-11 21:21:00 +0200
-categories: TIL, Swift
+categories: [Swift]
 ---
 Read [Smartly organize API/Endpoints in Swift](https://medium.com/@hdmdhr/smartly-organize-api-endpoints-in-swift-433d7386d883).
 

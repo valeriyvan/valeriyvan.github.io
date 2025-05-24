@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL nuances how `UserDefaults` works in Screen Saver on macOS"
 date:   2018-11-19 19:19:00 +0200
-categories: TIL, Swift, UserDefaults, ScreenSaver
+categories: [Swift, UserDefaults, ScreenSaver]
 ---
 While working on PRs to [Aerial](https://github.com/JohnCoates/Aerial) spent some time exploring why `UserDefaults` has to call `synchronize` (contrary to what is stated [Developer documentation](https://developer.apple.com/documentation/foundation/userdefaults/1414005-synchronize)) before closing [ScreenSaverView](https://developer.apple.com/documentation/screensaver/screensaverview). Hope to write a post about this.

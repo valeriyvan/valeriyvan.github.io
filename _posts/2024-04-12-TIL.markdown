@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL about Swift evolution proposal Module Aliasing For Disambiguation"
 date:   2024-04-12 07:48:00 +0200
-categories: TIL, Lockdown Mode, Swift
+categories: ["Lockdown Mode", Swift]
 ---
 TIL about [Lockdown Mode](https://support.apple.com/en-gb/105120) on iOS and macOS.
 

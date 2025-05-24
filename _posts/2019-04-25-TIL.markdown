@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL `partition` function of `Collection`; TIL `__consumable` in Swift"
 date:   2019-04-25 19:25:00 +0200
-categories: TIL, Swift, Collection, partition, __consumable, 
+categories: [Swift, Collection, partition, __consumable, ]
 ---
 Writing answer to comment on this [PR](https://github.com/tensorflow/swift-models/pull/123) looked for where `first` of `Array` is declared in Swift. Found `partition` function. I should use it!
 

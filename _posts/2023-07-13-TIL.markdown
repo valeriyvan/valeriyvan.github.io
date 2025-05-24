@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL PWM (Pulse Width Modulation) works to control servos; TIL how to takeoff and move drone with MAVLink"
 date:   2023-07-13 19:33:00 +0200
-categories: TIL, PWM, MAVLink, ExpressLRS
+categories: [PWM, MAVLink, ExpressLRS]
 ---
 Read how [PWM (Pulse Width Modulation) works to control servos](https://www.digikey.in/en/articles/servo-motors-and-control-with-arduino-platforms#:~:text=Servo%20motor%20control%20of%20the,rotate%20the%20shaft%20counter%20clockwise.). Whole post is interesting. It explains topics like "How to select a servo motor for your application".
 

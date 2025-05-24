@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL over half of the internet is now AI generated text"
 date:   2025-01-04 21:49:00 +0200
-categories: TIL
+categories: []
 ---
 Read [I Don’t Know How To Make You Care What ChatGPT Is Quietly Doing](https://medium.com/the-generator/i-dont-know-how-to-make-you-care-what-chatgpt-is-quietly-doing-8177dfcfb486).
 

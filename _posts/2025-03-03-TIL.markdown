@@ -2,6 +2,6 @@
 layout: post
 title:  "Read Apple documentation article Choosing a Capture Device"
 date:   2025-03-03 20:03:00 +0200
-categories: TIL
+categories: []
 ---
 Read Apple documentation article [Choosing a Capture Device](https://developer.apple.com/documentation/avfoundation/choosing-a-capture-device).

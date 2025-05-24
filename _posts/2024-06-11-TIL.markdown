@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL about Zig programming language"
 date:   2024-06-11 21:20:00 +0200
-categories: TIL, Swift, Zig, WWDC
+categories: [Swift, Zig, WWDC]
 ---
 Came across following [tweet](https://x.com/DanielcHooper/status/1800267354552582257): It's weird how Apple continues to double down on Swift when even the language's creator says that the type system design is flawed: fundamentally slow and impossible to provide good error messages for. Thread refers to video [Mojo🔥: a deep dive on ownership with Chris Lattner](https://www.youtube.com/watch?v=9ag0fPMmYPQ&t=373s). Interesting part starts from 6m 13s. It mentions that Swift expression type checker is slow and error message cumbersome. Thread also mentions Zig programming language. I like how Zig positions itself: 
 

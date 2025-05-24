@@ -2,6 +2,6 @@
 layout: post
 title:  "Read Compile Swift for Raspberry Pi by Xcode"
 date:   2020-10-06 19:29:00 +0200
-categories: TIL, Swift, Raspberry Pi, Xcode
+categories: [Swift, "Raspberry Pi", Xcode]
 ---
 Bookmarking [Compile Swift for Raspberry Pi by Xcode](https://swiftreviewer.com/2018/12/25/compile-swift-for-raspberry-pi-by-xcode/).

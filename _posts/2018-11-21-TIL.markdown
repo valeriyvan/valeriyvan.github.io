@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Natasha the Robot's post Swift: When to use guard vs if; Watched Everything a Swift Dev Needs to Know About Machine Learning"
 date:   2018-11-21 19:21:00 +0200
-categories: TIL, Swift, Machine Learning
+categories: [Swift, "Machine Learning"]
 ---
 Read Natasha the Robot's post [Swift: When to use guard vs if](https://www.natashatherobot.com/swift-when-to-use-guard-vs-if/). Her approach pretty much matches mine. Reading article I have found `"Coffee Break".localized()` which I should definitely use!
 

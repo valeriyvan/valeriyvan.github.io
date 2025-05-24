@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL on-crash backtraces introduced in Swift 5.9"
 date:   2024-02-06 19:51:00 +0200
-categories: TIL, Python, Swift, Crash reports, debug
+categories: [Python, Swift, "Crash reports", debug]
 ---
 TIL [typeguard](https://github.com/agronholm/typeguard) for runtime typechecking in Python:
 

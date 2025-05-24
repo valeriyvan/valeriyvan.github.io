@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL a lot about MAVLink; TIL what is Antenna Tracking"
 date:   2023-07-12 19:43:00 +0200
-categories: TIL, MAVLink, CRC, CRC32, Antenna Tracking
+categories: [MAVLink, CRC, CRC32, "Antenna Tracking"]
 ---
 Browsed again [Guide on MAVLink](https://mavlink.io/en/guide/).
 

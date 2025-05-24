@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Telegram Bot API documentation"
 date:   2023-07-19 23:51:00 +0200
-categories: TIL, Telegram Bot API
+categories: ["Telegram Bot API"]
 ---
 Read [Marvin's Marvellous Guide to All Things (Telegram Bot) Webhook](https://core.telegram.org/bots/webhooks).
 

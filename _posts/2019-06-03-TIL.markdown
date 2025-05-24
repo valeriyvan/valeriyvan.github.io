@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched WWDC 2019 keynote; Brush up my understanding of Fast Fourier transform"
 date:   2019-06-03 19:03:00 +0200
-categories: TIL, C++, Exceptions, Fast Fourier transform, WWDC
+categories: [C++, Exceptions, "Fast Fourier transform", WWDC]
 ---
 WTH this `catch(...)` is???
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL what is primary asosiated type in Swift"
 date:   2024-08-23 11:51:00 +0200
-categories: TIL, Swift, Type erasure, Primary asosiated type
+categories: [Swift, "Type erasure", "Primary asosiated type"]
 ---
 Read [What is type erasure in Swift? An explanation with code samples](https://www.donnywals.com/understanding-type-erasure-in-swift/).
 

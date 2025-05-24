@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Webber, SwifWeb, swiftlang.xyz; Dug in swiftwasm.org"
 date:   2023-12-07 20:35:00 +0200
-categories: TIL, Swift, WebAssembly, Wasm, swiftwasm
+categories: [Swift, WebAssembly, Wasm, swiftwasm]
 ---
 Dug with [swiftwasm.org](https://swiftwasm.org). Would like to give it a try for [web page for geometrize bot](http://139.59.148.64:8080).
 

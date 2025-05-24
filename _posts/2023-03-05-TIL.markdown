@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL __cleanup__ attribute in GCC"
 date:   2023-03-05 13:20:00 +0200
-categories: TIL
+categories: []
 ---
 TIL [Using the `__cleanup__` variable attribute in GCC](https://echorand.me/site/notes/articles/c_cleanup/cleanup_attribute_c.html). `__cleanup__` allows you to define a function to be called when the variable goes out of scope (for example, before returning from a function).
 

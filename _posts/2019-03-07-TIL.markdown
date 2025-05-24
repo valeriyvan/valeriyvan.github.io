@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to work properly with ArraySlice in Swift"
 date:   2019-03-07 19:07:00 +0200
-categories: TIL, Swift, ArraySlice
+categories: [Swift, ArraySlice]
 ---
 Spent all day implementing different kinds of merge sorting in Swift. It was very useful. One of side findings is in Swift. It seems I don't understand `ArraySlice` in particular I don't understand what happens on write to `ArraySlice`:
 

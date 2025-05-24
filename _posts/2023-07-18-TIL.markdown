@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL MAVSDK is sh*t mostly capable of controlling simulated drones"
 date:   2023-07-18 017:50:00 +0200
-categories: TIL, MAVSDK, AWS Lambda
+categories: [MAVSDK, "AWS Lambda"]
 ---
 Watched [Controlling MAVLink Drones with MAVSDK](https://www.youtube.com/watch?v=VFT4P_N7wc8&t=10s).
 

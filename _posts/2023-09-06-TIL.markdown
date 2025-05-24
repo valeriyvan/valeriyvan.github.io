@@ -2,7 +2,7 @@
 layout: post
 title:  "Read great series how to build quadcopter's Flight Controller from scratch"
 date:   2023-09-06 09:23:00 +0200
-categories: TIL, Python, Flight Controller
+categories: [Python, "Flight Controller"]
 ---
 Read [Automatic labeling (russian)](https://habr.com/ru/articles/759064/). Semi-automatic I would say. The idea is to use Grounding DINO model to detect objects of interest and set bounding boxes. Grounding DINO model detects object by their text prompts. Then human in CVAT should manually set a label for each detected box. The post was inspired by [Grounding DINO: SOTA Zero-Shot Object Detection](https://blog.roboflow.com/grounding-dino-zero-shot-object-detection/) and [tutorial in format of Jupyter notebook](https://github.com/roboflow/notebooks/blob/main/notebooks/zero-shot-object-detection-with-grounding-dino.ipynb?ref=blog.roboflow.com). Provided docker image requires nvidia video card with 3GB RAM. The whole [flow in opensource on GitHub](https://github.com/DenisN03/automated-dataset-annotation). I don't see the reason why the last step, which essentially object classification, cannot be automated as well. 
 

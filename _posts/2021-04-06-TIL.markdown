@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL about GitHub easter eggs"
 date:   2021-04-06 22:00:00 +0200
-categories: TIL
+categories: []
 ---
 Read in a post [Six secret Easter Eggs in GitHub](https://dev.to/github/six-secret-easter-eggs-in-github-2j17) about a trick of adding repo with name matching the user name.

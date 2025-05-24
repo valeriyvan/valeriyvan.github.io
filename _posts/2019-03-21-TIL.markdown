@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Capture lists in Swift; Passed over Enumeration and Closures chapters in The Swift programming language guide"
 date:   2019-03-21 19:21:00 +0200
-categories: TIL, Swift, Closures, weak, strong, unowned, Reference counting
+categories: [Swift, Closures, weak, strong, unowned, "Reference counting"]
 ---
 Read post [Capture lists in Swift: what’s the difference between weak, strong, and unowned references?](https://www.hackingwithswift.com/articles/179/capture-lists-in-swift-whats-the-difference-between-weak-strong-and-unowned-references).
 

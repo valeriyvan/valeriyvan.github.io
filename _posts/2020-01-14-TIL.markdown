@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Five tips to write better todos in Xcode"
 date:   2020-01-14 19:14:00 +0200
-categories: TIL, Xcode, TODO
+categories: [Xcode, TODO]
 ---
 Bookmarking [iOS conference calendar 2020](https://www.alexcurylo.com/2020/01/04/2020-ios-conference-calendar/).
 

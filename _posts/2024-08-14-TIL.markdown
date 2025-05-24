@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL CocoaPods goes off the scene"
 date:   2024-08-14 13:09:00 +0200
-categories: TIL, CocoaPods, Sherlocked, SwiftUI, Swift, Property wrappers
+categories: [CocoaPods, Sherlocked, SwiftUI, Swift, "Property wrappers"]
 ---
 TIL CocoaPods goes off the scene: [CocoaPods Support & Maintenance Plans](https://blog.cocoapods.org/CocoaPods-Support-Plans/).
 

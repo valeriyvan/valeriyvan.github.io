@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL dynamic time warping algorithm"
 date:   2020-02-10 19:10:00 +0200
-categories: TIL, dynamic time warping, DTW
+categories: ["dynamic time warping", DTW]
 ---
 Learning [dynamic time warping](https://en.wikipedia.org/wiki/Dynamic_time_warping) algorythm. In Ukrainian it is called Алгоритм динамічної трансформації шкали часу.
 

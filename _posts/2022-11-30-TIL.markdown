@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL more about cross-platform Swift"
 date:   2022-11-30 21:20:00 +0200
-categories: TIL, cross-platform, Swift
+categories: [cross-platform, Swift]
 ---
 TIL more about running Swift cross-platform. Read [Automatic test discovery in Swift on Linux](https://oleb.net/2020/swift-test-discovery/).
 

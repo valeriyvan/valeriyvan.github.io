@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL utf8everywhere.org"
 date:   2023-04-25 19:25:00 +0200
-categories: TIL, Unicode, UTF-16, UTF-8, String, NSString
+categories: [Unicode, UTF-16, UTF-8, String, NSString]
 ---
 TIL [utf8everywhere.org](http://utf8everywhere.org).
 

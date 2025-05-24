@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL how to implement searchable lists in SwiftUI"
 date:   2024-02-23 21:48:00 +0200
-categories: TIL, SwiftUI
+categories: [SwiftUI]
 ---
 Passed over a number of posts on topic of building searchable lists in SwiftUI: [How to add a search bar to filter your data](https://www.hackingwithswift.com/quick-start/swiftui/how-to-add-a-search-bar-to-filter-your-data), [Building a Searchable List with SwiftUI](https://medium.com/@simply_stef/building-a-searchable-list-with-swiftui-125f8ac4f569), [SwiftUI Search Bar: Best Practices and Examples](https://www.swiftyplace.com/blog/swiftui-search-bar-best-practices-and-examples).

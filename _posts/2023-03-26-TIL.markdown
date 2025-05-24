@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL dig +short ns example.com and how to manage DNS with DigitalOcean"
 date:   2023-03-26 19:00:00 +0200
-categories: TIL, DNS, dig, DigitalOcean
+categories: [DNS, dig, DigitalOcean]
 ---
 TIL how to check name servers set for domain: `dig +short ns example.com`.
 

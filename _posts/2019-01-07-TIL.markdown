@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL keystrokes for Bash for clearing command line"
 date:   2019-01-07 19:07:00 +0200
-categories: TIL, Bash, chmod
+categories: [Bash, chmod]
 ---
 TIL keystrokes for Bash for clearing command line:
 * **Ctrl+U** to clear up to the beginning;

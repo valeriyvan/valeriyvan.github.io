@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to make Vapor listen port in external IP address"
 date:   2023-10-25 19:20:00 +0200
-categories: TIL, PID, Amazon ECS
+categories: [PID, "Amazon ECS"]
 ---
 Hung in [Improving the Beginner’s PID – Introduction](http://brettbeauregard.com/blog/2011/04/improving-the-beginners-pid-introduction/). I should pass through all series. May be, reimplementing everything in Swift package swift-pid.
 

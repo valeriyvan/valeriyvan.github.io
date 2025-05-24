@@ -2,7 +2,7 @@
 layout: post
 title:  "Firstly used Swift's Array Initializer with Access to Uninitialized Storage; Read about Curry Function in Swift"
 date:   2019-09-18 19:18:00 +0200
-categories: TIL, Swift, Curry Function
+categories: [Swift, "Curry Function"]
 ---
 First time used Swift 5.1. feature [Array Initializer with Access to Uninitialized Storage](https://github.com/apple/swift-evolution/blob/master/proposals/0245-array-uninitialized-initializer.md) refactoring this:
 

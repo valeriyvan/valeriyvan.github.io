@@ -2,7 +2,7 @@
 layout: post
 title:  "Dug in Netpbm"
 date:   2024-05-03 22:04:00 +0200
-categories: TIL, Netpbm
+categories: [Netpbm]
 ---
 Diving into the [Netpbm](https://sourceforge.net/projects/netpbm/) sources as I'm currently endeavoring to enhance [swift-geometrize](https://github.com/valeriyvan/swift-geometrize)'s capability to read and write `.PPM` files, I stumbled upon the `dither.h` source file. Quite intriguing! Within it, I discovered a reference to the book ["Digital Halftoning" by Robert Ulichney, MIT Press, ISBN 0-262-21009-6](https://archive.org/details/digitalhalftonin00ulic/). This book is rooted in the [PHD thesis (1986) Digital Halftoning and the Physical Reconstruction Function](/assets/docs/PHD%20thesis%20Digital%20Halftoning%20and%20the%20Physical%20Reconstruction%20Function%20by%20Robert%20A.%20Ulichney.pdf). From what I could discern, both the book and the thesis are closely intertwined in terms of content. I'll retain these references for when I integrate dithering into [swift-geometrize](https://github.com/valeriyvan/swift-geometrize).
 

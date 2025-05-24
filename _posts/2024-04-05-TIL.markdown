@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to flash flight controller with Ardupilot on Mac without STM32Cube Programmer"
 date:   2024-04-05 21:41:00 +0200
-categories: TIL, Ardupilot, STM32Cube
+categories: [Ardupilot, STM32Cube]
 ---
 TIL how to flash flight controller with Ardupilot on Mac without STM32Cube Programmer, just by using CLI `dfu-util`. The steps are described at [Loading a bootloader with DFU](https://ardupilot.org/dev/docs/using-DFU-to-load-bootloader.html). Note to future self: what you download for wiring this way should be bootloader available by link [Bootloaders](https://firmware.ardupilot.org/Tools/Bootloaders).
 

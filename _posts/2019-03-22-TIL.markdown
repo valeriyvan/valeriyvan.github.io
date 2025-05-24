@@ -2,7 +2,7 @@
 layout: post
 title:  "Browsed post Using Google Cloud Translation API to Power Your iOS App with Instant Translation; Read fun post Everything you need to know about Loading Animations; TIL What is a configurable initialization"
 date:   2019-03-22 19:22:00 +0200
-categories: TIL, Swift, Google, Google Cloud Translation API, GTAlertCollection, Configurable Initializations
+categories: [Swift, Google, "Google Cloud Translation API", GTAlertCollection, "Configurable Initializations"]
 ---
 Browsed quite wordy and detailed post [Using Google Cloud Translation API to Power Your iOS App with Instant Translation](https://www.appcoda.com/google-translation-api). Post worth keeping a bookmark. Quite good following of MVVM architecture.
 

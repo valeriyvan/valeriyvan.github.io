@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Round trip Swift number types to/from Data"
 date:   2020-01-11 19:11:00 +0200
-categories: TIL, Swift, Data
+categories: [Swift, Data]
 ---
 Read [New Diagnostic Architecture Overview](https://swift.org/blog/new-diagnostic-arch-overview/). Understood very little. Got that soon to be released Swift 5.2 will have much better diagnostic.
 

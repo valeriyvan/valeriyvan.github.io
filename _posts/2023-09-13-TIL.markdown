@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL what does '!r' in format string mean in Python; What ExpressLRS and Crossfire have in common"
 date:   2023-09-13 19:37:00 +0200
-categories: TIL, Python, __repr__, __str__, ExpressLRS, Crossfire, CRSF
+categories: [Python, __repr__, __str__, ExpressLRS, Crossfire, CRSF]
 ---
 TIL what does '!r' in format string mean: [Python: the !r string format and the \_\_repr\_\_() and \_\_str\_\_() methods](https://dev.to/behainguyen/python-the-r-string-format-and-the-repr-and-str-methods-29i7).
 

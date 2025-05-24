@@ -2,7 +2,7 @@
 layout: post
 title:  "Re-watched year old Point Free episode Algebraic Data Types and Some news about `contramap`"
 date:   2019-03-06 19:06:00 +0200
-categories: TIL, Swift, Algebraic Data Types, contramap, pullback, KeyPath, Model, Singleton pattern
+categories: [Swift, "Algebraic Data Types", contramap, pullback, KeyPath, Model, "Singleton pattern"]
 ---
 Re-watched year old Point Free episode [Algebraic Data Types](https://www.pointfree.co/episodes/ep4-algebraic-data-types).
 

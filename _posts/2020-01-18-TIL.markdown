@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL a lot about unsafe Swift"
 date:   2020-01-18 19:18:00 +0200
-categories: TIL, Swift
+categories: [Swift]
 ---
 Watched [4 Design Patterns for RESTless Mobile Integration](https://www2.realm.io/webinar/design-patterns-for-restless-success).
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL date formatters in Swift leaking important details; Read Using unit tests to identify & avoid memory leaks in Swift"
 date:   2018-11-23 19:23:00 +0200
-categories: TIL, Swift, Date formatters, Unit testing memory leaks, MVC, UIGraphicsImageRenderer, MVVM, Siri Shortcuts, Race conditions, Storyboards
+categories: [Swift, "Date formatters", "Unit testing memory leaks", MVC, UIGraphicsImageRenderer, MVVM, "Siri Shortcuts", "Race conditions", Storyboards]
 ---
 Interesting post [Sneaky date formatters exposing more than you think](https://williamboles.me/sneaky-date-formatters-exposing-more-than-you-think/). If you refactor date formatter into property and make it let, formatter still can by changed because it's class. It could lead interesting consequences when some part change formatter thinking they change local copy.
 

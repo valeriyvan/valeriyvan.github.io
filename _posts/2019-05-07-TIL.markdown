@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched WWDC 2018 session Metal for Accelerating Machine Learning"
 date:   2019-05-07 19:07:00 +0200
-categories: TIL, Metal, WWDC, ScreenSaverDefaults
+categories: [Metal, WWDC, ScreenSaverDefaults]
 ---
 Watched [WWDC 2018 session Metal for Accelerating Machine Learning](https://developer.apple.com/videos/play/wwdc2018/609/).
 

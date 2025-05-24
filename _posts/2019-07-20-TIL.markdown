@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL about `SimulatorStatusMagic` and `simctl status_bar`"
 date:   2019-07-20 19:20:00 +0200
-categories: TIL, Xcode, Simulator, SimulatorStatusMagic, simctl
+categories: [Xcode, Simulator, SimulatorStatusMagic, simctl]
 ---
 From [issue 413 of iosdevweekly](https://iosdevweekly.com/issues/413#start) learned about existence of [SimulatorStatusMagic](https://github.com/shinydevelopment/SimulatorStatusMagic) and then learned that Xcode 11 beta 4 supports same feature now: `simctl status_bar`.

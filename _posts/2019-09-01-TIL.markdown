@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL `JSONDecoder`, `JJLISO8601DateFormatter`; Read Caching in Swift"
 date:   2019-09-01 19:01:00 +0200
-categories: TIL, ZippyJSON, JSONDecoder, JJLISO8601DateFormatter, NSISO8601DateFormatter, Caching
+categories: [ZippyJSON, JSONDecoder, JJLISO8601DateFormatter, NSISO8601DateFormatter, Caching]
 ---
 TIL [ZippyJSON](https://github.com/michaeleisel/ZippyJSON):
 

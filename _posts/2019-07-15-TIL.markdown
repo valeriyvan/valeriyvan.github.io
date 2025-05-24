@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Exploring Swift Dictionary's Implementation"
 date:   2019-07-15 19:15:00 +0200
-categories: TIL, Swift, Dictionary, UnsafeMutablePointer
+categories: [Swift, Dictionary, UnsafeMutablePointer]
 ---
 Passed [Dictionary and Set Improvements in Swift 4.0](https://swift.org/blog/dictionary-and-set-improvements/) as refreshment because encountered it in one of my searches googling for posts about implementation of dictionaries in Swift.
 

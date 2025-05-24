@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched Point Free episode #51 Structs 🤝 Enums; Read How not to get desperate with MVVM implementation; Read How to implement MVVM pattern in Swift from scratch"
 date:   2019-03-25 19:25:00 +0200
-categories: TIL, Swift, Struct, Enum, MVVM
+categories: [Swift, Struct, Enum, MVVM]
 ---
 Watched [Point Free episode #51 Structs 🤝 Enums](https://www.pointfree.co/episodes/ep51-structs-enums). As always, absolutely crazy. Unpractical, but very interesting.
 

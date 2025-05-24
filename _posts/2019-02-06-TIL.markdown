@@ -2,6 +2,6 @@
 layout: post
 title:  "Read Copy on Write in iOS 11"
 date:   2019-02-06 19:06:00 +0200
-categories: Swift, Objective-C, NSMutableArray, Copy on Write, COW
+categories: [Swift, Objective-C, NSMutableArray, "Copy on Write", COW]
 ---
 On last job interview when we discussed Swift, interviewer said that recently copy-on-write was implemenented for Foundation classes like `NSMutableArray`. I was surprised. Missed this somehow. That is why I googled for and came accross post [Copy on Write in iOS 11](https://medium.com/the-traveled-ios-developers-guide/copy-on-write-in-ios-11-c4ad2a61c285). So, `NSMutableArray *ar2 = [ar1 mutableCopy];` doesn't make copy. Actual copying will be done on first change to copied array. That's good that Swift makes Objective-C stronger.

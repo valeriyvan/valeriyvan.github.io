@@ -2,6 +2,6 @@
 layout: post
 title:  "Bookmarking essay Why operators are useful by Guido van Rossum"
 date:   2022-09-03 17:44:00 +0200
-categories: Bookmarking
+categories: [Bookmarking]
 ---
 To those who will continue saynig `(0..20).contains(index)` is better than `0..20 ~= index` which I fond to use I will point [Why operators are useful](http://neopythonic.blogspot.com/2019/03/why-operators-are-useful.html) essay of Guido van Rossum.

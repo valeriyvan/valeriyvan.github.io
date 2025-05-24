@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL `memory` command of lldb, `UnsafeMutablePointer` initialization in Swift"
 date:   2020-01-23 19:23:00 +0200
-categories: TIL, vDSP, vdsp_vsadd, bug
+categories: [vDSP, vdsp_vsadd, bug]
 ---
 Stack overflow question [How to compare two UIImage objects](https://stackoverflow.com/questions/11342897/how-to-compare-two-uiimage-objects) might be very good example when wrong question is highly voted up. Would be great if I find time and write longread answer to question.
 

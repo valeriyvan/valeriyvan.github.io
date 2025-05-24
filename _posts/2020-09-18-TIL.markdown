@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL abount Danger for Swift"
 date:   2020-09-18 19:34:00 +0200
-categories: TIL, Swift, Danger, Git, PR reviews
+categories: [Swift, Danger, Git, "PR reviews"]
 ---
 Learned about [Danger](https://danger.systems/swift/) which could automatically improve PR reviews. 
 

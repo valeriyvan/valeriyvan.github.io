@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL xcodemake"
 date:   2025-04-28 21:54:00 +0200
-categories: TIL, Xcode, xcodebuild, make, xcodemake
+categories: [Xcode, xcodebuild, make, xcodemake]
 ---
 TIL [xcodemake - faster xcodebuilds using "make".](https://github.com/johnno1962/xcodemake).

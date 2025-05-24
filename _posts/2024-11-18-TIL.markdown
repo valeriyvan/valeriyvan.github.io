@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL `MainActor.assumeIsolated` and `@preconcurrency`"
 date:   2024-11-18 21:30:00 +0200
-categories: TIL, Swift, MainActor, @preconcurrency
+categories: [Swift, MainActor, @preconcurrency]
 ---
 TIL `MainActor.assumeIsolated`: [What on earth is going on with `awakeFromNib`?](https://www.massicotte.org/awakefromnib)
 

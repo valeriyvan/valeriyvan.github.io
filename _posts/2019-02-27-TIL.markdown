@@ -2,7 +2,7 @@
 layout: post
 title:  "Read `UIView` styling with functions"
 date:   2019-02-27 19:27:00 +0200
-categories: Swift, Composition pattern
+categories: [Swift, "Composition pattern"]
 ---
 Nice reading [`UIView` styling with functions](https://felginep.github.io/2019-02-19/uiview-styling-with-functions).
 

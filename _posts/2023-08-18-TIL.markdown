@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL suckless.org"
 date:   2023-08-18 10:09:00 +0200
-categories: TIL, suckless.org, TrueType
+categories: [suckless.org, TrueType]
 ---
 Serendipity led me to [libschrift](https://github.com/tomolt/libschrift), a lightweight TrueType font rendering library, which a candidate to be used for rendering fonts for [swift-geometrize](https://github.com/valeriyvan/swift-geometrize).
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL SwiftUI-like frameworks on Ubuntu are still rough around the edges"
 date:   2025-05-01 21:36:00 +0200
-categories: TIL, SwiftUI, adwaita-swift, swift-cross-ui, Ubuntu, apt, Homebrew
+categories: [SwiftUI, adwaita-swift, swift-cross-ui, Ubuntu, apt, Homebrew]
 ---
 TIL that [adwaita-swift](https://git.aparoksha.dev/aparoksha/adwaita-swift), as promoted in the blog post [Writing GNOME Apps with Swift](https://www.swift.org/blog/adwaita-swift/) on [Swift.org](https://www.swift.org/), is currently unusable. I couldn't get any of the demo apps running on Ubuntu. Filed an issue [adwaita-swift build error](https://git.aparoksha.dev/aparoksha/adwaita-swift/issues/60).
 

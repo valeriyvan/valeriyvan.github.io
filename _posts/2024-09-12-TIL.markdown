@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how Linux C coding style argues for using short local variable names"
 date:   2024-09-12 09:08:00 +0200
-categories: TIL, Linux C coding style 
+categories: ["Linux C coding style"]
 ---
 TIL how Linux C coding style argues for using short local variable names: [Linux C coding Style: Naming](https://www.kernel.org/doc/html/v4.10/process/coding-style.html#naming)
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL about title case in some scripts"
 date:   2024-11-07 21:27:00 +0200
-categories: TIL, SwiftUI, Title case, Unicode
+categories: [SwiftUI, "Title case", Unicode]
 ---
 Read [MVVM: An architectural coding pattern to structure SwiftUI Views](https://www.avanderlee.com/swiftui/mvvm-architectural-coding-pattern-to-structure-views/).
 

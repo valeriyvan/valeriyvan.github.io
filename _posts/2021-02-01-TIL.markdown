@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL about CPU 6502 emulator"
 date:   2021-02-01 18:37:00 +0200
-categories: TIL, CPU, emulating, 6502
+categories: [CPU, emulating, 6502]
 ---
 Accidentally came across video [Emulating a CPU in C++ (6502)](https://www.youtube.com/watch?v=qJgsuQoy9bc) and couldn't stop watching it. [6502 CPU](https://en.wikipedia.org/wiki/MOS_Technology_6502) reminds me myself in my 20.

@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how Swift imports C APIs"
 date:   2020-09-10 19:18:00 +0200
-categories: TIL, Swift, C
+categories: [Swift, C]
 ---
 Read Swift's [How Swift imports C APIs](https://github.com/apple/swift/blob/master/docs/HowSwiftImportsCAPIs.md). This is new for me:
 

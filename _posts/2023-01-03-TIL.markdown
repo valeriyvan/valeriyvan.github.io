@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to work with Swift in Visual Studio on Windows"
 date:   2023-01-03 17:50:00 +0200
-categories: TIL, Visual Studio, Swift starter issues
+categories: ["Visual Studio", "Swift starter issues"]
 ---
 TIL [Visual Studio can work with Swift Packages](https://marketplace.visualstudio.com/items?itemName=sswg.swift-lang), so could be used on Windows. Unfortunately I failed to make it work.
 

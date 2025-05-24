@@ -2,6 +2,6 @@
 layout: post
 title:  "Read Learning Dependency Injection using Swift"
 date:   2020-09-05 19:17:00 +0200
-categories: TIL, Swift, Dependency Injection
+categories: [Swift, "Dependency Injection"]
 ---
 Read [Learning Dependency Injection using Swift](https://medium.com/@stevenpcurtis.sc/learning-dependency-injection-using-swift-c94183742187).

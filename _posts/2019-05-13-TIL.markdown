@@ -3,7 +3,7 @@ layout: post
 title:  "Read Readdle's Swift for Android: Our Experience and Tools; Watched Swift Talk episode #115
 Building a Custom XML Decoder; Read Ash Furrow's post Swift Type Aliases: Use Early and Often; Read Dependency Injection in Swift; Read post The Wrong Binary"
 date:   2019-05-14 19:14:00 +0200
-categories: TIL, Swift, Android, Readdle, XML, FileManager, AnyObject, Toptal, Type Alias, Dependency Injection, UICollectionView, enum, Boolean 
+categories: [Swift, Android, Readdle, XML, FileManager, AnyObject, Toptal, "Type Alias", "Dependency Injection", UICollectionView, enum, Boolean]
 ---
 Researching a way to run Swift code on Android, read Readdle's [Swift for Android: Our Experience and Tools](https://blog.readdle.com/why-we-use-swift-for-android-db449feeacaf) and then browsed [Swift doc Getting Started with Swift on Android](https://github.com/apple/swift/blob/master/docs/Android.md).
 

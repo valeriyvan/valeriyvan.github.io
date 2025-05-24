@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to make screen saver in Swift; read several post about secure development"
 date:   2018-12-12 19:12:00 +0200
-categories: TIL, Swift, Sceen saver, ScreenSaverView, Playground Graphs, Dependency injection
+categories: [Swift, "Sceen saver", ScreenSaverView, "Playground Graphs", "Dependency injection"]
 ---
 Run all steps of creating screen saver in Swift with help of [Saving your screen](https://pedrommcarrasco.github.io/posts/Saving-your-screen/). Tree lessons learnt:
 
