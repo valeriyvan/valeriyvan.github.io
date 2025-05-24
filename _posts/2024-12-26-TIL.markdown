@@ -2,7 +2,7 @@
 layout: post
 title:  "Read The evolution of neural network architectures in computer vision: object detection"
 date:   2024-12-26 21:31:00 +0200
-categories: TIL, YOLO
+categories: [YOLO]
 ---
 Bookmarking [The evolution of neural network architectures in computer vision: object detection](https://habr.com/ru/companies/slsoft/articles/869766/).
 

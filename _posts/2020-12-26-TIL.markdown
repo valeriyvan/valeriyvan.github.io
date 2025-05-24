@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL more about Property Wrappers in Swift"
 date:   2020-12-26 19:20:00 +0200
-categories: TIL, Swift, Property Wrapper
+categories: [Swift, "Property Wrapper"]
 ---
 Watched [Anatomy of a Property Wrapper](https://cocoacasts.com/working-with-property-wrappers-in-swift-anatomy-of-a-property-wrapper). The best explanation of property wrapper I've seen so far.

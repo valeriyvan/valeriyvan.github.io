@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL `xcrun simctl openurl booted maps://?s=Apple+Park` opens URL with scheme associated with app, `xcrun simctl addmedia booted ~/Desktop/mindblown.gif` adds photo to photo library"
 date:   2019-01-28 19:28:00 +0200
-categories: Swift, NSHipster, xcrun, simctl
+categories: [Swift, NSHipster, xcrun, simctl]
 ---
 When for whatever reason I come to [NSHipster](https://nshipster.com) can't refrain from reading all posts from main page. From post about [simctl](https://nshipster.com/simctl) learned a way to open with command line an URL with schemes associated with an app `xcrun simctl openurl booted maps://?s=Apple+Park`. Command to add photo to photo library might be very useful `xcrun simctl addmedia booted ~/Desktop/mindblown.gif`. Good to know same could be done with dragging photo from e.g. desktop and dropping to photo app in simulator.

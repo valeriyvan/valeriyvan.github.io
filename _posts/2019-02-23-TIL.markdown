@@ -2,7 +2,7 @@
 layout: post
 title:  "Read post Swift dependency injection design pattern"
 date:   2019-02-23 19:23:00 +0200
-categories: TIL, Swift, Dependency injection design pattern
+categories: [Swift, "Dependency injection design pattern"]
 ---
 Read post [Swift dependency injection design pattern](https://theswiftdev.com/2018/07/17/swift-dependency-injection-design-pattern/).
 

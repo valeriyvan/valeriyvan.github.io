@@ -2,6 +2,6 @@
 layout: post
 title:  "Dag in swift-foundation"
 date:   2023-04-27 19:27:00 +0200
-categories: TIL, Swift, swift-foundation
+categories: [Swift, swift-foundation]
 ---
 Dug in [swift-foundation](https://github.com/apple/swift-foundation) repo. Interesting, that [Data.swift](https://github.com/apple/swift-foundation/blob/main/Sources/FoundationEssentials/Data/Data.swift) is using mapping of files into memory.

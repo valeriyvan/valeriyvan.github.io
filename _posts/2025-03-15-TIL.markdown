@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to fine-tune the compilation of code shared between an app and its extension"
 date:   2025-03-15 21:19:00 +0200
-categories: TIL, Xcode, xcconfig, iOS 
+categories: [Xcode, xcconfig, iOS]
 ---
 TIL how to fine-tune the compilation of code shared between an app and its extension: [Conditional Compilation, Part 3: App Extensions](https://davedelong.com/blog/2019/04/09/conditional-compilation-part-3/).
 

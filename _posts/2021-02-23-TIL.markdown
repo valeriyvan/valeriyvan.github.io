@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL a bit about Quick Look"
 date:   2021-02-23 19:48:00 +0200
-categories: TIL, Apple, QuickLook
+categories: [Apple, QuickLook]
 ---
 Watched [Quick Look Previews from the Ground Up](https://developer.apple.com/videos/play/wwdc2018/237/). It's about iOS. But actually, same approach should work for macOS as well. [QuickLook](https://developer.apple.com/documentation/quicklook) works on both, iOS and macOS. [Previews or Thumbnail Images for macOS 10.14 or Earlier](https://developer.apple.com/documentation/quicklook/previews_or_thumbnail_images_for_macos_10_14_or_earlier).
 

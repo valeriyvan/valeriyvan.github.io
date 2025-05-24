@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Apple's port of BLAS (Basic Linear Algebra Subprograms) and Compression as part of Accelerate framework"
 date:   2019-10-01 19:01:00 +0200
-categories: TIL, BLAS, Compression, Accelerate framework
+categories: [BLAS, Compression, "Accelerate framework"]
 ---
 Read post [Struct References](http://chris.eidhof.nl/post/references/) by Chris Aidhof.
 

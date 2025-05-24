@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Differentiable Programming documentation in Swift"
 date:   2019-11-07 19:07:00 +0200
-categories: TIL, Swift, Differentiable Programming, SIMD, String, documenation 
+categories: [Swift, "Differentiable Programming", SIMD, String, documenation]
 ---
 Run through [Differentiable Programming documentation](https://github.com/apple/swift/blob/master/docs/DifferentiableProgramming.md).
 

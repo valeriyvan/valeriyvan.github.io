@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL `CIContext` is heavy and should be reused"
 date:   2020-02-14 19:33:00 +0200
-categories: TIL, CIContext, CocoaPods, Podfile, Signal Processing, Dynamic Time Warping
+categories: [CIContext, CocoaPods, Podfile, "Signal Processing", "Dynamic Time Warping"]
 ---
 Learned from [Core Image Programming Guide](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Conceptual/CoreImaging/ci_tasks/ci_tasks.html#//apple_ref/doc/uid/TP30001185-CH3-TPXREF101) that CIContext is heavy and should be reused.
 

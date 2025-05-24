@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL interesting method of reading stdin in Swift"
 date:   2024-05-22 22:08:00 +0200
-categories: TIL, netpbm, Swift, stdin
+categories: [netpbm, Swift, stdin]
 ---
 TIL how to build [netpbm](https://github.com/valeriyvan/netpbm) on macOS. Running `./configure` succeeds, but `make` fails with an error. I checked the [netpbm Homebrew formula](https://formulae.brew.sh/formula/netpbm) and reviewed the [formula code](https://github.com/Homebrew/homebrew-core/blob/4b5fcc2b6e303da0d5deb6f3d2a702808b1b8434/Formula/n/netpbm.rb), which applies some fixes in `config.mk`. Now I can try wrapping libnetpbm into a Swift package.
 

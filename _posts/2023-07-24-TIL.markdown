@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL MAVLink drone movements commands"
 date:   2023-07-24 14:50:00 +0200
-categories: TIL, Python, OOP, Abstract class, NOP
+categories: [Python, OOP, "Abstract class", NOP]
 ---
 TIL how to use [abstract classes in Python](https://docs.python.org/3/library/abc.html).
 

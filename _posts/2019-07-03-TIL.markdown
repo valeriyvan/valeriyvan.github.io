@@ -2,7 +2,7 @@
 layout: post
 title:  "Read NSHipster's Swift Property Wrappers; Exhaustive rundown of the many faces of `@`; Attributes chapter of Swift language reference"
 date:   2019-07-03 19:03:00 +0200
-categories: TIL, Swift, Property Wrappers, Objective-C, @
+categories: [Swift, "Property Wrappers", Objective-C, @]
 ---
 Read NSHipster's [Swift Property Wrappers](https://nshipster.com/propertywrapper/). Despite useful info on topic this post has chart showing connection between protocols and structs conforming to them which define number types in Swift. Same about `String` and `Substring`. This information is difficult to find anywhere else. I like this conclusion in post because I find myself feeling the same:
 

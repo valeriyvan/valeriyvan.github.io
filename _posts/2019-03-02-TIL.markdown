@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Pitch: an Official Style Guide and Formatter for Swift"
 date:   2019-03-02 19:02:00 +0200
-categories: TIL, Swift, Style guides 
+categories: [Swift, "Style guides"]
 ---
 Read [Pitch: an Official Style Guide and Formatter for Swift](https://forums.swift.org/t/pitch-an-official-style-guide-and-formatter-for-swift/21025). I would agree with [Dave Verver](https://iosdevweekly.com/issues/393#start):
 

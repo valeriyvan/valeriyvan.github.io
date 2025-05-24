@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL C++ allow declaring variable inside condition in if statement"
 date:   2022-12-17 18:33:00 +0200
-categories: C++
+categories: [C++]
 ---
 TIL that in C++ it's possible to declare variable [inside of condition in `if`](https://github.com/apple/swift/blob/22eeac637114bd0d9553853e8550b8224312692e/stdlib/public/CommandLineSupport/CommandLine.cpp#L92):
 ```C++

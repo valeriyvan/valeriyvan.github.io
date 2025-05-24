@@ -2,7 +2,7 @@
 layout: post
 title:  "Read about measuring code execution time on iOS; how KVO in Swift works"
 date:   2019-12-09 19:09:00 +0200
-categories: TIL, Swift, CACurrentMediaTime, CFAbsoluteTimeGetCurrent, KVO, Key-Value Observing
+categories: [Swift, CACurrentMediaTime, CFAbsoluteTimeGetCurrent, KVO, "Key-Value Observing"]
 ---
 Read [UITableView Swipe Actions in iOS 11](https://chariotsolutions.com/blog/post/uitableview-swipe-actions-in-ios-11/). Somehow I did miss this. [UITableView Leading & Trailing Swipe Actions in iOS 11](https://hackernoon.com/uitableview-leading-trailing-swipe-actions-in-ios-11-18cb1f267f8a) on the same topic mentions `tableView(_:editActionsForRowAt:)` existing since iOS 8.
 

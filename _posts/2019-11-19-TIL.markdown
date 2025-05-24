@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Properties chapter of The Swift programming language"
 date:   2019-11-19 19:19:00 +0200
-categories: TIL, Swift, Properties
+categories: [Swift, Properties]
 ---
 Read [Properties chapter of The Swift programming language](https://docs.swift.org/swift-book/LanguageGuide/Properties.html). Easy? Even here I have found something new:
 

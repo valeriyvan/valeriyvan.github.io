@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL how to bypass numerical noised captcha with neural net on tensorflow, keras and python"
 date:   2020-02-12 19:40:00 +0200
-categories: TIL, captcha, tensorflow, keras, python, noise
+categories: [captcha, tensorflow, keras, python, noise]
 ---
 Bookmarked [How to bypass captcha: neural net on tensorflow, keras, python vs numerical noised captcha (russian)](https://habr.com/ru/post/464337/). And follow up by another author [Captcha, special case: tear apart neural net with 30 lines of code (russian)](https://habr.com/ru/post/488018/).

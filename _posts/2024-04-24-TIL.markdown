@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL about `.scss`"
 date:   2024-04-24 22:19:00 +0200
-categories: TIL, HTML, CSS, SCSS, JavaScript, Interview
+categories: [HTML, CSS, SCSS, JavaScript, Interview]
 ---
 Ran over [How to create a “Before & After” image slider with CSS and JS](https://levelup.gitconnected.com/how-to-create-a-before-after-image-slider-with-css-and-js-a609d9ba77bf). TIL about `.scss` but I used [SCSS to CSS Compiler](https://www.cssportal.com/scss-to-css/) to compile it into regular CSS.
  

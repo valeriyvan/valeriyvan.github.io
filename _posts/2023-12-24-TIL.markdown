@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to copy whole website onto local machine with just one `wget` command"
 date:   2023-12-24 19:40:00 +0200
-categories: TIL, wget
+categories: [wget]
 ---
 TIL how to copy whole website onto local machine with just one `wget` command.
 

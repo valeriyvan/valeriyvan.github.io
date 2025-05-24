@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Voronoi diagrams, Medial axis"
 date:   2023-01-11 19:28:00 +0200
-categories: TIL, Voronoi diagram, Medial axis
+categories: ["Voronoi diagram", "Medial axis"]
 ---
 From [Flying Car and Autonomous Flight Engineer course](https://www.udacity.com/course/flying-car-nanodegree--nd787) learned what [Voronoi graph](https://en.wikipedia.org/wiki/Voronoi_diagram) and [Medial axis (Ukr Серединні вісі)](https://en.wikipedia.org/wiki/Medial_axis) are.
 

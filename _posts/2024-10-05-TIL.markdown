@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Apple Watch despite being 64 bit use 32 bit pointers"
 date:   2024-10-05 21:53:00 +0200
-categories: TIL
+categories: []
 ---
 TIL Apple Watch despite being 64 bit use 32 bit pointers: [Reminder: Apple Watches use 32 bit pointers](https://jeffverkoeyen.com/blog/2024/10/02/arm64_32-PSA).
 

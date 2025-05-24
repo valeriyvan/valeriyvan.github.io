@@ -2,7 +2,7 @@
 layout: post
 title:  "Flying Car and Autonomous Flight Engineer"
 date:   2022-12-25 21:21:00 +0200
-categories: TIL
+categories: []
 ---
 Have started [Udacity's Flying Car and Autonomous Flight Engineer course](https://www.udacity.com/course/flying-car-nanodegree--nd787).
 

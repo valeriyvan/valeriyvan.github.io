@@ -2,6 +2,6 @@
 layout: post
 title:  "Watched video But what is the Fourier Transform? A visual introduction."
 date:   2019-09-21 19:21:00 +0200
-categories: TIL, Fourier Transform
+categories: ["Fourier Transform"]
 ---
 Watched very interesting video [But what is the Fourier Transform? A visual introduction.](https://www.youtube.com/watch?v=spUNpyF58BY).

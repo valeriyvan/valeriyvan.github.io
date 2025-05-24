@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Swift proposal `Sendable` and `@Sendable` closures, implemented in Swift 5.7 and proposal Inferring `Sendable` for methods and key path literals, implemented in Swift 6.0"
 date:   2024-07-16 21:25:00 +0200
-categories: TIL, Swift, Sendable, @Sendable
+categories: [Swift, Sendable, @Sendable]
 ---
 Read Swift proposal [`Sendable` and `@Sendable` closures](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0302-concurrent-value-and-concurrent-closures.md#value-semantic-composition), implemented in Swift 5.7.
 

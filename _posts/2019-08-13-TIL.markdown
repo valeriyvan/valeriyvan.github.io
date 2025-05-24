@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL details about protocol extensions in Swift"
 date:   2019-08-13 19:13:00 +0200
-categories: TIL, Swift, Protocols, Protocol extensions
+categories: [Swift, Protocols, "Protocol extensions"]
 ---
 Have been exploring [this quiz](https://www.objc.io/quiz/11/):
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Passed over several Swift proposals"
 date:   2019-05-03 19:03:00 +0200
-categories: TIL, Swift, Swift evolution
+categories: [Swift, "Swift evolution"]
 ---
 Passed through PR to Swift standard library [Use String’s underlying UTF-8 view for Float parsing](https://github.com/apple/swift/pull/24198)
 

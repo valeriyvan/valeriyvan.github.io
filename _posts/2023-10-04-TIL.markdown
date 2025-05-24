@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL what is 6DOF and 9DOF sensor fusion"
 date:   2023-10-04 19:21:00 +0200
-categories: TIL, 6DOF, 9DOF, Sensor fusion, UML, Code smells
+categories: [6DOF, 9DOF, "Sensor fusion", UML, "Code smells"]
 ---
 TIL what is 9DOF and 6DoF [Sensor Fusion Algorithms](https://learn.adafruit.com/ahrs-for-adafruits-9-dof-10-dof-breakout/sensor-fusion-algorithms).
 

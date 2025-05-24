@@ -2,7 +2,7 @@
 layout: post
 title:  "Tried FFTW library for calculating discrete Fourier transform"
 date:   2019-06-28 19:28:00 +0200
-categories: TIL, FFTW, Discrete Fourier transform , DFT
+categories: [FFTW, "Discrete Fourier transform", DFT]
 ---
 Read new fast.ai course outline [Deep Learning from the Foundations](https://www.fast.ai/2019/06/28/course-p2v3/). Sounds interesting. But it's considered second part. Probably I should start with it.
 

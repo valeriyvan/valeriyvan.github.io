@@ -2,7 +2,7 @@
 layout: post
 title:  "Read How OptionSet works inside the Swift Compiler; Useful obscure Foundation types in Swift"
 date:   2019-12-04 19:04:00 +0200
-categories: TIL, Swift, Foundation, OptionSet, Scanner, NSCountedSet, CFTree, CFBinaryHeap, NSCache, NSOrderedSet, ByteCountFormatter, NSDataDetector
+categories: [Swift, Foundation, OptionSet, Scanner, NSCountedSet, CFTree, CFBinaryHeap, NSCache, NSOrderedSet, ByteCountFormatter, NSDataDetector]
 ---
 Read [How OptionSet works inside the Swift Compiler](https://swiftrocks.com/how-optionset-works-inside-the-swift-compiler.html).
 

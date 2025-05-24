@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Backend Driven UI and Server-sent events"
 date:   2019-05-30 19:30:00 +0200
-categories: TIL, Server-sent events
+categories: ["Server-sent events"]
 ---
 From UIKonf 2019 talk [What to expect when you are templating? Clue’s approach to Backend Driven UIs](https://www.youtube.com/watch?v=IKRkSbkS0zg) by Kate Castellano first time heard about [server-sent events](https://www.w3schools.com/html/html5_serversentevents.asp).
 

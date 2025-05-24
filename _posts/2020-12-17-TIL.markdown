@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL a lot about Swift Packages and Binary Frameworks"
 date:   2020-12-17 18:33:00 +0200
-categories: TIL, SwiftPM, Local Packages
+categories: [SwiftPM, "Local Packages"]
 ---
 Read [Migrate Your iOS Project From CocoaPods To Swift Package Manager](https://medium.com/macoclock/migrate-your-ios-project-from-cocoapods-to-swift-package-manager-c7781a4bc172) presents a process to migrate iOS projects to Swift Package Manager fully.
 

@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL how to migrate your project with Carthage to Xcode 12"
 date:   2021-04-24 19:12:00 +0200
-categories: TIL, Xcode, Carthage
+categories: [Xcode, Carthage]
 ---
 Bookmarking good how to [How to migrate your project with Carthage to Xcode 12](https://dev.to/noahkuwae/how-to-migrate-your-project-with-carthage-to-xcode-12-cc2).

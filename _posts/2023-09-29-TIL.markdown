@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL what does process legacyScreenSaver-x84-64 mean on Apple M1"
 date:   2023-09-29 19:46:00 +0200
-categories: TIL, macOS, Sonoma, Screen Saver framework
+categories: [macOS, Sonoma, "Screen Saver framework"]
 ---
 Yesterday I have updated macOS to 14.0 Sonoma and have some difficulties making my beloved [Motivation screenshot](https://github.com/valeriyvan/Motivation) working after macOS update. Introducing new screen savers Apple has broken screensavers used before 14.0 release. Accidently I have found that process `legacyScreenSaver-x84-64` takes ~100% of one of cores. Things are nore broken than I might have expected.
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL in Swift cast from 'Any' to 'AnyObject' always succeeds"
 date:   2021-02-25 19:18:00 +0200
-categories: TIL, Swift, Any, AnyObject, cast
+categories: [Swift, Any, AnyObject, cast]
 ---
 TIL that in Swift cast from 'Any' to 'AnyObject' always succeeds: [Any as AnyObject](https://forums.swift.org/t/any-as-anyobject/11182):
 

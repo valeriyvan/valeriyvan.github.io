@@ -2,7 +2,7 @@
 layout: post
 title:  "Read paper State Machine Design Pattern"
 date:   2023-11-06 19:20:00 +0200
-categories: TIL, State Machine Design Pattern, PID controller
+categories: ["State Machine Design Pattern", "PID controller"]
 ---
 Read paper [State Machine Design Pattern](/assets/docs/Paper%20State%20Machine%20Design%20Pattern.pdf).
 

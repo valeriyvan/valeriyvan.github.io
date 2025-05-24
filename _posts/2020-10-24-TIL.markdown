@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL `dynamic` in Swift; what Thunk means in computer programming"
 date:   2020-10-24 19:22:00 +0200
-categories: TIL, Swift, dynamic, Thunk
+categories: [Swift, dynamic, Thunk]
 ---
 Read [What Does the Dynamic Keyword Mean in Swift 3](https://cocoacasts.com/what-does-the-dynamic-keyword-mean-in-swift-3) about static, virtual and dynamic dispatch in Swift. Still, I don't get difference between `@objc` and `dynamic`. I know that `dynamic` implies `@objc`. And I don't know what's the difference between the two.
 

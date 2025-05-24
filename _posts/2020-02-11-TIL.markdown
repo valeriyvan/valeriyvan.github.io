@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to build a Synthesizer in Swift; how to detect beats with AudioKit"
 date:   2020-02-11 19:20:00 +0200
-categories: TIL, Swift, Synthesizer, AudioKit, Shazam, CoreML
+categories: [Swift, Synthesizer, AudioKit, Shazam, CoreML]
 ---
 Bookmarking [Building a Synthesizer in Swift](https://medium.com/better-programming/building-a-synthesizer-in-swift-866cd15b731) which is a follow up of [WWDC 2019 session video 510 What's New in AVAudioEngine](https://developer.apple.com/videos/play/wwdc2019/510/). Post is focusing on how the newly announced `AVAudioSourceNode`  can be used to build a musical synthesizer for iOS. Post references [complete git repo](https://github.com/GrantJEmerson/SwiftSynth) and Apple sample [Building a Signal Generator](https://developer.apple.com/documentation/avfoundation/audio_track_engineering/building_a_signal_generator).
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Memory management when using async/await in Swift"
 date:   2024-07-24 21:50:00 +0200
-categories: TIL, Swift, Crazyflie
+categories: [Swift, Crazyflie]
 ---
 Read [Memory management when using async/await in Swift](https://www.swiftbysundell.com/articles/memory-management-when-using-async-await/).
 

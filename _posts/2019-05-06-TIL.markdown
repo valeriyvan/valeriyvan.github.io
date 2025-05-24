@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Handling Input from Apple Pencil and Pencil Interactions documentation; read Apple Pencil at pspdfkit.com; Read John Sundell's Building iPad Pro features in Swift"
 date:   2019-05-06 19:06:00 +0200
-categories: TIL, Apple Pencil, Swift, iPad
+categories: ["Apple Pencil", Swift, iPad]
 ---
 Refreshed Apple Pencil API [Handling Input from Apple Pencil](https://developer.apple.com/documentation/uikit/pencil_interactions/handling_input_from_apple_pencil) and [Pencil Interactions](https://developer.apple.com/documentation/uikit/pencil_interactions).
 

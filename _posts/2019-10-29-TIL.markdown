@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL `git reflog`"
 date:   2019-10-29 19:29:00 +0200
-categories: TIL, git, reflog
+categories: [git, reflog]
 ---
 Here `git reflog` would help with restoring previous states of `HEAD` in git as it described [here](https://stackoverflow.com/a/14757539/942513).
 

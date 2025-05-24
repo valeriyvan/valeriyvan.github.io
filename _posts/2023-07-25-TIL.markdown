@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL what is OpenMP"
 date:   2023-07-25 20:35:00 +0200
-categories: TIL, OpenMP, Proportional control
+categories: [OpenMP, "Proportional control"]
 ---
 TIL Ctrl-R trick of using `history` in Linux [How to use the history command in Linux](https://opensource.com/article/18/6/history-command). `history -d <line number>` removes a line from history and `history -c` clears history. `!sudo` searches in history last command starting from "sudo" and reruns it, while `!sudo:p` just displays found command without running it. `!?echo` searching and runs last command having substring "echo".
 

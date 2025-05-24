@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL `NSHost`/`CFHost`/`Host`; Watched Swift Talk #116 Building a Custom XML Decoder; Read Diseconomies of Scale and Lines of Code"
 date:   2019-05-14 19:14:00 +0200
-categories: TIL, Swift, iOS, macOS, Foundation, NSHost, CFHost, Host, PluggableAppDelegate, XML, LilyPond, architecture, estimate, MVC
+categories: [Swift, iOS, macOS, Foundation, NSHost, CFHost, Host, PluggableAppDelegate, XML, LilyPond, architecture, estimate, MVC]
 ---
 Exploring Swift Foundation came across [`Host` class aka `NSHost`](https://github.com/apple/swift-corelibs-foundation/blob/master/Foundation/Host.swift). What? Why a have never heard of it? I remember using something [lowlevel like this](https://zachwaugh.com/posts/programmatically-retrieving-ip-address-of-iphone) a couple of years ago. Well, for whatever reason `NSHost`/`Host` isn't available on iOS. But `CFHost` is. Good to know. One more interesting finding. `Host()` just crashes. Documentation says:
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL ssh -A for agent forwarding"
 date:   2023-10-24 19:21:00 +0200
-categories: TIL, ssh, agent forward
+categories: [ssh, "agent forward"]
 ---
 TIL ssh -A aka agent forward while setting vscode to work with project on remote computer. I did't get from man what exactly -A is for so I asked chatGPT:
 

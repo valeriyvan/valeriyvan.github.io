@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL Python Decorators"
 date:   2023-12-01 19:32:00 +0200
-categories: TIL, Python
+categories: [Python]
 ---
 TIL [Python Decorators](https://www.youtube.com/watch?v=r7Dtus7N4pI).

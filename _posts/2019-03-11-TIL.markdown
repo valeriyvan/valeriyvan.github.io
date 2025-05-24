@@ -2,6 +2,5 @@
 layout: post
 title:  "Watched Point Free issue #50 Generative Art: Part 2"
 date:   2019-03-11 19:11:00 +0200
-categories: 
----
+categories: [---]
 Watched [Point Free issue #50 Generative Art: Part 2](https://www.pointfree.co/episodes/ep50-generative-art-part-2). These guys are mad!

@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to rotate UIImage properly"
 date:   2023-06-23 18:40:00 +0200
-categories: TIL, UIImage, iOS 17, Image rotation, Image orientation
+categories: [UIImage, "iOS 17", "Image rotation", "Image orientation"]
 ---
 TIL iOS 17 introduces new [initializer for `UIImage` `init(resource: ImageResource)`](https://developer.apple.com/documentation/uikit/uiimage/4176594-init). `ImageResource` is [opaque structure having initializer `init(name: String, bundle: Bundle)`](https://developer.apple.com/documentation/developertoolssupport/imageresource).
 

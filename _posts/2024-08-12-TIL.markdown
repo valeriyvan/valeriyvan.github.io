@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL `wcurl` and `ipatool`"
 date:   2024-08-12 22:34:00 +0200
-categories: TIL, curl, wcurl, Xcode, Debug
+categories: [curl, wcurl, Xcode, Debug]
 ---
 TIL [`wcurl`](https://github.com/curl/wcurl).
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Opaque Types chapter in Swift manual"
 date:   2019-08-08 19:08:00 +0200
-categories: TIL, Swift, Opaque Types
+categories: [Swift, "Opaque Types"]
 ---
 Transformation while vectorizing code I have been tinkering with:
 

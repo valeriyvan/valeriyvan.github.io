@@ -2,6 +2,6 @@
 layout: post
 title:  "Watched WWDC23 Platforms State of the Union"
 date:   2023-06-12 18:12:00 +0200
-categories: TIL, WWDC, WWDC23
+categories: [WWDC, WWDC23]
 ---
 Watched [Platforms State of the Union](https://developer.apple.com/wwdc23/102).

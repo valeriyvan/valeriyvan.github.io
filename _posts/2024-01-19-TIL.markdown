@@ -2,6 +2,6 @@
 layout: post
 title:  "Passed over SwiftUI tutorial SwiftUI essentials. Creating and combining views"
 date:   2024-01-19 20:19:00 +0200
-categories: TIL, SwiftUI
+categories: [SwiftUI]
 ---
 Passed over SwiftUI tutorial [SwiftUI essentials. Creating and combining views](https://developer.apple.com/tutorials/swiftui/creating-and-combining-views).

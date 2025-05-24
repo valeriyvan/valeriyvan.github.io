@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched Swift talk about String interpolation in Swift 5; Read very old post of Natasha The Robot Swift: What are Protocols with Associated Types?; Watched Alexis Gallagher's talk Protocols with Associated Types"
 date:   2019-03-16 19:16:00 +0200
-categories: TIL, Swift, String, String interpolation, Protocols, rotocols with Associated Types, Associated Types
+categories: [Swift, String, "String interpolation", Protocols, "rotocols with Associated Types", "Associated Types"]
 ---
 Watched Swift talk about [string interpolation in Swift 5](https://talk.objc.io/episodes/S01E143-string-interpolation-in-swift-5). Yes, Swift 5 is coming.
 

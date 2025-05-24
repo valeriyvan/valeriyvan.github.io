@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL Image segmentation with deep learning"
 date:   2020-12-21 19:20:00 +0200
-categories: TIL, Image segmentation, Deep Learning
+categories: ["Image segmentation", "Deep Learning"]
 ---
 Attended meetup [Image segmentation with deep learning](https://docs.google.com/presentation/d/1Ft6fv9XBtMgK0OISEAgcmxp24yvXHOIvil9M-CJ2z7g/edit?usp=sharing). Learned difference between semantic segmentation vs instance segmentation. [withoutbg.com](https://withoutbg.com) and [segmentive.ai](https://www.segmentive.ai) - very good examples of what could be done.

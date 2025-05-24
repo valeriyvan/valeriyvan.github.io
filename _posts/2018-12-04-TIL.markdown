@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL imgaug library for augmenting images"
 date:   2018-12-04 19:04:00 +0200
-categories: TIL, imgaug, Image augmentation, Machine learning
+categories: [imgaug, "Image augmentation", "Machine learning"]
 ---
 Interesting to explore why this compiles:
 

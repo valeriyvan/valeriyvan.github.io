@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Memory Safety, Deinitialization, Strings and Characters chapters of The Swift programming language"
 date:   2019-11-14 19:14:00 +0200
-categories: TIL, Swift, Memory Safety, String, Charachter, Multiline
+categories: [Swift, "Memory Safety", String, Charachter, Multiline]
 ---
 Read again [Memory Safety](https://docs.swift.org/swift-book/LanguageGuide/MemorySafety.html) chapter of The Swift programming language, then chapter [Deinitialization](https://docs.swift.org/swift-book/LanguageGuide/Deinitialization.html), then [Strings and Characters](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html). Some details of Multiline String Literals slippered from my mind:
 

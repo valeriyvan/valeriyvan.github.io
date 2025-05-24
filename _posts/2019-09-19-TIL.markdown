@@ -2,7 +2,7 @@
 layout: post
 title:  "Completely forgot `dispatch_once` was removed"
 date:   2019-09-19 19:19:00 +0200
-categories: TIL, Swift, dispatch_once
+categories: [Swift, dispatch_once]
 ---
 As follow up after discussion about way of tolling payment for subscription for iOS app explored way how and why Netflix doesn't give way to pay trough iTunes for new users. [Billing FAQs](https://help.netflix.com/en/node/25097):
 

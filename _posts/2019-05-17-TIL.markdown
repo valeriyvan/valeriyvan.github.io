@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL there's no library for iOS for rendering SVG with full support of static features"
 date:   2019-05-17 19:17:00 +0200
-categories: CommonMark, Folds
+categories: [CommonMark, Folds]
 ---
 Learned that finding library for iOS for rendering SVG with full support of static (meaning animation is not supported) features is tough. There're plenty of libraries. But none of them renders what I need. None of them clearly states which features of SVG are supported and which are not.

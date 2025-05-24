@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL How async/await works internally in Swift"
 date:   2024-02-27 21:14:00 +0200
-categories: TIL, SwiftUI, async/await
+categories: [SwiftUI, async/await]
 ---
 Read [SwiftUI Toolbar: Everything You Need to Know](https://holyswift.app/how-to-create-toolbar-in-swiftui/).
 

@@ -2,6 +2,6 @@
 layout: post
 title:  "Read post Swift Package Manager builds iOS frameworks"
 date:   2019-03-04 19:04:00 +0200
-categories: TIL, Swift, Swift Package Manager 
+categories: [Swift, "Swift Package Manager"]
 ---
 Read post [Swift Package Manager builds iOS frameworks](https://badootech.badoo.com/swift-package-manager-builds-ios-frameworks-updated-xcode-10-2-beta-19b3e6741bda). May be times are coming when "Carthage or CocoaPods?" will not be relevant question. 

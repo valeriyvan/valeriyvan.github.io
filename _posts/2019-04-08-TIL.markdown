@@ -2,7 +2,7 @@
 layout: post
 title:  "Re-read [Getting Started with Swift Compiler Development; Watched Point Free issue #53 Swift Syntax Enum Properties"
 date:   2019-04-08 19:08:00 +0200
-categories: TIL, Swift, RawValue, CodingUserInfoKey
+categories: [Swift, RawValue, CodingUserInfoKey]
 ---
 Shouldn't `RawValue` be used somewhere in [`CodingUserInfoKey` struct](https://github.com/apple/swift/blob/22b514353c96343c6336fd095bb186bdecc93c34/stdlib/public/core/Codable.swift.gyb)? Otherwise it isn't needed.
 

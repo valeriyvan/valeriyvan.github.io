@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL what are Test Doubles"
 date:   2024-10-13 21:38:00 +0200
-categories: TIL, Test Doubles, XCTest, swift-testing
+categories: ["Test Doubles", XCTest, swift-testing]
 ---
 Read [Apple's swift-testing documentation](https://developer.apple.com/xcode/swift-testing/).
 

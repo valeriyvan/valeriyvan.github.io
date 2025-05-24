@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL some new stuff on Swift Alps 2019 second day ⛷"
 date:   2019-11-29 19:29:00 +0200
-categories: TIL, Swift Alps 2019, Swift, Swift for TensorFlow, Audio Synthesis, AudioKit, SwiftUI
+categories: ["Swift Alps 2019", Swift, "Swift for TensorFlow", "Audio Synthesis", AudioKit, SwiftUI]
 ---
 Session 1 Swift for TensorFlow. By [Paris Buttfield-Addison](https://twitter.com/parisba). Second workshop [here](https://aiwithswift.com/events/swiftalps19).
 

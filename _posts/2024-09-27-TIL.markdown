@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL swift-java, Swift Java Interoperability Tools and Libraries"
 date:   2024-09-27 22:49:00 +0200
-categories: TIL, Swift, Java, swift-java
+categories: [Swift, Java, swift-java]
 ---
 TIL [swift-java, Swift Java Interoperability Tools and Libraries](https://github.com/swiftlang/swift-java). While I’m not sure how it will be useful to me yet, its existence suggests that Swift is maturing as a language.

@@ -2,6 +2,6 @@
 layout: post
 title:  "Read fun post How I have interviewed hundred people, rejected everyone and only then learnt how to interview"
 date:   2019-02-20 19:20:00 +0200
-categories: TIL, Interview process
+categories: ["Interview process"]
 ---
 Read fun post [How I have interviewed hundred people, rejected everyone and only then learnt how to interview (Russian)](https://habr.com/ru/post/440930/). It's extremely good written.

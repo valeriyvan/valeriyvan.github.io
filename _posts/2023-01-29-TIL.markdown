@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL alloca"
 date:   2023-01-29 18:25:00 +0200
-categories: TIL, C, alloca
+categories: [C, alloca]
 ---
 TIL `alloca` function in C to dynamically allocate memory on stack. Also learned it's extremely unsafe and is discouraged to use.
 

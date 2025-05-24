@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL GeometryReader in SwiftUI"
 date:   2024-12-29 21:16:00 +0200
-categories: TIL, ESC, SwiftUI, GeometryReader
+categories: [ESC, SwiftUI, GeometryReader]
 ---
 I finally found confirmation that ESCs (Electronic Speed Controllers) for brushless motors regulate speed not by varying voltage but by controlling the timing of current pulses sent to the motor’s windings: [Wiki: Electronic speed control](https://en.wikipedia.org/wiki/Electronic_speed_control).
 

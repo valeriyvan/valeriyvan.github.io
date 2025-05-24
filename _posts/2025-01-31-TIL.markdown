@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched Stop Using ZStack in SwiftUI"
 date:   2025-01-31 21:33:00 +0200
-categories: TIL, SwiftUI, ZStack
+categories: [SwiftUI, ZStack]
 ---
 Watched [Stop Using ZStack in SwiftUI](https://www.youtube.com/watch?v=1bwFFGxTwuI).
 

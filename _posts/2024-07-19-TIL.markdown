@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched WWDC 2022 video Meet distributed actors in Swift, Read Concurrency chapter of The Swift Programming language book"
 date:   2024-07-19 21:35:00 +0200
-categories: TIL, Swift, Distributed actors, Concurrency
+categories: [Swift, "Distributed actors", Concurrency]
 ---
 Watched WWDC 2022 video [Meet distributed actors in Swift](https://developer.apple.com/videos/play/wwdc2022/110356/).
 

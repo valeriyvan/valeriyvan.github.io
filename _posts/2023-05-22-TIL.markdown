@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL Swift 5.7 have added functions `trimPrefix` and `trimmingPrefix`"
 date:   2023-05-22 19:22:00 +0200
-categories: TIL, Swift, trimPrefix, trimmingPrefix
+categories: [Swift, trimPrefix, trimmingPrefix]
 ---
 TIL Swift 5.7 have added functions [`trimPrefix`](https://developer.apple.com/documentation/swift/collection/trimprefix(_:)) and [`trimmingPrefix`](https://developer.apple.com/documentation/swift/bidirectionalcollection/trimmingprefix(_:)-1luge?changes=l_3) to collections and sequences. Documentation is incorrect so [I have fixed it](https://github.com/apple/swift-experimental-string-processing/pull/673).

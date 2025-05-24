@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Implementing Hash Table Algorithms in Swift; Source code of Dictionary.swift"
 date:   2019-07-16 19:16:00 +0200
-categories: TIL, Swift, Hash Table, Dictionary, Tombstone, stdlib, KeyValuePairs
+categories: [Swift, "Hash Table", Dictionary, Tombstone, stdlib, KeyValuePairs]
 ---
 Browsed post [Implementing Hash Table Algorithms in Swift](https://medium.com/swift-algorithms-data-structures/understanding-hash-table-algorithms-in-swift-3476828bea69) by Wayne Bishop, author of [Swift Algorithms & Data Structures book](https://www.amazon.com/Swift-Algorithms-Structures-Wayne-Bishop/dp/0692511768).
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Swift Generics Evolution"
 date:   2019-09-10 19:10:00 +0200
-categories: TIL, Swift, Generics
+categories: [Swift, Generics]
 ---
 Looked into this [xcode-dev-cleaner](https://github.com/vashpan/xcode-dev-cleaner) to fix md calculation.
 

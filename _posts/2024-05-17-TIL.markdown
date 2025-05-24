@@ -2,6 +2,6 @@
 layout: post
 title:  "Read Async Await in Swift: Concurrency Explained [With Examples]"
 date:   2024-05-17 21:54:00 +0200
-categories: TIL, Swift, async/await
+categories: [Swift, async/await]
 ---
 Read [Async Await in Swift: Concurrency Explained [With Examples]](https://matteomanferdini.com/swift-async-await/).

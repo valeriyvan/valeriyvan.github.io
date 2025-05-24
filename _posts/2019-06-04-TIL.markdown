@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched WWDC 2019 session #204 video Introducing SwiftUI: Building Your First App"
 date:   2019-06-04 19:04:00 +0200
-categories: TIL, Netron
+categories: [Netron]
 ---
 Installed [Netron](https://github.com/lutzroeder/netron) and played with exploring CoreML models.
 

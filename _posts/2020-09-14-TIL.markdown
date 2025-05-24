@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL difference between `class` and `static` members in Swift; what is redacted view"
 date:   2020-09-14 19:20:00 +0200
-categories: TIL, Swift, class, static
+categories: [Swift, class, static]
 ---
 Watched Point Free episode #115 [█████ed SwiftUI: The Problem](https://www.pointfree.co/episodes/ep115-redacted-swiftui-the-problem). Very interesting. Now I know what is redacted view.
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL binary or octal literal in Swift; rounding in Swift; shell script to run some cli on every file matching pattern"
 date:   2020-02-06 19:06:00 +0200
-categories: TIL, Swift, Literals, Octal, Binary, shell
+categories: [Swift, Literals, Octal, Binary, shell]
 ---
 Spend more than an hour for writing simple shell script to run some cli on every file matching pattern:
 

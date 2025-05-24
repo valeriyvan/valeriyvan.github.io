@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Makefile effect"
 date:   2025-01-14 21:40:00 +0200
-categories: TIL
+categories: []
 ---
 TIL Makefile effect: [Be aware of the Makefile effect](https://blog.yossarian.net/2025/01/10/Be-aware-of-the-Makefile-effect).
 

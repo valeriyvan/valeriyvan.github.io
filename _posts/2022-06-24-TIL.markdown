@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL built-in sound classification in SoundAnalysis framework"
 date:   2022-06-24 19:55:00 +0200
-categories: TIL, SoundAnalysis framework, sound classification, Apple platforms
+categories: ["SoundAnalysis framework", "sound classification", "Apple platforms"]
 ---
 Watched [WWDC 2021 session video Discover built-in sound classification in SoundAnalysis](https://developer.apple.com/videos/play/wwdc2021/10036).

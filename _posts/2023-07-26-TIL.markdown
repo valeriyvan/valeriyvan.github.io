@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Dunder methods in Python"
 date:   2023-07-26 11:45:00 +0200
-categories: TIL, symlink, git commit hash, Python dunder methods, Python wildcard import,
+categories: [symlink, "git commit hash", "Python dunder methods", "Python wildcard import", ]
 ---
 TIL [how to create symlinks](https://apple.stackexchange.com/a/115647).
 

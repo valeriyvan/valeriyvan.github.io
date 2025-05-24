@@ -2,6 +2,6 @@
 layout: post
 title:  "Read MainActor usage in Swift explained to dispatch to the main thread"
 date:   2024-11-13 21:31:00 +0200
-categories: TIL, Swift, MainActor
+categories: [Swift, MainActor]
 ---
 Read [MainActor usage in Swift explained to dispatch to the main thread](https://www.avanderlee.com/swift/mainactor-dispatch-main-thread/).

@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Crazyflie 2.0: System Architecture"
 date:   2023-02-09 18:01:00 +0200
-categories: TIL, Crazyflie System Architecture
+categories: ["Crazyflie System Architecture"]
 ---
 Read [Crazyflie 2.0: System Architecture](https://www.bitcraze.io/2014/07/crazyflie-2-0-system-architecture/).
 

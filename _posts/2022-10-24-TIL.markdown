@@ -2,6 +2,6 @@
 layout: post
 title:  "Bookmarking post Why I am sceptical selfdiving cars will boom in next 5 years"
 date:   2022-10-24 20:03:00 +0200
-categories: Bookmark, selfdriving
+categories: [Bookmark, selfdriving]
 ---
 Bookmarkinng post [Why I am sceptical selfdiving cars will boom in next 5 years (Russian)](https://habr.com/ru/post/690826/) which I will share with overoptimistic pals.

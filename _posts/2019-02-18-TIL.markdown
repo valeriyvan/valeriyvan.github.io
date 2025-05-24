@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to extend all floating point types at ones in Swift"
 date:   2019-02-18 19:18:00 +0200
-categories: TIL, Swift, Protocol oriented programming, Float, CGFloat, Double, Float80, FloatingPoint, BinaryFloatingPoint
+categories: [Swift, "Protocol oriented programming", Float, CGFloat, Double, Float80, FloatingPoint, BinaryFloatingPoint]
 ---
 About a month ago, on 13 of January, I have written about exnending all float types (`Float`, `CGFloat`, `Double` and `Float80`) at once by extending `FloatingPoint`. This day come. After writing 100 times function for conversion from degrees to radians and vise versa I decided it's time to write something generic. It turns out not to be that easy. 
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched a bunch of lectures about Crazyflie"
 date:   2023-02-16 19:13:00 +0200
-categories: Crazyflie
+categories: [Crazyflie]
 ---
 Watched [Crazyflie AI-deck Workshop 1](https://www.youtube.com/watch?v=o9asYPHxEB4). For me worth watching since 28:00. Or better even since 40:00. Has interesting stuff like [streaming images from AI-deck over WiFi](https://github.com/bitcraze/aideck-gap8-examples/tree/master/examples/other/wifi-img-streamer). Repo for workshop - [AI deck workshop](https://github.com/pulp-platform/AI-deck-workshop). 
 

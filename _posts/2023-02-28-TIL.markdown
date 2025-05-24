@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched WWDC 2014 video about Accelerate, read about Factory pattern in Swift"
 date:   2023-02-28 19:03:00 +0200
-categories: TIL, Accelerate framework, Factory pattern, Swift
+categories: ["Accelerate framework", "Factory pattern", Swift]
 ---
 Read slides of [WWDC 2014 session video703 Whats new in the Accelerate framework](https://devstreaming-cdn.apple.com/videos/wwdc/2014/703xx9ich9e8mkn/703/703_whats_new_in_the_accelerate_framework.pdf). There's good example there how to copy string with `simd.h`.
 

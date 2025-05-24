@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL APPLE DEVELOPER RESOURCES for Swift; Swift Driver"
 date:   2022-11-02 21:05:00 +0200
-categories: TIL, Swift, Apple platforms
+categories: [Swift, "Apple platforms"]
 ---
 Read Swift documentation [The Swift Driver, Compilation Model, and Command-Line Experience](https://github.com/apple/swift/blob/main/docs/Driver.md).
 

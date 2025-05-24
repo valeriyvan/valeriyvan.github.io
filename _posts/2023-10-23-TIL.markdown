@@ -2,7 +2,7 @@
 layout: post
 title:  "Dug in AirSim sources"
 date:   2023-10-23 19:15:00 +0200
-categories: TIL, AirSim, Swift Package Manager
+categories: [AirSim, "Swift Package Manager"]
 ---
 Dug in [AirSim](https://github.com/microsoft/AirSim/) sources and found in [`RotorParams.hpp`](https://github.com/microsoft/AirSim/blob/main/AirLib/include/vehicles/multirotor/RotorParams.hpp) interesting link to [propeller performance database](http://m-selig.ae.illinois.edu/props/propDB.html): [UIUC Propeller Data Site](https://m-selig.ae.illinois.edu/props/propDB.html).
 

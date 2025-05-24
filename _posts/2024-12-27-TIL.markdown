@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL some bash tricks"
 date:   2024-12-27 21:29:00 +0200
-categories: TIL, bash
+categories: [bash]
 ---
 ```bash
 mkdir -p {dev,test,prod}/{backend,frontend}

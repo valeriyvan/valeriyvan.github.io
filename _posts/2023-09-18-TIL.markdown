@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL about SBUS"
 date:   2023-09-18 13:18:00 +0200
-categories: TIL, SBUS
+categories: [SBUS]
 ---
 Googled for SBUS specification and failed to find good source of information. Then I asked ChatGPT: "Give me specification of SBUS protocol used in remote controlled vehicles." Here is the answer:
 

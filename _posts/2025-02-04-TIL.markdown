@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to make lazy navigation in SwiftUI"
 date:   2025-02-04 21:22:00 +0200
-categories: TIL, SwiftUI, NavigationLink, Lazy, GitHub
+categories: [SwiftUI, NavigationLink, Lazy, GitHub]
 ---
 Read [Lazy navigation in SwiftUI](https://swiftwithmajid.com/2021/01/27/lazy-navigation-in-swiftui/). This didn't work for me.
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL `String` in Swift has `sorted()` returning `[Character]`; `Array` of `Equatable` is `Equatable`"
 date:   2019-02-12 19:12:00 +0200
-categories: TIL, Swift, String, Array, API
+categories: [Swift, String, Array, API]
 ---
 Findings of the day:
 

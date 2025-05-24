@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL about test coverage reports in Swift Package apps"
 date:   2024-05-14 10:41:00 +0200
-categories: TIL, Swift, SPM, Quadcopter, Render, Embedded Swift
+categories: [Swift, SPM, Quadcopter, Render, "Embedded Swift"]
 ---
 Read again [Reporting test coverage for Swift packages without Xcode](https://medium.com/touchwonders/reporting-test-coverage-for-swift-packages-without-xcode-958ce9965abd).
 

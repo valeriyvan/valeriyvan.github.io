@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL `FloatingPoint` protocol in Swift; Read Training YOLOv3 for custom objects"
 date:   2019-01-13 19:13:00 +0200
-categories: TIL, Swift, FloatingPoint, Math.Floating, Float, Double, Float80, BinaryFloatingPoint, YOLOv3
+categories: [Swift, FloatingPoint, Math.Floating, Float, Double, Float80, BinaryFloatingPoint, YOLOv3]
 ---
 Minor [PR](https://github.com/JohnCoates/Aerial/pull/700) to Aerial.
 

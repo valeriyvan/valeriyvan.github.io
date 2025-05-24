@@ -2,7 +2,7 @@
 layout: post
 title:  "Read swifting.io issue #53 First steps with NFC on iOS 13"
 date:   2019-07-30 19:30:00 +0200
-categories: TIL, 
+categories: []
 ---
 After reading [Unused images and resources clean up in Xcode](https://www.avanderlee.com/optimization/unused-images-clean-up/) started to use new tools including bonus [DevCleaner](https://github.com/vashpan/xcode-dev-cleaner) for cleaning up  Xcode developer files. Tools for cleaning up Xcode from unused localized string are waiting: [Unused localized strings clean up from a Strings file](https://www.avanderlee.com/xcode/unused-localized-strings/).
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Read How Did REST Come To Mean The Opposite of REST"
 date:   2024-01-29 18:48:00 +0200
-categories: TIL, Robotics Academy, FastUI, REST
+categories: ["Robotics Academy", FastUI, REST]
 ---
 Bookmarking [Robotics Academy](http://jderobot.github.io/RoboticsAcademy/). 
 

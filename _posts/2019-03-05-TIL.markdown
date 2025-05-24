@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched some videos from dotSwift conferences; TIL libraries Unbox, ObjectMapper, Gloss for mapping objects in Swift "
 date:   2019-03-05 19:05:00 +0200
-categories: TIL, Swift, dotSwift, Mapping, Unbox, ObjectMapper, Gloss, High performance systems
+categories: [Swift, dotSwift, Mapping, Unbox, ObjectMapper, Gloss, "High performance systems"]
 ---
 Watched some videos from dotSwift conferences:
 

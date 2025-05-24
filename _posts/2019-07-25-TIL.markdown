@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Reducing Memory Footprint and OOM Terminations in iOS"
 date:   2019-07-25 19:25:00 +0200
-categories: TIL, Swift, Error Handling, OOM
+categories: [Swift, "Error Handling", OOM]
 ---
 Read [Reducing Memory Footprint and OOM Terminations in iOS](https://medium.com/flawless-app-stories/techniques-to-reduce-memory-footprint-and-oom-terminations-in-ios-a0f6bef38217). OOM stands for Out Of memory.
 

@@ -2,6 +2,6 @@
 layout: post
 title:  "Watched Stanford's CS193P Spring 2021 Lecture 2: Learning more about SwiftUI and Lecture 3: MVVM and the Swift type system"
 date:   2023-05-07 15:25:00 +0200
-categories: Stanford, CS193P, Swift, SwiftUI, MVVM
+categories: [Stanford, CS193P, Swift, SwiftUI, MVVM]
 ---
 Watched [Stanford's CS193P Spring 2021 Lecture 2: Learning more about SwiftUI](https://www.youtube.com/watch?v=3lahkdHEhW8) and [Lecture 3: MVVM and the Swift type system](https://www.youtube.com/watch?v=--qKOhdgJAs). I like it! Once per several years I watch these couse updated and every time I enjoy it.

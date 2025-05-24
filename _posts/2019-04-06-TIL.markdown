@@ -2,7 +2,7 @@
 layout: post
 title:  "Read John Sundell's post Inline types and functions in Swift"
 date:   2019-04-06 19:06:00 +0200
-categories: TIL, Swift, Inlining, AnyObject
+categories: [Swift, Inlining, AnyObject]
 ---
 Read John Sundell's post [Inline types and functions in Swift](https://www.swiftbysundell.com/posts/inline-types-and-functions-in-swift). Flashback from the past:
 

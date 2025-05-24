@@ -2,7 +2,7 @@
 layout: post
 title:  "Dug with MavLink whole day"
 date:   2023-07-22 17:35:00 +0200
-categories: TIL, MavLink
+categories: [MavLink]
 ---
 Read [A Review of Open-Source Flight Control Systems](https://reefwing.medium.com/a-review-of-open-source-flight-control-systems-2fe37239c9b6).
 

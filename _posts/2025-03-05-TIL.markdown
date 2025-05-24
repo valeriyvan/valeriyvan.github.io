@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL app intents in iOS"
 date:   2025-03-05 21:34:00 +0200
-categories: TIL, iOS
+categories: [iOS]
 ---
 TIL app intents in iOS: [Creating your first app intent](https://developer.apple.com/documentation/appintents/creating-your-first-app-intent).
 

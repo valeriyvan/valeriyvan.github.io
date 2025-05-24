@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL different array ordering naming row-major (aka C order) and column-major (aka Fortran order)"
 date:   2019-07-01 19:02:00 +0200
-categories: TIL, FFTW, Array ordering, row-major, column-major, C order, Fortran order, C99, Complex numbers
+categories: [FFTW, "Array ordering", row-major, column-major, "C order", "Fortran order", C99, "Complex numbers"]
 ---
 Continuing fucking with [FFTW](http://www.fftw.org)came across this [gist](https://gist.github.com/ricpacca/652ab90ba3a5754e980c78d6634b84a0) which worked for me. Learned that importing 'complex.h' one could use expressions like `double complex z1 = 1.0 + 3.0 * I;` in plain C (taken from this [stackoverflow answer](https://stackoverflow.com/a/9860772/942513)). It's C99. [Same works in C++](https://en.cppreference.com/w/c/numeric/complex). Finally found out that failure last Friday was not because of `complex.h` being to included but because of my buffer overflow bug.
 

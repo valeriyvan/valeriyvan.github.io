@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to save image data into a file in debug session in Xcode"
 date:   2023-12-14 20:31:00 +0200
-categories: TIL, Xcode, Debug
+categories: [Xcode, Debug]
 ---
 
 How to save image data into a file in debug session in Xcode? Suppose `d` is `Data` of PNG image. To save it into a file just run in Xcode console `expr try! d.write(to: URL(filePath: "/tmp/1.png"))`.

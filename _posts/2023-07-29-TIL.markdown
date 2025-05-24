@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Ubuntu cannot be installed from packages on Raspberry Pi Zero v1; Played with GPIO on Jetson"
 date:   2023-07-29 19:29:00 +0200
-categories: TIL, Raspberry Pi Zero, Ubuntu, Raspbian, GPIO
+categories: ["Raspberry Pi Zero", Ubuntu, Raspbian, GPIO]
 ---
 TIL that [Ubuntu cannot be installed from packages on Raspberry Pi Zero v1](https://askubuntu.com/a/703071), but [on v2 can](https://askubuntu.com/a/1383831). But [Raspbian](https://www.raspbian.org) could be installed on both. That works for me.
 

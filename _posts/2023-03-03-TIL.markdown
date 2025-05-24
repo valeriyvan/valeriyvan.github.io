@@ -2,7 +2,7 @@
 layout: post
 title:  "Overflow arithmetic vs saturating arithmetic vs regular arithmetic"
 date:   2023-03-03 19:33:00 +0200
-categories: TIL, Swift, Overflow arithmetic, wrapping arithmetic
+categories: [Swift, "Overflow arithmetic", "wrapping arithmetic"]
 ---
 Working on optimizing search for a byte in a buffer for [`[stdlib] Add to Unsafe[Mutable]RawBufferPointer implementation of _custom[Last]IndexOfEquatableElement`](https://github.com/apple/swift/pull/63128) return to blog post [Finding Bytes in Arrays](https://richardstartin.github.io/posts/finding-bytes#finding-null-terminators-without-branches). Now I bookmark it here to save search time when I will need it next time.
 

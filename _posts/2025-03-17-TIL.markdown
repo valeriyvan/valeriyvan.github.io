@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to use Router and Coordinator patterns in SwiftUI"
 date:   2025-03-17 21:29:00 +0200
-categories: TIL, SwiftUI, Router Pattern, Coordinator Pattern]
+categories: [SwiftUI, "Router Pattern", "Coordinator Pattern]"]
 ---
 Watched WWDC 2021 session [Explore advanced project configuration in Xcode](https://developer.apple.com/videos/play/wwdc2021/10210/).
 

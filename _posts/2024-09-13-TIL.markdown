@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Safe C++"
 date:   2024-09-13 21:49:00 +0200
-categories: TIL, Safe C++
+categories: ["Safe C++"]
 ---
 TIL [Safe C++](https://safecpp.org/P3390R0.html), a proposal to make C++ safer.
 

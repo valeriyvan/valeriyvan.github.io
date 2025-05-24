@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL `async`/`await` in JavaScript"
 date:   2023-12-03 19:34:00 +0200
-categories: TIL, JavaScript, async/await
+categories: [JavaScript, async/await]
 ---
 TIL `async`/`await` in JavaScript: [A Beginner’s Guide to JavaScript `async`/`await`, with Examples](https://www.sitepoint.com/javascript-async-await/). Used this it pull request [Update geometrized svg results in 10 steps on web page](https://github.com/valeriyvan/geometrizebot/pull/61).

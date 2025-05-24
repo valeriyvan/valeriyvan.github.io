@@ -2,7 +2,7 @@
 layout: post
 title:  "Bookmarking Fast Quicksort Implementation Using AVX Instructions"
 date:   2024-03-30 19:27:00 +0200
-categories: TIL, Sort, Quicksort, Intel, AVX
+categories: [Sort, Quicksort, Intel, AVX]
 ---
 Bookmarking [Fast Quicksort Implementation Using AVX Instructions](/assets/docs/Fast%20Quicksort%20Implementation%20Using%20AVX%20Instructions.pdf).
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL what is Filesystem Hierarchy Standard (FHS) and difference between `/tmp` and `/var/tmp`"
 date:   2023-08-17 19:21:00 +0200
-categories: TIL, FHS, Filesystem Hierarchy Standard, PiJuice
+categories: [FHS, "Filesystem Hierarchy Standard", PiJuice]
 ---
 TIL [difference between `/tmp` and `/var/tmp`](https://unix.stackexchange.com/a/30504).
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL swift-noise"
 date:   2024-07-23 21:16:00 +0200
-categories: TIL, Swift, SVG
+categories: [Swift, SVG]
 ---
 TIL [swift-noise](https://github.com/tayloraswift/swift-noise) - a free, pure Swift procedural noise generation library.
 

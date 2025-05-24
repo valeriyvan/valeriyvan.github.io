@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL about `keyboardLayoutGuide` in iOS 15"
 date:   2023-10-28 19:22:00 +0200
-categories: TIL, iOS, keyboardLayoutGuide, Vulkan, Nvidia
+categories: [iOS, keyboardLayoutGuide, Vulkan, Nvidia]
 ---
 TIL about [`keyboardLayoutGuide`](https://developer.apple.com/documentation/uikit/uiview/3752221-keyboardlayoutguide) which appeared in iOS 15.
 

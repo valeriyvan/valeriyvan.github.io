@@ -2,6 +2,6 @@
 layout: post
 title:  "Read Organizing Your Code with Local Packages"
 date:   2020-12-18 19:00:00 +0200
-categories: TIL, SwiftPM, Local Packages
+categories: [SwiftPM, "Local Packages"]
 ---
 Read [Organizing Your Code with Local Packages](https://developer.apple.com/documentation/swift_packages/organizing_your_code_with_local_packages).

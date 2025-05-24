@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how iOS app can connect device to WiFi"
 date:   2025-03-12 22:01:00 +0200
-categories: TIL, Wi-Fi, SwiftUI, NavigationLink, NavigationStack
+categories: [Wi-Fi, SwiftUI, NavigationLink, NavigationStack]
 ---
 TIL how iOS app can connect device to WiFi: [Wi-Fi configuration](https://developer.apple.com/documentation/networkextension/wi-fi-configuration). Add persistent Wi-Fi configurations, or temporarily move the device to a specific Wi-Fi network.
 

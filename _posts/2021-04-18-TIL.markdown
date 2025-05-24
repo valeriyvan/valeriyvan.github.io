@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL XCFramework format in Xcode 11 (Binary Frameworks in Swift)"
 date:   2021-04-18 19:12:00 +0200
-categories: TIL, Xcode, Swift, Frameworks, XCFramework
+categories: [Xcode, Swift, Frameworks, XCFramework]
 ---
 Watched [WWDC 2019 Session 416 video Binary Frameworks in Swift](https://developer.apple.com/videos/play/wwdc2019/416/) about new XCFramework format in Xcode 11.

@@ -2,7 +2,7 @@
 layout: post
 title:  "Read great A Primer on Bézier Curves"
 date:   2023-10-12 19:27:00 +0200
-categories: TIL, git, Bresenham
+categories: [git, Bresenham]
 ---
 TIL how to unstash certain files: `git checkout stash@{<index-no>} -- <filename>` or `git restore -- source=stash@{<index-no>} -- <filename>`
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Read How to Prepare for a Technical Interview at Facebook; Dug in sources of Swift standard library"
 date:   2018-11-28 19:28:00 +0200
-categories: TIL, Technical Interview, Swift, Swift standard library
+categories: ["Technical Interview", Swift, "Swift standard library"]
 ---
 Read [How to Prepare for a Technical Interview at Facebook](https://extras.waynewbishop.com/swift/technical-interview-facebook) I was caught up with solution:
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Read about Iterator design pattern in Swift universe"
 date:   2019-12-05 19:05:00 +0200
-categories: TIL, Swift, Iterator, design pattern
+categories: [Swift, Iterator, "design pattern"]
 ---
 Read [Building a Face Detecting Robot with URLSessionWebSocketTask, CoreML, SwiftUI and an Arduino](https://swiftrocks.com/building-a-face-detecting-sentry-gun-with-urlsessionwebsockettask-coreml-swiftui-and-arduino.html).
 

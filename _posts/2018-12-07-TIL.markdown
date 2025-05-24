@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL using IBM Watson and Azure to train models for CoreML"
 date:   2018-12-07 19:07:00 +0200
-categories: TIL, IBM Watson, Azure, CoreML, CreateML, Turi, Swift, NSAttributedString
+categories: ["IBM Watson", Azure, CoreML, CreateML, Turi, Swift, NSAttributedString]
 ---
 Taken small research on using eGPU with Turi Create. It seems Thunderbolt 3 or USB-C MacBook Pro needed to connect eGPU. I am out of game.
 

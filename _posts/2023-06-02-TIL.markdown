@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL what's AWS S3 bucket policy to allow public read access to all objects in bucket looks like; TIL double click on brace/bracket in Xcode jumps to opposite one and selects block"
 date:   2023-06-02 18:41:00 +0200
-categories: TIL, AWS, S3, bucket policy
+categories: [AWS, S3, "bucket policy"]
 ---
 TIL what's AWS S3 bucket policy to allow public read access to all objects in bucket looks like:  
 

@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL Swift has a `package` access level"
 date:   2024-09-28 21:56:00 +0200
-categories: TIL, Swift
+categories: [Swift]
 ---
 TIL Swift has a `package` access level [(example)](https://github.com/swiftlang/swift-package-manager/blob/df04096301c800ae7f69e28f14af6c70bfe61def/Sources/_AsyncFileSystem/ConcurrencySupport.swift#L21). It’s explained in the [Access Control chapter](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/accesscontrol/), but I still struggle to distinguish `internal` from `package`.

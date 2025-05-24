@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched WWDC videos Beyond the basics of structured concurrency and Protect mutable state with Swift actors"
 date:   2024-07-18 21:38:00 +0200
-categories: TIL, Swift, Structured concurrency
+categories: [Swift, "Structured concurrency"]
 ---
 Watched WWDC 2023 video [Beyond the basics of structured concurrency](https://developer.apple.com/videos/play/wwdc2023/10170/).
 

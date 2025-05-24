@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL about Xcode Releases and how now old Xcode releases could be launched"
 date:   2023-08-04 18:31:00 +0200
-categories: TIL, Xcode, Xcode Releases
+categories: [Xcode, "Xcode Releases"]
 ---
 TIL about [Xcode Releases](https://xcodereleases.com) with download links to all versions of Xcode.
 

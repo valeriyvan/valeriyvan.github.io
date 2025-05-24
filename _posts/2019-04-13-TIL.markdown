@@ -2,6 +2,6 @@
 layout: post
 title:  "Watched again WWDC 2016 session #414 video Building Better Apps with Value Types in Swift"
 date:   2019-04-13 19:13:00 +0200
-categories: TIL, Swift, Value Types
+categories: [Swift, "Value Types"]
 ---
 Watched again [WWDC 2016 session #414 video Building Better Apps with Value Types in Swift](https://developer.apple.com/videos/play/wwdc2015/414/). Very useful talk about making value semantic types out of (some or all) reference semantic ones.

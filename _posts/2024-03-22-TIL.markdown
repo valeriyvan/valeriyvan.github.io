@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how macros work in Swift"
 date:   2024-03-22 21:29:00 +0200
-categories: TIL, SwiftUI, Swift, Observable, Macro
+categories: [SwiftUI, Swift, Observable, Macro]
 ---
 Browsed [Managing model data in your app](https://developer.apple.com/documentation/swiftui/managing-model-data-in-your-app).
 

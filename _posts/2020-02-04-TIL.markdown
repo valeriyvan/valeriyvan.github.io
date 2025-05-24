@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to list branches in git ordered by date of the last commit; saturation arithmetic"
 date:   2020-02-04 19:04:00 +0200
-categories: TIL, git, branch, saturation arithmetic
+categories: [git, branch, "saturation arithmetic"]
 ---
 Learned how to [list branches in git ordered by date of the last commit `git branch --sort=-committerdate`](https://stackoverflow.com/a/52295958/942513).
 

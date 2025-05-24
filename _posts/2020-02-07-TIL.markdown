@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Xcode source editor extensions"
 date:   2020-02-07 19:07:00 +0200
-categories: TIL, Xcode source editor extensions
+categories: ["Xcode source editor extensions"]
 ---
 Special class of apps, [Xcode source editor extensions, exist in the mac app store](https://apps.apple.com/de/story/id1380861178?l=en). There're even paid ones like pretty json formatter. Good to know that!
 

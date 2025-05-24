@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL some tricks of using macOS Character Viewer; Passed through of NSHipster's post about using `swift-sh`; Returned to NSHipster's post about `TextOutputStream`"
 date:   2019-02-05 19:05:00 +0200
-categories: TIL, macOSm, Character Viewer, Swift, swift-sh, CLI, TextOutputStream
+categories: [macOSm, "Character Viewer", Swift, swift-sh, CLI, TextOutputStream]
 ---
 TIL some tricks of using [macOS Character Viewer](https://nshipster.com/character-viewer/). Control-clicking a character and choose “Copy Character Info” - it's sweet! Don't know why I would need this but it's good to know that's possible: 
 

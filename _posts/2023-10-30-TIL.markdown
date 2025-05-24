@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL what is slug in URL"
 date:   2023-10-30 19:32:00 +0200
-categories: TIL, Swift, static library, dynamic library, System package, slug, UL
+categories: [Swift, "static library", "dynamic library", "System package", slug, UL]
 ---
 Read [Building static and dynamic Swift libraries using the Swift compiler](https://theswiftdev.com/building-static-and-dynamic-swift-libraries-using-the-swift-compiler/) -  it is all about emitting various Swift binaries without the Swift package manager, but only using the Swift compiler.
 

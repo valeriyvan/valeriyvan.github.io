@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL shared memory in Python"
 date:   2023-09-19 19:08:00 +0200
-categories: TIL, Python, Shared memory
+categories: [Python, "Shared memory"]
 ---
 Read [A Simple Guide to Shared Memory in Python](https://python.plainenglish.io/a-simple-guide-to-shared-memory-in-python-3c2e946ece0). Interesting the idea to synchonize access with file locks. There's also more traditional example of using semaphores. 
 

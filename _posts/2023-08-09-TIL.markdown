@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL what is the \"bookmark\" in my terminal when I touch the icon on my touchbar"
 date:   2023-08-09 19:35:00 +0200
-categories: TIL, Automator, Terminal, Bookmark, Python, with, Nonblocking stdin read
+categories: [Automator, Terminal, Bookmark, Python, with, "Nonblocking stdin read"]
 ---
 Read [How to Open Websites Automatically with Automator](https://www.hongkiat.com/blog/auto-open-websites-automator/).
 

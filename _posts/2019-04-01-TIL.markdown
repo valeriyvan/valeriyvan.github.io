@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched Point Free Issue #52 Enum Properties"
 date:   2019-04-01 19:01:00 +0200
-categories: TIL, Swift, Enum, Property
+categories: [Swift, Enum, Property]
 ---
 Watched [Point Free Issue #52 Enum Properties](https://www.pointfree.co/episodes/ep52-enum-properties). As usual, absolutely crazy stuff!
 

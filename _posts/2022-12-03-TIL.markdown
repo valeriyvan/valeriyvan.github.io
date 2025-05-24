@@ -2,7 +2,7 @@
 layout: post
 title:  "Low-level Swift optimization tips; Stable Diffusion to Core ML; Debugging Tips"
 date:   2022-12-03 19:30:00 +0200
-categories: TIL, Stable Diffusion, CoreML, optimization, debug
+categories: ["Stable Diffusion", CoreML, optimization, debug]
 ---
 TIL new things about performance in Swift [Low-level Swift optimization tips](https://swiftinit.org/articles/low-level-swift-optimization) by the author of [swift-png](https://github.com/kelvin13/swift-png) and [swift-jpeg](https://github.com/kelvin13/jpeg). Well, this quote I will point to to anyone saying Swift is faster then C:
 > Reasonably well-written Swift code without any detailed optimization can easily achieve run time performance within 200 to 250 percent of a bare-metal C implementation. (Lower is better.) 

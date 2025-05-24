@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL about different ways of reading/writing GPIO on Linux"
 date:   2020-10-02 19:13:00 +0200
-categories: TIL, Linix, GPIO
+categories: [Linix, GPIO]
 ---
 Read about different ways of [reading/writing GPIO on Linux](https://www.kernel.org/doc/html/v4.17/driver-api/gpio/index.html). 
 

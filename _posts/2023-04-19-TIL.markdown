@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Swift Power Asserts; Punycode"
 date:   2023-04-19 19:19:00 +0200
-categories: TIL, Swift Power Asserts, Punycode
+categories: ["Swift Power Asserts", Punycode]
 ---
 Read [Automating Swift command line tool releases with GitHub Actions](https://www.polpiella.dev/automating-swift-package-releases-with-github-actions/). Good tutorial to automate Homebrew releases.
 

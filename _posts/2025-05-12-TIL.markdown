@@ -2,7 +2,7 @@
 layout: post
 title:  "First tried to use Claude Code"
 date:   2025-05-12 21:16:00 +0200
-categories: TIL, Claude Code
+categories: ["Claude Code"]
 ---
 First tried to use [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview).
 

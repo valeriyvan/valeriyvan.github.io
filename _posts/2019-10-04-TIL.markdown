@@ -2,7 +2,7 @@
 layout: post
 title:  "Read An in-depth look at CoreML 3"
 date:   2019-10-04 19:04:00 +0200
-categories: TIL, Swift, SIMD
+categories: [Swift, SIMD]
 ---
 Read [An in-depth look at Core ML 3](https://machinethink.net/blog/new-in-coreml3/):
 

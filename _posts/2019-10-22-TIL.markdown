@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Sequence Hacking In Swift series; Iterator design pattern in Swift"
 date:   2019-10-22 19:22:00 +0200
-categories: TIL, Swift, Sequence, AnyIterator, Iterator design pattern
+categories: [Swift, Sequence, AnyIterator, "Iterator design pattern"]
 ---
 Being hooked with sequence yesterday, today jumped to [Sequence Hacking In Swift (I): Extending Sequences](https://digitalleaves.com/blog/2017/02/sequence-hacking-in-swift-i-map-flatmap-sort-filter-reduce/). Nothing new from this part. But this diagram worth keeping it:
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Xcode Build Configuration Files; Read Image Resizing Techniques"
 date:   2019-05-16 19:16:00 +0200
-categories: TIL, Xcode, Build Configuration Files, xcconfig, SCREAMING_SNAKE_CASE, CGAffineTransform
+categories: [Xcode, "Build Configuration Files", xcconfig, SCREAMING_SNAKE_CASE, CGAffineTransform]
 ---
 Read [Xcode Build Configuration Files](https://nshipster.com/xcconfig/). How you to use text-based [`xcconfig`](https://help.apple.com/xcode/mac/8.3/#/dev745c5c974) - that's what I always wanted to know.
 

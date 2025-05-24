@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to bind ExpressLRS remote control with drone"
 date:   2023-06-30 18:33:00 +0200
-categories: TIL, ExpressLRS
+categories: [ExpressLRS]
 ---
 TIL difference between plane propellers and drone propellers. Drones have clockwise and counterclockwise propellers. You can use a multirotor prop on an airplane as long as it is rotating the right way, and visa versa.
 

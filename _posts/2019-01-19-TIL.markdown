@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched Swift talk #135 about combined resource download and Point free episode #43 The Many Faces of Flat-Map: Part 2"
 date:   2019-01-19 19:19:00 +0200
-categories: TIL, flatMap, Functional programming
+categories: [flatMap, "Functional programming"]
 ---
 Watched [Swift talk \#135 about combined resource download](http://talk.objc.io/episodes/S01E135-combined-resources-part-2).
 Is it coincidence that they discuss the same as Point free guys [in episode \#43 The Many Faces of Flat-Map: Part

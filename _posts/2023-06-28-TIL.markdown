@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL software for simulating robots"
 date:   2023-06-28 20:01:00 +0200
-categories: TIL, RTP, NoMachine, ssh-copy-id, Webots
+categories: [RTP, NoMachine, ssh-copy-id, Webots]
 ---
 TIL a bit about [Real-Time Transport Protocol (often referred to as RTP streaming)](https://www.wowza.com/blog/rtp-streaming-explained) and [Real-Time Streaming Protocol (RTSP)](https://en.wikipedia.org/wiki/Real_Time_Streaming_Protocol).
 

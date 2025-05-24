@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to train YOLO and a lot about Swift generics and how they are compiled"
 date:   2022-11-01 21:20:00 +0200
-categories: TIL
+categories: []
 ---
 Bookmarking [YOLOv4 Training Tutorial](https://colab.research.google.com/drive/1_GdoqCJWXsChrOiY8sZMr_zbr_fH-0Fg?usp=sharing#scrollTo=H8DYUTHiEeGZ) ([Training YOLOv4 в Google Colab (Russian translation)](https://habr.com/ru/post/691464/)). It's very good step by step guide with example on recognizing car licenze plate.
 

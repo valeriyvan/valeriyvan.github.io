@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched a bunch of WWDC 2024 videos"
 date:   2024-06-12 21:34:00 +0200
-categories: TIL, Swift, SwiftUI, Flipper Zero
+categories: [Swift, SwiftUI, "Flipper Zero"]
 ---
 Watched WWDC 2024 session video [Meet Swift Testing](https://developer.apple.com/videos/play/wwdc2024/10179/).
 

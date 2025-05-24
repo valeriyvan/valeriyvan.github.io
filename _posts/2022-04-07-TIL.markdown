@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Embedded development in Swift; Swift Numerics introducing Real and Complex; μSwift; C Isn't A Programming Language Anymore; ThreadX running Raspberry Pi; Websites using Swift and AWS Lambda"
 date:   2022-04-07 19:17:00 +0200
-categories: TIL, Embedded Swift, Swift Numerics, μSwift, μSwift, C, ThreadX, Raspberry Pi, AWS Lambda
+categories: ["Embedded Swift", "Swift Numerics", μSwift, μSwift, C, ThreadX, "Raspberry Pi", "AWS Lambda"]
 ---
 Learned how to install/use Sublime Text on Windows. Forgotten experience for me. Most of time nowdays I have access only to Windows computer. But it doesn't stop me from learning. 
 

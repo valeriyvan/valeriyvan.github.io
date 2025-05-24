@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL about image stippling"
 date:   2024-02-28 20:53:00 +0200
-categories: TIL, Stippled images, Voronoi, Kalman filter
+categories: ["Stippled images", Voronoi, "Kalman filter"]
 ---
 TIL about image stippling. [WiKi page Stippling](https://en.wikipedia.org/wiki/Stippling) is quite general. Here what is meant (the image is from [stippled-image repo](https://github.com/pshihn/stippled-image)):
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched WWDC 2018 session video 408 Building faster in Xcode 10"
 date:   2018-11-16 19:16:00 +0200
-categories: TIL, Xcode, Swift
+categories: [Xcode, Swift]
 ---
 Watched [WWDC 2018 session video 408 Building faster in Xcode 10](https://developer.apple.com/videos/play/wwdc2018/408/). Somehow `xcodebuild -showBuildTimingSummary` doesn't work for me. It just rebuilds project. Nothing else really interested.
 

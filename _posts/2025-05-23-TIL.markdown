@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL VS Code Swift extension lesser known features"
 date:   2025-05-23 19:38:00 +0200
-categories: TIL, VS Code, xcrun
+categories: ["VS Code", xcrun]
 ---
 TIL how to use `xcrun` to fine where from tools are run: `xcrun --find swift-help`.
 

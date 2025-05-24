@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Pipenv"
 date:   2023-10-03 18:36:00 +0200
-categories: TIL, Pipenv
+categories: [Pipenv]
 ---
 Read Bicraze's [Discussion – How to handle the increasing complexity of the expansion decks](https://www.bitcraze.io/2023/10/discussion-how-to-handle-the-increasing-complexity-of-the-expansion-decks/)
 

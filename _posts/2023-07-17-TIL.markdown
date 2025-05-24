@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to download file with CLI on macOS; TIL Gezebo simulator doesn't work on macOS; TIL how to launch Linux on macOS with new Vurtualization framework"
 date:   2023-07-17 20:22:00 +0200
-categories: TIL, wget, curl, Gazebo
+categories: [wget, curl, Gazebo]
 ---
 TIL how to download file with CLI on macOS. I tried to download a video file hosted on github. `wget` got 404 while curl downloaded file successfully.
 

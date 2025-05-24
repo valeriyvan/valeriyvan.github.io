@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Span: Safe Access to Contiguous Storage in Swift 6.2"
 date:   2025-03-09 21:50:00 +0200
-categories: TIL, Swift
+categories: [Swift]
 ---
 TIL [`FormatStyle`](https://developer.apple.com/documentation/foundation/formatstyle) in Swift.
 

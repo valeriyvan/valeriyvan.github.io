@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Utilizing value semantics in Swift; Cracking my windshield and earning $10,000 on the Tesla Bug Bounty Program"
 date:   2019-07-22 19:22:00 +0200
-categories: TIL, Swift, Value types, Bug, Tesla
+categories: [Swift, "Value types", Bug, Tesla]
 ---
 Read post [Utilizing value semantics in Swift](https://www.swiftbysundell.com/posts/utilizing-value-semantics-in-swift) in Swift by Sundell.
 

@@ -2,6 +2,6 @@
 layout: post
 title:  "Ran through Build an iOS app with SwiftUI"
 date:   2024-02-17 21:10:00 +0200
-categories: TIL, SwiftUI, Swift
+categories: [SwiftUI, Swift]
 ---
 Ran through getting started SwiftUI tutorial on swift.org [Build an iOS app with SwiftUI](https://www.swift.org/getting-started/swiftui/).

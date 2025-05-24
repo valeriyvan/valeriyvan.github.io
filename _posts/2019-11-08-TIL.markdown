@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL `unowned(safe)` and `unowned(unsafe)` exist in Swift"
 date:   2019-11-08 19:08:00 +0200
-categories: TIL, Swift, unowned, Reference counting
+categories: [Swift, unowned, "Reference counting"]
 ---
 Read [`where` clauses on contextually generic declarations](https://github.com/apple/swift-evolution/blob/master/proposals/0267-where-on-contextually-generic.md).
 

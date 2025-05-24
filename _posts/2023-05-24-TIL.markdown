@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Swift Package Manager treats dependencies based on branch as unstable"
 date:   2023-05-24 19:24:00 +0200
-categories: TIL, SwiftPM, AWS SDK for Swift
+categories: [SwiftPM, "AWS SDK for Swift"]
 ---
 Trying to build telegram bot for geometrizing images using my swift package [swift-geometrize](https://github.com/valeriyvan/swift-geometrize) as dependency I came across error:
 ```

@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to setup Raspbery Pi with Raspberry Pi Imager"
 date:   2023-08-12 19:20:00 +0200
-categories: TIL, Raspberry Pi Imager
+categories: ["Raspberry Pi Imager"]
 ---
 Was surprised today how easy it is to make bootable SD card for Raspberry Pi with help of Raspberry Pi Imager [Raspberry Pi OS](https://www.raspberrypi.com/software/).
 

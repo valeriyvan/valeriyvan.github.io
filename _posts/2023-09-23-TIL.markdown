@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL URL Text Fragments"
 date:   2023-09-23 19:29:00 +0200
-categories: TIL, URL Text Fragments
+categories: ["URL Text Fragments"]
 ---
 [Puffed LiPo Batteries - Oops!](https://www.rchelicopterfun.com/puffed-lipo.html) Puffing is caused by gassing of the electrolyte or electrolyte decomposition.
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Rules of Thumb for Software Development Estimations"
 date:   2023-06-08 18:16:00 +0200
-categories: TIL, Software Development, Estimations
+categories: ["Software Development", Estimations]
 ---
 Read [Rules of Thumb for Software Development Estimations](https://vadimkravcenko.com/shorts/project-estimates/).
 

@@ -2,6 +2,6 @@
 layout: post
 title:  "Read Create and Distribute Private Libraries with CocoaPods"
 date:   2019-08-05 19:05:00 +0200
-categories: TIL, CocoaPods
+categories: [CocoaPods]
 ---
 Read [Create and Distribute Private Libraries with CocoaPods](https://medium.com/@shahabejaz/create-and-distribute-private-libraries-with-cocoapods-5b6507b57a03) before creating my first private pod. Have been maintaining for years pod created by others. But first time have created one.

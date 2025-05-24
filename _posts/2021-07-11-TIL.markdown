@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL about memory usage performance"
 date:   2021-07-11 17:45:00 +0200
-categories: TIL
+categories: []
 ---
 Read [Memory Usage Performance Guidelines](https://developer.apple.com/library/archive/documentation/Performance/Conceptual/ManagingMemory/ManagingMemory.html#//apple_ref/doc/uid/10000160-SW1).
 I have already forgotten about [`NSDiscardableContent` protocol](https://developer.apple.com/documentation/foundation/nsdiscardablecontent) and [`NSPurgeableData` class](https://developer.apple.com/documentation/foundation/nspurgeabledata).

@@ -2,7 +2,7 @@
 layout: post
 title:  "Read An in-depth look at Core ML 3; Custom Layers in Core ML; MobileNetV2 + SSDLite with Core ML"
 date:   2019-07-08 19:08:00 +0200
-categories: TIL, CoreML, SoundAnalysisPreprocessing, MobileNetV2, SSDLite, YOLO
+categories: [CoreML, SoundAnalysisPreprocessing, MobileNetV2, SSDLite, YOLO]
 ---
 Read [An in-depth look at Core ML 3](https://machinethink.net/blog/new-in-coreml3/) and accidentally found that Core ML 3 brought SoundAnalysisPreprocessing layer — this is for Create ML’s new sound classification model. It takes audio samples and converts them to mel spectrograms. This can be used in a Pipeline as the input to an audio feature extraction model (typically a neural network). I have been working the last month exactly on this. Unfortunately [sizes are fixed and limited](https://github.com/apple/coremltools/blob/master/mlmodel/format/SoundAnalysisPreprocessing.proto) for task I am working on.
 

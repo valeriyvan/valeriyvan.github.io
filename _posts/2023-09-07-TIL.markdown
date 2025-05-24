@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL `ssh -X` for X Windows forwarding"
 date:   2023-09-07 19:59:00 +0200
-categories: TIL, X Windows forwarding
+categories: ["X Windows forwarding"]
 ---
 TIL `-X` option to enable X Windows forwarding [X Windows Forwarding on Mac OS X](http://www.dba-oracle.com/t_linux_x_windows_mac_os.htm). X Windows has to be installed on local Mac. I downloaded [XQuartz](https://www.xquartz.org), a version of X Window System that runs on macOS. Than I could login `ssh -X my-ubuntu-server` and there run `xclock` and see:
 

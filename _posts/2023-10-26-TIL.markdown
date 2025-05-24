@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL what is SGML"
 date:   2023-10-26 19:20:00 +0200
-categories: TIL, SGML
+categories: [SGML]
 ---
 TIL what is [SGML](https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language) - Standard Generalized Markup Language.

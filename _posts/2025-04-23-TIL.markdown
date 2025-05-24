@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL it's not easy to build macOS app depending on Swift Package wrapping system library installed with homebrew"
 date:   2025-04-23 22:36:00 +0200
-categories: TIL, libpcap
+categories: [libpcap]
 ---
 TIL macOS app cannot be linked with a library wrapped in Swift package as system library installed with homebrew (in my case it was libpcap). The reason is macOS app cannot launch dylib signed with different signature. Came across following which disables SIP-signature enforcement. The solution is only viable at development/debug stage.
 

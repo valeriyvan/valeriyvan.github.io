@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL `git stash ‑u` saves untracked files"
 date:   2025-01-15 21:06:00 +0200
-categories: TIL, git
+categories: [git]
 ---
 TIL `git stash ‑u` saves untracked files.

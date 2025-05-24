@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL about `@autoreleasepool` uses in 2019 Swift"
 date:   2019-05-25 19:25:00 +0200
-categories: TIL, Swift, autoreleasepool
+categories: [Swift, autoreleasepool]
 ---
 Read [`@autoreleasepool` uses in 2019 Swift](https://swiftrocks.com/autoreleasepool-in-2019-swift.html). Nothing new. I use `autoreleasepool` in some my projects in Swift.

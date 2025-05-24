@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL what's new in Swift 5.1"
 date:   2019-04-04 19:04:00 +0200
-categories: TIL, Swift, Swift 5.1
+categories: [Swift, "Swift 5.1"]
 ---
 Read [Swift 5.1 — what's new?](https://www.hackingwithswift.com/articles/182/whats-new-in-swift-5-1).

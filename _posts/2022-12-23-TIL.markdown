@@ -2,6 +2,6 @@
 layout: post
 title:  "Aliases in bash"
 date:   2022-12-23 19:21:00 +0200
-categories: TIL, alias
+categories: [alias]
 ---
 After more then 20 years on macOS started to use aliases in command line. First alias is `alias sub="open -a Sublime\ Text"`.

@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL what does Vibe coding mean"
 date:   2025-04-14 21:18:00 +0200
-categories: TIL, Vibe coding, Swift, Metal shaders, C++, Swift Method Dispatch, JSON
+categories: ["Vibe coding", Swift, "Metal shaders", C++, "Swift Method Dispatch", JSON]
 ---
 TIL what does Vibe coding mean: [12 Rules to Vibe Code Without Frustration](https://substack.com/inbox/post/159039821).
 

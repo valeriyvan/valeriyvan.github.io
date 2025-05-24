@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL using `tmux`"
 date:   2023-05-18 10:18:00 +0200
-categories: TIL, tmux
+categories: [tmux]
 ---
 From [A beginner's guide to `tmux`](https://www.redhat.com/sysadmin/introduction-tmux-linux) TIL `tmux` is a terminal multiplexer.
 * `tmux ls` lists active `tmux` sessions

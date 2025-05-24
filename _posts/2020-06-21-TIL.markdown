@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL about enhancements to Quick Look on iOS and macOS"
 date:   2020-06-21 22:00:00 +0200
-categories: TIL
+categories: []
 ---
 Watched [WWDC 2019 Session](https://developer.apple.com/videos/play/wwdc2019/719).

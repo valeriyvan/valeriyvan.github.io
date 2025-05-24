@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL about Swift type placeholders and the trick of using tuples for complex sorting operations"
 date:   2021-08-12 19:41:00 +0200
-categories: TIL
+categories: []
 ---
 Read accepted Swift evolution proposal [Type placeholders (formerly, "Placeholder types")](https://github.com/apple/swift-evolution/blob/main/proposals/0315-placeholder-types.md).
 

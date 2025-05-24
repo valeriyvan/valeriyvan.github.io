@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to send TCP packets with SwiftNIO"
 date:   2025-05-19 22:10:00 +0200
-categories: TIL, SwiftNIO, TCP, Swift, TaskLocal
+categories: [SwiftNIO, TCP, Swift, TaskLocal]
 ---
 Read [Developing a basic Swift Echo Server using Swift-NIO](https://www.process-one.net/blog/developing-a-basic-swift-echo-server-using-swift-nio/).
 

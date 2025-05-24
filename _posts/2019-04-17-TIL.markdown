@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched Swift Talk episode #147 Markdown Playgrounds: Executing Swift Code; Watched Point free episode #54 Advanced Swift Syntax Enum Properties"
 date:   2019-04-17 19:17:00 +0200
-categories: TIL, Swift, Markdown, Playground, Syntax, Enum, Properties
+categories: [Swift, Markdown, Playground, Syntax, Enum, Properties]
 ---
 Watched [Swift Talk episode #147 Markdown Playgrounds: Executing Swift Code](https://talk.objc.io/episodes/S01E147-executing-swift-code). Not impressed.
 

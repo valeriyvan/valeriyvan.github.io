@@ -2,7 +2,7 @@
 layout: post
 title:  "After several years I have again project with git submodules"
 date:   2020-12-15 18:20:00 +0200
-categories: TIL, git, submodules
+categories: [git, submodules]
 ---
 After several years I have again project with [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
 

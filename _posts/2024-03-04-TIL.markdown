@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL about Hardened Runtime"
 date:   2024-03-04 20:45:00 +0200
-categories: TIL, Hardened Runtime
+categories: ["Hardened Runtime"]
 ---
 TIL about [Hardened Runtime](https://developer.apple.com/documentation/security/hardened_runtime).
 

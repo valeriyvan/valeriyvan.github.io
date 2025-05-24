@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL result builders (@resultBuilder) in Swift"
 date:   2022-04-25 18:02:00 +0200
-categories: TIL, Swift, @resultBuilder, result builder
+categories: [Swift, @resultBuilder, "result builder"]
 ---
 Come accross `@ViewBuilder` in `View` SwiftUI protocol. Jumped to reading post [A deep dive into Swift’s result builders](https://www.swiftbysundell.com/articles/deep-dive-into-swift-function-builders/). `@ViewBuilder` is `@resultBuilder`.

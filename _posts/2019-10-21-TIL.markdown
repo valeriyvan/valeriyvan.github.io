@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to iterate pairs if Sequence in Swift"
 date:   2019-10-21 19:21:00 +0200
-categories: TIL, Swift, Sequence, Pairs iterator
+categories: [Swift, Sequence, "Pairs iterator"]
 ---
 Have been looking for iterator of pairs of sequence elements which I have used several years ago. Failed to find implementation. I found out I have a gap in knowledge and fail to write iterator on my own. I should fill in this gap. But by now here is implementation of pairs iterator borrowed from [here](https://stackoverflow.com/a/49273009/942513):
 

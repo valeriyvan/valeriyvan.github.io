@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL `nonisolated` and `isolated` keywords in Swift"
 date:   2024-09-29 22:10:00 +0200
-categories: TIL, Swift
+categories: [Swift]
 ---
 TIL `nonisolated` and `isolated` keywords in Swift: [Nonisolated and isolated keywords: Understanding Actor isolation](https://www.avanderlee.com/swift/nonisolated-isolated/).
 

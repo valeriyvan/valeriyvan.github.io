@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Migrating paid app to free app with In-App Purchase; Read Promises in Swift for beginners; Watched WWDC 2019 session #406 video Create ML for Object Detection and Sound Classification; Watched online WWDC 2019 session #222 video Understanding Images in Vision Framework and some more"
 date:   2019-06-05 19:05:00 +0200
-categories: TIL, In-App Purchase, JSONPlaceholder, WWDC, CreateML, Object Detection, Sound Classification, CoreML, CoreML 3, SwiftUI, Machine Learning
+categories: ["In-App Purchase", JSONPlaceholder, WWDC, CreateML, "Object Detection", "Sound Classification", CoreML, "CoreML 3", SwiftUI, "Machine Learning"]
 ---
 Reread [The Future of Interaction](https://furbo.org/2019/05/28/the-future-of-interaction). It is interesting how it was predicted that Apple is working on declarative UI.
 

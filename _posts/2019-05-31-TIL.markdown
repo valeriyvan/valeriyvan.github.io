@@ -2,7 +2,7 @@
 layout: post
 title:  "Played with mel-spectrograms"
 date:   2019-05-31 19:31:00 +0200
-categories: TIL, mel-spectrogram, librosa, Audio Signal Processing
+categories: [mel-spectrogram, librosa, "Audio Signal Processing"]
 ---
 Listened [episode 5](https://www.swiftcommunitypodcast.org/episodes/5) of [Swift community podcast](https://www.swiftcommunitypodcast.org/).
 Command Line Flags Mentioned:

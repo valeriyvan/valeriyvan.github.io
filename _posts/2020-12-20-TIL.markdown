@@ -2,6 +2,6 @@
 layout: post
 title:  "Watched WWDC 2019 session 413 video Testing in Xcode"
 date:   2020-12-20 19:44:00 +0200
-categories: TIL, Xcode, WWDC, Testing
+categories: [Xcode, WWDC, Testing]
 ---
 Watched [WWDC 2019 session 413 video Testing in Xcode](https://developer.apple.com/videos/play/wwdc2019/413/). Learned about `xctestplan`. `XCTUnwrap`! XCAssertEqual has parameter accuracy! `XCTAssertThrowsError`!

@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Delta Debugging"
 date:   2024-09-09 22:39:00 +0200
-categories: TIL, Delta Debugging
+categories: ["Delta Debugging"]
 ---
 TIL [Delta Debugging](https://en.wikipedia.org/wiki/Delta_debugging) algorithm: [swift-tools-support-core has implementation](https://github.com/swiftlang/swift-tools-support-core/blob/main/Sources/TSCBasic/DeltaAlgorithm.swift).
 

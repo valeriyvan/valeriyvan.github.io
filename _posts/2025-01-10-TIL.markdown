@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL to use #Preview macro"
 date:   2025-01-10 16:18:00 +0200
-categories: TIL, SwiftUI, SceneStorage
+categories: [SwiftUI, SceneStorage]
 ---
 Read [The power of previews in Xcode](https://swiftwithmajid.com/2024/11/26/the-power-of-previews-in-xcode/).
 

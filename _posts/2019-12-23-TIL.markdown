@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL about faster `Array` operations with `CollectionOfOne` in Swift"
 date:   2019-12-23 19:23:00 +0200
-categories: TIL, Swift, Array, CollectionOfOne
+categories: [Swift, Array, CollectionOfOne]
 ---
 Read [Faster `Array` Operations With `CollectionOfOne` in Swift](https://swiftrocks.com/faster-swift-array-operations-with-collectionofone.html). Nothing new. Side learning: `i..<i` is valid range. Empty one.
 

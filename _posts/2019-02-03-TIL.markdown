@@ -2,7 +2,7 @@
 layout: post
 title:  "Read What’s new in Swift 5.0; Read interesting post about Sowftware 2.0 or Differentiable Programming; TIL Moya - Network abstraction layer written in Swift"
 date:   2019-02-03 19:03:00 +0200
-categories: Swift 5.0, Sowftware 2.0, URLSession, Moya
+categories: ["Swift 5.0", "Sowftware 2.0", URLSession, Moya]
 ---
 Read [What’s new in Swift 5.0](https://www.hackingwithswift.com/articles/126/whats-new-in-swift-5-0). Not too much. Those are the features that have already been implemented in the Swift 5.0 branch, but more will undoubtedly come in the months leading up to Swift 5.0's release.
 

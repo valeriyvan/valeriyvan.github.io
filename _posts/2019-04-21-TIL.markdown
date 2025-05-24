@@ -2,6 +2,6 @@
 layout: post
 title:  "Watched again WWDC 2015 session 409 Optimizing Swift Performance"
 date:   2019-04-21 19:21:00 +0200
-categories: TIL, WWDC, Optimizing Swift PerformanceTime profiling
+categories: [WWDC, "Optimizing Swift PerformanceTime profiling"]
 ---
 Watched again [WWDC 2015 session 409 Optimizing Swift Performance](https://developer.apple.com/videos/play/wwdc2015/409/).

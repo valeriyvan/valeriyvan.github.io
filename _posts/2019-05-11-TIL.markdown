@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched [Swift talk episode #150 The Origins of Reduce; episode #151 Reduce vs. Fold"
 date:   2019-05-11 19:11:00 +0200
-categories: TIL, Swift, reduce, fold
+categories: [Swift, reduce, fold]
 ---
 Watched [Swift talk episode #150 The Origins of Reduce](https://talk.objc.io/episodes/S01E150-the-origins-of-reduce).
 

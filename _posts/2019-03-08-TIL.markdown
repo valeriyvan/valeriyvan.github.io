@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched WWDC 2017 session What's New in Swift"
 date:   2019-03-08 19:08:00 +0200
-categories: TIL, Swift, ArraySlice, Codable
+categories: [Swift, ArraySlice, Codable]
 ---
 Trying to understand `ArraySlice`, watched [WWDC 2017 session What's New in Swift](https://developer.apple.com/videos/play/wwdc2017/402/). This didn't help much to understand `ArraySlice` but was useful anyway. Side learnings:
 

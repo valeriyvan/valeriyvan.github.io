@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL \"content negotiation\" in HTTP"
 date:   2023-09-16 19:20:00 +0200
-categories: TIL, HTTP
+categories: [HTTP]
 ---
 TIL HTTP's built-in "content negotiation": [How does it know I want csv? — An HTTP trick](https://csvbase.com/blog/2). [cvbase](https://csvbase.com/about) itself is a simple web database which is free for open data - all users can upload and share unlimited public tables completely free of charge.

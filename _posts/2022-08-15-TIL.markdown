@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL image dithering"
 date:   2022-08-15 18:17:00 +0200
-categories: TIL, Image dithering
+categories: ["Image dithering"]
 ---
 Read interesting article about dithering [Ditherpunk — The article I wish I had about monochrome image dithering](https://surma.dev/things/ditherpunk/).
 ![Screenshow as example of image dithering](https://surma.dev/assets/obradinn.fd0cc387.png "Screenshot of “Return of the Obra Dinn”.").

@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL characteristics for LiPo batteries for FPV drones"
 date:   2023-07-05 18:22:00 +0200
-categories: TIL, LiPo batteries
+categories: ["LiPo batteries"]
 ---
 Bookmarking [Everything about LiPo batteries for FPV drones](https://dronomania.ru/faq/vsyo-o-lipo-batareyah-dlya-fpv-dronov.html).

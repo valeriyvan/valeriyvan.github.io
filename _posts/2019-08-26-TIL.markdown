@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL `expandingTildeInPath` exists for `NSString` but not for `String`"
 date:   2019-08-26 19:26:00 +0200
-categories: TIL, NSString, String
+categories: [NSString, String]
 ---
 Learned how to [turn on Gather coverage](https://cocoacasts.com/how-to-enable-code-coverage-in-xcode) in Xcode. I always forget where this should be turned on.
 

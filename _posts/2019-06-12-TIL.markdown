@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Nate Cook's post Swift's Pointy Bits: Unsafe Swift & Pointer Types; Watched videos about Short-time Fast Fourier Transform"
 date:   2019-06-12 19:12:00 +0200
-categories: TIL, Swift, UnsafeRawPointer, UnsafeMutablePointer, UnsafeMutableRawPointer, STFT
+categories: [Swift, UnsafeRawPointer, UnsafeMutablePointer, UnsafeMutableRawPointer, STFT]
 ---
 Read Nate Cook's post [Swift's Pointy Bits: Unsafe Swift & Pointer Types](https://academy.realm.io/posts/nate-cook-tryswift-tokyo-unsafe-swift-and-pointer-types/) about raw memory manipulation in Swift with `UnsafePointer<T>`, `UnsafeRawPointer`, `UnsafeMutablePointer<T>`, and `UnsafeMutableRawPointer`, `withUnsafeBytes`. It has curious example of speeding up array manipulation with `withUnsafeMutableBufferPointer` by getting rid of bounds check. Unfortunately it mentions only slightly `bindMemory` and `assumingMemoryBound`.
 

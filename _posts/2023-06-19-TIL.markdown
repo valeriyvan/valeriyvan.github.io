@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to use ffmpeg for reducing video size"
 date:   2023-06-19 20:22:00 +0200
-categories: TIL, ffmpeg
+categories: [ffmpeg]
 ---
 TIL again ffmpeg for reducing mp4 video size. I need this to upload screen recording to [issue for WeScan](https://github.com/WeTransfer/WeScan/issues/356) on GitHub.
 

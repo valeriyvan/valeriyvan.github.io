@@ -2,6 +2,6 @@
 layout: post
 title:  "Came across UIView-SmoothCorners repo"
 date:   2019-04-14 19:14:00 +0200
-categories: TIL, UIKit, UIView-SmoothCorners
+categories: [UIKit, UIView-SmoothCorners]
 ---
 Came across [UIView-SmoothCorners](https://github.com/lapfelix/UIView-SmoothCorners) which worth keeping a reference.

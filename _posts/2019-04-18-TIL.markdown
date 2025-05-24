@@ -2,6 +2,6 @@
 layout: post
 title:  "Read Understanding Swift for TensorFlow"
 date:   2019-04-18 19:18:00 +0200
-categories: TIL, Swift, TensorFlow, Swift for TensorFlow
+categories: [Swift, TensorFlow, "Swift for TensorFlow"]
 ---
 Read [Understanding Swift for TensorFlow](https://towardsdatascience.com/machine-learning-with-swift-for-tensorflow-9167df128912). A little bit outdated. This followed with [fix](https://github.com/tensorflow/swift-models/commit/21ae62e6de2298074de153782d66a32a36b10f58).

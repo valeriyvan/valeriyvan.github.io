@@ -2,7 +2,7 @@
 layout: post
 title:  "Read about serialization in Swift; State restoration in iOS 13; Type Casting in Swift; Checking for Protocol Conformance in Swift; Key words for use in RFCs to Indicate Requirement Levels; Thoughts on iOS Architecture"
 date:   2019-12-03 19:03:00 +0200
-categories: TIL, Swift, Serialization, PropertyListEncoder, JSONEncoder, State restoration, Type Casting, Any, AnyObject, Architecture
+categories: [Swift, Serialization, PropertyListEncoder, JSONEncoder, "State restoration", "Type Casting", Any, AnyObject, Architecture]
 ---
 Read [A first look Apple’s iPadOS multi-tasking improvements](https://www.computerworld.com/article/3405537/a-first-look-apples-ipados-multi-tasking-improvements.html).
 

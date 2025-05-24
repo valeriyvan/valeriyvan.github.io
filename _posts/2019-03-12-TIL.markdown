@@ -2,6 +2,6 @@
 layout: post
 title:  "Read interesting post about building WatchKit app"
 date:   2019-03-12 19:12:00 +0200
-categories: Apple, WatchKit, Watch app
+categories: [Apple, WatchKit, "Watch app"]
 ---
 Read interesting post about building WatchKit app ([Intro](https://mackuba.eu/2018/10/29/watchkit-adventure-0-intro/), [WatchKit Adventure #1: The Big Picture](https://mackuba.eu/2018/12/18/watchkit-adventure-1-the-big-picture/). Definitely I should go through this post when I start my first Watch app.

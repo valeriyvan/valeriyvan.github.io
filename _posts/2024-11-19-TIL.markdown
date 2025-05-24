@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL about global actors in Swift"
 date:   2024-11-19 21:28:00 +0200
-categories: TIL, Swift, Global actors, async/await
+categories: [Swift, "Global actors", async/await]
 ---
 TIL about global actors in Swift: [Swift proposal SE-0316 Global actors](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0316-global-actors.md) implemented in Swift 5.5.
 

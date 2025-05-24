@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL list of Mission Commands in ArduPilot"
 date:   2024-03-25 19:42:00 +0200
-categories: TIL, ArduPilot, Mission Planner, GitHub Actions
+categories: [ArduPilot, "Mission Planner", "GitHub Actions"]
 ---
 TIL [gha-setup-swift](https://github.com/compnerd/gha-setup-swift) for automating installation of the Swift toolchain for Windows hosts on GitHub Actions runners.
 

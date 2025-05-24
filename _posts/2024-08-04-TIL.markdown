@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL keystroke `CMD + Option + /` in Xcode for ceating doc comment"
 date:   2024-08-04 21:57:00 +0200
-categories: TIL
+categories: []
 ---
 Watched [You Need to Document Your Swift Code with DocC](https://www.youtube.com/watch?v=XEHZuy_VJmM). TIL keystroke `CMD + Option + /` in Xcode creates doc comment.

@@ -2,7 +2,7 @@
 layout: post
 title:  "Experimented with сreating drag and drop uploader with Vapor"
 date:   2023-11-03 19:24:00 +0200
-categories: TIL, Vapor, JavaScript, AJAX, GitHub
+categories: [Vapor, JavaScript, AJAX, GitHub]
 ---
 Experimented with [Creating a drag and drop uploader with preview in Javascript](https://applerinquest.com/how-to-preview-the-uploaded-image-in-javascript/) and [AJAX calls using Vapor 4](https://theswiftdev.com/ajax-calls-using-vapor-4/).
 

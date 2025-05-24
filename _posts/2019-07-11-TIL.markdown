@@ -2,7 +2,7 @@
 layout: post
 title:  "Read NSHipster's `UIStackView` and `CAEmitterLayer`"
 date:   2019-07-11 19:11:00 +0200
-categories: TIL, Swift, TensorFlow, CoreML, UIStackView, CAEmitterLayer, objc.io, Interview question, quiz
+categories: [Swift, TensorFlow, CoreML, UIStackView, CAEmitterLayer, objc.io, "Interview question", quiz]
 ---
 Was caught with this quiz answering it wrong. And most developers answer it wrong. Appearance of default case should have made this suspicious! Nice interview question.
 

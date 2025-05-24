@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL AT Protocol; TIL how to simulate robots in Webots"
 date:   2023-07-07 19:07:00 +0200
-categories: TIL, AT Protocol, Webots, Crazyflie, Robot simulation
+categories: ["AT Protocol", Webots, Crazyflie, "Robot simulation"]
 ---
 TIL [The AT Protocol](https://blueskyweb.xyz/blog/10-18-2022-the-at-protocol). It has dedicated [Protocol website](https://atproto.com).
 

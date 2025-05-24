@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Timsort and Introsort: Swift's Sorting Algorithms"
 date:   2019-09-05 19:05:00 +0200
-categories: TIL, Swift, Sorting, Timsort, Introsort, CGRect, Hashable
+categories: [Swift, Sorting, Timsort, Introsort, CGRect, Hashable]
 ---
 Have found that `CGRect` isn't hashable in Swift. Why is that?
 

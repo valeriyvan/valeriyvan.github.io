@@ -2,7 +2,7 @@
 layout: post
 title:  "Dug in interesting 2D geometry C++ library"
 date:   2023-10-17 19:20:00 +0200
-categories: TIL, git svn
+categories: ["git svn"]
 ---
 Googling about rendering thick Bezier curves came across [Adaptive Subdivision of Bezier Curves.
 An attempt to achieve perfect result in Bezier curve approximation](https://agg.sourceforge.net/antigrain.com/research/adaptive_bezier/). It's by author of [C++ library Anti-Grain Geometry](https://agg.sourceforge.net/antigrain.com/index.html).

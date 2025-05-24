@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL that since iOS 15 `BinaryFloatingPoint` has `formatted()`"
 date:   2024-08-25 22:41:00 +0200
-categories: TIL, Swift, Logging, BinaryFloatingPoint
+categories: [Swift, Logging, BinaryFloatingPoint]
 ---
 Read [Logging in Swift](https://swiftwithmajid.com/2022/04/06/logging-in-swift/).
 

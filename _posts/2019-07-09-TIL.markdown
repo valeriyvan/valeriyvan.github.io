@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL wtfautolayout.com; Read The missing ☑️: SwiftWebUI; Read How I set up a Jenkins node for iOS jobs"
 date:   2019-07-09 19:09:00 +0200
-categories: TIL, Auto Layout, Bugs, SwiftUI, SwiftWebUI, Jenkins
+categories: ["Auto Layout", Bugs, SwiftUI, SwiftWebUI, Jenkins]
 ---
 Watched [Auto Layout: WTF to FTW](https://www.rightpoint.com/rplabs/2019/06/wtf-auto-layout-for-ios-in-swift/). 
 

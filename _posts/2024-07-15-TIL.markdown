@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Build settings reference - a detailed list of individual Xcode build settings that control or change the way a target is built"
 date:   2024-07-15 21:53:00 +0200
-categories: TIL, Xcode
+categories: [Xcode]
 ---
 Read [Build settings reference - a detailed list of individual Xcode build settings that control or change the way a target is built](https://developer.apple.com/documentation/xcode/build-settings-reference). Some drew attention.
 

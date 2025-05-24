@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched Swift talk episode about chaining downloads"
 date:   2019-01-11 19:11:00 +0200
-categories: TIL, Xcake, XcodeGen, Xgen, 
+categories: [Xcake, XcodeGen, Xgen, ]
 ---
 Accidentally found [Xcake - tool for creating Xcode's `.pbxproj` files](https://github.com/igor-makarov/xcake). Didn't like it because it's rubi. But this reminded me about similar tools written in Swift: [XcodeGen](https://github.com/yonaskolb/XcodeGen) and [Xgen](https://github.com/JohnSundell/Xgen) (the last is by John Sundell). Both are reguary updated. Connected John Sundell's project [Marathon](https://github.com/johnsundell/marathon) solves problem where to store Swift command line scripts. That's sweet! John even has [repo with examples of
 scripts](https://github.com/JohnSundell/Marathon-Examples) which could be placed to Marathon.

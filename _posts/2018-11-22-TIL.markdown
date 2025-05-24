@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Swift: Why You Should not Use Default Implementations in Protocols; Watched WWDC 2018 401 session video What's New in Swift, 403 session video What's New in Testing and 703 session video Introducing Create ML"
 date:   2018-11-22 19:22:00 +0200
-categories: TIL, Swift, Create ML, Testing
+categories: [Swift, "Create ML", Testing]
 ---
 Read [Swift: Why You Should not Use Default Implementations in Protocols](https://www.natashatherobot.com/swift-use-default-implementations-protocols/) and its friend [Swift: Alternative to Default Implementations in Protocols](https://www.natashatherobot.com/swift-alternative-to-default-implementations-in-protocols/).
 

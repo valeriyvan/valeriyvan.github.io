@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched videos about system design interviews"
 date:   2024-07-28 21:38:00 +0200
-categories: TIL
+categories: []
 ---
 Watched [Design Uber Eats - iOS System Design Interview](https://www.youtube.com/watch?v=SbXDhAKgWek).
 

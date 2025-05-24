@@ -2,7 +2,7 @@
 layout: post
 title:  "Read How to use VSCode/Cursor for iOS development"
 date:   2024-10-31 22:43:00 +0200
-categories: TIL, Swift, String Art
+categories: [Swift, "String Art"]
 ---
 Read [How to use VSCode/Cursor for iOS development](https://dimillian.medium.com/how-to-use-cursor-for-ios-development-54b912c23941).
 

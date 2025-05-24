@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL SwiftUI life cycle"
 date:   2025-05-08 21:30:00 +0200
-categories: TIL, SwiftUI
+categories: [SwiftUI]
 ---
 Read [Clean Up Your Sheet API](https://medium.com/@jpmtech/clean-up-your-sheet-api-7763b796cd94).
 

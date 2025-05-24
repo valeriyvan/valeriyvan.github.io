@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL the-swift-collective"
 date:   2025-05-05 18:00 +0200
-categories: TIL, Swift, SwiftCrossUI, Ubuntu
+categories: [Swift, SwiftCrossUI, Ubuntu]
 ---
 Succeeded with running first app build with [SwiftCrossUI](https://github.com/stackotter/swift-cross-ui) on Ubuntu:
 

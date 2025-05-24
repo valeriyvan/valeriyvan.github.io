@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL What Are Textons"
 date:   2024-10-28 21:21:00 +0200
-categories: TIL, IMG2GPS, Texton, gist
+categories: [IMG2GPS, Texton, gist]
 ---
 TIL [IM2GPS: estimating geographic information from a single image](http://graphics.cs.cmu.edu/projects/im2gps/im2gps.pdf). [im2gps/ page on uni site](http://graphics.cs.cmu.edu/projects/im2gps/) includes even link [Code for finding and downloading images on Flickr](http://graphics.cs.cmu.edu/projects/im2gps/flickr_code.html).
 

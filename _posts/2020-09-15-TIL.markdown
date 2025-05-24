@@ -2,6 +2,6 @@
 layout: post
 title:  "Read Apple's recent blog post Managing Model Data in Your App"
 date:   2020-09-15 19:19:00 +0200
-categories: TIL, Apple, ML
+categories: [Apple, ML]
 ---
 Read Apple's recent blog post [Managing Model Data in Your App](https://developer.apple.com/documentation/swiftui/managing-model-data-in-your-app).

@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Matrix determinats is polygon area"
 date:   2023-01-10 17:22:00 +0200
-categories: TIL, Matrix determinats
+categories: ["Matrix determinats"]
 ---
 From [Flying Car and Autonomous Flight Engineer course](https://www.udacity.com/course/flying-car-nanodegree--nd787) learned that matrix determinant is area of polygon. This is nice explanation [Using Determinants to Calculate Areas](https://www.nagwa.com/en/explainers/890151902620/). If calculated area of triangle is zero that means vectors forming triangle are colliniar. So determinat is nice test of vectors colliniarity (in 2D, in 3D it's not sufficiant condition of linearity).
 

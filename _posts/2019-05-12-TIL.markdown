@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched Point Free issue #56 What Is a Parser?"
 date:   2019-05-12 19:12:00 +0200
-categories: TIL, Parser
+categories: [Parser]
 ---
 Fixing [this file from iOS TensorFlow lite ObjectDetection example](https://github.com/tensorflow/examples/pull/53/commits/cec30da136a56fdbd03f3f02119463dd497de6db) jumped to read [CoreGraphics Geometry Primitives and Functions](https://nshipster.com/cggeometry/).
 

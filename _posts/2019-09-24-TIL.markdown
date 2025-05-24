@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL I don’t (always) need `[weak self]`"
 date:   2019-09-24 19:24:00 +0200
-categories: TIL, Swift, Delayed deallocation, weak, Reference counting, Reference cycles
+categories: [Swift, "Delayed deallocation", weak, "Reference counting", "Reference cycles"]
 ---
 Delayed deallocation - what I have always missed - [You don’t (always) need `[weak self]`](https://medium.com/flawless-app-stories/you-dont-always-need-weak-self-a778bec505ef). Except of this, post has a lot of interesting examples of creating / not creating retain cycles.

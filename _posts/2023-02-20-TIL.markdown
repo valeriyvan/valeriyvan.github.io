@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL CRDT"
 date:   2023-02-20 10:00:00 +0200
-categories: TIL, CRDT, Jekyll, tags
+categories: [CRDT, Jekyll, tags]
 ---
 TIL about [Conflict-free replicated data type](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type). There's Swift implementation [CRDT](https://github.com/heckj/CRDT).
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL default memberwise initializer for a structure type is considered private if any of the structure’s stored properties are private"
 date:   2019-02-24 19:24:00 +0200
-categories: TIL, Swift, Struct, Initializer
+categories: [Swift, Struct, Initializer]
 ---
 After [PR to Gnosis for removing memberwise initialisers](https://github.com/gnosis/safe-ios/pull/567) realised that (qouting [The Swift programming language guide](https://docs.swift.org/swift-book/LanguageGuide/AccessControl.html)):
 

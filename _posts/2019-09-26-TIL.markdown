@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL how semantics of `&signalFloats[offset]` is different in Objective-C and Swift"
 date:   2019-09-26 19:26:00 +0200
-categories: TIL, Swift, Objective-C
+categories: [Swift, Objective-C]
 ---
 In Objective-C or C when you need to process buffer from somewhere in its middle, you do something like `&signalFloats[offset]` or `signalFloats + offset`. When you do `&signalFloats[offset]` in Swift, compiler is happy because types match, but you get something completely different by meaning. `signalFloats[offset]` returns a copy of a value from an array because it's value type and `&` takes address of this value.

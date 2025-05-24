@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL class variables and `map` function in Python"
 date:   2023-09-09 19:40:00 +0200
-categories: TIL
+categories: []
 ---
 TIL how to use class variables in Python: [Class or Static Variables in Python](https://www.geeksforgeeks.org/g-fact-34-class-or-static-variables-in-python/) .
 

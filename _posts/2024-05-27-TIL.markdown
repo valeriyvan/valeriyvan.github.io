@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL setjmp/longjmp are undefined behaviors in Swift"
 date:   2024-05-27 22:11:00 +0200
-categories: TIL, Swift, setjmp/longjmp
+categories: [Swift, setjmp/longjmp]
 ---
 [setjmp/longjmp are undefined behaviors in Swift](https://forums.swift.org/t/on-the-road-to-swift-6/32862/146?page=8) and [cannot be used with ARC Objective-C either](https://x.com/jckarter/status/528971489257984000).
 

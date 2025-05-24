@@ -2,6 +2,6 @@
 layout: post
 title:  "Read Interviewing for an iOS Design System Engineer role at Spotify"
 date:   2020-10-26 19:03:00 +0200
-categories: TIL, Interview
+categories: [Interview]
 ---
 Read [Interviewing for an iOS Design System Engineer role at Spotify](https://medium.com/the-codelog/interviewing-for-an-ios-design-system-engineer-role-at-spotify-6727ecb5bfdc).

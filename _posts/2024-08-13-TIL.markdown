@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL usvg library"
 date:   2024-08-13 22:11:00 +0200
-categories: TIL, SVG, usvg, resvg, ESC, Ring Tone Text Transfer Language, RTTTL, DSHOT, GitHub
+categories: [SVG, usvg, resvg, ESC, "Ring Tone Text Transfer Language", RTTTL, DSHOT, GitHub]
 ---
 TIL [usvg](https://github.com/RazrFalcon/resvg/tree/master/crates/usvg), an [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) parser that tries to solve most of SVG complexity. It's part of [resvg](https://github.com/RazrFalcon/resvg), an SVG rendering library. Some time ago I have looked for decent SVG parser.
 

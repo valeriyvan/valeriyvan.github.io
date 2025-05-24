@@ -2,7 +2,7 @@
 layout: post
 title:  "Read again Chapter 2 of Machine learning with Core ML book; Read Identifying objects in Swift; Read Code encapsulation in Swift"
 date:   2019-03-18 19:18:00 +0200
-categories: TIL, CoreML, Equatable, Hashable, ObjectIdentifier, ===,
+categories: [CoreML, Equatable, Hashable, ObjectIdentifier, ===, ]
 ---
 Read again Chapter 2 of Machine learning with Core ML book. Which ended up with [bug fix](https://github.com/PacktPublishing/Machine-Learning-with-Core-ML/pull/10).
 

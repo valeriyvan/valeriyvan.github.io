@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL different kinds of ranges in Swift"
 date:   2019-01-12 19:12:00 +0200
-categories: TIL, Swift, Range, PartialRangeThrough, PartialRangeUpTo, PartialRangeFrom, UnboundedRange_, DefaultIndices, RangeExpression, CountableRange, CountablePartialRangeFrom
+categories: [Swift, Range, PartialRangeThrough, PartialRangeUpTo, PartialRangeFrom, UnboundedRange_, DefaultIndices, RangeExpression, CountableRange, CountablePartialRangeFrom]
 ---
 Watched first video from missed Vapor meetup. `0...` - that's new for me. It seems I have read about this kinds of ranges but have forgotten. TIL this range is called [`PartialRangeFrom`](https://developer.apple.com/documentation/swift/partialrangefrom). Beside regular half-open range [`Range`](https://developer.apple.com/documentation/swift/range) swift also has [`PartialRangeThrough`](https://developer.apple.com/documentation/swift/partialrangethrough), [`PartialRangeUpTo`](https://developer.apple.com/documentation/swift/partialrangeupto), and [`UnboundedRange_`](https://developer.apple.com/documentation/swift/unboundedrange_), yes, with undersscore at the end. There're also [`CountableRange`](https://developer.apple.com/documentation/swift/countablerange), [`CountablePartialRangeFrom`](https://developer.apple.com/documentation/swift/countablepartialrangefrom).
 

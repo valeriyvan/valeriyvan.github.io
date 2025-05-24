@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL difference between Sequence, AsyncSequence, and AsyncStream"
 date:   2023-05-29 18:55:00 +0200
-categories: TIL, Swift, Sequence, AsyncSequence, AsyncStream, AWS, S3
+categories: [Swift, Sequence, AsyncSequence, AsyncStream, AWS, S3]
 ---
 Read [Hacking with Swift's What’s the difference between Sequence, AsyncSequence, and AsyncStream?](https://www.hackingwithswift.com/quick-start/concurrency/whats-the-difference-between-sequence-asyncsequence-and-asyncstream).
 

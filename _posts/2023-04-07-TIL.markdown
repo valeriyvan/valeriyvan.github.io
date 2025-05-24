@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to make Swift on Windows for after Swift or Visuyal Studio update"
 date:   2023-04-07 15:13:00 +0200
-categories: TIL, Swift, Windows, SwiftUI
+categories: [Swift, Windows, SwiftUI]
 ---
 Swift on Windows is bizarre. Updated Swift to 5.8 and Swift Package Manager stopped to work. I have openned [issue](https://github.com/apple/swift-package-manager/issues/6387).
 

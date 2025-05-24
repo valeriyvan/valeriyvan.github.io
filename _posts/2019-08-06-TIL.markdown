@@ -2,7 +2,7 @@
 layout: post
 title:  "Looked in one FFT implementation"
 date:   2019-08-06 19:06:00 +0200
-categories: TIL, FFT, Fast Fourier Transform
+categories: [FFT, "Fast Fourier Transform"]
 ---
 While procrastinating had a look at [FFT implementation](https://github.com/mattt/Surge/blob/master/Sources/Surge/FFT.swift) of [Surge](https://github.com/mattt/Surge/). I doubt anyone will use this implementation:
 

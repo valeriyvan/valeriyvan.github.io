@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL two instances of `UIColor` can't be directly compared"
 date:   2019-08-27 19:27:00 +0200
-categories: TIL, UIColor
+categories: [UIColor]
 ---
 I spent half a day explaining to a colleague why callbacks aren't always better than delegates. To clarify the concept, I created this [gist](https://gist.github.com/valeriyvan/5268d656ececbb666f15c4fc4a60adf1) to summarize the discussion and key differences.
 

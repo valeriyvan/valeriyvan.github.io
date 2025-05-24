@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL UTF-8 encoding used by Mac for filenames is insane"
 date:   2021-01-22 19:01:00 +0200
-categories: TIL, macOS, UTF-8, filenames, normalisation 
+categories: [macOS, UTF-8, filenames, normalisation]
 ---
 TIL that UTF-8 encoding for filenames for mac is insane and incompatible with other systems. It uses different form of normalization. [`convmv` should be used to fix filenames](https://gist.github.com/JamesChevalier/8448512). 

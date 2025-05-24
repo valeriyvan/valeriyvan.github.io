@@ -2,7 +2,7 @@
 layout: post
 title:  "Ran through SwiftUI tutorial SwiftUI essentials. Handling user input"
 date:   2024-01-27 19:24:00 +0200
-categories: TIL, SwiftUI
+categories: [SwiftUI]
 ---
 Ran through SwiftUI tutorial [SwiftUI essentials. Handling user input](https://developer.apple.com/tutorials/swiftui/handling-user-input) tutorial.
 

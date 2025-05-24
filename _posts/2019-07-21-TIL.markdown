@@ -2,6 +2,6 @@
 layout: post
 title:  "Read Distributing Custom B2B iOS Apps privately"
 date:   2019-07-21 19:21:00 +0200
-categories: TIL, Swift, AppStore
+categories: [Swift, AppStore]
 ---
 Recently my friend asked me about way to distribute custom B2B apps beyond the App Store. This post comes handy [Distributing Custom B2B iOS Apps privately](https://www.coletiv.com/blog/distribute-custom-b2b-ios-app/).

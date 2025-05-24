@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL about implementing throwing protocol functions as non-throwing in Swift"
 date:   2020-01-02 19:02:00 +0200
-categories: TIL, Swift, protocol, throwing, exception, Initializers
+categories: [Swift, protocol, throwing, exception, Initializers]
 ---
 Read John Sundell's [Implementing throwing protocol functions as non-throwing](https://www.swiftbysundell.com/tips/implementing-throwing-protocol-functions-as-non-throwing/).
 

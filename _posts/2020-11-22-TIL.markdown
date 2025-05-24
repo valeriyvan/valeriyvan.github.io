@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to restore deleted branch in git and some comprehenses of `git stash`"
 date:   2020-11-22 18:45:00 +0200
-categories: TIL, git
+categories: [git]
 ---
 Learned [how to restore deleted branch in git](https://stackoverflow.com/questions/3640764/can-i-recover-a-branch-after-its-deletion-in-git):
 

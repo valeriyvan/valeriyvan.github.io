@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL cp -a /source/. /target` copies all files from source to target not using wildcards"
 date:   2019-10-14 19:14:00 +0200
-categories: TIL, Linux, cp, CGSize, description
+categories: [Linux, cp, CGSize, description]
 ---
 Why `description` of `CGSize` in Swift is so stupid? TODO: fix it. But before try to understand if there is any reason output of `description` of `CGSize`  is so stupid.
 

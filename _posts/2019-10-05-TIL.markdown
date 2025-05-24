@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to write parser using SIMD operations"
 date:   2019-10-05 19:05:00 +0200
-categories: TIL, Swift, SIMD
+categories: [Swift, SIMD]
 ---
 Watched [Swift Talk # 171 A Parser Using SIMD and Bitwise Operations (Part 1)](https://talk.objc.io/episodes/S01E171-a-parser-using-simd-and-bitwise-operations-part-1). It's so interesting how bit twiddling is used to find control characters in a string. It's even more interesting that I have met similar trick last week in Python code which I am porting to iOS and couldn't get how it works.
 ![](/assets/images/Screenshot%202019-10-05%20at%2021.33.55.png)

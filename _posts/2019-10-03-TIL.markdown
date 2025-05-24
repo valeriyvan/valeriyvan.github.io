@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Build iOS-ready machine learning models using Create ML and Machine Learning on iOS: Computer Vision"
 date:   2019-10-03 19:03:00 +0200
-categories: TIL, Swift, CreateML, Computer Vision, Machine Learning, iOS, Ada
+categories: [Swift, CreateML, "Computer Vision", "Machine Learning", iOS, Ada]
 ---
 While procrastinating read [Why should you use language Ada to program your system (russian)](https://habr.com/ru/post/469671/). Curious to know that int and float in Ada has no range specifiers. Programmer has to define that.
 

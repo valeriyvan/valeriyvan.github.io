@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL asyncio.sleep"
 date:   2023-12-18 19:12:00 +0200
-categories: TIL, Python, asyncio.sleep
+categories: [Python, asyncio.sleep]
 ---
 Read [Acro Mode vs. Self-Level Mode](https://oscarliang.com/rate-acro-horizon-flight-mode-level/).
 

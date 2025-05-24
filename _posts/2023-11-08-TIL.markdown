@@ -2,7 +2,7 @@
 layout: post
 title:  "Read That is Why You and I Should Become Rustaceans"
 date:   2023-11-08 18:47:00 +0200
-categories: Rust, Rustacean
+categories: [Rust, Rustacean]
 ---
 Read [That is Why You and I Should Become Rustaceans](https://medium.com/kbtg-life/that-is-why-you-and-i-should-become-rustaceans-31ddd212e52f).
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Read NSHipster's Device Identifiers and Fingerprinting on iOS; TIL Apple provides Supported iPhone models"
 date:   2019-11-11 19:11:00 +0200
-categories: TIL, Fingerprinting, NSUserDefaults, 
+categories: [Fingerprinting, NSUserDefaults, ]
 ---
 Read NSHipster's [Device Identifiers and Fingerprinting on iOS](https://nshipster.com/device-identifiers/). Didn't know that back in iOS 11 was introduced `DeviceCheck.framework` "which allows developers to assign two bits of information that are persisted by Apple until the developer manually removes them". Didn't know about these two bits! Chapter of this post about fingerprinting is interesting as well, especially about using locale information for fingerprinting.
 

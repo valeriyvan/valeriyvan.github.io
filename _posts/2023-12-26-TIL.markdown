@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL how to install Ubuntu on Raspberry Pi"
 date:   2023-12-26 19:46:00 +0200
-categories: TIL, Ubuntu, Raspberry Pi
+categories: [Ubuntu, "Raspberry Pi"]
 ---
 TIL [how to install Ubuntu on Raspberry Pi](https://ubuntu.com/download/raspberry-pi). It's much easier now than it used to be.

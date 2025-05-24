@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL state of Swift for WebAssembly; Generators in Swift"
 date:   2020-09-25 19:17:00 +0200
-categories: TIL, Webassembly, Swift
+categories: [Webassembly, Swift]
 ---
 Read Max Desiatov post [The state of Swift for WebAssembly in 2020 (and earlier)](https://desiatov.com/swift-webassembly-2020/). Learned that [asm.js](https://en.wikipedia.org/wiki/Asm.js) was superseeded by [WebAssembly (often shortened to Wasm)](https://en.wikipedia.org/wiki/WebAssembly).
 

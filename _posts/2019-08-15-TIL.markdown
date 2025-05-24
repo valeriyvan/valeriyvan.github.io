@@ -2,6 +2,6 @@
 layout: post
 title:  "WWDC 2018 session #705 video Engineering Subscriptions"
 date:   2019-08-15 19:15:00 +0200
-categories: TIL, WWDC 2018, Subscriptions
+categories: ["WWDC 2018", Subscriptions]
 ---
 Watched [WWDC 2018 session #705 video Engineering Subscriptions](https://developer.apple.com/videos/play/wwdc2018/705/) - it's my time came for mastering subscriptions on iOS.

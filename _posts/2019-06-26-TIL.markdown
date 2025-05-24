@@ -2,7 +2,7 @@
 layout: post
 title:  "Read What Every Programmer Should Know About Floating-Point Arithmetic; TIL how to show in Xcode memory area formatted to some basic types like `float`"
 date:   2019-06-26 19:26:00 +0200
-categories: TIL, Floating-Point Arithmetic, Xcode, Debugging
+categories: ["Floating-Point Arithmetic", Xcode, Debugging]
 ---
 Read [What Every Programmer Should Know About Floating-Point Arithmetic](https://floating-point-gui.de) and this is especially curious [Comparison](https://floating-point-gui.de/errors/comparison/). I used to think that `abs(a-b) < 0.00001` is good enough way to compare floats.
 

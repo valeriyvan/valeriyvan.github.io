@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL about `withLock` existing in all kinds of locks"
 date:   2023-10-16 19:16:00 +0200
-categories: TIL, Swift, NSLocking, GitHub Action, YAML
+categories: [Swift, NSLocking, "GitHub Action", YAML]
 ---
 TIL about `withLock` existing in all kinds of locks. It's strange I haven't encountered it before. It's declared in [NSLocking protocol](https://developer.apple.com/documentation/foundation/nslocking).
 

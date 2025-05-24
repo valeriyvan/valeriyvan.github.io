@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL Actor model and Actors in Swift"
 date:   2022-05-11 21:31:00 +0200
-categories: TIL
+categories: []
 ---
 Read Antoine van der Lee's blog post [Actors in Swift: how to use and prevent data races](https://www.avanderlee.com/swift/actors/) and by link from there read WiKi article [Actor model](https://en.wikipedia.org/wiki/Actor_model).

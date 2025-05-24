@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL storing loaded images with NSCache and NSURLCache in Swift; Network Link Conditioner on macOS; how to print all characters from CharacterSet"
 date:   2020-09-28 19:59:00 +0200
-categories: TIL, Swift, NSCache, NSURLCache, CharacterSet, Network Link Conditioner
+categories: [Swift, NSCache, NSURLCache, CharacterSet, "Network Link Conditioner"]
 ---
 Watched [Swift: Loading Images Asynchronously and storing with NSCache and NSURLCache](https://www.youtube.com/watch?v=BIgqHLTZ_a4). I didn't know Link Conditioner exists for macOS. I always used one in OS. Also I have never used NSURLCache. I only used NSCache previously.
 

@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL how to transform colors with matrices"
 date:   2024-10-11 21:22:00 +0200
-categories: TIL
+categories: []
 ---
 Read [Transforming colors with matrices](https://lisyarus.github.io/blog/posts/transforming-colors-with-matrices.html).

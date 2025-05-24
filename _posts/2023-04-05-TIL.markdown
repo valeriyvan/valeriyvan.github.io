@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how make Swift command line interactive"
 date:   2023-04-05 19:15:02 +0200
-categories: TIL, Swift
+categories: [Swift]
 ---
 TIL [how to make an interactive picker for a Swift command-line tool](https://www.polpiella.dev/how-to-make-an-interactive-picker-for-a-swift-command-line-tool/). The package [clack-swift](https://github.com/polpielladev/clack-swift) for this is still work in progress.
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL how to claim back disk space from git repo: `git gc --aggressive`"
 date:   2024-01-18 21:31:00 +0200
-categories: TIL, Apple, String Catalogs, Grammatical agreement, git gc
+categories: [Apple, "String Catalogs", "Grammatical agreement", "git gc"]
 ---
 Watched [Unlock the power of grammatical agreement](https://developer.apple.com/videos/play/wwdc2023/10153/). Surprized Apple has such an API.
 

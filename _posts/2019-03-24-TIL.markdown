@@ -2,6 +2,6 @@
 layout: post
 title:  "Passed over Custom View Controller presentations, the right way"
 date:   2019-03-24 19:24:00 +0200
-categories: TIL, UIKit, UIViewController, Custom presentation
+categories: [UIKit, UIViewController, "Custom presentation"]
 ---
 Passed over [Custom View Controller presentations, the right way](https://medium.com/@raulriera/custom-view-controller-presentations-the-right-way-53e8e8e8118b) about creating popover controller showing a card on bottom of screen.

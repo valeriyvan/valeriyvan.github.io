@@ -2,6 +2,6 @@
 layout: post
 title:  "TIL listing certifications on LinkedIn might be counterproductive"
 date:   2024-12-08 22:34:00 +0200
-categories: TIL, Interview
+categories: [Interview]
 ---
 TIL [Why you shouldn’t list certifications on LinkedIn](https://interviewing.io/blog/why-you-shouldnt-list-certifications-on-linkedIn). The article is published on [interviewing.io](https://interviewing.io), site for anonymous mock interviews with engineers from Amazon, Google, Facebook, and other top companies.

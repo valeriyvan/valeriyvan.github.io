@@ -2,7 +2,7 @@
 layout: post
 title:  "Watched Swift talk #153 Making Impossible States Impossible"
 date:   2019-05-24 19:24:00 +0200
-categories: TIL, Swift talk
+categories: ["Swift talk"]
 ---
 Read post of Jeremy Howard from [fast.ai](https://fast.ai) [C++11, random distributions, and Swift](https://www.fast.ai/2019/01/13/swift-random/). Interesting to learn what is *discrete distribution* or *triangular distribution*.
 
