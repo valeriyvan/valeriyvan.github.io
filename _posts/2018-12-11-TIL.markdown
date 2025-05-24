@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Amazon S3 vs EBS vs EFS; TIL AWS instances spot market"
 date:   2018-12-11 19:11:00 +0200
-categories: [Amazon, AWS, EBS, EFS, ]
+categories: [Amazon, AWS, EBS, EFS]
 ---
 TIL [Amazon S3 vs EBS vs EFS](https://www.cloudberrylab.com/resources/blog/amazon-s3-vs-ebs-vs-efs/) differences between Amazon S3, Amazon EFS, and Amazon EBS. Amazon S3 is a scalable, durable, highly available, publicly accessible data storage. Amazon EBS is a storage for the drives of your virtual machines. Amazon EFS is automatically scalable storage which you can mount EFS to various AWS services and access it from various virtual machines.
 
