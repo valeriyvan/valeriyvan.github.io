@@ -8,7 +8,7 @@ permalink: /tags/
 {% assign tag_name = category[0] | strip %}
 {% unless tag_name == "" or tag_name == "TIL" %}
 
-<details>
+<details markdown="1">
 <summary><strong>{{ tag_name }}</strong> ({{ category[1] | size }} posts)</summary>
 
 {% for post in category[1] %}
