@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL `@ObservedObject` vs `@StateObject`"
 date:   2024-12-06 22:04:00 +0200
-categories: [@ObservedObject, @StateObject]
+categories: ["@ObservedObject", "@StateObject"]
 ---
 TIL `@ObservedObject` vs `@StateObject`: 
 

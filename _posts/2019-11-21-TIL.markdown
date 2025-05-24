@@ -2,7 +2,7 @@
 layout: post
 title:  "Read Advanced Operators chapter of The Swift programming language"
 date:   2019-11-21 19:21:00 +0200
-categories: [Swift, NSHipster, Subscripting, @objc]
+categories: [Swift, NSHipster, Subscripting, "@objc"]
 ---
 Read [Advanced Operators chapter of The Swift programming language](https://docs.swift.org/swift-book/LanguageGuide/AdvancedOperators.html).
 

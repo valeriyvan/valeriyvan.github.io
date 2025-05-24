@@ -4,13 +4,13 @@ title: Tags
 permalink: /tags/
 ---
 
-{% assign sorted_categories = site.categories | sort %}
-{% for category in sorted_categories %}
-  {% assign tag_name = category[0] | strip %}
-  {% unless tag_name == "" or tag_name == "TIL" %}
-    <h3>{{ tag_name }}</h3>
+{% assign category_names = site.categories | map: "first" | sort %}
+{% for tag_name in category_names %}
+  {% assign clean_tag_name = tag_name | strip %}
+  {% unless clean_tag_name == "" or clean_tag_name == "TIL" %}
+    <h3>{{ clean_tag_name }}</h3>
     <ul>
-      {% for post in category[1] %}
+      {% for post in site.categories[tag_name] %}
         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
     </ul>
