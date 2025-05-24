@@ -10,6 +10,6 @@ Reread again [Underscored Attributes Reference](https://github.com/apple/swift/b
 
 TIL [how to change message in one of old commits](https://stackoverflow.com/a/72307449/942513): `git rebase -i <commit_sha>` , `<commit_sha>` is the sha of one commit before the commit to be changed. Then `pick` should be changed to `reword` for commit where message hould be changed. After save new dialog for editing commit message will be open.
 
-Holy shit! Xcode shows column number of cursor in editor. I used to Xcode not showing column. Taday I [googled for it to learn that it shows](https://stackoverflow.com/a/21711557/942513):
+Holy shit! Xcode shows column number of cursor in editor. I used to Xcode not showing column. Today I [googled for it to learn that it shows](https://stackoverflow.com/a/21711557/942513):
 
 ![Xcode screenshot](/assets/images/Screenshot%202023-03-05%20at%2013.51.35.png)
