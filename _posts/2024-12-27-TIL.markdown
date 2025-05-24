@@ -9,11 +9,11 @@ mkdir -p {dev,test,prod}/{backend,frontend}
 % tree
 .
 ├── dev
-│             ├── backend
-│             └── frontend
+│   ├── backend
+│   └── frontend
 ├── prod
-│             ├── backend
-│             └── frontend
+│   ├── backend
+│   └── frontend
 └── test
     ├── backend
     └── frontend
