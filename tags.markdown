@@ -49,6 +49,7 @@ permalink: /tags/
 
 <div id="alphabetical-view">
 {% for tag_name in alphabetical_list %}
+
 <details markdown="1">
 <summary><strong>{{ tag_name }}</strong> ({{ site.categories[tag_name] | size }} posts)</summary>
 
@@ -57,6 +58,7 @@ permalink: /tags/
 {% endfor %}
 
 </details>
+
 {% endfor %}
 </div>
 
