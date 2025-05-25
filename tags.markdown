@@ -39,6 +39,8 @@ permalink: /tags/
       {% assign frequencylist = frequencylist | append: delimiter %}
     {% endif %}
     {% if tag_size < 10 %}
+      {% assign frequencylist = frequencylist | append: "00" | append: tag_size | append: ":" | append: tag_name %}
+    {% elsif tag_size < 100 %}
       {% assign frequencylist = frequencylist | append: "0" | append: tag_size | append: ":" | append: tag_name %}
     {% else %}
       {% assign frequencylist = frequencylist | append: tag_size | append: ":" | append: tag_name %}
