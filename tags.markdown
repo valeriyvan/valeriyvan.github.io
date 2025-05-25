@@ -4,7 +4,8 @@ title: Tags
 permalink: /tags/
 ---
 
-{% for category in site.categories %}
+{% assign sorted_categories = site.categories | sort: 0 %}
+{% for category in sorted_categories %}
 {% assign tag_name = category[0] | strip %}
 {% unless tag_name == "" or tag_name == "TIL" %}
 
