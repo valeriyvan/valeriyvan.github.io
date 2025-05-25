@@ -12,14 +12,16 @@ permalink: /tags/
 {% for category in site.categories %}
   {% assign tag_name = category[0] | strip %}
   {% unless tag_name == "" or tag_name == "TIL" %}
-    {% assign categorylist = categorylist | append: tag_name | append: delimiter %}
+    {% if categorylist != "" %}
+      {% assign categorylist = categorylist | append: delimiter %}
+    {% endif %}
+    {% assign categorylist = categorylist | append: tag_name %}
   {% endunless %}
 {% endfor %}
 
 {% comment %} Sort and display categories {% endcomment %}
 {% assign sorted_categorylist = categorylist | split: delimiter | sort %}
 {% for tag_name in sorted_categorylist %}
-  {% if tag_name != "" %}
 
 <details markdown="1">
 <summary><strong>{{ tag_name }}</strong> ({{ site.categories[tag_name] | size }} posts)</summary>
@@ -30,5 +32,4 @@ permalink: /tags/
 
 </details>
 
-  {% endif %}
 {% endfor %}
