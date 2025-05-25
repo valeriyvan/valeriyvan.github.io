@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL what's result of `-9 % 4` in Swift"
 date:   2019-01-14 19:14:00 +0200
-categories: [Swift, arithmetic, "%"]
+categories: [Swift, arithmetic, "% operator"]
 ---
 Hm. I understood hash in Cartfile as [requirement of exact version with commit specified by its hash](https://github.com/Carthage/Carthage/blob/master/Documentation/Artifacts.md#version-requirement). Why then it gets updated with `carthage update`?
 
