@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL what does `!$` mean in shell"
 date:   2024-10-04 21:44:00 +0200
-categories: [shell, "Digital Ocean App Platform", Swift, ]
+categories: [shell, "Digital Ocean App Platform", Swift]
 ---
 TIL [what does `!$` mean in shell](https://unix.stackexchange.com/a/254571). `!` means the last command used, `$` - the last word. So `!$` means the last word of the last command.
 
