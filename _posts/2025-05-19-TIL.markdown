@@ -8,7 +8,9 @@ Read [Developing a basic Swift Echo Server using Swift-NIO](https://www.process-
 
 Read [SwiftNIO Fundamentals](https://swiftonserver.com/using-swiftnio-fundamentals/), [SwiftNIO Channels](https://swiftonserver.com/using-swiftnio-channels/).
 
-TIL [Harmonize](https://github.com/perrystreetsoftware/Harmonize).
+TIL [Harmonize](https://github.com/perrystreetsoftware/Harmonize): [Goodbye Code Reviews, Hello Harmonize: Enforce Your Architecture in Swift](https://itnext.io/goodbye-code-reviews-hello-harmonize-0a49e2872b5a).
+
+> a modern, open-source semantic linter for Swift, designed to enforce your architectural patterns and best practices through **lint rules written directly as unit tests**.
 
 Read [Adding dependencies to binary Swift packages](https://danielsaidi.com/blog/2025/05/02/adding-dependencies-to-binary-swift-packages).
 
