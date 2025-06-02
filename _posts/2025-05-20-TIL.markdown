@@ -1,7 +1,0 @@
----
-layout: post
-title:  "Read After months of coding with LLMs, I'm going back to using my brain"
-date:   2025-05-20 18:16:00 +0200
-categories: [LLM]
----
-Read [After months of coding with LLMs, I'm going back to using my brain](https://albertofortin.com/writing/coding-with-ai).

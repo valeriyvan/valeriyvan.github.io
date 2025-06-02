@@ -1,7 +1,0 @@
----
-layout: post
-title:  "TIL how to stash changes in only one file"
-date:   2025-05-14 21:34:00 +0200
-categories: [git]
----
-TIL how to stash changes in only one file: `git stash push -m "Stash Sources/geometrize/Polygon.swift" Sources/geometrize/Polygon.swift`.
