@@ -2,11 +2,11 @@
 layout: post
 title:  "Read Writing High-Performance Swift Code from Swift compiler"
 date:   2020-10-25 19:57:00 +0200
-categories: [Swift, High-Performance]
+categories: [Swift, "High-Performance Swift"]
 ---
 Read [Writing High-Performance Swift Code](https://github.com/apple/swift/blob/main/docs/OptimizationTips.rst) from Swift compiler. 
 
-Hm, `final` could by applied not only for classes but for methods and properties as well. Also `private` and `fileprivate` allow compiler infer `final`.
+Hm, `final` could be applied not only for classes but for methods and properties as well. Also `private` and `fileprivate` allow compiler infer `final`.
 
 Interesting (despite ineffective for copying) way representing trees:
 
