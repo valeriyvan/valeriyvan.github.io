@@ -1,9 +1,0 @@
----
-layout: post
-title:  "Swift 5.9 introduces parameter packs, and Swift 6.0 -- parameter packs iterators"
-date:   2025-06-04 09:50:00 +0200
-categories: [Swift, "Swift 5.9", "Swift 6.0", "Parameter packs", "Parameter packs iterators"]
----
-TIL about parameter packs introduced in Swift 5.9 and parameter packs iterators introduced in Swift 6.0: [Iterate Over Parameter Packs in Swift 6.0](https://www.swift.org/blog/pack-iteration/).
-
-Read [The Swift Array Design](https://github.com/swiftlang/swift/blob/main/docs/Arrays.md).
