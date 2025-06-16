@@ -8,7 +8,7 @@ TIL a bit about [Real-Time Transport Protocol (often referred to as RTP streamin
 
 TIL about remote desktop [NoMachine](https://www.nomachine.com). Will not use it as it installs on macOS startup items which I don't like.
 
-TIL [`ssh-copy-id`](https://www.ssh.com/academy/ssh/copy-id). I used to copy `~/.ssh/id_rsa.pub` manually from machine to machine. it founds out that I should have copied key to `~/.ssh/authorized_keys`, not to `~/.ssh/`.
+TIL [`ssh-copy-id`](https://www.ssh.com/academy/ssh/copy-id). Here's command to be used: `ssh-copy-id -i ~/.ssh/mykey user@host`. I used to copy `~/.ssh/id_rsa.pub` manually from machine to machine. It founds out that I should have copied key to `~/.ssh/authorized_keys`, not to `~/.ssh/`.
 
 Read [A Survey on Open-Source Simulation Platforms for Multi-Copter UAV Swarms](/assets/images/Paper%20A%20Survey%20on%20Open-Source%20Simulation%20Platforms%20for%20Multi-Copter%20UAV%20Swarms.pdf).
 
