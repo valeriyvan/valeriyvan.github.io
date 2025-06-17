@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL TipKit, @Parameter"
+date:   2025-06-16 21:57:00 +0200
+categories: [TipKit, "@Parameter"]
+---
+Bookmarking [New Mac Checklist](https://spiess.dev/note/software/new-mac-checklist0) for what should be installed in new mac.
+
+TIL [@Parameter](https://developer.apple.com/documentation/tipkit/tips/parameter) from [TipKit](https://developer.apple.com/documentation/tipkit). Use TipKit to show contextual tips that highlight new, interesting, or unused features people haven’t discovered on their own yet.
