@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read This Secret Math Equation let the US Government Spy on Anyone"
+date:   2025-06-21 21:31:00 +0200
+categories: [Cryptography, Backdoor]
+---
+Read [This Secret Math Equation let the US Government Spy on Anyone](https://leetarxiv.substack.com/p/dual-ec-backdoor-coding-guide).
