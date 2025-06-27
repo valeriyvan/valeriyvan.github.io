@@ -4,7 +4,9 @@ title:  "Programming: Vibe Coding, Swift Runtime & Metal Shaders"
 date:   2025-04-14 21:18:00 +0200
 categories: ["Vibe coding", Swift, "Metal shaders", C++, "Swift Method Dispatch", JSON]
 ---
-TIL what does Vibe coding mean: [12 Rules to Vibe Code Without Frustration](https://substack.com/inbox/post/159039821).
+TIL what does Vibe coding mean: the term was introduced by Andrej Karpathy in his [twit](https://x.com/karpathy/status/1886192184808149383). Now there's wikipedia page for it [Vibe coding](https://en.wikipedia.org/wiki/Vibe_coding). Here Karpathy is talking about it [Andrej Karpathy: Software Is Changing (Again)](https://www.youtube.com/watch?v=LCEmiRjPEtQ&t=29m35s).
+
+Read post [12 Rules to Vibe Code Without Frustration](https://substack.com/inbox/post/159039821).
 
 Read [How I Stole Your ChatGPT API Keys](https://blog.jacobstechtavern.com/p/how-i-stole-your-api-keys) by Jacob’s Tech Tavern.
 
