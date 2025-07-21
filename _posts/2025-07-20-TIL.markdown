@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Read Peter Steinberger's post Slot Machines for Programmers: How Peter Builds Apps 20x Faster with AI"
+date:   2025-07-20 21:11:00 +0200
+categories: ["VTX tools", "Wispr Flow"]
+---
+TIL about [VTX tools](https://vtx.in.ua) — a collection of handy tools for drone enthusiasts. It includes a VTX config generator, RX/VTX catalog with config generation features, various calculators, and even a tool for extracting useful data from ELRS firmware. A great resource if you're working with FPV gear.
+
+Also read Peter Steinberger’s blog post: [Slot Machines for Programmers: How Peter Builds Apps 20x Faster with AI](https://steipete.me/posts/2025/when-ai-meets-madness-peters-16-hour-days). One of his key tips for writing effective prompts: *"explain what you want from multiple angles, like you’re talking to someone slightly unfamiliar with your product. No structure needed. Just ramble."*
+
+He uses the [Wispr Flow](https://x.com/WisprFlow) app to dictate long-form prompts with voice - an interesting workflow!
