@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL comma.ai"
+date:   2025-07-18 21:02:00 +0200
+categories: ["comma.ai", autopilot, CAN]
+---
+TIL about [comma.ai](https://comma.ai), an open-source autopilot project (openpilot) that aims to turn almost any car into a self-driving vehicle. Their approach to hiring is especially interesting - anyone can take on challenges or bounties to contribute.
+
+Unfortunately, openpilot only supports vehicles with a CAN bus, which excludes BMWs and MINIs like mine. Otherwise, I'd definitely give it a try.  
+
+Back in 2024, they tweeted ["It's time openpilot had a killer companion app, and we're hiring someone to build it"](https://x.com/comma_ai/status/1862940019327127765), but as of now, there’s still no app.
