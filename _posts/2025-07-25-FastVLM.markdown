@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read FastVLM: Efficient Vision Encoding for Vision Language Models"
+date:   2025-07-25 21:43:00 +0200
+categories: [FastVLM]
+---
+Read Apple's [FastVLM: Efficient Vision Encoding for Vision Language Models](https://machinelearning.apple.com/research/fast-vision-language-models).
