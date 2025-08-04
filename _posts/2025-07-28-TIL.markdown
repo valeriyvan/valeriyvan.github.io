@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Read Embedded Linux for beginners"
+date:   2025-07-28 21:06:00 +0200
+categories: ["Embedded Linux", "Electron E1 Processor"]
+---
+TIL [cross-platform (Qt), open-source (GPLv3) video editor](https://github.com/mltframework/shotcut).
+
+TIL [Fabric computing](https://en.wikipedia.org/wiki/Fabric_computing) in connection to [Electron E1 Processor
+](https://www.efficient.computer) developed by Efficient.
+
+Read [Embedded Linux for beginners Part 1](https://habr.com/ru/articles/924624/), [Embedded Linux for beginners Part 2](https://habr.com/ru/articles/925804/).
