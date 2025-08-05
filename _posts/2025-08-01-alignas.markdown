@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "TIL `alignas` and `__attribute__ ((packed))` in C"
+date:   2025-08-01 21:37:00 +0200
+categories: [C, alignas]
+---
+TIL [`alignas` and `__attribute__ ((packed))` in C](https://en.algorithmica.org/hpc/cpu-cache/alignment/):
+```C
+alignas(16) float sse_data[4];
+```
