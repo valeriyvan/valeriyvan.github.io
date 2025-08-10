@@ -2,10 +2,10 @@
 layout: post
 title:  "Read About System Integrity Protection on Mac; TIL about OpenCore Legacy Patcher"
 date:   2023-09-26 19:53:00 +0200
-categories: ["System Integrity Protection", "OpenCore Legacy Patcher"]
+categories: ["System Integrity Protection", "OpenCore Legacy Patcher", "Memory"]
 ---
 Read [About System Integrity Protection on Mac](https://support.apple.com/en-us/102149).
 
 TIL [OpenCore Legacy Patcher](https://dortania.github.io/OpenCore-Legacy-Patcher/) which allows to install recent macOS releases on not supported Apple hardware.
 
-Read [What Every Programmer Should Know About Memory](/assets/docs/What%20Every%20Programmer%20Should%20Know%20About%20Memory.pdf).
+Read [What Every Programmer Should Know About Memory](/assets/docs/What%20Every%20Programmer%20Should%20Know%20About%20Memory.pdf) by Ulrich Drepper from Red Hat, Inc.
