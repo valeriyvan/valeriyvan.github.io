@@ -4,7 +4,7 @@ title:  "TIL URL Text Fragments"
 date:   2023-09-23 19:29:00 +0200
 categories: ["URL Text Fragments"]
 ---
-[Puffed LiPo Batteries - Oops!](https://www.rchelicopterfun.com/puffed-lipo.html) Puffing is caused by gassing of the electrolyte or electrolyte decomposition.
+Read [Puffed LiPo Batteries - Oops!](https://www.rchelicopterfun.com/puffed-lipo.html) Puffing is caused by gassing of the electrolyte or electrolyte decomposition.
 
 TIL about [Text Fragments](https://stackoverflow.com/a/63004167/942513) to select part in URL. E.g. [https://www.rchelicopterfun.com/puffed-lipo.html#:~:text=Some%20feel%20once%20a%20LiPo,and%20must%20be%20disposed%20of.](https://www.rchelicopterfun.com/puffed-lipo.html#:~:text=Some%20feel%20once%20a%20LiPo,and%20must%20be%20disposed%20of.) opens page with text fragment selected.
 
