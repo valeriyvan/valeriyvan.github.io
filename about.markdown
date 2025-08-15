@@ -8,10 +8,16 @@ My name is Valeriy Van. I am iOS develope from Ukraine. Coding for more than 20 
 
 ## Support My Work
 
-You can support me with Bitcoin donations or buy me a coffee:
-
-**Bitcoin Address:** `1Van83aVMRbHoAHEagpSk8oxj6RwTXD6o`
-
-<img src="/assets/images/bitcoin-qr.png" alt="Bitcoin QR Code" style="width: 200px; height: 200px; margin: 20px 0;">
-
-<a href="https://www.buymeacoffee.com/valeriyvan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+<div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
+  <div style="flex: 1; min-width: 250px;">
+    <h3>Bitcoin Donations</h3>
+    <p><strong>Address:</strong> <code>1Van83aVMRbHoAHEagpSk8oxj6RwTXD6o</code></p>
+    <img src="/assets/images/bitcoin-qr.png" alt="Bitcoin QR Code" style="width: 180px; height: 180px;">
+  </div>
+  <div style="flex: 1; min-width: 250px; text-align: center;">
+    <h3>Buy Me a Coffee</h3>
+    <a href="https://www.buymeacoffee.com/valeriyvan" target="_blank">
+      <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;">
+    </a>
+  </div>
+</div>
