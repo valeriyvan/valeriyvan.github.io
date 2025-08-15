@@ -8,10 +8,10 @@ My name is Valeriy Van. I am iOS develope from Ukraine. Coding for more than 20 
 
 ## Support My Work
 
-<div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
+<div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 20px;">
   <div style="flex: 1; min-width: 250px;">
-    <h3>Bitcoin Donations</h3>
-    <p><strong>Address:</strong> <code>1Van83aVMRbHoAHEagpSk8oxj6RwTXD6o</code></p>
+    <h3>Bitcoin</h3>
+    <p><code>1Van83aVMRbHoAHEagpSk8oxj6RwTXD6o</code></p>
     <img src="/assets/images/bitcoin-qr.png" alt="Bitcoin QR Code" style="width: 180px; height: 180px;">
   </div>
   <div style="flex: 1; min-width: 250px; text-align: center;">
