@@ -2,12 +2,16 @@
 layout: post
 title:  "Read some posts about Bitcoin"
 date:   2025-08-13 20:53:00 +0200
-categories: [Bitcoin, "Raspberry Pi"]
+categories: [Bitcoin, "Bitcoin address", "Vanity address", "Raspberry Pi"]
 ---
-TIL [Proof of Existence](https://proofofexistence.com), The original Blockchain notary service, offering instant, anonymous, distributed, and secure proof of existence for any document, agreement, or contract. [repo](https://github.com/proofofexistence/proofofexistence).
+TIL [Proof of Existence](https://proofofexistence.com), The original Blockchain notary service, offering instant, anonymous, distributed, and secure proof of existence for any document, agreement, or contract. It's open sourced: [repo](https://github.com/proofofexistence/proofofexistence).
 
 Read [Build & run a full Bitcoin node with a Raspberry Pi 5](https://bennet.org/blog/building-a-bitcoin-node-with-raspberry-pi).
 
 Read [Bitcoin: A Peer-to-Peer Electronic Cash System aka Satoshi’s whitepaper](https://bitcoin.org/bitcoin.pdf).
 
 TIL what is [What Is a Paper Wallet](https://www.investopedia.com/terms/p/paper-wallet.asp). [bitaddress.org](bitaddress.org) is good example of it.
+
+Read [How to Generate a Bitcoin Address - Step by Step](https://medium.com/coinmonks/how-to-generate-a-bitcoin-address-step-by-step-9d7fcbf1ad0b), played with generating Bitcoin addresses manually without wallet apps.
+
+TIL what is a vanity Bitcoin address, these are addresses like: 1**NiNja**1bUmhSoTXozBRBEtR8LeF9TGbZBN. Played with [vanitygen-plusplus](https://github.com/10gic/vanitygen-plusplus), a vanity address generator for BTC, ETH, LTC, TRX and generated some for myself.
