@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "Read a bunch of articles about Swift development"
+date:   2025-09-24 09:57:00 +0200
+categories: [Swift, Debugging, iOS]
+---
+TIL trick how to find out where is function called from without manually exploring call tree in Xcode:
+
+```swift
+Thread.callStackSymbols.prefix(10).forEach { print("  \($0)") }
+```
+
+Read [This One Swift Feature Will Change How You Write Code Forever](https://swift-pal.com/this-one-swift-feature-will-change-how-you-write-code-forever-829093d53800).
+
+Read [Feature flags in Swift](https://swiftwithmajid.com/2025/09/16/feature-flags-in-swift/).
+
+Read [The Dark Side of iOS Development: Why Everyone is Quitting](https://medium.com/@AshAsoyan/the-dark-side-of-ios-development-why-everyone-is-quitting-13a2b0119589).
+
+Read [All-encompassing theory of matrices](https://habr.com/ru/articles/949084/).
+
+Read Apple blog post [Memory Integrity Enforcement: A complete vision for memory safety in Apple devices](https://security.apple.com/blog/memory-integrity-enforcement/).
+
+Read [Automate your Mac with Swift](https://www.raycast.com/blog/automate-your-mac-with-swift)
+
+Browsed [A raycasting engine in 7 easy steps](https://austinhenley.com/blog/raycasting.html). Would be nice some time rewrite this in Swift compiled into WebAssembly for making it run in browser.
+
+Read [Vibe coding is dead: Agentic swarm coding is the new enterprise moat](https://venturebeat.com/ai/vibe-coding-is-dead-agentic-swarm-coding-is-the-new-enterprise-moat).
+
+Read [How to use async/await in synchronous Swift code with tasks](https://tanaschita.com/swift-await-async-in-synchronious-swift-code-with-tasks/)
+
+Read [Dictionary grouping in Swift: Stop Using Loops to Group Data](https://blog.stackademic.com/dictionary-grouping-in-swift-stop-using-loops-to-group-data-0b45b4669a1b)
+
+Read [Clean Architecture in Swift: Design Pattern-Part 1](https://medium.com/@kumar.gaurav.sri99/clean-architecture-in-swift-a-practical-guide-for-ios-developers-358491bb3740).
+
+Read [Swift 6 Explained: All the Must-Have Features You Need to Know](https://forasoft.medium.com/swift-6-explained-all-the-must-have-features-you-need-to-know-ffa82739454c).
+
+Read [5 questions for iOS developer](https://apptractor.ru/info/media/5-voprosov-dlya-ios-razrabotchika.html).
