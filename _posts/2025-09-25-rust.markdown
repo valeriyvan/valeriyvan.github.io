@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TIL Apple is quietly rewrites iOS with Swift"
+date:   2025-09-25 22:13:00 +0200
+categories: [Rust, Apple, iOS]
+---
+Read [Apple is quietly rewriting iOS and it’s not in Swift or Objective-C](https://medium.com/@devlinktips/apple-is-quietly-rewriting-ios-and-its-not-in-swift-or-objective-c-4af4dc578775).
+
+Browsed [The Rust Programming Language](https://doc.rust-lang.org/book/ch00-00-introduction.html) book, [rustlings](https://github.com/rust-lang/rustlings), small exercises to get you used to reading and writing Rust code, [Rustlings web version](https://rustlings.rust-lang.org).
+
+Started watching [ULTIMATE Rust Lang Tutorial! - Getting Started](https://www.youtube.com/watch?v=OX9HJsJUDxA&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8).
