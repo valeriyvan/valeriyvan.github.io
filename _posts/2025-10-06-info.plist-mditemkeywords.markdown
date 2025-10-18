@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "TIL MDItemKeywords Info.Plist item"
+date:   2025-10-06 21:17:00 +0200
+categories: ["iOS app visibility"]
+---
+Read [Boost your iOS app’s visibility with this simple tip](https://medium.com/@Sergey.Zhuravel/boost-your-ios-apps-visibility-with-this-simple-tip-7832e3898c2b). Read Apple documentation [Global Variable
+`kMDItemKeywords`](https://developer.apple.com/documentation/coreservices/kmditemkeywords).
