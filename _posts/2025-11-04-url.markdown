@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read Your URL Is Your State"
+date:   2025-11-04 21:35:00 +0200
+categories: [URL]
+---
+Read [Your URL Is Your State](https://alfy.blog/2025/10/31/your-url-is-your-state.html), [The Hidden Cost of URL Design](https://alfy.blog/2025/10/16/hidden-cost-of-url-design.html).
