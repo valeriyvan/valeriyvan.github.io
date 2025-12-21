@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Read I've been writing ring buffers wrong all these years and Understanding scenes for your macOS app"
+date:   2025-12-18 21:52:00 +0200
+categories: ["ring buffer"]
+---
+Read [I've been writing ring buffers wrong all these years](https://www.snellman.net/blog/archive/2016-12-13-ring-buffers/).
+
+[Understanding scenes for your macOS app](https://www.createwithswift.com/understanding-scenes-for-your-macos-app/).
