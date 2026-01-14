@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Bookmarking course MIT16.485 Visual Navigation for Autonomous Vehicles"
+date:   2026-01-08 12:33:00 +0200
+categories: ["Visual Navigation"]
+---
+Bookmarking course [MIT16.485 Visual Navigation for Autonomous Vehicles](https://vnav.mit.edu).
