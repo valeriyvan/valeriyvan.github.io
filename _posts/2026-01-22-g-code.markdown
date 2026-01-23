@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL what is G-code"
+date:   2026-01-22 10:33:00 +0200
+categories: ["G-code", "3D printing"]
+---
+TIL what is [G-code](https://en.wikipedia.org/wiki/G-code) - the most widely used computer numerical control (CNC) and 3D printing programming language. Browsed [3D PRINTING G-CODE TUTORIAL](https://www.simplify3d.com/resources/articles/3d-printing-gcode-tutorial/).
