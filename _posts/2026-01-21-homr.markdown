@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL homr"
+date:   2026-01-21 21:33:00 +0200
+categories: ["Optical Music Recognition", "OMR"]
+---
+TIL [homr](https://github.com/liebharc/homr) an open source Optical Music Recognition (OMR) software designed to transform camera pictures of sheet music into machine-readable MusicXML format. That's wow! Would be nice to make iOS app for that.
