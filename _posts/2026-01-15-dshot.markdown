@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL details about DShot protocol implementation"
+date:   2026-01-15 21:34:00 +0200
+categories: ["ESC", "DShot"]
+---
+Read [AM32 Getting Start](https://dev.vimdrones.com/tutorials/am32_getting_started/), [DShot ESC's for Meltybrains](https://www.swallenhardware.io/battlebots/2019/4/20/a-developers-guide-to-dshot-escs), [DShot protocol in action (STM32L432KC)](https://github.com/ufnalski/dshot_pwm_dma_l432kc?tab=readme-ov-file) which has a lot of useful links, [DSHOT - the missing Handbook](https://brushlesswhoop.com/dshot-and-bidirectional-dshot/).
+
+Read [ESC Firmware Guide](https://www.multirotorguide.com/guide/esc-firmware-guide/), [Guide: How to set up the RPM filtering](https://www.multirotorguide.com/guide/how-to-set-up-the-bidirectional-dshot-and-rpm-filtering/). The [Multirotor Guide](https://www.multirotorguide.com/) worth bookmarking.
