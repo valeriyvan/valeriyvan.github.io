@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL Cadova - Swift DSL for parametric 3D modeling"
 date:   2026-01-03 21:38:00 +0200
-categories: ["Swift", "Cadova", "DSL", "3D modeling"]
+categories: ["Swift", "Cadova", "DSL", "3D modeling", "Parametric 3D modelling", "Rust", "CAD"]
 ---
 That's wow: [Swift DSL for parametric 3D modeling](https://github.com/tomasf/Cadova). Here's M10x50 bolt drawn with Swift code:
 
@@ -63,3 +63,5 @@ await Model("M10 Metric Bolt") {
     .aligned(at: .centerXY)
  }
 ```
+
+[vcad](https://github.com/ecto/vcad), also looks interesting, but in Rust.
