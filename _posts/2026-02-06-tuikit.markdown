@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL TUIkit"
+date:   2026-02-06 21:34:00 +0200
+categories: ["TUIkit", "CLI", "Swift"]
+---
+TIL [TUIkit](https://tuikit.layered.work) — a declarative, SwiftUI-like framework for building Terminal User Interfaces.
