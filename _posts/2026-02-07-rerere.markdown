@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL git rerere"
+date:   2026-02-07 21:59:00 +0200
+categories: ["git"]
+---
+TIL [Fix Conflicts Only Once with git rerere](https://medium.com/@porteneuve/fix-conflicts-only-once-with-git-rerere-7d116b2cec67).
