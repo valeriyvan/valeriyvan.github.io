@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL ESP-Drone"
+date:   2026-02-02 21:31:00 +0200
+categories: ["ESP-Drone"]
+---
+TIL [ESP-Drone](https://docs.espressif.com/projects/espressif-esp-drone/), github repo [esp-drone](https://github.com/espressif/esp-drone), which is based on crazyflie. People build a lot of interesting drones based on it [ESP-FLY: The Smallest ESP32 Drone You Can Build!](https://www.elektormagazine.de/labs/esp-fly-the-smallest-esp32-drone-you-can-build).
