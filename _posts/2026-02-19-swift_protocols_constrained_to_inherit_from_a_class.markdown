@@ -10,3 +10,5 @@ TIL [protocol in Swift could be constrained to inherit from a particular class](
 protocol MyView: UIView { /*...*/ }
 protocol MyView where Self: UIView { /*...*/ } 
 ```
+
+Read Swift evolution proposal [Class and Subtype existentials](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0156-subclass-existentials.md).
