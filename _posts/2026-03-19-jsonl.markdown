@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL `.jsonl` JSON Lines file format"
+date:   2026-03-19 21:46:00 +0200
+categories: [".jsonl", "JSON", "File format"]
+---
+TIL [`.jsonl` JSON Lines](https://jsonlines.org) file format.
