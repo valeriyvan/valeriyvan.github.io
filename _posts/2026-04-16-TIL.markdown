@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL how to create Liquid Glass app icons"
+date:   2026-04-16 21:42:00 +0200
+categories: ["Liquid Glass"]
+---
+TIL how to create Liquid Glass app icons: [Creating your app icon using Icon Composer](https://developer.apple.com/documentation/xcode/creating-your-app-icon-using-icon-composer), [Configuring your app to use alternate app icons](https://developer.apple.com/documentation/Xcode/configuring-your-app-to-use-alternate-app-icons).
