@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Read Bringing Goodnotes to the web with Swift and WebAssembly"
+date:   2026-06-09 21:53:00 +0200
+categories: ["Swift", "WebAssembly"]
+---
+Read [Bringing Goodnotes to the web with Swift and WebAssembly](https://www.swift.org/blog/bringing-goodnotes-to-web-with-swift/).
