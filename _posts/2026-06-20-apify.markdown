@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL Apify"
+date:   2026-06-20 21:07:00 +0200
+categories: ["Apify"]
+---
+TIL [Apify](https://apify.com/) by watching video [Apify Demo: A Walkthrough of Our Platform (Short Version)](https://www.youtube.com/watch?v=TCErFAkManQ).
