@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TIL white-space SVG attribute."
+title:  "TIL white-space SVG attribute"
 date:   2026-05-22 21:53:00 +0200
 categories: ["SVG"]
 ---
