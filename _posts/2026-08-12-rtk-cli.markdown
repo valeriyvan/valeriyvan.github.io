@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "TIL `rtk` CLI"
+date:   2026-08-12 21:37:00 +0200
+categories: [CLI, LLM]
+---
+TIL [`rtk`](https://github.com/rtk-ai/rtk) CLI which filters and compresses command outputs before they reach your LLM context.
