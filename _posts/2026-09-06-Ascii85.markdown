@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "TIL Ascii85 encoding"
+date:   2026-09-06 21:10:00 +0200
+categories: ["Ascii85", "Base85"]
+---
+TIL [`Ascii85` encoding, also called `Base85`](https://en.wikipedia.org/wiki/Ascii85).
+
+TIL [`btoa` CLI](https://en.wikipedia.org/wiki/Ascii85#btoa_version).
